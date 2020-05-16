@@ -1,0 +1,1 @@
+if isDedicated exitWith {};
