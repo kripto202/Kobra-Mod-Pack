@@ -1266,7 +1266,7 @@ class CfgVehicles
 		{
 			"442_clones\data\uniform\uniform\camo1_co.paa",
 			"442_clones\data\uniform\uniform\camo2_co.paa",
-			"442_clones\data\uniform\uniform\undersuit_co.paa",
+			"442_clones\data\uniform\mc_uniform\undersuit_co.paa",
 		};
 		linkedItems[]={};
 		RespawnlinkedItems[]={};

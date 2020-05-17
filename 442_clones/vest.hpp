@@ -206,11 +206,11 @@ class k_swla_heavy_gunner_vest: k_swla_heavy_gunner_vest_base
     scopearsenal = 2;
     hiddenselectionstextures[] = 
     {
-        "SWLB_clones\data\heavy_accessories_co.paa",
-		"SWLB_clones\data\light_accessories_co.paa",
+        "SWLB_clones\data\light_accessories_co.paa",
 		"SWLB_clones\data\heavy_accessories_co.paa",
-		"SWLB_clones\data\heavy_accessories_co.paa",
-		"SWLB_equipment\backpacks\data\bag_co.paa",
+		"SWLB_clones\data\officer_accessories_co.paa",
+		"swlb_equipment\backpacks\data\bag_co.paa",
+		"swlb_clones\data\light_accessories_co.paa",
 		"SWLB_clones\data\light_accessories_co.paa",
     };
 };
