@@ -1312,6 +1312,7 @@ class CfgVehicles
 	};
 /////////////backpacks//////////////////
 	class B_Kitbag_rgr;
+	class k_swla_clone_bag_base;
 	class k_clone_backpack_base: B_Kitbag_rgr
 	{
 		author = "kripto202";
@@ -1320,14 +1321,7 @@ class CfgVehicles
 		displayname = "";
 		model = "";
 		maximumload = 200;
-		hiddenselections[] = 
-		{
-			"camo1",
-			"cover",
-			"heavy",
-			"medic",
-			"RTO"
-		};
+		hiddenselections[] = {};
 	};
 	class k_clone_rto_backpack_base: k_clone_backpack_base
 	{
@@ -1346,12 +1340,8 @@ class CfgVehicles
 		picture = "";
 		displayname = "";
 		model = "";
-		hiddenselections[] = 
-		{
-			"camo1",
-			"camo2"
-		};
+		hiddenselections[] = {};
 		maximumload = 100;
 	};
-	//#include "backpack.hpp"
+	#include "backpack.hpp"
 };
