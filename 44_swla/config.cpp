@@ -9,6 +9,10 @@ class CfgPatches
 		{
 			"44_unit",
 			"44_mc_unit",
+			"44_swla_unit_rifleman_dc15a",
+			"44_swla_unit_engineer_dc15a",
+			"44_swla_unit_medic_dc15a"
+
 		};
 		weapons[]={};
 	};
@@ -20,7 +24,7 @@ class cfgweapons
 	class k_swla_uniform;
 	class UniformItem;
 	class k_swla_mc_uniform;
-	class 44_uniform: k_swla_uniform
+	class 44_swla_uniform: k_swla_uniform
 	{
 		displayname = "[44] Clone Trooper Uniform";
 		scope = 2;
@@ -31,10 +35,10 @@ class cfgweapons
 			containerClass="Supply200";
 			mass=40;
 			uniformType="Neopren";
-			uniformClass="44_unit";
+			uniformClass="44_swla_unit";
 		};
 	};
-	class 44_mc_uniform: k_swla_mc_uniform
+	class 44_swla_uniform_mc: k_swla_mc_uniform
 	{
 		displayname = "[44] Clone Marshall Commander Uniform";
 		scope = 2;
@@ -45,7 +49,7 @@ class cfgweapons
 			containerClass="Supply200";
 			mass=40;
 			uniformType="Neopren";
-			uniformClass="44_mc_unit";
+			uniformClass="44_swla_mc_unit";
 		};
 	};
 
@@ -325,12 +329,1110 @@ class cfgweapons
 			"442_clones\data\helmet\scout_helmet\visor_co.paa",
 		};
 	};
+/////////vests/////////
+	class V_rebreatherB;
+	class 44_swla_vest_base: V_rebreatherB
+	{
+		author = "kripto202";
+		displayname = "[44] Clone trooper vest";
+		scope = 0;
+		scopeCurator = 0;
+		scopeArsenal = 0;
+		picture="\SWLB_clones\data\ui\icon_SWLB_clone_uniform_ca.paa";
+		model="\SWLB_clones\SWLB_clone_basic_armor.p3d";
+		class ItemInfo: VestItem
+		{
+			uniformModel="\SWLB_clones\SWLB_clone_basic_armor.p3d";
+			containerClass="Supply100";
+			vesttype = "Rebreather";
+			mass=80;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 16;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 16;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	};
+	class 44_swla_airborne_vest_base: 44_swla_vest_base
+	{
+		displayname = "[44] Clone trooper airborne vest";
+		picture="\SWLB_clones\data\ui\icon_SWLB_clone_airborne_armor_ca.paa";
+		model="\SWLB_clones\SWLB_clone_airborne_armor.p3d";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"ammo",
+			"pauldron"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel="\SWLB_clones\SWLB_clone_airborne_armor.p3d";
+			containerclass = "Supply170";
+			mass = 100;
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2",
+				"ammo",
+				"pauldron"
+			};
+		};
+	};
+	class 44_swla_medic_vest_base: 44_swla_vest_base
+	{
+		displayName = "[44] Clone trooper medic vest";
+		picture="\SWLB_clones\data\ui\icon_SWLB_clone_medic_armor_ca.paa";
+		model="\SWLB_clones\SWLB_clone_medic_armor.p3d";
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel="\SWLB_clones\SWLB_clone_medic_armor.p3d";
+			conatinerclass = "Supply150";
+			mass = 80;
+			hiddenSelections[]=
+			{
+				"camo1"
+			};
+		};
+	};
+	class 44_swla_cfr_vest_base: 44_swla_vest_base
+	{
+		displayname = "[44] Clone trooper CFR vest";
+		picture="\SWLB_clones\data\ui\icon_SWLB_clone_cfr_armor_ca.paa";
+		model="\SWLB_clones\SWLB_clone_cfr_armor.p3d";
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+		class Iteminfo: Iteminfo
+		{
+			uniformModel="\SWLB_clones\SWLB_clone_cfr_armor.p3d";
+			containerClass="Supply120";
+			hiddenSelections[] = 
+			{
+				"camo1"
+			};
+			mass = 80;
+		};
+	};
+	class 44_swla_recon_vest_base: 44_swla_vest_base
+	{
+		displayname = "[44] Clone trooper Recon vest";
+		picture="\SWLB_clones\data\ui\icon_SWLB_clone_recon_armor_ca.paa";
+		model="\SWLB_clones\SWLB_clone_recon_armor.p3d";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"holster",
+			"pauldron"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel="\SWLB_clones\SWLB_clone_recon_armor.p3d";
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2",
+				"holster",
+				"pauldron"
+			};
+		};
+	};
+	class 44_swla_arc_vest_base: 44_swla_vest_base
+	{
+		displayname = "[44] Clone ARC trooper vest";
+		picture="\SWLB_clones\data\ui\icon_SWLB_clone_arc_armor_ca.paa";
+		model="\SWLB_clones\SWLB_clone_arc_armor.p3d";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel="\SWLB_clones\SWLB_clone_arc_armor.p3d";
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2"
+			};
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 25;
+					PassThrough = 0.1;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 25;
+					PassThrough = 0.1;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 25;
+					passThrough = 0.1;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+		};
+	};
+	class 44_swla_assault_vest_base: 44_swla_vest_base
+	{
+		displayName = "[44] Clone trooper assault vest";
+		picture="\SWLB_clones\data\ui\icon_SWLB_clone_light_armor_ca.paa";
+		model="\SWLB_clones\SWLB_clone_assault_armor.p3d";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\SWLB_clones\SWLB_clone_assault_armor.p3d";
+			containerClass="Supply110";
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2"
+			};
+		};
+	};
+	class 44_swla_grenadier_vest_base: 44_swla_vest_base
+	{
+		displayName="[44] Clone trooper grenadier vest";
+		picture="\SWLB_clones\data\ui\icon_SWLB_clone_light_armor_ca.paa";
+		model="\SWLB_clones\SWLB_clone_grenadier_armor.p3d";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		class ItemInfo: Iteminfo
+		{
+			uniformModel="\SWLB_clones\SWLB_clone_grenadier_armor.p3d";
+			containerClass="Supply110";
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2"
+			};
+		};
+	};
+	class 44_swla_specialist_vest_base: 44_swla_vest_base
+	{
+		displayName="[44] Clone trooper specialist vest";
+		picture="\SWLB_clones\data\ui\icon_SWLB_clone_light_armor_ca.paa";
+		model="\SWLB_clones\SWLB_clone_specialist_armor.p3d";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		class Iteminfo: Iteminfo
+		{
+			uniformModel="\SWLB_clones\SWLB_clone_specialist_armor.p3d";
+			containerClass="Supply110";
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2"
+			};
+		};
+	};
+	class 44_swla_kama_vest_base: 44_swla_vest_base
+	{
+		displayName="[44] Clone trooper kama";
+		picture="\SWLB_clones\data\ui\icon_SWLB_clone_kama_armor_ca.paa";
+		model="\SWLB_clones\SWLB_clone_kama_armor.p3d";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"rank"
+		};
+		class Iteminfo: ItemInfo
+		{
+			uniformModel="\SWLB_clones\SWLB_clone_kama_armor.p3d";
+			hiddenSelections[]=
+			{
+				"camo1",
+				"rank"
+			};
+		};
+	};
+	class 44_swla_officer_vest_base: 44_swla_vest_base
+	{
+		displayName="Clone trooper officer vest";
+		picture="\SWLB_clones\data\ui\icon_SWLB_clone_officer_armor_ca.paa";
+		model="\SWLB_clones\SWLB_clone_officer_armor.p3d";
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+		class ItemInfo: VestItem
+		{
+			uniformModel="\SWLB_clones\SWLB_clone_officer_armor.p3d";
+			hiddenSelections[]=
+			{
+				"camo1"
+			};
+		};
+	};
+	class 44_swla_commander_vest_base: 44_swla_vest_base
+	{
+		displayName="[44] Clone trooper commander vest";
+		picture="\SWLB_clones\data\ui\icon_SWLB_clone_commander_armor_ca.paa";
+		model="\SWLB_clones\SWLB_clone_commander_armor.p3d";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"rank"
+		};
+		class Iteminfo: Iteminfo
+		{
+			uniformModel="\SWLB_clones\SWLB_clone_commander_armor.p3d";
+			hiddenSelections[]=
+			{
+				"camo1",
+				"rank"
+			};
+		};
+	};
+	class 44_swla_airborne_cfr_vest_base: 44_swla_vest_base
+	{
+		displayname = "[44] Clone airborne CFR vest";
+		model="\SWLB_CEE\data\SWLB_CEE_Airborne_CFR.p3d";
+		picture="\SWLB_clones\data\ui\icon_SWLB_clone_airborne_armor_ca.paa";
+		hiddenSelections[]=
+		{
+			"ammo",
+			"camo1",
+			"camo2",
+			"pauldron"
+		};
+		class Iteminfo: Iteminfo
+		{
+			uniformModel="\SWLB_CEE\data\SWLB_CEE_Airborne_CFR.p3d";
+			containerclass = "Supply150";
+			hiddenSelections[]=
+			{
+				"ammo",
+				"camo1",
+				"camo2",
+				"pauldron"
+			};
+		};
+	};
+	class 44_swla_airborne_light_vest_base: 44_swla_vest_base
+	{
+		displayname = "[44] Clone airborne light vest";
+		model="\SWLB_CEE\data\SWLB_CEE_Airborne_Light.p3d";
+		picture="\SWLB_clones\data\ui\icon_SWLB_clone_airborne_armor_ca.paa";
+		hiddenSelections[]=
+		{
+			"ammo",
+			"camo1",
+			"camo2",
+			"pauldron"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel="\SWLB_CEE\data\SWLB_CEE_Airborne_Light.p3d";
+			containerClass="Supply150";
+			hiddenSelections[]=
+			{
+				"ammo",
+				"camo1",
+				"camo2",
+				"pauldron"
+			};
+		};
+	};
+	class 44_swla_airborne_officer_vest_base: 44_swla_vest_base
+	{
+		displayName="[44] Clone airborne officer vest";
+		model="\SWLB_CEE\data\SWLB_CEE_Airborne_Officer.p3d";
+		hiddenSelections[]=
+		{
+			"ammo",
+			"camo1",
+			"camo2",
+			"camo3",
+			"pauldron"
+		};
+		class Iteminfo: Iteminfo
+		{
+			uniformModel="\SWLB_CEE\data\SWLB_CEE_Airborne_Officer.p3d";
+			containerclass = "Supply150";
+			hiddenSelections[]=
+			{
+				"ammo",
+				"camo1",
+				"camo2",
+				"camo3",
+				"pauldron"
+			};
+		};
+	};
+	class 44_swla_arf_vest_base: 44_swla_vest_base
+	{
+		displayName="Clone ARF vest";
+		model="\SWLB_CEE\data\SWLB_CEE_ARF_Vest.p3d";
+		uniformModel="\SWLB_CEE\data\SWLB_CEE_ARF_Vest.p3d";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3"
+		};
+		class Iteminfo: Iteminfo
+		{
+			uniformModel="\SWLB_CEE\data\SWLB_CEE_ARF_Vest.p3d";
+			containerClass="Supply120";
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2",
+				"camo3"
+			};
+		};
+	};
+	class 44_swla_heavy_vest_base: 44_swla_vest_base
+	{
+		displayName="Clone heavy vest";
+		model="\SWLB_CEE\data\SWLB_CEE_Heavy_Vest.p3d";
+		hiddenSelections[]=
+		{
+			"ammo",
+			"camo1",
+			"camo2",
+			"camo3",
+			"pauldron"
+		};
+		class Iteminfo: Iteminfo
+		{
+			uniformModel="\SWLB_CEE\data\SWLB_CEE_Heavy_Vest.p3d";
+			containerClass="Supply120";
+			hiddenSelections[]=
+			{
+				"ammo",
+				"camo1",
+				"camo2",
+				"camo3",
+				"pauldron"
+			};
+		};
+	};
+	class 44_swla_heavy_gunner_vest_base: 44_swla_vest_base
+	{
+		displayName="Clone heavy gunner vest";
+		model="\SWLB_CEE\data\SWLB_CEE_Heavy_Gunner_Vest.p3d";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"camo4",
+			"camo5",
+			"ammo"
+		};
+		class Iteminfo: Iteminfo
+		{
+			uniformModel="\SWLB_CEE\data\SWLB_CEE_Heavy_Gunner_Vest.p3d";
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"ammo"
+			};
+		};
+	};
+	class 44_swla_recon_survival_vest_base: 44_swla_vest_base
+	{
+		displayName="Clone recon survival vest";
+		model="\SWLB_CEE\data\SWLB_CEE_Recon_Survival.p3d";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"camo4"
+		};
+		class Iteminfo: Iteminfo
+		{
+			uniformModel="\SWLB_CEE\data\SWLB_CEE_Recon_Survival.p3d";
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4"
+			};
+		};
+	};
+	class 44_swla_force_recon_vest_base: 44_swla_vest_base
+	{
+		displayName="Clone force recon vest";
+		model="\SWLB_CEE\data\SWLB_CEE_Force_Recon.p3d";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		class Iteminfo: Iteminfo
+		{
+			uniformModel="\SWLB_CEE\data\SWLB_CEE_Force_Recon.p3d";
+			containerclass = "Supply120";
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2"
+			};
+		};
+	};
+	class 44_swla_force_recon_nco_vest_base: 44_swla_vest_base
+	{
+		displayName="Clone force recon nco vest";
+		model="\SWLB_CEE\data\SWLB_CEE_Recon_Force_Officer.p3d";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3"
+		};
+		class ItemInfo: Iteminfo
+		{
+			uniformModel="\SWLB_CEE\data\SWLB_CEE_Recon_Force_Officer.p3d";
+			containerclass = "Supply120";
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2"
+			};
+		};
+	};
+	class 44_swla_force_recon_commander_vest_base: 44_swla_vest_base
+	{
+		displayName="Clone force recon Commander vest";
+		model="\SWLB_CEE\data\SWLB_CEE_Recon_Force_Commander.p3d";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"camo4"
+		};
+		class ItemInfo: Iteminfo
+		{
+			uniformModel="\SWLB_CEE\data\SWLB_CEE_Recon_Force_Commander.p3d";
+			containerclass = "Supply120";
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2",
+				"camo3",
+				"camo4"
+			};
+		};
+	};
+	class 44_swla_vest: 44_swla_vest_base
+	{
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+	};
+
+	class 44_swla_airborne_vest_1: 44_swla_airborne_vest_base
+	{
+		displayname = "[44] Clone trooper airborne vest 1";
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		hiddenselectionstextures[] = 
+		{
+			"44_swla\data\vests\44_vest_2_1.paa",
+			"",
+			"44_swla\data\vests\44_vest_2_1.paa",
+		};
+	};
+	class 44_swla_airborne_vest_2: 44_swla_airborne_vest_1
+	{
+		displayname = "[44] Clone trooper airborne vest 2";
+		hiddenselectionstextures[] = 
+		{
+			"44_swla\data\vests\44_vest_2_2.paa",
+			"",
+			"44_swla\data\vests\44_vest_2_2.paa",
+		};
+	};
+	class 44_swla_airborne_nco_vest_1: 44_swla_airborne_vest_1
+	{
+		displayname = "[44] Clone trooper airborne NCO vest 1";
+		hiddenselectionstextures[] = 
+		{
+			"44_swla\data\vests\44_vest_2_1.paa",
+			"",
+			"44_swla\data\vests\44_vest_2_1.paa",
+			"44_swla\data\vests\44_vest_2_1.paa",
+		};
+	};
+	class 44_swla_airborne_nco_vest_2: 44_swla_airborne_vest_1
+	{
+		displayname = "[44] Clone trooper airborne NCO vest 2";
+		hiddenselectionstextures[] = 
+		{
+			"44_swla\data\vests\44_vest_2_2.paa",
+			"",
+			"44_swla\data\vests\44_vest_2_2.paa",
+			"44_swla\data\vests\44_vest_2_2.paa",
+		};
+	};
+
+	class 44_swla_medic_vest: 44_swla_medic_vest_base
+	{
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		hiddenselectionstextures[] = 
+		{
+			"44_swla\data\vests\44_vest_2_m.paa"
+		};
+	};
+
+	class 44_swla_cfr_vest: 44_swla_cfr_vest_base
+	{
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		hiddenselectionstextures[] = 
+		{
+			"44_swla\data\vests\44_vest_2_1.paa"
+		};
+	};
+
+	class 44_swla_recon_vest_1: 44_swla_recon_vest_base
+	{
+		displayname = "[44] Clone trooper Recon vest 1";
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		hiddenselectionstextures[] = 
+		{
+			"44_swla\data\vests\44_vest_2_1.paa",
+			"",
+			"44_swla\data\vests\44_vest_2_1.paa",
+		};
+	};
+
+	class 44_swla_arc_plate: 44_swla_arc_vest_base
+	{
+		displayname = "[44] Clone trooper arc plates";
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		hiddenselectionstextures[] = 
+		{
+			"44_swla\data\vests\44_arc_vest.paa",
+		};
+	};
+
+	class 44_swla_assault_vest_1: 44_swla_assault_vest_base
+	{
+		displayname = "[44] Clone trooper assault vest 1";
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		hiddenselectionstextures[] = 
+		{
+			"SWLB_clones\data\light_accessories_co.paa",
+			"44_swla\data\vests\44_vest_2_1.paa",
+		};
+	};
+
+	class 44_swla_grenadier_vest_1: 44_swla_grenadier_vest_base
+	{
+		displayname = "[44] Clone trooper grenadier vest 1";
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		hiddenselectionstextures[] = 
+		{
+			"SWLB_clones\data\light_accessories_co.paa",
+			"44_swla\data\vests\44_vest_2_1.paa",
+		};
+	};
+
+	class 44_swla_specialist_vest_1: 44_swla_specialist_vest_base
+	{
+		displayname = "[44] Clone trooper specialist vest 1";
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		hiddenselectionstextures[] = 
+		{
+			"SWLB_clones\data\light_accessories_co.paa",
+			"44_swla\data\vests\44_vest_2_1.paa",
+		};
+	};
+
+	class 44_swla_airborne_cfr_vest_1: 44_swla_airborne_cfr_vest_base
+	{
+		displayname = "[44] Clone airborne CFR vest 1";
+		scope = 2;
+		scopearsenal = 2;
+		scopecurator = 2;
+		hiddenselectionstextures[] = 
+		{
+			"44_swla\data\vests\44_vest_2_1.paa",
+			"44_swla\data\vests\44_vest_2_1.paa",
+			"44_swla\data\vests\44_vest_2_1.paa",
+			"44_swla\data\vests\44_vest_2_1.paa",
+		};
+	};
+	class 44_swla_airborne_cfr_vest_2: 44_swla_airborne_cfr_vest_base
+	{
+		displayname = "[44] Clone airborne CFR vest 2";
+		scope = 2;
+		scopearsenal = 2;
+		scopecurator = 2;
+		hiddenselectionstextures[] = 
+		{
+			"44_swla\data\vests\44_vest_2_2.paa",
+			"44_swla\data\vests\44_vest_2_2.paa",
+			"44_swla\data\vests\44_vest_2_2.paa",
+			"44_swla\data\vests\44_vest_2_2.paa",
+		};
+	};
+
+	class 44_swla_airborne_light_vest_1: 44_swla_airborne_light_vest_base
+	{
+		displayname = "[44] Clone airborne light vest 1";
+		scope = 2;
+		scopearsenal = 2;
+		scopecurator = 2;
+		hiddenselectionstextures[] = 
+		{
+			"44_swla\data\vests\44_vest_2_1.paa",
+			"44_swla\data\vests\44_vest_2_1.paa",
+			"44_swla\data\vests\44_vest_2_1.paa",
+			"44_swla\data\vests\44_vest_2_1.paa",
+		};
+	};
+	class 44_swla_airborne_light_vest_2: 44_swla_airborne_light_vest_base
+	{
+		displayname = "[44] Clone airborne light vest 2";
+		scope = 2;
+		scopearsenal = 2;
+		scopecurator = 2;
+		hiddenselectionstextures[] = 
+		{
+			"44_swla\data\vests\44_vest_2_2.paa",
+			"44_swla\data\vests\44_vest_2_2.paa",
+			"44_swla\data\vests\44_vest_2_2.paa",
+			"44_swla\data\vests\44_vest_2_2.paa",
+		};
+	};
+
+	class 44_swla_arf_vest_1: 44_swla_arf_vest_base
+	{
+		displayname = "[44] Clone arf vest 1";
+		scope = 2;
+		scopearsenal = 2;
+		scopecurator = 2;
+		hiddenselectionstextures[] = 
+		{
+			"SWLB_clones\data\light_accessories_co.paa",
+			"44_swla\data\vests\44_vest_2_1.paa",
+			"44_swla\data\vests\44_vest_3_1.paa",
+		};
+	};
+
+	class 44_swla_heavy_vest_1: 44_swla_heavy_vest_base
+	{
+		displayname = "[44] Clone heavy vest 1";
+		scope = 2;
+		scopearsenal = 2;
+		scopecurator = 2;
+		hiddenselectionstextures[] = 
+		{
+			"44_swla\data\vests\44_vest_2_1.paa",
+			"44_swla\data\vests\44_vest_2_1.paa",
+			"44_swla\data\vests\44_vest_2_1.paa",
+			"",
+			"44_swla\data\vests\44_vest_2_1.paa",
+		};
+	};
+	class 44_swla_heavy_vest_2: 44_swla_heavy_vest_base
+	{
+		displayname = "[44] Clone heavy vest 2";
+		scope = 2;
+		scopearsenal = 2;
+		scopecurator = 2;
+		hiddenselectionstextures[] = 
+		{
+			"44_swla\data\vests\44_vest_2_2.paa",
+			"44_swla\data\vests\44_vest_2_2.paa",
+			"44_swla\data\vests\44_vest_2_2.paa",
+			"",
+			"44_swla\data\vests\44_vest_2_2.paa",
+		};
+	};
+
+	class 44_swla_heavy_gunner_vest_1: 44_swla_heavy_gunner_vest_base
+	{
+		displayname = "[44] Clone heavy gunner vest 1";
+		scope = 2;
+		scopearsenal = 2;
+		scopecurator = 2;
+		hiddenselectionstextures[] = 
+		{
+			"SWLB_clones\data\light_accessories_co.paa",
+			"44_swla\data\vests\44_vest_2_1.paa",
+			"44_swla\data\vests\44_vest_2_1.paa",
+			"SWLB_equipment\backpacks\data\bag_co.paa",
+			"44_swla\data\vests\44_vest_2_1.paa",
+			"44_swla\data\vests\44_vest_2_1.paa",
+		};
+	};
+	class 44_swla_heavy_gunner_vest_2: 44_swla_heavy_gunner_vest_base
+	{
+		displayname = "[44] Clone heavy gunner vest 2";
+		scope = 2;
+		scopearsenal = 2;
+		scopecurator = 2;
+		hiddenselectionstextures[] = 
+		{
+			"SWLB_clones\data\light_accessories_co.paa",
+			"44_swla\data\vests\44_vest_2_2.paa",
+			"44_swla\data\vests\44_vest_2_2.paa",
+			"SWLB_equipment\backpacks\data\bag_co.paa",
+			"44_swla\data\vests\44_vest_2_2.paa",
+			"44_swla\data\vests\44_vest_2_2.paa",
+		};
+	};
+
+	class 44_swla_recon_survival_vest_1: 44_swla_recon_survival_vest_base
+	{
+		displayName="[44] Clone recon survival vest 1";
+		scope = 2;
+		scopearsenal = 2;
+		scopecurator = 2;
+		hiddenselectionstextures[] = 
+		{
+			"44_swla\data\vests\44_vest_2_1.paa",
+			"44_swla\data\vests\44_vest_2_1.paa",
+			"SWLB_clones\data\light_accessories_co.paa",
+			"44_swla\data\vests\44_vest_2_1.paa",
+			"44_swla\data\armor\44_swla_mc_upper"
+		};
+	};
+
+	class 44_swla_force_recon_vest_1: 44_swla_force_recon_vest_base
+	{
+		displayName="[44] Clone force recon vest 1";
+		scope = 2;
+		scopearsenal = 2;
+		scopecurator = 2;
+		hiddenselectionstextures[] = 
+		{
+			"44_swla\data\vests\44_vest_2_1.paa",
+			"SWLB_clones\data\light_accessories_co.paa",
+		};
+	};
+	class 44_swla_force_recon_vest_2: 44_swla_force_recon_vest_base
+	{
+		displayName="[44] Clone force recon vest 2";
+		scope = 2;
+		scopearsenal = 2;
+		scopecurator = 2;
+		hiddenselectionstextures[] = 
+		{
+			"44_swla\data\vests\44_vest_2_2.paa",
+			"SWLB_clones\data\light_accessories_co.paa",
+		};
+	};
+
+	class 44_swla_force_recon_nco_vest_1: 44_swla_force_recon_nco_vest_base
+	{
+		displayName="[44] Clone force recon nco vest 1";
+		scope = 2;
+		scopearsenal = 2;
+		scopecurator = 2;
+		hiddenselectionstextures[] = 
+		{
+			"SWLB_clones\data\light_accessories_co.paa",
+			"",
+			"44_swla\data\vests\44_vest_2_1.paa",
+		};
+	};
+/////////////////helmet attachaments/////////////////////
+	class NVGoggles;
+	class 44_clone_nvg_base: NVGoggles
+	{
+		ace_nightvision_bluRadius = 0.15;
+		ace_nightvision_generation = 4;
+		scope = 0;
+		author = "kripto202";
+		displayname = "[44] Clone Trooper NV Visor";
+		modeloptics = "\SWLB_clones\SWLB_clone_nvg_optic_dummy.p3d";
+		model="\SWLB_clones\SWLB_clone_nvg_on.p3d";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		picture="\SWLB_clones\data\ui\icon_SWLB_clone_nvg_ca.paa";
+		visionMode[]=
+		{
+			"Normal",
+			"NVG"
+		};
+		thermalMode[]={0};
+		class ItemInfo
+		{
+			type=616;
+			uniformModel="\SWLB_clones\SWLB_clone_nvg_on.p3d";
+			modelOff="\SWLB_clones\SWLB_clone_nvg_off.p3d";
+			mass=20;
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2"
+			};
+		};
+	};
+	class 44_clone_rangefinder_base: 44_clone_nvg_base
+	{
+		displayname = "[44] Clone trooper rangefinder";
+		model="\SWLB_clones\SWLB_clone_rangefinder_off.p3d";
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+		picture="\SWLB_clones\data\ui\icon_SWLB_clone_rangefinder_ca.paa";
+		class ItemInfo: ItemInfo
+		{
+			uniformModel="\SWLB_clones\SWLB_clone_rangefinder_on.p3d";
+			modelOff="\SWLB_clones\SWLB_clone_rangefinder_off.p3d";
+			mass = 10;
+			hiddenSelections[]=
+			{
+				"camo1"
+			};
+		};
+	};
+	class 44_clone_commander_visor_base: 44_clone_nvg_base
+	{
+		displayName="[44] Clone trooper commander visor";
+		model="\SWLB_clones\SWLB_clone_ccVisor.p3d";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2"
+		};
+		picture="\SWLB_clones\data\ui\icon_SWLB_clone_ccVisor_ca.paa";
+		class Iteminfo: Iteminfo
+		{
+			uniformModel="\SWLB_clones\SWLB_clone_ccVisor.p3d";
+			modelOff="\SWLB_clones\SWLB_clone_ccVisor.p3d";
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2"
+			};
+		};
+	};
+	class 44_clone_p1_nvg_base: 44_clone_nvg_base
+	{
+		displayname = "[44] Clone Trooper P1 NV Visor";
+		model="\SWLB_CEE\data\SWLB_CEE_P1_Visor_On.p3d";
+		class Iteminfo: Iteminfo
+		{
+			uniformModel="\SWLB_CEE\data\SWLB_CEE_P1_Visor_On.p3d";
+			modelOff="\SWLB_CEE\data\SWLB_CEE_P1_Visor_Off.p3d";
+		};
+	};
+	class 44_clone_p1_rangefinder_base: 44_clone_rangefinder_base
+	{
+		displayname = "[44] Clone trooper rangefinder";
+		model="\SWLB_CEE\data\SWLB_CEE_P1_Rangefinder_Off.p3d";
+		class Iteminfo: ItemInfo
+		{
+			uniformModel="\SWLB_CEE\data\SWLB_CEE_P1_Rangefinder_On.p3d";
+			modelOff="\SWLB_CEE\data\SWLB_CEE_P1_Rangefinder_Off.p3d";
+		};
+	};
+	class SWLB_clone_nvg;
+	class SWLB_clone_nvg_spec;
+	class SWLB_clone_nvg_nco;
+	class SWLB_clone_nvg_spec_nco;
+	class SWLB_clone_rangefinder;
+	class SWLB_clone_ccVisor;
+	class SWLB_clone_mcVisor;
+
+	class 44_swla_visor_1: 44_clone_nvg_base
+	{
+		displayname = "[44] Clone NV Visor (NVG)";
+		scope = 2;
+		scopearsenal = 2;
+		scopecurator = 2;
+		hiddenselectionstextures[] = 
+		{
+			"44_swla\data\attachments\44_attachments.paa"
+		};
+	};
+	class 44_swla_visor_2: 44_swla_visor_1
+	{
+		displayname = "[44] Clone NV Visor (TI)";
+		visionMode[] = {"Normal", "TI"};
+	};
+
+	class 44_swla_visor_nco_1: SWLB_clone_nvg_nco
+	{
+		displayname = "[44] Clone NCO NV Visor (NVG)";
+		scope = 2;
+		scopearsenal = 2;
+		scopecurator = 2;
+		hiddenselectionstextures[] = 
+		{
+			"44_swla\data\attachments\44_attachments.paa",
+			"44_swla\data\attachments\44_attachments.paa"
+		};
+	};
+	class 44_swla_visor_nco_2: 44_swla_visor_nco_1
+	{
+		displayname = "[44] Clone NCO NV Visor (TI)";
+		visionMode[] = {"Normal", "TI"};
+	};
+
+	class 44_swla_rangefinder_1: 44_clone_rangefinder_base
+	{
+		displayname = "[44] Clone Rangefinder (NVG)";
+		scope = 2;
+		scopearsenal = 2;
+		scopecurator = 2;
+		hiddenselectionstextures[] = 
+		{
+			"44_swla\data\attachments\44_attachments.paa"
+		};
+	};
+	class 44_swla_rangefinder_2: 44_swla_rangefinder_1
+	{
+		displayname = "[44] Clone Rangefinder (TI)";
+		visionMode[] = {"Normal", "TI"};
+	};
+
+	class 44_swla_commander_1: 44_clone_commander_visor_base
+	{
+		displayname = "[44] Clone Commander Visor (NVG)";
+		scope = 2;
+		scopearsenal = 2;
+		scopecurator = 2;
+		hiddenselectionstextures[] = 
+		{
+			"44_swla\data\attachments\44_attachments.paa"
+		};
+	};
+	class 44_swla_commander_2: 44_swla_commander_1
+	{
+		displayname = "[44] Clone Commander Visor (TI)";
+		visionMode[] = {"Normal", "TI"};
+	};
+
+	class 44_swla_marshal_commander_1: 44_clone_commander_visor_base
+	{
+		displayname = "[44] Clone Marshal Commander Visor (NVG)";
+		scope = 2;
+		scopearsenal = 2;
+		scopecurator = 2;
+		hiddenselectionstextures[] = 
+		{
+			"44_swla\data\attachments\44_attachments.paa",
+			"44_swla\data\attachments\44_attachments.paa"
+		};
+	};
+	class 44_swla_marshal_commander_2: 44_swla_marshal_commander_1
+	{
+		displayname = "[44] Clone Marshal Commander Visor (TI)";
+		visionMode[] = {"Normal", "TI"};
+	};
+
+	class 44_clone_p1_nvg_1: 44_clone_p1_nvg_base
+	{
+		displayname = "[44] Clone P1 NV Visor (NVG)";
+		scope = 2;
+		scopearsenal = 2;
+		scopecurator = 2;
+		hiddenselectionstextures[] = 
+		{
+			"44_swla\data\attachments\44_attachments.paa"
+		};
+	};
+	class 44_clone_p1_nvg_2: 44_clone_p1_nvg_1
+	{
+		displayname = "[44] Clone P1 NV Visor (TI)";
+		visionMode[] = {"Normal", "TI"};
+	};
+
+	class 44_clone_p1_rangefinder_1: 44_clone_p1_rangefinder_base
+	{
+		displayname = "[44] Clone trooper P1 rangefinder (NVG)";
+		scope = 2;
+		scopearsenal = 2;
+		scopecurator = 2;
+		hiddenselectionstextures[] = 
+		{
+			"44_swla\data\attachments\44_attachments.paa"
+		};
+	};
+	class 44_clone_p1_rangefinder_2: 44_clone_p1_rangefinder_1
+	{
+		displayname = "[44] Clone trooper P1 rangefinder (TI)";
+		visionMode[] = {"Normal", "TI"};
+	};
+
 };
 class cfgvehicles
 {
 	class k_swla_unit_base;
 	class k_swla_unit_mc_base;
-	class 44_unit: k_swla_unit_base
+	class 44_swla_unit: k_swla_unit_base
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -339,7 +1441,7 @@ class cfgvehicles
 		identityTypes[] = {"LanguageENG_F", "Head_NATO"};
 		role = "Rifleman";
 		author = "kripto202";
-		uniformclass = "44_uniform";
+		uniformclass = "44_swla_uniform";
 		faction = "44_sod";
 		editorSubCategory = "swla_44_trooper";
 		displayname = "Trooper";
@@ -466,7 +1568,7 @@ class cfgvehicles
 			"ACE_quikclot"
 		};
 	};
-	class 44_mc_unit: k_swla_unit_mc_base
+	class 44_swla_mc_unit: k_swla_unit_mc_base
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -475,7 +1577,7 @@ class cfgvehicles
 		identityTypes[] = {"LanguageENG_F", "Head_NATO"};
 		role = "Rifleman";
 		author = "kripto202";
-		uniformclass = "44_mc_uniform";
+		uniformclass = "44_swla_uniform_mc";
 		faction = "44_sod";
 		editorSubCategory = "swla_44_trooper";
 		displayname = "Trooper";
@@ -603,7 +1705,170 @@ class cfgvehicles
 			"ACE_quikclot"
 		};
 	};
+	
+	class 44_swla_unit_rifleman_dc15a: 44_swla_unit
+	{
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
+		displayname = "Rifleman (DC-15A)";
+		icon = "44_swla\data\ui\icons\icon_rifleman.paa";
+		attendant = 0;
+		engineer = false;
+		canDeactivateMines = false;
+		linkedItems[] = 
+		{
+			"44_swla_vest",
+			"44_p2_helmet",
+			"442_clones_hud_white",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch"
+		};
+		respawnlinkedItems[] = 
+		{
+			"44_swla_vest",
+			"44_p2_helmet",
+			"442_clones_hud_white",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch"
+		};
+		weapons[] = 
+		{
+			"442_DC15A",
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[] = 
+		{
+			"442_DC15A",
+			"Throw",
+			"Put"
+		};
+		magazines[] = 
+		{
+			"442_DC15A_Mag",
+			"442_DC15A_Mag",
+			"442_DC15A_Mag",
+			"442_DC15A_Mag",
+			"442_DC15A_Mag",
+			"SWLW_beltGrenade_mag",
+			"SWLW_beltGrenade_mag",
+			"SWLW_beltGrenade_mag",
+			"SWLW_beltGrenade_mag",
+			"SWLW_beltGrenade_mag",
+			"SWLW_beltGrenade_mag",
+			"SmokeShellBlue",
+			"SmokeShellBlue",
+			"SmokeShellBlue",
+			"SmokeShellRed",
+			"SmokeShellRed",
+			"SmokeShellRed",
+			"SmokeShell",
+			"SmokeShell",
+			"SmokeShell",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		respawnMagazines[] = 
+		{
+			"442_DC15A_Mag",
+			"442_DC15A_Mag",
+			"442_DC15A_Mag",
+			"442_DC15A_Mag",
+			"442_DC15A_Mag",
+			"SWLW_beltGrenade_mag",
+			"SWLW_beltGrenade_mag",
+			"SWLW_beltGrenade_mag",
+			"SWLW_beltGrenade_mag",
+			"SWLW_beltGrenade_mag",
+			"SWLW_beltGrenade_mag",
+			"SmokeShellBlue",
+			"SmokeShellBlue",
+			"SmokeShellBlue",
+			"SmokeShellRed",
+			"SmokeShellRed",
+			"SmokeShellRed",
+			"SmokeShell",
+			"SmokeShell",
+			"SmokeShell",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		Items[] = 
+		{
+			"442_swla_visor_1",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_ElasticBandage",
+			"ACE_ElasticBandage",
+			"ACE_ElasticBandage",
+			"ACE_ElasticBandage",
+			"ACE_ElasticBandage",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_touriquet",
+			"ACE_epinephrine",
+			"ACE_morphine"
+		};
+		respawnItems[] = 
+		{
+			"442_swla_visor_1",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_ElasticBandage",
+			"ACE_ElasticBandage",
+			"ACE_ElasticBandage",
+			"ACE_ElasticBandage",
+			"ACE_ElasticBandage",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_touriquet",
+			"ACE_epinephrine",
+			"ACE_morphine"
+		};
+	};
 
+	class 44_swla_unit_engineer_dc15a: 44_swla_unit_rifleman_dc15a
+	{
+		displayname = "Engineer (DC15A)";
+		icon = "44_swla\data\ui\icons\icon_engineer.paa";
+		engineer = true;
+		candeactivatemine = true;
+	};
+	class 44_swla_unit_medic_dc15a: 44_swla_unit_rifleman_dc15a
+	{
+		displayname = "Medic (DC15A)";
+		icon = "44_swla\data\ui\icons\icon_medic.paa";
+		attendant = 1;
+	};
 
 	class k_clone_backpack;
 	class k_clone_backpack_med;

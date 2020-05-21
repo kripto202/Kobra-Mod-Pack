@@ -12,8 +12,8 @@ class k_swla_airborne_vest: k_swla_airborne_vest_base
     hiddenselectionstextures[] = 
     {
        "\SWLB_clones\data\heavy_accessories_co.paa",
-        "\SWLB_clones\data\officer_accessories_co.paa",
-        "\SWLB_clones\data\heavy_accessories_co.paa"
+       "\SWLB_clones\data\officer_accessories_co.paa",
+       "\SWLB_clones\data\heavy_accessories_co.paa"
     };
 };
 class k_swla_medic_vest: k_swla_medic_vest_base

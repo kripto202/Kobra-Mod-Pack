@@ -1,7 +1,7 @@
 class CfgPatches{
 	class 442_clone{
 		author="kripto202";
-		requriedaddons[] = {};
+		requiredaddons[] = {};
 		units[]={};
 		weapons[]={
 			"k_p2_helmet",
