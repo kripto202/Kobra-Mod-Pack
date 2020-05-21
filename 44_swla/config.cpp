@@ -331,6 +331,7 @@ class cfgweapons
 	};
 /////////vests/////////
 	class V_rebreatherB;
+	class VestItem;
 	class 44_swla_vest_base: V_rebreatherB
 	{
 		author = "kripto202";
