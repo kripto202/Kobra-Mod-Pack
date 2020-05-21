@@ -143,7 +143,7 @@ class k_clone_backpack_rocket: k_clone_backpack_base
 	displayname = "[K] Clone Trooper Rocket Backpack";
 	scope = 2;
 	model = "442_clones\backpack_rocket.p3d";
-	maximumload = 250;
+	maximumload = 300;
 	hiddenselections[] = 
 	{
 		"backpack",
