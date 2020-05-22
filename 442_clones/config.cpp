@@ -71,7 +71,7 @@ class CfgWeapons
 		scope=0;
 		scopeCurator=0;
 		scopeArsenal=0;
-		picture="";
+		picture = "442_clones\data\ui\body.paa";
 		model="442_clones\base_body_gh"; //model for the ground
 		class ItemInfo: UniformItem
 		{
@@ -87,7 +87,7 @@ class CfgWeapons
 		author="kripto202";
 		scope=0;
 		displayName="Clone marshal commander armor";
-		picture="";
+		picture = "442_clones\data\ui\body_mc.paa";
 		model="442_clones\base_body_gh";
 		class ItemInfo: UniformItem
 		{
@@ -1242,6 +1242,7 @@ class CfgVehicles
 		scopeArsenal=1;
 		model="442_clones\base_body.p3d";
 		editorPreview="";
+		picture = "442_clones\data\ui\body.paa";
 		identityTypes[]=
 		{
 			"LanguageENG_F",
@@ -1294,6 +1295,7 @@ class CfgVehicles
 	{
 		model="442_clones\base_body_mc.p3d";
 		uniformclass="k_swla_uniform_mc_base";
+		picture = "442_clones\data\ui\body_mc.paa";
 		hiddenselections[]=
 		{
 			"camo1",

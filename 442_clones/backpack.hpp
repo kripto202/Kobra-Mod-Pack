@@ -4,6 +4,7 @@ class k_clone_backpack: k_clone_backpack_base
 	scope = 2;
 	model = "442_clones\backpack.p3d";
 	maximumload = 150;
+	picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 	hiddenselections[] = 
 	{
 		"backpack",
@@ -21,6 +22,7 @@ class k_clone_backpack_med: k_clone_backpack_base
 	scope = 2;
 	model = "442_clones\backpack_med.p3d";
 	maximumload = 200;
+	picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 	hiddenselections[] = 
 	{
 		"backpack",
@@ -40,6 +42,7 @@ class k_clone_backpack_heavy: k_clone_backpack_base
 	scope = 2;
 	model = "442_clones\backpack_heavy.p3d";
 	maximumload = 250;
+	picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 	hiddenselections[] = 
 	{
 		"backpack",
@@ -61,6 +64,7 @@ class k_clone_backpack_medic: k_clone_backpack_base
 	scope = 2;
 	model = "442_clones\backpack_medic.p3d";
 	maximumload = 200;
+	picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 	hiddenselections[] = 
 	{
 		"backpack",
@@ -82,6 +86,7 @@ class k_clone_backpack_medic_med: k_clone_backpack_base
 	scope = 2;
 	model = "442_clones\backpack_medic_med.p3d";
 	maximumload = 250;
+	picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 	hiddenselections[] = 
 	{
 		"backpack",
@@ -104,6 +109,7 @@ class k_clone_backpack_radio: k_clone_rto_backpack_base
 	displayname = "[K] Clone Trooper Radio Backpack";
 	scope = 2;
 	model = "442_clones\backpack_radio.p3d";
+	picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 	hiddenselections[] = 
 	{
 		"backpack",
@@ -122,6 +128,7 @@ class k_clone_backpack_radio_med: k_clone_rto_backpack_base
 	displayname = "[K] Clone Trooper Radio Medium Backpack";
 	scope = 2;
 	model = "442_clones\backpack_radio_med.p3d";
+	picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 	maximumload = 150;
 	hiddenselections[] = 
 	{
@@ -144,6 +151,7 @@ class k_clone_backpack_rocket: k_clone_backpack_base
 	scope = 2;
 	model = "442_clones\backpack_rocket.p3d";
 	maximumload = 300;
+	picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 	hiddenselections[] = 
 	{
 		"backpack",

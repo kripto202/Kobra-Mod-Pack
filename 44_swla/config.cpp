@@ -28,7 +28,7 @@ class cfgweapons
 	{
 		displayname = "[44] Clone Trooper Uniform";
 		scope = 2;
-		picture = "";
+		picture = "44_swla\data\ui\preview\44_body.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -38,11 +38,24 @@ class cfgweapons
 			uniformClass="44_swla_unit";
 		};
 	};
+	class bl_swla_uniform: k_swla_uniform
+	{
+		displayname = "[BL] Clone Trooper Uniform";
+		scope = 2;
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			containerClass="Supply200";
+			mass=40;
+			uniformType="Neopren";
+			uniformClass="bl_swla_unit";
+		};
+	};
 	class 44_swla_uniform_mc: k_swla_mc_uniform
 	{
 		displayname = "[44] Clone Marshall Commander Uniform";
 		scope = 2;
-		picture = "";
+		picture = "44_swla\data\ui\preview\44_body_mc.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -75,6 +88,7 @@ class cfgweapons
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
+		picture = "44_swla\data\ui\preview\44_p2_helmet.paa";
 		hiddenselectionsmaterials[] = 
 		{
 			"442_clones\data\helmet\p2_helmet\camo1.rvmat",
@@ -92,6 +106,7 @@ class cfgweapons
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
+		picture = "44_swla\data\ui\preview\44_p15_helmet.paa";
 		hiddenselectionsmaterials[] = 
 		{
 			"442_clones\data\helmet\p15_helmet\camo1.rvmat",
@@ -111,6 +126,7 @@ class cfgweapons
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
+		picture = "44_swla\data\ui\preview\44_ab_helmet.paa";
 		hiddenselectionstextures[]=
 		{
 			"44_swla\data\helmets\44_swla_airborne_helmet.paa",
@@ -122,12 +138,25 @@ class cfgweapons
 			"44_swla\data\helmets\ab_helmet_visor.rvmat"
 		};
 	};
+	class bl_airborne_helmet: k_airborne_helmet
+	{
+		displayname = "[BL] Airborne Helmet";
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
+		hiddenselectionstextures[] = 
+		{
+			"44_swla\data\helmets\bl_camo1_co.paa",
+			"44_swla\data\helmets\bl_visor_co.paa"
+		};
+	};
 	class 44_p2_pilot_helmet: k_p2_pilot_helmet
 	{
 		displayname = "[44] P2 Pilot Helmet";
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
+		picture = "44_swla\data\ui\preview\44_pilot_p2_helmet.paa";
 		hiddenselectionsmaterials[] = 
 		{
 			"442_clones\data\helmet\p2_pilot_helmet\camo1.rvmat",
@@ -145,6 +174,7 @@ class cfgweapons
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
+		picture = "44_swla\data\ui\preview\44_barc_helmet.paa";
 		hiddenselectionstextures[]=
 		{
 			"44_swla\data\helmets\44_swla_barc_helmet.paa",
@@ -162,6 +192,7 @@ class cfgweapons
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
+		picture = "44_swla\data\ui\preview\44_arf_p1_helmet.paa";
 		hiddenselectionstextures[]=
 		{
 			"44_swla\data\helmets\44_swla_arf_helmet.paa",
@@ -179,6 +210,7 @@ class cfgweapons
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
+		picture = "44_swla\data\ui\preview\44_arf_p2_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
 			"44_swla\data\helmets\44_swla_arf_helmet.paa",
@@ -198,6 +230,7 @@ class cfgweapons
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
+		picture = "44_swla\data\ui\preview\44_eng_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
 			"44_swla\data\helmets\44_swla_engineer_helmet.paa",
@@ -217,6 +250,7 @@ class cfgweapons
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
+		picture = "44_swla\data\ui\preview\44_p1_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
 			"44_swla\data\helmets\44_swla_p1_helmet.paa",
@@ -236,6 +270,7 @@ class cfgweapons
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
+		picture = "44_swla\data\ui\preview\44_pilot_p1_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
 			"44_swla\data\helmets\44_swla_p1_pilot_helmet.paa",
@@ -255,6 +290,7 @@ class cfgweapons
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
+		picture = "44_swla\data\ui\preview\44_spec_p1_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
 			"44_swla\data\helmets\44_swla_p1_spec_helmet.paa",
@@ -272,6 +308,7 @@ class cfgweapons
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
+		picture = "44_swla\data\ui\preview\44_spec_p2_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
 			"44_swla\data\helmets\44_swla_p2_spec_helmet.paa",
@@ -289,6 +326,7 @@ class cfgweapons
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
+		picture = "44_swla\data\ui\preview\44_rex_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
 			"44_swla\data\helmets\44_swla_rex_helmet.paa",
@@ -306,6 +344,7 @@ class cfgweapons
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
+		picture = "44_swla\data\ui\preview\44_scout_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
 			"44_swla\data\helmets\44_scout_helmet.paa",
@@ -323,6 +362,7 @@ class cfgweapons
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
+		picture = "44_swla\data\ui\preview\44_dukas_scout_helmet.paa";
 		hiddenselectionstextures[] =
 		{
 			"44_swla\data\helmets\dukas_scout_helmet.paa",
@@ -1450,8 +1490,144 @@ class cfgvehicles
 		backpack = "";
 		hiddenselectionstextures[] = 
 		{
-			"44_swla\data\armor\44_swla_upper",
-			"44_swla\data\armor\44_swla_lower",
+			"44_swla\data\armor\44_swla_upper.paa",
+			"44_swla\data\armor\44_swla_lower.paa",
+			"442_clones\data\uniform\mc_uniform\undersuit_co.paa",
+		};
+		linkedItems[] = 
+		{
+			"44_p2_helmet",
+			"k_swla_vest",
+			"tf_anprc152",
+			"44_clones_hud_white"
+		};
+		respawnlinkeditems[] = 
+		{
+			"44_p2_helmet",
+			"k_swla_vest",
+			"tf_anprc152",
+			"44_clones_hud_white"
+		};
+		weapons[]=
+		{
+			"442_DC15S",
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[]=
+		{
+			"442_DC15S",
+			"Throw",
+			"Put"
+		};
+		magazines[]=
+		{
+			"442_DC15S_Mag",
+			"442_DC15S_Mag",
+			"442_DC15S_Mag",
+			"442_DC15S_Mag",
+			"442_DC15S_Mag",
+			"442_DC15S_Mag",
+			"SmokeShellBlue",
+			"SmokeShellBlue",
+			"SmokeShellBlue",
+			"SmokeShellRed",
+			"SmokeShellRed",
+			"SmokeShellRed",
+			"SmokeShell",
+			"SmokeShell",
+			"SmokeShell",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		respawnMagazines[]=
+		{
+			"442_DC15S_Mag",
+			"442_DC15S_Mag",
+			"442_DC15S_Mag",
+			"442_DC15S_Mag",
+			"442_DC15S_Mag",
+			"442_DC15S_Mag",
+			"SmokeShellBlue",
+			"SmokeShellBlue",
+			"SmokeShellBlue",
+			"SmokeShellRed",
+			"SmokeShellRed",
+			"SmokeShellRed",
+			"SmokeShell",
+			"SmokeShell",
+			"SmokeShell",
+			"SmokeShell",
+			"SmokeShell"
+		};
+		items[] = 
+		{
+			"ACE_EarPlugs",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_elsasticBandage",
+			"ACE_elsasticBandage",
+			"ACE_elsasticBandage",
+			"ACE_elsasticBandage",
+			"ACE_elsasticBandage",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot"
+		};
+		respawnitems[] = 
+		{
+			"ACE_EarPlugs",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_packingBandage",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_elsasticBandage",
+			"ACE_elsasticBandage",
+			"ACE_elsasticBandage",
+			"ACE_elsasticBandage",
+			"ACE_elsasticBandage",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot",
+			"ACE_quikclot"
+		};
+	};
+	class bl_swla_unit: k_swla_unit_base
+	{
+		scope = 2;
+		scopeCurator = 2;
+		scopearsenal = 2;
+		editorpreview = "\SWLB_clones\data\ui\editorPreviews\SWLB_clone_base_P2.jpg";
+		identityTypes[] = {"LanguageENG_F", "Head_NATO"};
+		role = "Rifleman";
+		author = "kripto202";
+		uniformclass = "bl_swla_uniform";
+		faction = "black_legion";
+		editorSubCategory = "swla_44_trooper";
+		displayname = "Trooper";
+		movesFatigue = "CfgMovesFatigueTrooper";
+		backpack = "";
+		hiddenselectionstextures[] = 
+		{
+			"44_swla\data\armor\bl_camo1_co.paa",
+			"44_swla\data\armor\bl_camo2_co.paa",
 			"442_clones\data\uniform\mc_uniform\undersuit_co.paa",
 		};
 		linkedItems[] = 
@@ -1884,6 +2060,7 @@ class cfgvehicles
 	{
 		displayname = "[44] Clone Trooper Backpack";
 		scope = 2;
+		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselectionstextures[] = 
 		{
 			"44_swla\data\backpacks\44_swla_backpack.paa",
@@ -1894,6 +2071,7 @@ class cfgvehicles
 	{
 		displayname = "[44] Clone Trooper Medium Backpack";
 		scope = 2;
+		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselectionstextures[] = 
 		{
 			"44_swla\data\backpacks\44_swla_backpack.paa",
@@ -1905,6 +2083,7 @@ class cfgvehicles
 	{
 		displayname = "[44] Clone Trooper Heavy Backpack";
 		scope = 2;
+		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselectionstextures[] = 
 		{
 			"44_swla\data\backpacks\44_swla_backpack.paa",
@@ -1917,6 +2096,7 @@ class cfgvehicles
 	{
 		displayname = "[44] Clone Trooper Medic Backpack";
 		scope = 2;
+		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselectionstextures[] = 
 		{
 			"44_swla\data\backpacks\44_swla_backpack.paa",
@@ -1929,6 +2109,7 @@ class cfgvehicles
 	{
 		displayname = "[44] Clone Trooper Medic Medium Backpack";
 		scope = 2;
+		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselectionstextures[] = 
 		{
 			"44_swla\data\backpacks\44_swla_backpack.paa",
@@ -1942,6 +2123,7 @@ class cfgvehicles
 	{
 		displayname = "[44] Clone Trooper Radio Backpack";
 		scope = 2;
+		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselectionstextures[] = 
 		{
 			"44_swla\data\backpacks\44_swla_backpack.paa",
@@ -1953,6 +2135,7 @@ class cfgvehicles
 	{
 		displayname = "[44] Clone Trooper Radio Medium Backpack";
 		scope = 2;
+		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselectionstextures[] = 
 		{
 			"44_swla\data\backpacks\44_swla_backpack.paa",
@@ -1965,6 +2148,7 @@ class cfgvehicles
 	{
 		displayname = "[44] Clone Trooper Rocket Backpack";
 		scope = 2;
+		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselectionstextures[] = 
 		{
 			"44_swla\data\backpacks\44_swla_backpack.paa",

@@ -15,7 +15,7 @@ class CfgVehicles
 	{
 		author = "kripto202";
 		scope = 2;
-		picture = "";
+		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		displayname = "[K] Jumppack";
 		model = "442_jumppack\jumppack.p3d";
 		maximumload = 150;
@@ -32,11 +32,16 @@ class CfgVehicles
 		NSM_jumppack_energy_capacity=200;
 		NSM_jumppack_recharge=5;
 		NSM_jumppack_jump_effect_script="NSM_jumppack_effect_fnc_jt_21";
-		NSM_jumppack_effect_points[]=
+		NSM_jumppack_effect_points[] = 
 		{
-			
-			"effect1",
-			"effect2"
+			{
+				"effect1",
+				{0,.6,1} // {side to side , forward, verticle}
+			},
+			{
+				"effect2",
+				{0,.6,1}
+			}
 		};
 		NSM_jumppack_sound_ignite[]=
 		{
@@ -52,22 +57,16 @@ class CfgVehicles
 		};
 		NSM_jumppack_jump_types[]=
 		{
-			
 			{
 				"Forward Jump",
-				{12,20,50,0,0,0}
-			},
-			
-			{
-				"Short Jump",
-				{25,7,20,0,1,1}
+				{12,20,75,0,0,0}
 			}
 		};
 	};
-	class 442_jt12_radio: 442_jumppack
+	class 442_jt12: 442_jumppack
 	{
 		maximumload=150;
-		picture="";
+		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		displayName="[K] JT-12 Jumppack";
 		model = "442_jumppack\jt12.p3d";
 		hiddenselections[] = 
@@ -83,11 +82,16 @@ class CfgVehicles
 		NSM_jumppack_energy_capacity=200;
 		NSM_jumppack_recharge=5;
 		NSM_jumppack_jump_effect_script="NSM_jumppack_effect_fnc_jt_21";
-		NSM_jumppack_effect_points[]=
+		NSM_jumppack_effect_points[] = 
 		{
-			
-			"effect1",
-			"effect2"
+			{
+				"effect1",
+				{0,.6,1} // {side to side , forward, verticle}
+			},
+			{
+				"effect2",
+				{0,.6,1}
+			}
 		};
 		NSM_jumppack_sound_ignite[]=
 		{
@@ -115,18 +119,25 @@ class CfgVehicles
 			}
 		};
 	};
-	class 442_jt12_radio: 442_jumppack
+	class 442_jt12_radio: 442_jt12
 	{
 		model = "442_jumppack\jt12_radio.p3d";
+		scope = 2;
 		NSM_jumppack_is_jumppack=1;
 		NSM_jumppack_spam_delay=1;
 		NSM_jumppack_energy_capacity=200;
 		NSM_jumppack_recharge=5;
 		NSM_jumppack_jump_effect_script="NSM_jumppack_effect_fnc_jt_21";
-		NSM_jumppack_effect_points[]=
+		NSM_jumppack_effect_points[] = 
 		{
-			"effect1",
-			"effect2"
+			{
+				"effect1",
+				{0,.6,1} // {side to side , forward, verticle}
+			},
+			{
+				"effect2",
+				{0,.6,1}
+			}
 		};
 		NSM_jumppack_sound_ignite[]=
 		{
@@ -162,7 +173,7 @@ class CfgVehicles
 			"442_jumppack\data\radio_co.paa"
 		};
 		maximumload=150;
-		picture="";
+		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		displayName="[K] JT-12 Jumppack (Radio)";
 		tf_dialog="SWLB_clone_rto_radio_dialog";
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
