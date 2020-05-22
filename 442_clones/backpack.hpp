@@ -161,38 +161,3 @@ class k_clone_backpack_rocket: k_clone_backpack_base
 		"442_clones\data\backpack\pouches_co.paa",
 	};
 };
-
-/////////////legion bags///////////
-
-class k_swla_clone_bag: k_swla_clone_bag_base
-{
-	displayName="[K] Clone trooper bags";
-	scope=2;
-	hiddenSelectionstextures[]=
-	{
-		"\SWLB_equipment\backpacks\data\bag_co.paa",
-		"\SWLB_equipment\backpacks\data\bag_co.paa"
-	};
-};
-class k_swla_clone_bag_belt: k_swla_clone_bag_base
-{
-	displayName="[K] Clone trooper bags (belt)";
-	scope=2;
-	maximumload=50;
-	hiddenSelectionstextures[]=
-	{
-		"\SWLB_equipment\backpacks\data\bag_co.paa",
-		""
-	};
-};
-class k_swla_clone_bag_leg: k_swla_clone_bag_base
-{
-	displayName="[K] Clone trooper bags (leg)";
-	scope=2;
-	maximumload=50;
-	hiddenSelectionstextures[]=
-	{
-		"",
-		"\SWLB_equipment\backpacks\data\bag_co.paa"
-	};
-};

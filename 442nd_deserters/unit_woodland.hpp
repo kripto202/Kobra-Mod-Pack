@@ -9,7 +9,8 @@ class 442_swla_deserters_unit_woodland: 442_swla_deserters_unit_base
 	hiddenselectionsTextures[] = 
 	{
 		"\442nd_deserters\data\armor\442_swla_upper_woodland.paa",
-		"\442nd_deserters\data\armor\442_swla_lower_woodland.paa"
+		"\442nd_deserters\data\armor\442_swla_lower_woodland.paa",
+		"442_clones\data\uniform\mc_uniform\undersuit_co.paa",
 	};
 	linkedItems[] = 
 	{

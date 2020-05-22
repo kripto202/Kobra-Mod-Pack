@@ -1335,13 +1335,5 @@ class CfgVehicles
 		tf_range=25000;
 		tf_subtype="digital_lr";
 	};
-	class k_swla_bag_base: k_clone_backpack_base
-	{
-		picture = "";
-		displayname = "";
-		model = "";
-		hiddenselections[] = {};
-		maximumload = 100;
-	};
 	#include "backpack.hpp"
 };

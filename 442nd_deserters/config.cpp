@@ -126,6 +126,10 @@ class CfgPatches
 			"deserter_a10_plane_cas_b",
 			"deserter_fa181_plane_fighter_b",
 			"deserter_fa181_plane_fighter_stealth_b",
+
+			"442_deserters_laat_green",
+			"442_deserters_laat_tan",
+			"442_deserters_laat_black",
 		};
 		weapons[]={};
 	};
@@ -138,14 +142,22 @@ class CfgWeapons
 	class HeadgearItem;
 	class UniformItem;
 	class VestItem;
-	class 442_swla_p2_helmet_base;
-	class 442_swla_p15_helmet_base;
-	class 442_swla_airborne_helmet_base;
-	class 442_swla_pilot_helmet_base;
-	class 442_swla_barc_helmet_base;
-	class 442_swla_arf_helmet_base;
-	class 442_swla_eng_helmet_base;
-	class 442_swla_p1_helmet_base;
+
+	class k_p2_helmet;
+	class k_p15_helmet;
+	class k_airborne_helmet;
+	class k_p2_pilot_helmet;
+	class k_barc_helmet;
+	class k_p1_arf_helmet;
+	class k_p2_arf_helmet;
+	class k_eng_helmet;
+	class k_p1_helmet;
+	class k_p1_pilot_helmet;
+	class k_p1_specops_helmet;
+	class k_p2_specops_helmet;
+	class k_rex_helmet;
+	class k_Scout_Helmet;
+
 	class 442_swla_vest_base;
 	class 442_swla_officer_vest_base;
 	class 442_swla_commander_vest_base;
@@ -158,11 +170,14 @@ class CfgWeapons
 	class 442_swla_recon_officer_base;
 	class 442_swla_arc_vest_base;
 	class 442_swla_uniform_base;
+
 	class U_I_CombatUniform;
-	class SWLB_clone_uniform: U_I_CombatUniform
-	{
-		class ItemInfo;
-	};
+	class 442_swla_kama_vest_base;
+	class 442_swla_specialist_vest_base;
+	class 442_swla_grenadier_vest_base;
+	class 442_swla_assault_vest_base;
+	class k_swla_uniform;
+	class k_swla_mc_uniform;
 	class SWLB_clone_nvg;
 	class SWLB_clone_nvg_spec;
 	class SWLB_clone_nvg_nco;
@@ -170,19 +185,15 @@ class CfgWeapons
 	class SWLB_clone_rangefinder;
 	class SWLB_clone_ccVisor;
 	class SWLB_clone_mcVisor;
-	class 442_swla_kama_vest_base;
-	class 442_swla_specialist_vest_base;
-	class 442_swla_grenadier_vest_base;
-	class 442_swla_assault_vest_base;
 
-	class 442_swla_deserters_uniform_base: SWLB_clone_uniform
+	class 442_swla_deserters_uniform_base: k_swla_uniform
 	{
 		displayname = "[442] Uniform";
 		author = "kripto202";
 		scope = 0;
 		scopeCurator = 0;
 		scopeArsenal = 0;
-		class ItemInfo: ItemInfo
+		class ItemInfo: UniformItem
 		{
 			containerClass = "Supply200";
 			mass = 40;
@@ -201,13 +212,12 @@ class CfgWeapons
 };
 class CfgVehicles
 {
-	class SWLB_clone_base_P2;
-	class 442_swla_unit_base;
-	class 442_swla_deserters_unit_base: 442_swla_unit_base
+	class k_swla_unit_base;
+	class k_swla_unit_mc_base;
+	class 442_swla_deserters_unit_base: k_swla_unit_base
 	{
 		side = 2;
 		uniformclass = "442_swla_uniform_base";
-		model = "\SWLB_clones\SWLB_clone_uniform.p3d";
 		faction = "swla_442_deserters_f";
 		editorSubCategory = "swla_442_deserters_trooper_black";
 	};
@@ -290,7 +300,64 @@ class CfgVehicles
 	#include "argon.hpp"
 	
 	//aircraft
-	//#include "aircraft.hpp"
+	#include "aircraft.hpp"
+
+	class 442_laat_2;
+	class 442_laat_2_ab;
+
+	class 442_deserters_laat_green: 442_laat_2
+	{
+		scope = 2;
+		scopearsenal = 2;
+		scopecurator = 2;
+		side = 2;
+		faction = "swla_442_deserters_f";
+		crew = "442_swla_deserters_unit_pilot_woodland";
+		hiddenselectionstextures[] = 
+		{
+			"442nd_deserters\data\laat\body1_green.paa", //body1
+			"442_laat_2\data\body2_co.paa", //body2
+			"442nd_deserters\data\laat\door1_green.paa", //door1
+			"442nd_deserters\data\laat\door2_green.paa", //door2
+			"442nd_deserters\data\laat\door3_green.paa", //door3
+			"442nd_deserters\data\laat\wings_green.paa", //wings
+			"442_laat_2\data\missiles_co.paa",
+			"442_laat_2\data\cockpits_co.paa",
+			"442_laat_2\data\glass_ca.paa"
+		};
+	};
+	class 442_deserters_laat_tan: 442_deserters_laat_green
+	{
+		crew = "442_swla_deserters_unit_pilot_tan";
+		hiddenselectionstextures[] = 
+		{
+			"442nd_deserters\data\laat\body1_tan.paa", //body1
+			"442_laat_2\data\body2_co.paa", //body2
+			"442nd_deserters\data\laat\door1_tan.paa", //door1
+			"442nd_deserters\data\laat\door2_tan.paa", //door2
+			"442nd_deserters\data\laat\door3_tan.paa", //door3
+			"442nd_deserters\data\laat\wings_tan.paa", //wings
+			"442_laat_2\data\missiles_co.paa",
+			"442_laat_2\data\cockpits_co.paa",
+			"442_laat_2\data\glass_ca.paa"
+		};
+	};
+	class 442_deserters_laat_tan: 442_deserters_laat_green
+	{
+		crew = "442_swla_deserters_unit_pilot_black";
+		hiddenselectionstextures[] = 
+		{
+			"442nd_deserters\data\laat\body1_black.paa", //body1
+			"442_laat_2\data\body2_co.paa", //body2
+			"442nd_deserters\data\laat\door1_black.paa", //door1
+			"442nd_deserters\data\laat\door2_black.paa", //door2
+			"442nd_deserters\data\laat\door3_black.paa", //door3
+			"442nd_deserters\data\laat\wings_black.paa", //wings
+			"442_laat_2\data\missiles_co.paa",
+			"442_laat_2\data\cockpits_co.paa",
+			"442_laat_2\data\glass_ca.paa"
+		};
+	};
 };
 
 class cfgGroups
