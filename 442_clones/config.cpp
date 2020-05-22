@@ -1,7 +1,7 @@
 class CfgPatches{
 	class 442_clone{
 		author="kripto202";
-		requriedaddons[] = {};
+		requiredaddons[] = {};
 		units[]={};
 		weapons[]={
 			"k_p2_helmet",
@@ -71,7 +71,7 @@ class CfgWeapons
 		scope=0;
 		scopeCurator=0;
 		scopeArsenal=0;
-		picture="";
+		picture = "442_clones\data\ui\body.paa";
 		model="442_clones\base_body_gh"; //model for the ground
 		class ItemInfo: UniformItem
 		{
@@ -87,7 +87,7 @@ class CfgWeapons
 		author="kripto202";
 		scope=0;
 		displayName="Clone marshal commander armor";
-		picture="";
+		picture = "442_clones\data\ui\body_mc.paa";
 		model="442_clones\base_body_gh";
 		class ItemInfo: UniformItem
 		{
@@ -1242,6 +1242,7 @@ class CfgVehicles
 		scopeArsenal=1;
 		model="442_clones\base_body.p3d";
 		editorPreview="";
+		picture = "442_clones\data\ui\body.paa";
 		identityTypes[]=
 		{
 			"LanguageENG_F",
@@ -1266,7 +1267,7 @@ class CfgVehicles
 		{
 			"442_clones\data\uniform\uniform\camo1_co.paa",
 			"442_clones\data\uniform\uniform\camo2_co.paa",
-			"442_clones\data\uniform\uniform\undersuit_co.paa",
+			"442_clones\data\uniform\mc_uniform\undersuit_co.paa",
 		};
 		linkedItems[]={};
 		RespawnlinkedItems[]={};
@@ -1294,6 +1295,7 @@ class CfgVehicles
 	{
 		model="442_clones\base_body_mc.p3d";
 		uniformclass="k_swla_uniform_mc_base";
+		picture = "442_clones\data\ui\body_mc.paa";
 		hiddenselections[]=
 		{
 			"camo1",
@@ -1312,6 +1314,7 @@ class CfgVehicles
 	};
 /////////////backpacks//////////////////
 	class B_Kitbag_rgr;
+	class k_swla_clone_bag_base;
 	class k_clone_backpack_base: B_Kitbag_rgr
 	{
 		author = "kripto202";
@@ -1320,14 +1323,7 @@ class CfgVehicles
 		displayname = "";
 		model = "";
 		maximumload = 200;
-		hiddenselections[] = 
-		{
-			"camo1",
-			"cover",
-			"heavy",
-			"medic",
-			"RTO"
-		};
+		hiddenselections[] = {};
 	};
 	class k_clone_rto_backpack_base: k_clone_backpack_base
 	{
@@ -1341,17 +1337,5 @@ class CfgVehicles
 		tf_range=25000;
 		tf_subtype="digital_lr";
 	};
-	class k_swla_bag_base: k_clone_backpack_base
-	{
-		picture = "";
-		displayname = "";
-		model = "";
-		hiddenselections[] = 
-		{
-			"camo1",
-			"camo2"
-		};
-		maximumload = 100;
-	};
-	//#include "backpack.hpp"
+	#include "backpack.hpp"
 };

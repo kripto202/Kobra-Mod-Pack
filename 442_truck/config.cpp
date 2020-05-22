@@ -196,7 +196,7 @@ class cfgVehicles
 	
 	class rep_argon_transport: 442_argon_transport
 	{
-		faction = "SWLB_GAR";
+		faction = "kobra";
 		crew = "SWLB_clone_base_P2";
 		hiddenSelectionsTextures[]=
 		{
@@ -207,7 +207,7 @@ class cfgVehicles
 	};
 	class rep_argon_covered: 442_argon_covered
 	{
-		faction = "SWLB_GAR";
+		faction = "kobra";
 		crew = "SWLB_clone_base_P2";
 		hiddenSelectionsTextures[] =
 		{
@@ -219,7 +219,7 @@ class cfgVehicles
 	};
 	class rep_argon_ammo: 442_argon_ammo
 	{
-		faction = "SWLB_GAR";
+		faction = "kobra";
 		crew = "SWLB_clone_base_P2";
 		hiddenSelectionsTextures[] =
 		{
@@ -231,7 +231,7 @@ class cfgVehicles
 	};
 	class rep_argon_device: 442_argon_device
 	{
-		faction = "SWLB_GAR";
+		faction = "kobra";
 		crew = "SWLB_clone_base_P2";
 		hiddenSelectionsTextures[] =
 		{
@@ -244,7 +244,7 @@ class cfgVehicles
 	};
 	class rep_argon_fuel: 442_argon_fuel
 	{
-		faction = "SWLB_GAR";
+		faction = "kobra";
 		crew = "SWLB_clone_base_P2";
 		hiddenSelectionsTextures[] =
 		{
@@ -255,7 +255,7 @@ class cfgVehicles
 	};
 	class rep_argon_repair: 442_argon_repair
 	{
-		faction = "SWLB_GAR";
+		faction = "kobra";
 		crew = "SWLB_clone_base_P2";
 		hiddenSelectionsTextures[] =
 		{

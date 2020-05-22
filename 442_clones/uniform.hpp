@@ -4,7 +4,6 @@ class k_swla_uniform: k_swla_uniform_base
     scope = 2;
     scopecurator = 2;
     scopearsenal = 2;
-    picture = "";
     class ItemInfo: ItemInfo
     {
         uniformclass = "k_swla_unit_base";
@@ -16,7 +15,6 @@ class k_swla_mc_uniform: k_swla_uniform_mc_base
     scope = 2;
     scopecurator = 2;
     scopearsenal = 2;
-    picture = "";
     class ItemInfo: ItemInfo
     {
         uniformclass = "k_swla_unit_mc_base";

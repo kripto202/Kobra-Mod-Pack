@@ -43,7 +43,7 @@ class cfgVehicles
 		scope = 2;
 		side = 1;
 		crew = "442_unit_crewman_1_dc15s";
-		faction = "442_siege_bat";
+		faction = "kobra";
 		editorsubcategory = "442_optre_vehicles";
 		hiddenSelections[] = 
 		{
@@ -68,7 +68,7 @@ class cfgVehicles
 		scope = 2;
 		side = 1;
 		crew = "442_swla_unit_crewman";
-		faction = "442_siege_bat";
+		faction = "kobra";
 		editorsubcategory = "442_optre_vehicles";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_troop"};
 		hiddenSelectionsTextures[] = 
@@ -83,7 +83,7 @@ class cfgVehicles
 		scope = 2;
 		side = 1;
 		crew = "442_swla_unit_crewman";
-		faction = "442_siege_bat";
+		faction = "kobra";
 		editorsubcategory = "442_optre_vehicles";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia"};
 		hiddenSelectionsTextures[] = 
@@ -98,7 +98,7 @@ class cfgVehicles
 		scope = 2;
 		side = 1;
 		crew = "442_swla_unit_crewman";
-		faction = "442_siege_bat";
+		faction = "kobra";
 		editorsubcategory = "442_optre_vehicles";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_mg","attach_antenna"};
 		hiddenSelectionsTextures[] = 
