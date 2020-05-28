@@ -10,7 +10,6 @@ class CfgPatches{
 class CfgVehicles
 {
 	class B_Kitbag_rgr;
-	class k_swla_clone_bag_base;
 	class 442_jumppack: B_Kitbag_rgr
 	{
 		author = "kripto202";
