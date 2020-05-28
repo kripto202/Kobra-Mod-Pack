@@ -59,7 +59,7 @@ class CfgVehicles
 		{
 			{
 				"Forward Jump",
-				{12,20,75,0,0,0}
+				{12,20,50,0,0,0}
 			}
 		};
 	};
@@ -106,37 +106,32 @@ class CfgVehicles
 			"NSM_Main\sounds\cdv21Idle.ogg"
 		};
 		NSM_jumppack_jump_types[]=
-		{
-			
-			{
-				"Forward Jump",
-				{12,20,50,0,0,0}
-			},
-			
+		{	
 			{
 				"Short Jump",
-				{25,7,20,0,1,1}
+				{25,7,50,0,1,1}
 			}
 		};
 	};
-	class 442_jt12_radio: 442_jt12
+	class 442_jt12_single: 442_jt12
 	{
-		model = "442_jumppack\jt12_radio.p3d";
 		scope = 2;
+		maximumload=0;
+		displayname = "[K] JT12 Paradrop";
 		NSM_jumppack_is_jumppack=1;
 		NSM_jumppack_spam_delay=1;
-		NSM_jumppack_energy_capacity=200;
-		NSM_jumppack_recharge=5;
+		NSM_jumppack_energy_capacity=1;
+		NSM_jumppack_recharge=0;
 		NSM_jumppack_jump_effect_script="NSM_jumppack_effect_fnc_jt_21";
 		NSM_jumppack_effect_points[] = 
 		{
 			{
 				"effect1",
-				{0,.6,1} // {side to side , forward, verticle}
+				{0,0,0} // {side to side , forward, verticle}
 			},
 			{
 				"effect2",
-				{0,.6,1}
+				{0,0,0}
 			}
 		};
 		NSM_jumppack_sound_ignite[]=
@@ -154,12 +149,64 @@ class CfgVehicles
 		NSM_jumppack_jump_types[]=
 		{
 			{
-				"Forward Jump",
-				{12,20,50,0,0,0}
+				"Short Jump",
+				{25,7,1,0,1,1}
+			}
+		};
+	};
+	class 442_jt12_pj: 442_jt12
+	{
+		displayname = "[K] JT12 Parajumper";
+		maximumload=350;
+	};
+	class 442_jt12_pj_radio: 442_jt12
+	{
+		displayname = "[K] JT12 Parajumper (Radio)";
+		maximumload = 350;
+		tf_dialog="SWLB_clone_rto_radio_dialog";
+		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
+		tf_encryptionCode="tf_west_radio_code";
+		tf_hasLRradio=1;
+		tf_range=25000;
+		tf_subtype="digital_lr";
+	};
+	class 442_jt12_radio: 442_jt12
+	{
+		model = "442_jumppack\jt12_radio.p3d";
+		scope = 2;
+		NSM_jumppack_is_jumppack=1;
+		NSM_jumppack_spam_delay=1;
+		NSM_jumppack_energy_capacity=200;
+		NSM_jumppack_recharge=5;
+		NSM_jumppack_jump_effect_script="NSM_jumppack_effect_fnc_jt_21";
+		NSM_jumppack_effect_points[] = 
+		{
+			{
+				"effect1",
+				{0,0,0} // {side to side , forward, verticle}
 			},
 			{
+				"effect2",
+				{0,0,0}
+			}
+		};
+		NSM_jumppack_sound_ignite[]=
+		{
+			"NSM_Main\sounds\cdv21Start.ogg"
+		};
+		NSM_jumppack_sound_land[]=
+		{
+			"NSM_Main\sounds\cdv21End.ogg"
+		};
+		NSM_jumppack_sound_idle[]=
+		{
+			"NSM_Main\sounds\cdv21Idle.ogg"
+		};
+		NSM_jumppack_jump_types[]=
+		{
+			{
 				"Short Jump",
-				{25,7,20,0,1,1}
+				{25,7,50,0,1,1}
 			}
 		};
 		hiddenselections[] = 
