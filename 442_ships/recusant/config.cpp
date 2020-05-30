@@ -224,8 +224,3 @@ class CfgVehicles
 		model="\442_ships\recusant\rec_engine_d.p3d";
 	};
 };
-class cfgMods
-{
-	author="kripto202";
-	timepacked="1587464916";
-};

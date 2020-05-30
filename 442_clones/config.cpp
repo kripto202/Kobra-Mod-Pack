@@ -1314,7 +1314,6 @@ class CfgVehicles
 	};
 /////////////backpacks//////////////////
 	class B_Kitbag_rgr;
-	class k_swla_clone_bag_base;
 	class k_clone_backpack_base: B_Kitbag_rgr
 	{
 		author = "kripto202";
