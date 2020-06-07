@@ -78,4 +78,9 @@ class cfgvehicles
 		displayname="Recusent";
 		model="\442_misc\hologram\recusent.p3d";
 	};
+	class 442_holo_mandator: 442_holo_acclamator_1
+	{
+		displayname="mandator";
+		model="\442_misc\hologram\mandator.p3d";
+	};
 };

@@ -94,7 +94,7 @@ class CfgVehicles
 		model="\442_ships\lucrehulk\lucrehulk_base.p3d";
 		reversed=0;
 		scope=2;
-		scopecurator=1;
+		scopecurator=2;
 		editorpreview="";
 		editorcategory="kobra";
 		editorsubcategory="442_ships";

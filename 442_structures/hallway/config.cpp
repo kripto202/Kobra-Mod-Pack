@@ -22,7 +22,9 @@ class CfgPatches
 			"442_4way_rep",
 			"442_5way_rep_r",
 			"442_corner_rep",
-			"442_corner_rep_r"
+			"442_corner_rep_r",
+			"442_ramp_rep",
+			"442_ramp_rep_r"
 		};
 		author="kripto202";
 	};
@@ -61,7 +63,7 @@ class CfgVehicles
 			"roof",
 			"light"
 		};
-		class MarkerLights
+		/* class MarkerLights
 		{
 			class Light_1
 			{
@@ -109,7 +111,7 @@ class CfgVehicles
 					hardLimitEnd=5;
 				};
 			};
-		};
+		}; */
 		hiddenselectionstextures[]=
 		{
 			"442_structures\hallway\data\roof_co.paa",
@@ -119,7 +121,7 @@ class CfgVehicles
 	class 442_roof_r: 442_roof
 	{
 		displayName="Roof Light (Red)";
-		class MarkerLights
+		/* class MarkerLights
 		{
 			class Light_1
 			{
@@ -167,7 +169,7 @@ class CfgVehicles
 					hardLimitEnd=5;
 				};
 			};
-		};
+		}; */
 		hiddenselectionstextures[]=
 		{
 			"442_structures\hallway\data\roof_co.paa",
@@ -191,7 +193,7 @@ class CfgVehicles
 	{
 		displayName="Wall Light";
 		model="\442_structures\hallway\walllight.p3d";
-		class MarkerLights
+		/* class MarkerLights
 		{
 			class Light_1
 			{
@@ -216,7 +218,7 @@ class CfgVehicles
 					hardLimitEnd=5;
 				};
 			};
-		};
+		}; */
 		hiddenselections[]=
 		{
 			"wall",
@@ -231,7 +233,7 @@ class CfgVehicles
 	class 442_wall_light_r: 442_wall_light
 	{
 		displayName="Wall Light (Red)";
-		class MarkerLights
+		/* class MarkerLights
 		{
 			class Light_1
 			{
@@ -256,7 +258,7 @@ class CfgVehicles
 					hardLimitEnd=5;
 				};
 			};
-		};
+		}; */
 		hiddenselectionstextures[]=
 		{
 			"442_structures\hallway\data\wall_1_co.paa",
@@ -272,7 +274,7 @@ class CfgVehicles
 			"segment",
 			"light"
 		};
-		class MarkerLights
+		/* class MarkerLights
 		{
 			class Light_1
 			{
@@ -297,7 +299,7 @@ class CfgVehicles
 					hardLimitEnd=5;
 				};
 			};
-		};
+		}; */
 		hiddenselectionstextures[]=
 		{
 			"442_structures\hallway\data\segment_co.paa",
@@ -307,7 +309,7 @@ class CfgVehicles
 	class 442_segment_r: 442_segment
 	{
 		displayName="Segment (Red)";
-		class MarkerLights
+		/* class MarkerLights
 		{
 			class Light_1
 			{
@@ -332,7 +334,7 @@ class CfgVehicles
 					hardLimitEnd=5;
 				};
 			};
-		};
+		}; */
 		hiddenselectionstextures[]=
 		{
 			"442_structures\hallway\data\segment_co.paa",
@@ -413,32 +415,32 @@ class CfgVehicles
 			"442_structures\hallway\data\wall_2_co.paa",
 			"442_structures\hallway\data\light_co.paa"
 		};
-		class MarkerLights
-		{
-			class Light_1
-			{
-				color[]={1,1,1};
-				ambient[]={0.0099999998,0.0099999998,0.0099999998};
-				intensity=10;
-				name="Lightpos";
-				useFlare=0;
-				flareSize=0;
-				flareMaxDistance=0;
-				activeLight=1;
-				blinking=0;
-				dayLight=0;
-				drawLight=0;
-				class Attenuation
-				{
-					start=0;
-					constant=0;
-					linear=1;
-					quadratic=0;
-					hardLimitStart=20;
-					hardLimitEnd=5;
-				};
-			};
-		};
+		// class MarkerLights
+		// {
+			// class Light_1
+			// {
+				// color[]={1,1,1};
+				// ambient[]={0.0099999998,0.0099999998,0.0099999998};
+				// intensity=10;
+				// name="Lightpos";
+				// useFlare=0;
+				// flareSize=0;
+				// flareMaxDistance=0;
+				// activeLight=1;
+				// blinking=0;
+				// dayLight=0;
+				// drawLight=0;
+				// class Attenuation
+				// {
+					// start=0;
+					// constant=0;
+					// linear=1;
+					// quadratic=0;
+					// hardLimitStart=20;
+					// hardLimitEnd=5;
+				// };
+			// };
+		// };
 	};
 	class 442_2way_rep_r: 442_2way_rep
 	{
@@ -453,7 +455,7 @@ class CfgVehicles
 			"442_structures\hallway\data\wall_2_co.paa",
 			"442_structures\hallway\data\light_2_co.paa"
 		};
-		class MarkerLights
+		/* class MarkerLights
 		{
 			class Light_1
 			{
@@ -478,7 +480,7 @@ class CfgVehicles
 					hardLimitEnd=5;
 				};
 			};
-		};
+		}; */
 	};
 	class 442_3way_rep: 442_2way_rep
 	{
@@ -508,7 +510,7 @@ class CfgVehicles
 			"442_structures\hallway\data\wall_2_co.paa",
 			"442_structures\hallway\data\light_2_co.paa"
 		};
-		class MarkerLights
+		/* class MarkerLights
 		{
 			class Light_1
 			{
@@ -533,7 +535,7 @@ class CfgVehicles
 					hardLimitEnd=5;
 				};
 			};
-		};
+		}; */
 	};
 	class 442_4way_rep: 442_2way_rep
 	{
@@ -563,7 +565,7 @@ class CfgVehicles
 			"442_structures\hallway\data\wall_2_co.paa",
 			"442_structures\hallway\data\light_2_co.paa"
 		};
-		class MarkerLights
+		/* class MarkerLights
 		{
 			class Light_1
 			{
@@ -588,7 +590,7 @@ class CfgVehicles
 					hardLimitEnd=5;
 				};
 			};
-		};
+		}; */
 	};
 	class 442_corner_rep: 442_2way_rep
 	{
@@ -618,7 +620,7 @@ class CfgVehicles
 			"442_structures\hallway\data\wall_2_co.paa",
 			"442_structures\hallway\data\light_2_co.paa"
 		};
-		class MarkerLights
+		/* class MarkerLights
 		{
 			class Light_1
 			{
@@ -643,6 +645,33 @@ class CfgVehicles
 					hardLimitEnd=5;
 				};
 			};
+		}; */
+	};
+	class 442_ramp_rep: 442_floor
+	{
+		displayname = "Ramp";
+		model = "442_structures\hallway\ramp.p3d";
+		hiddenselections[] = 
+		{
+			"ramp",
+			"segment",
+			"light"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"442_structures\hallway\data\ramp_co.paa",
+			"442_structures\hallway\data\segment_co.paa",
+			"442_structures\hallway\data\light_co.paa"
+		};
+	};
+	class 442_ramp_rep_r: 442_ramp_rep
+	{
+		displayname = "Ramp (Red)";
+		hiddenselectionstextures[] = 
+		{
+			"442_structures\hallway\data\ramp_co.paa",
+			"442_structures\hallway\data\segment_co.paa",
+			"442_structures\hallway\data\light_2_co.paa"
 		};
 	};
 };
