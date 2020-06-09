@@ -221,7 +221,7 @@ class cfgVehicles
 		scope = 2;
 		side = 1;
 		crew = "SWLB_clone_base_P2";
-		faction = "SWLB_GAR";
+		faction = "kobra";
 		editorsubcategory = "442_rep_warthog";
 		hiddenSelections[] = 
 		{
@@ -414,7 +414,7 @@ class cfgVehicles
 		scope = 2;
 		side = 1;
 		crew = "SWLB_clone_base_P2";
-		faction = "SWLB_GAR";
+		faction = "kobra";
 		editorsubcategory = "442_rep_warthog";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_troop"};
 		hiddenSelectionsTextures[] = 
@@ -445,7 +445,7 @@ class cfgVehicles
 		scope = 2;
 		side = 1;
 		crew = "SWLB_clone_base_P2";
-		faction = "SWLB_GAR";
+		faction = "kobra";
 		editorsubcategory = "442_rep_warthog";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_mg","attach_antenna"};
 		hiddenSelectionsTextures[] = 
@@ -476,7 +476,7 @@ class cfgVehicles
 		scope = 2;
 		side = 1;
 		crew = "SWLB_clone_base_P2";
-		faction = "SWLB_GAR";
+		faction = "kobra";
 		editorsubcategory = "442_rep_warthog";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia"};
 		hiddenSelectionsTextures[] = 
@@ -492,7 +492,7 @@ class cfgVehicles
 		scope = 2;
 		side = 0;
 		crew = "442_b1_crew_base";
-		faction = "442_CIS";
+		faction = "kobra";
 		editorsubcategory = "442_rep_warthog";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_troop"};
 		hiddenSelectionsTextures[] = 
