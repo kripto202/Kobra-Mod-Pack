@@ -6,20 +6,28 @@ class Turrets: Turrets
 		{
 			class CommanderOptics: CommanderOptics
 			{
-				body = "ObsTurret";
-				gun = "ObsGun";
+				body = "side_turret_l";
+				gun = "side_gun_l";
 				proxyIndex = 4;
 				viewGunnerInExternal = 0;
 				proxytype = "CPCommander";
-				gunnername = "Commander";
+				gunnername = "Side Gunner";
 				animationSourceBody = "ObsTurret";
 				animationSourceGun = "ObsGun";
-				minElev = -10;
-				maxElev = 60;
-				initElev = 0;
-				minTurn = -15;
-				maxTurn = 15;
-				initOutTurn = 0;
+				minElev=-20;
+				maxElev=30;
+				minTurn=-25;
+				maxTurn=25;
+				initElev=0;
+				initTurn=0;
+				
+				minOutElev=-25;
+				maxOutElev=45;
+				initOutElev=0;
+				minOutTurn=-90;
+				maxOutTurn=90;
+				initOutTurn=0;
+				
 				maxHorizontalRotSpeed = 1.8;
 				maxVerticalRotSpeed = 1.8;
 				stabilizedInAxes = 3;
@@ -34,9 +42,13 @@ class Turrets: Turrets
 				soundAttenuationTurret = "HeliAttenuationGunner";
 				isPersonTurret = 1;
 				personTurretAction = "vehicle_turnout_1";
-				memoryPointGun[] = {};
-				weapons[] = {"SmokeLauncher"};
-				magazines[] = {"SmokeLauncherMag"};
+				memoryPointGun[]=
+				{
+					"konec_hlavne_1",
+					"konec_hlavne_2"
+				};
+				weapons[]={"HMG_127"};
+				magazines[]={"500Rnd_127x99_mag","500Rnd_127x99_mag"};
 				turretInfoType = "RscWeaponRangeZeroing";
 				discreteDistance[] = {100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500};
 				discreteDistanceInitIndex = 2;
@@ -46,53 +58,71 @@ class Turrets: Turrets
 				gunnerOutOpticsModel = "";
 				gunnerOpticsEffect[] = {};
 				gunnerHasFlares = 1;
-				class ViewOptics: ViewOptics
+				turretfollowfreelook = 1;
+				class OpticsIn 
 				{
-					initAngleX = 0;
-					minAngleX = -30;
-					maxAngleX = 30;
-					initAngleY = 0;
-					minAngleY = -100;
-					maxAngleY = 100;
-					initFov = 0.155;
-					minFov = 0.034;
-					maxFov = 0.155;
-					visionMode[] = {"Normal","NVG","Ti"};
-					thermalMode[] = {2,3,4};
+					class Wide: ViewOptics {
+						initAngleX=0;
+						minAngleX=-8;
+						maxAngleX=8;
+						initAngleY=0;
+						minAngleY=-45;
+						maxAngleY=+80;
+						initFov=0.3;
+						minFov=0.3;
+						maxFov=0.3;
+						visionMode[] = {"Normal","Ti"};
+						thermalMode[] = {4,5}; //red hot chilli
+						gunnerOpticsModel = "\A3\Weapons_F\Reticle\Optics_Gunner_MTB_02_w_F.p3d";
+						gunnerOpticsEffect[] = {};
+					};
 				};
 				gunnerGetInAction = "GetInHigh";
 				gunnerGetOutAction = "GetOutHigh";
 				startEngine = 0;
 				LODTurnedOut = "VIEW_GUNNER";
 				LODTurnedIn = "VIEW_GUNNER";
-				class HitPoints
+				class HitPoints 
 				{
-					class HitTurret
-					{
-						armor = 0.3;
+					class HitTurret	{
+						armor = 0.8;
 						material = -1;
-						name = "Commander_Turret";
-						visual = "commander_turret";
+						name = "vez";
+						visual="vez";
 						passThrough = 0;
-						minimalHit = 0.03;
-						explosionShielding = 0.6;
+						minimalHit = 0.02;
+						explosionShielding = 0.3;
 						radius = 0.25;
 					};
-					class HitGun
-					{
+					class HitGun	{
 						armor = 0.3;
 						material = -1;
-						name = "Commander_Gun";
-						visual = "Commander_Gun";
+						name = "zbran";
+						visual="";
 						passThrough = 0;
-						minimalHit = 0.03;
-						explosionShielding = 0.6;
+						minimalHit = 0;
+						explosionShielding = 1;
 						radius = 0.25;
 					};
 				};
-				selectionFireAnim = "zasleh1";
+				selectionFireAnim = "";
+				gunBeg[] = 
+				{
+					"konec_hlavne_1",
+					"konec_hlavne_2"
+				};
+				gunEnd[] = 
+				{
+					"usti_hlavne_1",
+					"usti_hlavne_2"
+				};
+				memoryPointGun[] = 
+				{
+					"konec_hlavne_1",
+					"konec_hlavne_2"
+				};
 			};
-			class side_turret: NewTurret
+			/*class side_turret: NewTurret
 			{
 				// Animation class
 				body = "side_turret";
@@ -210,7 +240,7 @@ class Turrets: Turrets
 						radius = 0.25;
 					};
 				};
-			};
+			};*/
 		};
 		// Main gun
 		gunBeg = "usti hlavne";
