@@ -36,6 +36,7 @@ class cfgVehicles
 	class OPTRE_M12R_AA;
 	class OPTRE_M813_TT;
 	class OPTRE_M914_RV;
+	class 442_warthog_mg;
 	
 	class bl_warthog_unarmed: OPTRE_M12_FAV
 	{
@@ -62,7 +63,7 @@ class cfgVehicles
 			"OPTRE_Vehicles\Warthog\data\warthog_addons_black_co.paa"
 		};
 	};
-	class bl_warthog_mg: OPTRE_M12_LRV
+	class bl_warthog_mg: 442_warthog_mg
 	{
 		displayname = "[BL] Warthog (MG)";
 		scope = 2;
