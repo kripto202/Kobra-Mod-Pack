@@ -242,6 +242,7 @@ class CfgVehicles
 	class OPTRE_M12R_AA;
 	class OPTRE_M813_TT;
 	class OPTRE_M914_RV;
+	class 442_warthog_mg;
 	#include "warthog.hpp"
 	
 	//helmets
