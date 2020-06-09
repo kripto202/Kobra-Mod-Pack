@@ -323,7 +323,7 @@ class Sounds: Sounds
 		volume="engineOn*(1-camPos)*(((rpm/	2640) factor[(550/	2640),(730/	2640)])	*	((rpm/	2640) factor[(800/	2640),(780/	2640)]))";
 	};
 	
-}; */
+};*/
 {
 	class Idle_ext
 	{
