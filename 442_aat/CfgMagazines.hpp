@@ -3,77 +3,52 @@ class CfgMagazines
 
 	class CA_Magazine;
 	class VehicleMagazine;
+	class 40Rnd_105mm_APFSDS_T_Green;
 //Side Guns
-	class 500Rnd_127x99_mag: VehicleMagazine
+	class 442_500Rnd_127x99_mag_red: VehicleMagazine
 	{
-		author = "$STR_A3_Bohemia_Interactive";
+		displayname = "12.7x99mm 500Rnd plasma (Red)";
+		displaynameshort = "12.7x99mm";
 		scope = 2;
 		count = 500;
-		ammo = "B_127x99_Ball";
+		ammo = "442_127x99_red";
 		initSpeed = 910;
 		maxLeadSpeed = 36.1111;
-		tracersEvery = 4;
+		tracersEvery = 1;
 		nameSound = "mgun";
-		displayName = "$STR_A3_CfgMagazines_500Rnd_127x99_mag0";
-		descriptionShort = "$STR_A3_CfgMagazines_500Rnd_127x99_mag1";
 		muzzleImpulseFactor[] = {0.05,0.05};
 	};
 
 //Main Cannon
-	class 30Rnd_120mm_HE_shells: VehicleMagazine
+	class 442_30Rnd_75mm_HE_mag_red: 40Rnd_105mm_APFSDS_T_Green
 	{
-		author = "$STR_A3_Bohemia_Interactive";
 		scope = 2;
-		displayName = "$STR_A3_CfgMagazines_30Rnd_120mm_HE_shells0";
-		displayNameShort = "$STR_A3_CfgMagazines_30Rnd_120mm_HE_shells_dns";
-		ammo = "Sh_120mm_HE";
+		displayName = "75mm 30Rnd HE Plasma Rod Magazine (Red)";
+		displayNameShort = "75mm HE";
+		ammo = "442_75mm_red_he";
 		count = 30;
-		initSpeed = 1410;
-		maxLeadSpeed = 25;
-		tracersEvery = 0;
-		nameSound = "cannon";
+		tracersEvery = 1;
 		muzzleImpulseFactor[] = {1.0,6};
 	};
-	class 30Rnd_120mm_HE_shells_Tracer_Red: 30Rnd_120mm_HE_shells
+	class 442_30Rnd_75mm_AP_mag_red: 442_30Rnd_75mm_HE_mag_red
 	{
-		author = "$STR_A3_Bohemia_Interactive";
-		displayName = "$STR_A3_CFGMAGAZINES_120MMHE";
-		displayNameShort = "$STR_A3_CFGMAGAZINES_120MMHE_DNS";
-		displayNameMFDFormat = "HE";
-		ammo = "Sh_120mm_HE_Tracer_Red";
-		tracersEvery = 1;
-	};
-	class 30Rnd_120mm_APFSDS_shells: 30Rnd_120mm_HE_shells
-	{
-		author = "$STR_A3_Bohemia_Interactive";
-		displayName = "$STR_A3_CFGMAGAZINES_120MMAPFSDS";
-		displayNameShort = "$STR_A3_CFGMAGAZINES_APFSD0";
-		ammo = "Sh_120mm_APFSDS";
-		initSpeed = 1680;
-		muzzleImpulseFactor[] = {0.5,3};
-	};
-	class 30Rnd_120mm_APFSDS_shells_Tracer_Red: 30Rnd_120mm_APFSDS_shells
-	{
-		author = "$STR_A3_Bohemia_Interactive";
-		displayName = "$STR_A3_CFGMAGAZINES_120MMAPFSDST";
-		displayNameShort = "$STR_A3_CFGMAGAZINES_APFSD_T0";
-		displayNameMFDFormat = "APDS";
-		ammo = "Sh_120mm_APFSDS_Tracer_Red";
-		tracersEvery = 1;
+		displayName = "75mm 30Rnd AP Plasma Rod Magazine (Red)";
+		displayNameShort = "75mm AP";
+		ammo = "442_75mm_red_ap";
 	};
 
 //Driver Guns	
-	class 200Rnd_20mm_G_belt: VehicleMagazine
+	class 442_50Rnd_40mm_G_belt: VehicleMagazine
 	{
 		author = "$STR_A3_Bohemia_Interactive";
 		scope = 2;
-		ammo = "G_20mm_HE";
+		ammo = "442_40mm_HE";
 		initSpeed = 400;
 		maxLeadSpeed = 25;
 		nameSound = "";
-		count = 200;
-		displayName = "$STR_A3_CfgMagazines_200Rnd_20mm_G_belt0";
-		descriptionShort = "$STR_A3_CfgMagazines_200Rnd_20mm_G_belt1";
+		count = 50;
+		displayName = "40mm 50Rnd HE Plasma Grenades";
+		descriptionShort = "40mm HE";
 		muzzleImpulseFactor[] = {0.1,0.1};
 	};
 

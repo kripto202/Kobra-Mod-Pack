@@ -75,6 +75,9 @@ class Optics_Gunner_AAA_01: Optics_Armored
 	class Medium;
 	class Narrow;
 };
+#include "CfgAmmo.hpp"
+#include "CfgMagazines.hpp"
+#include "CfgWeapons.hpp"
 class cfgvehicles
 {
 	class LandVehicle;
@@ -128,6 +131,8 @@ class cfgvehicles
 		side=0;
 		faction="442_CIS";
 		editorSubcategory="SWLG_GAR_tanks";
+		insideSoundCoef=0.89999998;
+		threat[]={0.80000001,1,0.30000001};
 		canFloat=1;
 		waterLeakiness=2.5;
 		waterAngularDampingCoef=4;
@@ -177,12 +182,12 @@ class cfgvehicles
 		DriverForceOptics=1;
 		weapons[]=
 		{
-			"GMG_20mm"
+			"442_aat_gmg"
 		};
 		magazines[]=
 		{
-			"200Rnd_20mm_G_belt",
-			"200Rnd_20mm_G_belt"
+			"442_50Rnd_40mm_G_belt",
+			"442_50Rnd_40mm_G_belt"
 		};
 		#include "memorypoints.hpp"
 		driver="SWLB_b1_crew_base";

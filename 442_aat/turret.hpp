@@ -47,8 +47,8 @@ class Turrets: Turrets
 					"konec_hlavne_1",
 					"konec_hlavne_2"
 				};
-				weapons[]={"HMG_127"};
-				magazines[]={"500Rnd_127x99_mag","500Rnd_127x99_mag"};
+				weapons[]={"442_aat_127"};
+				magazines[]={"442_500Rnd_127x99_mag_red","442_500Rnd_127x99_mag_red"};
 				turretInfoType = "RscWeaponRangeZeroing";
 				discreteDistance[] = {100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500};
 				discreteDistanceInitIndex = 2;
@@ -79,30 +79,51 @@ class Turrets: Turrets
 				};
 				gunnerGetInAction = "GetInHigh";
 				gunnerGetOutAction = "GetOutHigh";
-				startEngine = 0;
+				startEngine = 1;
 				LODTurnedOut = "VIEW_GUNNER";
 				LODTurnedIn = "VIEW_GUNNER";
 				class HitPoints 
 				{
-					class HitTurret	{
+					class HitTurret	
+					{
 						armor = 0.8;
 						material = -1;
-						name = "vez";
+						name = "gunner_turret_hit";
 						visual="vez";
 						passThrough = 0;
 						minimalHit = 0.02;
 						explosionShielding = 0.3;
 						radius = 0.25;
 					};
-					class HitGun	{
+					class HitGun	
+					{
 						armor = 0.3;
 						material = -1;
-						name = "zbran";
+						name = "gunner_turret_hit";
 						visual="";
 						passThrough = 0;
 						minimalHit = 0;
 						explosionShielding = 1;
 						radius = 0.25;
+					};
+				};
+				class Damage
+				{
+					tex[]={};
+					mat[]=
+					{
+						"A3\armor_f_gamma\MBT_01\Data\MBT_01_body.rvmat",
+						"A3\armor_f_gamma\MBT_01\Data\MBT_01_body_damage.rvmat",
+						"A3\armor_f_gamma\MBT_01\Data\MBT_01_body_destruct.rvmat",
+						"A3\armor_f_gamma\MBT_01\Data\MBT_01_int.rvmat",
+						"A3\armor_f_gamma\MBT_01\Data\MBT_01_int_damage.rvmat",
+						"A3\armor_f_gamma\MBT_01\Data\MBT_01_int_destruct.rvmat",
+						"A3\armor_f_gamma\MBT_01\Data\MBT_01_tow.rvmat",
+						"A3\armor_f_gamma\MBT_01\Data\MBT_01_tow_damage.rvmat",
+						"A3\armor_f_gamma\MBT_01\Data\MBT_01_tow_destruct.rvmat",
+						"A3\armor_f_gamma\MBT_01\Data\MBT_01_track.rvmat",
+						"A3\armor_f_gamma\MBT_01\Data\MBT_01_track_damage.rvmat",
+						"A3\armor_f_gamma\MBT_01\Data\MBT_01_track_destruct.rvmat"
 					};
 				};
 				selectionFireAnim = "";
@@ -122,125 +143,6 @@ class Turrets: Turrets
 					"konec_hlavne_2"
 				};
 			};
-			/*class side_turret: NewTurret
-			{
-				// Animation class
-				body = "side_turret";
-				gun = "side_turret_gun";
-				// Animation source
-				animationSourceBody = "side_turret";
-				animationSourceGun = "side_turret_gun";
-				// Main gun
-				gunBeg[] = 
-				{
-					"side_turret_l_muzzle",
-					"side_turret_r_muzzle"
-				};
-				gunEnd[] = 
-				{
-					"side_turret_l_muzzle_2",
-					"side_turret_r_muzzle_2"
-				};
-				memoryPointGun[] = 
-				{
-					"side_turret_l_muzzle",
-					"side_turret_r_muzzle"
-				};
-				proxyIndex = 3;
-				gunnerName="Side Gunner";
-				selectionFireAnim = "zasleh4";
-
-				// Weapons and magazines
-				weapons[]={"HMG_127"};
-				magazines[]={"500Rnd_127x99_mag","500Rnd_127x99_mag"};
-
-				// Turret servos
-				minElev=-5;
-				maxElev=+30;
-				minTurn=-15;
-				maxTurn=15;
-				initElev=0;
-				initTurn=0;
-				soundServo[]= {"A3\Sounds_F\vehicles\armor\noises\servo_best", db-40, 1.0,50};
-
-				// FCS
-				turretInfoType = "RscWeaponRangeZeroing";
-				discreteDistance[] = {
-					100,200,300,400,500,600,700,800,
-					900,1000,1100,1200,1300,1400,1500,1600,
-					1700,1800,1900,2000,2100,2200,2300,2400
-				};
-				discreteDistanceInitIndex = 5;	// start at 600 meters
-
-				// Optics view
-				memoryPointGunnerOptics= "gun_side_view";
-				gunnerOutOpticsModel = "";
-				gunnerOutOpticsEffect[] = {};
-				gunnerOpticsEffect[] = {};
-				gunnerForceOptics = 1;
-
-				// Field of view values: 1 = 120°
-				class OpticsIn 
-				{
-					class Wide: ViewOptics {
-						initAngleX=0;
-						minAngleX=-30;
-						maxAngleX=+30;
-						initAngleY=0;
-						minAngleY=-100;
-						maxAngleY=+100;
-						initFov=0.3;
-						minFov=0.3;
-						maxFov=0.3;
-						visionMode[] = {"Normal","Ti"};
-						thermalMode[] = {4,5}; //red hot chilli
-						gunnerOpticsModel = "\A3\Weapons_F\Reticle\Optics_Gunner_MTB_02_w_F.p3d";
-						gunnerOpticsEffect[] = {};
-					};
-					class Medium: Wide {
-						gunnerOpticsModel = "\A3\Weapons_F\Reticle\Optics_Gunner_MTB_02_m_F.p3d";
-						initFov=0.07;
-						minFov=0.07;
-						maxFov=0.07;
-					};
-					class Narrow: Wide {
-						gunnerOpticsModel = "\A3\Weapons_F\Reticle\Optics_Gunner_MTB_02_n_F.p3d";
-						initFov=0.028;
-						minFov=0.028;
-						maxFov=0.028;
-					};
-				};
-
-				// Gunner operations and animations
-				gunnerAction = mbt2_slot2a_out;
-				gunnerInAction = mbt2_slot2a_in;
-				forceHideGunner = 0;
-				inGunnerMayFire = 1;	// set to 0 to let gunner look around the internal compartment if modeled
-				viewGunnerInExternal = 1; // Needed to make gunner possible to be killed with penetrating rounds.
-				class HitPoints 
-				{
-					class HitTurret	{
-						armor = 0.8;
-						material = -1;
-						name = "vez";
-						visual="vez";
-						passThrough = 0;
-						minimalHit = 0.02;
-						explosionShielding = 0.3;
-						radius = 0.25;
-					};
-					class HitGun	{
-						armor = 0.3;
-						material = -1;
-						name = "zbran";
-						visual="";
-						passThrough = 0;
-						minimalHit = 0;
-						explosionShielding = 1;
-						radius = 0.25;
-					};
-				};
-			};*/
 		};
 		// Main gun
 		gunBeg = "usti hlavne";
@@ -248,8 +150,15 @@ class Turrets: Turrets
 		//memoryPointGun[] = {"turret_l","turret_r"};
 		proxyIndex = 2;
 		// Weapons and magazines
-		weapons[]={"cannon_120mm"};
-		magazines[]={"32Rnd_120mm_APFSDS_shells_Tracer_Red", "16Rnd_120mm_HE_shells_Tracer_Red"};
+		weapons[]={"442_aat_cannon_75mm"};
+		magazines[]=
+		{
+			"442_30Rnd_75mm_AP_mag_red",
+			"442_30Rnd_75mm_AP_mag_red",
+			"442_30Rnd_75mm_AP_mag_red",
+			"442_30Rnd_75mm_HE_mag_red",
+			"442_30Rnd_75mm_HE_mag_red",
+		};
 		// Turret servos
 		minElev=-5;
 		maxElev=+30;
@@ -313,26 +222,26 @@ class Turrets: Turrets
 		viewGunnerInExternal = 1; // Needed to make gunner possible to be killed with penetrating rounds.
 		class HitPoints 
 		{
-					class HitTurret	{
-						armor = 0.8;
-						material = -1;
-						name = "vez";
-						visual="vez";
-						passThrough = 0;
-						minimalHit = 0.02;
-						explosionShielding = 0.3;
-						radius = 0.25;
-					};
-					class HitGun	{
-						armor = 0.3;
-						material = -1;
-						name = "zbran";
-						visual="";
-						passThrough = 0;
-						minimalHit = 0;
-						explosionShielding = 1;
-						radius = 0.25;
-					};
+			class HitTurret	{
+				armor = 0.8;
+				material = -1;
+				name = "main_turret_hit";
+				visual="vez";
+				passThrough = 0;
+				minimalHit = 0.02;
+				explosionShielding = 0.3;
+				radius = 0.25;
+			};
+			class HitGun	{
+				armor = 0.3;
+				material = -1;
+				name = "main_gun_hit";
+				visual="";
+				passThrough = 0;
+				minimalHit = 0;
+				explosionShielding = 1;
+				radius = 0.25;
+			};
 		};
 	};
 };	
