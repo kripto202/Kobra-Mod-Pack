@@ -1039,7 +1039,7 @@ class cfgvehicles
 		icon="iconObject_1x2";
 		displayname = "HMP Gunship (Wrecked)";
 		model = "442_hmp\hmp_gunship_w.p3d";
-		editorCategory = "EdCat_Wrecks";
-		editorSubcategory = "EdSubcat_Helicopters";
+		editorCategory = "kobra";
+		editorSubcategory = "442_wrecks";
 	};
 };

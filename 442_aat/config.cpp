@@ -11,7 +11,8 @@ class cfgpatches
 		weapons[]={};
 		units[]=
 		{
-			"442_aat"
+			"442_aat",
+			"442_aat_wreck"
 		};
 	};
 };
@@ -81,6 +82,7 @@ class Optics_Gunner_AAA_01: Optics_Armored
 class cfgvehicles
 {
 	class LandVehicle;
+	class wreck_base_f;
 	class Tank: LandVehicle
 	{
 		class NewTurret;
@@ -201,7 +203,7 @@ class cfgvehicles
 			class recoil_source
 			{
 				source="reload";
-				weapon="cannon_120mm";
+				weapon="442_aat_cannon_75mm";
 			};
 		};
 		class Reflectors
@@ -299,5 +301,19 @@ class cfgvehicles
 				};
 			};
 		};
+	};
+
+	class 442_aat_wreck: Wreck_base_F
+	{
+		author = "kripto202";
+		mapsize = 20;
+		editorPreview = "";
+		scope = 2;
+		scopecurator = 2;
+		icon="iconObject_1x2";
+		displayname = "AAT (Wrecked)";
+		model = "442_aat\aat_wreck.p3d";
+		editorCategory = "kobra";
+		editorSubcategory = "442_wrecks";
 	};
 };

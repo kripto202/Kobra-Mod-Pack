@@ -3724,8 +3724,8 @@ class cfgvehicles
 		icon="iconObject_1x2";
 		displayname = "LAAT (Wrecked)";
 		model = "442_laat_2\laat_w.p3d";
-		editorCategory = "EdCat_Wrecks";
-		editorSubcategory = "EdSubcat_Helicopters";
+		editorCategory = "kobra";
+		editorSubcategory = "442_wrecks";
 	};
 	class 442_laat_door_1: Items_base_F
 	{
