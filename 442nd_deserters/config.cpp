@@ -64,19 +64,6 @@ class CfgPatches
 			"442_swla_deserters_unit_rifleman_dc15a_gl_tan",
 			"442_swla_deserters_ab_unit_rifleman_spec_tan",
 			
-			"442_deserter_warthog_unarmed_black",
-			"442_deserter_warthog_mg_black",
-			"442_deserter_warthog_at_black",
-			"442_deserter_warthog_tt_black",
-			"442_deserter_warthog_unarmed_tan",
-			"442_deserter_warthog_mg_tan",
-			"442_deserter_warthog_at_tan",
-			"442_deserter_warthog_tt_tan",
-			"442_deserter_warthog_unarmed_woodland",
-			"442_deserter_warthog_mg_woodland",
-			"442_deserter_warthog_at_woodland",
-			"442_deserter_warthog_tt_woodland",
-			
 			"442_deserter_p2_headgear_woodland",
 			"442_deserter_p2_headgear_tan",
 			"442_deserter_p2_headgear_black",
@@ -234,18 +221,6 @@ class CfgVehicles
 	class SWLB_clone_arc_backpack;
 	#include "backpack.hpp"
 	
-<<<<<<< Updated upstream
-	//warthog
-	class OPTRE_M12_FAV;
-	class OPTRE_M12_LRV;
-	class OPTRE_M12A1_LRV;
-	class OPTRE_M12G1_LRV;
-	class OPTRE_M12R_AA;
-	class OPTRE_M813_TT;
-	class OPTRE_M914_RV;
-	#include "warthog.hpp"
-	
-=======
 >>>>>>> Stashed changes
 	//helmets
 	class Headgear_Base_F;
