@@ -9,11 +9,6 @@ class cfgPatches
 			"bl_warthog_mg",
 			"bl_warthog_at",
 			"bl_warthog_tt",
-			
-			"rep_warthog_unarmed",
-			"rep_warthog_mg",
-			"rep_warthog_at",
-			"rep_warthog_tt",
 		};
 		requiredaddons[] = {};
 	};
@@ -43,6 +38,7 @@ class cfgVehicles
 		displayname = "[bl] Warthog (Unarmed)";
 		scope = 2;
 		side = 1;
+		driverAction = "Driver_Warthog";
 		crew = "SWLA_BL_Trooper";
 		faction = "black_legion";
 		editorsubcategory = "bl_optre_vehicles";
@@ -68,6 +64,7 @@ class cfgVehicles
 		displayname = "[BL] Warthog (MG)";
 		scope = 2;
 		side = 1;
+		driverAction = "Driver_Warthog";
 		crew = "SWLA_BL_Trooper";
 		faction = "black_legion";
 		editorsubcategory = "bl_optre_vehicles";
@@ -83,6 +80,7 @@ class cfgVehicles
 		displayname = "[BL] Warthog (Rocket)";
 		scope = 2;
 		side = 1;
+		driverAction = "Driver_Warthog";
 		crew = "SWLA_BL_Trooper";
 		faction = "black_legion";
 		editorsubcategory = "bl_optre_vehicles";
@@ -98,6 +96,7 @@ class cfgVehicles
 		displayname = "[BL] Warthog (Transport)";
 		scope = 2;
 		side = 1;
+		driverAction = "Driver_Warthog";
 		crew = "SWLA_BL_Trooper";
 		faction = "black_legion";
 		editorsubcategory = "bl_optre_vehicles";

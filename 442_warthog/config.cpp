@@ -175,17 +175,51 @@ class cfgWeapons
 };
 class cfgVehicles
 {
-	class Turrets;
-	class MainTurret;
-	class HitPoints;
-	class ViewOptics;
-	class CargoGunner_1;
 	class LandVehicle;
-	class AnimationSources;
+	class Car: LandVehicle
+	{
+		class NewTurret;
+	};
 	class OPTRE_M12_FAV;
-	class OPTRE_M12_LRV;
-	class OPTRE_M12A1_LRV;
-	class OPTRE_M12G1_LRV;
+	class OPTRE_M12_LRV: Car
+	{
+		class CargoTurret;
+		class Turrets
+		{
+			class CargoGunner_1;
+			class MainTurret: NewTurret
+			{
+				class ViewOptics;
+			};
+		};
+		class AnimationSources;
+	};
+	class OPTRE_M12A1_LRV: Car
+	{
+		class CargoTurret;
+		class Turrets
+		{
+			class CargoGunner_1;
+			class MainTurret: NewTurret
+			{
+				class ViewOptics;
+			};
+		};
+		class AnimationSources;
+	};
+	class OPTRE_M12G1_LRV: Car
+	{
+		class CargoTurret;
+		class Turrets
+		{
+			class CargoGunner_1;
+			class MainTurret: NewTurret
+			{
+				class ViewOptics;
+			};
+		};
+		class AnimationSources;
+	};
 	class OPTRE_M12R_AA;
 	class OPTRE_M813_TT;
 	class OPTRE_M914_RV;
@@ -193,6 +227,7 @@ class cfgVehicles
 	class 442_warthog_unarmed: OPTRE_M12_FAV
 	{
 		displayname = "[442] Warthog (Unarmed)";
+		driverAction = "Driver_Warthog";
 		scope = 2;
 		side = 1;
 		crew = "442_unit_crewman_1_dc15s";
@@ -218,6 +253,7 @@ class cfgVehicles
 	class rep_warthog_unarmed: OPTRE_M12_FAV
 	{
 		displayname = "Warthog (Unarmed)";
+		driverAction = "Driver_Warthog";
 		scope = 2;
 		side = 1;
 		crew = "SWLB_clone_base_P2";
@@ -241,7 +277,6 @@ class cfgVehicles
 		};
 	};
 //MG
-	class OPTRE_M12_LRV;
 	class 442_warthog_mg_Base: OPTRE_M12_LRV
 	{
 		scope = 0;
@@ -252,6 +287,7 @@ class cfgVehicles
 		transportSoldier = 0;
 		hiddenSelections[] = {"Camo1","Camo2","clan","clan_text","insignia","_Ammobox","_Axe","_Cans","_FireExtinguisher","_Shovel"};
 		hiddenSelectionsTextures[] = {"OPTRE_Vehicles\Warthog\data\warthog_co.paa","OPTRE_Vehicles\Warthog\data\warthog_addons_co.paa"};
+		driverAction = "Driver_Warthog";
 		class RenderTargets
 		{
 			class FrontView
@@ -399,6 +435,7 @@ class cfgVehicles
 		scope = 2;
 		side = 1;
 		crew = "442_swla_unit_crewman";
+		driverAction = "Driver_Warthog";
 		faction = "kobra";
 		editorsubcategory = "442_optre_vehicles";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_troop"};
@@ -414,6 +451,7 @@ class cfgVehicles
 		scope = 2;
 		side = 1;
 		crew = "SWLB_clone_base_P2";
+		driverAction = "Driver_Warthog";
 		faction = "kobra";
 		editorsubcategory = "442_rep_warthog";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_troop"};
@@ -430,6 +468,7 @@ class cfgVehicles
 		scope = 2;
 		side = 1;
 		crew = "442_swla_unit_crewman";
+		driverAction = "Driver_Warthog";
 		faction = "kobra";
 		editorsubcategory = "442_optre_vehicles";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_mg","attach_antenna"};
@@ -445,6 +484,7 @@ class cfgVehicles
 		scope = 2;
 		side = 1;
 		crew = "SWLB_clone_base_P2";
+		driverAction = "Driver_Warthog";
 		faction = "kobra";
 		editorsubcategory = "442_rep_warthog";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_mg","attach_antenna"};
@@ -461,6 +501,7 @@ class cfgVehicles
 		scope = 2;
 		side = 1;
 		crew = "442_swla_unit_crewman";
+		driverAction = "Driver_Warthog";
 		faction = "kobra";
 		editorsubcategory = "442_optre_vehicles";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia"};
@@ -476,6 +517,7 @@ class cfgVehicles
 		scope = 2;
 		side = 1;
 		crew = "SWLB_clone_base_P2";
+		driverAction = "Driver_Warthog";
 		faction = "kobra";
 		editorsubcategory = "442_rep_warthog";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia"};
@@ -492,7 +534,8 @@ class cfgVehicles
 		scope = 2;
 		side = 0;
 		crew = "442_b1_crew_base";
-		faction = "kobra";
+		driverAction = "Driver_Warthog";
+		faction = "442_cis";
 		editorsubcategory = "442_rep_warthog";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_troop"};
 		hiddenSelectionsTextures[] = 
