@@ -53,8 +53,3 @@ class CfgVehicles
 		};
 	};
 };
-class cfgMods
-{
-	author="kripto202";
-	timepacked="1587464916";
-};

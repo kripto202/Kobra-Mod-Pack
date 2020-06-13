@@ -441,6 +441,12 @@ class CfgEditorSubcategories
 		displayname = "Armor";
 		side = 0;
 	};
+
+	class 442_wrecks
+	{
+		displayname = "Wrecks";
+		side = 0;
+	};
 };
 
 

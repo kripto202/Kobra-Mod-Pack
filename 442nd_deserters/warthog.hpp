@@ -23,7 +23,7 @@ class 442_deserter_warthog_unarmed_black: OPTRE_M12_FAV
 		"442nd_deserters\data\warthog\442_warthog_addons_black.paa"
 	};
 };
-class 442_deserter_warthog_mg_black: OPTRE_M12_LRV
+class 442_deserter_warthog_mg_black: 442_warthog_mg
 {
 	displayname = "Warthog (MG - Black)";
 	scope = 2;

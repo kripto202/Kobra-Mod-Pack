@@ -45,33 +45,36 @@ soundDammage[]=
 	0.56234097,
 	1
 };
-/* soundEngineOnInt[]=
+
+//aat sounds
+soundEngineOnInt[]=
 {
-	"442_aat\sounds\aat_start_int",
+	"442_aat\sounds\aat_start_int.wss",
 	0.79432797,
 	1
 };
 soundEngineOffInt[]=
 {
-	"442_aat\sounds\aat_stop_int",
+	"442_aat\sounds\aat_stop_int.wss",
 	0.79432797,
 	1
 };
 soundEngineOnExt[]=
 {
-	"442_aat\sounds\aat_start",
+	"442_aat\sounds\aat_start.wss",
 	1.99526,
 	1,
 	100
 };
 soundEngineOffExt[]=
 {
-	"442_aat\sounds\aat_stop",
+	"442_aat\sounds\aat_stop.wss",
 	1.99526,
 	1,
 	100
-}; */
-soundEngineOnInt[]=
+};
+
+/*soundEngineOnInt[]=
 {
 	"A3\Sounds_F\vehicles\armor\APC\APC2\int_engine_start",
 	0.70794576,
@@ -96,7 +99,8 @@ soundEngineOffExt[]=
 	1,
 	1,
 	200
-};
+};*/
+
 BushCrash1[]=
 {
 	"A3\Sounds_F\vehicles2\armor\shared\collisions\Vehicle_Armor_Collision_Light_Bush_01",
@@ -299,352 +303,327 @@ soundArmorCrash[]=
 	0.16599999
 };
 class Sounds: Sounds
-/*{
-	class engineInt
-	{
-		sound[] = 
-		{
-			"442_aat\sounds\aat_engine_int",
-			0.3548134,
-			1
-		};
-		frequency="0.8	+	((rpm/	2640) factor[(500/	2640),(730/	2640)])*0.2";
-		volume="engineOn*(1-camPos)*(((rpm/	2640) factor[(550/	2640),(730/	2640)])	*	((rpm/	2640) factor[(800/	2640),(780/	2640)]))";
-	};
-	class engineExt
-	{
-		sound[] = 
-		{
-			"442_aat\sounds\aat_engine",
-			0.3548134,
-			1
-		};
-		frequency="0.8	+	((rpm/	2640) factor[(500/	2640),(730/	2640)])*0.2";
-		volume="engineOn*(1-camPos)*(((rpm/	2640) factor[(550/	2640),(730/	2640)])	*	((rpm/	2640) factor[(800/	2640),(780/	2640)]))";
-	};
-	
-}; */
 {
 	class Idle_ext
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\ext_engine_01",
-			0.39810717,
+			"442_aat\sounds\aat_engine.wss",
+			4,
 			1,
 			200
 		};
-		frequency="0.95	+	((rpm/	2640) factor[(400/	2640),(500/	2640)])*0.15";
-		volume="engineOn*camPos*(((rpm/	2640) factor[(100/	2640),(200/	2640)])	*	((rpm/	2640) factor[(750/	2640),(600/	2640)]))";
+		frequency="0.95 + ((rpm/ 2640) factor[(400/ 2640),(900/ 2640)])*0.15";
+		volume="engineOn*camPos*(((rpm/ 2640) factor[(100/ 2640),(200/ 2640)]) * ((rpm/ 2640) factor[(900/ 2640),(700/ 2640)]))";
 	};
 	class Engine
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\ext_engine_02",
-			0.50118721,
+			"442_aat\sounds\aat_engine.wss",
+			4.48808,
 			1,
-			200
+			240
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(500/	2640),(730/	2640)])*0.2";
-		volume="engineOn*camPos*(((rpm/	2640) factor[(550/	2640),(730/	2640)])	*	((rpm/	2640) factor[(800/	2640),(780/	2640)]))";
+		frequency="0.8 + ((rpm/ 2640) factor[(700/ 2640),(1100/ 2640)])*0.2";
+		volume="engineOn*camPos*(((rpm/ 2640) factor[(705/ 2640),(850/ 2640)]) * ((rpm/ 2640) factor[(1100 / 2640),(950/ 2640)]))";
 	};
 	class Engine1_ext
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\ext_engine_03",
-			0.56234133,
+			"442_aat\sounds\aat_engine.wss",
+			5.6501598,
 			1,
-			200
+			280
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(630/	2640),(1000/	2640)])*0.2";
-		volume="engineOn*camPos*(((rpm/	2640) factor[(600/	2640),(720/	2640)])	*	((rpm/	2640) factor[(1100/	2640),(840/	2640)]))";
+		frequency="0.8 + ((rpm/ 2640) factor[(950/ 2640),(1400/ 2640)])*0.2";
+		volume="engineOn*camPos*(((rpm/ 2640) factor[(900/ 2640),(1050/ 2640)]) * ((rpm/ 2640) factor[(1400/ 2640),(1200/ 2640)]))";
 	};
 	class Engine2_ext
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\ext_engine_06",
-			0.63095737,
+			"442_aat\sounds\aat_engine.wss",
+			6.3396001,
 			1,
-			250
+			320
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(850/	2640),(1300/	2640)])*0.2";
-		volume="engineOn*camPos*(((rpm/	2640) factor[(800/	2640),(1000/	2640)])	*	((rpm/	2640) factor[(1300/	2640),(1100/	2640)]))";
+		frequency="0.8 + ((rpm/ 2640) factor[(1200/ 2640),(1700/ 2640)])*0.2";
+		volume="engineOn*camPos*(((rpm/ 2640) factor[(1170/ 2640),(1380/ 2640)]) * ((rpm/ 2640) factor[(1700/ 2640),(1500/ 2640)]))";
 	};
 	class Engine3_ext
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\ext_engine_07",
-			0.63095737,
+			"442_aat\sounds\aat_engine.wss",
+			7.1131301,
 			1,
-			300
+			360
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(1100/	2640),(1600/	2640)])*0.1";
-		volume="engineOn*camPos*(((rpm/	2640) factor[(1100/	2640),(1270/	2640)])	*	((rpm/	2640) factor[(1550/	2640),(1380/	2640)]))";
+		frequency="0.8 + ((rpm/ 2640) factor[(1500/ 2640),(2100/ 2640)])*0.1";
+		volume="engineOn*camPos*(((rpm/ 2640) factor[(1500/ 2640),(1670/ 2640)]) * ((rpm/ 2640) factor[(2100/ 2640),(1800/ 2640)]))";
 	};
 	class Engine4_ext
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\ext_engine_08",
-			0.70794576,
+			"442_aat\sounds\aat_engine.wss",
+			7.98104,
 			1,
-			300
+			400
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(1400/	2640),(2000/	2640)])*0.1";
-		volume="engineOn*camPos*(((rpm/	2640) factor[(1380/	2640),(1500/	2640)])	*	((rpm/	2640) factor[(2000/	2640),(1700/	2640)]))";
+		frequency="0.8 + ((rpm/ 2640) factor[(1800/ 2640),(2300/ 2640)])*0.1";
+		volume="engineOn*camPos*(((rpm/ 2640) factor[(1780/ 2640),(2060/ 2640)]) * ((rpm/ 2640) factor[(2450/ 2640),(2200/ 2640)]))";
 	};
 	class Engine5_ext
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\ext_engine_10",
+			"442_aat\sounds\aat_engine.wss",
+			8.9548903,
 			1,
-			1,
-			300
+			440
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(1700/	2640),(2640/	2640)])*0.1";
-		volume="engineOn*camPos*((rpm/	2640) factor[(1600/	2640),(2500/	2640)])";
+		frequency="0.8 + ((rpm/ 2640) factor[(2100/ 2640),(2640/ 2640)])*0.1";
+		volume="engineOn*camPos*((rpm/ 2640) factor[(2150/ 2640),(2500/ 2640)])";
 	};
 	class IdleThrust
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\ext_exhaust_01",
-			0.63095737,
+			"442_aat\sounds\aat_engine.wss",
+			5.6501598,
 			1,
 			200
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(400/	2640),(500/	2640)])*0.15";
-		volume="engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	2640) factor[(100/	2640),(200/	2640)])	*	((rpm/	2640) factor[(750/	2640),(600/	2640)]))";
+		frequency="0.8 + ((rpm/ 2640) factor[(400/ 2640),(900/ 2640)])*0.15";
+		volume="engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/ 2640) factor[(100/ 2640),(200/ 2640)]) * ((rpm/ 2640) factor[(900/ 2640),(700/ 2640)]))";
 	};
 	class EngineThrust
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\ext_exhaust_02",
-			0.63095737,
+			"442_aat\sounds\aat_engine.wss",
+			7.1131301,
 			1,
 			200
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(500/	2640),(730/	2640)])*0.2";
-		volume="engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	2640) factor[(550/	2640),(730/	2640)])	*	((rpm/	2640) factor[(800/	2640),(780/	2640)]))";
+		frequency="0.8 + ((rpm/ 2640) factor[(700/ 2640),(1100/ 2640)])*0.2";
+		volume="engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/ 2640) factor[(705/ 2640),(850/ 2640)]) * ((rpm/ 2640) factor[(1100 / 2640),(950/ 2640)]))";
 	};
 	class Engine1_Thrust_ext
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\ext_exhaust_03",
-			0.70794576,
+			"442_aat\sounds\aat_engine.wss",
+			8.9548903,
 			1,
-			200
+			230
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(630/	2640),(1000/	2640)])*0.2";
-		volume="engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	2640) factor[(600/	2640),(720/	2640)])	*	((rpm/	2640) factor[(1100/	2640),(840/	2640)]))";
+		frequency="0.8 + ((rpm/ 2640) factor[(950/ 2640),(1400/ 2640)])*0.2";
+		volume="engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/ 2640) factor[(900/ 2640),(1050/ 2640)]) * ((rpm/ 2640) factor[(1400/ 2640),(1200/ 2640)]))";
 	};
 	class Engine2_Thrust_ext
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\ext_exhaust_06",
-			0.70794576,
+			"442_aat\sounds\aat_engine.wss",
+			10.0475,
 			1,
-			250
+			290
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(850/	2640),(1300/	2640)])*0.2";
-		volume="engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	2640) factor[(800/	2640),(1000/	2640)])	*	((rpm/	2640) factor[(1300/	2640),(1100/	2640)]))";
+		frequency="0.8 + ((rpm/ 2640) factor[(1200/ 2640),(1700/ 2640)])*0.2";
+		volume="engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/ 2640) factor[(1170/ 2640),(1380/ 2640)]) * ((rpm/ 2640) factor[(1700/ 2640),(1500/ 2640)]))";
 	};
 	class Engine3_Thrust_ext
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\ext_exhaust_07",
-			1,
+			"442_aat\sounds\aat_engine.wss",
+			8.9548903,
 			1,
 			350
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(1100/	2640),(1600/	2640)])*0.1";
-		volume="engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	2640) factor[(1100/	2640),(1270/	2640)])	*	((rpm/	2640) factor[(1550/	2640),(1380/	2640)]))";
+		frequency="0.8 + ((rpm/ 2640) factor[(1500/ 2640),(2100/ 2640)])*0.1";
+		volume="engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/ 2640) factor[(1500/ 2640),(1670/ 2640)]) * ((rpm/ 2640) factor[(2100/ 2640),(1800/ 2640)]))";
 	};
 	class Engine4_Thrust_ext
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\ext_exhaust_08",
-			1.1220185,
+			"442_aat\sounds\aat_engine.wss",
+			11.27353,
 			1,
-			350
+			400
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(1400/	2640),(2000/	2640)])*0.1";
-		volume="engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	2640) factor[(1380/	2640),(1500/	2640)])	*	((rpm/	2640) factor[(2000/	2640),(1700/	2640)]))";
+		frequency="0.8 + ((rpm/ 2640) factor[(1800/ 2640),(2300/ 2640)])*0.1";
+		volume="engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/ 2640) factor[(1780/ 2640),(2060/ 2640)]) * ((rpm/ 2640) factor[(2450/ 2640),(2200/ 2640)]))";
 	};
 	class Engine5_Thrust_ext
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\ext_exhaust_10",
-			1.2589254,
+			"442_aat\sounds\aat_engine.wss",
+			12.64913,
 			1,
-			400
+			450
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(1700/	2640),(2640/	2640)])*0.1";
-		volume="engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*((rpm/	2640) factor[(1600/	2640),(2500/	2640)])";
+		frequency="0.8 + ((rpm/ 2640) factor[(2100/ 2640),(2640/ 2640)])*0.1";
+		volume="engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*((rpm/ 2640) factor[(2150/ 2640),(2500/ 2640)])";
 	};
 	class Idle_int
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\int_engine_01",
-			0.31622776,
+			"442_aat\sounds\aat_engine.wss",
+			2,
 			1
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(400/	2640),(500/	2640)])*0.15";
-		volume="engineOn*(1-camPos)*(((rpm/	2640) factor[(100/	2640),(200/	2640)])	*	((rpm/	2640) factor[(750/	2640),(600/	2640)]))";
+		frequency="0.8 + ((rpm/ 2640) factor[(400/ 2640),(900/ 2640)])*0.15";
+		volume="engineOn*(1-camPos)*(((rpm/ 2640) factor[(100/ 2640),(200/ 2640)]) * ((rpm/ 2640) factor[(900/ 2640),(700/ 2640)]))";
 	};
 	class Engine_int
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\int_engine_02",
-			0.3548134,
+			"442_aat\sounds\aat_engine_int.wss",
+			1.41589,
 			1
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(500/	2640),(730/	2640)])*0.2";
-		volume="engineOn*(1-camPos)*(((rpm/	2640) factor[(550/	2640),(730/	2640)])	*	((rpm/	2640) factor[(800/	2640),(780/	2640)]))";
+		frequency="0.8 + ((rpm/ 2640) factor[(700/ 2640),(1100/ 2640)])*0.2";
+		volume="engineOn*(1-camPos)*(((rpm/ 2640) factor[(705/ 2640),(850/ 2640)]) * ((rpm/ 2640) factor[(1100 / 2640),(950/ 2640)]))";
 	};
 	class Engine1_int
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\int_engine_03",
-			0.39810717,
+			"442_aat\sounds\aat_engine_int.wss",
+			1.58866,
 			1
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(630/	2640),(1000/	2640)])*0.2";
-		volume="engineOn*(1-camPos)*(((rpm/	2640) factor[(600/	2640),(720/	2640)])	*	((rpm/	2640) factor[(1100/	2640),(840/	2640)]))";
+		frequency="0.8 + ((rpm/ 2640) factor[(950/ 2640),(1400/ 2640)])*0.2";
+		volume="engineOn*(1-camPos)*(((rpm/ 2640) factor[(900/ 2640),(1050/ 2640)]) * ((rpm/ 2640) factor[(1400/ 2640),(1200/ 2640)]))";
 	};
 	class Engine2_int
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\int_engine_06",
-			0.44668359,
+			"442_aat\sounds\aat_engine_int.wss",
+			1.7825,
 			1
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(850/	2640),(1300/	2640)])*0.2";
-		volume="engineOn*(1-camPos)*(((rpm/	2640) factor[(800/	2640),(1000/	2640)])	*	((rpm/	2640) factor[(1300/	2640),(1100/	2640)]))";
+		frequency="0.8 + ((rpm/ 2640) factor[(1200/ 2640),(1700/ 2640)])*0.2";
+		volume="engineOn*(1-camPos)*(((rpm/ 2640) factor[(1170/ 2640),(1380/ 2640)]) * ((rpm/ 2640) factor[(1700/ 2640),(1500/ 2640)]))";
 	};
 	class Engine3_int
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\int_engine_07",
-			0.50118721,
+			"442_aat\sounds\aat_engine_int.wss",
+			2,
 			1
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(1100/	2640),(1600/	2640)])*0.1";
-		volume="engineOn*(1-camPos)*(((rpm/	2640) factor[(1100/	2640),(1270/	2640)])	*	((rpm/	2640) factor[(1550/	2640),(1380/	2640)]))";
+		frequency="0.8 + ((rpm/ 2640) factor[(1500/ 2640),(2100/ 2640)])*0.1";
+		volume="engineOn*(1-camPos)*(((rpm/ 2640) factor[(1500/ 2640),(1670/ 2640)]) * ((rpm/ 2640) factor[(2100/ 2640),(1800/ 2640)]))";
 	};
 	class Engine4_int
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\int_engine_08",
-			0.56234133,
+			"442_aat\sounds\aat_engine_int.wss",
+			2.24404,
 			1
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(1400/	2640),(2000/	2640)])*0.1";
-		volume="engineOn*(1-camPos)*(((rpm/	2640) factor[(1380/	2640),(1500/	2640)])	*	((rpm/	2640) factor[(2000/	2640),(1700/	2640)]))";
+		frequency="0.8 + ((rpm/ 2640) factor[(1800/ 2640),(2300/ 2640)])*0.1";
+		volume="engineOn*(1-camPos)*(((rpm/ 2640) factor[(1780/ 2640),(2060/ 2640)]) * ((rpm/ 2640) factor[(2450/ 2640),(2200/ 2640)]))";
 	};
 	class Engine5_int
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\int_engine_10",
-			0.63095737,
+			"442_aat\sounds\aat_engine_int.wss",
+			2.5178499,
 			1
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(1700/	2640),(2640/	2640)])*0.1";
-		volume="engineOn*(1-camPos)*((rpm/	2640) factor[(1600/	2640),(2500/	2640)])";
+		frequency="0.8 + ((rpm/ 2640) factor[(2100/ 2640),(2640/ 2640)])*0.1";
+		volume="engineOn*(1-camPos)*((rpm/ 2640) factor[(2150/ 2640),(2500/ 2640)])";
 	};
 	class IdleThrust_int
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\int_exhaust_01",
-			0.3548134,
+			"442_aat\sounds\aat_engine_int.wss",
+			2.5178499,
 			1
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(400/	2640),(500/	2640)])*0.15";
-		volume="engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	2640) factor[(100/	2640),(200/	2640)])	*	((rpm/	2640) factor[(750/	2640),(600/	2640)]))";
+		frequency="0.8 + ((rpm/ 2640) factor[(400/ 2640),(900/ 2640)])*0.15";
+		volume="engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/ 2640) factor[(100/ 2640),(200/ 2640)]) * ((rpm/ 2640) factor[(900/ 2640),(700/ 2640)]))";
 	};
 	class EngineThrust_int
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\int_exhaust_02",
-			0.39810717,
+			"442_aat\sounds\aat_engine_int.wss",
+			1.58866,
 			1
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(500/	2640),(730/	2640)])*0.2";
-		volume="engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	2640) factor[(550/	2640),(730/	2640)])	*	((rpm/	2640) factor[(800/	2640),(780/	2640)]))";
+		frequency="0.8 + ((rpm/ 2640) factor[(700/ 2640),(1100/ 2640)])*0.2";
+		volume="engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/ 2640) factor[(705/ 2640),(850/ 2640)]) * ((rpm/ 2640) factor[(1100 / 2640),(950/ 2640)]))";
 	};
 	class Engine1_Thrust_int
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\int_exhaust_03",
-			0.44668359,
+			"442_aat\sounds\aat_engine_int.wss",
+			1.7825,
 			1
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(630/	2640),(1000/	2640)])*0.2";
-		volume="engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	2640) factor[(600/	2640),(720/	2640)])	*	((rpm/	2640) factor[(1100/	2640),(840/	2640)]))";
+		frequency="0.8 + ((rpm/ 2640) factor[(950/ 2640),(1400/ 2640)])*0.2";
+		volume="engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/ 2640) factor[(900/ 2640),(1050/ 2640)]) * ((rpm/ 2640) factor[(1400/ 2640),(1200/ 2640)]))";
 	};
 	class Engine2_Thrust_int
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\int_exhaust_06",
-			0.44668359,
+			"442_aat\sounds\aat_engine_int.wss",
+			1.7825,
 			1
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(850/	2640),(1300/	2640)])*0.2";
-		volume="engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	2640) factor[(800/	2640),(1000/	2640)])	*	((rpm/	2640) factor[(1300/	2640),(1100/	2640)]))";
+		frequency="0.8 + ((rpm/ 2640) factor[(1200/ 2640),(1700/ 2640)])*0.2";
+		volume="engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/ 2640) factor[(1170/ 2640),(1380/ 2640)]) * ((rpm/ 2640) factor[(1700/ 2640),(1500/ 2640)]))";
 	};
 	class Engine3_Thrust_int
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\int_exhaust_07",
-			0.50118721,
+			"442_aat\sounds\aat_engine_int.wss",
+			2,
 			1
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(1100/	2640),(1600/	2640)])*0.1";
-		volume="engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	2640) factor[(1100/	2640),(1270/	2640)])	*	((rpm/	2640) factor[(1550/	2640),(1380/	2640)]))";
+		frequency="0.8 + ((rpm/ 2640) factor[(1500/ 2640),(2100/ 2640)])*0.1";
+		volume="engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/ 2640) factor[(1500/ 2640),(1670/ 2640)]) * ((rpm/ 2640) factor[(2100/ 2640),(1800/ 2640)]))";
 	};
 	class Engine4_Thrust_int
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\int_exhaust_08",
-			0.56234133,
+			"442_aat\sounds\aat_engine_int.wss",
+			2.24404,
 			1
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(1400/	2640),(2000/	2640)])*0.1";
-		volume="engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/	2640) factor[(1380/	2640),(1500/	2640)])	*	((rpm/	2640) factor[(2000/	2640),(1700/	2640)]))";
+		frequency="0.8 + ((rpm/ 2640) factor[(1800/ 2640),(2300/ 2640)])*0.1";
+		volume="engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/ 2640) factor[(1780/ 2640),(2060/ 2640)]) * ((rpm/ 2640) factor[(2450/ 2640),(2200/ 2640)]))";
 	};
 	class Engine5_Thrust_int
 	{
 		sound[]=
 		{
-			"A3\Sounds_F\vehicles\armor\APC\APC2\int_exhaust_10",
-			0.63095737,
+			"442_aat\sounds\aat_engine_int.wss",
+			2.5178499,
 			1
 		};
-		frequency="0.8	+	((rpm/	2640) factor[(1700/	2640),(2640/	2640)])*0.1";
-		volume="engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*((rpm/	2640) factor[(1600/	2640),(2500/	2640)])";
+		frequency="0.8 + ((rpm/ 2640) factor[(2100/ 2640),(2640/ 2640)])*0.1";
+		volume="engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*((rpm/ 2640) factor[(2150/ 2640),(2500/ 2640)])";
 	};
 };
