@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 class 442_deserter_warthog_unarmed_black: OPTRE_M12_FAV
 {
 	displayname = "Warthog (Unarmed - Black)";
@@ -156,3 +157,5 @@ class 442_deserter_warthog_tt_woodland: 442_deserter_warthog_tt_black
 		"442nd_deserters\data\warthog\442_warthog_addons_woodland.paa"
 	};
 };
+=======
+>>>>>>> Stashed changes

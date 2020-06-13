@@ -234,6 +234,7 @@ class CfgVehicles
 	class SWLB_clone_arc_backpack;
 	#include "backpack.hpp"
 	
+<<<<<<< Updated upstream
 	//warthog
 	class OPTRE_M12_FAV;
 	class OPTRE_M12_LRV;
@@ -244,6 +245,8 @@ class CfgVehicles
 	class OPTRE_M914_RV;
 	#include "warthog.hpp"
 	
+=======
+>>>>>>> Stashed changes
 	//helmets
 	class Headgear_Base_F;
 	#include "headgear.hpp"
