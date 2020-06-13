@@ -221,7 +221,6 @@ class CfgVehicles
 	class SWLB_clone_arc_backpack;
 	#include "backpack.hpp"
 	
->>>>>>> Stashed changes
 	//helmets
 	class Headgear_Base_F;
 	#include "headgear.hpp"
