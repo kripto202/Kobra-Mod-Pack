@@ -234,7 +234,7 @@ class CfgVehicles
 	class SWLB_clone_arc_backpack;
 	#include "backpack.hpp"
 	
-	//warthog
+	/* //warthog
 	class OPTRE_M12_FAV;
 	class OPTRE_M12_LRV;
 	class OPTRE_M12A1_LRV;
@@ -243,7 +243,7 @@ class CfgVehicles
 	class OPTRE_M813_TT;
 	class OPTRE_M914_RV;
 	class 442_warthog_mg;
-	#include "warthog.hpp"
+	#include "warthog.hpp" */
 	
 	//helmets
 	class Headgear_Base_F;
