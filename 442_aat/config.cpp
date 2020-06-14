@@ -126,7 +126,7 @@ class cfgvehicles
 		scope=1;
 		scopecurator=1;
 		scopearsenal=1;
-		displayname="AAT Test Tank";
+		displayname="AAT";
 		model="\442_aat\aat.p3d";
 		picture="";
 		icon="\A3\armor_f_gamma\MBT_02\Data\UI\map_MBT_02_ca.paa";
