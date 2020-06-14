@@ -201,10 +201,10 @@ class cfgVehicles
 //Unarmed
 	class 442_warthog_unarmed: OPTRE_M12_FAV
 	{
-		displayname = "[442] Warthog (Unarmed)";
+		displayname = "Warthog (Unarmed)";
 		scope = 2;
 		side = 1;
-		crew = "442_unit_crewman_1_dc15s";
+		crew = "SWLB_clone_base_P2";
 		faction = "kobra";
 		editorsubcategory = "442_optre_vehicles";
 		hiddenSelections[] = 
@@ -430,16 +430,16 @@ class cfgVehicles
 	};
 	class 442_warthog_mg: 442_warthog_mg_Base
 	{
-		displayname = "[442] Warthog (MG)";
+		displayname = "Warthog (MG)";
 		scope = 2;
 		side = 1;
-		crew = "442_swla_unit_crewman";
+		crew = "SWLB_clone_base_P2";
 		faction = "kobra";
 		editorsubcategory = "442_optre_vehicles";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_troop"};
 		hiddenSelectionsTextures[] = 
 		{
-			"442_warthog\data\442_warthog.paa",
+			"442_warthog\data\rep_warthog.paa",
 			"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
 		};
 		class texturesources
@@ -500,13 +500,13 @@ class cfgVehicles
 		displayname = "[442] Warthog (Transport)";
 		scope = 2;
 		side = 1;
-		crew = "442_swla_unit_crewman";
+		crew = "SWLB_clone_base_P2";
 		faction = "kobra";
 		editorsubcategory = "442_optre_vehicles";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_mg","attach_antenna"};
 		hiddenSelectionsTextures[] = 
 		{
-			"442_warthog\data\442_warthog.paa",
+			"442_warthog\data\rep_warthog.paa",
 			"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
 		};
 		class texturesources
@@ -564,16 +564,16 @@ class cfgVehicles
 //AT
 	class 442_warthog_at: OPTRE_M12A1_LRV
 	{
-		displayname = "[442] Warthog (Rocket)";
+		displayname = "Warthog (Rocket)";
 		scope = 2;
 		side = 1;
-		crew = "442_swla_unit_crewman";
+		crew = "SWLB_clone_base_P2";
 		faction = "kobra";
 		editorsubcategory = "442_optre_vehicles";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia"};
 		hiddenSelectionsTextures[] = 
 		{
-			"442_warthog\data\442_warthog.paa",
+			"442_warthog\data\rep_warthog.paa",
 			"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
 		};
 		class texturesources
