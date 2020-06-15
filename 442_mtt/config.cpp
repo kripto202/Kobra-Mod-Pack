@@ -6,7 +6,8 @@ class CfgPatches
 		weapons[]={};
 		units[]=
 		{
-			"442_mtt_static"
+			"442_mtt_static",
+			"442_mtt"
 		};
 		author="kripto202";
 	};
@@ -25,6 +26,43 @@ class CfgVehicles
 	class Motorcycle;
 	class FlagCarrier;
 	class Items_base_F;
+	class Tank: LandVehicle
+	{
+		class NewTurret;
+		class Sounds;
+		class HitPoints;
+		class CommanderOptics;
+	};
+	class Tank_F: Tank
+	{
+		class Turrets
+		{
+			class MainTurret: NewTurret
+			{
+				class Turrets
+				{
+					class CommanderOptics;
+				};
+			};
+		};
+		class AnimationSources;
+		class ViewPilot;
+		class ViewOptics;
+		class ViewCargo;
+		class HeadLimits;
+		class HitPoints: HitPoints
+		{
+			class HitHull;
+			class HitEngine;
+			class HitLTrack;
+			class HitRTrack;
+		};
+		class Sounds: Sounds
+		{
+			class Engine;
+			class Movement;
+		};
+	};
 	class 442_mtt_static: House_F
 	{
 		scope=2;
@@ -46,6 +84,108 @@ class CfgVehicles
 			"442_mtt\data\body1_co.paa",
 			"442_mtt\data\body2_co.paa",
 			"442_mtt\data\door_co.paa"
+		};
+	};
+	class 442_mtt: Tank_F
+	{
+		author="kripto202";
+		scope=2;
+		scopecurator=2;
+		scopearsenal=2;
+		displayname="mtt";
+		model="\442_mtt\mtt_2.p3d";
+		picture="";
+		icon="\A3\armor_f_gamma\MBT_02\Data\UI\map_MBT_02_ca.paa";
+		side=0;
+		faction="442_CIS";
+		editorSubcategory="SWLG_GAR_tanks";
+		insideSoundCoef=0.89999998;
+		threat[]={0.80000001,1,0.30000001};
+		canFloat=1;
+		waterLeakiness=2.5;
+		waterAngularDampingCoef=4;
+		waterLinearDampingCoefY=4;
+		waterLinearDampingCoefX=4;
+		waterLinearDampingCoefZ=4;
+		engineShiftY=1.2;
+		rudderForceCoef=100;
+		rudderForceCoefAtMaxSpeed=100;
+		waterPPInVehicle=0;
+		waterResistanceCoef=0;
+		waterSpeedFactor=3000;
+		maxFordingDepth=0.5;
+		waterResistance=1;
+		turnCoef=0.5;
+		engineEffectSpeed=5;
+		hiddenselections[]=
+		{
+			"body1",
+			"body2",
+			"door"
+		};
+		hiddenselectionstextures[]=
+		{
+			"442_mtt\data\body1_co.paa",
+			"442_mtt\data\body2_co.paa",
+			"442_mtt\data\door_co.paa"
+		};
+		#include "physx.hpp"
+		cost=1500000;
+		#include "armor.hpp"
+		//#include "turret.hpp"
+		class RenderTargets
+		{
+		};
+		#include "sounds.hpp"
+		driverAction="driver_apcwheeled2_out";
+		driverInAction="driver_apcwheeled2_in";
+		viewDriverInExternal=1;
+		/*gunBeg[]=
+		{
+			"gun_driver_l",
+			"gun_driver_r"
+		};
+		gunEnd[]=
+		{
+			"gun_driver_l_2",
+			"gun_driver_r_2"
+		};
+		memoryPointGun[]=
+		{
+			"gun_driver_l",
+			"gun_driver_r"
+		};*/
+		selectionFireAnim="zasleh4";
+		proxytype="CPDriver";
+		proxyIndex=1;
+		forcehideDriver=1;
+		DriverForceOptics=1;
+		/*weapons[]=
+		{
+			"442_aat_gmg"
+		};
+		magazines[]=
+		{
+			"442_50Rnd_40mm_G_belt",
+			"442_50Rnd_40mm_G_belt"
+		};*/
+		#include "memorypoints.hpp"
+		driver="SWLB_b1_crew_base";
+		crew="SWLB_b1_crew_base";
+		typicalCargo[]=
+		{
+			"SWLB_b1_crew_base"
+		};
+		/*class AnimationSources: AnimationSources
+		{
+			class recoil_source
+			{
+				source="reload";
+				weapon="442_aat_cannon_75mm";
+			};
+		};*/
+		class Reflectors
+		{
 		};
 	};
 };
