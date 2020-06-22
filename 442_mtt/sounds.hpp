@@ -62,14 +62,14 @@ soundEngineOffInt[]=
 soundEngineOnExt[]=
 {
 	"442_aat\sounds\aat_start.wss",
-	1.99526,
+	1.4,
 	1,
 	100
 };
 soundEngineOffExt[]=
 {
 	"442_aat\sounds\aat_stop.wss",
-	1.99526,
+	1.4,
 	1,
 	100
 };
@@ -309,7 +309,7 @@ class Sounds: Sounds
 		sound[]=
 		{
 			"442_aat\sounds\aat_engine.wss",
-			4,
+			2,
 			1,
 			200
 		};
@@ -321,7 +321,7 @@ class Sounds: Sounds
 		sound[]=
 		{
 			"442_aat\sounds\aat_engine.wss",
-			4.48808,
+			2.5,
 			1,
 			240
 		};
@@ -333,7 +333,7 @@ class Sounds: Sounds
 		sound[]=
 		{
 			"442_aat\sounds\aat_engine.wss",
-			5.6501598,
+			3,
 			1,
 			280
 		};
@@ -345,7 +345,7 @@ class Sounds: Sounds
 		sound[]=
 		{
 			"442_aat\sounds\aat_engine.wss",
-			6.3396001,
+			3.5,
 			1,
 			320
 		};
@@ -357,7 +357,7 @@ class Sounds: Sounds
 		sound[]=
 		{
 			"442_aat\sounds\aat_engine.wss",
-			7.1131301,
+			4,
 			1,
 			360
 		};
@@ -369,7 +369,7 @@ class Sounds: Sounds
 		sound[]=
 		{
 			"442_aat\sounds\aat_engine.wss",
-			7.98104,
+			4.5,
 			1,
 			400
 		};
@@ -381,7 +381,7 @@ class Sounds: Sounds
 		sound[]=
 		{
 			"442_aat\sounds\aat_engine.wss",
-			8.9548903,
+			5,
 			1,
 			440
 		};
@@ -393,7 +393,7 @@ class Sounds: Sounds
 		sound[]=
 		{
 			"442_aat\sounds\aat_engine.wss",
-			5.6501598,
+			4.6501598,
 			1,
 			200
 		};
@@ -405,7 +405,7 @@ class Sounds: Sounds
 		sound[]=
 		{
 			"442_aat\sounds\aat_engine.wss",
-			7.1131301,
+			5,
 			1,
 			200
 		};
@@ -417,7 +417,7 @@ class Sounds: Sounds
 		sound[]=
 		{
 			"442_aat\sounds\aat_engine.wss",
-			8.9548903,
+			2,
 			1,
 			230
 		};
@@ -429,7 +429,7 @@ class Sounds: Sounds
 		sound[]=
 		{
 			"442_aat\sounds\aat_engine.wss",
-			10.0475,
+			2.5,
 			1,
 			290
 		};
@@ -441,7 +441,7 @@ class Sounds: Sounds
 		sound[]=
 		{
 			"442_aat\sounds\aat_engine.wss",
-			8.9548903,
+			3,
 			1,
 			350
 		};
@@ -453,7 +453,7 @@ class Sounds: Sounds
 		sound[]=
 		{
 			"442_aat\sounds\aat_engine.wss",
-			11.27353,
+			3.5,
 			1,
 			400
 		};
@@ -465,7 +465,7 @@ class Sounds: Sounds
 		sound[]=
 		{
 			"442_aat\sounds\aat_engine.wss",
-			12.64913,
+			4,
 			1,
 			450
 		};

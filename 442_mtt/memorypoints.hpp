@@ -8,6 +8,9 @@ dustFrontLeftPos="dustFrontLeft";
 dustFrontRightPos="dustFrontRight";
 dustBackLeftPos="dustBackLeft";
 dustBackRightPos="dustBackRight";
+memoryPointsGetInCargo="pos_cargo";
+memoryPointsGetInCargoDir="pos_cargo_dir";
+memoryPointsGetInCargoPrecise[] = {"pos_cargo"};
 class Exhausts
 {
 	class Exhaust_1
