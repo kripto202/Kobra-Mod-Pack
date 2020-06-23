@@ -2,7 +2,12 @@ class CfgPatches
 {
 	class 442_mtt
 	{
-		requiredAddons[]={};
+		requiredAddons[]=
+		{
+			"442_aat",
+			"A3_Armor_F_Beta",
+			"kobra_core"
+		};
 		weapons[]={};
 		units[]=
 		{
