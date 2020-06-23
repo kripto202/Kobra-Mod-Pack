@@ -2,21 +2,16 @@ class Turrets: Turrets
 {
     class MainTurret: MainTurret
     {
+		body = "left_gun";
+		gun = "left_gun";
         gunnername = "Left Gunner";
-        animationsourcebody = "left_turret";
-        animationsourcegun = "left_gun";
+        animationsourcebody = "mainturret";
+        animationsourcegun = "maingun";
         class turrets{};
-        gunEnd[] = 
-        {
-            "usti hlavne l 1",
-            "usti hlavne l 2"
-        };
-        gunBeg[] = 
-        {
-            "konec hlavne l 1",
-            "konec hlavne l 2"
-        };
-        weapons[] = {"442_aat_cannon_75mm"};
+        gunBeg = "usti_hlavne_l_1";
+        gunEnd = "konec_hlavne_l_1";
+		memorypointgun = "usti_hlavne_l_1";
+        weapons[] = {"442_mtt_cannon_75mm_l"};
         magazines[]=
 		{
 			"442_30Rnd_75mm_HE_mag_red",
@@ -112,19 +107,15 @@ class Turrets: Turrets
     };
     class MainTurret2: MainTurret
     {
-        animationsourcebody = "right_turret";
-        animationsourcegun = "right_gun";
+		body = "right_gun";
+		gun = "right_gun";
+        animationsourcebody = "mainturret2";
+        animationsourcegun = "maingun2";
         gunnername = "Right Gunner";
-        gunBeg[] = 
-        {
-            "usti hlavne r 1",
-            "usti hlavne r 2"
-        };
-        gunEnd[] = 
-        {
-            "konec hlavne r 1",
-            "konec hlavne r 2"
-        };
+        gunBeg = "usti_hlavne_r_1";
+        gunEnd = "konec_hlavne_r_1";
+		memorypointgun = "usti_hlavne_r_1";
         memoryPointGunnerOptics= "gunnerviewr";
+		weapons[] = {"442_mtt_cannon_75mm_r"};
     };
 };

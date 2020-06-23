@@ -216,7 +216,7 @@ class cfgvehicles
 	};
 	class 442_aat: 442_aat_base
 	{
-		displayname="AAT Test";
+		displayname="AAT";
 		author="kripto202";
 		scope=2;
 		scopecurator=2;

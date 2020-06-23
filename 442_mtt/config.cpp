@@ -7,11 +7,13 @@ class CfgPatches
 		units[]=
 		{
 			"442_mtt_static",
-			"442_mtt"
+			"442_mtt",
+			"442_mtt_wreck"
 		};
 		author="kripto202";
 	};
 };
+#include "cfgweapons.hpp"
 class Eventhandlers;
 class CfgVehicles
 {
@@ -26,6 +28,7 @@ class CfgVehicles
 	class Motorcycle;
 	class FlagCarrier;
 	class Items_base_F;
+	class Wreck_base_f;
 	class Tank: LandVehicle
 	{
 		class NewTurret;
@@ -92,7 +95,7 @@ class CfgVehicles
 		scope=2;
 		scopecurator=2;
 		scopearsenal=2;
-		displayname="mtt";
+		displayname="MTT";
 		model="\442_mtt\mtt_2.p3d";
 		picture="";
 		icon="\A3\armor_f_gamma\MBT_02\Data\UI\map_MBT_02_ca.paa";
@@ -186,35 +189,11 @@ class CfgVehicles
 		driverAction="driver_apcwheeled2_out";
 		driverInAction="driver_apcwheeled2_in";
 		viewDriverInExternal=1;
-		/*gunBeg[]=
-		{
-			"gun_driver_l",
-			"gun_driver_r"
-		};
-		gunEnd[]=
-		{
-			"gun_driver_l_2",
-			"gun_driver_r_2"
-		};
-		memoryPointGun[]=
-		{
-			"gun_driver_l",
-			"gun_driver_r"
-		};*/
 		selectionFireAnim="zasleh4";
 		proxytype="CPDriver";
 		proxyIndex=1;
 		forcehideDriver=1;
 		DriverForceOptics=1;
-		/*weapons[]=
-		{
-			"442_aat_gmg"
-		};
-		magazines[]=
-		{
-			"442_50Rnd_40mm_G_belt",
-			"442_50Rnd_40mm_G_belt"
-		};*/
 		#include "memorypoints.hpp"
 		driver="SWLB_b1_crew_base";
 		crew="SWLB_b1_crew_base";
@@ -222,16 +201,22 @@ class CfgVehicles
 		{
 			"SWLB_b1_crew_base"
 		};
-		/*class AnimationSources: AnimationSources
-		{
-			class recoil_source
-			{
-				source="reload";
-				weapon="442_aat_cannon_75mm";
-			};
-		};*/
 		class Reflectors
 		{
 		};
+	};
+	
+	class 442_mtt_wreck: Wreck_base_F
+	{
+		author = "kripto202";
+		mapsize = 20;
+		editorPreview = "";
+		scope = 2;
+		scopecurator = 2;
+		icon="iconObject_1x2";
+		displayname = "MTT (Wrecked)";
+		model = "442_mtt\mtt_wreck.p3d";
+		editorCategory = "kobra";
+		editorSubcategory = "442_wrecks";
 	};
 };

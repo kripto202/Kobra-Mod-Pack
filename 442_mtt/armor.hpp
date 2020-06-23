@@ -1,6 +1,6 @@
 damageResistance=0.02;
 crewVulnerable=1;
-armor=500;
+armor=1000;
 armorStructural=6;
 class Hitpoints: Hitpoints
 {
@@ -24,13 +24,5 @@ class Hitpoints: Hitpoints
         minimalHit=0.23999999;
         explosionShielding=1;
         radius=0.33000001;
-    };
-    class hitammo_l: HitEngine
-    {
-        name = "ammo_l_hit";
-    };
-    class hitammo_r: hitammo_l
-    {
-        name = "ammo_r_hit";
     };
 };
