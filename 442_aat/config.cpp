@@ -180,7 +180,7 @@ class cfgvehicles
 		selectionFireAnim="zasleh4";
 		proxytype="CPDriver";
 		proxyIndex=1;
-		forcehideDriver=1;
+		forcehideDriver=0;
 		DriverForceOptics=1;
 		weapons[]=
 		{
