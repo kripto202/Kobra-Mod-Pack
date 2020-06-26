@@ -5,7 +5,7 @@ class Turrets: Turrets
 				class Turrets{};
 				gunBeg="Usti hlavne3";
 				gunEnd="Konec hlavne3";
-
+				
 				discreteDistance[]={100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500};
 				discreteDistanceInitIndex=2;
 				

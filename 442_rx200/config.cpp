@@ -4,7 +4,9 @@ class CfgPatches
 	{
 		requiredAddons[]=
 		{
-			"A3_Static_F_Jets_AAA_System_01"
+			"A3_Static_F_Jets_AAA_System_01",
+			"442_baw_arty",
+			"A3_Armor_F_Beta"
 		};
 		weapons[]={};
 		units[]=
