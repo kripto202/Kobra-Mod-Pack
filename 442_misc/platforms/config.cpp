@@ -86,6 +86,8 @@ class CfgVehicles
 	};
 	class 442_70x70: 442_5x5
 	{
+		scope = 1;
+		scopecurator = 1;
 		displayName="Platform (70x70)";
 		model="\442_misc\platforms\70x70.p3d";
 		hiddenselectionstextures[]=
