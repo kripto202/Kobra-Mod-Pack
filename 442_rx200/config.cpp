@@ -13,7 +13,9 @@ class CfgPatches
 		{
 			"442_rx200",
 			"442_rx200_2",
-			"442_rx200_wreck"
+			"442_rx200_wreck",
+			"442_rx200_aa",
+			"442_rx200_arty"
 		};
 		author="kripto202";
 	};
