@@ -11,6 +11,8 @@ class CfgPatches
 			"venator_base_2",
 			"venator_base_3",
 			"venator_base_4",
+			"venator_base_5",
+			"venator_base_6",
 			"ven_body1_1",
 			"ven_body1_2",
 			"ven_body2_1",
@@ -626,6 +628,180 @@ class CfgVehicles
 			{
 				"ven_interior8",
 				"interior8"
+			},
+			
+			{
+				"ven_bridge",
+				"bridge"
+			}
+		};
+	};
+	class venator_base_5: venator_base
+	{
+		displayname="Venator (Open Fully Hollowed)";
+		multistructureparts[]=
+		{
+			
+			{
+				"ven_body1_1",
+				"body1_1"
+			},
+			
+			{
+				"ven_body1_2",
+				"body1_2"
+			},
+			
+			{
+				"ven_body2_1",
+				"body2_1"
+			},
+			
+			{
+				"ven_body2_2",
+				"body2_2"
+			},
+			
+			{
+				"ven_body2_3",
+				"body2_3"
+			},
+			
+			{
+				"ven_body3",
+				"body3"
+			},
+			
+			{
+				"ven_body4",
+				"body4"
+			},
+			
+			{
+				"ven_body5",
+				"body5"
+			},
+			
+			{
+				"ven_body6",
+				"body6"
+			},
+			
+			{
+				"ven_body7",
+				"body7"
+			},
+			
+			{
+				"ven_body8",
+				"body8"
+			},
+			
+			{
+				"ven_body9",
+				"body9"
+			},
+			
+			{
+				"ven_body10",
+				"body10"
+			},
+			
+			{
+				"ven_door2",
+				"door"
+			},
+			
+			{
+				"ven_engine",
+				"engine"
+			},
+			
+			{
+				"ven_bridge",
+				"bridge"
+			}
+		};
+	};
+	class venator_base_6: venator_base
+	{
+		displayname="Venator (Fully Hollowed)";
+		multistructureparts[]=
+		{
+			
+			{
+				"ven_body1_1",
+				"body1_1"
+			},
+			
+			{
+				"ven_body1_2",
+				"body1_2"
+			},
+			
+			{
+				"ven_body2_1",
+				"body2_1"
+			},
+			
+			{
+				"ven_body2_2",
+				"body2_2"
+			},
+			
+			{
+				"ven_body2_3",
+				"body2_3"
+			},
+			
+			{
+				"ven_body3",
+				"body3"
+			},
+			
+			{
+				"ven_body4",
+				"body4"
+			},
+			
+			{
+				"ven_body5",
+				"body5"
+			},
+			
+			{
+				"ven_body6",
+				"body6"
+			},
+			
+			{
+				"ven_body7",
+				"body7"
+			},
+			
+			{
+				"ven_body8",
+				"body8"
+			},
+			
+			{
+				"ven_body9",
+				"body9"
+			},
+			
+			{
+				"ven_body10",
+				"body10"
+			},
+			
+			{
+				"ven_door",
+				"door"
+			},
+			
+			{
+				"ven_engine",
+				"engine"
 			},
 			
 			{

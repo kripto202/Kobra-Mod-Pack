@@ -7,7 +7,9 @@ class CfgPatches
 		units[]=
 		{
 			"442_providence",
+			"442_providence_2",
 			"442_providence_d",
+			"442_providence_d_2",
 			"providence_hull_base",
 			"providence_body1",
 			"providence_body1_d",
@@ -93,6 +95,38 @@ class CfgVehicles
 			unregisteredFromWorld3DEN="_this call BIS_fnc_Destroyer01EdenDelete;";
 		};
 	};
+	class 442_providence_2: 442_providence
+		{
+			displayname = "Providence-class (Hollowed)";
+			multistructureparts[]=
+			{
+				
+				{
+					"providence_body1",
+					"body1"
+				},
+				
+				{
+					"providence_body2",
+					"body2"
+				},
+				
+				{
+					"providence_body3",
+					"body3"
+				},
+				
+				{
+					"providence_bridge",
+					"bridge"
+				},
+				
+				{
+					"providence_engine",
+					"engine"
+				}
+			};
+		};
 	class 442_providence_d: House_F
 	{
 		scope=2;
@@ -143,6 +177,38 @@ class CfgVehicles
 			dragged3DEN="_this call BIS_fnc_Destroyer01PosUpdate;";
 			registeredToWorld3DEN="_this call BIS_fnc_Destroyer01EdenInit;";
 			unregisteredFromWorld3DEN="_this call BIS_fnc_Destroyer01EdenDelete;";
+		};
+	};
+	class 442_providence_d_2: 442_providence_d
+	{
+		displayName="Providence-class Dreadnought (Hollowed)";
+		multistructureparts[]=
+		{
+			
+			{
+				"providence_body1_d",
+				"body1"
+			},
+			
+			{
+				"providence_body2_d",
+				"body2"
+			},
+			
+			{
+				"providence_body3_d",
+				"body3"
+			},
+			
+			{
+				"providence_bridge_d",
+				"bridge"
+			},
+			
+			{
+				"providence_engine_d",
+				"engine"
+			}
 		};
 	};
 	class providence_hull_base: House_F
