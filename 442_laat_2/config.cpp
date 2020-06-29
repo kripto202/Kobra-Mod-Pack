@@ -124,6 +124,9 @@ class CfgAmmo
 		effectfly = "swlw_plasma_green";
 		flaresize=3;
 		tracerscale=3;
+		cost = 1;
+		aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+		allowagainstinfantry = 1;
 	};
 	class 442_50mm_laat_apfsds: 442_50mm_apfsds
 	{
@@ -131,6 +134,9 @@ class CfgAmmo
 		effectfly = "swlw_plasma_green";
 		flaresize=3;
 		tracerscale=3;
+		cost = 1;
+		aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+		allowagainstinfantry = 1;
 	};
 };
 class CfgMagazines
