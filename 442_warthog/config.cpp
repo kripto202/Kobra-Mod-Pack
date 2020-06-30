@@ -21,6 +21,7 @@ class cfgPatches
 			"442_warthog_mg",
 			"442_warthog_at",
 			"442_warthog_tt",
+			"442_warthog_gauss",
 			
 			"cis_warthog_mg",
 			"442_warthog_mg_Base",
@@ -571,6 +572,74 @@ class cfgVehicles
 		faction = "kobra";
 		editorsubcategory = "442_optre_vehicles";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia"};
+		hiddenSelectionsTextures[] = 
+		{
+			"442_warthog\data\rep_warthog.paa",
+			"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
+		};
+		class texturesources
+		{
+			class default
+			{
+				displayname = "Republic";
+				author = "kripto202";
+				textures[] = 
+				{
+					"442_warthog\data\rep_warthog.paa",
+					"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
+				};
+				factions[] = 
+				{
+					"kobra"
+				};
+			};
+			class 442
+			{
+				displayname = "442nd Siege Battalion";
+				author = "kripto202";
+				textures[] = 
+				{
+					"442_warthog\data\442_warthog.paa",
+					"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
+				};
+				factions[] = 
+				{
+					"kobra"
+				};
+			};
+			class black_legion
+			{
+				displayname = "Black Legion";
+				author = "kripto202";
+				textures[] = 
+				{
+					"442_warthog\data\bl_warthog.paa",
+					"OPTRE_Vehicles\Warthog\data\warthog_addons_black_co.paa"
+				};
+				factions[] = 
+				{
+					"kobra"
+				};
+			};
+		};
+		texturelist[] = 
+		{
+			"default", 1,
+			"442", 1,
+			"black_legion", 1
+		};
+	};
+//cannon
+	class OPTRE_M12G1_LRV;
+	class 442_warthog_gauss: OPTRE_M12G1_LRV
+	{
+		displayname = "[442] Warthog (Gauss)";
+		scope = 2;
+		side = 1;
+		crew = "SWLB_clone_base_P2";
+		faction = "kobra";
+		editorsubcategory = "442_optre_vehicles";
+		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_mg","attach_antenna"};
 		hiddenSelectionsTextures[] = 
 		{
 			"442_warthog\data\rep_warthog.paa",
