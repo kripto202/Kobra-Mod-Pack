@@ -8,11 +8,14 @@ class Turrets: Turrets
 
 				memoryPointGunnerOptics="gunner_view";
 				memoryPointGun="gunner_view_dir";
+				primary=1;
+				primaryGunner=1;
+				enableManualFire=1;
 
 				discreteDistance[]={100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500};
 				discreteDistanceInitIndex=2;
 				
-				proxyIndex=2;
+				proxyIndex=1;
 				weapons[]=
 				{
 					"mortar_155mm_AMOS"
@@ -29,10 +32,11 @@ class Turrets: Turrets
 					"6Rnd_155mm_Mo_AT_mine"
 				};
 				minElev=0;
-				maxElev=90;
+				maxElev=80;
 				initElev=0;
 				minTurn=-90;
 				maxTurn=90;
+				elevationMode=3;
 				soundServo[]=
 				{
 					"A3\Sounds_F\vehicles\armor\noises\servo_best",
