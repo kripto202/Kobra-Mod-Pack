@@ -30,6 +30,7 @@ class CfgVehicles
 		editorcategory="kobra";
 		editorsubcategory="442_item";
 		vehicleClass="Structures";
+		destrType = "DestructNo";
 		hiddenselections[]=
 		{
 			"camo1"
