@@ -13,8 +13,8 @@ class CfgPatches
 };
 class CfgVehicles
 {
-	class Items_base_F;
-	class 442_disabled_b1: Items_base_F
+	class Shelter_base_F;
+	class 442_disabled_b1: Shelter_base_F
 	{
 		scope=2;
 		scopecurator=2;

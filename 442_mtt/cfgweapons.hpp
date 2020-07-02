@@ -66,49 +66,49 @@ class cfgweapons
         class close: player
 		{
 			showToPlayer=0;
-			aiRateOfFire=6;
+			aiRateOfFire=.01;
 			aiRateOfFireDistance=50;
 			minRange=0;
-			minRangeProbab=0.34999999;
+			minRangeProbab=0.7;
 			midRange=500;
-			midRangeProbab=0.77999997;
+			midRangeProbab=0.7;
 			maxRange=1000;
-			maxRangeProbab=0.039999999;
+			maxRangeProbab=0.7;
 			aiDispersionCoefX=6;
 			aiDispersionCoefY=6;
 		};
 		class short: close
 		{
-			aiRateOfFire=10;
+			aiRateOfFire=.01;
 			aiRateOfFireDistance=300;
 			minRange=500;
-			minRangeProbab=0.050000001;
+			minRangeProbab=0.7;
 			midRange=1000;
-			midRangeProbab=0.57999998;
+			midRangeProbab=0.7;
 			maxRange=1500;
-			maxRangeProbab=0.039999999;
+			maxRangeProbab=0.7;
 		};
 		class medium: short
 		{
-			aiRateOfFire=15;
+			aiRateOfFire=.01;
 			aiRateOfFireDistance=600;
 			minRange=1000;
-			minRangeProbab=0.050000001;
+			minRangeProbab=0.7;
 			midRange=1500;
-			midRangeProbab=0.57999998;
+			midRangeProbab=0.7;
 			maxRange=2000;
-			maxRangeProbab=0.039999999;
+			maxRangeProbab=0.7;
 		};
 		class far: medium
 		{
-			aiRateOfFire=20;
+			aiRateOfFire=.01;
 			aiRateOfFireDistance=1000;
 			minRange=1500;
-			minRangeProbab=0.050000001;
+			minRangeProbab=0.7;
 			midRange=2500;
-			midRangeProbab=0.40000001;
+			midRangeProbab=0.7;
 			maxRange=3000;
-			maxRangeProbab=0.0099999998;
+			maxRangeProbab=0.7;
 		};
     };
     class 442_mtt_cannon_75mm_r: 442_mtt_cannon_75mm_l

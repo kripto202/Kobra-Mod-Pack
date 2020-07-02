@@ -66,9 +66,9 @@ class CfgWeapons
 		};
 		class close: manual
 		{
-			burst=7;
+			burst=20;
 			aiBurstTerminable=1;
-			aiRateOfFire=1;
+			aiRateOfFire=.01;
 			aiRateOfFireDistance=50;
 			minRange=0;
 			minRangeProbab=0.050000001;
@@ -80,9 +80,9 @@ class CfgWeapons
 		};
 		class short: close
 		{
-			burst=6;
+			burst=18;
 			aiBurstTerminable=1;
-			aiRateOfFire=2;
+			aiRateOfFire=.01;
 			aiRateOfFireDistance=300;
 			minRange=50;
 			minRangeProbab=0.050000001;
@@ -93,9 +93,9 @@ class CfgWeapons
 		};
 		class medium: close
 		{
-			burst=5;
+			burst=16;
 			aiBurstTerminable=1;
-			aiRateOfFire=4;
+			aiRateOfFire=.01;
 			aiRateOfFireDistance=600;
 			minRange=200;
 			minRangeProbab=0.050000001;
@@ -106,9 +106,9 @@ class CfgWeapons
 		};
 		class far: close
 		{
-			burst=4;
+			burst=10;
 			aiBurstTerminable=1;
-			aiRateOfFire=5;
+			aiRateOfFire=.01;
 			aiRateOfFireDistance=1000;
 			minRange=400;
 			minRangeProbab=0.050000001;
@@ -155,61 +155,61 @@ class CfgWeapons
 			autoReload = 1;
 			autoFire = 0;
 			dispersion = 0.00057;
-			aiRateOfFire = 1;
+			aiRateOfFire=.01;
 			aiRateOfFireDistance = 10;
 			minRange = 0;
-			minRangeProbab = 0.01;
+			minRangeProbab = 0.7;
 			midRange = 1;
-			midRangeProbab = 0.01;
+			midRangeProbab = 0.7;
 			maxRange = 2;
-			maxRangeProbab = 0.01;
+			maxRangeProbab = 0.7;
 		};
 		class close: player
 		{
 			showToPlayer=0;
-			aiRateOfFire=6;
+			aiRateOfFire=.01;
 			aiRateOfFireDistance=50;
 			minRange=0;
-			minRangeProbab=0.34999999;
+			minRangeProbab=0.7;
 			midRange=500;
-			midRangeProbab=0.77999997;
+			midRangeProbab=0.7;
 			maxRange=1000;
-			maxRangeProbab=0.039999999;
+			maxRangeProbab=0.7;
 			aiDispersionCoefX=6;
 			aiDispersionCoefY=6;
 		};
 		class short: close
 		{
-			aiRateOfFire=10;
+			aiRateOfFire=.01;
 			aiRateOfFireDistance=300;
 			minRange=500;
-			minRangeProbab=0.050000001;
+			minRangeProbab=0.7;
 			midRange=1000;
-			midRangeProbab=0.57999998;
+			midRangeProbab=0.7;
 			maxRange=1500;
-			maxRangeProbab=0.039999999;
+			maxRangeProbab=0.7;
 		};
 		class medium: short
 		{
-			aiRateOfFire=15;
+			aiRateOfFire=.01;
 			aiRateOfFireDistance=600;
 			minRange=1000;
-			minRangeProbab=0.050000001;
+			minRangeProbab=0.7;
 			midRange=1500;
-			midRangeProbab=0.57999998;
+			midRangeProbab=0.7;
 			maxRange=2000;
-			maxRangeProbab=0.039999999;
+			maxRangeProbab=0.7;
 		};
 		class far: medium
 		{
-			aiRateOfFire=20;
+			aiRateOfFire=.01;
 			aiRateOfFireDistance=1000;
 			minRange=1500;
-			minRangeProbab=0.050000001;
+			minRangeProbab=0.7;
 			midRange=2500;
-			midRangeProbab=0.40000001;
+			midRangeProbab=0.7;
 			maxRange=3000;
-			maxRangeProbab=0.0099999998;
+			maxRangeProbab=0.7;
 		};
 	};
 
