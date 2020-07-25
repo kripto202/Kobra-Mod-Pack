@@ -8,7 +8,8 @@ class CfgPatches
 			"A3_Anims_F",
 			"A3_Characters_F",
 			"A3_UI_F",
-			"ls_laat_2"
+			"ls_laat_2",
+			"ls_hmp",
 		};
 		requiredVersion = 0.1;
 		units[] = 
@@ -196,6 +197,9 @@ class CfgPatches
 			"442_laat_door_2",
 			"442_laat_door_3",
 			"442_laat_door_4",
+
+			"442_hmp",
+			"442_hmp_transport",
 		};
 		weapons[]={};
 	};
@@ -707,6 +711,37 @@ class cfgvehicles
 	class Items_base_F;
     class Wreck_base_F;
     class ls_laat;
+	class ls_hmp;
+	class Helicopter;
+    class Helicopter_Base_F : Helicopter {
+        class Turrets;
+		class Hitpoints;
+    };
+
+    class Helicopter_Base_H: Helicopter_Base_F {
+		class Turrets: Turrets {
+			class MainTurret;	// External class reference
+		};
+
+        class AnimationSources;	// External class reference
+        class Eventhandlers;	// External class reference
+        class Viewoptics;	// External class reference
+        class ViewPilot;	// External class reference
+        class RotorLibHelicopterProperties;	// External class reference
+
+        class HitPoints: HitPoints {
+            class HitHull;	// External class reference
+            class HitFuel;	// External class reference
+            class HitEngine;	// External class reference
+            class HitHRotor;	// External class reference
+            class HitVRotor;	// External class reference
+            class HitAvionics;	// External class reference
+        };
+
+		class Reflectors {
+            class Right;	// External class reference
+        };
+	};
 	#include "442_ships\acclamator.hpp"
 	#include "442_ships\coreship.hpp"
 	#include "442_ships\hardcell.hpp"
@@ -721,4 +756,9 @@ class cfgvehicles
 	#include "442_ships\venator.hpp"
 	#include "442_a_vehicle\laat.hpp"
 	#include "442_a_vehicle\hmp.hpp"
+	#include "442_a_vehicle\a10.hpp"
+	#include "442_a_vehicle\comanche.hpp"
+	#include "442_a_vehicle\fa181.hpp"
+	#include "442_a_vehicle\ghosthawk.hpp"
+	#include "442_a_vehicle\littlebird.hpp"
 };
