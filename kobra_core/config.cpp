@@ -7,7 +7,8 @@ class CfgPatches
 		{
 			"A3_Anims_F",
 			"A3_Characters_F",
-			"A3_UI_F"
+			"A3_UI_F",
+			"ls_laat_2"
 		};
 		requiredVersion = 0.1;
 		units[] = 
@@ -186,7 +187,15 @@ class CfgPatches
 			"442_ven_interior6",
 			"442_ven_interior7",
 			"442_ven_interior8",
-			"442_ven_bridge"
+			"442_ven_bridge",
+
+			"442_laat_2",
+			"442_laat_2_ab",
+			"442_laat_wreck",
+			"442_laat_door_1",
+			"442_laat_door_2",
+			"442_laat_door_3",
+			"442_laat_door_4",
 		};
 		weapons[]={};
 	};
@@ -210,6 +219,24 @@ class CfgSounds
 		duration = 3;
 	};
 
+};
+
+class SensorTemplatePassiveRadar;
+class DefaultVehicleSystemsDisplayManagerLeft
+{
+    class components;
+};
+class DefaultVehicleSystemsDisplayManagerRight
+{
+    class components;
+};
+class VehicleSystemsTemplateLeftPilot : DefaultVehicleSystemsDisplayManagerLeft
+{
+    class components;
+};
+class VehicleSystemsTemplateRightPilot : DefaultVehicleSystemsDisplayManagerRight
+{
+    class components;
 };
 
 class CfgFunctions 
@@ -627,7 +654,6 @@ class CfgEditorSubcategories
 	};
 };
 
-
 class CfgMovesFatigueARC
 {
 	aimPrecisionSpeedCoef = 2;
@@ -661,7 +687,9 @@ class CfgMovesFatigueTrooper
 class Eventhandlers;
 class cfgweapons
 {
-
+    class MGun;
+    class gatling_20mm;
+    class missiles_titan;
 };
 class cfgvehicles
 {
@@ -676,6 +704,9 @@ class cfgvehicles
 	class Motorcycle;
 	class FlagCarrier;
 	class Items_base_F;
+	class Items_base_F;
+    class Wreck_base_F;
+    class ls_laat;
 	#include "442_ships\acclamator.hpp"
 	#include "442_ships\coreship.hpp"
 	#include "442_ships\hardcell.hpp"
@@ -688,4 +719,6 @@ class cfgvehicles
 	#include "442_ships\sds_stealth.hpp"
 	#include "442_ships\subjugator.hpp"
 	#include "442_ships\venator.hpp"
+	#include "442_a_vehicle\laat.hpp"
+	#include "442_a_vehicle\hmp.hpp"
 };
