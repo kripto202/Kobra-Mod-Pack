@@ -200,6 +200,22 @@ class CfgPatches
 
 			"442_hmp",
 			"442_hmp_transport",
+
+			"442_lb_heli_trans",
+			"442_lb_heli_cas",
+			"rep_lb_heli_trans",
+			"rep_lb_heli_cas",
+			"442_gh_heli_trans",
+			"rep_gh_heli_trans",
+			"huey_gh_heli_trans",
+			"442_com_heli_cas",
+			"rep_com_heli_cas",
+			"442_a10_plane_cas",
+			"rep_a10_plane_cas",
+			"442_fa181_plane_fighter",
+			"442_fa181_plane_fighter_stealth",
+			"rep_fa181_plane_fighter",
+			"rep_fa181_plane_fighter_stealth"
 		};
 		weapons[]={};
 	};
