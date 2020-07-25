@@ -13,8 +13,8 @@ class CfgPatches
 };
 class CfgVehicles
 {
-	class House_F;
-	class 442_disabled_b1: House_F
+	class Shelter_base_F;
+	class 442_disabled_b1: Shelter_base_F
 	{
 		scope=2;
 		scopecurator=2;
@@ -24,5 +24,6 @@ class CfgVehicles
 		editorcategory="kobra";
 		editorsubcategory="442_item";
 		vehicleClass="Structures";
+		destrType = "DestructTent";
 	};
 };

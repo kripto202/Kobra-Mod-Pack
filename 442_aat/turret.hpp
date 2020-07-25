@@ -229,7 +229,7 @@ class Turrets: Turrets
 				};
 				gunnerAction="mbt2_slot2a_out";
 				gunnerInAction="mbt2_slot2a_in";
-				forceHideGunner=0;
+				forceHideGunner=1;
 				inGunnerMayFire=1;
 				viewGunnerInExternal=1;
 				class HitPoints

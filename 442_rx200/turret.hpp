@@ -26,10 +26,11 @@ class Turrets: Turrets
 					"6Rnd_155mm_Mo_AT_mine"
 				};
 				minElev=0;
-				maxElev=90;
+				maxElev=80;
 				initElev=0;
 				minTurn=-90;
 				maxTurn=90;
+				elevationMode=3;
 				soundServo[]=
 				{
 					"A3\Sounds_F\vehicles\armor\noises\servo_best",
@@ -61,7 +62,7 @@ class Turrets: Turrets
 				};
 				gunnerAction="mbt2_slot2a_out";
 				gunnerInAction="mbt2_slot2a_in";
-				forceHideGunner=0;
+				forceHideGunner=1;
 				inGunnerMayFire=1;
 				viewGunnerInExternal=1;
 				class HitPoints

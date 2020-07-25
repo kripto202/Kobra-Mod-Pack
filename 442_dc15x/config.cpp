@@ -7,9 +7,6 @@ class CfgPatches
 		{
 			"A3_Data_F",
 			"A3_Weapons_F",
-			"SWLW_main",
-			"SWLW_clones",
-			"SWLW_clones_rifles"
 		};
 		requiredVersion=0.1;
 		units[]=
@@ -34,7 +31,7 @@ class CfgAmmo
 class CfgMagazines
 {
 	class SWLW_mag_base;
-	class SWLW_DC15X_Mag: SWLW_mag_base
+	class 442_DC15X_Mag: SWLW_mag_base
 	{
 		scope=2;
 		displayname="DC-15X plasma cell (15rnd)";
@@ -44,7 +41,7 @@ class CfgMagazines
 		count=15;
 		model="SWLW_clones\rifles\DC15a\DC15a_mag.p3d";
 	};
-	class SWLW_DC15Y_Mag: SWLW_mag_base
+	class 442_DC15Y_Mag: SWLW_mag_base
 	{
 		scope=2;
 		displayname="DC-15Y plasma cell (5rnd)";
@@ -54,7 +51,7 @@ class CfgMagazines
 		count=5;
 		model="SWLW_clones\rifles\DC15a\DC15a_mag.p3d";
 	};
-	class swlw_dc15y_oc_mag: SWLW_mag_base
+	class 442_dc15y_oc_mag: SWLW_mag_base
 	{
 		scope = 2;
 		displayname = "DC-15Y Over Charged Plasma Cell";
@@ -76,7 +73,7 @@ class CfgWeapons
 	class InventoryItem_Base_F;
 	class InventoryOpticsItem_Base_F;
 	class Rifle_Long_Base_F;
-	class SWLW_rifle_base: Rifle_Long_Base_F
+	class 442_rifle_base: Rifle_Long_Base_F
 	{
 		author="SW Legion Studios";
 		scope=1;
@@ -87,7 +84,7 @@ class CfgWeapons
 		class GunParticles;
 		class AnimationSources;
 	};
-	class SWLW_DC15X: SWLW_rifle_base
+	class 442_DC15X: 442_rifle_base
 	{
 		scope=2;
 		model="SWLW_clones\rifles\dc15x\DC15X.p3d";
@@ -100,7 +97,7 @@ class CfgWeapons
 		picture="\SWLW_clones\rifles\dc15x\data\ui\DC15X_ui.paa";
 		magazines[]=
 		{
-			"SWLW_DC15X_Mag"
+			"442_DC15X_Mag"
 		};
 		displayname="DC-15X";
 		descriptionShort="";
@@ -293,7 +290,7 @@ class CfgWeapons
 			};
 		};
 	};
-	class SWLW_DC15X_wooden: SWLW_DC15X
+	class 442_DC15X_wooden: 442_DC15X
 	{
 		displayName="DC-15X (wooden)";
 		hiddenSelectionsTextures[]=
@@ -301,7 +298,7 @@ class CfgWeapons
 			"\SWLW_clones\rifles\dc15x\data\DC15X_wooden_co.paa"
 		};
 	};
-	class SWLW_DC15Y: SWLW_DC15X
+	class 442_DC15Y: 442_DC15X
 	{
 		displayname="DC-15Y";
 		initSpeed = -1;
@@ -309,8 +306,8 @@ class CfgWeapons
 		distanceZoomMax=2200;
 		magazines[]=
 		{
-			"SWLW_DC15Y_Mag",
-			"swlw_dc15y_oc_mag"
+			"442_DC15Y_Mag",
+			"442_dc15y_oc_mag"
 		};
 		maxZeroing = 2200;
 		discreteDistance[]={100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000,2100,2200};
@@ -329,31 +326,31 @@ class CfgWeapons
 class CfgVehicles
 {
 	class Weapon_Base_F;
-	class SWLW_GH_DC15X: Weapon_Base_F
+	class 442_GH_DC15X: Weapon_Base_F
 	{
-		author="SW Legion Studios";
+		author="kripto202";
 		displayName="DC-15X sniper rifle";
 		scope=2;
 		class TransportWeapons
 		{
-			class SWLW_DC15X
+			class 442_DC15X
 			{
 				count=1;
-				weapon="SWLW_DC15X";
+				weapon="442_DC15X";
 			};
 		};
 		class TransportMagazines
 		{
-			class SWLW_DC15X_Mag
+			class 442_DC15X_Mag
 			{
 				count=1;
-				magazine="SWLW_DC15X_Mag";
+				magazine="442_DC15X_Mag";
 			};
 		};
 	};
-	class SWLW_GH_DC15Y: Weapon_Base_F
+	class 442_GH_DC15Y: Weapon_Base_F
 	{
-		author="SW Legion Studios";
+		author="kripto202";
 		displayName="DC-15Y sniper rifle";
 		scope=2;
 		class TransportWeapons
@@ -361,7 +358,7 @@ class CfgVehicles
 			class SWLW_DC15X
 			{
 				count=1;
-				weapon="SWLW_DC15Y";
+				weapon="442_DC15Y";
 			};
 		};
 		class TransportMagazines
@@ -369,7 +366,7 @@ class CfgVehicles
 			class SWLW_DC15X_Mag
 			{
 				count=1;
-				magazine="SWLW_DC15Y_Mag";
+				magazine="442_DC15Y_Mag";
 			};
 		};
 	};

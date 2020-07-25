@@ -1289,6 +1289,269 @@ class cfggroups
 						position[]={-5,-5,0};
 					};
 				};
+
+				class droid_mtt
+				{
+					Name="MTT Load";
+					side=0;
+					faction="442_cis";
+					icon="";
+					class unit0
+					{
+						side=0;
+						vehicle="442_b1_sl_woodland";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class unit1
+					{
+						side=0;
+						vehicle="442_b1_heavy_woodland";
+						rank="PRIVATE";
+						position[]={5,-5,0};
+					};
+					class unit2
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+					class unit3
+					{
+						side=0;
+						vehicle="442_b1_at_woodland";
+						rank="PRIVATE";
+						position[]={10,-10,0};
+					};
+					class unit4
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={-10,-10,0};
+					};
+					class unit5
+					{
+						side=0;
+						vehicle="442_b1_heavy_z6_woodland";
+						rank="PRIVATE";
+						position[]={15,-15,0};
+					};
+					class unit6
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={-15,-15,0};
+					};
+					class unit7
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={20,-20,0};
+					};
+					class unit8
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={-20,-20,0};
+					};
+					class unit9
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={25,-25,0};
+					};
+					class unit10
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={-25,-25,0};
+					};
+					class unit11
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={30,-30,0};
+					};
+					class unit12
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={-30,-30,0};
+					};
+					class unit13
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={35,-35,0};
+					};
+					class unit14
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={-35,-35,0};
+					};
+					class unit15
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={40,-40,0};
+					};
+					class unit16
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={-40,-40,0};
+					};
+					class unit17
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={45,-45,0};
+					};
+					class unit18
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={-45,-45,0};
+					};
+					class unit19
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={50,-50,0};
+					};
+					class unit20
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={-50,-50,0};
+					};
+					class unit21
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={55,-55,0};
+					};
+					class unit22
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={-55,-55,0};
+					};
+					class unit23
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={60,-60,0};
+					};
+					class unit24
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={-60,-60,0};
+					};
+
+					class unit25
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={45,-45,0};
+					};
+					class unit26
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={-45,-45,0};
+					};
+					class unit27
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={50,-50,0};
+					};
+					class unit28
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={-50,-50,0};
+					};
+
+					class unit29
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={55,-55,0};
+					};
+					class unit30
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={-55,-55,0};
+					};
+					class unit31
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={60,-60,0};
+					};
+					class unit32
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={-60,-60,0};
+					};
+
+					class unit33
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={65,-65,0};
+					};
+					class unit34
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={-65,-65,0};
+					};
+					class unit35
+					{
+						side=0;
+						vehicle="442_b1_woodland";
+						rank="PRIVATE";
+						position[]={70,-70,0};
+					};
+				};
 			};
 			class Infantry_d
 			{
@@ -1396,6 +1659,268 @@ class cfggroups
 						vehicle="442_b1_desert";
 						rank="PRIVATE";
 						position[]={-20,-20,0};
+					};
+				};
+				class droid_mtt
+				{
+					Name="MTT Load";
+					side=0;
+					faction="442_cis";
+					icon="";
+					class unit0
+					{
+						side=0;
+						vehicle="442_b1_sl_desert";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class unit1
+					{
+						side=0;
+						vehicle="442_b1_heavy_desert";
+						rank="PRIVATE";
+						position[]={5,-5,0};
+					};
+					class unit2
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+					class unit3
+					{
+						side=0;
+						vehicle="442_b1_at_desert";
+						rank="PRIVATE";
+						position[]={10,-10,0};
+					};
+					class unit4
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={-10,-10,0};
+					};
+					class unit5
+					{
+						side=0;
+						vehicle="442_b1_heavy_z6_desert";
+						rank="PRIVATE";
+						position[]={15,-15,0};
+					};
+					class unit6
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={-15,-15,0};
+					};
+					class unit7
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={20,-20,0};
+					};
+					class unit8
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={-20,-20,0};
+					};
+					class unit9
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={25,-25,0};
+					};
+					class unit10
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={-25,-25,0};
+					};
+					class unit11
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={30,-30,0};
+					};
+					class unit12
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={-30,-30,0};
+					};
+					class unit13
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={35,-35,0};
+					};
+					class unit14
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={-35,-35,0};
+					};
+					class unit15
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={40,-40,0};
+					};
+					class unit16
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={-40,-40,0};
+					};
+					class unit17
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={45,-45,0};
+					};
+					class unit18
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={-45,-45,0};
+					};
+					class unit19
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={50,-50,0};
+					};
+					class unit20
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={-50,-50,0};
+					};
+					class unit21
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={55,-55,0};
+					};
+					class unit22
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={-55,-55,0};
+					};
+					class unit23
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={60,-60,0};
+					};
+					class unit24
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={-60,-60,0};
+					};
+
+					class unit25
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={45,-45,0};
+					};
+					class unit26
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={-45,-45,0};
+					};
+					class unit27
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={50,-50,0};
+					};
+					class unit28
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={-50,-50,0};
+					};
+
+					class unit29
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={55,-55,0};
+					};
+					class unit30
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={-55,-55,0};
+					};
+					class unit31
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={60,-60,0};
+					};
+					class unit32
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={-60,-60,0};
+					};
+
+					class unit33
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={65,-65,0};
+					};
+					class unit34
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={-65,-65,0};
+					};
+					class unit35
+					{
+						side=0;
+						vehicle="442_b1_desert";
+						rank="PRIVATE";
+						position[]={70,-70,0};
 					};
 				};
 				class droid_AT

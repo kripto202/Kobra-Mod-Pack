@@ -201,6 +201,12 @@ class CfgVehicles
 		cost=1500000;
 		#include "armor.hpp"
 		#include "turret.hpp"
+
+		weaponsGroup1=2;
+		weaponsGroup2="1 + 4";
+		weaponsGroup3="8 + 16 +	32";
+		weaponsGroup4="64 + 128";
+
 		class RenderTargets
 		{
 		};

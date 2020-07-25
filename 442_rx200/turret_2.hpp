@@ -31,7 +31,7 @@ class Turrets: Turrets
 					"magazine_Cannon_Phalanx_x1550"
 				};
 				minElev=0;
-				maxElev=90;
+				maxElev=80;
 				initElev=0;
 				minTurn=-360;
 				maxTurn=360;

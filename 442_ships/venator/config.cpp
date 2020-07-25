@@ -56,7 +56,7 @@ class CfgVehicles
 	class Motorcycle;
 	class FlagCarrier;
 	class Items_base_F;
-	class venator_zeus: house_f
+	class 442_venator_zeus: house_f
 	{
 		author="kripto202";
 		model="\442_ships\venator\venator.p3d";
@@ -117,13 +117,13 @@ class CfgVehicles
 			"442_ships\venator\data\bridge_co.paa",
 		};
 	};
-	class venator_base: StaticShip
+	class 442_venator_base: StaticShip
 	{
 		author="kripto202";
 		model="\442_ships\venator\venator_base.p3d";
 		reversed=0;
 		scope=2;
-		scopecurator=1;
+		scopecurator=2;
 		editorpreview="";
 		editorcategory="kobra";
 		editorsubcategory="442_ships";
@@ -137,122 +137,122 @@ class CfgVehicles
 		{
 			
 			{
-				"ven_body1_1",
+				"442_ven_body1_1",
 				"body1_1"
 			},
 			
 			{
-				"ven_body1_2",
+				"442_ven_body1_2",
 				"body1_2"
 			},
 			
 			{
-				"ven_body2_1",
+				"442_ven_body2_1",
 				"body2_1"
 			},
 			
 			{
-				"ven_body2_2",
+				"442_ven_body2_2",
 				"body2_2"
 			},
 			
 			{
-				"ven_body2_3",
+				"442_ven_body2_3",
 				"body2_3"
 			},
 			
 			{
-				"ven_body3",
+				"442_ven_body3",
 				"body3"
 			},
 			
 			{
-				"ven_body4",
+				"442_ven_body4",
 				"body4"
 			},
 			
 			{
-				"ven_body5",
+				"442_ven_body5",
 				"body5"
 			},
 			
 			{
-				"ven_body6",
+				"442_ven_body6",
 				"body6"
 			},
 			
 			{
-				"ven_body7",
+				"442_ven_body7",
 				"body7"
 			},
 			
 			{
-				"ven_body8",
+				"442_ven_body8",
 				"body8"
 			},
 			
 			{
-				"ven_body9",
+				"442_ven_body9",
 				"body9"
 			},
 			
 			{
-				"ven_body10",
+				"442_ven_body10",
 				"body10"
 			},
 			
 			{
-				"ven_door",
+				"442_ven_door",
 				"door"
 			},
 			
 			{
-				"ven_engine",
+				"442_ven_engine",
 				"engine"
 			},
 			
 			{
-				"ven_interior1",
+				"442_ven_interior1",
 				"interior1"
 			},
 			
 			{
-				"ven_interior2",
+				"442_ven_interior2",
 				"interior2"
 			},
 			
 			{
-				"ven_interior3",
+				"442_ven_interior3",
 				"interior3"
 			},
 			
 			{
-				"ven_interior4",
+				"442_ven_interior4",
 				"interior4"
 			},
 			
 			{
-				"ven_interior5",
+				"442_ven_interior5",
 				"interior5"
 			},
 			
 			{
-				"ven_interior6",
+				"442_ven_interior6",
 				"interior6"
 			},
 			
 			{
-				"ven_interior7",
+				"442_ven_interior7",
 				"interior7"
 			},
 			
 			{
-				"ven_interior8",
+				"442_ven_interior8",
 				"interior8"
 			},
 			
 			{
-				"ven_bridge",
+				"442_ven_bridge",
 				"bridge"
 			}
 		};
@@ -265,552 +265,552 @@ class CfgVehicles
 			unregisteredFromWorld3DEN="_this call BIS_fnc_Destroyer01EdenDelete;";
 		};
 	};
-	class venator_base_2: venator_base
+	class 442_venator_base_2: 442_venator_base
 	{
 		displayname="Venator (Open)";
 		multistructureparts[]=
 		{
 			
 			{
-				"ven_body1_1",
+				"442_ven_body1_1",
 				"body1_1"
 			},
 			
 			{
-				"ven_body1_2",
+				"442_ven_body1_2",
 				"body1_2"
 			},
 			
 			{
-				"ven_body2_1",
+				"442_ven_body2_1",
 				"body2_1"
 			},
 			
 			{
-				"ven_body2_2",
+				"442_ven_body2_2",
 				"body2_2"
 			},
 			
 			{
-				"ven_body2_3",
+				"442_ven_body2_3",
 				"body2_3"
 			},
 			
 			{
-				"ven_body3",
+				"442_ven_body3",
 				"body3"
 			},
 			
 			{
-				"ven_body4",
+				"442_ven_body4",
 				"body4"
 			},
 			
 			{
-				"ven_body5",
+				"442_ven_body5",
 				"body5"
 			},
 			
 			{
-				"ven_body6",
+				"442_ven_body6",
 				"body6"
 			},
 			
 			{
-				"ven_body7",
+				"442_ven_body7",
 				"body7"
 			},
 			
 			{
-				"ven_body8",
+				"442_ven_body8",
 				"body8"
 			},
 			
 			{
-				"ven_body9",
+				"442_ven_body9",
 				"body9"
 			},
 			
 			{
-				"ven_body10",
+				"442_ven_body10",
 				"body10"
 			},
 			
 			{
-				"ven_door2",
+				"442_ven_door2",
 				"door"
 			},
 			
 			{
-				"ven_engine",
+				"442_ven_engine",
 				"engine"
 			},
 			
 			{
-				"ven_interior1",
+				"442_ven_interior1",
 				"interior1"
 			},
 			
 			{
-				"ven_interior2",
+				"442_ven_interior2",
 				"interior2"
 			},
 			
 			{
-				"ven_interior3",
+				"442_ven_interior3",
 				"interior3"
 			},
 			
 			{
-				"ven_interior4",
+				"442_ven_interior4",
 				"interior4"
 			},
 			
 			{
-				"ven_interior5",
+				"442_ven_interior5",
 				"interior5"
 			},
 			
 			{
-				"ven_interior6",
+				"442_ven_interior6",
 				"interior6"
 			},
 			
 			{
-				"ven_interior7",
+				"442_ven_interior7",
 				"interior7"
 			},
 			
 			{
-				"ven_interior8",
+				"442_ven_interior8",
 				"interior8"
 			},
 			
 			{
-				"ven_bridge",
+				"442_ven_bridge",
 				"bridge"
 			}
 		};
 	};
-	class venator_base_3: venator_base
+	class 442_venator_base_3: 442_venator_base
 	{
 		displayname="Venator (Hollowed)";
 		multistructureparts[]=
 		{
 			
 			{
-				"ven_body1_1",
+				"442_ven_body1_1",
 				"body1_1"
 			},
 			
 			{
-				"ven_body1_2",
+				"442_ven_body1_2",
 				"body1_2"
 			},
 			
 			{
-				"ven_body2_1",
+				"442_ven_body2_1",
 				"body2_1"
 			},
 			
 			{
-				"ven_body2_2",
+				"442_ven_body2_2",
 				"body2_2"
 			},
 			
 			{
-				"ven_body2_3",
+				"442_ven_body2_3",
 				"body2_3"
 			},
 			
 			{
-				"ven_body3",
+				"442_ven_body3",
 				"body3"
 			},
 			
 			{
-				"ven_body4",
+				"442_ven_body4",
 				"body4"
 			},
 			
 			{
-				"ven_body5",
+				"442_ven_body5",
 				"body5"
 			},
 			
 			{
-				"ven_body6",
+				"442_ven_body6",
 				"body6"
 			},
 			
 			{
-				"ven_body7",
+				"442_ven_body7",
 				"body7"
 			},
 			
 			{
-				"ven_body8",
+				"442_ven_body8",
 				"body8"
 			},
 			
 			{
-				"ven_body9",
+				"442_ven_body9",
 				"body9"
 			},
 			
 			{
-				"ven_body10",
+				"442_ven_body10",
 				"body10"
 			},
 			
 			{
-				"ven_door",
+				"442_ven_door",
 				"door"
 			},
 			
 			{
-				"ven_engine",
+				"442_ven_engine",
 				"engine"
 			},
 			
 			{
-				"ven_interior1",
+				"442_ven_interior1",
 				"interior1"
 			},
 			
 			{
-				"ven_interior2",
+				"442_ven_interior2",
 				"interior2"
 			},
 			
 			{
-				"ven_interior3",
+				"442_ven_interior3",
 				"interior3"
 			},
 			
 			{
-				"ven_interior5",
+				"442_ven_interior5",
 				"interior5"
 			},
 			
 			{
-				"ven_interior6",
+				"442_ven_interior6",
 				"interior6"
 			},
 			
 			{
-				"ven_interior7",
+				"442_ven_interior7",
 				"interior7"
 			},
 			
 			{
-				"ven_interior8",
+				"442_ven_interior8",
 				"interior8"
 			},
 			
 			{
-				"ven_bridge",
+				"442_ven_bridge",
 				"bridge"
 			}
 		};
 	};
-	class venator_base_4: venator_base
+	class 442_venator_base_4: 442_venator_base
 	{
 		displayname="Venator (Open Hollowed)";
 		multistructureparts[]=
 		{
 			
 			{
-				"ven_body1_1",
+				"442_ven_body1_1",
 				"body1_1"
 			},
 			
 			{
-				"ven_body1_2",
+				"442_ven_body1_2",
 				"body1_2"
 			},
 			
 			{
-				"ven_body2_1",
+				"442_ven_body2_1",
 				"body2_1"
 			},
 			
 			{
-				"ven_body2_2",
+				"442_ven_body2_2",
 				"body2_2"
 			},
 			
 			{
-				"ven_body2_3",
+				"442_ven_body2_3",
 				"body2_3"
 			},
 			
 			{
-				"ven_body3",
+				"442_ven_body3",
 				"body3"
 			},
 			
 			{
-				"ven_body4",
+				"442_ven_body4",
 				"body4"
 			},
 			
 			{
-				"ven_body5",
+				"442_ven_body5",
 				"body5"
 			},
 			
 			{
-				"ven_body6",
+				"442_ven_body6",
 				"body6"
 			},
 			
 			{
-				"ven_body7",
+				"442_ven_body7",
 				"body7"
 			},
 			
 			{
-				"ven_body8",
+				"442_ven_body8",
 				"body8"
 			},
 			
 			{
-				"ven_body9",
+				"442_ven_body9",
 				"body9"
 			},
 			
 			{
-				"ven_body10",
+				"442_ven_body10",
 				"body10"
 			},
 			
 			{
-				"ven_door2",
+				"442_ven_door2",
 				"door"
 			},
 			
 			{
-				"ven_engine",
+				"442_ven_engine",
 				"engine"
 			},
 			
 			{
-				"ven_interior1",
+				"442_ven_interior1",
 				"interior1"
 			},
 			
 			{
-				"ven_interior2",
+				"442_ven_interior2",
 				"interior2"
 			},
 			
 			{
-				"ven_interior3",
+				"442_ven_interior3",
 				"interior3"
 			},
 			
 			{
-				"ven_interior5",
+				"442_ven_interior5",
 				"interior5"
 			},
 			
 			{
-				"ven_interior6",
+				"442_ven_interior6",
 				"interior6"
 			},
 			
 			{
-				"ven_interior7",
+				"442_ven_interior7",
 				"interior7"
 			},
 			
 			{
-				"ven_interior8",
+				"442_ven_interior8",
 				"interior8"
 			},
 			
 			{
-				"ven_bridge",
+				"442_ven_bridge",
 				"bridge"
 			}
 		};
 	};
-	class venator_base_5: venator_base
+	class 442_venator_base_5: 442_venator_base
 	{
 		displayname="Venator (Open Fully Hollowed)";
 		multistructureparts[]=
 		{
 			
 			{
-				"ven_body1_1",
+				"442_ven_body1_1",
 				"body1_1"
 			},
 			
 			{
-				"ven_body1_2",
+				"442_ven_body1_2",
 				"body1_2"
 			},
 			
 			{
-				"ven_body2_1",
+				"442_ven_body2_1",
 				"body2_1"
 			},
 			
 			{
-				"ven_body2_2",
+				"442_ven_body2_2",
 				"body2_2"
 			},
 			
 			{
-				"ven_body2_3",
+				"442_ven_body2_3",
 				"body2_3"
 			},
 			
 			{
-				"ven_body3",
+				"442_ven_body3",
 				"body3"
 			},
 			
 			{
-				"ven_body4",
+				"442_ven_body4",
 				"body4"
 			},
 			
 			{
-				"ven_body5",
+				"442_ven_body5",
 				"body5"
 			},
 			
 			{
-				"ven_body6",
+				"442_ven_body6",
 				"body6"
 			},
 			
 			{
-				"ven_body7",
+				"442_ven_body7",
 				"body7"
 			},
 			
 			{
-				"ven_body8",
+				"442_ven_body8",
 				"body8"
 			},
 			
 			{
-				"ven_body9",
+				"442_ven_body9",
 				"body9"
 			},
 			
 			{
-				"ven_body10",
+				"442_ven_body10",
 				"body10"
 			},
 			
 			{
-				"ven_door2",
+				"442_ven_door2",
 				"door"
 			},
 			
 			{
-				"ven_engine",
+				"442_ven_engine",
 				"engine"
 			},
 			
 			{
-				"ven_bridge",
+				"442_ven_bridge",
 				"bridge"
 			}
 		};
 	};
-	class venator_base_6: venator_base
+	class 442_venator_base_6: 442_venator_base
 	{
 		displayname="Venator (Fully Hollowed)";
 		multistructureparts[]=
 		{
 			
 			{
-				"ven_body1_1",
+				"442_ven_body1_1",
 				"body1_1"
 			},
 			
 			{
-				"ven_body1_2",
+				"442_ven_body1_2",
 				"body1_2"
 			},
 			
 			{
-				"ven_body2_1",
+				"442_ven_body2_1",
 				"body2_1"
 			},
 			
 			{
-				"ven_body2_2",
+				"442_ven_body2_2",
 				"body2_2"
 			},
 			
 			{
-				"ven_body2_3",
+				"442_ven_body2_3",
 				"body2_3"
 			},
 			
 			{
-				"ven_body3",
+				"442_ven_body3",
 				"body3"
 			},
 			
 			{
-				"ven_body4",
+				"442_ven_body4",
 				"body4"
 			},
 			
 			{
-				"ven_body5",
+				"442_ven_body5",
 				"body5"
 			},
 			
 			{
-				"ven_body6",
+				"442_ven_body6",
 				"body6"
 			},
 			
 			{
-				"ven_body7",
+				"442_ven_body7",
 				"body7"
 			},
 			
 			{
-				"ven_body8",
+				"442_ven_body8",
 				"body8"
 			},
 			
 			{
-				"ven_body9",
+				"442_ven_body9",
 				"body9"
 			},
 			
 			{
-				"ven_body10",
+				"442_ven_body10",
 				"body10"
 			},
 			
 			{
-				"ven_door",
+				"442_ven_door",
 				"door"
 			},
 			
 			{
-				"ven_engine",
+				"442_ven_engine",
 				"engine"
 			},
 			
 			{
-				"ven_bridge",
+				"442_ven_bridge",
 				"bridge"
 			}
 		};
 	};
-	class ven_hull_base: House_F
+	class 442_ven_hull_base: House_F
 	{
 		reversed=0;
 		scope=1;
@@ -846,7 +846,7 @@ class CfgVehicles
 		{
 		};
 	};
-	class ven_body1_1: ven_hull_base
+	class 442_ven_body1_1: 442_ven_hull_base
 	{
 		displayname="ven body1_1";
 		scope=2;
@@ -862,7 +862,7 @@ class CfgVehicles
 			"442_ships\venator\data\body1_co.paa"
 		};
 	};
-	class ven_body1_2: ven_hull_base
+	class 442_ven_body1_2: 442_ven_hull_base
 	{
 		displayname="ven body1_2";
 		scope=2;
@@ -878,7 +878,7 @@ class CfgVehicles
 			"442_ships\venator\data\body1_co.paa"
 		};
 	};
-	class ven_body2_1: ven_hull_base
+	class 442_ven_body2_1: 442_ven_hull_base
 	{
 		displayname="ven body2_1";
 		scope=2;
@@ -894,7 +894,7 @@ class CfgVehicles
 			"442_ships\venator\data\body2_co.paa"
 		};
 	};
-	class ven_body2_2: ven_hull_base
+	class 442_ven_body2_2: 442_ven_hull_base
 	{
 		displayname="ven body2_2";
 		scope=2;
@@ -910,7 +910,7 @@ class CfgVehicles
 			"442_ships\venator\data\body2_co.paa"
 		};
 	};
-	class ven_body2_3: ven_hull_base
+	class 442_ven_body2_3: 442_ven_hull_base
 	{
 		displayname="ven body2_3";
 		scope=2;
@@ -926,7 +926,7 @@ class CfgVehicles
 			"442_ships\venator\data\body2_co.paa"
 		};
 	};
-	class ven_body3: ven_hull_base
+	class 442_ven_body3: 442_ven_hull_base
 	{
 		displayname="ven body_3";
 		scope=2;
@@ -942,7 +942,7 @@ class CfgVehicles
 			"442_ships\venator\data\body3_co.paa"
 		};
 	};
-	class ven_body4: ven_hull_base
+	class 442_ven_body4: 442_ven_hull_base
 	{
 		displayname="ven body4";
 		scope=2;
@@ -958,7 +958,7 @@ class CfgVehicles
 			"442_ships\venator\data\body4_co.paa"
 		};
 	};
-	class ven_body5: ven_hull_base
+	class 442_ven_body5: 442_ven_hull_base
 	{
 		displayname="ven body5";
 		scope=2;
@@ -974,7 +974,7 @@ class CfgVehicles
 			"442_ships\venator\data\body5_co.paa"
 		};
 	};
-	class ven_body6: ven_hull_base
+	class 442_ven_body6: 442_ven_hull_base
 	{
 		displayname="ven body6";
 		scope=2;
@@ -990,7 +990,7 @@ class CfgVehicles
 			"442_ships\venator\data\body6_co.paa"
 		};
 	};
-	class ven_body7: ven_hull_base
+	class 442_ven_body7: 442_ven_hull_base
 	{
 		displayname="ven body7";
 		scope=2;
@@ -1006,7 +1006,7 @@ class CfgVehicles
 			"442_ships\venator\data\body7_co.paa"
 		};
 	};
-	class ven_body8: ven_hull_base
+	class 442_ven_body8: 442_ven_hull_base
 	{
 		displayname="ven body8";
 		scope=2;
@@ -1022,7 +1022,7 @@ class CfgVehicles
 			"442_ships\venator\data\body8_co.paa"
 		};
 	};
-	class ven_body9: ven_hull_base
+	class 442_ven_body9: 442_ven_hull_base
 	{
 		displayname="ven body9";
 		scope=2;
@@ -1038,7 +1038,7 @@ class CfgVehicles
 			"442_ships\venator\data\body9_co.paa"
 		};
 	};
-	class ven_body10: ven_hull_base
+	class 442_ven_body10: 442_ven_hull_base
 	{
 		displayname="ven body10";
 		scope=2;
@@ -1054,7 +1054,7 @@ class CfgVehicles
 			"442_ships\venator\data\body10_co.paa"
 		};
 	};
-	class ven_door: ven_hull_base
+	class 442_ven_door: 442_ven_hull_base
 	{
 		displayname="ven door";
 		scope=2;
@@ -1072,7 +1072,7 @@ class CfgVehicles
 			""
 		};
 	};
-	class ven_door2: ven_hull_base
+	class 442_ven_door2: 442_ven_hull_base
 	{
 		displayname="ven door";
 		scope=2;
@@ -1090,7 +1090,7 @@ class CfgVehicles
 			"442_ships\venator\data\door_co.paa"
 		};
 	};
-	class ven_engine: ven_hull_base
+	class 442_ven_engine: 442_ven_hull_base
 	{
 		displayname="ven engine";
 		scope=2;
@@ -1106,7 +1106,7 @@ class CfgVehicles
 			"442_ships\venator\data\engine_co.paa"
 		};
 	};
-	class ven_interior1: ven_hull_base
+	class 442_ven_interior1: 442_ven_hull_base
 	{
 		displayname="ven interior1";
 		scope=2;
@@ -1122,7 +1122,7 @@ class CfgVehicles
 			"442_ships\venator\data\interior1_co.paa"
 		};
 	};
-	class ven_interior2: ven_hull_base
+	class 442_ven_interior2: 442_ven_hull_base
 	{
 		displayname="ven interior2";
 		scope=2;
@@ -1138,7 +1138,7 @@ class CfgVehicles
 			"442_ships\venator\data\interior2_co.paa"
 		};
 	};
-	class ven_interior3: ven_hull_base
+	class 442_ven_interior3: 442_ven_hull_base
 	{
 		displayname="ven interior3";
 		scope=2;
@@ -1154,7 +1154,7 @@ class CfgVehicles
 			"442_ships\venator\data\interior3_co.paa"
 		};
 	};
-	class ven_interior4: ven_hull_base
+	class 442_ven_interior4: 442_ven_hull_base
 	{
 		displayname="ven interior4";
 		scope=2;
@@ -1170,7 +1170,7 @@ class CfgVehicles
 			"442_ships\venator\data\interior4_co.paa"
 		};
 	};
-	class ven_interior5: ven_hull_base
+	class 442_ven_interior5: 442_ven_hull_base
 	{
 		displayname="ven interior5";
 		scope=2;
@@ -1186,7 +1186,7 @@ class CfgVehicles
 			"442_ships\venator\data\interior5_co.paa"
 		};
 	};
-	class ven_interior6: ven_hull_base
+	class 442_ven_interior6: 442_ven_hull_base
 	{
 		displayname="ven interior6";
 		scope=2;
@@ -1202,7 +1202,7 @@ class CfgVehicles
 			"442_ships\venator\data\interior6_co.paa"
 		};
 	};
-	class ven_interior7: ven_hull_base
+	class 442_ven_interior7: 442_ven_hull_base
 	{
 		displayname="ven interior7";
 		scope=2;
@@ -1218,7 +1218,7 @@ class CfgVehicles
 			"442_ships\venator\data\interior7_co.paa"
 		};
 	};
-	class ven_interior8: ven_hull_base
+	class 442_ven_interior8: 442_ven_hull_base
 	{
 		displayname="ven interior8";
 		scope=2;
@@ -1234,7 +1234,7 @@ class CfgVehicles
 			"442_ships\venator\data\interior8_co.paa"
 		};
 	};
-	class ven_bridge: ven_hull_base
+	class 442_ven_bridge: 442_ven_hull_base
 	{
 		displayname="ven bridge";
 		scope=2;

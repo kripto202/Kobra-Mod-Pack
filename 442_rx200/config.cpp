@@ -200,6 +200,10 @@ class CfgVehicles
 		waterResistance=1;
 		turnCoef=0.5;
 		engineEffectSpeed=5;
+		weaponsGroup1=2;
+		weaponsGroup2="1 + 4";
+		weaponsGroup3="8 + 16 +	32";
+		weaponsGroup4="64 + 128";
 		#include "physx.hpp"
 		cost=1500000;
 		#include "armor.hpp"

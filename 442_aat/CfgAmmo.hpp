@@ -14,7 +14,8 @@ class CfgAmmo
 		dangerRadiusHit = 16;
 		suppressionRadiusBulletClose = 8;
 		suppressionRadiusHit = 12;
-		cost = 5;
+		aiAmmoUsageFlags = "64 + 128 + 256";
+		cost = 1;
 		airLock = 1;
 		caliber = 2.6;
 		typicalSpeed = 880;
@@ -52,6 +53,8 @@ class CfgAmmo
 		effectfly="442_plasma_red";
 		flaresize=10;
 		tracerscale=2;
+		aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+		allowagainstinfantry = 1;
 	};
 	class 442_75mm_red_he: Sh_120mm_HE
 	{
@@ -64,6 +67,9 @@ class CfgAmmo
 		effectfly="442_plasma_red";
 		flaresize=10;
 		tracerscale=2;
+		cost = 1;
+		aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+		allowagainstinfantry = 1;
 	};
 
 //Driver Guns
@@ -74,6 +80,8 @@ class CfgAmmo
 		simulation = "shotShell";
 		model="swlw_main\Effects\laser_red.p3d";
 		effectfly="442_plasma_red";
+		aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+		allowagainstinfantry = 1;
 		hit = 80;
 		indirectHit = 8;
 		indirectHitRange = 6;
