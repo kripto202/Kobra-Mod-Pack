@@ -1,49 +1,4 @@
-class CfgPatches
-{
-	class 442_providence
-	{
-		requiredAddons[]={};
-		weapons[]={};
-		units[]=
-		{
-			"442_providence",
-			"442_providence_2",
-			"442_providence_d",
-			"442_providence_d_2",
-			"providence_hull_base",
-			"providence_body1",
-			"providence_body1_d",
-			"providence_body2",
-			"providence_body2_d",
-			"providence_body3",
-			"providence_body3_d",
-			"providence_bridge",
-			"providence_bridge_d",
-			"providence_engine",
-			"providence_engine_d",
-			"providence_interior",
-			"providence_interior_d",
-			"442_providence_zeus",
-			"442_providence_d_zeus"
-		};
-		author="kripto202";
-	};
-};
-class Eventhandlers;
-class CfgVehicles
-{
-	class NonStrategic;
-	class StaticShip;
-	class Ship;
-	class Building;
-	class House_F;
-	class FloatingStructure_F;
-	class thingx;
-	class LandVehicle;
-	class Motorcycle;
-	class FlagCarrier;
-	class Items_base_F;
-	class 442_providence: House_F
+    class 442_providence: House_F
 	{
 		scope=2;
 		scopecurator=1;
@@ -57,32 +12,32 @@ class CfgVehicles
 		{
 			
 			{
-				"providence_body1",
+				"442_providence_body1",
 				"body1"
 			},
 			
 			{
-				"providence_body2",
+				"442_providence_body2",
 				"body2"
 			},
 			
 			{
-				"providence_body3",
+				"442_providence_body3",
 				"body3"
 			},
 			
 			{
-				"providence_bridge",
+				"442_providence_bridge",
 				"bridge"
 			},
 			
 			{
-				"providence_engine",
+				"442_providence_engine",
 				"engine"
 			},
 			
 			{
-				"providence_interior",
+				"442_providence_interior",
 				"interior"
 			}
 		};
@@ -102,27 +57,27 @@ class CfgVehicles
 			{
 				
 				{
-					"providence_body1",
+					"442_providence_body1",
 					"body1"
 				},
 				
 				{
-					"providence_body2",
+					"442_providence_body2",
 					"body2"
 				},
 				
 				{
-					"providence_body3",
+					"442_providence_body3",
 					"body3"
 				},
 				
 				{
-					"providence_bridge",
+					"442_providence_bridge",
 					"bridge"
 				},
 				
 				{
-					"providence_engine",
+					"442_providence_engine",
 					"engine"
 				}
 			};
@@ -141,32 +96,32 @@ class CfgVehicles
 		{
 			
 			{
-				"providence_body1_d",
+				"442_providence_body1_d",
 				"body1"
 			},
 			
 			{
-				"providence_body2_d",
+				"442_providence_body2_d",
 				"body2"
 			},
 			
 			{
-				"providence_body3_d",
+				"442_providence_body3_d",
 				"body3"
 			},
 			
 			{
-				"providence_bridge_d",
+				"442_providence_bridge_d",
 				"bridge"
 			},
 			
 			{
-				"providence_engine_d",
+				"442_providence_engine_d",
 				"engine"
 			},
 			
 			{
-				"providence_interior_d",
+				"442_providence_interior_d",
 				"interior"
 			}
 		};
@@ -186,32 +141,32 @@ class CfgVehicles
 		{
 			
 			{
-				"providence_body1_d",
+				"442_providence_body1_d",
 				"body1"
 			},
 			
 			{
-				"providence_body2_d",
+				"442_providence_body2_d",
 				"body2"
 			},
 			
 			{
-				"providence_body3_d",
+				"442_providence_body3_d",
 				"body3"
 			},
 			
 			{
-				"providence_bridge_d",
+				"442_providence_bridge_d",
 				"bridge"
 			},
 			
 			{
-				"providence_engine_d",
+				"442_providence_engine_d",
 				"engine"
 			}
 		};
 	};
-	class providence_hull_base: House_F
+	class 442_providence_hull_base: House_F
 	{
 		reversed=0;
 		scope=1;
@@ -247,7 +202,7 @@ class CfgVehicles
 		{
 		};
 	};
-	class providence_body1: providence_hull_base
+	class 442_providence_body1: 442_providence_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -263,7 +218,7 @@ class CfgVehicles
 			"442_ships\providence\data\body1_co.paa"
 		};
 	};
-	class providence_body1_d: providence_body1
+	class 442_providence_body1_d: 442_providence_body1
 	{
 		displayname="providence dreadnought body1";
 		model="\442_ships\providence\body1_d.p3d";
@@ -272,7 +227,7 @@ class CfgVehicles
 			"442_ships\providence\data\body1_d_co.paa"
 		};
 	};
-	class providence_body2: providence_hull_base
+	class 442_providence_body2: 442_providence_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -288,12 +243,12 @@ class CfgVehicles
 			"442_ships\providence\data\body2_co.paa"
 		};
 	};
-	class providence_body2_d: providence_body2
+	class 442_providence_body2_d: 442_providence_body2
 	{
 		displayname="providence dreadnought body2";
 		model="\442_ships\providence\body2_d.p3d";
 	};
-	class providence_body3: providence_hull_base
+	class 442_providence_body3: 442_providence_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -309,12 +264,12 @@ class CfgVehicles
 			"442_ships\providence\data\body3_co.paa"
 		};
 	};
-	class providence_body3_d: providence_body3
+	class 442_providence_body3_d: 442_providence_body3
 	{
 		displayname="providence dreadnought body3";
 		model="\442_ships\providence\body3_d.p3d";
 	};
-	class providence_bridge: providence_hull_base
+	class 442_providence_bridge: 442_providence_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -330,12 +285,12 @@ class CfgVehicles
 			"442_ships\providence\data\bridge_co.paa"
 		};
 	};
-	class providence_bridge_d: providence_bridge
+	class 442_providence_bridge_d: 442_providence_bridge
 	{
 		displayname="providence dreadnought bridge";
 		model="\442_ships\providence\bridge_d.p3d";
 	};
-	class providence_engine: providence_hull_base
+	class 442_providence_engine: 442_providence_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -351,12 +306,12 @@ class CfgVehicles
 			"442_ships\providence\data\engine_co.paa"
 		};
 	};
-	class providence_engine_d: providence_engine
+	class 442_providence_engine_d: 442_providence_engine
 	{
 		displayname="providence dreadnought engine";
 		model="\442_ships\providence\engine_d.p3d";
 	};
-	class providence_interior: providence_hull_base
+	class 442_providence_interior: 442_providence_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -372,7 +327,7 @@ class CfgVehicles
 			"442_ships\providence\data\interior_co.paa"
 		};
 	};
-	class providence_interior_d: providence_interior
+	class 442_providence_interior_d: 442_providence_interior
 	{
 		displayname="providence dreadnought interior";
 		model="\442_ships\providence\interior_d.p3d";
@@ -422,4 +377,3 @@ class CfgVehicles
 			"442_ships\providence\data\interior_co.paa"
 		};
 	};
-};

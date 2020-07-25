@@ -1,37 +1,4 @@
-class cfgpatches
-{
-	class 442_hardcell
-	{
-		requiredAddons[]={};
-		weapons[]={};
-		units[]=
-		{
-			"hardcell_base",
-			"hardcell_body",
-			"hardcell_engine1",
-			"hardcell_engine2",
-			"hardcell_engine3",
-			"hardcell_leg1",
-			"hardcell_leg2",
-			"hardcell_leg3"
-		};
-	};
-};
-class Eventhandlers;
-class CfgVehicles
-{
-	class NonStrategic;
-	class StaticShip;
-	class Ship;
-	class Building;
-	class House_F;
-	class FloatingStructure_F;
-	class thingx;
-	class LandVehicle;
-	class Motorcycle;
-	class FlagCarrier;
-	class Items_base_F;
-	class hardcell_base: StaticShip
+class 442_hardcell_base: StaticShip
 	{
 		author="kripto202";
 		model="\442_ships\hardcell\base.p3d";
@@ -51,37 +18,37 @@ class CfgVehicles
 		{
 			
 			{
-				"hardcell_body",
+				"442_hardcell_body",
 				"body"
 			},
 			
 			{
-				"hardcell_engine1",
+				"442_hardcell_engine1",
 				"engine1"
 			},
 			
 			{
-				"hardcell_engine2",
+				"442_hardcell_engine2",
 				"engine2"
 			},
 			
 			{
-				"hardcell_engine3",
+				"442_hardcell_engine3",
 				"engine3"
 			},
 			
 			{
-				"hardcell_leg1",
+				"442_hardcell_leg1",
 				"leg1"
 			},
 			
 			{
-				"hardcell_leg2",
+				"442_hardcell_leg2",
 				"leg2"
 			},
 			
 			{
-				"hardcell_leg3",
+				"442_hardcell_leg3",
 				"leg3"
 			}
 		};
@@ -94,7 +61,7 @@ class CfgVehicles
 			unregisteredFromWorld3DEN="_this call BIS_fnc_Destroyer01EdenDelete;";
 		};
 	};
-	class hardcell_hull_base: House_F
+	class 442_hardcell_hull_base: House_F
 	{
 		reversed=0;
 		scope=1;
@@ -130,7 +97,7 @@ class CfgVehicles
 		{
 		};
 	};
-	class hardcell_body: hardcell_hull_base
+	class 442_hardcell_body: 442_hardcell_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -146,7 +113,7 @@ class CfgVehicles
 			"442_ships\hardcell\data\upper_co.paa"
 		};
 	};
-	class hardcell_engine1: hardcell_hull_base
+	class 442_hardcell_engine1: 442_hardcell_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -162,7 +129,7 @@ class CfgVehicles
 			"442_ships\hardcell\data\lower_co.paa"
 		};
 	};
-	class hardcell_engine2: hardcell_hull_base
+	class 442_hardcell_engine2: 442_hardcell_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -178,7 +145,7 @@ class CfgVehicles
 			"442_ships\hardcell\data\lower_co.paa"
 		};
 	};
-	class hardcell_engine3: hardcell_hull_base
+	class 442_hardcell_engine3: 442_hardcell_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -194,7 +161,7 @@ class CfgVehicles
 			"442_ships\hardcell\data\lower_co.paa"
 		};
 	};
-	class hardcell_leg1: hardcell_hull_base
+	class 442_hardcell_leg1: 442_hardcell_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -210,7 +177,7 @@ class CfgVehicles
 			"442_ships\hardcell\data\lower_co.paa"
 		};
 	};
-	class hardcell_leg2: hardcell_hull_base
+	class 442_hardcell_leg2: 442_hardcell_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -226,7 +193,7 @@ class CfgVehicles
 			"442_ships\hardcell\data\lower_co.paa"
 		};
 	};
-	class hardcell_leg3: hardcell_hull_base
+	class 442_hardcell_leg3: 442_hardcell_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -242,4 +209,3 @@ class CfgVehicles
 			"442_ships\hardcell\data\lower_co.paa"
 		};
 	};
-};

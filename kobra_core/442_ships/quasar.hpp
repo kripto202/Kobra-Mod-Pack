@@ -1,31 +1,4 @@
-class CfgPatches
-{
-	class 442_quasar
-	{
-		requiredAddons[]={};
-		weapons[]={};
-		units[]=
-		{
-			"442_quasar",
-		};
-		author="kripto202";
-	};
-};
-class Eventhandlers;
-class CfgVehicles
-{
-	class NonStrategic;
-	class StaticShip;
-	class Ship;
-	class Building;
-	class House_F;
-	class FloatingStructure_F;
-	class thingx;
-	class LandVehicle;
-	class Motorcycle;
-	class FlagCarrier;
-	class Items_base_F;
-	class 442_quasar: House_F
+    class 442_quasar: House_F
 	{
 		scope=2;
 		scopecurator=2;
@@ -64,4 +37,3 @@ class CfgVehicles
 			"442_structures\hallway\data\frame_co.paa",
 		};
 	};
-};

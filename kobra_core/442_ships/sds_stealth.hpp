@@ -1,31 +1,4 @@
-class CfgPatches
-{
-	class 442_sds_stealth
-	{
-		requiredAddons[]={};
-		weapons[]={};
-		units[]=
-		{
-			"442_sds_stealth_ship"
-		};
-		author="kripto202";
-	};
-};
-class Eventhandlers;
-class CfgVehicles
-{
-	class NonStrategic;
-	class StaticShip;
-	class Ship;
-	class Building;
-	class House_F;
-	class FloatingStructure_F;
-	class thingx;
-	class LandVehicle;
-	class Motorcycle;
-	class FlagCarrier;
-	class Items_base_F;
-	class 442_sds_stealth_ship: House_F
+    class 442_sds_stealth_ship: House_F
 	{
 		scope=2;
 		scopecurator=2;
@@ -52,4 +25,3 @@ class CfgVehicles
 			"442_ships\sds_stealth\data\engine_co.paa"
 		};
 	};
-};

@@ -1,31 +1,4 @@
-class CfgPatches
-{
-	class 442_munificent
-	{
-		requiredAddons[]={};
-		weapons[]={};
-		units[]=
-		{
-			"442_munificent"
-		};
-		author="kripto202";
-	};
-};
-class Eventhandlers;
-class CfgVehicles
-{
-	class NonStrategic;
-	class StaticShip;
-	class Ship;
-	class Building;
-	class House_F;
-	class FloatingStructure_F;
-	class thingx;
-	class LandVehicle;
-	class Motorcycle;
-	class FlagCarrier;
-	class Items_base_F;
-	class 442_munificent: House_F
+    class 442_munificent: House_F
 	{
 		scope=2;
 		scopecurator=2;
@@ -52,4 +25,3 @@ class CfgVehicles
 			"442_ships\munificent\data\engine_co.paa"
 		};
 	};
-};

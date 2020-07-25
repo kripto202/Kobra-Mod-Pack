@@ -1,41 +1,4 @@
-class CfgPatches
-{
-	class 442_coreship
-	{
-		requiredAddons[]={};
-		weapons[]={};
-		units[]=
-		{
-			"442_coreship",
-			"core_control_tower",
-			"core_core1",
-			"core_core2",
-			"core_core3",
-			"core_core4",
-			"core_platform1",
-			"core_platform2",
-			"core_platform3",
-			"core_platform4",
-			"core_radar"
-		};
-		author="kripto202";
-	};
-};
-class Eventhandlers;
-class CfgVehicles
-{
-	class NonStrategic;
-	class StaticShip;
-	class Ship;
-	class Building;
-	class House_F;
-	class FloatingStructure_F;
-	class thingx;
-	class LandVehicle;
-	class Motorcycle;
-	class FlagCarrier;
-	class Items_base_F;
-	class 442_coreship: House_F
+class 442_coreship: House_F
 	{
 		scope=2;
 		scopecurator=1;
@@ -49,52 +12,52 @@ class CfgVehicles
 		{
 			
 			{
-				"core_control_tower",
+				"442_core_control_tower",
 				"control_tower"
 			},
 			
 			{
-				"core_core1",
+				"442_core_core1",
 				"core1"
 			},
 			
 			{
-				"core_core2",
+				"442_core_core2",
 				"core2"
 			},
 			
 			{
-				"core_core3",
+				"442_core_core3",
 				"core3"
 			},
 			
 			{
-				"core_core4",
+				"442_core_core4",
 				"core4"
 			},
 			
 			{
-				"core_platform1",
+				"442_core_platform1",
 				"platform1"
 			},
 			
 			{
-				"core_platform2",
+				"442_core_platform2",
 				"platform2"
 			},
 			
 			{
-				"core_platform3",
+				"442_core_platform3",
 				"platform3"
 			},
 			
 			{
-				"core_platform4",
+				"442_core_platform4",
 				"platform4"
 			},
 			
 			{
-				"core_radar",
+				"442_core_radar",
 				"radar"
 			}
 		};
@@ -107,7 +70,7 @@ class CfgVehicles
 			unregisteredFromWorld3DEN="_this call BIS_fnc_Destroyer01EdenDelete;";
 		};
 	};
-	class core_hull_base: House_F
+	class 442_core_hull_base: House_F
 	{
 		reversed=0;
 		scope=1;
@@ -143,7 +106,7 @@ class CfgVehicles
 		{
 		};
 	};
-	class core_control_tower: core_hull_base
+	class 442_core_control_tower: 442_core_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -159,7 +122,7 @@ class CfgVehicles
 			"442_ships\coreship\data\control_tower_co.paa"
 		};
 	};
-	class core_core1: core_hull_base
+	class 442_core_core1: 442_core_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -175,7 +138,7 @@ class CfgVehicles
 			"442_ships\coreship\data\core_co.paa"
 		};
 	};
-	class core_core2: core_hull_base
+	class 442_core_core2: 442_core_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -191,7 +154,7 @@ class CfgVehicles
 			"442_ships\coreship\data\core_co.paa"
 		};
 	};
-	class core_core3: core_hull_base
+	class 442_core_core3: 442_core_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -207,7 +170,7 @@ class CfgVehicles
 			"442_ships\coreship\data\core_co.paa"
 		};
 	};
-	class core_core4: core_hull_base
+	class 442_core_core4: 442_core_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -223,7 +186,7 @@ class CfgVehicles
 			"442_ships\coreship\data\core_co.paa"
 		};
 	};
-	class core_platform1: core_hull_base
+	class 442_core_platform1: 442_core_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -239,7 +202,7 @@ class CfgVehicles
 			"442_ships\coreship\data\platform_co.paa"
 		};
 	};
-	class core_platform2: core_hull_base
+	class 442_core_platform2: 442_core_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -255,7 +218,7 @@ class CfgVehicles
 			"442_ships\coreship\data\platform_co.paa"
 		};
 	};
-	class core_platform3: core_hull_base
+	class 442_core_platform3: 442_core_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -271,7 +234,7 @@ class CfgVehicles
 			"442_ships\coreship\data\platform_co.paa"
 		};
 	};
-	class core_platform4: core_hull_base
+	class 442_core_platform4: 442_core_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -287,7 +250,7 @@ class CfgVehicles
 			"442_ships\coreship\data\platform_co.paa"
 		};
 	};
-	class core_radar: core_hull_base
+	class 442_core_radar: 442_core_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -303,4 +266,3 @@ class CfgVehicles
 			"442_ships\coreship\data\radar_co.paa"
 		};
 	};
-};

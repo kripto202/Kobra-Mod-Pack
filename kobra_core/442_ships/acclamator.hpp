@@ -1,35 +1,4 @@
-class CfgPatches
-{
-	class 442_acclamator
-	{
-		requiredAddons[]={};
-		weapons[]={};
-		units[]=
-		{
-			"rep_acclamator",
-			"rep_acclamator_2",
-			"rep_acclamator_3",
-			"rep_acclamator_4",
-			"rep_acclamator_5"
-		};
-		author="kripto202";
-	};
-};
-class Eventhandlers;
-class CfgVehicles
-{
-	class NonStrategic;
-	class StaticShip;
-	class Ship;
-	class Building;
-	class House_F;
-	class FloatingStructure_F;
-	class thingx;
-	class LandVehicle;
-	class Motorcycle;
-	class FlagCarrier;
-	class Items_base_F;
-	class rep_acclamator: House_F
+class 442_acclamator: House_F
 	{
 		scope=2;
 		scopecurator=2;
@@ -76,7 +45,7 @@ class CfgVehicles
 			"442_ships\acclamator\data\ramp_co.paa"
 		};
 	};
-	class rep_acclamator_2: rep_acclamator
+	class 442_acclamator_2: rep_acclamator
 	{
 		displayname="Acclamator";
 		hiddenselectionstextures[]=
@@ -98,7 +67,7 @@ class CfgVehicles
 			""
 		};
 	};
-	class rep_acclamator_3: rep_acclamator
+	class 442_acclamator_3: rep_acclamator
 	{
 		displayname="Acclamator Landed (Hallow)";
 		hiddenselectionstextures[]=
@@ -120,7 +89,7 @@ class CfgVehicles
 			"442_ships\acclamator\data\ramp_co.paa"
 		};
 	};
-	class rep_acclamator_4: rep_acclamator
+	class 442_acclamator_4: rep_acclamator
 	{
 		displayname="Acclamator (Hallow)";
 		hiddenselectionstextures[]=
@@ -142,7 +111,7 @@ class CfgVehicles
 			""
 		};
 	};
-	class rep_acclamator_5: rep_acclamator
+	class 442_acclamator_5: rep_acclamator
 	{
 		displayname="Acclamator Landed (Hallow, No Ramp)";
 		hiddenselectionstextures[]=
@@ -164,4 +133,3 @@ class CfgVehicles
 			""
 		};
 	};
-};

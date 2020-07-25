@@ -1,57 +1,4 @@
-class cfgpatches
-{
-	class 442_lucrehulk
-	{
-		requiredAddons[]={};
-		weapons[]={};
-		units[]=
-		{
-			"442_lucrehulk",
-			"lucrehulk_base",
-			"back_1",
-			"bottom_1",
-			"bottom_2",
-			"bottom_3",
-			"bottom_4",
-			"core_1",
-			"core_2",
-			"core_3",
-			"engine_1",
-			"front_1",
-			"front_2",
-			"front_3",
-			"front_4",
-			"gate_1",
-			"inner_1",
-			"inner_2",
-			"inner_3",
-			"inner_4",
-			"radar_1",
-			"radar_2",
-			"radar_3",
-			"radar_4",
-			"top_1",
-			"top_2",
-			"top_3",
-			"top_4"
-		};
-	};
-};
-class Eventhandlers;
-class CfgVehicles
-{
-	class NonStrategic;
-	class StaticShip;
-	class Ship;
-	class Building;
-	class House_F;
-	class FloatingStructure_F;
-	class thingx;
-	class LandVehicle;
-	class Motorcycle;
-	class FlagCarrier;
-	class Items_base_F;
-	class 442_lucrehulk: House_F
+    class 442_lucrehulk: House_F
 	{
 		author="kripto202";
 		model="\442_ships\lucrehulk\lucrehulk.p3d";
@@ -88,7 +35,7 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\back_co.paa"
 		};
 	};
-	class lucrehulk_base: StaticShip
+	class 442_lucrehulk_base: 442_StaticShip
 	{
 		author="kripto202";
 		model="\442_ships\lucrehulk\lucrehulk_base.p3d";
@@ -108,132 +55,132 @@ class CfgVehicles
 		{
 			
 			{
-				"back_1",
+				"442_back_1",
 				"back_1"
 			},
 			
 			{
-				"bottom_1",
+				"442_bottom_1",
 				"bottom_1"
 			},
 			
 			{
-				"bottom_2",
+				"442_bottom_2",
 				"bottom_2"
 			},
 			
 			{
-				"bottom_3",
+				"442_bottom_3",
 				"bottom_3"
 			},
 			
 			{
-				"bottom_4",
+				"442_bottom_4",
 				"bottom_4"
 			},
 			
 			{
-				"core_1",
+				"442_core_1",
 				"core_1"
 			},
 			
 			{
-				"core_2",
+				"442_core_2",
 				"core_2"
 			},
 			
 			{
-				"core_3",
+				"442_core_3",
 				"core_3"
 			},
 			
 			{
-				"engine_1",
+				"442_engine_1",
 				"engine_1"
 			},
 			
 			{
-				"front_1",
+				"442_front_1",
 				"front_1"
 			},
 			
 			{
-				"front_2",
+				"442_front_2",
 				"front_2"
 			},
 			
 			{
-				"front_3",
+				"442_front_3",
 				"front_3"
 			},
 			
 			{
-				"front_4",
+				"442_front_4",
 				"front_4"
 			},
 			
 			{
-				"gate_1",
+				"442_gate_1",
 				"gate_1"
 			},
 			
 			{
-				"inner_1",
+				"442_inner_1",
 				"inner_1"
 			},
 			
 			{
-				"inner_2",
+				"442_inner_2",
 				"inner_2"
 			},
 			
 			{
-				"inner_3",
+				"442_inner_3",
 				"inner_3"
 			},
 			
 			{
-				"inner_4",
+				"442_inner_4",
 				"inner_4"
 			},
 			
 			{
-				"radar_1",
+				"442_radar_1",
 				"radar_1"
 			},
 			
 			{
-				"radar_2",
+				"442_radar_2",
 				"radar_2"
 			},
 			
 			{
-				"radar_3",
+				"442_radar_3",
 				"radar_3"
 			},
 			
 			{
-				"radar_4",
+				"442_radar_4",
 				"radar_4"
 			},
 			
 			{
-				"top_1",
+				"442_top_1",
 				"top_1"
 			},
 			
 			{
-				"top_2",
+				"442_top_2",
 				"top_2"
 			},
 			
 			{
-				"top_3",
+				"442_top_3",
 				"top_3"
 			},
 			
 			{
-				"top_4",
+				"442_top_4",
 				"top_4"
 			}
 		};
@@ -246,7 +193,7 @@ class CfgVehicles
 			unregisteredFromWorld3DEN="_this call BIS_fnc_Destroyer01EdenDelete;";
 		};
 	};
-	class luc_hull_base: House_F
+	class 442_luc_hull_base: House_F
 	{
 		reversed=0;
 		scope=1;
@@ -282,7 +229,7 @@ class CfgVehicles
 		{
 		};
 	};
-	class back_1: luc_hull_base
+	class 442_back_1: 442_luc_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -298,7 +245,7 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\back_co.paa"
 		};
 	};
-	class bottom_1: luc_hull_base
+	class 442_bottom_1: 442_luc_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -314,7 +261,7 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\bottom_co.paa"
 		};
 	};
-	class bottom_2: luc_hull_base
+	class 442_bottom_2: 442_luc_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -330,7 +277,7 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\bottom_co.paa"
 		};
 	};
-	class bottom_3: luc_hull_base
+	class 442_bottom_3: 442_luc_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -346,7 +293,7 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\bottom_co.paa"
 		};
 	};
-	class bottom_4: luc_hull_base
+	class 442_bottom_4: 442_luc_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -362,7 +309,7 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\bottom_co.paa"
 		};
 	};
-	class core_1: luc_hull_base
+	class 442_core_1: 442_luc_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -378,7 +325,7 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\core_co.paa"
 		};
 	};
-	class core_2: luc_hull_base
+	class 442_core_2: 442_luc_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -394,7 +341,7 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\core_co.paa"
 		};
 	};
-	class core_3: luc_hull_base
+	class 442_core_3: 442_luc_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -410,7 +357,7 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\core_co.paa"
 		};
 	};
-	class engine_1: luc_hull_base
+	class 442_engine_1: 442_luc_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -426,7 +373,7 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\engine_co.paa"
 		};
 	};
-	class front_1: luc_hull_base
+	class 442_front_1: 442_luc_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -442,7 +389,7 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\front_co.paa"
 		};
 	};
-	class front_2: luc_hull_base
+	class 442_front_2: 442_luc_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -458,7 +405,7 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\front_co.paa"
 		};
 	};
-	class front_3: luc_hull_base
+	class 442_front_3: 442_luc_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -474,7 +421,7 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\front_co.paa"
 		};
 	};
-	class front_4: luc_hull_base
+	class 442_front_4: 442_luc_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -490,7 +437,7 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\front_co.paa"
 		};
 	};
-	class gate_1: luc_hull_base
+	class 442_gate_1: 442_luc_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -506,7 +453,7 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\gate_co.paa"
 		};
 	};
-	class inner_1: luc_hull_base
+	class 442_inner_1: 442_luc_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -522,7 +469,7 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\inner_co.paa"
 		};
 	};
-	class inner_2: luc_hull_base
+	class 442_inner_2: 442_luc_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -538,7 +485,7 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\inner_co.paa"
 		};
 	};
-	class inner_3: luc_hull_base
+	class 442_inner_3: 442_luc_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -554,7 +501,7 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\inner_co.paa"
 		};
 	};
-	class inner_4: luc_hull_base
+	class 442_inner_4: 442_luc_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -570,7 +517,7 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\inner_co.paa"
 		};
 	};
-	class radar_1: luc_hull_base
+	class 442_radar_1: 442_luc_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -586,7 +533,7 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\radar_co.paa"
 		};
 	};
-	class radar_2: luc_hull_base
+	class 442_radar_2: 442_luc_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -602,7 +549,7 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\radar_co.paa"
 		};
 	};
-	class radar_3: luc_hull_base
+	class 442_radar_3: 442_luc_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -618,7 +565,7 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\radar_co.paa"
 		};
 	};
-	class radar_4: luc_hull_base
+	class 442_radar_4: 442_luc_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -634,7 +581,7 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\radar_co.paa"
 		};
 	};
-	class top_1: luc_hull_base
+	class 442_top_1: 442_luc_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -650,7 +597,7 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\top_co.paa"
 		};
 	};
-	class top_2: luc_hull_base
+	class 442_top_2: 442_luc_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -666,7 +613,7 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\top_co.paa"
 		};
 	};
-	class top_3: luc_hull_base
+	class 442_top_3: 442_luc_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -682,7 +629,7 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\top_co.paa"
 		};
 	};
-	class top_4: luc_hull_base
+	class 442_top_4: 442_luc_hull_base
 	{
 		scope=2;
 		scopeCurator=2;
@@ -698,4 +645,3 @@ class CfgVehicles
 			"442_ships\lucrehulk\data\top_co.paa"
 		};
 	};
-};
