@@ -10,6 +10,7 @@ class CfgPatches
 			"A3_UI_F",
 			"ls_laat_2",
 			"ls_hmp",
+			"A3_Armor_F_Beta",
 		};
 		requiredVersion = 0.1;
 		units[] = 
@@ -201,19 +202,12 @@ class CfgPatches
 			"442_hmp",
 			"442_hmp_transport",
 
-			"442_lb_heli_trans",
-			"442_lb_heli_cas",
-			"rep_lb_heli_trans",
-			"rep_lb_heli_cas",
-			"442_gh_heli_trans",
-			"rep_gh_heli_trans",
-			"huey_gh_heli_trans",
-			"442_com_heli_cas",
-			"rep_com_heli_cas",
 			"442_a10_plane_cas",
-			"rep_a10_plane_cas",
 			"442_fa181_plane_fighter",
 			"442_fa181_plane_fighter_stealth",
+
+			"442_aat",
+			"442_aat_wreck",
 		};
 		weapons[]={};
 	};
@@ -255,6 +249,50 @@ class VehicleSystemsTemplateLeftPilot : DefaultVehicleSystemsDisplayManagerLeft
 class VehicleSystemsTemplateRightPilot : DefaultVehicleSystemsDisplayManagerRight
 {
     class components;
+};
+
+class SensorTemplateAntiRadiation;
+class SensorTemplateActiveRadar;
+class SensorTemplateIR;
+class SensorTemplateVisual;
+class SensorTemplateMan;
+class SensorTemplateLaser;
+class SensorTemplateNV;
+class SensorTemplateDataLink;
+class VehicleSystemsTemplateLeftCommander: DefaultVehicleSystemsDisplayManagerLeft
+{
+	class components;
+};
+class VehicleSystemsTemplateRightCommander: DefaultVehicleSystemsDisplayManagerRight
+{
+	class components;
+};
+class VehicleSystemsTemplateLeftGunner: DefaultVehicleSystemsDisplayManagerLeft
+{
+	class components;
+};
+class VehicleSystemsTemplateRightGunner: DefaultVehicleSystemsDisplayManagerRight
+{
+	class components;
+};
+class DefaultEventHandlers;
+class WeaponFireGun;
+class WeaponCloudsGun;
+class WeaponFireMGun;
+class WeaponCloudsMGun;
+class RCWSOptics;
+class Optics_Armored;
+class Optics_Commander_01: Optics_Armored
+{
+	class Wide;
+	class Medium;
+	class Narrow;
+};
+class Optics_Gunner_AAA_01: Optics_Armored
+{
+	class Wide;
+	class Medium;
+	class Narrow;
 };
 
 class CfgFunctions 
@@ -722,7 +760,6 @@ class cfgvehicles
 	class Motorcycle;
 	class FlagCarrier;
 	class Items_base_F;
-	class Items_base_F;
     class Wreck_base_F;
     class ls_laat;
 	class ls_hmp;
@@ -758,6 +795,43 @@ class cfgvehicles
             class Right;	// External class reference
         };
 	};
+	class Tank: LandVehicle
+	{
+		class NewTurret;
+		class Sounds;
+		class HitPoints;
+		class CommanderOptics;
+	};
+	class Tank_F: Tank
+	{
+		class Turrets
+		{
+			class MainTurret: NewTurret
+			{
+				class Turrets
+				{
+					class CommanderOptics;
+				};
+			};
+		};
+		class AnimationSources;
+		class ViewPilot;
+		class ViewOptics;
+		class ViewCargo;
+		class HeadLimits;
+		class HitPoints: HitPoints
+		{
+			class HitHull;
+			class HitEngine;
+			class HitLTrack;
+			class HitRTrack;
+		};
+		class Sounds: Sounds
+		{
+			class Engine;
+			class Movement;
+		};
+	};
 	#include "442_ships\acclamator.hpp"
 	#include "442_ships\coreship.hpp"
 	#include "442_ships\hardcell.hpp"
@@ -773,8 +847,12 @@ class cfgvehicles
 	#include "442_a_vehicle\laat.hpp"
 	#include "442_a_vehicle\hmp.hpp"
 	#include "442_a_vehicle\a10.hpp"
-	#include "442_a_vehicle\comanche.hpp"
 	#include "442_a_vehicle\fa181.hpp"
-	#include "442_a_vehicle\ghosthawk.hpp"
-	#include "442_a_vehicle\littlebird.hpp"
+	#include "442_g_vehicle\aat.hpp"
+	#include "442_g_vehicle\argon_truck.hpp"
+	#include "442_g_vehicle\baw_arty.hpp"
+	#include "442_g_vehicle\mtt.hpp"
+	#include "442_g_vehicle\rx200.hpp"
+	#include "442_g_vehicle\tx130.hpp"
+	#include "442_g_vehicle\warthog.hpp"
 };

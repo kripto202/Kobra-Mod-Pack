@@ -1,29 +1,29 @@
-simulation="tankX";
-enginePower=3000;
-maxOmega=276;
-peakTorque=4832;
-torqueCurve[]=
-	{
-		{0, 0},
-		{"(1600/2640)",	"(2650/2850)"},
-		{"(1800/2640)", "(2800/2850)"},
-		{"(1900/2640)", "(2850/2850)"},
-		{"(2000/2640)", "(2800/2850)"},
-		{"(2200/2640)",	"(2750/2850)"},
-		{"(2400/2640)",	"(2600/2850)"},
-		{"(2640/2640)",	"(2350/2850)"}
-	};
-thrustDelay=0.1;
-clutchStrength=180;
-fuelCapacity=1885;
-brakeIdleSpeed=1.78;
-latency=0.1;
-tankTurnForce=600000;
-idleRpm=700;
-redRpm=2640;
-engineLosses=25;
-transmissionLosses=15;
-class complexGearbox
+	simulation="tankX";
+	enginePower=3000;
+	maxOmega=276;
+	peakTorque=4832;
+	torqueCurve[]=
+		{
+			{0, 0},
+			{"(1600/2640)",	"(2650/2850)"},
+			{"(1800/2640)", "(2800/2850)"},
+			{"(1900/2640)", "(2850/2850)"},
+			{"(2000/2640)", "(2800/2850)"},
+			{"(2200/2640)",	"(2750/2850)"},
+			{"(2400/2640)",	"(2600/2850)"},
+			{"(2640/2640)",	"(2350/2850)"}
+		};
+	thrustDelay=0.1;
+	clutchStrength=180;
+	fuelCapacity=1885;
+	brakeIdleSpeed=1.78;
+	latency=0.1;
+	tankTurnForce=600000;
+	idleRpm=700;
+	redRpm=2640;
+	engineLosses=25;
+	transmissionLosses=15;
+	class complexGearbox
 	{
 		GearboxRatios[]=
 		{
@@ -57,7 +57,7 @@ class complexGearbox
 		reverseString="R";
 		transmissionDelay=0.1;
 	};
-class Wheels
+	class Wheels
 	{
 		class L2
 		{
