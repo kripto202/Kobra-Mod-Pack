@@ -214,8 +214,6 @@ class CfgPatches
 			"rep_a10_plane_cas",
 			"442_fa181_plane_fighter",
 			"442_fa181_plane_fighter_stealth",
-			"rep_fa181_plane_fighter",
-			"rep_fa181_plane_fighter_stealth"
 		};
 		weapons[]={};
 	};
@@ -728,6 +726,8 @@ class cfgvehicles
     class Wreck_base_F;
     class ls_laat;
 	class ls_hmp;
+	class b_plane_fighter_01_f;
+	class b_plane_fighter_01_stealth_f;
 	class Helicopter;
     class Helicopter_Base_F : Helicopter {
         class Turrets;
