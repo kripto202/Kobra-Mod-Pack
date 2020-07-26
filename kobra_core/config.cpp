@@ -208,6 +208,26 @@ class CfgPatches
 
 			"442_aat",
 			"442_aat_wreck",
+
+			"442_baw_arty",
+			"442_baw_arty_static",
+			"442_baw_arty_wreck",
+
+			"442_argon_transport",
+			"442_argon_covered",
+            "442_argon_ammo",
+            "442_argon_device",
+            "442_argon_fuel",
+            "442_argon_repair",
+			"442_argon_medical",
+
+			"442_argon_transport_cis",
+			"442_argon_covered_cis",
+			"442_argon_ammo_cis",
+			"442_argon_device_cis",
+			"442_argon_fuel_cis",
+			"442_argon_repair_cis",
+			"442_argon_medical_cis"
 		};
 		weapons[]={};
 	};
@@ -765,6 +785,12 @@ class cfgvehicles
 	class ls_hmp;
 	class b_plane_fighter_01_f;
 	class b_plane_fighter_01_stealth_f;
+	class O_Truck_03_transport_F;
+	class O_Truck_03_covered_F;
+	class O_Truck_03_ammo_F;
+	class O_Truck_03_device_F;
+	class O_Truck_03_fuel_F;
+	class O_Truck_03_repair_F;
 	class Helicopter;
     class Helicopter_Base_F : Helicopter {
         class Turrets;

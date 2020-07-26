@@ -49,26 +49,26 @@ soundDammage[]=
 //aat sounds
 soundEngineOnInt[]=
 {
-	"442_aat\sounds\aat_start_int.wss",
+	"442_g_vehicle\aat\sounds\aat_start_int.wss",
 	0.79432797,
 	1
 };
 soundEngineOffInt[]=
 {
-	"442_aat\sounds\aat_stop_int.wss",
+	"442_g_vehicle\aat\sounds\aat_stop_int.wss",
 	0.79432797,
 	1
 };
 soundEngineOnExt[]=
 {
-	"442_aat\sounds\aat_start.wss",
+	"442_g_vehicle\aat\sounds\aat_start.wss",
 	1.4,
 	1,
 	100
 };
 soundEngineOffExt[]=
 {
-	"442_aat\sounds\aat_stop.wss",
+	"442_g_vehicle\aat\sounds\aat_stop.wss",
 	1.4,
 	1,
 	100
@@ -308,7 +308,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine.wss",
+			"442_g_vehicle\aat\sounds\aat_engine.wss",
 			2,
 			1,
 			200
@@ -320,7 +320,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine.wss",
+			"442_g_vehicle\aat\sounds\aat_engine.wss",
 			2.5,
 			1,
 			240
@@ -332,7 +332,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine.wss",
+			"442_g_vehicle\aat\sounds\aat_engine.wss",
 			3,
 			1,
 			280
@@ -344,7 +344,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine.wss",
+			"442_g_vehicle\aat\sounds\aat_engine.wss",
 			3.5,
 			1,
 			320
@@ -356,7 +356,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine.wss",
+			"442_g_vehicle\aat\sounds\aat_engine.wss",
 			4,
 			1,
 			360
@@ -368,7 +368,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine.wss",
+			"442_g_vehicle\aat\sounds\aat_engine.wss",
 			4.5,
 			1,
 			400
@@ -380,7 +380,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine.wss",
+			"442_g_vehicle\aat\sounds\aat_engine.wss",
 			5,
 			1,
 			440
@@ -392,7 +392,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine.wss",
+			"442_g_vehicle\aat\sounds\aat_engine.wss",
 			4.6501598,
 			1,
 			200
@@ -404,7 +404,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine.wss",
+			"442_g_vehicle\aat\sounds\aat_engine.wss",
 			5,
 			1,
 			200
@@ -416,7 +416,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine.wss",
+			"442_g_vehicle\aat\sounds\aat_engine.wss",
 			2,
 			1,
 			230
@@ -428,7 +428,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine.wss",
+			"442_g_vehicle\aat\sounds\aat_engine.wss",
 			2.5,
 			1,
 			290
@@ -440,7 +440,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine.wss",
+			"442_g_vehicle\aat\sounds\aat_engine.wss",
 			3,
 			1,
 			350
@@ -452,7 +452,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine.wss",
+			"442_g_vehicle\aat\sounds\aat_engine.wss",
 			3.5,
 			1,
 			400
@@ -464,7 +464,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine.wss",
+			"442_g_vehicle\aat\sounds\aat_engine.wss",
 			4,
 			1,
 			450
@@ -476,7 +476,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine.wss",
+			"442_g_vehicle\aat\sounds\aat_engine.wss",
 			2,
 			1
 		};
@@ -487,7 +487,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine_int.wss",
+			"442_g_vehicle\aat\sounds\aat_engine_int.wss",
 			1.41589,
 			1
 		};
@@ -498,7 +498,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine_int.wss",
+			"442_g_vehicle\aat\sounds\aat_engine_int.wss",
 			1.58866,
 			1
 		};
@@ -509,7 +509,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine_int.wss",
+			"442_g_vehicle\aat\sounds\aat_engine_int.wss",
 			1.7825,
 			1
 		};
@@ -520,7 +520,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine_int.wss",
+			"442_g_vehicle\aat\sounds\aat_engine_int.wss",
 			2,
 			1
 		};
@@ -531,7 +531,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine_int.wss",
+			"442_g_vehicle\aat\sounds\aat_engine_int.wss",
 			2.24404,
 			1
 		};
@@ -542,7 +542,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine_int.wss",
+			"442_g_vehicle\aat\sounds\aat_engine_int.wss",
 			2.5178499,
 			1
 		};
@@ -553,7 +553,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine_int.wss",
+			"442_g_vehicle\aat\sounds\aat_engine_int.wss",
 			2.5178499,
 			1
 		};
@@ -564,7 +564,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine_int.wss",
+			"442_g_vehicle\aat\sounds\aat_engine_int.wss",
 			1.58866,
 			1
 		};
@@ -575,7 +575,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine_int.wss",
+			"442_g_vehicle\aat\sounds\aat_engine_int.wss",
 			1.7825,
 			1
 		};
@@ -586,7 +586,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine_int.wss",
+			"442_g_vehicle\aat\sounds\aat_engine_int.wss",
 			1.7825,
 			1
 		};
@@ -597,7 +597,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine_int.wss",
+			"442_g_vehicle\aat\sounds\aat_engine_int.wss",
 			2,
 			1
 		};
@@ -608,7 +608,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine_int.wss",
+			"442_g_vehicle\aat\sounds\aat_engine_int.wss",
 			2.24404,
 			1
 		};
@@ -619,7 +619,7 @@ class Sounds: Sounds
 	{
 		sound[]=
 		{
-			"442_aat\sounds\aat_engine_int.wss",
+			"442_g_vehicle\aat\sounds\aat_engine_int.wss",
 			2.5178499,
 			1
 		};
