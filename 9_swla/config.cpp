@@ -215,19 +215,55 @@ class CfgWeapons
 			"9_swla\data\Visors\illum_co.paa"
 		};
 	};
-	class P1_SpecOps_Helmet: k_p1_specops_helmet
+	class P1_SpecOps_Helmet_worn: k_p1_specops_helmet
     {
-		scope = 2;
-		scopecurator = 2;
-		scopearsenal = 2;
-		displayname = "9th Phase 1 (Specops)";
-		hiddenSelectionsTextures[] = 
-		{
-			"9_swla\data\Helmets\9th_P1_SpecOps.paa",
-			"9_swla\data\Visors\P1_SpecOps_Visor.paa"
-		};
-	};
-	class P2_EOD_Helmet: SWLB_clone_P2_helmet
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
+        displayname = "9th SpecOps (P1 Worn)";
+        hiddenSelectionsTextures[] = 
+        {
+            "9_swla\data\Helmets\9th_P1_SpecOps.paa",
+            "9_swla\data\Visors\P1_SpecOps_Visor.paa"
+        };
+    };
+	class P1_SpecOps_Helmet_clean: k_p1_specops_helmet
+    {
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
+        displayname = "9th Specops (P1 Clean)";
+        hiddenSelectionsTextures[] = 
+        {
+            "9_swla\data\Helmets\P1_SpecOps_helm_clean.paa",
+            "9_swla\data\Visors\P1_SpecOps_Visor.paa"
+        };
+    };
+	class P1_ARF_Helmet_worn: k_p1_arf_helmet
+    {
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
+        displayname = "9th Phase 1 (ARF Worn)";
+        hiddenSelectionsTextures[] = 
+        {
+            "9_swla\data\Helmets\9th_arf_Helmet_worn.paa",
+            "442_clones\data\helmet\arf_helmet\visor_co.paa"
+        };
+    };
+	class P1_ARF_Helmet_clean: k_p1_arf_helmet
+    {
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
+        displayname = "9th Phase 1 (ARF Clean)";
+        hiddenSelectionsTextures[] = 
+        {
+            "9_swla\data\Helmets\9th_arf_Helmet_clean.paa",
+            "442_clones\data\helmet\arf_helmet\visor_co.paa"
+        };
+    };
+	class P2_EOD_Helmet: k_p2_helmet
     {
 		scope = 2;
 		scopecurator = 2;
@@ -235,10 +271,11 @@ class CfgWeapons
 		displayname = "9th Phase 2 (EOD)";
 		hiddenSelectionsTextures[] = 
 		{
-			"9_swla\data\Helmets\P2_EOD_helmet.paa"
+			"9_swla\data\Helmets\P2_EOD_helmet.paa",
+			"9_swla\data\Visors\P2_Visor.paa"
 		};
 	};
-	class P2_Trooper_Grenadier_Helmet: SWLB_clone_P2_helmet
+	class P2_Trooper_Grenadier_Helmet: k_p2_helmet
     {
 		scope = 2;
 		scopecurator = 2;
@@ -246,10 +283,11 @@ class CfgWeapons
 		displayname = "9th Phase 2 (Grenadier)";
 		hiddenSelectionsTextures[] = 
 		{
-			"9_swla\data\Helmets\P2_Grenadier_helmet.paa"
+			"9_swla\data\Helmets\P2_Grenadier_helmet.paa",
+			"9_swla\data\Visors\P2_Visor.paa"
 		};
 	};
-	class P2_Trooper_Marksman_Helmet: SWLB_clone_P2_helmet
+	class P2_Trooper_Marksman_Helmet: k_p2_helmet
     {
 		scope = 2;
 		scopecurator = 2;
@@ -257,10 +295,11 @@ class CfgWeapons
 		displayname = "9th Phase 2 (Marksman)";
 		hiddenSelectionsTextures[] = 
 		{
-			"9_swla\data\Helmets\P2_Marksman_helmet.paa"
+			"9_swla\data\Helmets\P2_Marksman_helmet.paa",
+			"9_swla\data\Visors\P2_Visor.paa"
 		};
 	};
-	class P2_Medic_Helmet: SWLB_clone_P2_helmet
+	class P2_Medic_Helmet: k_p2_helmet
     {
 		scope = 2;
 		scopecurator = 2;
@@ -268,10 +307,11 @@ class CfgWeapons
 		displayname = "9th Phase 2 (Medic)";
 		hiddenSelectionsTextures[] = 
 		{
-			"9_swla\data\Helmets\P2_Medic_helmet_co.paa"
+			"9_swla\data\Helmets\P2_Medic_helmet_co.paa",
+			"9_swla\data\Visors\P2_Visor.paa"
 		};
 	};
-	class P2_Trooper_NCO_Helmet: SWLB_clone_P2_helmet
+	class P2_Trooper_NCO_Helmet: k_p2_helmet
     {
 		scope = 2;
 		scopecurator = 2;
@@ -279,10 +319,11 @@ class CfgWeapons
 		displayname = "9th Phase 2 (Sergeant)";
 		hiddenSelectionsTextures[] = 
 		{
-			"9_swla\data\Helmets\P2_NCO_helmet.paa"
+			"9_swla\data\Helmets\P2_NCO_helmet.paa",
+			"9_swla\data\Visors\P2_Visor.paa"
 		};
 	};
-	class P2_Trooper_NCO_Helmetv2: SWLB_clone_P2_helmet
+	class P2_Trooper_NCO_Helmetv2: k_p2_helmet
     {
 		scope = 2;
 		scopecurator = 2;
@@ -290,10 +331,11 @@ class CfgWeapons
 		displayname = "9th Phase 2 (Sergeant V2)";
 		hiddenSelectionsTextures[] = 
 		{
-			"9_swla\data\Helmets\P2_NCO_helmetv2.paa"
+			"9_swla\data\Helmets\P2_NCO_helmetv2.paa",
+			"9_swla\data\Visors\P2_Visor.paa"
 		};
 	};
-	class P2_Trooper_Support_Helmet: SWLB_clone_P2_helmet
+	class P2_Trooper_Support_Helmet: k_p2_helmet
     {
 		scope = 2;
 		scopecurator = 2;
@@ -301,7 +343,8 @@ class CfgWeapons
 		displayname = "9th Phase 2 (Support)";
 		hiddenSelectionsTextures[] = 
 		{
-			"9_swla\data\Helmets\P2_Support_helmet.paa"
+			"9_swla\data\Helmets\P2_Support_helmet.paa",
+			"9_swla\data\Visors\P2_Visor.paa"
 		};
 	};
 	class P2_Trooper_Helmet: k_p2_helmet
@@ -316,7 +359,7 @@ class CfgWeapons
 			"9_swla\data\Visors\P2_Visor.paa"
 		};
 	};
-	class P2_Trooper_Veteran_Helmet: SWLB_clone_P2_helmet
+	class P2_Trooper_Veteran_Helmet: k_p2_helmet
     {
 		scope = 2;
 		scopecurator = 2;
@@ -324,20 +367,11 @@ class CfgWeapons
 		displayname = "9th Phase 2 (Veteran)";
 		hiddenSelectionsTextures[] = 
 		{
-			"9_swla\data\Helmets\P2_Veteran_helmet.paa"
+			"9_swla\data\Helmets\P2_Veteran_helmet.paa",
+			"9_swla\data\Visors\P2_Visor.paa"
 		};
 	};
-	class P2_Trooper_Dirt_Helmet: SWLB_clone_P2_helmet
-    {
-		scope = 2;
-		scopecurator = 2;
-		scopearsenal = 2;
-		displayname = "9th Phase 2 (Dirt)";
-		hiddenSelectionsTextures[] = 
-		{
-			"9_swla\data\Helmets\P2_Dirt_helmet.paa"
-		};
-	};
+
 	class P2_Trooper_CPLV2_Helmet: k_p2_helmet
     {
 		scope = 2;
@@ -362,7 +396,7 @@ class CfgWeapons
 			"9_swla\data\Visors\P2_Visor.paa"
 		};
 	};
-	class P2_Trooper_LT_Helmet: SWLB_clone_P2_helmet
+	class P2_Trooper_LT_Helmet: k_p2_helmet
     {
 		scope = 2;
 		scopecurator = 2;
@@ -370,10 +404,11 @@ class CfgWeapons
 		displayname = "9th Phase 2 (Lieutenant)";
 		hiddenSelectionsTextures[] = 
 		{
-			"9_swla\data\Helmets\P2_Lt_Helmet.paa"
+			"9_swla\data\Helmets\P2_Lt_Helmet.paa",
+			"9_swla\data\Visors\P2_Visor.paa"
 		};
 	};
-	class P2_Trooper_Cpt_Helmet: SWLB_clone_P2_helmet
+	class P2_Trooper_Cpt_Helmet: k_p2_helmet
     {
 		scope = 2;
 		scopecurator = 2;
@@ -381,11 +416,12 @@ class CfgWeapons
 		displayname = "9th Phase 2 (Captain)";
 		hiddenSelectionsTextures[] = 
 		{
-			"9_swla\data\Helmets\P2_Cpt_Helmet.paa"
+			"9_swla\data\Helmets\P2_Cpt_Helmet.paa",
+			"9_swla\data\Visors\P2_Visor.paa"
 		};
 		
 	};
-	class P2_Trooper_Cmd_Helmet: SWLB_clone_P2_helmet
+	class P2_Trooper_Cmd_Helmet: k_p2_helmet
     {
 		scope = 2;
 		scopecurator = 2;
@@ -393,7 +429,8 @@ class CfgWeapons
 		displayname = "9th Phase 2 (Commander)";
 		hiddenSelectionsTextures[] = 
 		{
-			"9_swla\data\Helmets\P2_Cmd_Helmet.paa"
+			"9_swla\data\Helmets\P2_Cmd_Helmet.paa",
+			"9_swla\data\Visors\P2_Visor.paa"
 		};
 		
 	};
@@ -469,7 +506,7 @@ class CfgWeapons
 			"9_swla\data\Visors\AB_Visor.paa"
 		};
 	};
-	class P2_Trooper_Engineer_Helmet: SWLB_clone_eng_helmet
+	class P2_Trooper_Engineer_Helmet: k_eng_helmet
     {
 		scope = 2;
 		scopecurator = 2;
@@ -477,33 +514,97 @@ class CfgWeapons
 		displayname = "9th Engineer";
 		hiddenSelectionsTextures[] = 
 		{
-			"9_swla\data\Helmets\9th_Engineer_helmet_co.paa"
+			"9_swla\data\Helmets\9th_Engineer_helmet_co.paa",
+			"442_clones\data\helmet\eng_helmet\light_co.paa",
+			"442_clones\data\helmet\eng_helmet\visor_co.paa"
 		};
 	};
-	class 9th_BARC: k_barc_helmet
-	{
-		scope = 2;
-		scopecurator = 2;
-		scopearsenal = 2;
-		displayname = "9th BARC";
-		hiddenselectionstextures[] = 
-		{
-			"9_swla\data\Helmets\9th_BARC.paa",
-			"9_swla\data\Visors\BARC_Visor.paa"
-		};
-	};
-	class 9th_P2_SpecOps: k_p2_specops_helmet
-	{
-		scope = 2;
-		scopecurator = 2;
-		scopearsenal = 2;
-		displayname = "9th Phase 2 (SpecOps)";
-		hiddenselectionstextures[] = 
-		{
-			"9_swla\data\Helmets\9th_P2_SpecOps.paa",
-			"9_swla\data\Visors\P2_SpecOps_Visor.paa"
-		};
-	};
+	class 9th_BARC_worn: k_barc_helmet
+    {
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
+        displayname = "9th BARC (Worn)";
+        hiddenselectionstextures[] = 
+        {
+            "9_swla\data\Helmets\9th_BARC.paa",
+            "9_swla\data\Visors\BARC_Visor.paa"
+        };
+    };
+	class 9th_BARC_clean: k_barc_helmet
+    {
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
+        displayname = "9th BARC (Clean)";
+        hiddenselectionstextures[] = 
+        {
+            "9_swla\data\Helmets\9th_BARC_clean.paa",
+            "9_swla\data\Visors\BARC_Visor.paa"
+        };
+    };
+	class 9th_P2_SpecOps_worn: k_p2_specops_helmet
+    {
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
+        displayname = "9th SpecOps (P2 Worn)";
+        hiddenselectionstextures[] = 
+        {
+            "9_swla\data\Helmets\9th_P2_SpecOps.paa",
+            "9_swla\data\Visors\P2_SpecOps_Visor.paa"
+        };
+    };
+	class 9th_P2_SpecOps_clean: k_p2_specops_helmet
+    {
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
+        displayname = "9th SpecOps (P2 Clean)";
+        hiddenselectionstextures[] = 
+        {
+            "9_swla\data\Helmets\p2_specops_helm_clean.paa",
+            "9_swla\data\Visors\P2_SpecOps_Visor.paa"
+        };
+    };
+	class P2_ARF_Helmet_worn: k_p2_arf_helmet
+    {
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
+        displayname = "9th Phase 2 (ARF Worn)";
+        hiddenSelectionsTextures[] = 
+        {
+            "9_swla\data\Helmets\9th_arf_Helmet_worn.paa",
+			"442_clones\data\helmet\arf_helmet\camo2_co.paa",
+            "442_clones\data\helmet\arf_helmet\visor_co.paa"
+        };
+    };
+	 class P2_ARF_Helmet_clean: k_p2_arf_helmet
+    {
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
+        displayname = "9th Phase 2 (ARF Clean)";
+        hiddenSelectionsTextures[] = 
+        {
+            "9_swla\data\Helmets\9th_arf_Helmet_clean.paa",
+			"442_clones\data\helmet\arf_helmet\camo2_co.paa",
+            "442_clones\data\helmet\arf_helmet\visor_co.paa"
+        };
+    };
+	class 9th_Scout: k_Scout_Helmet
+    {
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
+        displayname = "9th Scout Helmet";
+        hiddenSelectionsTextures[] = 
+        {
+            "9_swla\data\Helmets\9th_Scout.paa",
+            "442_clones\data\helmet\scout_helmet\visor_co.paa",
+        };
+    };
 	class 9th_Shiny_Helmet: k_p2_helmet
 	{
 		scope = 2;
@@ -1279,6 +1380,45 @@ class CfgVehicles
 			"SWLB_comlink"
 		}; //keep it the same as linkeditems
 	};
+	class P2_LT_Armor: k_swla_unit_base
+	{
+		scope = 2;
+		scopeCurator = 2;
+		scopearsenal = 2;
+		editorpreview = "\SWLB_clones\data\ui\editorPreviews\SWLB_clone_base_P2.jpg";
+		identityTypes[] = {"LanguageENG_F", "Head_NATO"};
+		role = "Rifleman";
+		author = "CC-3117 Rush";
+		uniformclass = "P2_LT_Uniform"; //link this with the uniform classname
+		faction = "9th_Assault_Corps";
+		editorSubCategory = "Phase_2";
+		displayname = "Lieutenant";
+		backpack = ""; //backpack the unit spawns with
+		hiddenselectionstextures[] = 
+		{
+			"9_swla\data\Armor\9th_LT_Upper.paa",
+			"9_swla\data\Armor\9th_NCO_Lower.paa",
+			"9_swla\data\Armor\undersuit.paa"
+		};
+		linkedItems[] = 
+		{
+			"P2_lt_Armor",
+			"P2_Trooper_LT_Helmet",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"SWLB_comlink"
+		}; //things like your radio, helmet, vest, glasses
+		respawnlinkeditems[] = 
+		{
+			"P2_LT_Armor",
+			"P2_Trooper_LT_Helmet",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"SWLB_comlink"
+		}; //keep it the same as linkeditems
+	};
 	class P2_CPT_Armor: k_swla_unit_base
 	{
 		scope = 2;
@@ -1357,123 +1497,7 @@ class CfgVehicles
 			"SWLB_comlink"
 		}; //keep it the same as linkeditems
 	};
-	class P2_Damocles_Armor: k_swla_unit_base
-	{
-		scope = 2;
-		scopeCurator = 2;
-		scopearsenal = 2;
-		editorpreview = "\SWLB_clones\data\ui\editorPreviews\SWLB_clone_base_P2.jpg";
-		identityTypes[] = {"LanguageENG_F", "Head_NATO"};
-		role = "Rifleman";
-		author = "CC-3117 Rush";
-		uniformclass = "P2_Damocles_Uniform"; //link this with the uniform classname
-		faction = "9th_Assault_Corps";
-		editorSubCategory = "Phase_2";
-		displayname = "Damocles";
-		backpack = ""; //backpack the unit spawns with
-		hiddenselectionstextures[] = 
-		{
-			"9_swla\data\Armor\McHards_Upper.paa",
-			"9_swla\data\Armor\McHards_Lower.paa",
-			"9_swla\data\Armor\undersuit.paa"
-		};
-		linkedItems[] = 
-		{
-			"P2_Damocles_Armor",
-			"P2_Trooper_Damocles_Helmet",
-			"ItemMap",
-			"ItemCompass",
-			"ItemWatch",
-			"SWLB_comlink"
-		}; //things like your radio, helmet, vest, glasses
-		respawnlinkeditems[] = 
-		{
-			"P2_Damocles_Armor",
-			"P2_Trooper_Damocles_Helmet",
-			"ItemMap",
-			"ItemCompass",
-			"ItemWatch",
-			"SWLB_comlink"
-		}; //keep it the same as linkeditems
-	};
-	class P2_Dakka_Armor: k_swla_unit_base
-	{
-		scope = 2;
-		scopeCurator = 2;
-		scopearsenal = 2;
-		editorpreview = "\SWLB_clones\data\ui\editorPreviews\SWLB_clone_base_P2.jpg";
-		identityTypes[] = {"LanguageENG_F", "Head_NATO"};
-		role = "Rifleman";
-		author = "CC-3117 Rush";
-		uniformclass = "P2_Dakka_Uniform"; //link this with the uniform classname
-		faction = "9th_Assault_Corps";
-		editorSubCategory = "Phase_2";
-		displayname = "Dakka";
-		backpack = ""; //backpack the unit spawns with
-		hiddenselectionstextures[] = 
-		{
-			"9_swla\data\Armor\P2_Dakka_Upper.paa",
-			"9_swla\data\Armor\P2_Dakka_Lower.paa",
-			"9_swla\data\Armor\undersuit.paa"
-		};
-		linkedItems[] = 
-		{
-			"P2_Dakka_Armor",
-			"P2_Dakka_Engi_Helmet",
-			"ItemMap",
-			"ItemCompass",
-			"ItemWatch",
-			"SWLB_comlink"
-		}; //things like your radio, helmet, vest, glasses
-		respawnlinkeditems[] = 
-		{
-			"P2_Dakka_Armor",
-			"P2_Dakka_Engi_Helmet",
-			"ItemMap",
-			"ItemCompass",
-			"ItemWatch",
-			"SWLB_comlink"
-		}; //keep it the same as linkeditems
-	};
-	class P2_Wulf_Armor: k_swla_unit_base
-	{
-		scope = 2;
-		scopeCurator = 2;
-		scopearsenal = 2;
-		editorpreview = "\SWLB_clones\data\ui\editorPreviews\SWLB_clone_base_P2.jpg";
-		identityTypes[] = {"LanguageENG_F", "Head_NATO"};
-		role = "Rifleman";
-		author = "CC-3117 Rush";
-		uniformclass = "P2_Wulf_Uniform"; //link this with the uniform classname
-		faction = "9th_Assault_Corps";
-		editorSubCategory = "Phase_2";
-		displayname = "Wulf";
-		backpack = ""; //backpack the unit spawns with
-		hiddenselectionstextures[] = 
-		{
-			"9_swla\data\Armor\P2_Wulf_Upper.paa",
-			"9_swla\data\Armor\P2_Wulf_Lower.paa",
-			"9_swla\data\Armor\undersuit.paa"
-		};
-		linkedItems[] = 
-		{
-			"P2_Wulf_Armor",
-			"P2_Wulf_Helmet",
-			"ItemMap",
-			"ItemCompass",
-			"ItemWatch",
-			"SWLB_comlink"
-		}; //things like your radio, helmet, vest, glasses
-		respawnlinkeditems[] = 
-		{
-			"P2_Wulf_Armor",
-			"P2_Wulf_Helmet",
-			"ItemMap",
-			"ItemCompass",
-			"ItemWatch",
-			"SWLB_comlink"
-		}; //keep it the same as linkeditems
-	};
+
 	class Barracks_Armor: O_officer_F
 	{
 		scope = 2;
@@ -1546,6 +1570,8 @@ class CfgVehicles
 			"SWLB_comlink"
 		}; //keep it the same as linkeditems
 	};
+	
+	
 	class B_Kitbag_rgr;
 	class 9th_swla_clone_backpack_base: B_Kitbag_rgr
 	{
