@@ -24,7 +24,8 @@ class CfgPatches
 			"442_corner_rep",
 			"442_corner_rep_r",
 			"442_ramp_rep",
-			"442_ramp_rep_r"
+			"442_ramp_rep_r",
+			"442_door_lock"
 		};
 		author="kripto202";
 	};
@@ -226,7 +227,7 @@ class CfgVehicles
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_structures\hallway\data\wall_1_co.paa",
+			"442_structures\hallway\data\wall_co.paa",
 			"442_structures\hallway\data\light_co.paa"
 		};
 	};
@@ -261,7 +262,7 @@ class CfgVehicles
 		}; */
 		hiddenselectionstextures[]=
 		{
-			"442_structures\hallway\data\wall_1_co.paa",
+			"442_structures\hallway\data\wall_co.paa",
 			"442_structures\hallway\data\light_2_co.paa"
 		};
 	};
@@ -391,6 +392,11 @@ class CfgVehicles
 			};
 		};
 	};
+	class 442_door_lock: 442_door
+	{
+		displayname = "Door (Locked)";
+		class useractions {};
+	};
 	class 442_2way_rep: 442_floor
 	{
 		displayName="2-way Hallway";
@@ -411,7 +417,7 @@ class CfgVehicles
 			"442_structures\hallway\data\lower_co.paa",
 			"442_structures\hallway\data\roof_co.paa",
 			"442_structures\hallway\data\segment_co.paa",
-			"442_structures\hallway\data\wall_1_co.paa",
+			"442_structures\hallway\data\wall_co.paa",
 			"442_structures\hallway\data\wall_2_co.paa",
 			"442_structures\hallway\data\light_co.paa"
 		};
@@ -451,7 +457,7 @@ class CfgVehicles
 			"442_structures\hallway\data\lower_co.paa",
 			"442_structures\hallway\data\roof_co.paa",
 			"442_structures\hallway\data\segment_co.paa",
-			"442_structures\hallway\data\wall_1_co.paa",
+			"442_structures\hallway\data\wall_co.paa",
 			"442_structures\hallway\data\wall_2_co.paa",
 			"442_structures\hallway\data\light_2_co.paa"
 		};
@@ -492,7 +498,7 @@ class CfgVehicles
 			"442_structures\hallway\data\lower_co.paa",
 			"442_structures\hallway\data\roof_co.paa",
 			"442_structures\hallway\data\segment_co.paa",
-			"442_structures\hallway\data\wall_1_co.paa",
+			"442_structures\hallway\data\wall_co.paa",
 			"442_structures\hallway\data\wall_2_co.paa",
 			"442_structures\hallway\data\light_co.paa"
 		};
@@ -506,7 +512,7 @@ class CfgVehicles
 			"442_structures\hallway\data\lower_co.paa",
 			"442_structures\hallway\data\roof_co.paa",
 			"442_structures\hallway\data\segment_co.paa",
-			"442_structures\hallway\data\wall_1_co.paa",
+			"442_structures\hallway\data\wall_co.paa",
 			"442_structures\hallway\data\wall_2_co.paa",
 			"442_structures\hallway\data\light_2_co.paa"
 		};
@@ -547,7 +553,7 @@ class CfgVehicles
 			"442_structures\hallway\data\lower_co.paa",
 			"442_structures\hallway\data\roof_co.paa",
 			"442_structures\hallway\data\segment_co.paa",
-			"442_structures\hallway\data\wall_1_co.paa",
+			"442_structures\hallway\data\wall_co.paa",
 			"442_structures\hallway\data\wall_2_co.paa",
 			"442_structures\hallway\data\light_co.paa"
 		};
@@ -602,7 +608,7 @@ class CfgVehicles
 			"442_structures\hallway\data\lower_co.paa",
 			"442_structures\hallway\data\roof_co.paa",
 			"442_structures\hallway\data\segment_co.paa",
-			"442_structures\hallway\data\wall_1_co.paa",
+			"442_structures\hallway\data\wall_co.paa",
 			"442_structures\hallway\data\wall_2_co.paa",
 			"442_structures\hallway\data\light_co.paa"
 		};
@@ -616,7 +622,7 @@ class CfgVehicles
 			"442_structures\hallway\data\lower_co.paa",
 			"442_structures\hallway\data\roof_co.paa",
 			"442_structures\hallway\data\segment_co.paa",
-			"442_structures\hallway\data\wall_1_co.paa",
+			"442_structures\hallway\data\wall_co.paa",
 			"442_structures\hallway\data\wall_2_co.paa",
 			"442_structures\hallway\data\light_2_co.paa"
 		};
