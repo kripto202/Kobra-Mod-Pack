@@ -11,6 +11,7 @@ class CfgPatches
 			"ls_laat_2",
 			"ls_hmp",
 			"A3_Armor_F_Beta",
+			"A3_Armor_F_EPB_MBT_03",
 		};
 		requiredVersion = 0.1;
 		units[] = 
@@ -235,6 +236,10 @@ class CfgPatches
 			"442_rx200_wreck",
 			"442_rx200_aa",
 			"442_rx200_arty",
+
+			"442_tx130",
+
+
 		};
 		weapons[]={};
 	};
@@ -805,6 +810,19 @@ class cfgvehicles
 	class O_Truck_03_device_F;
 	class O_Truck_03_fuel_F;
 	class O_Truck_03_repair_F;
+	class OPTRE_M12_FAV;
+	class OPTRE_M12_LRV;
+	class OPTRE_M12A1_LRV;
+	class OPTRE_M12G1_LRV;
+	class OPTRE_M12R_AA;
+	class OPTRE_M914_RV;
+	class OPTRE_M813_TT;
+	class Turrets;
+	class MainTurret;
+	class HitPoints;
+	class ViewOptics;
+	class CargoGunner_1;
+	class AnimationSources;
 	class Helicopter;
     class Helicopter_Base_F : Helicopter {
         class Turrets;
@@ -892,7 +910,7 @@ class cfgvehicles
 	#include "442_g_vehicle\argon_truck\argon_truck.hpp"
 	#include "442_g_vehicle\baw_arty\baw_arty.hpp"
 	#include "442_g_vehicle\mtt\mtt.hpp"
-	// #include "442_g_vehicle\rx200\rx200.hpp"
-	// #include "442_g_vehicle\tx130.hpp"
-	// #include "442_g_vehicle\warthog.hpp"
+	#include "442_g_vehicle\rx200\rx200.hpp"
+	#include "442_g_vehicle\tx130.hpp"
+	#include "442_g_vehicle\warthog.hpp"
 };
