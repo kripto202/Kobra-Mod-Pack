@@ -227,7 +227,14 @@ class CfgPatches
 			"442_argon_device_cis",
 			"442_argon_fuel_cis",
 			"442_argon_repair_cis",
-			"442_argon_medical_cis"
+			"442_argon_medical_cis",
+
+			"442_mtt",
+			"442_mtt_wreck",
+
+			"442_rx200_wreck",
+			"442_rx200_aa",
+			"442_rx200_arty",
 		};
 		weapons[]={};
 	};
@@ -884,7 +891,7 @@ class cfgvehicles
 	#include "442_g_vehicle\aat.hpp"
 	#include "442_g_vehicle\argon_truck\argon_truck.hpp"
 	#include "442_g_vehicle\baw_arty\baw_arty.hpp"
-	// #include "442_g_vehicle\mtt\mtt.hpp"
+	#include "442_g_vehicle\mtt\mtt.hpp"
 	// #include "442_g_vehicle\rx200\rx200.hpp"
 	// #include "442_g_vehicle\tx130.hpp"
 	// #include "442_g_vehicle\warthog.hpp"
