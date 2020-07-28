@@ -27,7 +27,7 @@
 	{
 		displayname="Recusant Dreadnought (Zeus)";
 	};
-	class 442_recusant_base: 442_StaticShip
+	class 442_recusant_base: StaticShip
 	{
 		author="kripto202";
 		model="\442_ships\recusant\base.p3d";

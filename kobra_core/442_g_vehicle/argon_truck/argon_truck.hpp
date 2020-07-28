@@ -1,6 +1,6 @@
     class 442_argon_transport: O_Truck_03_transport_F
 	{
-		#include "442_g_vehicle\argon_truck\equip-common.hpp"
+		#include "equip-common.hpp"
 		side = 1;
 		author = "kripto202 + 'Airstrike' Ivanov";
 		faction = "kobra";
@@ -22,7 +22,7 @@
 
     class 442_argon_covered: O_Truck_03_covered_F
 	{
-		#include "442_g_vehicle\argon_truck\equip-common.hpp"
+		#include "equip-common.hpp"
 		side = 1;
 		author = "kripto202 + 'Airstrike' Ivanov";
 		faction = "kobra";
@@ -45,7 +45,7 @@
 
     class 442_argon_ammo: O_Truck_03_ammo_F
 	{
-		#include "442_g_vehicle\argon_truck\equip-ammo.hpp"
+		#include "equip-ammo.hpp"
 		side = 1;
 		author = "kripto202 + 'Airstrike' Ivanov";
 		faction = "kobra";
@@ -68,7 +68,7 @@
 
     class 442_argon_device: O_Truck_03_device_F
 	{
-		#include "442_g_vehicle\argon_truck\equip-common.hpp"
+		#include "equip-common.hpp"
 		side = 1;
 		author = "kripto202 + 'Airstrike' Ivanov";
 		faction = "kobra";
@@ -92,7 +92,7 @@
 
     class 442_argon_fuel: O_Truck_03_fuel_F
 	{
-		#include "442_g_vehicle\argon_truck\equip-common.hpp"
+		#include "equip-common.hpp"
 		side = 1;
 		author = "kripto202 + 'Airstrike' Ivanov";
 		faction = "kobra";
@@ -114,7 +114,7 @@
 
     class 442_argon_repair: O_Truck_03_repair_F
 	{
-		#include "442_g_vehicle\argon_truck\equip-engineer.hpp"
+		#include "equip-engineer.hpp"
 		side = 1;
 		author = "kripto202 + 'Airstrike' Ivanov";
 		faction = "kobra";
@@ -136,7 +136,7 @@
 
     class 442_argon_medical: O_Truck_03_covered_F
 	{
-		#include "442_g_vehicle\argon_truck\equip-medical.hpp"
+		#include "equip-medical.hpp"
 		side = 1;
 		author = "kripto202 + 'Airstrike' Ivanov";
 		faction = "kobra";
@@ -160,7 +160,7 @@
 
     class 442_argon_transport_cis: O_Truck_03_transport_F
 	{
-		#include "442_g_vehicle\argon_truck\equip-common.hpp"
+		#include "equip-common.hpp"
 		side = 0;
 		author = "mjr121";
 		faction = "442_CIS";
@@ -181,7 +181,7 @@
 	};
     class 442_argon_covered_cis: O_Truck_03_covered_F
 	{
-		#include "442_g_vehicle\argon_truck\equip-common.hpp"
+		#include "equip-common.hpp"
 		side = 0;
 		author = "mjr121";
 		faction = "442_CIS";
@@ -203,7 +203,7 @@
 	};
     class 442_argon_ammo_cis: O_Truck_03_ammo_F
 	{
-		#include "442_g_vehicle\argon_truck\equip-ammo.hpp"
+		#include "equip-ammo.hpp"
 		side = 0;
 		author = "mjr121";
 		faction = "442_CIS";
@@ -225,7 +225,7 @@
 	};
     class 442_argon_device_cis: O_Truck_03_device_F
 	{
-		#include "442_g_vehicle\argon_truck\equip-common.hpp"
+		#include "equip-common.hpp"
 		side = 0;
 		author = "mjr121";
 		faction = "442_CIS";
@@ -248,7 +248,7 @@
 	};
     class 442_argon_fuel_cis: O_Truck_03_fuel_F
 	{
-		#include "442_g_vehicle\argon_truck\equip-common.hpp"
+		#include "equip-common.hpp"
 		side = 0;
 		author = "mjr121";
 		faction = "442_CIS";
@@ -269,7 +269,7 @@
 	};
     class 442_argon_repair_cis: O_Truck_03_repair_F
 	{
-		#include "442_g_vehicle\argon_truck\equip-engineer.hpp"
+		#include "equip-engineer.hpp"
 		side = 0;
 		author = "mjr121";
 		faction = "442_CIS";
@@ -290,7 +290,7 @@
 	};
     class 442_argon_medical_cis: O_Truck_03_covered_F
 	{
-		#include "442_g_vehicle\argon_truck\equip-medical.hpp"
+		#include "equip-medical.hpp"
 		side = 0;
 		author = "mjr121";
 		faction = "442_CIS";

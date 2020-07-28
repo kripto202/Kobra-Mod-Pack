@@ -35,7 +35,7 @@
 			"442_ships\lucrehulk\data\back_co.paa"
 		};
 	};
-	class 442_lucrehulk_base: 442_StaticShip
+	class 442_lucrehulk_base: StaticShip
 	{
 		author="kripto202";
 		model="\442_ships\lucrehulk\lucrehulk_base.p3d";

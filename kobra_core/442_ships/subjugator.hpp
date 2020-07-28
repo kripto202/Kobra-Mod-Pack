@@ -35,7 +35,7 @@
 			"442_ships\subjugator\data\engine_co.paa"
 		};
 	};
-	class 442_subjugator_base: 442_StaticShip
+	class 442_subjugator_base: StaticShip
 	{
 		author="kripto202";
 		model="\442_ships\subjugator\subjugator_base.p3d";

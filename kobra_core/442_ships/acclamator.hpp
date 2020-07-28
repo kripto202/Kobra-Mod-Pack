@@ -45,7 +45,7 @@ class 442_acclamator: House_F
 			"442_ships\acclamator\data\ramp_co.paa"
 		};
 	};
-	class 442_acclamator_2: rep_acclamator
+	class 442_acclamator_2: 442_acclamator
 	{
 		displayname="Acclamator";
 		hiddenselectionstextures[]=
@@ -67,7 +67,7 @@ class 442_acclamator: House_F
 			""
 		};
 	};
-	class 442_acclamator_3: rep_acclamator
+	class 442_acclamator_3: 442_acclamator
 	{
 		displayname="Acclamator Landed (Hallow)";
 		hiddenselectionstextures[]=
@@ -89,7 +89,7 @@ class 442_acclamator: House_F
 			"442_ships\acclamator\data\ramp_co.paa"
 		};
 	};
-	class 442_acclamator_4: rep_acclamator
+	class 442_acclamator_4: 442_acclamator
 	{
 		displayname="Acclamator (Hallow)";
 		hiddenselectionstextures[]=
@@ -111,7 +111,7 @@ class 442_acclamator: House_F
 			""
 		};
 	};
-	class 442_acclamator_5: rep_acclamator
+	class 442_acclamator_5: 442_acclamator
 	{
 		displayname="Acclamator Landed (Hallow, No Ramp)";
 		hiddenselectionstextures[]=

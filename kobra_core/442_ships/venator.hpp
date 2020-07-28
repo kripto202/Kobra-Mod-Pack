@@ -59,7 +59,7 @@
 			"442_ships\venator\data\bridge_co.paa",
 		};
 	};
-	class 442_venator_base: 442_StaticShip
+	class 442_venator_base: StaticShip
 	{
 		author="kripto202";
 		model="\442_ships\venator\venator_base.p3d";

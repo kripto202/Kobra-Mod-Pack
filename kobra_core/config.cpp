@@ -785,6 +785,7 @@ class cfgvehicles
 	class ls_hmp;
 	class b_plane_fighter_01_f;
 	class b_plane_fighter_01_stealth_f;
+	class b_plane_cas_01_dynamicloadout_f;
 	class O_Truck_03_transport_F;
 	class O_Truck_03_covered_F;
 	class O_Truck_03_ammo_F;
@@ -864,21 +865,21 @@ class cfgvehicles
 	#include "442_ships\lucrehulk.hpp"
 	#include "442_ships\mandator.hpp"
 	#include "442_ships\munificent.hpp"
-	#include "442_ships\pravidence.hpp"
+	#include "442_ships\providence.hpp"
 	#include "442_ships\quasar.hpp"
 	#include "442_ships\recusant.hpp"
 	#include "442_ships\sds_stealth.hpp"
 	#include "442_ships\subjugator.hpp"
 	#include "442_ships\venator.hpp"
 	#include "442_a_vehicle\laat.hpp"
-	#include "442_a_vehicle\hmp.hpp"
+	#include "442_a_vehicle\hmp\hmp.hpp"
 	#include "442_a_vehicle\a10.hpp"
 	#include "442_a_vehicle\fa181.hpp"
 	#include "442_g_vehicle\aat.hpp"
-	#include "442_g_vehicle\argon_truck.hpp"
-	#include "442_g_vehicle\baw_arty.hpp"
-	#include "442_g_vehicle\mtt.hpp"
-	#include "442_g_vehicle\rx200.hpp"
+	#include "442_g_vehicle\argon_truck\argon_truck.hpp"
+	#include "442_g_vehicle\baw_arty\baw_arty.hpp"
+	#include "442_g_vehicle\mtt\mtt.hpp"
+	#include "442_g_vehicle\rx200\rx200.hpp"
 	#include "442_g_vehicle\tx130.hpp"
 	#include "442_g_vehicle\warthog.hpp"
 };

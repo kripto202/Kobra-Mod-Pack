@@ -1212,8 +1212,11 @@
 			pilotOpticsShowCursor = 1;
 			controllable = 1;
 		};
-        #include "442_a_vehicle\laat\laat_designs.hpp"
-        #include "442_a_vehicle\laat\sensors.hpp"
+        // #include "442_a_vehicle\laat\laat_designs.hpp"
+        // #include "442_a_vehicle\laat\sensors.hpp"
+
+		#include "laat_designs.hpp"
+        #include "sensors.hpp"
     };
 
     class 442_laat_2_ab : 442_laat_2
