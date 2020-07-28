@@ -314,6 +314,12 @@ class Optics_Gunner_AAA_01: Optics_Armored
 	class Medium;
 	class Narrow;
 };
+class Optics_Gunner_MBT_01: Optics_Armored
+{
+	class Wide;
+	class Medium;
+	class Narrow;
+};
 
 class CfgFunctions 
 {
@@ -878,8 +884,8 @@ class cfgvehicles
 	#include "442_g_vehicle\aat.hpp"
 	#include "442_g_vehicle\argon_truck\argon_truck.hpp"
 	#include "442_g_vehicle\baw_arty\baw_arty.hpp"
-	#include "442_g_vehicle\mtt\mtt.hpp"
-	#include "442_g_vehicle\rx200\rx200.hpp"
-	#include "442_g_vehicle\tx130.hpp"
-	#include "442_g_vehicle\warthog.hpp"
+	// #include "442_g_vehicle\mtt\mtt.hpp"
+	// #include "442_g_vehicle\rx200\rx200.hpp"
+	// #include "442_g_vehicle\tx130.hpp"
+	// #include "442_g_vehicle\warthog.hpp"
 };

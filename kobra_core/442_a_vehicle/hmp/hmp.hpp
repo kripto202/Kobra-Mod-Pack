@@ -128,7 +128,6 @@ class 442_test_hmp_base: Helicopter_Base_H
 			};
 			thermalMode[]={0,1};
 		};
-		class exhausts {};
 		class transportweapons {};
 		class transportmagazines {};
 		class transportItems {};
@@ -666,10 +665,10 @@ class 442_test_hmp_base: Helicopter_Base_H
 			class TransportCounterMeasuresComponent;
 		};
 		
-		#include "sounds.hpp"
-		#include "memorypoints.hpp"
-		#include "useractions.hpp"
-		#include "turrets.hpp"
+		#include "hmp_sounds.hpp"
+		#include "hmp_memorypoints.hpp"
+		#include "hmp_useractions.hpp"
+		#include "hmp_turrets.hpp"
 	};
 	
 	class 442_hmp: 442_test_hmp_base

@@ -1,4 +1,4 @@
-class 442_baw_arty_base: tank_f
+	class 442_baw_arty_base: tank_f
 	{
 		author="kripto202";
 		scope=1;
@@ -30,10 +30,10 @@ class 442_baw_arty_base: tank_f
 		waterResistance=1;
 		turnCoef=0.5;
 		engineEffectSpeed=5;
-		#include "442_g_vehicle\baw_arty\physx.hpp"
+		#include "baw_arty_physx.hpp"
 		cost=1500000;
-		#include "442_g_vehicle\baw_arty\armor.hpp"
-		#include "442_g_vehicle\baw_arty\turret.hpp"
+		#include "baw_arty_armor.hpp"
+		#include "baw_arty_turret.hpp"
 		class RenderTargets
 		{
 		};
@@ -49,8 +49,8 @@ class 442_baw_arty_base: tank_f
 			minFov=0.85000002;
 			maxFov=0.85000002;
 		};
-		#include "442_g_vehicle\baw_arty\sounds.hpp"
-		#include "442_g_vehicle\baw_arty\memorypoints.hpp"
+		#include "baw_arty_sounds.hpp"
+		#include "baw_arty_memorypoints.hpp"
 		driverAction="Disabled";
 		driverInAction="Disabled";
 		viewDriverInExternal=1;

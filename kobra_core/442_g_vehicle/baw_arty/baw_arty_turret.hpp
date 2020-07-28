@@ -41,7 +41,6 @@ class Turrets: Turrets
 					50
 				};
 				turretInfoType="RscWeaponRangeArtilleryAuto";
-				memoryPointGunnerOptics="gunnerview";
 				gunnerOutOpticsModel="";
 				gunnerOutOpticsEffect[]={};
 				gunnerOpticsEffect[]={};
