@@ -239,7 +239,64 @@ class CfgPatches
 
 			"442_tx130",
 
+			"442_bacta_tank",
+			"442_bacta_tank_w",
+			"442_first_shot",
+			"442_Box",
+			"442_disabled_b1",
 
+			"442_holo_acclamator_1",
+			"442_holo_acclamator_2",
+			"442_holo_lucrehulk",
+			"442_holo_quasar",
+			"442_holo_subjugator",
+			"442_holo_venator",
+			"442_holo_rx200",
+			"442_holo_providence",
+			"442_holo_munificent",
+			"442_holo_recusent",
+			
+			"442_dby_827",
+			"442_holotable",
+			"442_holotable2",
+			"442_mse_6",
+			"44_mse_6",
+			"bl_mse_6",
+			"442_mse_7",
+			"442_radio",
+
+			"442_shield_100x100",
+			"442_shield_70x70",
+			"442_shield_50x50",
+			"442_shield_50x25",
+			"442_shield_25x25",
+			"442_shield_25x10",
+			"442_shield_10x10",
+			"442_shield_5x5",
+			
+			"442_ray_100x100",
+			"442_ray_70x70",
+			"442_ray_50x50",
+			"442_ray_50x25",
+			"442_ray_25x25",
+			"442_ray_25x10",
+			"442_ray_10x10",
+			"442_ray_5x5",
+			
+			"442_quasar_shield",
+			"442_quasar_shield_1",
+			"442_quasar_shield_2",
+			"442_quasar_shield_3",
+			"442_quasar_shield_4",
+
+			"442_small_computer",
+			"442_stimbox",
+			"442_stone_cover",
+
+			"442_sweeper",
+			"442_sweeper_2",
+			"442_sweeper_3",
+			"442_vulture_static",
 		};
 		weapons[]={};
 	};
@@ -824,6 +881,7 @@ class cfgvehicles
 	class CargoGunner_1;
 	class AnimationSources;
 	class Helicopter;
+	class TargetBase;
     class Helicopter_Base_F : Helicopter {
         class Turrets;
 		class Hitpoints;
@@ -902,15 +960,35 @@ class cfgvehicles
 	#include "442_ships\sds_stealth.hpp"
 	#include "442_ships\subjugator.hpp"
 	#include "442_ships\venator.hpp"
+
 	#include "442_a_vehicle\laat.hpp"
 	#include "442_a_vehicle\hmp\hmp.hpp"
 	#include "442_a_vehicle\a10.hpp"
 	#include "442_a_vehicle\fa181.hpp"
-	#include "442_g_vehicle\aat.hpp"
+
+	#include "442_g_vehicle\aat\aat.hpp"
 	#include "442_g_vehicle\argon_truck\argon_truck.hpp"
 	#include "442_g_vehicle\baw_arty\baw_arty.hpp"
 	#include "442_g_vehicle\mtt\mtt.hpp"
 	#include "442_g_vehicle\rx200\rx200.hpp"
 	#include "442_g_vehicle\tx130.hpp"
 	#include "442_g_vehicle\warthog.hpp"
+
+	#include "442_misc\bacta.hpp"
+	#include "442_misc\bottle.hpp"
+	#include "442_misc\box.hpp"
+	#include "442_misc\dby_827.hpp"
+	#include "442_misc\disabled_b1.hpp"
+	#include "442_misc\hologram.hpp"
+	#include "442_misc\holotable.hpp"
+	#include "442_misc\mse_6.hpp"
+	#include "442_misc\radio.hpp"
+	#include "442_misc\shield.hpp"
+	#include "442_misc\small_computer.hpp"
+	#include "442_misc\stimbox.hpp"
+	#include "442_misc\stone_cover.hpp"
+	#include "442_misc\sweeper.hpp"
+	#include "442_misc\vulture.hpp"
+
+
 };

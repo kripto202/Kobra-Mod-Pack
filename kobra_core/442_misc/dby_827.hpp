@@ -1,20 +1,4 @@
-class CfgPatches
-{
-	class 442_dby_827
-	{
-		requiredAddons[]={};
-		weapons[]={};
-		units[]=
-		{
-			"442_dby_827"
-		};
-		author="kripto202";
-	};
-};
-class CfgVehicles
-{
-	class House_F;
-	class 442_dby_827: House_F
+    class 442_dby_827: House_F
 	{
 		scope=2;
 		scopecurator=2;
@@ -42,4 +26,3 @@ class CfgVehicles
 			"442_misc\dby_827\data\gun_co.paa"
 		};
 	};
-};
