@@ -328,6 +328,7 @@ class CfgPatches
 			"442_70x70",
 			"442_turbotank",
 			"442_turbotank_m",
+			"442_boat_armed",
 		};
 		weapons[]={};
 	};
@@ -913,6 +914,21 @@ class cfgvehicles
 	class AnimationSources;
 	class Helicopter;
 	class TargetBase;
+	class Boat_F;
+	class Boat_Armed_01_base_F: Boat_F
+	{
+		class Hitpoints;
+		class Turrets;
+	};
+	class Boat_Armed_01_minigun_base_F: Boat_Armed_01_base_F
+	{
+		class Hitpoints: Hitpoints {};
+		class Turrets: Turrets
+		{
+			class FrontTurret;
+			class RearTurret;
+		};
+	};
     class Helicopter_Base_F : Helicopter {
         class Turrets;
 		class Hitpoints;
@@ -1021,5 +1037,12 @@ class cfgvehicles
 	#include "442_misc\sweeper.hpp"
 	#include "442_misc\vulture.hpp"
 
+	#include "442_structures\hallway.hpp"
+	#include "442_structures\landing_pad.hpp"
+	#include "442_structures\platforms.hpp"
+	#include "442_structures\turbo_tank.hpp"
 
+	#include "442_w_vehicle\assault_boat.hpp"
+
+	
 };
