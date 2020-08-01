@@ -1870,4 +1870,19 @@ class cfgmagazine
 		picture="\SWLW_clones\rifles\DC15a\data\ui\DC15a_mag_ui.paa";
 		type=256;
 	};
+	#include "442_weapons\magazine\556_magazine.hpp"
+	#include "442_weapons\magazine\65_magazine.hpp"
+	#include "442_weapons\magazine\762_magazine.hpp"
+	#include "442_weapons\magazine\9_magazine.hpp"
+	#include "442_weapons\magazine\45_magazine.hpp"
+	#include "442_weapons\magazine\127x33_magazine.hpp"
+	#include "442_weapons\magazine\127x99_magazine.hpp"
+	#include "442_weapons\magazine\127x108_magazine.hpp"
+	#include "442_weapons\magazine\35_magazine.hpp"
+	#include "442_weapons\magazine\40_magazine.hpp"
+	#include "442_weapons\magazine\50_magazine.hpp"
+	#include "442_weapons\magazine\338_magazine.hpp"
+	#include "442_weapons\magazine\408_magazine.hpp"
+	#include "442_weapons\magazine\75_magazine.hpp"
+	#include "442_weapons\magazine\shotgun_magazine.hpp"
 };
