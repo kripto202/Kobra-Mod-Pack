@@ -754,3 +754,39 @@ class 442_75mm_he_yellow: Sh_120mm_HE
     model = "442_weapons\ammo\yellow_tracer.p3d";
     effectfly = "442_plasma_yellow";
 };
+
+////shotgun////
+class 442_ammo_shotgun_blue: 442_shotgun_base
+{
+	hit = 2;
+	typicalSpeed = 400;
+	airFriction = -0.008;
+	caliber = 1;
+	deflecting = 30;
+	indirectHit = 2;
+	indirectHitRange = 0.4;
+	model="swlw_main\Effects\laser_blue.p3d";
+	effectfly="442_plasma_blue";
+	ExplosionEffects="442_plasma_impact";
+	cratereffects = "442_plasma_impact";
+	explosive=0;
+	class CamShakePlayerFire
+	{
+		power = 1;
+		duration = 0.1;
+		frequency = 20;
+	};
+	class CamShakeHit
+	{
+		power = 10;
+		duration = 1;
+		frequency = 20;
+	};
+	class CamShakeFire
+	{
+		power = 3;
+		duration = 0.5;
+		frequency = 20;
+		distance = 10;
+	};
+};
