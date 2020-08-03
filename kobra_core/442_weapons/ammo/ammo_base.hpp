@@ -449,8 +449,6 @@ class 442_ammo_127x108_oc_base: GrenadeBase
 	model="";
 	lightcolor[]={0.25,0.25,0.5};
 	deflecting=0;
-	indirecthit=8;
-	indirecthitrange=6;
 	warheadName="HE";
 	submunitionInitSpeed=1000;
 	submunitionParentSpeedCoef=0;

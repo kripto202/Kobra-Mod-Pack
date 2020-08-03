@@ -868,6 +868,15 @@ class CfgMovesFatigueTrooper
 	TerrainSpeedCoef = 0.9;
 };
 class Eventhandlers;
+class Mode_SemiAuto;
+class Mode_FullAuto;
+class Mode_Burst;
+class SlotInfo;
+class MuzzleSlot;
+class CowsSlot;
+class PointerSlot;
+class UnderBarrelSlot;
+class UGL_F;
 class cfgweapons
 {
     class MGun;
@@ -943,6 +952,8 @@ class cfgvehicles
 	class CargoGunner_1;
 	class AnimationSources;
 	class Helicopter;
+	class B_supplyCrate_F;
+	class house_small_f;
 	class TargetBase;
 	class Boat_F;
 	class Boat_Armed_01_base_F: Boat_F
@@ -1005,16 +1016,21 @@ class cfgvehicles
 				{
 					class CommanderOptics;
 				};
+				class Components;
 			};
 		};
 		class AnimationSources;
 		class ViewPilot;
 		class ViewOptics;
+		class CargoTurret;
+		class RCWSOptics;
+		class ViewGunner;
 		class ViewCargo;
 		class HeadLimits;
 		class HitPoints: HitPoints
 		{
 			class HitHull;
+			class HitFuel;
 			class HitEngine;
 			class HitLTrack;
 			class HitRTrack;

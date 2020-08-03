@@ -391,8 +391,6 @@
 ///dc15s
     class 442_dc15s: 442_rifle_base
 	{
-		scope = 2;
-		displayname = "DC-15S Carbine";
 		scope=2;
 		model="442_weapons\clones\dc15s\dc15s.p3d";
 		hiddenselections[] = 
@@ -933,7 +931,7 @@
 		};
 	};
 ///dc15x
-    class 442_DC15X: SWLW_rifle_base
+    class 442_DC15X: 442_rifle_base
 	{
 		scope=2;
 		model="SWLW_clones\rifles\dc15x\DC15X.p3d";
@@ -1270,10 +1268,6 @@
 		};
 		reloadAction="GestureReloadPistol";
 		displayName="DC-17";
-		hiddenSelections[]=
-		{
-			"camo"
-		};
 		drySound[]=
 		{
 			"A3\Sounds_F\arsenal\weapons\Pistols\4-Five\dry_4_Five",

@@ -102,7 +102,6 @@
 		scopecurator = 2;
 	};
 
-	class Wreck_base_F;
 	class 442_baw_arty_wreck: Wreck_base_F
 	{
 		author = "kripto202";
