@@ -873,6 +873,26 @@ class cfgweapons
     class MGun;
     class gatling_20mm;
     class missiles_titan;
+	class ItemCore;
+	class InventoryItem_Base_F;
+	class InventoryOpticsItem_Base_F;
+	class Rifle_Long_Base_F;
+	class UGL_F;
+	class Rifle_Base_F;
+	class 442_rifle_base: Rifle_Long_Base_F
+	{
+		author="kripto202";
+		scope=1;
+		class WeaponSlotsInfo
+		{
+			class SlotInfo;
+		};
+		class GunParticles;
+		class AnimationSources;
+	};
+	#include "442_weapons\weapon\clones.hpp"
+	#include "442_weapons\weapon\droids.hpp"
+
 };
 class cfgvehicles
 {

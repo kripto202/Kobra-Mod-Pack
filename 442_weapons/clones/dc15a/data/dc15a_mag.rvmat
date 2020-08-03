@@ -8,7 +8,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="SWLW_clones\rifles\dc15a\data\DC15A_mag_nohq.paa";
+	texture="SWLW_clones\rifles\dc15a\data\magazine_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -44,7 +44,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="SWLW_clones\rifles\dc15a\data\DC15A_mag_as.paa";
+	texture="SWLW_clones\rifles\dc15a\data\magazine_as.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="SWLW_clones\rifles\dc15a\data\DC15A_mag_smdi.paa";
+	texture="SWLW_clones\rifles\dc15a\data\magazine_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{
