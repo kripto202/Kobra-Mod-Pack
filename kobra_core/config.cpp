@@ -890,8 +890,18 @@ class cfgweapons
 		class GunParticles;
 		class AnimationSources;
 	};
+	class pistol;
+	class Pistol_Base_F: Pistol
+	{
+		class WeaponSlotsInfo;
+	};
+	class Launcher;
+	class Launcher_Base_F: Launcher
+	{
+		class WeaponSlotsInfo;
+	};
 	#include "442_weapons\weapon\clones.hpp"
-	#include "442_weapons\weapon\droids.hpp"
+	//#include "442_weapons\weapon\droids.hpp"
 
 };
 class cfgvehicles

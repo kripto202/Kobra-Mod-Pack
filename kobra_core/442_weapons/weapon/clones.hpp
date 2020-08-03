@@ -1,3 +1,4 @@
+///dc15a   
     class 442_DC15A: 442_rifle_base
 	{
 		scope=2;
@@ -11,7 +12,7 @@
 		picture="\SWLW_clones\rifles\dc15a\data\ui\DC15A_ui.paa";
 		magazines[]=
 		{
-			"442_DC15A_Mag"
+			"442_762_30rnd_blue_mag"
 		};
 		displayname="DC-15A rifle";
 		descriptionShort="Clone trooper rifle";
@@ -304,20 +305,7 @@
 			descriptionShort="UGL";
 			useModelOptics=0;
 			useExternalOptic=0;
-			magazines[]=
-			{
-				"442_dc15a_3rnd_ugl_mag",
-				"442_DC15A_UGL_Mag",
-				"442_DC15A_UGL_huntir_Mag",
-				"442_DC15A_UGL_flare_white_Mag",
-				"442_DC15A_UGL_flare_red_Mag",
-				"442_DC15A_UGL_flare_green_Mag",
-				"442_DC15A_UGL_smoke_white_Mag",
-				"442_DC15A_UGL_smoke_red_Mag",
-				"442_DC15A_UGL_smoke_purple_Mag",
-				"442_DC15A_UGL_smoke_blue_Mag",
-				"442_DC15A_UGL_smoke_green_Mag"
-			};
+			magazines[]={};
 			magazineWell[]={};
 			cameraDir="OP_look";
 			discreteDistance[]={100,200,300,400};
@@ -362,10 +350,7 @@
 		};
 		class 442_MC: Rifle_Base_F
 		{
-			magazines[] = 
-			{
-				"442_dc15a_shotgun_ugl_mag"
-			};
+			magazines[] = {};
 			Displayname = "Scattergun Mode";
 			displaynameshort = "Scattergun";
 			discreteDistance[] = {50};
@@ -402,4 +387,1767 @@
 				aiRateOfFireDistance = 30;
 			};
 		};
+	};
+///dc15s
+    class 442_dc15s: 442_rifle_base
+	{
+		scope = 2;
+		displayname = "DC-15S Carbine";
+		scope=2;
+		model="442_weapons\clones\dc15s\dc15s.p3d";
+		hiddenselections[] = 
+		{
+			"camo1",
+			"sights"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"\SWLW_clones\smgs\dc15s\data\dc15s_co.paa",
+			"\442_weapons\clones\dc15a\data\optic\training_blue.paa"
+		};
+		handAnim[]=
+		{
+			"OFP2_ManSkeleton",
+			"\A3\Weapons_F_epa\LongRangeRifles\DMR_01\Data\Anim\dmr_01.rtm"
+		};
+		reloadAction="ReloadMagazine";
+		picture="\SWLW_clones\smgs\dc15s\data\ui\DC15s_ui.paa";
+		magazines[]=
+		{
+			"442_556_30rnd_blue_mag",
+			"442_556_60rnd_blue_mag"
+		};
+		displayname="DC-15s carbine";
+		descriptionShort="Clone trooper carbine";
+		selectionFireAnim="zasleh";
+		class Library
+		{
+			libTextDesc="";
+		};
+		drySound[]=
+		{
+			"",
+			0.39810717,
+			1,
+			20
+		};
+		reloadMagazineSound[]=
+		{
+			"\SWLW_clones\pistols\dc17\sounds\DC17_reload.wss",
+			0.56234133,
+			1,
+			30
+		};
+		soundBullet[]={};
+		modes[]=
+		{
+			"Single",
+			"FullAuto",
+			"close",
+			"short",
+			"medium"
+		};
+		fireLightDuration=0.050000001;
+		fireLightIntensity=0.40000001;
+		fireLightDiffuse[]={0,0,0.0099999998};
+		fireLightAmbient[]={0,0,0};
+		class Single: Mode_SemiAuto
+		{
+			sounds[]=
+			{
+				"StandardSound"
+			};
+			class BaseSoundModeType
+			{
+				weaponSoundEffect="";
+				closure1[]={};
+				closure2[]={};
+				soundClosure[]={};
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				weaponSoundEffect="";
+				begin1[]=
+				{
+					"\SWLW_clones\smgs\dc15s\sounds\DC15S_1",
+					1,
+					1,
+					1800
+				};
+				begin2[]=
+				{
+					"\SWLW_clones\smgs\dc15s\sounds\DC15S_2",
+					1,
+					1,
+					1800
+				};
+				begin3[]=
+				{
+					"\SWLW_clones\smgs\dc15s\sounds\DC15S_3",
+					1,
+					1,
+					1800
+				};
+				soundBegin[]=
+				{
+					"begin1",
+					0.33000001,
+					"begin2",
+					0.33000001,
+					"begin3",
+					0.33000001
+				};
+			};
+			reloadTime=0.1;
+			dispersion=0.0008;
+			minRange=5;
+			minRangeProbab=0.30000001;
+			midRange=25;
+			midRangeProbab=0.60000002;
+			maxRange=50;
+			maxRangeProbab=0.1;
+			aiRateOfFire=2;
+			aiRateOfFireDistance=25;
+		};
+		class FullAuto: Mode_FullAuto
+		{
+			sounds[]=
+			{
+				"StandardSound"
+			};
+			class BaseSoundModeType
+			{
+				weaponSoundEffect="";
+				closure1[]={};
+				closure2[]={};
+				soundClosure[]={};
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				weaponSoundEffect="";
+				begin1[]=
+				{
+					"\SWLW_clones\smgs\dc15s\sounds\DC15S_1",
+					1,
+					1,
+					1800
+				};
+				begin2[]=
+				{
+					"\SWLW_clones\smgs\dc15s\sounds\DC15S_2",
+					1,
+					1,
+					1800
+				};
+				begin3[]=
+				{
+					"\SWLW_clones\smgs\dc15s\sounds\DC15S_3",
+					1,
+					1,
+					1800
+				};
+				soundBegin[]=
+				{
+					"begin1",
+					0.33000001,
+					"begin2",
+					0.33000001,
+					"begin3",
+					0.33000001
+				};
+			};
+			reloadTime=0.1;
+			dispersion=0.0008;
+			minRange=5;
+			minRangeProbab=0.30000001;
+			midRange=25;
+			midRangeProbab=0.60000002;
+			maxRange=50;
+			maxRangeProbab=0.1;
+			aiRateOfFire=2;
+			aiRateOfFireDistance=25;
+		};
+		class close: Single
+		{
+			showToPlayer=0;
+			aiRateOfFire=0.25;
+			aiRateOfFireDistance=400;
+			minRange=0;
+			minRangeProbab=0.050000001;
+			midRange=200;
+			midRangeProbab=0.69999999;
+			maxRange=400;
+			maxRangeProbab=0.2;
+		};
+		class short: close
+		{
+			aiRateOfFire=0.5;
+			aiRateOfFireDistance=500;
+			minRange=300;
+			minRangeProbab=0.2;
+			midRange=400;
+			midRangeProbab=0.69999999;
+			maxRange=500;
+			maxRangeProbab=0.2;
+		};
+		class medium: close
+		{
+			aiRateOfFire=1;
+			aiRateOfFireDistance=900;
+			minRange=400;
+			minRangeProbab=0.2;
+			midRange=700;
+			midRangeProbab=0.69999999;
+			maxRange=900;
+			maxRangeProbab=0.2;
+		};
+		inertia=1;
+		dexterity=1.7;
+		initSpeed=-1;
+		recoil="SWLW_recoil";
+		maxRecoilSway=0.015;
+		swayDecaySpeed=1.25;
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			mass=60;
+			class CowsSlot: CowsSlot
+			{
+				compatibleItems[]={};
+			};
+		};
+	};
+    class 442_dc15s_ab: 442_dc15s
+	{
+		displayname = "DC-15AB";
+		inertia = 1.5;
+		reloadTime=0.06;
+		hiddenselections[] = 
+		{
+			"camo1",
+			"sight"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"\SWLW_clones\smgs\dc15s\data\dc15s_co.paa",
+			"\442_weapons\clones\dc15a\data\optic\training_red.paa"
+		};
+		class Single: Mode_SemiAuto
+		{
+			sounds[]=
+			{
+				"StandardSound"
+			};
+			class BaseSoundModeType
+			{
+				weaponSoundEffect="";
+				closure1[]={};
+				closure2[]={};
+				soundClosure[]={};
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				weaponSoundEffect="";
+				begin1[]=
+				{
+					"\SWLW_clones\smgs\dc15s\sounds\DC15S_1",
+					1,
+					1,
+					1800
+				};
+				begin2[]=
+				{
+					"\SWLW_clones\smgs\dc15s\sounds\DC15S_2",
+					1,
+					1,
+					1800
+				};
+				begin3[]=
+				{
+					"\SWLW_clones\smgs\dc15s\sounds\DC15S_3",
+					1,
+					1,
+					1800
+				};
+				soundBegin[]=
+				{
+					"begin1",
+					0.33000001,
+					"begin2",
+					0.33000001,
+					"begin3",
+					0.33000001
+				};
+			};
+			reloadTime=0.06;
+			dispersion=0.0008;
+			minRange=5;
+			minRangeProbab=0.30000001;
+			midRange=25;
+			midRangeProbab=0.60000002;
+			maxRange=50;
+			maxRangeProbab=0.1;
+			aiRateOfFire=2;
+			aiRateOfFireDistance=25;
+		};
+		class FullAuto: Mode_FullAuto
+		{
+			sounds[]=
+			{
+				"StandardSound"
+			};
+			class BaseSoundModeType
+			{
+				weaponSoundEffect="";
+				closure1[]={};
+				closure2[]={};
+				soundClosure[]={};
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				weaponSoundEffect="";
+				begin1[]=
+				{
+					"\SWLW_clones\smgs\dc15s\sounds\DC15S_1",
+					1,
+					1,
+					1800
+				};
+				begin2[]=
+				{
+					"\SWLW_clones\smgs\dc15s\sounds\DC15S_2",
+					1,
+					1,
+					1800
+				};
+				begin3[]=
+				{
+					"\SWLW_clones\smgs\dc15s\sounds\DC15S_3",
+					1,
+					1,
+					1800
+				};
+				soundBegin[]=
+				{
+					"begin1",
+					0.33000001,
+					"begin2",
+					0.33000001,
+					"begin3",
+					0.33000001
+				};
+			};
+			reloadTime=0.06;
+			dispersion=0.0008;
+			minRange=5;
+			minRangeProbab=0.30000001;
+			midRange=25;
+			midRangeProbab=0.60000002;
+			maxRange=50;
+			maxRangeProbab=0.1;
+			aiRateOfFire=2;
+			aiRateOfFireDistance=25;
+		};
+		class close: Single
+		{
+			showToPlayer=0;
+			aiRateOfFire=0.25;
+			aiRateOfFireDistance=400;
+			minRange=0;
+			minRangeProbab=0.050000001;
+			midRange=200;
+			midRangeProbab=0.69999999;
+			maxRange=400;
+			maxRangeProbab=0.2;
+		};
+		class short: close
+		{
+			aiRateOfFire=0.5;
+			aiRateOfFireDistance=500;
+			minRange=300;
+			minRangeProbab=0.2;
+			midRange=400;
+			midRangeProbab=0.69999999;
+			maxRange=500;
+			maxRangeProbab=0.2;
+		};
+		class medium: close
+		{
+			aiRateOfFire=1;
+			aiRateOfFireDistance=900;
+			minRange=400;
+			minRangeProbab=0.2;
+			midRange=700;
+			midRangeProbab=0.69999999;
+			maxRange=900;
+			maxRangeProbab=0.2;
+		};
+		magazines[] = 
+		{
+			"442_45_45rnd_blue_mag",
+            "442_45_100rnd_blue_mag"
+		};
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			mass=50;
+			class CowsSlot: CowsSlot
+			{
+				compatibleItems[]={};
+			};
+		};
+	};
+///dc15sa
+    class 442_DC15SA: Pistol_Base_F
+	{
+		author="kripto202";
+		scope=2;
+		model="\SWLW_clones_spec\DC15SA.p3d";
+		picture="\SWLW_clones_spec\data\ui\DC15SA_ui.paa";
+		muzzles[]=
+		{
+			"this"
+		};
+		magazines[]=
+		{
+			"442_127x33_7rnd_blue_mag"
+		};
+		magazineReloadSwitchPhase=0.40000001;
+		reloadAction="GestureReloadPistol";
+		displayName="DC-15SA";
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\SWLW_clones_spec\data\DC15SA_co.paa"
+		};
+		modes[]=
+		{
+			"single"
+		};
+		fireLightDuration=0.050000001;
+		fireLightIntensity=0.40000001;
+		fireLightDiffuse[]={0,0,0.0099999998};
+		fireLightAmbient[]={0,0,0};
+		reloadMagazineSound[]=
+		{
+			"SWLW_clones_spec\sounds\DC15SA_reload.wss",
+			0.56234133,
+			1,
+			30
+		};
+		class Single: Mode_SemiAuto
+		{
+			sounds[]=
+			{
+				"StandardSound"
+			};
+			class BaseSoundModeType
+			{
+				weaponSoundEffect="";
+				closure1[]={};
+				closure2[]={};
+				soundClosure[]={};
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				weaponSoundEffect="";
+				begin1[]=
+				{
+					"SWLW_clones_spec\sounds\DC15SA_fire.wss",
+					1,
+					1,
+					1800
+				};
+				begin2[]=
+				{
+					"SWLW_clones_spec\sounds\DC15SA_fire.wss",
+					1,
+					1,
+					1800
+				};
+				begin3[]=
+				{
+					"SWLW_clones_spec\sounds\DC15SA_fire.wss",
+					1,
+					1,
+					1800
+				};
+				begin4[]=
+				{
+					"SWLW_clones_spec\sounds\DC15SA_fire.wss",
+					1,
+					1,
+					1800
+				};
+				soundBegin[]=
+				{
+					"begin1",
+					0.25,
+					"begin2",
+					0.25,
+					"begin3",
+					0.25,
+					"begin4",
+					0.25
+				};
+				closure1[]={};
+				closure2[]={};
+				soundClosure[]={};
+			};
+			recoil="recoil_pistol_heavy";
+			recoilProne="recoil_prone_pistol_heavy";
+			reloadTime=0.1;
+			dispersion=0.0099999998;
+			minRange=5;
+			minRangeProbab=0.30000001;
+			midRange=25;
+			midRangeProbab=0.60000002;
+			maxRange=50;
+			maxRangeProbab=0.1;
+			aiRateOfFire=2;
+			aiRateOfFireDistance=25;
+		};
+		initspeed=-1;
+		maxRecoilSway=0.0125;
+		swayDecaySpeed=1.25;
+		inertia=1.4;
+		dexterity=1.7;
+		recoil="recoil_pistol_4five";
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			mass=24;
+			holsterScale=0.89999998;
+			class MuzzleSlot: MuzzleSlot
+			{
+				compatibleItems[]={};
+			};
+			class CowsSlot: CowsSlot
+			{
+				compatibleItems[]={};
+			};
+			class PointerSlot: PointerSlot
+			{
+				compatibleItems[]={};
+			};
+		};
+	};
+///dc15x
+    class 442_DC15X: SWLW_rifle_base
+	{
+		scope=2;
+		model="SWLW_clones\rifles\dc15x\DC15X.p3d";
+		handAnim[]=
+		{
+			"OFP2_ManSkeleton",
+			"\SWLW_clones\rifles\dc15x\anims\dc15x_handanim.rtm"
+		};
+		reloadAction="ReloadMagazine";
+		picture="\SWLW_clones\rifles\dc15x\data\ui\DC15X_ui.paa";
+		magazines[]=
+		{
+			"442_408_10rnd_blue_mag"
+		};
+		displayname="DC-15X";
+		descriptionShort="";
+		selectionFireAnim="zasleh";
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\SWLW_clones\rifles\dc15x\data\DC15X_co.paa"
+		};
+		maxZeroing=1200;
+		opticsZoomMin=0.0099999998;
+		opticsZoomMax=0.041999999;
+		opticsZoomInit=0.041999999;
+		discretefov[]={0.041999999,0.0099999998};
+		discreteInitIndex=0;
+		distanceZoomMin=100;
+		distanceZoomMax=1200;
+		discreteDistance[]={100,200,300,400,500,600,700,800,900,1000,1100,1200};
+		class Library
+		{
+			libTextDesc="";
+		};
+		drySound[]=
+		{
+			"",
+			0.39810717,
+			1,
+			20
+		};
+		reloadMagazineSound[]=
+		{
+			"SWLW_clones\pistols\dc17\sounds\DC17_reload.wss",
+			0.56234133,
+			1,
+			30
+		};
+		soundBullet[]={};
+		modes[]=
+		{
+			"Single",
+			"close",
+			"short",
+			"medium"
+		};
+		fireLightDuration=0.050000001;
+		fireLightIntensity=0.40000001;
+		fireLightDiffuse[]={0,0,0.0099999998};
+		fireLightAmbient[]={0,0,0};
+		class Single: Mode_SemiAuto
+		{
+			sounds[]=
+			{
+				"StandardSound"
+			};
+			class BaseSoundModeType
+			{
+				weaponSoundEffect="";
+				closure1[]={};
+				closure2[]={};
+				soundClosure[]={};
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				weaponSoundEffect="";
+				begin1[]=
+				{
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_1",
+					1,
+					1,
+					1800
+				};
+				begin2[]=
+				{
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_2",
+					1,
+					1,
+					1800
+				};
+				begin3[]=
+				{
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_3",
+					1,
+					1,
+					1800
+				};
+				soundBegin[]=
+				{
+					"begin1",
+					0.33000001,
+					"begin2",
+					0.33000001,
+					"begin3",
+					0.33000001
+				};
+			};
+			reloadTime=1;
+			dispersion=0.00001;
+			initSpeed=910;
+			recoil="recoil_single_ebr";
+			recoilProne="recoil_single_prone_ebr";
+			minRange=2;
+			minRangeProbab=0.30000001;
+			midRange=350;
+			midRangeProbab=0.69999999;
+			maxRange=500;
+			maxRangeProbab=0.050000001;
+		};
+		class close: Single
+		{
+			showToPlayer=0;
+			aiRateOfFire=0.25;
+			aiRateOfFireDistance=400;
+			minRange=0;
+			minRangeProbab=0.050000001;
+			midRange=200;
+			midRangeProbab=0.69999999;
+			maxRange=400;
+			maxRangeProbab=0.2;
+		};
+		class short: close
+		{
+			aiRateOfFire=0.5;
+			aiRateOfFireDistance=500;
+			minRange=300;
+			minRangeProbab=0.2;
+			midRange=400;
+			midRangeProbab=0.69999999;
+			maxRange=500;
+			maxRangeProbab=0.2;
+		};
+		class medium: close
+		{
+			aiRateOfFire=1;
+			aiRateOfFireDistance=900;
+			minRange=400;
+			minRangeProbab=0.2;
+			midRange=700;
+			midRangeProbab=0.69999999;
+			maxRange=900;
+			maxRangeProbab=0.2;
+		};
+		maxRecoilSway=0.0125;
+		recoil="SWLW_recoil";
+		swayDecaySpeed=1.25;
+		dexterity=1.7;
+		initSpeed = -1;
+		inertia=1.4;
+		modelOptics[] = {"\A3\Weapons_F\acc\reticle_lrps_F", "\A3\Weapons_F\acc\reticle_lrps_z_F"};
+		class OpticModes
+		{
+			class Scope
+			{
+				opticsID=1;
+				useModelOptics=1;
+				opticsPPEffects[]=
+				{
+					"OpticsCHAbera1",
+					"OpticsBlur1"
+				};
+				opticsDisablePeripherialVision=0.67000002;
+				opticsZoomMin=0.0099999998;
+				opticsZoomMax=0.041999999;
+				opticsZoomInit=0.041999999;
+				discretefov[]={0.041999999,0.0099999998};
+				discreteInitIndex=0;
+				distanceZoomMin=100;
+				distanceZoomMax=1200;
+				discreteDistance[]={100,200,300,400,500,600,700,800,900,1000,1100,1200};
+				discreteDistanceInitIndex=0;
+				memoryPointCamera="opticView";
+				thermalMode[] = {0, 1};
+				visionMode[]=
+				{
+					"Normal",
+					"NVG",
+					"TI"
+				};
+				opticsFlare="true";
+				cameraDir="";
+			};
+		};
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			mass=130;
+			class CowsSlot: CowsSlot
+			{
+				compatibleItems[]={};
+			};
+		};
+	};
+	class 442_DC15Y: 442_DC15X
+	{
+		displayname="DC-15Y";
+		initSpeed = -1;
+		magazines[]=
+		{
+			"442_127x108_5rnd_blue_mag"
+		};
+		class Single: Mode_SemiAuto
+		{
+			sounds[]=
+			{
+				"StandardSound"
+			};
+			class BaseSoundModeType
+			{
+				weaponSoundEffect="";
+				closure1[]={};
+				closure2[]={};
+				soundClosure[]={};
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				weaponSoundEffect="";
+				begin1[]=
+				{
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_1",
+					1,
+					1,
+					1800
+				};
+				begin2[]=
+				{
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_2",
+					1,
+					1,
+					1800
+				};
+				begin3[]=
+				{
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_3",
+					1,
+					1,
+					1800
+				};
+				soundBegin[]=
+				{
+					"begin1",
+					0.33000001,
+					"begin2",
+					0.33000001,
+					"begin3",
+					0.33000001
+				};
+			};
+			reloadTime=2;
+			dispersion=0.0001;
+			initSpeed=910;
+			recoil="recoil_single_ebr";
+			recoilProne="recoil_single_prone_ebr";
+			minRange=2;
+			minRangeProbab=0.30000001;
+			midRange=350;
+			midRangeProbab=0.69999999;
+			maxRange=500;
+			maxRangeProbab=0.050000001;
+		};
+		class close: Single
+		{
+			showToPlayer=0;
+			aiRateOfFire=0.25;
+			aiRateOfFireDistance=400;
+			minRange=0;
+			minRangeProbab=0.050000001;
+			midRange=200;
+			midRangeProbab=0.69999999;
+			maxRange=400;
+			maxRangeProbab=0.2;
+		};
+		class short: close
+		{
+			aiRateOfFire=0.5;
+			aiRateOfFireDistance=500;
+			minRange=300;
+			minRangeProbab=0.2;
+			midRange=400;
+			midRangeProbab=0.69999999;
+			maxRange=500;
+			maxRangeProbab=0.2;
+		};
+		class medium: close
+		{
+			aiRateOfFire=1;
+			aiRateOfFireDistance=900;
+			minRange=400;
+			minRangeProbab=0.2;
+			midRange=700;
+			midRangeProbab=0.69999999;
+			maxRange=900;
+			maxRangeProbab=0.2;
+		};
+	};
+
+///dc17
+    class 442_DC17: Pistol_Base_F
+	{
+		author="kripto202";
+		_generalMacro="hgun_P07_F";
+		scope=2;
+		model="SWLW_clones\pistols\dc17\DC17.p3d";
+		picture="\SWLW_clones\pistols\dc17\data\ui\DC17_ui.paa";
+		hiddenselections[] = 
+		{
+			"camo1"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"\SWLW_clones\pistols\dc17\data\dc17_co.paa"
+		};
+		muzzles[]=
+		{
+			"this",
+			"EGLM"
+		};
+		magazines[]=
+		{
+			"442_dc17_mag"
+		};
+		reloadAction="GestureReloadPistol";
+		displayName="DC-17";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		drySound[]=
+		{
+			"A3\Sounds_F\arsenal\weapons\Pistols\4-Five\dry_4_Five",
+			0.39810717,
+			1,
+			20
+		};
+		reloadMagazineSound[]=
+		{
+			"SWLW_clones\pistols\dc17\sounds\DC17_reload.wss",
+			0.56234133,
+			1,
+			30
+		};
+		soundBullet[]={};
+		modes[]=
+		{
+			"Single",
+			"close",
+			"short",
+			"medium"
+		};
+		fireLightDuration=0.050000001;
+		fireLightIntensity=0.40000001;
+		fireLightDiffuse[]={0,0,0.0099999998};
+		fireLightAmbient[]={0,0,0};
+		class Single: Mode_SemiAuto
+		{
+			sounds[]=
+			{
+				"StandardSound"
+			};
+			class BaseSoundModeType
+			{
+				weaponSoundEffect="";
+				closure1[]={};
+				closure2[]={};
+				soundClosure[]={};
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				weaponSoundEffect="";
+				begin1[]=
+				{
+					"SWLW_clones\pistols\dc17\sounds\DC17_1",
+					1,
+					1,
+					1800
+				};
+				begin2[]=
+				{
+					"SWLW_clones\pistols\dc17\sounds\DC17_1",
+					1,
+					1,
+					1800
+				};
+				begin3[]=
+				{
+					"SWLW_clones\pistols\dc17\sounds\DC17_1",
+					1,
+					1,
+					1800
+				};
+				begin4[]=
+				{
+					"SWLW_clones\pistols\dc17\sounds\DC17_1",
+					1,
+					1,
+					1800
+				};
+				soundBegin[]=
+				{
+					"begin1",
+					0.25,
+					"begin2",
+					0.25,
+					"begin3",
+					0.25,
+					"begin4",
+					0.25
+				};
+				closure1[]={};
+				closure2[]={};
+				soundClosure[]={};
+			};
+			recoil="recoil_pistol_heavy";
+			recoilProne="recoil_prone_pistol_heavy";
+			reloadTime=0.2;
+			dispersion=0.01015;
+			minRange=5;
+			minRangeProbab=0.30000001;
+			midRange=25;
+			midRangeProbab=0.60000002;
+			maxRange=50;
+			maxRangeProbab=0.1;
+			aiRateOfFire=2;
+			aiRateOfFireDistance=25;
+		};
+		class close: Single
+		{
+			showToPlayer=0;
+			aiRateOfFire=0.25;
+			aiRateOfFireDistance=400;
+			minRange=0;
+			minRangeProbab=0.050000001;
+			midRange=200;
+			midRangeProbab=0.69999999;
+			maxRange=400;
+			maxRangeProbab=0.2;
+		};
+		class short: close
+		{
+			aiRateOfFire=0.5;
+			aiRateOfFireDistance=500;
+			minRange=300;
+			minRangeProbab=0.2;
+			midRange=400;
+			midRangeProbab=0.69999999;
+			maxRange=500;
+			maxRangeProbab=0.2;
+		};
+		class medium: close
+		{
+			aiRateOfFire=1;
+			aiRateOfFireDistance=900;
+			minRange=400;
+			minRangeProbab=0.2;
+			midRange=700;
+			midRangeProbab=0.69999999;
+			maxRange=900;
+			maxRangeProbab=0.2;
+		};
+		class EGLM: UGL_F
+		{
+			displayName="Flare gun";
+			descriptionShort="";
+			useModelOptics="false";
+			useExternalOptic="false";
+			magazines[]=
+			{
+				"SWLW_flareRed_mag",
+				"SWLW_smokeRed_mag"
+			};
+			magazineWell[]={};
+			cameraDir="OP_look";
+			discreteDistance[]={100};
+			discreteDistanceCameraPoint[]=
+			{
+				"OP_eye"
+			};
+			discreteDistanceInitIndex=1;
+		};
+		inertia=1.4;
+		dexterity=1.7;
+		initSpeed=300;
+		maxRecoilSway=0.0125;
+		swayDecaySpeed=1.25;
+		recoil="recoil_pistol_4five";
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			mass=24;
+			holsterScale=0.89999998;
+			class MuzzleSlot: MuzzleSlot
+			{
+				compatibleItems[]={};
+			};
+			class CowsSlot: CowsSlot
+			{
+				compatibleItems[]={};
+			};
+			class PointerSlot: PointerSlot
+			{
+				compatibleItems[]={};
+			};
+		};
+	};
+///gl
+    class 442_GL: 442_rifle_base
+	{
+		scope=2;
+		model="442_weapons\clones\gl\gl.p3d";
+		hiddenselections[] = 
+		{
+			"camo1",
+			"sight"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"\SWLW_clones\rifles\gl\data\gl_co.paa",
+			"\442_weapons\clones\dc15a\data\optic\training_blue.paa"
+		};
+		handAnim[]=
+		{
+			"OFP2_ManSkeleton",
+			"\A3\Weapons_F_epa\LongRangeRifles\DMR_01\Data\Anim\dmr_01.rtm"
+		};
+		reloadAction="ReloadMagazine";
+		picture="\swlw_clones\rifles\gl\data\ui\GL_ui.paa";
+		magazines[]=
+		{
+			"442_mag_40mm_6rnd"
+		};
+		displayname="Grenade launcher";
+		descriptionShort="";
+		selectionFireAnim="zasleh";
+		class Library
+		{
+			libTextDesc="";
+		};
+		drySound[]=
+		{
+			"",
+			0.39810717,
+			1,
+			20
+		};
+		reloadMagazineSound[]=
+		{
+			"SWLW_clones\pistols\dc17\sounds\DC17_reload.wss",
+			0.56234133,
+			1,
+			30
+		};
+		soundBullet[]={};
+		modes[]=
+		{
+			"Single",
+			"close",
+			"short",
+			"medium"
+		};
+		fireLightDuration=0.050000001;
+		fireLightIntensity=0.40000001;
+		fireLightDiffuse[]={0,0,0.0099999998};
+		fireLightAmbient[]={0,0,0};
+		cameraDir="OP_look";
+		discreteinitindex = 0;
+		discretedistance[] = {100,200,300,400};
+		discreteDistanceCameraPoint[]=
+		{
+			"OP_eye",
+			"OP_eye2",
+			"OP_eye3",
+			"OP_eye4"
+		};
+		class Single: Mode_SemiAuto
+		{
+			sounds[]=
+			{
+				"StandardSound"
+			};
+			class BaseSoundModeType
+			{
+				weaponSoundEffect="";
+				closure1[]={};
+				closure2[]={};
+				soundClosure[]={};
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				weaponSoundEffect="";
+				begin1[]=
+				{
+					"SWLW_clones\rifles\gl\sounds\gl",
+					1,
+					1,
+					1800
+				};
+				begin2[]=
+				{
+					"SWLW_clones\rifles\gl\sounds\gl",
+					1,
+					1,
+					1800
+				};
+				begin3[]=
+				{
+					"SWLW_clones\rifles\gl\sounds\gl",
+					1,
+					1,
+					1800
+				};
+				soundBegin[]=
+				{
+					"begin1",
+					0.33000001,
+					"begin2",
+					0.33000001,
+					"begin3",
+					0.33000001
+				};
+			};
+			reloadTime=0.15000001;
+			dispersion=0.0030149999;
+			minRange=5;
+			minRangeProbab=0.30000001;
+			midRange=25;
+			midRangeProbab=0.60000002;
+			maxRange=50;
+			maxRangeProbab=0.1;
+			aiRateOfFire=2;
+			aiRateOfFireDistance=25;
+		};
+		class close: Single
+		{
+			showToPlayer=0;
+			aiRateOfFire=0.25;
+			aiRateOfFireDistance=400;
+			minRange=0;
+			minRangeProbab=0.050000001;
+			midRange=200;
+			midRangeProbab=0.69999999;
+			maxRange=400;
+			maxRangeProbab=0.2;
+		};
+		class short: close
+		{
+			aiRateOfFire=0.5;
+			aiRateOfFireDistance=500;
+			minRange=300;
+			minRangeProbab=0.2;
+			midRange=400;
+			midRangeProbab=0.69999999;
+			maxRange=500;
+			maxRangeProbab=0.2;
+		};
+		class medium: close
+		{
+			aiRateOfFire=1;
+			aiRateOfFireDistance=900;
+			minRange=400;
+			minRangeProbab=0.2;
+			midRange=700;
+			midRangeProbab=0.69999999;
+			maxRange=900;
+			maxRangeProbab=0.2;
+		};
+		class EGLM: UGL_F
+		{
+			displayName="3rnd HE launcher";
+			descriptionShort="";
+			useModelOptics=0;
+			useExternalOptic=0;
+			initspeed=75;
+			magazines[]=
+			{
+				"SWLW_mag_40mm_3rnd"
+			};
+			magazineWell[]={};
+			cameraDir="OP_look";
+			discreteDistance[]={100};
+			discreteDistanceCameraPoint[]=
+			{
+				"OP_eye",
+				"OP_eye2",
+				"OP_eye3",
+				"OP_eye4"
+			};
+			discreteDistanceInitIndex=1;
+			class Single: Mode_SemiAuto
+			{
+				sounds[]=
+				{
+					"StandardSound"
+				};
+				class BaseSoundModeType
+				{
+					weaponSoundEffect="";
+					closure1[]={};
+					closure2[]={};
+					soundClosure[]={};
+				};
+				class StandardSound: BaseSoundModeType
+				{
+					weaponSoundEffect="";
+					begin1[]=
+					{
+						"SWLW_clones\rifles\gl\sounds\gl",
+						1,
+						1,
+						1800
+					};
+					begin2[]=
+					{
+						"SWLW_clones\rifles\gl\sounds\gl",
+						1,
+						1,
+						1800
+					};
+					begin3[]=
+					{
+						"SWLW_clones\rifles\gl\sounds\gl",
+						1,
+						1,
+						1800
+					};
+					soundBegin[]=
+					{
+						"begin1",
+						0.33000001,
+						"begin2",
+						0.33000001,
+						"begin3",
+						0.33000001
+					};
+				};
+				reloadTime=0.15000001;
+				dispersion=0.0030149999;
+				minRange=5;
+				minRangeProbab=0.30000001;
+				midRange=25;
+				midRangeProbab=0.60000002;
+				maxRange=50;
+				maxRangeProbab=0.1;
+				aiRateOfFire=2;
+				aiRateOfFireDistance=25;
+			};
+		};
+		muzzles[]=
+		{
+			"this"
+		};
+		initspeed=80;
+		maxRecoilSway=0.0125;
+		swayDecaySpeed=1.25;
+		inertia=0.5;
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			mass=180;
+			class CowsSlot: CowsSlot
+			{
+				compatibleItems[]={};
+			};
+		};
+	};
+///rps6
+    class 442_RPS6: Launcher_Base_F
+	{
+		author="kripto202";
+		_generalMacro="launch_RPG32_F";
+		scope=2;
+		displayName="RPS-6 rocket launcher";
+		model="SWLW_clones\launchers\rps6\RPS6.p3d";
+		picture="\SWLW_clones\launchers\rps6\data\ui\RPS6_ui.paa";
+		hiddenselections[] = 
+		{
+			"camo1"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"\442_weapons\clones\rps6\data\kobra_rps6.paa"
+		};
+		handAnim[]=
+		{
+			"OFP2_ManSkeleton",
+			"\SWLW_clones\launchers\rps6\anims\RPS6_handanim.rtm"
+		};
+		reloadAction="ReloadRPG";
+		recoil="recoil_empty";
+		maxZeroing=800;
+		weaponInfoType = "RscOpticsRangeFinderVorona";
+		modelOptics = "A3\Weapons_F_Tank\acc\reticle_Vorona.p3d";
+		opticsZoomMin=0.0623;
+		opticsZoomMax=0.0623;
+		opticsZoomInit=0.0623;
+		cameraDir="look";
+		ace_overpressure_angle=45;
+		ace_overpressure_damage=0.69999999;
+		ace_overpresssure_priority=1;
+		ace_overpressure_range=5;
+		ace_nlaw_enabled = 1;
+		
+		class GunParticles
+		{
+			class effect1
+			{
+				positionName="konec hlavne";
+				directionName="usti hlavne";
+				effectName="RocketBackEffectsRPGNT";
+			};
+		};
+		class OpticsModes
+		{
+			class optic
+			{
+				opticsID = 1;
+				useModelOptics = 1;
+				opticsZoomMin = 0.0875;
+				opticsZoomMax = 0.0875;
+				opticsZoomInit = 0.0875;
+				distanceZoomMin = 300;
+				distanceZoomMax = 300;
+				memoryPointCamera = "eye";
+				opticsFlare = 1;
+				opticsDisablePeripherialVision = 1;
+				cameraDir = "look";
+				visionMode[] = {"Normal", "NVG"};
+				opticsPPEffects[] = {"OpticsCHAbera1", "OpticsBlur1"};
+			};
+		};
+		magazines[]=
+		{
+			"442_rps6_heat_mag"
+		};
+		modes[]=
+		{
+			"Single",
+			"Overfly"
+		};
+		class Single: Mode_SemiAuto
+		{
+			sounds[] = {"StandardSound"};
+			class BaseSoundModeType
+			{
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				begin1[] = {"A3\Sounds_F\arsenal\weapons\Launchers\NLAW\nlaw", 1.99526, 1, 1800};
+				soundBegin[] = {"begin1", 1};
+				soundSetShot[] = {"Launcher_NLAW_Shot_SoundSet", "Launcher_NLAW_Tail_SoundSet"};
+			};
+			recoil = "recoil_single_nlaw";
+			aiRateOfFire = 7;
+			aiRateOfFireDistance = 500;
+			minRange = 25;
+			minRangeProbab = 0.8;
+			midRange = 50;
+			midRangeProbab = 0.8;
+			maxRange = 790;
+			maxRangeProbab = 0.8;
+			ace_missileGuidance_attackProfile = "ace_nlaw_directAttack";
+		};
+		class Overfly: Single
+		{
+			textureType = "overfly";
+			displayName = "Overfly Top Attack";
+			aiRateOfFire = 7;
+			aiRateOfFireDistance = 500;
+			minRange = 50;
+			minRangeProbab = 0.7;
+			midRange = 100;
+			midRangeProbab = 0.95;
+			maxRange = 790;
+			maxRangeProbab = 0.95;
+			ace_missileGuidance_attackProfile = "ace_nlaw_overflyTopAttack";
+		};
+		drySound[]=
+		{
+			"A3\Sounds_F\arsenal\weapons\Launchers\RPG32\Dry_RPG32",
+			0.44668359,
+			1,
+			20
+		};
+		reloadMagazineSound[]=
+		{
+			"A3\Sounds_F\arsenal\weapons\Launchers\RPG32\reload_RPG32",
+			0.25118864,
+			1,
+			10
+		};
+		canLock=1;
+		weaponLockDelay=3;
+		lockAcquire=0;
+		inertia=1;
+		aimTransitionSpeed=0.5;
+		dexterity=1;
+		cmimmunity = 0.1;
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			mass=150;
+		};
+		descriptionShort="";
+		class Library
+		{
+			libTextDesc="";
+		};
+	};
+///westarm5
+    class 442_WestarM5: 442_rifle_base
+	{
+		scope=2;
+		model="\SWLW_clones\smgs\westar_m5\WestarM5.p3d";
+		handAnim[]=
+		{
+			"OFP2_ManSkeleton",
+			"\SWLW_clones\smgs\westar_m5\anims\westarm5_handanim.rtm"
+		};
+		reloadAction="ReloadMagazine";
+		picture="\SWLW_clones\smgs\westar_m5\data\ui\WestarM5_ui.paa";
+		hiddenselections[] = 
+		{
+			"camo1"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"\SWLW_clones\smgs\westar_m5\data\westarm5_co.paa"
+		};
+		magazines[]=
+		{
+			"442_westarm5_low_mag",
+			"442_westarm5_med_mag",
+			"442_westarm5_high_mag",
+			"442_westarm5_oc_mag"
+		};
+		displayname="Westar M5";
+		descriptionShort="";
+		selectionFireAnim="zasleh";
+		class Library
+		{
+			libTextDesc="";
+		};
+		drySound[]=
+		{
+			"",
+			0.39810717,
+			1,
+			20
+		};
+		reloadMagazineSound[]=
+		{
+			"\SWLW_clones\pistols\dc17\sounds\DC17_reload.wss",
+			0.56234133,
+			1,
+			30
+		};
+		soundBullet[]={};
+		modes[]=
+		{
+			"Single",
+			"FullAuto",
+			"close",
+			"short",
+			"medium"
+		};
+		recoil="SWLW_recoil";
+		fireLightDuration=0.050000001;
+		fireLightIntensity=0.40000001;
+		fireLightDiffuse[]={0,0,0.0099999998};
+		fireLightAmbient[]={0,0,0};
+		class Single: Mode_SemiAuto
+		{
+			sounds[]=
+			{
+				"StandardSound"
+			};
+			class BaseSoundModeType
+			{
+				weaponSoundEffect="";
+				closure1[]={};
+				closure2[]={};
+				soundClosure[]={};
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				weaponSoundEffect="";
+				begin1[]=
+				{
+					"\SWLW_clones\smgs\dc15s\sounds\DC15S_2",
+					1,
+					1,
+					1800
+				};
+				begin2[]=
+				{
+					"\SWLW_clones\smgs\dc15s\sounds\DC15S_2",
+					1,
+					1,
+					1800
+				};
+				begin3[]=
+				{
+					"\SWLW_clones\smgs\dc15s\sounds\DC15S_3",
+					1,
+					1,
+					1800
+				};
+				soundBegin[]=
+				{
+					"begin1",
+					0.33000001,
+					"begin2",
+					0.33000001,
+					"begin3",
+					0.33000001
+				};
+			};
+			reloadTime=0.08;
+			dispersion=0.000020000001;
+			minRange=5;
+			minRangeProbab=0.30000001;
+			midRange=25;
+			midRangeProbab=0.60000002;
+			maxRange=50;
+			maxRangeProbab=0.1;
+			aiRateOfFire=2;
+			aiRateOfFireDistance=25;
+		};
+		class FullAuto: Mode_FullAuto
+		{
+			sounds[]=
+			{
+				"StandardSound"
+			};
+			class BaseSoundModeType
+			{
+				weaponSoundEffect="";
+				closure1[]={};
+				closure2[]={};
+				soundClosure[]={};
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				weaponSoundEffect="";
+				begin1[]=
+				{
+					"\SWLW_clones\smgs\dc15s\sounds\DC15S_1",
+					1,
+					1,
+					1800
+				};
+				begin2[]=
+				{
+					"\SWLW_clones\smgs\dc15s\sounds\DC15S_2",
+					1,
+					1,
+					1800
+				};
+				begin3[]=
+				{
+					"\SWLW_clones\smgs\dc15s\sounds\DC15S_3",
+					1,
+					1,
+					1800
+				};
+				soundBegin[]=
+				{
+					"begin1",
+					0.33000001,
+					"begin2",
+					0.33000001,
+					"begin3",
+					0.33000001
+				};
+			};
+			reloadTime=0.08;
+			dispersion=0.000014545;
+			minRange=5;
+			minRangeProbab=0.30000001;
+			midRange=25;
+			midRangeProbab=0.60000002;
+			maxRange=50;
+			maxRangeProbab=0.1;
+			aiRateOfFire=2;
+			aiRateOfFireDistance=25;
+		};
+		class close: Single
+		{
+			showToPlayer=0;
+			aiRateOfFire=0.25;
+			aiRateOfFireDistance=400;
+			minRange=0;
+			minRangeProbab=0.050000001;
+			midRange=200;
+			midRangeProbab=0.69999999;
+			maxRange=400;
+			maxRangeProbab=0.2;
+		};
+		class short: close
+		{
+			aiRateOfFire=0.5;
+			aiRateOfFireDistance=500;
+			minRange=300;
+			minRangeProbab=0.2;
+			midRange=400;
+			midRangeProbab=0.69999999;
+			maxRange=500;
+			maxRangeProbab=0.2;
+		};
+		class medium: close
+		{
+			aiRateOfFire=1;
+			aiRateOfFireDistance=900;
+			minRange=400;
+			minRangeProbab=0.2;
+			midRange=700;
+			midRangeProbab=0.69999999;
+			maxRange=900;
+			maxRangeProbab=0.2;
+		};
+		inertia=0.30000001;
+		dexterity=1.7;
+		initSpeed=-1;
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			mass=80;
+			class CowsSlot: CowsSlot
+			{
+				compatibleItems[]=
+				{
+					"442_WestarM5_scope"
+				};
+			};
+		};
+	};
+    class 442_WestarM5_scope: ItemCore
+	{
+		displayName="Westar M-5 scope";
+		author="kripto202";
+		picture="\SWLW_clones\smgs\westar_m5\data\ui\westarm5_scope_ui.paa";
+		model="\SWLW_clones\smgs\westar_m5\WestarM5_scope.p3d";
+		scope=2;
+		descriptionShort="";
+		weaponInfoType="RscWeaponZeroing";
+		hiddenselections[] =
+		{
+			"camo1"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"\442_weapons\clones\westar_m5\data\kobra_westarm5_scope.paa"
+		};
+		class ItemInfo: InventoryOpticsItem_Base_F
+		{
+			mass=8;
+			opticType=1;
+			optics=1;
+			modelOptics = "\A3\Weapons_f\acc\reticle_marksman_F";
+			class OpticsModes
+			{
+				class WestarM5scope_sights
+				{
+					opticsID=2;
+					useModelOptics=0;
+					opticsPPEffects[]=
+					{
+						"Default"
+					};
+					opticsFlare=0;
+					opticsDisablePeripherialVision=0;
+					opticsZoomMin=0.25;
+					opticsZoomMax=1.25;
+					opticsZoomInit=0.75;
+					memoryPointCamera="eye";
+					visionMode[]={};
+					distanceZoomMin=200;
+					distanceZoomMax=200;
+					cameraDir="";
+				};
+				class WestarM5scope_scope: WestarM5scope_sights
+				{
+					opticsID=1;
+					useModelOptics=1;
+					opticsPPEffects[]=
+					{
+						"OpticsCHAbera2",
+						"OpticsBlur3"
+					};
+					opticsZoomMin=0.0625;
+					opticsZoomMax=0.125;
+					opticsZoomInit=0.125;
+					memoryPointCamera="opticView";
+					opticsFlare=1;
+					opticsDisablePeripherialVision=1;
+					visionMode[] = {"Normal", "NVG", "Ti"};
+					thermalMode[] = {0, 1};
+					discretefov[] = {0.125, 0.0625};
+					discreteInitIndex = 0;
+					discreteDistanceInitIndex = 0;
+					discreteDistance[] = {100};
+					distanceZoomMin=300;
+					distanceZoomMax=1200;
+					modelOptics[] = {"\A3\Weapons_F_EPA\acc\reticle_marksman_F", "\A3\Weapons_F_EPA\acc\reticle_marksman_z_F"};
+				};
+			};
+		};
+		inertia=0.1;
 	};
