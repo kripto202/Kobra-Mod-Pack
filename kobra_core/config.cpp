@@ -1600,6 +1600,7 @@ class cfgammo
 	class Sh_105mm_APFSDS_T_Green;
 	class Sh_120mm_HE;
 	class ammo_AAA_Gun35mm_AA;
+	class MissileBase;
 	class BulletBase: BulletCore
 	{
 		class SuperSonicCrack;
@@ -1931,4 +1932,5 @@ class cfgmagazine
 	#include "442_weapons\magazine\408_magazine.hpp"
 	#include "442_weapons\magazine\75_magazine.hpp"
 	#include "442_weapons\magazine\shotgun_magazine.hpp"
+	#include "442_weapons\magazine\rocket_magazine.hpp"
 };
