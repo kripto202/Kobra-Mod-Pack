@@ -15,145 +15,9 @@ class 442_swla_unit: k_swla_unit_base
 		backpack = "";
 		hiddenselectionstextures[] = 
 		{
-			"442_swla\data\armor\442_swla_upper.paa",
-			"442_swla\data\armor\442_swla_lower.paa",
-			"4422_clones\data\uniform\mc_uniform\undersuit_co.paa",
-		};
-		linkedItems[] = 
-		{
-			"442_p2_helmet",
-			"k_swla_vest",
-			"tf_anprc152",
-			"442_clones_hud_white"
-		};
-		respawnlinkeditems[] = 
-		{
-			"442_p2_helmet",
-			"k_swla_vest",
-			"tf_anprc152",
-			"442_clones_hud_white"
-		};
-		weapons[]=
-		{
-			"4422_DC15S",
-			"Throw",
-			"Put"
-		};
-		respawnWeapons[]=
-		{
-			"4422_DC15S",
-			"Throw",
-			"Put"
-		};
-		magazines[]=
-		{
-			"4422_DC15S_Mag",
-			"4422_DC15S_Mag",
-			"4422_DC15S_Mag",
-			"4422_DC15S_Mag",
-			"4422_DC15S_Mag",
-			"4422_DC15S_Mag",
-			"SmokeShellBlue",
-			"SmokeShellBlue",
-			"SmokeShellBlue",
-			"SmokeShellRed",
-			"SmokeShellRed",
-			"SmokeShellRed",
-			"SmokeShell",
-			"SmokeShell",
-			"SmokeShell",
-			"SmokeShell",
-			"SmokeShell"
-		};
-		respawnMagazines[]=
-		{
-			"4422_DC15S_Mag",
-			"4422_DC15S_Mag",
-			"4422_DC15S_Mag",
-			"4422_DC15S_Mag",
-			"4422_DC15S_Mag",
-			"4422_DC15S_Mag",
-			"SmokeShellBlue",
-			"SmokeShellBlue",
-			"SmokeShellBlue",
-			"SmokeShellRed",
-			"SmokeShellRed",
-			"SmokeShellRed",
-			"SmokeShell",
-			"SmokeShell",
-			"SmokeShell",
-			"SmokeShell",
-			"SmokeShell"
-		};
-		items[] = 
-		{
-			"ACE_EarPlugs",
-			"ACE_packingBandage",
-			"ACE_packingBandage",
-			"ACE_packingBandage",
-			"ACE_packingBandage",
-			"ACE_packingBandage",
-			"ACE_fieldDressing",
-			"ACE_fieldDressing",
-			"ACE_fieldDressing",
-			"ACE_fieldDressing",
-			"ACE_fieldDressing",
-			"ACE_elsasticBandage",
-			"ACE_elsasticBandage",
-			"ACE_elsasticBandage",
-			"ACE_elsasticBandage",
-			"ACE_elsasticBandage",
-			"ACE_quikclot",
-			"ACE_quikclot",
-			"ACE_quikclot",
-			"ACE_quikclot",
-			"ACE_quikclot"
-		};
-		respawnitems[] = 
-		{
-			"ACE_EarPlugs",
-			"ACE_packingBandage",
-			"ACE_packingBandage",
-			"ACE_packingBandage",
-			"ACE_packingBandage",
-			"ACE_packingBandage",
-			"ACE_fieldDressing",
-			"ACE_fieldDressing",
-			"ACE_fieldDressing",
-			"ACE_fieldDressing",
-			"ACE_fieldDressing",
-			"ACE_elsasticBandage",
-			"ACE_elsasticBandage",
-			"ACE_elsasticBandage",
-			"ACE_elsasticBandage",
-			"ACE_elsasticBandage",
-			"ACE_quikclot",
-			"ACE_quikclot",
-			"ACE_quikclot",
-			"ACE_quikclot",
-			"ACE_quikclot"
-		};
-	};
-	class bl_swla_unit: k_swla_unit_base
-	{
-		scope = 2;
-		scopeCurator = 2;
-		scopearsenal = 2;
-		editorpreview = "\SWLB_clones\data\ui\editorPreviews\SWLB_clone_base_P2.jpg";
-		identityTypes[] = {"LanguageENG_F", "Head_NATO"};
-		role = "Rifleman";
-		author = "kripto202";
-		uniformclass = "bl_swla_uniform";
-		faction = "black_legion";
-		editorSubCategory = "swla_442_trooper";
-		displayname = "Trooper";
-		movesFatigue = "CfgMovesFatigueTrooper";
-		backpack = "";
-		hiddenselectionstextures[] = 
-		{
-			"442_swla\data\armor\bl_camo1_co.paa",
-			"442_swla\data\armor\bl_camo2_co.paa",
-			"4422_clones\data\uniform\mc_uniform\undersuit_co.paa",
+			"442_units\442\data\armor\442_swla_upper_1.paa",
+			"442_units\442\data\armor\442_swla_lower_1.paa",
+			"442_units\data\uniform\mc_uniform\undersuit_co.paa",
 		};
 		linkedItems[] = 
 		{
@@ -287,10 +151,10 @@ class 442_swla_unit: k_swla_unit_base
 		backpack = "";
 		hiddenselectionstextures[] = 
 		{
-			"442_swla\data\armor\442_swla_mc_upper.paa",
-			"442_swla\data\armor\442_swla_mc_lower.paa",
-			"4422_clones\data\uniform\mc_uniform\undersuit_co.paa",
-			"4422_clones\data\uniform\mc_uniform\rank_co.paa"
+			"442_units\442\data\armor\442_swla_mc_upper.paa",
+			"442_units\442\data\armor\442_swla_mc_lower.paa",
+			"442_units\data\uniform\mc_uniform\undersuit_co.paa",
+			"442_units\data\uniform\mc_uniform\rank_co.paa"
 		};
 		linkedItems[] = 
 		{
@@ -422,7 +286,7 @@ class 442_swla_unit: k_swla_unit_base
 		{
 			"442_swla_vest",
 			"442_p2_helmet",
-			"4422_clones_hud_white",
+			"442_units_hud_white",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -433,7 +297,7 @@ class 442_swla_unit: k_swla_unit_base
 		{
 			"442_swla_vest",
 			"442_p2_helmet",
-			"4422_clones_hud_white",
+			"442_units_hud_white",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",

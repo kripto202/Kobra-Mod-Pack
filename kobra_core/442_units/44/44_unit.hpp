@@ -15,145 +15,9 @@ class 44_swla_unit: k_swla_unit_base
 		backpack = "";
 		hiddenselectionstextures[] = 
 		{
-			"44_swla\data\armor\44_swla_upper.paa",
-			"44_swla\data\armor\44_swla_lower.paa",
-			"442_clones\data\uniform\mc_uniform\undersuit_co.paa",
-		};
-		linkedItems[] = 
-		{
-			"44_p2_helmet",
-			"k_swla_vest",
-			"tf_anprc152",
-			"44_clones_hud_white"
-		};
-		respawnlinkeditems[] = 
-		{
-			"44_p2_helmet",
-			"k_swla_vest",
-			"tf_anprc152",
-			"44_clones_hud_white"
-		};
-		weapons[]=
-		{
-			"442_DC15S",
-			"Throw",
-			"Put"
-		};
-		respawnWeapons[]=
-		{
-			"442_DC15S",
-			"Throw",
-			"Put"
-		};
-		magazines[]=
-		{
-			"442_DC15S_Mag",
-			"442_DC15S_Mag",
-			"442_DC15S_Mag",
-			"442_DC15S_Mag",
-			"442_DC15S_Mag",
-			"442_DC15S_Mag",
-			"SmokeShellBlue",
-			"SmokeShellBlue",
-			"SmokeShellBlue",
-			"SmokeShellRed",
-			"SmokeShellRed",
-			"SmokeShellRed",
-			"SmokeShell",
-			"SmokeShell",
-			"SmokeShell",
-			"SmokeShell",
-			"SmokeShell"
-		};
-		respawnMagazines[]=
-		{
-			"442_DC15S_Mag",
-			"442_DC15S_Mag",
-			"442_DC15S_Mag",
-			"442_DC15S_Mag",
-			"442_DC15S_Mag",
-			"442_DC15S_Mag",
-			"SmokeShellBlue",
-			"SmokeShellBlue",
-			"SmokeShellBlue",
-			"SmokeShellRed",
-			"SmokeShellRed",
-			"SmokeShellRed",
-			"SmokeShell",
-			"SmokeShell",
-			"SmokeShell",
-			"SmokeShell",
-			"SmokeShell"
-		};
-		items[] = 
-		{
-			"ACE_EarPlugs",
-			"ACE_packingBandage",
-			"ACE_packingBandage",
-			"ACE_packingBandage",
-			"ACE_packingBandage",
-			"ACE_packingBandage",
-			"ACE_fieldDressing",
-			"ACE_fieldDressing",
-			"ACE_fieldDressing",
-			"ACE_fieldDressing",
-			"ACE_fieldDressing",
-			"ACE_elsasticBandage",
-			"ACE_elsasticBandage",
-			"ACE_elsasticBandage",
-			"ACE_elsasticBandage",
-			"ACE_elsasticBandage",
-			"ACE_quikclot",
-			"ACE_quikclot",
-			"ACE_quikclot",
-			"ACE_quikclot",
-			"ACE_quikclot"
-		};
-		respawnitems[] = 
-		{
-			"ACE_EarPlugs",
-			"ACE_packingBandage",
-			"ACE_packingBandage",
-			"ACE_packingBandage",
-			"ACE_packingBandage",
-			"ACE_packingBandage",
-			"ACE_fieldDressing",
-			"ACE_fieldDressing",
-			"ACE_fieldDressing",
-			"ACE_fieldDressing",
-			"ACE_fieldDressing",
-			"ACE_elsasticBandage",
-			"ACE_elsasticBandage",
-			"ACE_elsasticBandage",
-			"ACE_elsasticBandage",
-			"ACE_elsasticBandage",
-			"ACE_quikclot",
-			"ACE_quikclot",
-			"ACE_quikclot",
-			"ACE_quikclot",
-			"ACE_quikclot"
-		};
-	};
-	class bl_swla_unit: k_swla_unit_base
-	{
-		scope = 2;
-		scopeCurator = 2;
-		scopearsenal = 2;
-		editorpreview = "\SWLB_clones\data\ui\editorPreviews\SWLB_clone_base_P2.jpg";
-		identityTypes[] = {"LanguageENG_F", "Head_NATO"};
-		role = "Rifleman";
-		author = "kripto202";
-		uniformclass = "bl_swla_uniform";
-		faction = "black_legion";
-		editorSubCategory = "swla_44_trooper";
-		displayname = "Trooper";
-		movesFatigue = "CfgMovesFatigueTrooper";
-		backpack = "";
-		hiddenselectionstextures[] = 
-		{
-			"44_swla\data\armor\bl_camo1_co.paa",
-			"44_swla\data\armor\bl_camo2_co.paa",
-			"442_clones\data\uniform\mc_uniform\undersuit_co.paa",
+			"442_units\44\data\armor\44_swla_upper.paa",
+			"442_units\44\data\armor\44_swla_lower.paa",
+			"442_units\data\uniform\mc_uniform\undersuit_co.paa",
 		};
 		linkedItems[] = 
 		{
@@ -287,10 +151,10 @@ class 44_swla_unit: k_swla_unit_base
 		backpack = "";
 		hiddenselectionstextures[] = 
 		{
-			"44_swla\data\armor\44_swla_mc_upper.paa",
-			"44_swla\data\armor\44_swla_mc_lower.paa",
-			"442_clones\data\uniform\mc_uniform\undersuit_co.paa",
-			"442_clones\data\uniform\mc_uniform\rank_co.paa"
+			"442_units\44\data\armor\44_swla_mc_upper.paa",
+			"442_units\44\data\armor\44_swla_mc_lower.paa",
+			"442_units\data\uniform\mc_uniform\undersuit_co.paa",
+			"442_units\data\uniform\mc_uniform\rank_co.paa"
 		};
 		linkedItems[] = 
 		{

@@ -75,3 +75,55 @@
 			"442_clones\data\uniform\mc_uniform\rank_co.paa",
 		};
 	};
+
+
+
+
+
+////units with loadouts
+	/*class 442_swla_unit_p2_dc15a: k_swla_unit_base
+	{
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
+		displayname = "Trooper (DC-15A)";
+		icon = "";
+		attendant = 0;
+		engineer = false;
+		canDeactivateMines="false";
+		linkedItems[] = 
+		{
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch"
+		};
+		respawnlinkedItems[] = 
+		{
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch"
+		};
+		weapons[] = 
+		{
+			"Throw",
+			"Put"
+		};
+		respawnweapons[] = 
+		{
+			"Throw",
+			"Put"
+		};
+		magazines[] = 
+		{
+
+		};
+		respawnmagazines[] = 
+		{
+
+		};
+	};*/
+

@@ -5,8 +5,8 @@ class 9_clone_backpack: k_clone_backpack
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselectionstextures[] = 
 		{
-			"9_swla\data\backpacks\9_swla_backpack.paa",
-			"92_clones\data\backpack\cover_co.paa",
+			"442_units\clones\9\data\backpacks\9_backpack.paa",
+			"442_units\data\backpack\cover_co.paa",
 		};
 	};
 	class 9_clone_backpack_med: k_clone_backpack_med
@@ -17,8 +17,8 @@ class 9_clone_backpack: k_clone_backpack
 		hiddenselectionstextures[] = 
 		{
 			"9_swla\data\backpacks\9_swla_backpack.paa",
-			"92_clones\data\backpack\cover_co.paa",
-			"92_clones\data\backpack\pouches_co.paa",
+			"9_clones\data\backpack\cover_co.paa",
+			"9_clones\data\backpack\pouches_co.paa",
 		};
 	};
 	class 9_clone_backpack_heavy: k_clone_backpack_heavy
@@ -29,9 +29,9 @@ class 9_clone_backpack: k_clone_backpack
 		hiddenselectionstextures[] = 
 		{
 			"9_swla\data\backpacks\9_swla_backpack.paa",
-			"92_clones\data\backpack\cover_co.paa",
-			"92_clones\data\backpack\pouches_co.paa",
-			"92_clones\data\backpack\tube_co.paa",
+			"9_clones\data\backpack\cover_co.paa",
+			"9_clones\data\backpack\pouches_co.paa",
+			"9_clones\data\backpack\tube_co.paa",
 		};
 	};
 	class 9_clone_backpack_medic: k_clone_backpack_medic
@@ -42,9 +42,9 @@ class 9_clone_backpack: k_clone_backpack
 		hiddenselectionstextures[] = 
 		{
 			"9_swla\data\backpacks\9_swla_backpack.paa",
-			"92_clones\data\backpack\cover_co.paa",
-			"92_clones\data\backpack\medic_co.paa",
-			"92_clones\data\backpack\medic_co.paa",
+			"9_clones\data\backpack\cover_co.paa",
+			"9_clones\data\backpack\medic_co.paa",
+			"9_clones\data\backpack\medic_co.paa",
 		};
 	};
 	class 9_clone_backpack_medic_med: k_clone_backpack_medic_med
@@ -55,10 +55,10 @@ class 9_clone_backpack: k_clone_backpack
 		hiddenselectionstextures[] = 
 		{
 			"9_swla\data\backpacks\9_swla_backpack.paa",
-			"92_clones\data\backpack\cover_co.paa",
-			"92_clones\data\backpack\pouches_co.paa",
-			"92_clones\data\backpack\medic_co.paa",
-			"92_clones\data\backpack\medic_co.paa",
+			"9_clones\data\backpack\cover_co.paa",
+			"9_clones\data\backpack\pouches_co.paa",
+			"9_clones\data\backpack\medic_co.paa",
+			"9_clones\data\backpack\medic_co.paa",
 		};
 	};
 	class 9_clone_backpack_radio: k_clone_backpack_radio
@@ -69,8 +69,8 @@ class 9_clone_backpack: k_clone_backpack
 		hiddenselectionstextures[] = 
 		{
 			"9_swla\data\backpacks\9_swla_backpack.paa",
-			"92_clones\data\backpack\radio_co.paa",
-			"92_clones\data\backpack\screen_co.paa",
+			"9_clones\data\backpack\radio_co.paa",
+			"9_clones\data\backpack\screen_co.paa",
 		};
 	};
 	class 9_clone_backpack_radio_med: k_clone_backpack_radio_med
@@ -81,9 +81,9 @@ class 9_clone_backpack: k_clone_backpack
 		hiddenselectionstextures[] = 
 		{
 			"9_swla\data\backpacks\9_swla_backpack.paa",
-			"92_clones\data\backpack\radio_co.paa",
-			"92_clones\data\backpack\screen_co.paa",
-			"92_clones\data\backpack\pouches_co.paa",
+			"9_clones\data\backpack\radio_co.paa",
+			"9_clones\data\backpack\screen_co.paa",
+			"9_clones\data\backpack\pouches_co.paa",
 		};
 	};
 	class 9_clone_backpack_rocket: k_clone_backpack_rocket
@@ -94,9 +94,9 @@ class 9_clone_backpack: k_clone_backpack
 		hiddenselectionstextures[] = 
 		{
 			"9_swla\data\backpacks\9_swla_backpack.paa",
-			"92_clones\data\backpack\holder_co.paa",
-			"92_clones\data\backpack\rocket_co.paa",
-			"92_clones\data\backpack\light_co.paa",
-			"92_clones\data\backpack\pouches_co.paa",
+			"9_clones\data\backpack\holder_co.paa",
+			"9_clones\data\backpack\rocket_co.paa",
+			"9_clones\data\backpack\light_co.paa",
+			"9_clones\data\backpack\pouches_co.paa",
 		};
 	};

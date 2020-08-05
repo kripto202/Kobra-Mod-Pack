@@ -553,9 +553,9 @@ class 442_swla_vest_base: V_rebreatherB
 		scopeArsenal = 2;
 		hiddenselectionstextures[] = 
 		{
-			"442_swla\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
 			"",
-			"442_swla\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
 		};
 	};
 	class 442_swla_airborne_vest_2: 442_swla_airborne_vest_1
@@ -563,9 +563,9 @@ class 442_swla_vest_base: V_rebreatherB
 		displayname = "[442] Clone trooper airborne vest 2";
 		hiddenselectionstextures[] = 
 		{
-			"442_swla\data\vests\442_vest_2_2.paa",
+			"442_units\442\data\vests\442_vest_2_2.paa",
 			"",
-			"442_swla\data\vests\442_vest_2_2.paa",
+			"442_units\442\data\vests\442_vest_2_2.paa",
 		};
 	};
 	class 442_swla_airborne_nco_vest_1: 442_swla_airborne_vest_1
@@ -573,10 +573,10 @@ class 442_swla_vest_base: V_rebreatherB
 		displayname = "[442] Clone trooper airborne NCO vest 1";
 		hiddenselectionstextures[] = 
 		{
-			"442_swla\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
 			"",
-			"442_swla\data\vests\442_vest_2_1.paa",
-			"442_swla\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
 		};
 	};
 	class 442_swla_airborne_nco_vest_2: 442_swla_airborne_vest_1
@@ -584,10 +584,10 @@ class 442_swla_vest_base: V_rebreatherB
 		displayname = "[442] Clone trooper airborne NCO vest 2";
 		hiddenselectionstextures[] = 
 		{
-			"442_swla\data\vests\442_vest_2_2.paa",
+			"442_units\442\data\vests\442_vest_2_2.paa",
 			"",
-			"442_swla\data\vests\442_vest_2_2.paa",
-			"442_swla\data\vests\442_vest_2_2.paa",
+			"442_units\442\data\vests\442_vest_2_2.paa",
+			"442_units\442\data\vests\442_vest_2_2.paa",
 		};
 	};
 
@@ -598,7 +598,7 @@ class 442_swla_vest_base: V_rebreatherB
 		scopeArsenal = 2;
 		hiddenselectionstextures[] = 
 		{
-			"442_swla\data\vests\442_vest_2_m.paa"
+			"442_units\442\data\vests\442_vest_2_m.paa"
 		};
 	};
 
@@ -609,7 +609,7 @@ class 442_swla_vest_base: V_rebreatherB
 		scopeArsenal = 2;
 		hiddenselectionstextures[] = 
 		{
-			"442_swla\data\vests\442_vest_2_1.paa"
+			"442_units\442\data\vests\442_vest_2_1.paa"
 		};
 	};
 
@@ -621,9 +621,9 @@ class 442_swla_vest_base: V_rebreatherB
 		scopeArsenal = 2;
 		hiddenselectionstextures[] = 
 		{
-			"442_swla\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
 			"",
-			"442_swla\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
 		};
 	};
 
@@ -635,7 +635,7 @@ class 442_swla_vest_base: V_rebreatherB
 		scopeArsenal = 2;
 		hiddenselectionstextures[] = 
 		{
-			"442_swla\data\vests\442_arc_vest.paa",
+			"442_units\442\data\vests\442_arc_vest.paa",
 		};
 	};
 
@@ -648,7 +648,7 @@ class 442_swla_vest_base: V_rebreatherB
 		hiddenselectionstextures[] = 
 		{
 			"SWLB_clones\data\light_accessories_co.paa",
-			"442_swla\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
 		};
 	};
 
@@ -661,7 +661,7 @@ class 442_swla_vest_base: V_rebreatherB
 		hiddenselectionstextures[] = 
 		{
 			"SWLB_clones\data\light_accessories_co.paa",
-			"442_swla\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
 		};
 	};
 
@@ -674,7 +674,7 @@ class 442_swla_vest_base: V_rebreatherB
 		hiddenselectionstextures[] = 
 		{
 			"SWLB_clones\data\light_accessories_co.paa",
-			"442_swla\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
 		};
 	};
 
@@ -686,10 +686,10 @@ class 442_swla_vest_base: V_rebreatherB
 		scopecurator = 2;
 		hiddenselectionstextures[] = 
 		{
-			"442_swla\data\vests\442_vest_2_1.paa",
-			"442_swla\data\vests\442_vest_2_1.paa",
-			"442_swla\data\vests\442_vest_2_1.paa",
-			"442_swla\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
 		};
 	};
 	class 442_swla_airborne_cfr_vest_2: 442_swla_airborne_cfr_vest_base
@@ -700,10 +700,10 @@ class 442_swla_vest_base: V_rebreatherB
 		scopecurator = 2;
 		hiddenselectionstextures[] = 
 		{
-			"442_swla\data\vests\442_vest_2_2.paa",
-			"442_swla\data\vests\442_vest_2_2.paa",
-			"442_swla\data\vests\442_vest_2_2.paa",
-			"442_swla\data\vests\442_vest_2_2.paa",
+			"442_units\442\data\vests\442_vest_2_2.paa",
+			"442_units\442\data\vests\442_vest_2_2.paa",
+			"442_units\442\data\vests\442_vest_2_2.paa",
+			"442_units\442\data\vests\442_vest_2_2.paa",
 		};
 	};
 
@@ -715,10 +715,10 @@ class 442_swla_vest_base: V_rebreatherB
 		scopecurator = 2;
 		hiddenselectionstextures[] = 
 		{
-			"442_swla\data\vests\442_vest_2_1.paa",
-			"442_swla\data\vests\442_vest_2_1.paa",
-			"442_swla\data\vests\442_vest_2_1.paa",
-			"442_swla\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
 		};
 	};
 	class 442_swla_airborne_light_vest_2: 442_swla_airborne_light_vest_base
@@ -729,10 +729,10 @@ class 442_swla_vest_base: V_rebreatherB
 		scopecurator = 2;
 		hiddenselectionstextures[] = 
 		{
-			"442_swla\data\vests\442_vest_2_2.paa",
-			"442_swla\data\vests\442_vest_2_2.paa",
-			"442_swla\data\vests\442_vest_2_2.paa",
-			"442_swla\data\vests\442_vest_2_2.paa",
+			"442_units\442\data\vests\442_vest_2_2.paa",
+			"442_units\442\data\vests\442_vest_2_2.paa",
+			"442_units\442\data\vests\442_vest_2_2.paa",
+			"442_units\442\data\vests\442_vest_2_2.paa",
 		};
 	};
 
@@ -745,8 +745,8 @@ class 442_swla_vest_base: V_rebreatherB
 		hiddenselectionstextures[] = 
 		{
 			"SWLB_clones\data\light_accessories_co.paa",
-			"442_swla\data\vests\442_vest_2_1.paa",
-			"442_swla\data\vests\442_vest_3_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_3_1.paa",
 		};
 	};
 
@@ -758,11 +758,11 @@ class 442_swla_vest_base: V_rebreatherB
 		scopecurator = 2;
 		hiddenselectionstextures[] = 
 		{
-			"442_swla\data\vests\442_vest_2_1.paa",
-			"442_swla\data\vests\442_vest_2_1.paa",
-			"442_swla\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
 			"",
-			"442_swla\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
 		};
 	};
 	class 442_swla_heavy_vest_2: 442_swla_heavy_vest_base
@@ -773,11 +773,11 @@ class 442_swla_vest_base: V_rebreatherB
 		scopecurator = 2;
 		hiddenselectionstextures[] = 
 		{
-			"442_swla\data\vests\442_vest_2_2.paa",
-			"442_swla\data\vests\442_vest_2_2.paa",
-			"442_swla\data\vests\442_vest_2_2.paa",
+			"442_units\442\data\vests\442_vest_2_2.paa",
+			"442_units\442\data\vests\442_vest_2_2.paa",
+			"442_units\442\data\vests\442_vest_2_2.paa",
 			"",
-			"442_swla\data\vests\442_vest_2_2.paa",
+			"442_units\442\data\vests\442_vest_2_2.paa",
 		};
 	};
 
@@ -790,11 +790,11 @@ class 442_swla_vest_base: V_rebreatherB
 		hiddenselectionstextures[] = 
 		{
 			"SWLB_clones\data\light_accessories_co.paa",
-			"442_swla\data\vests\442_vest_2_1.paa",
-			"442_swla\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
 			"SWLB_equipment\backpacks\data\bag_co.paa",
-			"442_swla\data\vests\442_vest_2_1.paa",
-			"442_swla\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
 		};
 	};
 	class 442_swla_heavy_gunner_vest_2: 442_swla_heavy_gunner_vest_base
@@ -806,11 +806,11 @@ class 442_swla_vest_base: V_rebreatherB
 		hiddenselectionstextures[] = 
 		{
 			"SWLB_clones\data\light_accessories_co.paa",
-			"442_swla\data\vests\442_vest_2_2.paa",
-			"442_swla\data\vests\442_vest_2_2.paa",
+			"442_units\442\data\vests\442_vest_2_2.paa",
+			"442_units\442\data\vests\442_vest_2_2.paa",
 			"SWLB_equipment\backpacks\data\bag_co.paa",
-			"442_swla\data\vests\442_vest_2_2.paa",
-			"442_swla\data\vests\442_vest_2_2.paa",
+			"442_units\442\data\vests\442_vest_2_2.paa",
+			"442_units\442\data\vests\442_vest_2_2.paa",
 		};
 	};
 
@@ -822,11 +822,11 @@ class 442_swla_vest_base: V_rebreatherB
 		scopecurator = 2;
 		hiddenselectionstextures[] = 
 		{
-			"442_swla\data\vests\442_vest_2_1.paa",
-			"442_swla\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
 			"SWLB_clones\data\light_accessories_co.paa",
-			"442_swla\data\vests\442_vest_2_1.paa",
-			"442_swla\data\armor\442_swla_mc_upper"
+			"442_units\442\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\armor\442_swla_mc_upper"
 		};
 	};
 
@@ -838,7 +838,7 @@ class 442_swla_vest_base: V_rebreatherB
 		scopecurator = 2;
 		hiddenselectionstextures[] = 
 		{
-			"442_swla\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
 			"SWLB_clones\data\light_accessories_co.paa",
 		};
 	};
@@ -850,7 +850,7 @@ class 442_swla_vest_base: V_rebreatherB
 		scopecurator = 2;
 		hiddenselectionstextures[] = 
 		{
-			"442_swla\data\vests\442_vest_2_2.paa",
+			"442_units\442\data\vests\442_vest_2_2.paa",
 			"SWLB_clones\data\light_accessories_co.paa",
 		};
 	};
@@ -865,6 +865,6 @@ class 442_swla_vest_base: V_rebreatherB
 		{
 			"SWLB_clones\data\light_accessories_co.paa",
 			"",
-			"442_swla\data\vests\442_vest_2_1.paa",
+			"442_units\442\data\vests\442_vest_2_1.paa",
 		};
 	};

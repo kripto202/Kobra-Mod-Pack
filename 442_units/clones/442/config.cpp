@@ -6207,6 +6207,15 @@ class CfgVehicles
 			"adv_aceSplint_splint"
 		};
 	};
+
+
+
+
+
+
+
+
+	
 	class SWLB_clone_backpack;
 	class SWLB_clone_backpack_heavy;
 	class SWLB_clone_backpack_medic;
@@ -6797,6 +6806,19 @@ class CfgVehicles
 			};
 		};
 	};
+
+
+
+
+
+
+
+
+
+
+
+
+
 	class Headgear_Base_F;
 	class 442_swla_p2_headgear_1: Headgear_Base_F
 	{
