@@ -888,6 +888,15 @@ class cfgweapons
 	class Rifle_Long_Base_F;
 	class UGL_F;
 	class Rifle_Base_F;
+	class InventoryItem_Base_F;
+	class ItemCore;
+	class HeadgearItem;
+	class UniformItem;
+	class VestItem;
+	class V_rebreatherB;
+	class U_I_CombatUniform;
+	class Integrated_NVG_F;
+	class H_HelmetO_ViperSP_hex_F;
 	class 442_rifle_base: Rifle_Long_Base_F
 	{
 		author="kripto202";
@@ -910,8 +919,52 @@ class cfgweapons
 		class WeaponSlotsInfo;
 	};
 	#include "442_weapons\weapon\clones.hpp"
-	//#include "442_weapons\weapon\droids.hpp"
+	#include "442_weapons\weapon\droids.hpp"
+	class k_nvg: Integrated_NVG_F
+	{
+		scope=1;
+		visionMode[]={
+			"Normal",
+			"NVG"
+		};
+		modelOptics="\SWLB_clones\SWLB_clone_nvg_optic_dummy.p3d";
+	};
+	class k_nvg_ti: Integrated_NVG_F
+	{
+		scope=1;
+		visionMode[]={
+			"Normal",
+			"NVG",
+			"TI"
+		};
+		thermalMode[]={0};
+		modelOptics="\SWLB_clones\SWLB_clone_nvg_optic_dummy.p3d";
+	};
+	class k_ti: Integrated_NVG_F
+	{
+		scope=1;
+		visionMode[] = {
+			"Normal",
+			"TI"
+		};
+		thermalMode[]={0};
+		modelOptics="\SWLB_clones\SWLB_clone_nvg_optic_dummy.p3d";
+	};
+	#include "442_units\uniform_base.hpp"
+	#include "442_units\helmet_base.hpp"
+	#include "442_units\vest_base.hpp"
 
+	#include "442_units\9\9_uniform_base.hpp"
+	#include "442_units\9\9_helmet_base.hpp"
+	#include "442_units\9\9_vest_base.hpp"
+
+	#include "442_units\44\44_uniform_base.hpp"
+	#include "442_units\44\44_helmet_base.hpp"
+	#include "442_units\44\44_vest_base.hpp"
+
+	#include "442_units\44\442_uniform_base.hpp"
+	#include "442_units\44\442_helmet_base.hpp"
+	#include "442_units\44\442_vest_base.hpp"
 };
 class cfgvehicles
 {
@@ -956,6 +1009,10 @@ class cfgvehicles
 	class house_small_f;
 	class TargetBase;
 	class Boat_F;
+	class SWLB_clone_base_P2;
+	class B_Soldier_base_F;
+	class B_Soldier_02_f;
+	class B_Kitbag_rgr;
 	class Boat_Armed_01_base_F: Boat_F
 	{
 		class Hitpoints;
@@ -1041,6 +1098,7 @@ class cfgvehicles
 			class Movement;
 		};
 	};
+
 	#include "442_ships\acclamator.hpp"
 	#include "442_ships\coreship.hpp"
 	#include "442_ships\hardcell.hpp"
@@ -1090,7 +1148,15 @@ class cfgvehicles
 
 	#include "442_w_vehicle\assault_boat.hpp"
 
-	
+	#include "442_units\unit_base.hpp"
+	#include "442_units\backpack_base.hpp"
+
+	#include "442_units\9\9_unit_base.hpp"
+	#include "442_units\9\9_backpack_base.hpp"
+	#include "442_units\44\44_unit_base.hpp"
+	#include "442_units\44\44_backpack_base.hpp"
+	#include "442_units\442\442_unit_base.hpp"
+	#include "442_units\442\442_backpack_base.hpp"
 };
 
 class cfgCloudlets
