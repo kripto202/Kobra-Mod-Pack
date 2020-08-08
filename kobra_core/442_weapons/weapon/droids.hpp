@@ -22,7 +22,8 @@
 		};
 		magazines[]=
 		{
-			""
+			"442_65_30rnd_blue_mag",
+			"442_65_60rnd_blue_mag"
 		};
 		displayname="E-5 carbine";
 		descriptionShort="";
@@ -242,7 +243,9 @@
 		};
 		magazines[]=
 		{
-			""
+			"442_65_30rnd_blue_mag",
+			"442_65_60rnd_blue_mag",
+			"442_65_100rnd_blue_mag"
 		};
 		ace_overheating_allowSwapBarrel=1;
 		muzzles[]=

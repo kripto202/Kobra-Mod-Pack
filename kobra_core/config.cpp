@@ -1147,6 +1147,7 @@ class cfgvehicles
 	#include "442_misc\stone_cover.hpp"
 	#include "442_misc\sweeper.hpp"
 	#include "442_misc\vulture.hpp"
+	#include "442_misc\bullet.hpp"
 
 	#include "442_structures\hallway.hpp"
 	#include "442_structures\landing_pad.hpp"

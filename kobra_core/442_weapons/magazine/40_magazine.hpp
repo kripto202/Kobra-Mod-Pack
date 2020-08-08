@@ -13,3 +13,10 @@ class 442_40_50rnd_he_blue_mag: 442_mag_base
 	descriptionShort = "40mm HE";
 	muzzleImpulseFactor[] = {0.1,0.1};
 };
+class 442_40_6rnd_he_blue_mag: 442_40_50rnd_he_blue_mag
+{
+    scope= 2;
+    displayname = "40mm He Plasma Cell (6rnd Blue)";
+    mass = 30;
+    count = 6;
+};

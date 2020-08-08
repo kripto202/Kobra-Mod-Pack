@@ -1,4 +1,4 @@
-///20, 30, 60, 100, 150, 200
+///20, 30, 60, 100, 150, 200, 500
 
     class 442_556_30rnd_blue_mag: 442_mag_base
     {
@@ -39,6 +39,12 @@
 		mass = 8;
         count = 20;
 	};
+    class 442_556_500rnd_blue_mag: 442_556_30rnd_blue_mag
+    {
+        displayname = "5.56x45mm Plasma Cell (20rnd Blue)";
+		mass = 200;
+        count = 500;
+	};
 
     class 442_556_30rnd_red_mag: 442_556_30rnd_blue_mag
     {
@@ -70,6 +76,11 @@
         displayname = "5.56x45mm Plasma Cell (20rnd Blue)";
 		ammo = "442_ammo_556_red";
     };
+    class 442_556_500rnd_red_mag: 442_556_500rnd_blue_mag
+    {
+        displayname = "5.56x45mm Plasma Cell (500rnd Red)";
+		ammo = "442_ammo_556_red";
+    };
 
 	class 442_556_30rnd_orange_mag: 442_556_30rnd_blue_mag
     {
@@ -99,6 +110,11 @@
 	class 442_556_20rnd_orange_mag: 442_556_20rnd_blue_mag
     {
         displayname = "5.56x45mm Plasma Cell (20rnd Orange)";
+		ammo = "442_ammo_556_orange";
+    };
+    class 442_556_500rnd_orange_mag: 442_556_500rnd_blue_mag
+    {
+        displayname = "5.56x45mm Plasma Cell (500rnd Orange)";
 		ammo = "442_ammo_556_orange";
     };
 	
@@ -133,6 +149,11 @@
         displayname = "5.56x45mm Plasma Cell (20rnd Green)";
 		ammo = "442_ammo_556_green";
     };
+    class 442_556_500rnd_green_mag: 442_556_500rnd_blue_mag
+    {
+        displayname = "5.56x45mm Plasma Cell (500rnd Green)";
+		ammo = "442_ammo_556_green";
+    };
 
 	class 442_556_30rnd_pink_mag: 442_556_30rnd_blue_mag
     {
@@ -164,6 +185,11 @@
         displayname = "5.56x45mm Plasma Cell (20rnd Pink)";
 		ammo = "442_ammo_556_Pink";
     };
+    class 442_556_500rnd_pink_mag: 442_556_500rnd_blue_mag
+    {
+        displayname = "5.56x45mm Plasma Cell (500rnd Pink)";
+		ammo = "442_ammo_556_pink";
+    };
 
 	class 442_556_30rnd_purple_mag: 442_556_30rnd_blue_mag
     {
@@ -193,6 +219,11 @@
 	class 442_556_20rnd_purple_mag: 442_556_20rnd_blue_mag
     {
         displayname = "5.56x45mm Plasma Cell (20rnd Purple)";
+		ammo = "442_ammo_556_purple";
+    };
+    class 442_556_500rnd_purple_mag: 442_556_500rnd_blue_mag
+    {
+        displayname = "5.56x45mm Plasma Cell (500rnd Purple)";
 		ammo = "442_ammo_556_purple";
     };
 
@@ -226,6 +257,11 @@
         displayname = "5.56x45mm Plasma Cell (20rnd Black)";
 		ammo = "442_ammo_556_black";
     };
+    class 442_556_500rnd_black_mag: 442_556_500rnd_blue_mag
+    {
+        displayname = "5.56x45mm Plasma Cell (500rnd Black)";
+		ammo = "442_ammo_556_black";
+    };
 
 	class 442_556_30rnd_yellow_mag: 442_556_30rnd_blue_mag
     {
@@ -257,6 +293,11 @@
         displayname = "5.56x45mm Plasma Cell (20rnd Yellow)";
 		ammo = "442_ammo_556_yellow";
     };
+    class 442_556_500rnd_yellow_mag: 442_556_500rnd_blue_mag
+    {
+        displayname = "5.56x45mm Plasma Cell (500rnd Yellow)";
+		ammo = "442_ammo_556_yellow";
+    };
 
 	//black-core//
 
@@ -272,22 +313,27 @@
     };
 	class 442_556_100rnd_blue_b_mag: 442_556_100rnd_blue_mag
     {
-        displayname = "5.56x45mm Plasma Cell (100rnd Blue)";
+        displayname = "5.56x45mm Plasma Cell (100rnd Blue/B)";
 		ammo = "442_ammo_556_blue_b";
 	};
 	class 442_556_150rnd_blue_b_mag: 442_556_150rnd_blue_mag
     {
-        displayname = "5.56x45mm Plasma Cell (150rnd Blue)";
+        displayname = "5.56x45mm Plasma Cell (150rnd Blue/B)";
 		ammo = "442_ammo_556_blue_b";
 	};
 	class 442_556_200rnd_blue_b_mag: 442_556_200rnd_blue_mag
     {
-        displayname = "5.56x45mm Plasma Cell (200rnd Blue)";
+        displayname = "5.56x45mm Plasma Cell (200rnd Blue/B)";
 		ammo = "442_ammo_556_blue_b";
 	};
 	class 442_556_20rnd_blue_b_mag: 442_556_20rnd_blue_mag
     {
-        displayname = "5.56x45mm Plasma Cell (20rnd Blue)";
+        displayname = "5.56x45mm Plasma Cell (20rnd Blue/B)";
+		ammo = "442_ammo_556_blue_b";
+	};
+    class 442_556_500rnd_blue_b_mag: 442_556_500rnd_blue_mag
+    {
+        displayname = "5.56x45mm Plasma Cell (200rnd Blue/B)";
 		ammo = "442_ammo_556_blue_b";
 	};
 
@@ -321,6 +367,11 @@
         displayname = "5.56x45mm Plasma Cell (20rnd Red/B)";
 		ammo = "442_ammo_556_red_b";
     };
+    class 442_556_500rnd_red_b_mag: 442_556_500rnd_blue_mag
+    {
+        displayname = "5.56x45mm Plasma Cell (200rnd Red/B)";
+		ammo = "442_ammo_556_red_b";
+	};
 
 	class 442_556_30rnd_orange_b_mag: 442_556_30rnd_blue_mag
     {
@@ -352,6 +403,11 @@
         displayname = "5.56x45mm Plasma Cell (20rnd Orange/B)";
 		ammo = "442_ammo_556_orange_b";
     };
+    class 442_556_500rnd_orange_b_mag: 442_556_500rnd_blue_mag
+    {
+        displayname = "5.56x45mm Plasma Cell (200rnd Orange/B)";
+		ammo = "442_ammo_556_orange_b";
+	};
 
 	class 442_556_30rnd_green_b_mag: 442_556_30rnd_blue_mag
     {
@@ -383,6 +439,11 @@
         displayname = "5.56x45mm Plasma Cell (20rnd Green/B)";
 		ammo = "442_ammo_556_green_b";
     };
+     class 442_556_500rnd_green_b_mag: 442_556_500rnd_blue_mag
+    {
+        displayname = "5.56x45mm Plasma Cell (200rnd Green/B)";
+		ammo = "442_ammo_556_green_b";
+	};
 
 	class 442_556_30rnd_pink_b_mag: 442_556_30rnd_blue_mag
     {
@@ -414,6 +475,11 @@
         displayname = "5.56x45mm Plasma Cell (20rnd Pink/B)";
 		ammo = "442_ammo_556_pink_b";
     };
+     class 442_556_500rnd_pink_b_mag: 442_556_500rnd_blue_mag
+    {
+        displayname = "5.56x45mm Plasma Cell (200rnd Pink/B)";
+		ammo = "442_ammo_556_pink_b";
+	};
 
 	class 442_556_30rnd_purple_b_mag: 442_556_30rnd_blue_mag
     {
@@ -445,6 +511,11 @@
         displayname = "5.56x45mm Plasma Cell (150rnd Purple/B)";
 		ammo = "442_ammo_556_purple_b";
     };
+     class 442_556_500rnd_purple_b_mag: 442_556_500rnd_blue_mag
+    {
+        displayname = "5.56x45mm Plasma Cell (200rnd Purple/B)";
+		ammo = "442_ammo_556_purple_b";
+	};
 
 
 	class 442_556_30rnd_white_b_mag: 442_556_30rnd_blue_mag
@@ -477,6 +548,11 @@
         displayname = "5.56x45mm Plasma Cell (20rnd White/B)";
 		ammo = "442_ammo_556_white_b";
     };
+     class 442_556_500rnd_white_b_mag: 442_556_500rnd_blue_mag
+    {
+        displayname = "5.56x45mm Plasma Cell (200rnd White/B)";
+		ammo = "442_ammo_556_white_b";
+	};
 
 	class 442_556_30rnd_yellow_b_mag: 442_556_30rnd_blue_mag
     {
@@ -508,3 +584,8 @@
         displayname = "5.56x45mm Plasma Cell (20rnd Yellow/B)";
 		ammo = "442_ammo_556_yellow_b";
     };
+     class 442_556_500rnd_yellow_b_mag: 442_556_500rnd_blue_mag
+    {
+        displayname = "5.56x45mm Plasma Cell (200rnd Yellow/B)";
+		ammo = "442_ammo_556_yellow_b";
+	};
