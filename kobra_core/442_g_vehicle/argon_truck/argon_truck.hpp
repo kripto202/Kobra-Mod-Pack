@@ -18,6 +18,45 @@
 		ace_cargo_space = 16;
 		ace_interaction_bodyWidth = 3;
 		getInRadius = 5;
+		class texturesources
+		{
+			class base
+			{
+				displayname = "Republic";
+				author = "kripto202";
+				textures[] = 
+				{
+					"442_g_vehicle\truck\data\republic_truck_body.paa",
+					"",
+					"442_g_vehicle\truck\data\republic_truck_cargo.paa"
+				};
+				factions[] = 
+				{
+					"kobra"
+				};
+			};
+			class 442: base
+			{
+				displayname = "442nd Siege Battalion";
+				author = "kripto202";
+				textures[] = 
+				{
+					"442_g_vehicle\truck\data\442_truck_body.paa",
+					"",
+					"442_g_vehicle\truck\data\442_truck_cargo.paa"
+				};
+			};
+			class bl: base
+			{
+				displayname = "Black Legion";
+				textures[] = 
+				{
+					"442_g_vehicle\truck\data\bl_truck_body.paa",
+					"",
+					"442_g_vehicle\truck\data\bl_truck_cargo.paa"
+				};
+			};
+		};
 	};
 
     class 442_argon_covered: O_Truck_03_covered_F
@@ -41,6 +80,48 @@
 		ace_cargo_space = 16;
 		ace_interaction_bodyWidth = 3;
 		getInRadius = 5;
+		class texturesources
+		{
+			class base
+			{
+				displayname = "Republic";
+				author = "kripto202";
+				textures[] = 
+				{
+					"442_g_vehicle\truck\data\republic_truck_body.paa",
+					"",
+					"442_g_vehicle\truck\data\republic_truck_cargo.paa",
+					"442_g_vehicle\truck\data\republic_truck_cover.paa"
+				};
+				factions[] = 
+				{
+					"kobra"
+				};
+			};
+			class 442: base
+			{
+				displayname = "442nd Siege Battalion";
+				author = "kripto202";
+				textures[] = 
+				{
+					"442_g_vehicle\truck\data\442_truck_body.paa",
+					"",
+					"442_g_vehicle\truck\data\442_truck_cargo.paa",
+					"442_g_vehicle\truck\data\442_truck_cover.paa"
+				};
+			};
+			class bl: base
+			{
+				displayname = "Black Legion";
+				textures[] = 
+				{
+					"442_g_vehicle\truck\data\bl_truck_body.paa",
+					"",
+					"442_g_vehicle\truck\data\bl_truck_cargo.paa",
+					"442_g_vehicle\truck\data\bl_truck_cover.paa"
+				};
+			};
+		};
 	};
 
     class 442_argon_ammo: O_Truck_03_ammo_F
@@ -64,6 +145,48 @@
 		ace_cargo_space = 20;
 		ace_interaction_bodyWidth = 3;
 		getInRadius = 5;
+		class texturesources
+		{
+			class base
+			{
+				displayname = "Republic";
+				author = "kripto202";
+				textures[] = 
+				{
+					"442_g_vehicle\truck\data\republic_truck_body.paa",
+					"",
+					"442_g_vehicle\truck\data\republic_truck_cargo.paa",
+					"\A3\Structures_F\Data\Metal\Containers\Containers_02_set_CO.paa"
+				};
+				factions[] = 
+				{
+					"kobra"
+				};
+			};
+			class 442: base
+			{
+				displayname = "442nd Siege Battalion";
+				author = "kripto202";
+				textures[] = 
+				{
+					"442_g_vehicle\truck\data\442_truck_body.paa",
+					"",
+					"442_g_vehicle\truck\data\442_truck_cargo.paa",
+					"\A3\Structures_F\Data\Metal\Containers\Containers_02_set_CO.paa"
+				};
+			};
+			class bl: base
+			{
+				displayname = "Black Legion";
+				textures[] = 
+				{
+					"442_g_vehicle\truck\data\bl_truck_body.paa",
+					"",
+					"442_g_vehicle\truck\data\bl_truck_cargo.paa",
+					"\A3\Structures_F\Data\Metal\Containers\Containers_02_set_CO.paa"
+				};
+			};
+		};
 	};
 
     class 442_argon_device: O_Truck_03_device_F
@@ -88,6 +211,51 @@
 		ace_cargo_space = 8;
 		ace_interaction_bodyWidth = 3;
 		getInRadius = 5;
+		class texturesources
+		{
+			class base
+			{
+				displayname = "Republic";
+				author = "kripto202";
+				textures[] = 
+				{
+					"442_g_vehicle\truck\data\republic_truck_body.paa",
+					"",
+					"442_g_vehicle\truck\data\republic_truck_cargo.paa",
+					"\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_02_CO.paa",
+					"\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_03_CO.paa"
+				};
+				factions[] = 
+				{
+					"kobra"
+				};
+			};
+			class 442: base
+			{
+				displayname = "442nd Siege Battalion";
+				author = "kripto202";
+				textures[] = 
+				{
+					"442_g_vehicle\truck\data\442_truck_body.paa",
+					"",
+					"442_g_vehicle\truck\data\442_truck_cargo.paa",
+					"\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_02_CO.paa",
+					"\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_03_CO.paa"
+				};
+			};
+			class bl: base
+			{
+				displayname = "Black Legion";
+				textures[] = 
+				{
+					"442_g_vehicle\truck\data\bl_truck_body.paa",
+					"",
+					"442_g_vehicle\truck\data\bl_truck_cargo.paa",
+					"\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_02_CO.paa",
+					"\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_03_CO.paa"
+				};
+			};
+		};
 	};
 
     class 442_argon_fuel: O_Truck_03_fuel_F
@@ -110,6 +278,45 @@
 		ace_cargo_space = 8;
 		ace_interaction_bodyWidth = 3;
 		getInRadius = 5;
+		class texturesources
+		{
+			class base
+			{
+				displayname = "Republic";
+				author = "kripto202";
+				textures[] = 
+				{
+					"442_g_vehicle\truck\data\republic_truck_body.paa",
+					"",
+					"442_g_vehicle\truck\data\republic_truck_fuel.paa"
+				};
+				factions[] = 
+				{
+					"kobra"
+				};
+			};
+			class 442: base
+			{
+				displayname = "442nd Siege Battalion";
+				author = "kripto202";
+				textures[] = 
+				{
+					"442_g_vehicle\truck\data\442_truck_body.paa",
+					"",
+					"442_g_vehicle\truck\data\442_truck_fuel.paa"
+				};
+			};
+			class bl: base
+			{
+				displayname = "Black Legion";
+				textures[] = 
+				{
+					"442_g_vehicle\truck\data\bl_truck_body.paa",
+					"",
+					"442_g_vehicle\truck\data\bl_truck_fuel.paa"
+				};
+			};
+		};
 	};
 
     class 442_argon_repair: O_Truck_03_repair_F
@@ -132,6 +339,45 @@
 		ace_cargo_space = 8;
 		ace_interaction_bodyWidth = 3;
 		getInRadius = 5;
+		class texturesources
+		{
+			class base
+			{
+				displayname = "Republic";
+				author = "kripto202";
+				textures[] = 
+				{
+					"442_g_vehicle\truck\data\republic_truck_body.paa",
+					"",
+					"442_g_vehicle\truck\data\republic_truck_repair.paa"
+				};
+				factions[] = 
+				{
+					"kobra"
+				};
+			};
+			class 442: base
+			{
+				displayname = "442nd Siege Battalion";
+				author = "kripto202";
+				textures[] = 
+				{
+					"442_g_vehicle\truck\data\442_truck_body.paa",
+					"",
+					"442_g_vehicle\truck\data\442_truck_repair.paa"
+				};
+			};
+			class bl: base
+			{
+				displayname = "Black Legion";
+				textures[] = 
+				{
+					"442_g_vehicle\truck\data\bl_truck_body.paa",
+					"",
+					"442_g_vehicle\truck\data\bl_truck_repair.paa"
+				};
+			};
+		};
 	};
 
     class 442_argon_medical: O_Truck_03_covered_F
@@ -156,6 +402,48 @@
 		ace_cargo_space = 8;
 		ace_interaction_bodyWidth = 3;
 		getInRadius = 5;
+		class texturesources
+		{
+			class base
+			{
+				displayname = "Republic";
+				author = "kripto202";
+				textures[] = 
+				{
+					"442_g_vehicle\truck\data\republic_truck_body.paa",
+					"",
+					"442_g_vehicle\truck\data\republic_truck_cargo.paa",
+					"442_g_vehicle\truck\data\republic_truck_cover_m.paa"
+				};
+				factions[] = 
+				{
+					"kobra"
+				};
+			};
+			class 442: base
+			{
+				displayname = "442nd Siege Battalion";
+				author = "kripto202";
+				textures[] = 
+				{
+					"442_g_vehicle\truck\data\442_truck_body.paa",
+					"",
+					"442_g_vehicle\truck\data\442_truck_cargo.paa",
+					"442_g_vehicle\truck\data\442_truck_cover_m.paa"
+				};
+			};
+			class bl: base
+			{
+				displayname = "Black Legion";
+				textures[] = 
+				{
+					"442_g_vehicle\truck\data\bl_truck_body.paa",
+					"",
+					"442_g_vehicle\truck\data\bl_truck_cargo.paa",
+					"442_g_vehicle\truck\data\bl_truck_cover_m.paa"
+				};
+			};
+		};
 	};
 
     class 442_argon_transport_cis: O_Truck_03_transport_F

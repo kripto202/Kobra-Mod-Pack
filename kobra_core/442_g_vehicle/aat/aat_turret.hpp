@@ -1,4 +1,4 @@
-class Turrets: Turrets
+	class Turrets: Turrets
 		{
 			class MainTurret: MainTurret
 			{
@@ -57,8 +57,8 @@ class Turrets: Turrets
 						};
 						magazines[]=
 						{
-							"442_500Rnd_127x99_mag_red",
-							"442_500Rnd_127x99_mag_red"
+							"442_127x99_500rnd_blue_mag",
+							"442_127x99_500rnd_blue_mag"
 						};
 						turretInfoType="RscWeaponRangeZeroing";
 						discreteDistance[]={100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500};
@@ -164,11 +164,11 @@ class Turrets: Turrets
 				};
 				magazines[]=
 				{
-					"442_30Rnd_75mm_AP_mag_red",
-					"442_30Rnd_75mm_AP_mag_red",
-					"442_30Rnd_75mm_AP_mag_red",
-					"442_30Rnd_75mm_HE_mag_red",
-					"442_30Rnd_75mm_HE_mag_red"
+					"442_75_30rnd_ap_blue_mag",
+					"442_75_30rnd_ap_blue_mag",
+					"442_75_30rnd_ap_blue_mag",
+					"442_75_30rnd_ap_blue_mag",
+					"442_75_30rnd_ap_blue_mag"
 				};
 				minElev=-5;
 				maxElev=30;

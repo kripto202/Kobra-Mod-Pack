@@ -1,6 +1,6 @@
 	class 442_a10_plane_cas: b_plane_cas_01_dynamicloadout_f
     {
-        Displayname="Warthog";
+        Displayname="A-10";
 		faction="kobra";
 		editorSubcategory="442_planes";
 		crew="442_swla_unit_pilot";

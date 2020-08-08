@@ -897,6 +897,12 @@ class cfgweapons
 	class U_I_CombatUniform;
 	class Integrated_NVG_F;
 	class H_HelmetO_ViperSP_hex_F;
+	class LMG_RCWS;
+	class cannon_120mm;
+	class GMG_F;
+	class missiles_ASRAAM;
+	class CannonCore;
+	class HMG_127;
 	class 442_rifle_base: Rifle_Long_Base_F
 	{
 		author="kripto202";
@@ -920,6 +926,7 @@ class cfgweapons
 	};
 	#include "442_weapons\weapon\clones.hpp"
 	#include "442_weapons\weapon\droids.hpp"
+	#include "442_weapons\weapon\vehicle.hpp"
 	class k_nvg: Integrated_NVG_F
 	{
 		scope=1;
@@ -1966,6 +1973,7 @@ class cfgmagazine
 	class 1Rnd_SmokeBlue_Grenade_shell;
 	class 1Rnd_SmokeGreen_Grenade_shell;
 	class CA_Magazine;
+	class 40Rnd_105mm_APFSDS_T_Green;
 	class 442_mag_base: CA_Magazine
 	{
 		author="kripto202";

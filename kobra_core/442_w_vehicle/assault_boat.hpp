@@ -58,14 +58,21 @@ class 442_boat_armed: Boat_Armed_01_minigun_base_F
 			class FrontTurret: FrontTurret
 			{
 				weapons[] = {"442_gmg"};
-				Magazines[] = {"100rnd_boat_he_mag"};
+				Magazines[] = 
+                {
+                    "442_40_50rnd_he_blue_mag",
+                    "442_40_50rnd_he_blue_mag",
+                    "442_40_50rnd_he_blue_mag",
+                    "442_40_50rnd_he_blue_mag",
+                };
 			};
 			class RearTurret: RearTurret
 			{
 				weapons[] = {"442_minigun"};
 				Magazines[] = 
 				{
-					"442_boat_Z6_mag",
+					"442_127x99_500rnd_blue_mag",
+					"442_127x99_500rnd_blue_mag",
 				};
 			};
 		};

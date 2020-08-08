@@ -193,7 +193,12 @@
 				gunnerRightHandAnimName = "OtocHlaven";
 				memoryPointGun = "machinegun";
 				weapons[] = {"rep_Mounted_repeater"};
-				magazines[] = {"rep_1000Rnd_Mounted_repeater_cells","rep_1000Rnd_Mounted_repeater_cells","rep_1000Rnd_Mounted_repeater_cells"};
+				magazines[] = 
+				{
+					"442_127x99_1000rnd_blue_mag",
+					"442_127x99_1000rnd_blue_mag",
+					"442_127x99_1000rnd_blue_mag"
+				};
 				memoryPointGunnerOptics = "gunnerview";
 				memoryPointGunnerOutOptics = "gunnerview";
 				gunnerOpticsShowCursor = 1;
@@ -608,7 +613,12 @@
 			class MainTurret: MainTurret
 			{
 				weapons[] = {"cis_Mounted_repeater"};
-				magazines[] = {"cis_1000Rnd_Mounted_repeater_cells","cis_1000Rnd_Mounted_repeater_cells","cis_1000Rnd_Mounted_repeater_cells"};
+				magazines[] = 
+				{
+					"442_127x99_1000rnd_blue_mag",
+					"442_127x99_1000rnd_blue_mag",
+					"442_127x99_1000rnd_blue_mag"
+				};
 			};
 		};
 		class AnimationSources: AnimationSources

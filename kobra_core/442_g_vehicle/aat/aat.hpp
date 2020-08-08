@@ -66,8 +66,8 @@
 		};
 		magazines[]=
 		{
-			"442_50Rnd_40mm_G_belt",
-			"442_50Rnd_40mm_G_belt"
+			"442_40_50rnd_he_blue_mag",
+			"442_40_50rnd_he_blue_mag"
 		};
 		#include "aat_memorypoints.hpp"
 		driver="SWLB_b1_crew_base";
@@ -116,7 +116,7 @@
 			class base
 			{
 				displayname="Trade Federation";
-				author="Legion Studio";
+				author="kripto202";
 				textures[]=
 				{
 					"442_aat\data\body1_co.paa",

@@ -404,14 +404,14 @@
 				};
 				magazines[] = 
 				{
-					"200rnd_saber_apfsds_mag",
-					"200rnd_saber_apfsds_mag",
-					"200rnd_saber_apfsds_mag",
-					"200rnd_saber_apfsds_mag",
-					"200rnd_saber_he_mag",
-					"200rnd_saber_he_mag",
-					"200rnd_saber_he_mag",
-					"200rnd_saber_he_mag",
+					"442_50_200rnd_ap_blue_mag",
+					"442_50_200rnd_ap_blue_mag",
+					"442_50_200rnd_ap_blue_mag",
+					"442_50_200rnd_ap_blue_mag",
+					"442_50_200rnd_he_blue_mag",
+					"442_50_200rnd_he_blue_mag",
+					"442_50_200rnd_he_blue_mag",
+					"442_50_200rnd_he_blue_mag",
 					"4rnd_saber_tow_mag"
 				};
 				soundServo[]=
