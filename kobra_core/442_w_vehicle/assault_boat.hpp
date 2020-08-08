@@ -4,11 +4,11 @@ class 442_boat_armed: Boat_Armed_01_minigun_base_F
 		scope = 2;
 		accuracy = 1.5;
 		displayname = "Assault Boat";
-		crew = "SWLB_clone_base_P2";
+		crew = "44_swla_unit";
 		faction = "kobra";
 		editorsubcategory = "442_boat";
 		side = 1;
-		typicalCargo[] = {"SWLB_clone_base_P2"};
+		typicalCargo[] = {"44_swla_unit"};
 		hiddenselectionstextures[] = 
 		{
 			"\442_w_vehicle\boat\data\rep_boat_hull.paa",

@@ -888,8 +888,6 @@ class cfgweapons
 	class Rifle_Long_Base_F;
 	class UGL_F;
 	class Rifle_Base_F;
-	class InventoryItem_Base_F;
-	class ItemCore;
 	class HeadgearItem;
 	class UniformItem;
 	class VestItem;
@@ -903,6 +901,8 @@ class cfgweapons
 	class missiles_ASRAAM;
 	class CannonCore;
 	class HMG_127;
+	class LMG_Minigun;
+	class GMG_40mm;
 	class 442_rifle_base: Rifle_Long_Base_F
 	{
 		author="kripto202";
@@ -960,18 +960,21 @@ class cfgweapons
 	#include "442_units\uniform_base.hpp"
 	#include "442_units\helmet_base.hpp"
 	#include "442_units\vest_base.hpp"
+	#include "442_units\uniform.hpp"
+	#include "442_units\helmet.hpp"
+	#include "442_units\vest.hpp"
 
-	#include "442_units\9\9_uniform_base.hpp"
-	#include "442_units\9\9_helmet_base.hpp"
-	#include "442_units\9\9_vest_base.hpp"
+	#include "442_units\9\9_uniform.hpp"
+	#include "442_units\9\9_helmet.hpp"
+	#include "442_units\9\9_vest.hpp"
 
-	#include "442_units\44\44_uniform_base.hpp"
-	#include "442_units\44\44_helmet_base.hpp"
-	#include "442_units\44\44_vest_base.hpp"
+	#include "442_units\44\44_uniform.hpp"
+	#include "442_units\44\44_helmet.hpp"
+	#include "442_units\44\44_vest.hpp"
 
-	#include "442_units\44\442_uniform_base.hpp"
-	#include "442_units\44\442_helmet_base.hpp"
-	#include "442_units\44\442_vest_base.hpp"
+	#include "442_units\442\442_uniform.hpp"
+	#include "442_units\442\442_helmet.hpp"
+	#include "442_units\442\442_vest.hpp"
 };
 class cfgvehicles
 {
@@ -1158,13 +1161,15 @@ class cfgvehicles
 
 	#include "442_units\unit_base.hpp"
 	#include "442_units\backpack_base.hpp"
+	//#include "442_units\unit.hpp"
+	#include "442_units\backpack.hpp"
 
-	#include "442_units\9\9_unit_base.hpp"
-	#include "442_units\9\9_backpack_base.hpp"
-	#include "442_units\44\44_unit_base.hpp"
-	#include "442_units\44\44_backpack_base.hpp"
-	#include "442_units\442\442_unit_base.hpp"
-	#include "442_units\442\442_backpack_base.hpp"
+	#include "442_units\9\9_unit.hpp"
+	#include "442_units\9\9_backpack.hpp"
+	#include "442_units\44\44_unit.hpp"
+	#include "442_units\44\44_backpack.hpp"
+	#include "442_units\442\442_unit.hpp"
+	#include "442_units\442\442_backpack.hpp"
 };
 
 class cfgCloudlets

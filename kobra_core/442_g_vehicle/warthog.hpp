@@ -4,7 +4,7 @@
 		displayname = "Warthog (Unarmed)";
 		scope = 2;
 		side = 1;
-		crew = "SWLB_clone_base_P2";
+		crew = "44_swla_unit";
 		faction = "kobra";
 		editorsubcategory = "442_optre_vehicles";
 		hiddenSelections[] = 
@@ -86,7 +86,11 @@
 		model = "OPTRE_Vehicles\Warthog\Warthog_MG.p3d";
 		transportSoldier = 0;
 		hiddenSelections[] = {"Camo1","Camo2","clan","clan_text","insignia","_Ammobox","_Axe","_Cans","_FireExtinguisher","_Shovel"};
-		hiddenSelectionsTextures[] = {"OPTRE_Vehicles\Warthog\data\warthog_co.paa","OPTRE_Vehicles\Warthog\data\warthog_addons_co.paa"};
+		hiddenSelectionsTextures[] = 
+		{
+			"OPTRE_Vehicles\Warthog\data\warthog_co.paa",
+			"OPTRE_Vehicles\Warthog\data\warthog_addons_co.paa"
+		};
 		class RenderTargets
 		{
 			class FrontView
@@ -238,13 +242,13 @@
 		displayname = "Warthog (MG)";
 		scope = 2;
 		side = 1;
-		crew = "SWLB_clone_base_P2";
+		crew = "44_swla_unit";
 		faction = "kobra";
 		editorsubcategory = "442_optre_vehicles";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_troop"};
 		hiddenSelectionsTextures[] = 
 		{
-			"442_warthog\data\rep_warthog.paa",
+			"442_g_vehicle\warthog\data\rep_warthog.paa",
 			"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
 		};
 		class texturesources
@@ -305,7 +309,7 @@
 		displayname = "[442] Warthog (Transport)";
 		scope = 2;
 		side = 1;
-		crew = "SWLB_clone_base_P2";
+		crew = "44_swla_unit";
 		faction = "kobra";
 		editorsubcategory = "442_optre_vehicles";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_mg","attach_antenna"};
@@ -372,7 +376,7 @@
 		displayname = "Warthog (Rocket)";
 		scope = 2;
 		side = 1;
-		crew = "SWLB_clone_base_P2";
+		crew = "44_swla_unit";
 		faction = "kobra";
 		editorsubcategory = "442_optre_vehicles";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia"};
@@ -433,7 +437,7 @@
 			"black_legion", 1
 		};
 	};
-//Deserter hogs
+/*Deserter hogs
 	class 442_deserter_warthog_unarmed_black: OPTRE_M12_FAV
 	{
 		displayname = "Warthog (Unarmed - Black)";
@@ -591,7 +595,7 @@
 			"442_g_vehicle\warthog\data\442_warthog_body_woodland.paa",
 			"442_g_vehicle\warthog\data\442_warthog_addons_woodland.paa"
 		};
-	};
+	};*/
 //CIS
 	class cis_warthog_mg : 442_warthog_mg
 	{

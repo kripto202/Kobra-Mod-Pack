@@ -14,7 +14,7 @@
 		insideSoundCoef=0.89999998;
 		threat[]={0.80000001,1,0.30000001};
 		canFloat=1;
-		crew = "SWLB_clone_pilot_base_P2";
+		crew = "44_swla_unit";
 		waterLeakiness=2.5;
 		waterAngularDampingCoef=4;
 		waterLinearDampingCoefY=4;

@@ -11,7 +11,7 @@
 			"442_units\data\helmet\p2_helmet\visor_co.paa"
 		};
 	};
-	class 9_p2_helmet: k_p2_helmet
+	class 9_p2_helmet_v2: k_p2_helmet
 	{
 		displayname = "[9] Corporal V2 P2 Helmet";
 		scope = 2;

@@ -1183,11 +1183,11 @@
 				effect="ExhaustEffectTankSide";
 			};
 		};
-		driver="SWLB_clone_pilot_base_P2";
-		crew="SWLB_clone_pilot_base_P2";
+		driver="44_swla_unit";
+		crew="44_swla_unit";
 		typicalCargo[]=
 		{
-			"SWLB_clone_pilot_base_P2"
+			"44_swla_unit"
 		};
 		class AnimationSources: AnimationSources
 		{

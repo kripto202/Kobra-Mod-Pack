@@ -2226,7 +2226,6 @@
 			midRangeProbab=0.69999999;
 			maxRange=400;
 			maxRangeProbab=0.2;
-			showToPlayer = 0;
 		};
 		class short: close
 		{
@@ -2317,7 +2316,7 @@
 				compatibleItems[]={};
 			};
 		};
-		class Explosive: 442_Z6_base
+		/*class Explosive: 442_Z6
 		{
 			author="SW Legion Studios";
 			displayName="HE mode";
@@ -2361,7 +2360,7 @@
 			{
 				"Single"
 			};
-		};
+		};*/
 	};
 	class 442_e6z: 442_Z6
 	{
@@ -2377,11 +2376,11 @@
 			"442_556_200rnd_blue_mag",
 			"442_556_500rnd_blue_mag"
 		};
-		class explosive: explosive
+		/*class explosive: explosive
 		{
 			magazines[] = 
 			{
 				"442_40_6rnd_he_blue_mag"
 			};
-		};
+		};*/
 	};
