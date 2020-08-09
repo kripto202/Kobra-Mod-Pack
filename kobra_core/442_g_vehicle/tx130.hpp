@@ -1183,8 +1183,8 @@
 				effect="ExhaustEffectTankSide";
 			};
 		};
-		driver="44_swla_unit";
-		crew="44_swla_unit";
+		driver="442_swla_unit_p2_dc15a";
+		crew="442_swla_unit_p2_dc15a";
 		typicalCargo[]=
 		{
 			"44_swla_unit"

@@ -3,7 +3,7 @@
         author = "kripto202";
         displayName = "[K] LAAT/I Gunship";
         faction = "kobra";
-		crew = "44_swla_unit";
+		crew = "k_swla_unit_p2_dc15a";
 		icon = "442_a_vehicle\laat\data\ui\laat_icon.paa";
 		editorpreview = "442_a_vehicle\laat\data\ui\laat_preview.jpg";
         incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16 + 32";

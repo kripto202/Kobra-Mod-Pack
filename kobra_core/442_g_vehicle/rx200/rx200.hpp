@@ -14,7 +14,7 @@
 		insideSoundCoef=0.89999998;
 		threat[]={0.80000001,1,0.30000001};
 		canFloat=1;
-		crew = "44_swla_unit";
+		crew = "k_swla_unit_p2_dc15a";
 		waterLeakiness=2.5;
 		waterAngularDampingCoef=4;
 		waterLinearDampingCoefY=4;

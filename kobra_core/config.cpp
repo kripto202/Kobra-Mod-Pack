@@ -1966,7 +1966,7 @@ class cfgammo
 	#include "442_weapons\ammo\ammo_color2.hpp"
 };
 
-class cfgmagazine
+class cfgmagazines
 {
 	class 3Rnd_HE_Grenade_shell;
 	class ACE_HuntIR_M203;
@@ -1992,7 +1992,7 @@ class cfgmagazine
 		reloadaction="";
 		useactiontitle="";
 		modelspecial="";
-		model="\A3\weapons_F\ammo\mag_univ.p3d";
+		model = "SWLW_clones\rifles\DC15a\DC15a_mag.p3d";
 		tracersevery=1;
 		picture="\SWLW_clones\rifles\DC15a\data\ui\DC15a_mag_ui.paa";
 		type=256;

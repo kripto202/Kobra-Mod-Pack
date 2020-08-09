@@ -4,7 +4,7 @@
 		displayname = "Warthog (Unarmed)";
 		scope = 2;
 		side = 1;
-		crew = "44_swla_unit";
+		crew = "k_swla_unit_p2_dc15a";
 		faction = "kobra";
 		editorsubcategory = "442_optre_vehicles";
 		hiddenSelections[] = 
@@ -242,7 +242,7 @@
 		displayname = "Warthog (MG)";
 		scope = 2;
 		side = 1;
-		crew = "44_swla_unit";
+		crew = "k_swla_unit_p2_dc15a";
 		faction = "kobra";
 		editorsubcategory = "442_optre_vehicles";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_troop"};
@@ -309,7 +309,7 @@
 		displayname = "[442] Warthog (Transport)";
 		scope = 2;
 		side = 1;
-		crew = "44_swla_unit";
+		crew = "k_swla_unit_p2_dc15a";
 		faction = "kobra";
 		editorsubcategory = "442_optre_vehicles";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_mg","attach_antenna"};
@@ -376,7 +376,7 @@
 		displayname = "Warthog (Rocket)";
 		scope = 2;
 		side = 1;
-		crew = "44_swla_unit";
+		crew = "k_swla_unit_p2_dc15a";
 		faction = "kobra";
 		editorsubcategory = "442_optre_vehicles";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia"};
@@ -597,7 +597,7 @@
 		};
 	};*/
 //CIS
-	class cis_warthog_mg : 442_warthog_mg
+	class 442_cis_warthog_mg : 442_warthog_mg
 	{
 		displayname = "Warthog (MG)";
 		scope = 2;

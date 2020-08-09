@@ -24,7 +24,7 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"442_weapons\clones\dc15a\data\DC15A_co.paa",
+			"442_weapons\clones\dc15a\data\body_co.paa",
 			"\442_weapons\clones\dc15a\data\optic\training_blue.paa"
 		};
 		class Library
@@ -295,7 +295,7 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"442_weapons\clones\dc15a\data\DC15A_co.paa",
+			"442_weapons\clones\dc15a\data\body_co.paa",
 			"\SWLW_clones\rifles\dc15a\data\DC15A_ugl_co.paa",
 			"\442_weapons\clones\dc15a\data\optic\training_blue.paa"
 		};
@@ -344,7 +344,7 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\442_weapons\clones\dc15a\data\DC15A_co.paa",
+			"442_weapons\clones\dc15a\data\body_co.paa",
 			"\SWLW_clones\rifles\dc15a\data\DC15A_ugl_co.paa",
 			"\442_weapons\clones\dc15a\data\optic\training_blue.paa"
 		};

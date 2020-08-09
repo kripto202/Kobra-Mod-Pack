@@ -5,7 +5,7 @@
 		author = "kripto202 + 'Airstrike' Ivanov";
 		faction = "kobra";
 		editorSubcategory = "442_argon";
-		crew = "k_swla_unit_base";
+		crew = "442_swla_unit_p2_dc15a";
 		displayName = "Argon Transport";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
 		textureList[] = {};
@@ -66,7 +66,7 @@
 		author = "kripto202 + 'Airstrike' Ivanov";
 		faction = "kobra";
 		editorSubcategory = "442_argon";
-		crew = "k_swla_unit_base";
+		crew = "442_swla_unit_p2_dc15a";
 		displayName = "Argon Covered Transport";
 		textureList[] = {};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "Camo4"};
@@ -131,7 +131,7 @@
 		author = "kripto202 + 'Airstrike' Ivanov";
 		faction = "kobra";
 		editorSubcategory = "442_argon";
-		crew = "k_swla_unit_base";
+		crew = "442_swla_unit_p2_dc15a";
 		displayName = "Argon Ammo Truck";
 		textureList[] = {};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "Camo4"};
@@ -196,7 +196,7 @@
 		author = "kripto202 + 'Airstrike' Ivanov";
 		faction = "kobra";
 		editorSubcategory = "442_argon";
-		crew = "k_swla_unit_base";
+		crew = "442_swla_unit_p2_dc15a";
 		displayName = "Argon Device Carrier";
 		textureList[] = {};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "Camo4", "Camo5"};
@@ -265,7 +265,7 @@
 		author = "kripto202 + 'Airstrike' Ivanov";
 		faction = "kobra";
 		editorSubcategory = "442_argon";
-		crew = "k_swla_unit_base";
+		crew = "442_swla_unit_p2_dc15a";
 		displayName = "Argon Fuel Truck";
 		textureList[] = {};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
@@ -326,7 +326,7 @@
 		author = "kripto202 + 'Airstrike' Ivanov";
 		faction = "kobra";
 		editorSubcategory = "442_argon";
-		crew = "k_swla_unit_base";
+		crew = "442_swla_unit_p2_dc15a";
 		displayName = "Argon Repair Truck";
 		textureList[] = {};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
@@ -387,7 +387,7 @@
 		author = "kripto202 + 'Airstrike' Ivanov";
 		faction = "kobra";
 		editorSubcategory = "442_argon";
-		crew = "k_swla_unit_base";
+		crew = "442_swla_unit_p2_dc15a";
 		displayName = "Argon Medical Truck";
 		attendant = 1;
 		textureList[] = {};

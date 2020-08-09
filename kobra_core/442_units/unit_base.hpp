@@ -3,9 +3,9 @@
 		scope=1;
 		scopeCurator=1;
 		scopeArsenal=1;
-		model="442_clones\base_body.p3d";
+		model="442_units\clones\base_body.p3d";
 		editorPreview="";
-		picture = "442_clones\data\ui\body.paa";
+		picture = "442_units\clones\data\ui\body.paa";
 		identityTypes[]=
 		{
 			"LanguageENG_F",
@@ -28,9 +28,9 @@
 		};
 		hiddenselectionsTextures[]=
 		{
-			"442_clones\data\uniform\uniform\camo1_co.paa",
-			"442_clones\data\uniform\uniform\camo2_co.paa",
-			"442_clones\data\uniform\mc_uniform\undersuit_co.paa",
+			"442_units\clones\data\uniform\uniform\camo1_co.paa",
+			"442_units\clones\data\uniform\uniform\camo2_co.paa",
+			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
 		};
 		linkedItems[]={};
 		RespawnlinkedItems[]={};
@@ -56,9 +56,9 @@
 	};
 	class k_swla_unit_mc_base: k_swla_unit_base
 	{
-		model="442_clones\base_body_mc.p3d";
+		model="442_units\clones\base_body_mc.p3d";
 		uniformclass="k_swla_uniform_mc_base";
-		picture = "442_clones\data\ui\body_mc.paa";
+		picture = "442_units\clones\data\ui\body_mc.paa";
 		hiddenselections[]=
 		{
 			"camo1",
@@ -69,10 +69,10 @@
 		};
 		hiddenselectionsTextures[]=
 		{
-			"442_clones\data\uniform\mc_uniform\camo1_co.paa",
-			"442_clones\data\uniform\mc_uniform\camo2_co.paa",
-			"442_clones\data\uniform\mc_uniform\undersuit_co.paa",
-			"442_clones\data\uniform\mc_uniform\rank_co.paa",
+			"442_units\clones\data\uniform\mc_uniform\camo1_co.paa",
+			"442_units\clones\data\uniform\mc_uniform\camo2_co.paa",
+			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
+			"442_units\clones\data\uniform\mc_uniform\rank_co.paa",
 		};
 	};
 
@@ -81,7 +81,7 @@
 
 
 ////units with loadouts
-	/*class 442_swla_unit_p2_dc15a: k_swla_unit_base
+	class k_swla_unit_p2_dc15a: k_swla_unit_base
 	{
 		scope = 2;
 		scopecurator = 2;
@@ -109,21 +109,27 @@
 		};
 		weapons[] = 
 		{
+			"442_DC15A",
 			"Throw",
 			"Put"
 		};
 		respawnweapons[] = 
 		{
+			"442_DC15A",
 			"Throw",
 			"Put"
 		};
 		magazines[] = 
 		{
-
+			"442_762_30rnd_blue_mag",
+			"442_762_30rnd_blue_mag",
+			"442_762_30rnd_blue_mag",
 		};
 		respawnmagazines[] = 
 		{
-
+			"442_762_30rnd_blue_mag",
+			"442_762_30rnd_blue_mag",
+			"442_762_30rnd_blue_mag",
 		};
-	};*/
+	};
 

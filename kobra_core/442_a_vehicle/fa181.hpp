@@ -3,7 +3,7 @@ class 442_fa181_plane_fighter: b_plane_fighter_01_f
         displayname = "FA-181";
         faction = "kobra";
         editorSubcategory="442_planes";
-		crew="44_swla_unit";
+		crew="k_swla_unit_p2_dc15a";
 		scope=2;
 		scopecurator=2;
 		scopearsenal=2;
@@ -64,7 +64,7 @@ class 442_fa181_plane_fighter: b_plane_fighter_01_f
         displayname = "FA-181";
         faction = "kobra";
         editorSubcategory="442_planes";
-		crew="442_swla_unit_pilot";
+		crew="k_swla_unit_p2_dc15a";
 		scope=2;
 		scopecurator=2;
 		scopearsenal=2;
