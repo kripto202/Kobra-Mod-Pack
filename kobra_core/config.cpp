@@ -923,6 +923,8 @@ class cfgvehicles
 	#include "442_units\44\44_backpack.hpp"
 	#include "442_units\442\442_unit.hpp"
 	#include "442_units\442\442_backpack.hpp"
+
+	#include "442_equipment\jumppack\jumppack.hpp"
 };
 
 class cfgCloudlets
