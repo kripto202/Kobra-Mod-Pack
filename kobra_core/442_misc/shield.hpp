@@ -110,7 +110,7 @@
         armor = 100000000000000;
         vehicleClass = "Structures";
         destrtype = "DestructNo";
-		model = "442_misc\shield\quasar_shield_base.p3d"
+		model = "442_misc\shield\quasar_shield_base.p3d";
 		multistructureparts[] = 
 		{
 			{

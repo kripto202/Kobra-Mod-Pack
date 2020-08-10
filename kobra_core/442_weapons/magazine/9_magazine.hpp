@@ -4,7 +4,7 @@ class 442_9_20rnd_blue_mag: 442_mag_base
     scope = 2;
     displayname = "9mm Plasma Cell (20rnd Blue)";
     ammo = "442_ammo_9_blue";
-    mass = 6;
+    mass = 5;
     count = 20;
     initspeed = 430;
 };

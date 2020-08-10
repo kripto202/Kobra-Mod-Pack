@@ -20,7 +20,7 @@
 			"short",
 			"medium",
 		};
-		reloadtime = 0.1375
+		reloadtime = 0.1375;
 		magazinereloadtime = 10;
 		magazineReloadSwitchPhase = 5;
 		class gunparticles {};

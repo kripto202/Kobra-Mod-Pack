@@ -29,7 +29,7 @@ class 442_test_hmp_base: Helicopter_Base_H
 		side = 0;
 		faction = "442_CIS";
 		crew = "SWLB_b1_pilot_base";
-		icon = "442_hmp\data\ui\hmp_icon.paa";
+		icon = "442_a_vehicle\hmp\data\ui\hmp_icon.paa";
 		editorpreview = "442_hmp\data\ui\hmp_preview.jpg";
 		picture = "";
 		availableForSupportTypes[] = {"CAS_Heli", "Drop", "Transport"};

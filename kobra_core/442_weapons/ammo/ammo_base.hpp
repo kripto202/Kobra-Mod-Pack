@@ -12,6 +12,7 @@ class 442_ammo_556_base: 442_ammo_base
 	audiblefire=35;
 	waterFriction=-0.30000001;
 	caliber = 0.869565;
+	tracerScale = 0.5;
 	timetolive=6;
 	// effectfly="442_plasma_blue";
 	// ExplosionEffects="442_plasma_impact";
@@ -46,7 +47,7 @@ class 442_ammo_65_base: 442_ammo_base
 	//cratereffects = "442_plasma_impact";
 	explosive=0;
 	airFriction = -0.00130094;
-	tracerScale = 1.1;
+	tracerScale = 0.5;
 	ACE_caliber = 6.706;
 	ACE_bulletLength = 32.893;
 	ACE_bulletMass = 7.9704;
@@ -73,6 +74,7 @@ class 442_ammo_762_base: 442_ammo_base
 	suppressionRadiusBulletClose = 6;
 	suppressionRadiusHit = 8;
 	typicalSpeed = 835;
+	tracerScale = 0.5;
 	caliber = 1.8;
 	airFriction = -0.00101071;
 	ACE_caliber = 7.823;
@@ -99,7 +101,7 @@ class 442_ammo_9_base: 442_ammo_base
 	suppressionRadiusBulletClose = 2;
 	suppressionRadiusHit = 4;
 	airFriction = -0.00211064;
-	tracerScale = 0.5;
+	tracerScale = 0.25;
 	ACE_caliber = 9.042;
 	ACE_bulletLength = 15.494;
 	ACE_bulletMass = 7.452;
@@ -125,7 +127,7 @@ class 442_ammo_45_base: 442_ammo_base
 	tracerStartTime = 0.075;
 	tracerEndTime = 1;
 	airFriction = -0.00082143;
-	tracerScale = 0.6;
+	tracerScale = 0.25;
 	model="";
 	//effectfly="442_plasma_blue";
 	//ExplosionEffects="442_plasma_impact";
@@ -154,7 +156,7 @@ class 442_ammo_127x99_base: 442_ammo_base
 	caliber = 2.6;
 	typicalSpeed = 880;
 	airFriction = -0.00058679;
-	tracerScale = 1.3;
+	tracerScale = 0.5;
 	ACE_caliber = 12.954;
 	ACE_bulletLength = 58.674;
 	ACE_bulletMass = 41.9256;
@@ -181,7 +183,7 @@ class 442_ammo_408_base: 442_ammo_base
 	caliber = 2.4;
 	typicalSpeed = 910;
 	airFriction = -0.00046249;
-	tracerScale = 1.3;
+	tracerScale = 0.5;
 	ACE_caliber = 10.363;
 	ACE_bulletLength = 55.1942;
 	ACE_bulletMass = 27.1507;
@@ -240,7 +242,7 @@ class 442_ammo_40mm_base: GrenadeBase
 	model="";
 	lightcolor[]={0.25,0.25,0.5};
 	flaresize=5;
-	tracerscale=5;
+	tracerscale=1;
 	effectflare="FlareShell";
 	tracerstarttime=0;
 	tracerendtime=10;
@@ -344,6 +346,7 @@ class 442_ammo_127x33_base: 442_ammo_base
 	suppressionRadiusHit = 4;
 	visibleFireTime = 3;
 	cost = 50;
+	tracerScale = 0.5;
 	airLock = 1;
 	caliber = 1;
 	typicalSpeed = 420;
@@ -365,7 +368,7 @@ class 442_ammo_127x108_base: 442_ammo_base
 	suppressionRadiusBulletClose = 8;
 	suppressionRadiusHit = 12;
 	visibleFireTime = 3;
-	tracerScale = 1.8;
+	tracerScale = .5;
 	cost = 5;
 	airLock = 1;
 	caliber = 2.8;
@@ -389,7 +392,7 @@ class 442_ammo_338_base: 442_ammo_base
 	suppressionRadiusHit = 10;
 	caliber = 2;
 	typicalSpeed = 890;
-	tracerScale = 1.2;
+	tracerScale = .5;
 	airFriction = -0.00060841;
 	ACE_caliber = 8.585;
 	ACE_bulletLength = 39.573;
@@ -441,7 +444,7 @@ class 442_ammo_127x108_oc_base: GrenadeBase
 	suppressionRadiusHit=24;
 	indirectHit = 20;
 	indirectHitRange = 2;
-	tracerScale = 2;
+	tracerScale = 1;
 	explosive = 1;
 	ExplosionEffects="442_plasma_he_impact";
 	CraterEffects = "442_plasma_he_impact";

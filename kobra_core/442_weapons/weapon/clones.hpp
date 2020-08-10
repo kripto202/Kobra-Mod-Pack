@@ -12,7 +12,85 @@
 		picture="\SWLW_clones\rifles\dc15a\data\ui\DC15A_ui.paa";
 		magazines[]=
 		{
-			"442_762_30rnd_blue_mag"
+			"442_762_20rnd_blue_mag",
+			"442_762_30rnd_blue_mag",
+			"442_762_60rnd_blue_mag",
+			"442_762_100rnd_blue_mag",
+
+			"442_762_20rnd_red_mag",
+			"442_762_30rnd_red_mag",
+			"442_762_60rnd_red_mag",
+			"442_762_100rnd_red_mag",
+
+			"442_762_20rnd_orange_mag",
+			"442_762_30rnd_orange_mag",
+			"442_762_60rnd_orange_mag",
+			"442_762_100rnd_orange_mag",
+
+			"442_762_20rnd_green_mag",
+			"442_762_30rnd_green_mag",
+			"442_762_60rnd_green_mag",
+			"442_762_100rnd_green_mag",
+
+			"442_762_20rnd_pink_mag",
+			"442_762_30rnd_pink_mag",
+			"442_762_60rnd_pink_mag",
+			"442_762_100rnd_pink_mag",
+
+			"442_762_20rnd_purple_mag",
+			"442_762_30rnd_purple_mag",
+			"442_762_60rnd_purple_mag",
+			"442_762_100rnd_purple_mag",
+
+			"442_762_20rnd_black_mag",
+			"442_762_30rnd_black_mag",
+			"442_762_60rnd_black_mag",
+			"442_762_100rnd_black_mag",
+
+			"442_762_20rnd_yellow_mag",
+			"442_762_30rnd_yellow_mag",
+			"442_762_60rnd_yellow_mag",
+			"442_762_100rnd_yellow_mag",
+
+			"442_762_20rnd_blue_b_mag",
+			"442_762_30rnd_blue_b_mag",
+			"442_762_60rnd_blue_b_mag",
+			"442_762_100rnd_blue_b_mag",
+
+			"442_762_20rnd_red_b_mag",
+			"442_762_30rnd_red_b_mag",
+			"442_762_60rnd_red_b_mag",
+			"442_762_100rnd_red_b_mag",
+
+			"442_762_20rnd_orange_b_mag",
+			"442_762_30rnd_orange_b_mag",
+			"442_762_60rnd_orange_b_mag",
+			"442_762_100rnd_orange_b_mag",
+
+			"442_762_20rnd_green_b_mag",
+			"442_762_30rnd_green_b_mag",
+			"442_762_60rnd_green_b_mag",
+			"442_762_100rnd_green_b_mag",
+
+			"442_762_20rnd_pink_b_mag",
+			"442_762_30rnd_pink_b_mag",
+			"442_762_60rnd_pink_b_mag",
+			"442_762_100rnd_pink_b_mag",
+
+			"442_762_20rnd_purple_b_mag",
+			"442_762_30rnd_purple_b_mag",
+			"442_762_60rnd_purple_b_mag",
+			"442_762_100rnd_purple_b_mag",
+
+			"442_762_20rnd_white_b_mag",
+			"442_762_30rnd_white_b_mag",
+			"442_762_60rnd_white_b_mag",
+			"442_762_100rnd_white_b_mag",
+
+			"442_762_20rnd_yellow_b_mag",
+			"442_762_30rnd_yellow_b_mag",
+			"442_762_60rnd_yellow_b_mag",
+			"442_762_100rnd_yellow_b_mag",
 		};
 		displayname="DC-15A rifle";
 		descriptionShort="Clone trooper rifle";
@@ -105,7 +183,7 @@
 					0.33000001
 				};
 			};
-			reloadTime=0.18;
+			reloadTime=0.096001;
 			dispersion=0.00030149999;
 			minRange=5;
 			minRangeProbab=0.30000001;
@@ -163,7 +241,7 @@
 					0.33000001
 				};
 			};
-			reloadTime=0.18;
+			reloadTime=0.104347;
 			dispersion=0.00014545;
 			minRange=5;
 			minRangeProbab=0.30000001;
@@ -496,7 +574,7 @@
 					0.33000001
 				};
 			};
-			reloadTime=0.1;
+			reloadTime=0.096001;
 			dispersion=0.0008;
 			minRange=5;
 			minRangeProbab=0.30000001;
@@ -554,7 +632,7 @@
 					0.33000001
 				};
 			};
-			reloadTime=0.1;
+			reloadTime=0.070011;
 			dispersion=0.0008;
 			minRange=5;
 			minRangeProbab=0.30000001;
@@ -618,7 +696,7 @@
 	{
 		displayname = "DC-15AB";
 		inertia = 1.5;
-		reloadTime=0.06;
+		reloadTime=0.05;
 		hiddenselections[] = 
 		{
 			"camo1",
@@ -676,7 +754,7 @@
 					0.33000001
 				};
 			};
-			reloadTime=0.06;
+			reloadTime=0.096001;
 			dispersion=0.0008;
 			minRange=5;
 			minRangeProbab=0.30000001;
@@ -734,7 +812,7 @@
 					0.33000001
 				};
 			};
-			reloadTime=0.06;
+			reloadTime=0.05;
 			dispersion=0.0008;
 			minRange=5;
 			minRangeProbab=0.30000001;
@@ -806,7 +884,7 @@
 		};
 		magazines[]=
 		{
-			"442_127x33_7rnd_blue_mag"
+			"442_127x33_10rnd_blue_mag"
 		};
 		magazineReloadSwitchPhase=0.40000001;
 		reloadAction="GestureReloadPistol";
@@ -895,7 +973,7 @@
 			};
 			recoil="recoil_pistol_heavy";
 			recoilProne="recoil_prone_pistol_heavy";
-			reloadTime=0.1;
+			reloadTime=0.096001;
 			dispersion=0.0099999998;
 			minRange=5;
 			minRangeProbab=0.30000001;
@@ -1043,7 +1121,7 @@
 					0.33000001
 				};
 			};
-			reloadTime=1;
+			reloadTime=0.1;
 			dispersion=0.00001;
 			initSpeed=910;
 			recoil="recoil_single_ebr";
@@ -1193,7 +1271,7 @@
 					0.33000001
 				};
 			};
-			reloadTime=2;
+			reloadTime=0.096001;
 			dispersion=0.0001;
 			initSpeed=910;
 			recoil="recoil_single_ebr";
@@ -1355,7 +1433,7 @@
 			};
 			recoil="recoil_pistol_heavy";
 			recoilProne="recoil_prone_pistol_heavy";
-			reloadTime=0.2;
+			reloadTime=0.0960001;
 			dispersion=0.01015;
 			minRange=5;
 			minRangeProbab=0.30000001;
@@ -1872,7 +1950,7 @@
 					0.33000001
 				};
 			};
-			reloadTime=0.08;
+			reloadTime=0.096001;
 			dispersion=0.000020000001;
 			minRange=5;
 			minRangeProbab=0.30000001;
@@ -1930,7 +2008,7 @@
 					0.33000001
 				};
 			};
-			reloadTime=0.08;
+			reloadTime=0.063157;
 			dispersion=0.000014545;
 			minRange=5;
 			minRangeProbab=0.30000001;
@@ -2173,7 +2251,7 @@
 					1
 				};
 			};
-			reloadTime=0.1;
+			reloadTime=0.0.096001;
 			dispersion=0.0099999998;
 			minRange=0;
 			minRangeProbab=0.89999998;
@@ -2205,7 +2283,7 @@
 					1
 				};
 			};
-			reloadTime=0.050000001;
+			reloadTime=0.06;
 			texturetype = "fastAuto";
 			dispersion=0.0099999998;
 			minRange=0;

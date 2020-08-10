@@ -65,7 +65,7 @@ class 442_45_45rnd_purple_mag: 442_45_45rnd_blue_mag
     displayname = ".45 ACP Plasma Cell (45rnd Purple)";
     ammo = "442_ammo_45_purple";
 };
-class 442_45_100rnd_orange_mag: 442_45_100rnd_blue_mag
+class 442_45_100rnd_purple_mag: 442_45_100rnd_blue_mag
 {
     displayname = ".45 ACP Plasma Cell (100rnd Purple)";
     ammo = "442_ammo_45_purple";
@@ -144,7 +144,7 @@ class 442_45_45rnd_pink_b_mag: 442_45_45rnd_blue_mag
     displayname = ".45 ACP Plasma Cell (45rnd Pink/B)";
     ammo = "442_ammo_45_pink_b";
 };
-class 442_45_100rnd_pink_mag: 442_45_100rnd_blue_mag
+class 442_45_100rnd_pink_b_mag: 442_45_100rnd_blue_mag
 {
     displayname = ".45 ACP Plasma Cell (100rnd Pink/B)";
     ammo = "442_ammo_45_pink_b";
@@ -155,7 +155,7 @@ class 442_45_45rnd_purple_b_mag: 442_45_45rnd_blue_mag
     displayname = ".45 ACP Plasma Cell (45rnd Purple/B)";
     ammo = "442_ammo_45_purple_b";
 };
-class 442_45_100rnd_orange_b_mag: 442_45_100rnd_blue_mag
+class 442_45_100rnd_purple_b_mag: 442_45_100rnd_blue_mag
 {
     displayname = ".45 ACP Plasma Cell (100rnd Purple/B)";
     ammo = "442_ammo_45_purple_b";
@@ -166,7 +166,7 @@ class 442_45_45rnd_white_b_mag: 442_45_45rnd_blue_mag
     displayname = ".45 ACP Plasma Cell (45rnd White/B)";
     ammo = "442_ammo_45_white_b";
 };
-class 442_45_100rnd_black_mag: 442_45_100rnd_blue_mag
+class 442_45_100rnd_white_b_mag: 442_45_100rnd_blue_mag
 {
     displayname = ".45 ACP Plasma Cell (100rnd White/B)";
     ammo = "442_ammo_45_white_b";

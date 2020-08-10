@@ -5,38 +5,38 @@
         scope = 2;
         displayname = "6.5mm Plasma Cell (30rnd Blue)";
         ammo = "442_ammo_65_blue";
-		mass = 12;
+		mass = 10;
         count = 30;
         initspeed = 909;
     };
     class 442_65_60rnd_blue_mag: 442_65_30rnd_blue_mag
     {
         displayname = "6.5mm Plasma Cell (60rnd Blue)";
-        mass = 24;
+        mass = 20;
         count = 60;
     };
 	class 442_65_100rnd_blue_mag: 442_65_30rnd_blue_mag
     {
         displayname = "6.5mm Plasma Cell (100rnd Blue)";
-        mass = 38;
+        mass = 32;
         count = 100;
 	};
     class 442_65_150rnd_blue_mag: 442_65_30rnd_blue_mag
     {
         displayname = "6.5mm Plasma Cell (150rnd Blue)";
-        mass = 60;
+        mass = 48;
         count = 150;
 	};
     class 442_65_200rnd_blue_mag: 442_65_30rnd_blue_mag
     {
         displayname = "6.5mm Plasma Cell (200rnd Blue)";
-        mass = 80;
+        mass = 64;
         count = 200;
 	};
     class 442_65_20rnd_blue_mag: 442_65_30rnd_blue_mag
     {
         displayname = "6.5mm Plasma Cell (20rnd Blue)";
-		mass = 8;
+		mass = 7;
         count = 20;
 	};
 

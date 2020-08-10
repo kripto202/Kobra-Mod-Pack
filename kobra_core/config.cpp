@@ -459,33 +459,6 @@ class cfgFactionClasses
 		side = 1;
 		icon = "";
 	};
-	class 442_siege_bat_w
-	{
-		displayName = "[K] 442nd Siege Battalion (Woodland)";
-		priority = 1;
-		side = 1;
-		icon = "";
-	};
-	class 442_siege_bat_d
-	{
-		displayName = "[K] 442nd Siege Battalion (Desert)";
-		priority = 1;
-		side = 1;
-		icon = "";
-	};
-	class 442_siege_bat_j
-	{
-		displayName = "[K] 442nd Siege Battalion (Jungle)";
-		priority = 1;
-		side = 1;
-		icon = "";
-	};
-	class swla_442_deserters_f
-	{
-		displayname = "[K] Deserters";
-		priority = 1;
-		side = 2;
-	};
 	class 442_CIS
 	{
 		displayname = "[K] CIS";
@@ -498,9 +471,9 @@ class cfgFactionClasses
 		priority = 1;
 		side = 1;
 	};
-	class 44_sod
+	class 44_ab
 	{
-		displayname = "[K] 44th Special Operations Division";
+		displayname = "[K] 44th Attack Battalion";
 		priority = 1;
 		side = 1;
 	};
@@ -531,42 +504,6 @@ class cfgFactionClasses
 };
 class cfgeditorcategories
 {
-	class 442_siege_bat
-	{
-		displayname = "[K] 442nd Siege Battalion";
-	};
-	class 442_siege_bat_w
-	{
-		displayname = "[K] 442nd Siege Battalion (Woodland)";
-	};
-	class 442_siege_bat_d
-	{
-		displayname = "[K] 442nd Siege Battalion (Desert)";
-	};
-	class 442_siege_bat_j
-	{
-		displayname = "[K] 442nd Siege Battalion (Jungle)";
-	};
-	class 31_nexu
-	{
-		displayname = "[K] 31st Nexu Battalion";
-	};
-	class deserters_442_f
-	{
-		displayname = "[K] Deserters";
-	};
-	class 442_cis
-	{
-		displayname = "[K] CIS";
-	};
-	class black_legion
-	{
-		displayname = "[K] Black Legion";
-	};
-	class 44_sod
-	{
-		displayname = "[K] 44th Special Operations Division";
-	};
 	class kobra
 	{
 		displayname = "[K] Kobra";
@@ -575,236 +512,54 @@ class cfgeditorcategories
 /////////////look over this///////////////
 class CfgEditorSubcategories
 {
-	class swla_442_trooper
+	class 442_trooper
 	{
-		displayname = "P2 Trooper";
-		side = 1;
+		displayname = "Trooper";
 	};
-	class swla_442_commando
-	{
-		displayname = "Commando";
-		side = 1;
-	};
-	class swla_442_trooper_custom
+	class 442_trooper_custom
 	{
 		displayname = "Trooper (Custom)";
-		side = 1;
 	};
-	class swla_442_p1_trooper
-	{
-		displayname = "P1 Trooper";
-		side = 1;
-	};
-	class swla_442_p1_trooper_custom
-	{
-		displayname = "P1 Trooper (Custom)";
-		side = 1;
-	};
-	class swla_442_helmets
+	class 442_helmets
 	{
 		displayname = "Helmets";
-		side = 1;
-	};
-	class swla_442_uniforms
-	{
-		displayname = "Uniforms";
-		side = 1;
-	};
-	class 442_ls_saber_tank
-	{
-		displayname = "Saber Tank";
-		side = 1;
-	};
-	class 442_LAATS
-	{
-		displayname = "LAATS";
-		side = 1;
-	};
-	class 442_optre_vehicles
-	{
-		displayname = "442nd OPTRE Vehicles";
-		side = 1;
 	};
 	class 442_planes
 	{
 		displayname = "Aircraft";
-		side = 1;
-	};
-	class 442_RTT
-	{
-		displayname = "RTT";
-		side = 1;
 	};
 	class 442_boat
 	{
 		displayname = "Boat";
-		side = 1;
 	};
     class 442_argon
     {
         displayname = "Argon-class trucks";
-		side = 1;
     };
 	class 442_item
 	{
 		displayname = "Items";
-		side = 1;
 	};
 	class 442_hallway
 	{
 		displayname = "Hallway";
-		side = 1;
 	};
 	class 442_item_small
 	{
 		displayname = "Items (Small)";
-		side = 1;
 	};
 	class 442_holograms
 	{
 		displayname = "Holograms";
-		side = 1;
 	};
-	
-	class swla_44_trooper
+	class 442_armor
 	{
-		displayname = "P2 Trooper";
-		side = 1;
+		displayname = "Armor";
 	};
-	
-	class bl_optre_vehicles
+	class 442_g_vehicle
 	{
-		displayname = "Black Legion OPTRE Vehicles";
-		side = 1;
+		displayname = "Vehicle";
 	};
-	class swla_bl_trooper
-	{
-		displayname = "P2 Trooper";
-		side = 1;
-	};
-	class swla_bl_trooper_custom
-	{
-		displayname = "Trooper (Custom)";
-		side = 1;
-	};
-	class swla_bl_p1_trooper
-	{
-		displayname = "P1 Trooper";
-		side = 1;
-	};
-	class swla_bl_p1_trooper_custom
-	{
-		displayname = "P1 Trooper (Custom)";
-		side = 1;
-	};
-	class swla_bl_helmets
-	{
-		displayname = "Helmets";
-		side = 1;
-	};
-	class bl_ls_saber_tank
-	{
-		displayname = "Saber Tank";
-		side = 1;
-	};
-	class bl_LAATS
-	{
-		displayname = "LAATS";
-		side = 1;
-	};
-	class bl_planes
-	{
-		displayname = "Aircraft";
-		side = 1;
-	};
-	class bl_RTT
-	{
-		displayname = "RTT";
-		side = 1;
-	};
-	class bl_boat
-	{
-		displayname = "Boat";
-		side = 1;
-	};
-	class bl_argon
-    {
-        displayname = "Argon-class trucks";
-		side = 1;
-    };
-	
-	class swla_442_deserters_trooper_black
-	{
-		displayname = "Trooper (Black)";
-		side = 2;
-	};
-	class swla_442_deserters_trooper_tan
-	{
-		displayname = "Trooper (Tan)";
-		side = 2;
-	};
-	class swla_442_deserters_trooper_woodland
-	{
-		displayname = "Trooper (Woodland)";
-		side = 2;
-	};
-	class swla_442_deserters_helmets
-	{
-		displayname = "[LS] Helmets";
-		side = 2;
-	};
-	class 442_deserters_laats
-	{
-		displayname = "LAAT";
-		side = 2;
-	};
-	class 442_deserters_ground_veh_woodland
-	{
-		displayname = "Ground Vehicles (Woodland)";
-		side = 2;
-	};
-	class 442_deserters_ground_veh_tan
-	{
-		displayname = "Ground Vehicles (Tan)";
-		side = 2;
-	};
-	class 442_deserters_ground_veh_black
-	{
-		displayname = "Ground Vehicles (Black)";
-		side = 2;
-	};
-	class 442_deserters_ground_veh_jungle
-	{
-		displayname = "Ground Vehicles (Jungle)";
-		side = 2;
-	};
-	class 442_deserters_air_veh_woodland
-	{
-		displayname = "Air Vehicles (Woodland)";
-		side = 2;
-	};
-	class 442_deserters_air_veh_desert
-	{
-		displayname = "Air Vehicles (Desert)";
-		side = 2;
-	};
-	class 442_deserters_air_veh_black
-	{
-		displayname = "Air Vehicles (Black)";
-		side = 2;
-	};
-	class 442_deserters_air_veh_jungle
-	{
-		displayname = "Air Vehicles (Jungle)";
-		side = 2;
-	};
-	
-	class 442_rep_warthog
-	{
-		displayname = "Warthog";
-		side = 1;
-	};
-	
 	class 442_ships
 	{
 		displayname = "Static Ship";
@@ -813,27 +568,25 @@ class CfgEditorSubcategories
 	{
 		displayname = "Static Ship Parts";
 	};
-	
+	class 442_battledroid_inf_w
+	{
+		displayname = "Battledroid";
+	};
 	class 442_battledroid_inf_w
 	{
 		displayname = "Battledroid (Woodland)";
-		side = 0;
 	};
 	class 442_battledroid_inf_d
 	{
 		displayname = "Battledroid (Desert)";
-		side = 0;
 	};
-	class 442_cis_armor
-	{
-		displayname = "Armor";
-		side = 0;
-	};
-
 	class 442_wrecks
 	{
 		displayname = "Wrecks";
-		side = 0;
+	};
+	class 442_props
+	{
+		displayname = "Photo props";
 	};
 };
 
@@ -1978,7 +1731,29 @@ class cfgmagazines
 	class 1Rnd_SmokePurple_Grenade_shell;
 	class 1Rnd_SmokeBlue_Grenade_shell;
 	class 1Rnd_SmokeGreen_Grenade_shell;
-	class CA_Magazine;
+	class Default;
+	class CA_Magazine: Default
+	{
+		author="$STR_A3_Bohemia_Interactive";
+		scope=1;
+		value=1;
+		displayName="";
+		model="\A3\weapons_F\ammo\mag_univ.p3d";
+		picture="";
+		modelSpecial="";
+		useAction=0;
+		useActionTitle="";
+		reloadAction="";
+		ammo="";
+		count=30;
+		type=256;
+		initSpeed=900;
+		selectionFireAnim="zasleh";
+		nameSound="magazine";
+		maxLeadSpeed=23;
+		weaponpoolavailable=1;
+		mass=8;
+	};
 	class 40Rnd_105mm_APFSDS_T_Green;
 	class 442_mag_base: CA_Magazine
 	{
@@ -1994,7 +1769,7 @@ class cfgmagazines
 		modelspecial="";
 		model = "SWLW_clones\rifles\DC15a\DC15a_mag.p3d";
 		tracersevery=1;
-		picture="\SWLW_clones\rifles\DC15a\data\ui\DC15a_mag_ui.paa";
+		picture="442_weapons\ammo\ui\DC15a_mag_ui.paa";
 		type=256;
 	};
 	#include "442_weapons\magazine\556_magazine.hpp"

@@ -78,7 +78,7 @@ class k_p2_arf_helmet: k_p2_arf_helmet_base
     scopecurator = 2;
     scopearsenal = 2;
     displayname = "[K] ARF P2 Helmet";
-    model = "442_clones\arf_p2_helmet.p3d"
+    model = "442_clones\arf_p2_helmet.p3d";
     picture = "442_clones\data\ui\arf_p2_helmet.paa";
     hiddenselectionstextures[] = 
     {
