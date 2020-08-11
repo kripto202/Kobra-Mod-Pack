@@ -568,7 +568,7 @@ class CfgEditorSubcategories
 	{
 		displayname = "Static Ship Parts";
 	};
-	class 442_battledroid_inf_w
+	class 442_battledroid_inf
 	{
 		displayname = "Battledroid";
 	};
@@ -656,6 +656,7 @@ class cfgweapons
 	class HMG_127;
 	class LMG_Minigun;
 	class GMG_40mm;
+	class nvgoggles;
 	class 442_rifle_base: Rifle_Long_Base_F
 	{
 		author="kripto202";
@@ -728,6 +729,8 @@ class cfgweapons
 	#include "442_units\442\442_uniform.hpp"
 	#include "442_units\442\442_helmet.hpp"
 	#include "442_units\442\442_vest.hpp"
+
+	#include "442_equipment\attachment.hpp"
 };
 class cfgvehicles
 {

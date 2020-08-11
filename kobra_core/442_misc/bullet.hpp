@@ -60,7 +60,7 @@
         displayname = "Plasma Bolt (Red/B - Medium)";
         model = "442_weapons\ammo\red_b_tracer_05.p3d";
     };
-    class 442_red_tracer_025: 442_blue_tracer
+    class 442_red_tracer_b_025: 442_blue_tracer
     {
         displayname = "Plasma Bolt (Red/B - Small)";
         model = "442_weapons\ammo\red_b_tracer_025.p3d";
@@ -92,7 +92,7 @@
         displayname = "Plasma Bolt (Green/B - Medium)";
         model = "442_weapons\ammo\green_b_tracer_05.p3d";
     };
-    class 442_green_tracer_025: 442_blue_tracer
+    class 442_green_tracer_b_025: 442_blue_tracer
     {
         displayname = "Plasma Bolt (Green/B - Small)";
         model = "442_weapons\ammo\green_b_tracer_025.p3d";

@@ -5,7 +5,7 @@
 		scopeArsenal=1;
 		model="442_units\clones\base_body.p3d";
 		editorPreview="";
-		picture = "442_units\clones\data\ui\body.paa";
+		//picture = "442_units\clones\data\ui\body.paa"; //this needs to be changed
 		identityTypes[]=
 		{
 			"LanguageENG_F",
@@ -15,7 +15,7 @@
 		author="kripto202";
 		uniformclass="k_swla_uniform_base";
 		faction="kobra";
-		editorSubCategory="swla_44_trooper";
+		editorSubCategory="442_trooper";
 		displayname="Trooper";
 		movesFatigue="CfgMovesFatigueTrooper";
 		backpack="";
@@ -58,7 +58,7 @@
 	{
 		model="442_units\clones\base_body_mc.p3d";
 		uniformclass="k_swla_uniform_mc_base";
-		picture = "442_units\clones\data\ui\body_mc.paa";
+		//picture = "442_units\clones\data\ui\body_mc.paa"; //this needs to be changed
 		hiddenselections[]=
 		{
 			"camo1",

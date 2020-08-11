@@ -6,8 +6,8 @@
 		scope=0;
 		scopeCurator=0;
 		scopeArsenal=0;
-		picture = "442_clones\data\ui\body.paa";
-		model="442_clones\base_body_gh"; //model for the ground
+		picture = "442_units\clones\data\ui\body.paa";
+		model="442_units\clones\base_body_gh"; //model for the ground
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -22,8 +22,8 @@
 		author="kripto202";
 		scope=0;
 		displayName="Clone marshal commander armor";
-		picture = "442_clones\data\ui\body_mc.paa";
-		model="442_clones\base_body_gh";
+		picture = "442_units\clones\data\ui\body_mc.paa";
+		model="442_units\clones\base_body_gh";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";

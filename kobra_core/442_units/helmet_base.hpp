@@ -44,10 +44,10 @@
 			"camo1",
 			"visor"
 		};
-		model = "442_clones\p2_helmet.p3d"; //needs the new model
+		model = "442_units\clones\p2_helmet.p3d"; //needs the new model
 		class Iteminfo: Iteminfo
 		{
-			uniformModel = "442_clones\p2_helmet.p3d"; //needs the new model
+			uniformModel = "442_units\clones\p2_helmet.p3d"; //needs the new model
 			hiddenselections[] = 
 			{
 				"camo1",
@@ -60,7 +60,7 @@
 		displayname = "[K] P1.5 Helmet";
 		picture = "";
 		subItems[] = {};
-		model = "442_clones\p15_helmet.p3d";
+		model = "442_units\clones\p15_helmet.p3d";
 		hiddenselections[] = 
 		{
 			"camo1",
@@ -69,7 +69,7 @@
 		};
 		class Iteminfo: Iteminfo
 		{
-			UniformModel = "442_clones\p15_helmet.p3d";
+			UniformModel = "442_units\clones\p15_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"camo1",
@@ -86,7 +86,7 @@
 		{
 			"k_nvg"
 		};
-		model = "442_clones\ab_helmet.p3d";
+		model = "442_units\clones\ab_helmet.p3d";
 		hiddenselections[] = 
 		{
 			"camo1",
@@ -94,7 +94,7 @@
 		};
 		class ItemInfo: ItemInfo
 		{
-			uniformModel = "442_clones\ab_helmet.p3d";
+			uniformModel = "442_units\clones\ab_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"camo1",
@@ -112,7 +112,7 @@
 			"k_nvg"
 		};
 		picture = "";
-		model = "442_clones\pilot_p2_helmet.p3d";
+		model = "442_units\clones\pilot_p2_helmet.p3d";
 		hiddenselections[] = 
 		{
 			"camo1",
@@ -120,7 +120,7 @@
 		};
 		class ItemInfo: ItemInfo
 		{
-			uniformModel = "442_clones\pilot_p2_helmet.p3d";
+			uniformModel = "442_units\clones\pilot_p2_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"camo1",
@@ -133,7 +133,7 @@
 		displayname = "[K] Barc Helmet";
 		picture = "";
 		subItems[] = {};
-		model = "442_clones\barc_helmet.p3d";
+		model = "442_units\clones\barc_helmet.p3d";
 		hiddenselections[] = 
 		{
 			"camo1",
@@ -141,7 +141,7 @@
 		};
 		class ItemInfo: ItemInfo
 		{
-			uniformModel = "442_clones\barc_helmet.p3d";
+			uniformModel = "442_units\clones\barc_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"camo1",
@@ -156,7 +156,7 @@
 		subitems[] = {
 			"k_nvg_ti"
 		};
-		model = "442_clones\arf_p1_helmet.p3d";
+		model = "442_units\clones\arf_p1_helmet.p3d";
 		hiddenselections[] = 
 		{
 			"camo1",
@@ -164,7 +164,7 @@
 		};
 		class Iteminfo: ItemInfo
 		{
-			uniformModel = "442_clones\arf_p1_helmet.p3d";
+			uniformModel = "442_units\clones\arf_p1_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"camo1",
@@ -175,7 +175,7 @@
 	class k_p2_arf_helmet_base: k_p1_arf_helmet_base
 	{
 		displayname = "[K] P2 ARF Helmet";
-		model = "442_clones\arf_p2_helmet.p3d";
+		model = "442_units\clones\arf_p2_helmet.p3d";
 		hiddenselections[] = 
 		{
 			"camo1",
@@ -184,7 +184,7 @@
 		};
 		class ItemInfo: ItemInfo
 		{
-			uniformModel = "442_clones\arf_p2_helmet.p3d";
+			uniformModel = "442_units\clones\arf_p2_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"camo1",
@@ -200,7 +200,7 @@
 		subItems[] = {
 			"k_nvg"
 		};
-		model = "442_clones\eng_helmet.p3d";
+		model = "442_units\clones\eng_helmet.p3d";
 		hiddenselections[] = 
 		{
 			"camo1",
@@ -209,7 +209,7 @@
 		};
 		class ItemInfo: ItemInfo
 		{
-			uniformModel = "442_clones\eng_helmet.p3d";
+			uniformModel = "442_units\clones\eng_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"camo1",
@@ -223,7 +223,7 @@
 		displayname = "[K] P1 Helmet";
 		picture = "";
 		subItems[] = {};
-		model = "442_clones\p1_helmet.p3d";
+		model = "442_units\clones\p1_helmet.p3d";
 		hiddenselections[] = 
 		{
 			"camo1",
@@ -232,7 +232,7 @@
 		};
 		class ItemInfo: ItemInfo
 		{
-			uniformModel = "442_clones\p1_helmet.p3d";
+			uniformModel = "442_units\clones\p1_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"camo1",
@@ -249,7 +249,7 @@
 		{
 			"k_nvg"
 		};
-		model = "442_clones\pilot_p1_helmet.p3d";
+		model = "442_units\clones\pilot_p1_helmet.p3d";
 		hiddenselections[] = 
 		{
 			"camo1",
@@ -258,7 +258,7 @@
 		};
 		class ItemInfo: ItemInfo
 		{
-			uniformModel = "442_clones\pilot_p1_helmet.p3d";
+			uniformModel = "442_units\clones\pilot_p1_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"camo1",
@@ -275,7 +275,7 @@
 		{
 			"k_nvg"
 		};
-		model = "442_clones\spec_p1_helmet.p3d";
+		model = "442_units\clones\spec_p1_helmet.p3d";
 		hiddenselections[] = 
 		{
 			"camo1",
@@ -283,7 +283,7 @@
 		};
 		class ItemInfo: ItemInfo
 		{
-			uniformModel = "442_clones\spec_p1_helmet.p3d";
+			uniformModel = "442_units\clones\spec_p1_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"camo1",
@@ -299,7 +299,7 @@
 		{
 			"k_nvg"
 		};
-		model = "442_clones\spec_p2_helmet.p3d";
+		model = "442_units\clones\spec_p2_helmet.p3d";
 		hiddenselections[] = 
 		{
 			"camo1",
@@ -307,7 +307,7 @@
 		};
 		class ItemInfo: ItemInfo
 		{
-			uniformModel = "442_clones\spec_p2_helmet.p3d";
+			uniformModel = "442_units\clones\spec_p2_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"camo1",
@@ -320,7 +320,7 @@
 		displayname = "[K] Rex Helmet";
 		picture = "";
 		subItems[] = {};
-		model = "442_clones\rex_helmet.p3d";
+		model = "442_units\clones\rex_helmet.p3d";
 		hiddenselections[] = 
 		{
 			"camo1",
@@ -328,7 +328,7 @@
 		};
 		class ItemInfo: ItemInfo
 		{
-			uniformModel = "442_clones\rex_helmet.p3d";
+			uniformModel = "442_units\clones\rex_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"camo1",
@@ -339,7 +339,7 @@
 	class k_Scout_Helmet_base: k_helmet_base
 	{
 		displayName="[K] Scout Helmet";
-		model="442_clones\scout_helmet.p3d";
+		model="442_units\clones\scout_helmet.p3d";
 		picture="";
 		subItems[]=
 		{
@@ -352,7 +352,7 @@
 		};
 		class ItemInfo: ItemInfo
 		{
-			uniformModel="442_clones\scout_helmet.p3d";
+			uniformModel="442_units\clones\scout_helmet.p3d";
 			hiddenSelections[]=
 			{
 				"Camo1",
