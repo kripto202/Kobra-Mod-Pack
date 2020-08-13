@@ -330,7 +330,11 @@ class CfgPatches
 			"442_turbotank_m",
 			"442_boat_armed",
 		};
-		weapons[]={};
+		weapons[]=
+		{
+			"k_swla_uniform",
+			"k_swla_mc_uniform"
+		};
 	};
 };
 
@@ -657,6 +661,7 @@ class cfgweapons
 	class LMG_Minigun;
 	class GMG_40mm;
 	class nvgoggles;
+	class V_PlateCarrier1_rgr;
 	class 442_rifle_base: Rifle_Long_Base_F
 	{
 		author="kripto202";
@@ -731,6 +736,7 @@ class cfgweapons
 	#include "442_units\442\442_vest.hpp"
 
 	#include "442_equipment\attachment.hpp"
+	#include "442_equipment\vest.hpp"
 };
 class cfgvehicles
 {

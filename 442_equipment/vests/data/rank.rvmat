@@ -3,16 +3,16 @@ class StageTI
 	texture="#(argb,8,8,3)color(0.5,0,0,0,TI)";
 };
 ambient[]={0.5,0.5,0.5,1};
-diffuse[]={0.5,0.5,0.5,1};
+diffuse[]={0.69999999,0.69999999,0.69999999,1};
 forcedDiffuse[]={0,0,0,0};
 emmisive[]={0,0,0,1};
-specular[]={1,1,1,1};
-specularPower=10;
+specular[]={0.30000001,0.30000001,0.30000001,0.1};
+specularPower=100;
 PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="SWLB_clones\data\helmet_ARF_flaps_nohq.paa";
+	texture="442_equipment\vests\data\rank_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -48,7 +48,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="SWLB_clones\data\helmet_ARF_flaps_as.paa";
+	texture="442_equipment\vests\data\rank_as.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -60,7 +60,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="SWLB_clones\data\helmet_ARF_flaps_smdi.paa";
+	texture="442_equipment\vests\data\rank_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{

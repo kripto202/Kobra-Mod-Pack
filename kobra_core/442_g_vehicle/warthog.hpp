@@ -6,7 +6,7 @@
 		side = 1;
 		crew = "k_swla_unit_p2_dc15a";
 		faction = "kobra";
-		editorsubcategory = "442_optre_vehicles";
+		editorsubcategory = "442_g_vehicle";
 		hiddenSelections[] = 
 		{
 			"camo1",
@@ -85,6 +85,7 @@
 		faction = "kobra";
 		model = "OPTRE_Vehicles\Warthog\Warthog_MG.p3d";
 		transportSoldier = 0;
+		editorsubcategory = "442_g_vehicle";
 		hiddenSelections[] = {"Camo1","Camo2","clan","clan_text","insignia","_Ammobox","_Axe","_Cans","_FireExtinguisher","_Shovel"};
 		hiddenSelectionsTextures[] = 
 		{
@@ -244,7 +245,7 @@
 		side = 1;
 		crew = "k_swla_unit_p2_dc15a";
 		faction = "kobra";
-		editorsubcategory = "442_optre_vehicles";
+		editorsubcategory = "442_g_vehicle";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_troop"};
 		hiddenSelectionsTextures[] = 
 		{
@@ -311,7 +312,7 @@
 		side = 1;
 		crew = "k_swla_unit_p2_dc15a";
 		faction = "kobra";
-		editorsubcategory = "442_optre_vehicles";
+		editorsubcategory = "442_g_vehicle";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_mg","attach_antenna"};
 		hiddenSelectionsTextures[] = 
 		{
@@ -378,7 +379,7 @@
 		side = 1;
 		crew = "k_swla_unit_p2_dc15a";
 		faction = "kobra";
-		editorsubcategory = "442_optre_vehicles";
+		editorsubcategory = "442_g_vehicle";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia"};
 		hiddenSelectionsTextures[] = 
 		{
@@ -604,7 +605,7 @@
 		side = 0;
 		crew = "442_b1_crew_base";
 		faction = "442_CIS";
-		editorsubcategory = "442_rep_warthog";
+		editorsubcategory = "442_g_vehicle";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_troop"};
 		hiddenSelectionsTextures[] = 
 		{
