@@ -6,7 +6,7 @@
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\SWLW_clones\rifles\dc15a\anims\dc15a_handanim.rtm"
+			"\442_weapons\anim\dc15a\dc15a_handanim.rtm"
 		};
 		reloadAction="ReloadMagazine";
 		picture="\SWLW_clones\rifles\dc15a\data\ui\DC15A_ui.paa";
@@ -118,7 +118,7 @@
 		};
 		reloadMagazineSound[]=
 		{
-			"SWLW_clones\pistols\dc17\sounds\DC17_reload.wss",
+			"\442_weapons\sounds\dc17\DC17_reload.wss",
 			0.56234133,
 			1,
 			30
@@ -154,21 +154,21 @@
 				weaponSoundEffect="";
 				begin1[]=
 				{
-					"SWLW_clones\smgs\dc15s\sounds\DC15S_1",
+					"\442_weapons\sounds\dc15s\dc15s_1.wss",
 					1,
 					1,
 					1800
 				};
 				begin2[]=
 				{
-					"SWLW_clones\smgs\dc15s\sounds\DC15S_2",
+					"\442_weapons\sounds\dc15s\dc15s_2.wss",
 					1,
 					1,
 					1800
 				};
 				begin3[]=
 				{
-					"SWLW_clones\smgs\dc15s\sounds\DC15S_3",
+					"\442_weapons\sounds\dc15s\dc15s_3.wss",
 					1,
 					1,
 					1800
@@ -212,21 +212,21 @@
 				weaponSoundEffect="";
 				begin1[]=
 				{
-					"SWLW_clones\smgs\dc15s\sounds\DC15S_1",
+					"\442_weapons\sounds\dc15s\dc15s_1.wss",
 					1,
 					1,
 					1800
 				};
 				begin2[]=
 				{
-					"SWLW_clones\smgs\dc15s\sounds\DC15S_2",
+					"\442_weapons\sounds\dc15s\dc15s_2.wss",
 					1,
 					1,
 					1800
 				};
 				begin3[]=
 				{
-					"SWLW_clones\smgs\dc15s\sounds\DC15S_3",
+					"\442_weapons\sounds\dc15s\dc15s_3.wss",
 					1,
 					1,
 					1800
@@ -252,40 +252,57 @@
 			aiRateOfFire=2;
 			aiRateOfFireDistance=25;
 		};
-		class close: Single
+		class close: FullAuto
 		{
+			burst = 10;
 			showToPlayer=0;
 			aiRateOfFire=0.25;
-			aiRateOfFireDistance=400;
+			aiRateOfFireDistance=50;
 			minRange=0;
 			minRangeProbab=0.050000001;
-			midRange=200;
+			midRange=30;
 			midRangeProbab=0.69999999;
-			maxRange=400;
+			maxRange=50;
 			maxRangeProbab=0.2;
 		};
 		class short: close
 		{
-			aiRateOfFire=0.5;
-			aiRateOfFireDistance=500;
-			minRange=300;
+			burst = 8;
+			aiRateOfFire=1;
+			aiRateOfFireDistance=300;
+			minRange=50;
 			minRangeProbab=0.2;
-			midRange=400;
+			midRange=150;
 			midRangeProbab=0.69999999;
-			maxRange=500;
+			maxRange=300;
 			maxRangeProbab=0.2;
 		};
 		class medium: close
 		{
-			aiRateOfFire=1;
-			aiRateOfFireDistance=900;
-			minRange=400;
+			burst = 5;
+			aiRateOfFire=2;
+			aiRateOfFireDistance=600;
+			minRange=300;
 			minRangeProbab=0.2;
-			midRange=700;
+			midRange=450;
 			midRangeProbab=0.69999999;
-			maxRange=900;
+			maxRange=600;
 			maxRangeProbab=0.2;
 		};
+		class far: close
+		{
+			burst = 3;
+			aiRateOfFire=4;
+			aiRateOfFireDistance=700;
+			minRange=600;
+			minRangeProbab=0.2;
+			midRange=650;
+			midRangeProbab=0.69999999;
+			maxRange=700;
+			maxRangeProbab=0.2;
+		};
+		aiDispersionCoefY=5;
+		aiDispersionCoefX=5;
 		maxRecoilSway=0.0125;
 		recoil="SWLW_recoil";
 		swayDecaySpeed=1.25;
@@ -509,7 +526,7 @@
 		};
 		reloadMagazineSound[]=
 		{
-			"\SWLW_clones\pistols\dc17\sounds\DC17_reload.wss",
+			"\442_weapons\sounds\dc17\dc17_reload.wss",
 			0.56234133,
 			1,
 			30
@@ -545,21 +562,21 @@
 				weaponSoundEffect="";
 				begin1[]=
 				{
-					"\SWLW_clones\smgs\dc15s\sounds\DC15S_1",
+					"\442_weapons\sounds\dc15s\dc15s_1.wss",
 					1,
 					1,
 					1800
 				};
 				begin2[]=
 				{
-					"\SWLW_clones\smgs\dc15s\sounds\DC15S_2",
+					"\442_weapons\sounds\dc15s\dc15s_2.wss",
 					1,
 					1,
 					1800
 				};
 				begin3[]=
 				{
-					"\SWLW_clones\smgs\dc15s\sounds\DC15S_3",
+					"\442_weapons\sounds\dc15s\dc15s_3.wss",
 					1,
 					1,
 					1800
@@ -603,21 +620,21 @@
 				weaponSoundEffect="";
 				begin1[]=
 				{
-					"\SWLW_clones\smgs\dc15s\sounds\DC15S_1",
+					"\442_weapons\sounds\dc15s\dc15s_1.wss",
 					1,
 					1,
 					1800
 				};
 				begin2[]=
 				{
-					"\SWLW_clones\smgs\dc15s\sounds\DC15S_2",
+					"\442_weapons\sounds\dc15s\dc15s_2.wss",
 					1,
 					1,
 					1800
 				};
 				begin3[]=
 				{
-					"\SWLW_clones\smgs\dc15s\sounds\DC15S_3",
+					"\442_weapons\sounds\dc15s\dc15s_3.wss",
 					1,
 					1,
 					1800
@@ -643,40 +660,57 @@
 			aiRateOfFire=2;
 			aiRateOfFireDistance=25;
 		};
-		class close: Single
+		class close: FullAuto
 		{
+			burst = 10;
 			showToPlayer=0;
 			aiRateOfFire=0.25;
-			aiRateOfFireDistance=400;
+			aiRateOfFireDistance=50;
 			minRange=0;
 			minRangeProbab=0.050000001;
-			midRange=200;
+			midRange=30;
 			midRangeProbab=0.69999999;
-			maxRange=400;
+			maxRange=50;
 			maxRangeProbab=0.2;
 		};
 		class short: close
 		{
-			aiRateOfFire=0.5;
-			aiRateOfFireDistance=500;
-			minRange=300;
+			burst = 8;
+			aiRateOfFire=1;
+			aiRateOfFireDistance=300;
+			minRange=50;
 			minRangeProbab=0.2;
-			midRange=400;
+			midRange=125;
 			midRangeProbab=0.69999999;
-			maxRange=500;
+			maxRange=200;
 			maxRangeProbab=0.2;
 		};
 		class medium: close
 		{
-			aiRateOfFire=1;
-			aiRateOfFireDistance=900;
-			minRange=400;
+			burst = 5;
+			aiRateOfFire=2;
+			aiRateOfFireDistance=600;
+			minRange=300;
 			minRangeProbab=0.2;
-			midRange=700;
+			midRange=500;
 			midRangeProbab=0.69999999;
-			maxRange=900;
+			maxRange=600;
 			maxRangeProbab=0.2;
 		};
+		class far: close
+		{
+			burst = 3;
+			aiRateOfFire=4;
+			aiRateOfFireDistance=700;
+			minRange=600;
+			minRangeProbab=0.2;
+			midRange=650;
+			midRangeProbab=0.69999999;
+			maxRange=700;
+			maxRangeProbab=0.2;
+		};
+		aiDispersionCoefY=5;
+		aiDispersionCoefX=5;
 		inertia=1;
 		dexterity=1.7;
 		initSpeed=-1;
@@ -725,21 +759,21 @@
 				weaponSoundEffect="";
 				begin1[]=
 				{
-					"\SWLW_clones\smgs\dc15s\sounds\DC15S_1",
+					"\442_weapons\sounds\dc15s\dc15s_1.wss",
 					1,
 					1,
 					1800
 				};
 				begin2[]=
 				{
-					"\SWLW_clones\smgs\dc15s\sounds\DC15S_2",
+					"\442_weapons\sounds\dc15s\dc15s_2.wss",
 					1,
 					1,
 					1800
 				};
 				begin3[]=
 				{
-					"\SWLW_clones\smgs\dc15s\sounds\DC15S_3",
+					"\442_weapons\sounds\dc15s\dc15s_3.wss",
 					1,
 					1,
 					1800
@@ -783,21 +817,21 @@
 				weaponSoundEffect="";
 				begin1[]=
 				{
-					"\SWLW_clones\smgs\dc15s\sounds\DC15S_1",
+					"\442_weapons\sounds\dc15s\dc15s_1.wss",
 					1,
 					1,
 					1800
 				};
 				begin2[]=
 				{
-					"\SWLW_clones\smgs\dc15s\sounds\DC15S_2",
+					"\442_weapons\sounds\dc15s\dc15s_2.wss",
 					1,
 					1,
 					1800
 				};
 				begin3[]=
 				{
-					"\SWLW_clones\smgs\dc15s\sounds\DC15S_3",
+					"\442_weapons\sounds\dc15s\dc15s_3.wss",
 					1,
 					1,
 					1800
@@ -823,38 +857,41 @@
 			aiRateOfFire=2;
 			aiRateOfFireDistance=25;
 		};
-		class close: Single
+		class close: FullAuto
 		{
+			burst = 10;
 			showToPlayer=0;
 			aiRateOfFire=0.25;
-			aiRateOfFireDistance=400;
+			aiRateOfFireDistance=50;
 			minRange=0;
 			minRangeProbab=0.050000001;
-			midRange=200;
+			midRange=30;
 			midRangeProbab=0.69999999;
-			maxRange=400;
+			maxRange=50;
 			maxRangeProbab=0.2;
 		};
 		class short: close
 		{
-			aiRateOfFire=0.5;
-			aiRateOfFireDistance=500;
+			burst = 8;
+			aiRateOfFire=1;
+			aiRateOfFireDistance=300;
+			minRange=50;
+			minRangeProbab=0.2;
+			midRange=150;
+			midRangeProbab=0.69999999;
+			maxRange=300;
+			maxRangeProbab=0.2;
+		};
+		class medium: close
+		{
+			burst = 5;
+			aiRateOfFire=2;
+			aiRateOfFireDistance=600;
 			minRange=300;
 			minRangeProbab=0.2;
 			midRange=400;
 			midRangeProbab=0.69999999;
 			maxRange=500;
-			maxRangeProbab=0.2;
-		};
-		class medium: close
-		{
-			aiRateOfFire=1;
-			aiRateOfFireDistance=900;
-			minRange=400;
-			minRangeProbab=0.2;
-			midRange=700;
-			midRangeProbab=0.69999999;
-			maxRange=900;
 			maxRangeProbab=0.2;
 		};
 		magazines[] = 
@@ -907,7 +944,7 @@
 		fireLightAmbient[]={0,0,0};
 		reloadMagazineSound[]=
 		{
-			"SWLW_clones_spec\sounds\DC15SA_reload.wss",
+			"swlw_clones_spec\sounds\DC15SA_reload.wss",
 			0.56234133,
 			1,
 			30
@@ -1016,7 +1053,7 @@
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\SWLW_clones\rifles\dc15x\anims\dc15x_handanim.rtm"
+			"\442_weapons\anim\dc15x\anims\dc15x_handanim.rtm"
 		};
 		reloadAction="ReloadMagazine";
 		picture="\SWLW_clones\rifles\dc15x\data\ui\DC15X_ui.paa";
@@ -1057,7 +1094,7 @@
 		};
 		reloadMagazineSound[]=
 		{
-			"SWLW_clones\pistols\dc17\sounds\DC17_reload.wss",
+			"\442_weapons\sounds\dc17\DC17_reload.wss",
 			0.56234133,
 			1,
 			30
@@ -1092,21 +1129,21 @@
 				weaponSoundEffect="";
 				begin1[]=
 				{
-					"SWLW_clones\smgs\dc15s\sounds\DC15S_1",
+					"\442_weapons\sounds\dc15s\dc15s_1.wss",
 					1,
 					1,
 					1800
 				};
 				begin2[]=
 				{
-					"SWLW_clones\smgs\dc15s\sounds\DC15S_2",
+					"\442_weapons\sounds\dc15s\dc15s_2.wss",
 					1,
 					1,
 					1800
 				};
 				begin3[]=
 				{
-					"SWLW_clones\smgs\dc15s\sounds\DC15S_3",
+					"\442_weapons\sounds\dc15s\dc15s_3.wss",
 					1,
 					1,
 					1800
@@ -1133,36 +1170,51 @@
 			maxRange=500;
 			maxRangeProbab=0.050000001;
 		};
-		class close: Single
+		class single_close_optics1: Single
 		{
+			requiredOptictype = 1;
 			showToPlayer=0;
 			aiRateOfFire=0.25;
-			aiRateOfFireDistance=400;
+			aiRateOfFireDistance=50;
 			minRange=0;
 			minRangeProbab=0.050000001;
+			midRange=30;
+			midRangeProbab=0.69999999;
+			maxRange=50;
+			maxRangeProbab=0.2;
+		};
+		class single_short_optics1: single_close_optics1
+		{
+			requiredOptictype = 1;
+			aiRateOfFire=1;
+			aiRateOfFireDistance=300;
+			minRange=50;
+			minRangeProbab=0.2;
 			midRange=200;
 			midRangeProbab=0.69999999;
 			maxRange=400;
 			maxRangeProbab=0.2;
 		};
-		class short: close
+		class single_medium_optics1: single_short_optics1
 		{
-			aiRateOfFire=0.5;
-			aiRateOfFireDistance=500;
-			minRange=300;
-			minRangeProbab=0.2;
-			midRange=400;
-			midRangeProbab=0.69999999;
-			maxRange=500;
-			maxRangeProbab=0.2;
-		};
-		class medium: close
-		{
-			aiRateOfFire=1;
-			aiRateOfFireDistance=900;
+			requiredOptictype = 2;
+			aiRateOfFire=2;
+			aiRateOfFireDistance=600;
 			minRange=400;
 			minRangeProbab=0.2;
-			midRange=700;
+			midRange=600;
+			midRangeProbab=0.69999999;
+			maxRange=700;
+			maxRangeProbab=0.2;
+		};
+		class single_far_optics1: single_medium_optics1
+		{
+			requiredOptictype = 2;
+			aiRateOfFire=4;
+			aiRateOfFireDistance=700;
+			minRange=700;
+			minRangeProbab=0.2;
+			midRange=800;
 			midRangeProbab=0.69999999;
 			maxRange=900;
 			maxRangeProbab=0.2;
@@ -1242,21 +1294,21 @@
 				weaponSoundEffect="";
 				begin1[]=
 				{
-					"SWLW_clones\smgs\dc15s\sounds\DC15S_1",
+					"\442_weapons\sounds\dc15s\dc15s_1.wss",
 					1,
 					1,
 					1800
 				};
 				begin2[]=
 				{
-					"SWLW_clones\smgs\dc15s\sounds\DC15S_2",
+					"\442_weapons\sounds\dc15s\dc15s_2.wss",
 					1,
 					1,
 					1800
 				};
 				begin3[]=
 				{
-					"SWLW_clones\smgs\dc15s\sounds\DC15S_3",
+					"\442_weapons\sounds\dc15s\dc15s_3.wss",
 					1,
 					1,
 					1800
@@ -1283,42 +1335,7 @@
 			maxRange=500;
 			maxRangeProbab=0.050000001;
 		};
-		class close: Single
-		{
-			showToPlayer=0;
-			aiRateOfFire=0.25;
-			aiRateOfFireDistance=400;
-			minRange=0;
-			minRangeProbab=0.050000001;
-			midRange=200;
-			midRangeProbab=0.69999999;
-			maxRange=400;
-			maxRangeProbab=0.2;
-		};
-		class short: close
-		{
-			aiRateOfFire=0.5;
-			aiRateOfFireDistance=500;
-			minRange=300;
-			minRangeProbab=0.2;
-			midRange=400;
-			midRangeProbab=0.69999999;
-			maxRange=500;
-			maxRangeProbab=0.2;
-		};
-		class medium: close
-		{
-			aiRateOfFire=1;
-			aiRateOfFireDistance=900;
-			minRange=400;
-			minRangeProbab=0.2;
-			midRange=700;
-			midRangeProbab=0.69999999;
-			maxRange=900;
-			maxRangeProbab=0.2;
-		};
 	};
-
 ///dc17
     class 442_DC17: Pistol_Base_F
 	{
@@ -1355,7 +1372,7 @@
 		};
 		reloadMagazineSound[]=
 		{
-			"SWLW_clones\pistols\dc17\sounds\DC17_reload.wss",
+			"\442_weapons\sounds\dc17\DC17_reload.wss",
 			0.56234133,
 			1,
 			30
@@ -1390,28 +1407,28 @@
 				weaponSoundEffect="";
 				begin1[]=
 				{
-					"SWLW_clones\pistols\dc17\sounds\DC17_1",
+					"\442_weapons\sounds\dc17\DC17_1.wss",
 					1,
 					1,
 					1800
 				};
 				begin2[]=
 				{
-					"SWLW_clones\pistols\dc17\sounds\DC17_1",
+					"\442_weapons\sounds\dc17\DC17_1.wss",
 					1,
 					1,
 					1800
 				};
 				begin3[]=
 				{
-					"SWLW_clones\pistols\dc17\sounds\DC17_1",
+					"\442_weapons\sounds\dc17\DC17_1.wss",
 					1,
 					1,
 					1800
 				};
 				begin4[]=
 				{
-					"SWLW_clones\pistols\dc17\sounds\DC17_1",
+					"\442_weapons\sounds\dc17\DC17_1.wss",
 					1,
 					1,
 					1800
@@ -1448,34 +1465,45 @@
 		{
 			showToPlayer=0;
 			aiRateOfFire=0.25;
-			aiRateOfFireDistance=400;
+			aiRateOfFireDistance=50;
 			minRange=0;
 			minRangeProbab=0.050000001;
-			midRange=200;
+			midRange=5;
 			midRangeProbab=0.69999999;
-			maxRange=400;
+			maxRange=10;
 			maxRangeProbab=0.2;
 		};
 		class short: close
 		{
-			aiRateOfFire=0.5;
-			aiRateOfFireDistance=500;
-			minRange=300;
+			aiRateOfFire=1;
+			aiRateOfFireDistance=300;
+			minRange=10;
 			minRangeProbab=0.2;
-			midRange=400;
+			midRange=15;
 			midRangeProbab=0.69999999;
-			maxRange=500;
+			maxRange=20;
 			maxRangeProbab=0.2;
 		};
 		class medium: close
 		{
-			aiRateOfFire=1;
-			aiRateOfFireDistance=900;
-			minRange=400;
+			aiRateOfFire=2;
+			aiRateOfFireDistance=600;
+			minRange=20;
 			minRangeProbab=0.2;
-			midRange=700;
+			midRange=25;
 			midRangeProbab=0.69999999;
-			maxRange=900;
+			maxRange=30;
+			maxRangeProbab=0.2;
+		};
+		class far: close
+		{
+			aiRateOfFire=4;
+			aiRateOfFireDistance=700;
+			minRange=30;
+			minRangeProbab=0.2;
+			midRange=40;
+			midRangeProbab=0.69999999;
+			maxRange=50;
 			maxRangeProbab=0.2;
 		};
 		class EGLM: UGL_F
@@ -1564,7 +1592,7 @@
 		};
 		reloadMagazineSound[]=
 		{
-			"SWLW_clones\pistols\dc17\sounds\DC17_reload.wss",
+			"\442_weapons\sounds\dc17\DC17_reload.wss",
 			0.56234133,
 			1,
 			30
@@ -1609,21 +1637,21 @@
 				weaponSoundEffect="";
 				begin1[]=
 				{
-					"SWLW_clones\rifles\gl\sounds\gl",
+					"442_weapons\sounds\gl\gl.wss",
 					1,
 					1,
 					1800
 				};
 				begin2[]=
 				{
-					"SWLW_clones\rifles\gl\sounds\gl",
+					"442_weapons\sounds\gl\gl.wss",
 					1,
 					1,
 					1800
 				};
 				begin3[]=
 				{
-					"SWLW_clones\rifles\gl\sounds\gl",
+					"442_weapons\sounds\gl\gl.wss",
 					1,
 					1,
 					1800
@@ -1651,36 +1679,51 @@
 		};
 		class close: Single
 		{
+			burst = 10;
 			showToPlayer=0;
 			aiRateOfFire=0.25;
-			aiRateOfFireDistance=400;
-			minRange=0;
+			aiRateOfFireDistance=50;
+			minRange=25;
 			minRangeProbab=0.050000001;
-			midRange=200;
+			midRange=50;
 			midRangeProbab=0.69999999;
-			maxRange=400;
+			maxRange=100;
 			maxRangeProbab=0.2;
 		};
 		class short: close
 		{
-			aiRateOfFire=0.5;
-			aiRateOfFireDistance=500;
-			minRange=300;
+			burst = 8;
+			aiRateOfFire=1;
+			aiRateOfFireDistance=300;
+			minRange=100;
 			minRangeProbab=0.2;
-			midRange=400;
+			midRange=150;
 			midRangeProbab=0.69999999;
-			maxRange=500;
+			maxRange=200;
 			maxRangeProbab=0.2;
 		};
 		class medium: close
 		{
-			aiRateOfFire=1;
-			aiRateOfFireDistance=900;
-			minRange=400;
+			burst = 5;
+			aiRateOfFire=2;
+			aiRateOfFireDistance=600;
+			minRange=200;
 			minRangeProbab=0.2;
-			midRange=700;
+			midRange=250;
 			midRangeProbab=0.69999999;
-			maxRange=900;
+			maxRange=300;
+			maxRangeProbab=0.2;
+		};
+		class far: close
+		{
+			burst = 3;
+			aiRateOfFire=4;
+			aiRateOfFireDistance=700;
+			minRange=300;
+			minRangeProbab=0.2;
+			midRange=350;
+			midRangeProbab=0.69999999;
+			maxRange=400;
 			maxRangeProbab=0.2;
 		};
 		muzzles[]=
@@ -1720,7 +1763,7 @@
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\SWLW_clones\launchers\rps6\anims\RPS6_handanim.rtm"
+			"\442_weapons\anims\rps6\RPS6_handanim.rtm"
 		};
 		reloadAction="ReloadRPG";
 		recoil="recoil_empty";
@@ -1850,7 +1893,7 @@
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\SWLW_clones\smgs\westar_m5\anims\westarm5_handanim.rtm"
+			"\442_weapons\anims\westar_m5\westarm5_handanim.rtm"
 		};
 		reloadAction="ReloadMagazine";
 		picture="\SWLW_clones\smgs\westar_m5\data\ui\WestarM5_ui.paa";
@@ -1884,7 +1927,7 @@
 		};
 		reloadMagazineSound[]=
 		{
-			"\SWLW_clones\pistols\dc17\sounds\DC17_reload.wss",
+			"\442_weapons\sounds\dc17\dc17_reload.wss",
 			0.56234133,
 			1,
 			30
@@ -1921,21 +1964,21 @@
 				weaponSoundEffect="";
 				begin1[]=
 				{
-					"\SWLW_clones\smgs\dc15s\sounds\DC15S_2",
+					"\\442_weapons\sounds\dc15s\dc15s_1.wss",
 					1,
 					1,
 					1800
 				};
 				begin2[]=
 				{
-					"\SWLW_clones\smgs\dc15s\sounds\DC15S_2",
+					"\\442_weapons\sounds\dc15s\dc15s_2.wss",
 					1,
 					1,
 					1800
 				};
 				begin3[]=
 				{
-					"\SWLW_clones\smgs\dc15s\sounds\DC15S_3",
+					"\\442_weapons\sounds\dc15s\dc15s_3.wss",
 					1,
 					1,
 					1800
@@ -1979,21 +2022,21 @@
 				weaponSoundEffect="";
 				begin1[]=
 				{
-					"\SWLW_clones\smgs\dc15s\sounds\DC15S_1",
+					"\442_weapons\sounds\dc15s\dc15s_1.wss",
 					1,
 					1,
 					1800
 				};
 				begin2[]=
 				{
-					"\SWLW_clones\smgs\dc15s\sounds\DC15S_2",
+					"\\442_weapons\sounds\dc15s\dc15s_2.wss",
 					1,
 					1,
 					1800
 				};
 				begin3[]=
 				{
-					"\SWLW_clones\smgs\dc15s\sounds\DC15S_3",
+					"\\442_weapons\sounds\dc15s\dc15s_3.wss",
 					1,
 					1,
 					1800
@@ -2019,38 +2062,53 @@
 			aiRateOfFire=2;
 			aiRateOfFireDistance=25;
 		};
-		class close: Single
+		class close: FullAuto
 		{
+			burst = 10;
 			showToPlayer=0;
 			aiRateOfFire=0.25;
-			aiRateOfFireDistance=400;
+			aiRateOfFireDistance=50;
 			minRange=0;
 			minRangeProbab=0.050000001;
-			midRange=200;
+			midRange=25;
 			midRangeProbab=0.69999999;
-			maxRange=400;
+			maxRange=50;
 			maxRangeProbab=0.2;
 		};
 		class short: close
 		{
-			aiRateOfFire=0.5;
-			aiRateOfFireDistance=500;
-			minRange=300;
+			burst = 8;
+			aiRateOfFire=1;
+			aiRateOfFireDistance=300;
+			minRange=50;
 			minRangeProbab=0.2;
-			midRange=400;
+			midRange=125;
 			midRangeProbab=0.69999999;
-			maxRange=500;
+			maxRange=200;
 			maxRangeProbab=0.2;
 		};
 		class medium: close
 		{
-			aiRateOfFire=1;
-			aiRateOfFireDistance=900;
+			burst = 5;
+			aiRateOfFire=2;
+			aiRateOfFireDistance=600;
+			minRange=200;
+			minRangeProbab=0.2;
+			midRange=300;
+			midRangeProbab=0.69999999;
+			maxRange=400;
+			maxRangeProbab=0.2;
+		};
+		class far: close
+		{
+			burst = 3;
+			aiRateOfFire=4;
+			aiRateOfFireDistance=700;
 			minRange=400;
 			minRangeProbab=0.2;
-			midRange=700;
+			midRange=500;
 			midRangeProbab=0.69999999;
-			maxRange=900;
+			maxRange=600;
 			maxRangeProbab=0.2;
 		};
 		inertia=0.30000001;
@@ -2068,7 +2126,7 @@
 			};
 		};
 	};
-    class 442_WestarM5_scope: ItemCore
+    /*class 442_WestarM5_scope: ItemCore
 	{
 		displayName="Westar M-5 scope";
 		author="kripto202";
@@ -2140,7 +2198,7 @@
 			};
 		};
 		inertia=0.1;
-	};
+	};*/
 ///z6
 	class 442_Z6: 442_rifle_base
 	{
@@ -2202,7 +2260,7 @@
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\SWLW_clones\machineguns\z6\anims\Z6_handanim.rtm"
+			"\442_weapons\anims\z6\Z6_handanim.rtm"
 		};
 		dexterity=1;
 		caseless[]=
@@ -2240,7 +2298,7 @@
 			{
 				begin1[]=
 				{
-					"SWLW_clones\machineguns\z6\sounds\Z6_1.wss",
+					"\442_weapons\sounds\z6\Z6_1.wss",
 					1,
 					1,
 					500
@@ -2272,7 +2330,7 @@
 			{
 				begin1[]=
 				{
-					"SWLW_clones\machineguns\z6\sounds\Z6_1.wss",
+					"\442_weapons\sounds\z6\Z6_1.wss",
 					1,
 					1,
 					500
@@ -2295,79 +2353,66 @@
 		};
 		class close: FullAutoFast
 		{
+			burst = 30;
 			showToPlayer=0;
-			aiRateOfFire=0.05;
-			aiRateOfFireDistance=400;
+			aiRateOfFire=0.25;
+			aiRateOfFireDistance=50;
 			minRange=0;
 			minRangeProbab=0.050000001;
-			midRange=200;
+			midRange=25;
 			midRangeProbab=0.69999999;
-			maxRange=400;
+			maxRange=50;
 			maxRangeProbab=0.2;
 		};
 		class short: close
 		{
-			aiRateOfFire=0.05;
-			aiRateOfFireDistance=500;
-			minRange=300;
+			burst = 24;
+			aiRateOfFire=1;
+			aiRateOfFireDistance=300;
+			minRange=50;
 			minRangeProbab=0.2;
-			midRange=400;
+			midRange=150;
+			midRangeProbab=0.69999999;
+			maxRange=250;
+			maxRangeProbab=0.2;
+		};
+		class medium: close
+		{
+			burst = 15;
+			aiRateOfFire=2;
+			aiRateOfFireDistance=600;
+			minRange=250;
+			minRangeProbab=0.2;
+			midRange=425;
 			midRangeProbab=0.69999999;
 			maxRange=500;
 			maxRangeProbab=0.2;
 		};
-		class medium: FullAutoSlow
+		class far: FullAutoSlow
 		{
-			burst = 20;
-			aiRateOfFire=0.5;
-			aiRateOfFireDistance=900;
-			minRange=400;
+			burst = 9;
+			aiRateOfFire=4;
+			aiRateOfFireDistance=700;
+			minRange=500;
 			minRangeProbab=0.2;
-			midRange=700;
+			midRange=625;
 			midRangeProbab=0.69999999;
-			maxRange=900;
+			maxRange=750;
 			maxRangeProbab=0.2;
-			showToPlayer = 0;
-		};
-		class far_optic1: medium
-		{
-			burst=10;
-			requiredOpticType=1;
-			aiRateOfFire=5;
-			aiRateOfFireDistance=650;
-			minRange=300;
-			minRangeProbab=0.050000001;
-			midRange=500;
-			midRangeProbab=0.40000001;
-			maxRange=650;
-			maxRangeProbab=0.0099999998;
-		};
-		class far_optic2: far_optic1
-		{
-			burst=5;
-			requiredOpticType=2;
-			minRange=400;
-			minRangeProbab=0.050000001;
-			midRange=750;
-			midRangeProbab=0.69999999;
-			maxRange=900;
-			maxRangeProbab=0.0099999998;
-			aiRateOfFire=10;
-			aiRateOfFireDistance=900;
 		};
 		recoil="442_Z6_recoil";
 		aiDispersionCoefY=6;
 		aiDispersionCoefX=4;
 		drySound[]=
 		{
-			"SWLW_clones\machineguns\z6\sounds\Z6_empty.wss",
+			"\442_weapons\sounds\z6\Z6_empty.wss",
 			2,
 			1,
 			20
 		};
 		reloadMagazineSound[]=
 		{
-			"SWLW_main\Carbines\DC15S\sounds\DC15s_reload.wss",
+			"\442_weapons\sounds\dc15s\DC15s_reload.wss",
 			1,
 			1,
 			30

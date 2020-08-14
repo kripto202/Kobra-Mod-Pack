@@ -41,7 +41,7 @@
 		};
 		reloadMagazineSound[]=
 		{
-			"\SWLW_droids\smgs\e5\sounds\e5_reload.wss",
+			"\442_weapons\sounds\e5\sounds\e5_reload.wss",
 			0.56234133,
 			1,
 			30
@@ -77,21 +77,21 @@
 				weaponSoundEffect="";
 				begin1[]=
 				{
-					"\SWLW_droids\smgs\e5\sounds\e5",
+					"\442_weapons\sounds\e5\e5.wss",
 					1,
 					1,
 					1800
 				};
 				begin2[]=
 				{
-					"\SWLW_droids\smgs\e5\sounds\e5",
+					"\442_weapons\sounds\e5\e5.wss",
 					1,
 					1,
 					1800
 				};
 				begin3[]=
 				{
-					"\SWLW_droids\smgs\e5\sounds\e5",
+					"\442_weapons\sounds\e5\e5.wss",
 					1,
 					1,
 					1800
@@ -135,21 +135,21 @@
 				weaponSoundEffect="";
 				begin1[]=
 				{
-					"\SWLW_droids\smgs\e5\sounds\e5",
+					"\442_weapons\sounds\e5\e5.wss",
 					1,
 					1,
 					1800
 				};
 				begin2[]=
 				{
-					"\SWLW_droids\smgs\e5\sounds\e5",
+					"\442_weapons\sounds\e5\e5.wss",
 					1,
 					1,
 					1800
 				};
 				begin3[]=
 				{
-					"\SWLW_droids\smgs\e5\sounds\e5",
+					"\442_weapons\sounds\e5\e5.wss",
 					1,
 					1,
 					1800
@@ -175,52 +175,54 @@
 			aiRateOfFire=2;
 			aiRateOfFireDistance=25;
 		};
-		class close: Single
+		class close: FullAuto
 		{
+			burst = 10;
 			showToPlayer=0;
 			aiRateOfFire=0.25;
-			aiRateOfFireDistance=400;
+			aiRateOfFireDistance=50;
 			minRange=0;
 			minRangeProbab=0.050000001;
-			midRange=200;
+			midRange=25;
 			midRangeProbab=0.69999999;
-			maxRange=400;
+			maxRange=50;
 			maxRangeProbab=0.2;
 		};
 		class short: close
 		{
-			aiRateOfFire=0.5;
-			aiRateOfFireDistance=500;
-			minRange=300;
+			burst = 8;
+			aiRateOfFire=1;
+			aiRateOfFireDistance=300;
+			minRange=50;
 			minRangeProbab=0.2;
-			midRange=400;
+			midRange=125;
 			midRangeProbab=0.69999999;
-			maxRange=500;
+			maxRange=200;
 			maxRangeProbab=0.2;
 		};
 		class medium: close
 		{
-			aiRateOfFire=1;
-			aiRateOfFireDistance=900;
-			minRange=400;
+			burst = 5;
+			aiRateOfFire=2;
+			aiRateOfFireDistance=600;
+			minRange=200;
 			minRangeProbab=0.2;
-			midRange=700;
+			midRange=300;
 			midRangeProbab=0.69999999;
-			maxRange=900;
+			maxRange=400;
 			maxRangeProbab=0.2;
 		};
-		initspeed=820;
-		inertia=2;
-		dexterity=5;
-		maxRecoilSway=0.015;
-		swayDecaySpeed=5;
-		class WeaponSlotsInfo: WeaponSlotsInfo
+		class far: close
 		{
-			mass=60;
-			class CowsSlot: CowsSlot
-			{
-				compatibleItems[]={};
-			};
+			burst = 3;
+			aiRateOfFire=4;
+			aiRateOfFireDistance=700;
+			minRange=400;
+			minRangeProbab=0.2;
+			midRange=500;
+			midRangeProbab=0.69999999;
+			maxRange=600;
+			maxRangeProbab=0.2;
 		};
 	};
 ///e5c
@@ -313,7 +315,7 @@
 			{
 				begin1[]=
 				{
-					"\SWLW_droids\smgs\e5\sounds\e5",
+					"\442_weapons\sounds\e5\e5.wss",
 					1,
 					1,
 					500
@@ -333,19 +335,68 @@
 			maxRange=30;
 			maxRangeProbab=0.1;
 		};
+		class close: FullAuto
+		{
+			burst = 20;
+			showToPlayer=0;
+			aiRateOfFire=0.25;
+			aiRateOfFireDistance=50;
+			minRange=0;
+			minRangeProbab=0.050000001;
+			midRange=25;
+			midRangeProbab=0.69999999;
+			maxRange=50;
+			maxRangeProbab=0.2;
+		};
+		class short: close
+		{
+			burst = 16;
+			aiRateOfFire=1;
+			aiRateOfFireDistance=300;
+			minRange=50;
+			minRangeProbab=0.2;
+			midRange=150;
+			midRangeProbab=0.69999999;
+			maxRange=250;
+			maxRangeProbab=0.2;
+		};
+		class medium: close
+		{
+			burst = 10;
+			aiRateOfFire=2;
+			aiRateOfFireDistance=600;
+			minRange=250;
+			minRangeProbab=0.2;
+			midRange=375;
+			midRangeProbab=0.69999999;
+			maxRange=500;
+			maxRangeProbab=0.2;
+		};
+		class far: close
+		{
+			burst = 6;
+			aiRateOfFire=4;
+			aiRateOfFireDistance=700;
+			minRange=500;
+			minRangeProbab=0.2;
+			midRange=625;
+			midRangeProbab=0.69999999;
+			maxRange=750;
+			maxRangeProbab=0.2;
+		};
 		recoil="SWLW_Z6_recoil";
 		aiDispersionCoefY=6;
 		aiDispersionCoefX=4;
 		drySound[]=
 		{
-			"SWLW_clones\machineguns\z6\sounds\Z6_empty.wss",
+			"\442_weapons\sounds\z6\Z6_empty.wss",
 			2,
 			1,
 			20
 		};
 		reloadMagazineSound[]=
 		{
-			"\SWLW_droids\smgs\e5\sounds\e5_reload",
+			"\442_weapons\sounds\e5\e5.wss_reload",
 			1,
 			1,
 			30
