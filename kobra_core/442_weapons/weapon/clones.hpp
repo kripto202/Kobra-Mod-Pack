@@ -507,8 +507,85 @@
 		picture="\SWLW_clones\smgs\dc15s\data\ui\DC15s_ui.paa";
 		magazines[]=
 		{
+			"442_556_20rnd_blue_mag",
 			"442_556_30rnd_blue_mag",
-			"442_556_60rnd_blue_mag"
+			"442_556_60rnd_blue_mag",
+			"442_556_100rnd_blue_mag",
+
+			"442_556_20rnd_red_mag",
+			"442_556_30rnd_red_mag",
+			"442_556_60rnd_red_mag",
+			"442_556_100rnd_red_mag",
+
+			"442_556_20rnd_orange_mag",
+			"442_556_30rnd_orange_mag",
+			"442_556_60rnd_orange_mag",
+			"442_556_100rnd_orange_mag",
+
+			"442_556_20rnd_green_mag",
+			"442_556_30rnd_green_mag",
+			"442_556_60rnd_green_mag",
+			"442_556_100rnd_green_mag",
+
+			"442_556_20rnd_pink_mag",
+			"442_556_30rnd_pink_mag",
+			"442_556_60rnd_pink_mag",
+			"442_556_100rnd_pink_mag",
+
+			"442_556_20rnd_purple_mag",
+			"442_556_30rnd_purple_mag",
+			"442_556_60rnd_purple_mag",
+			"442_556_100rnd_purple_mag",
+
+			"442_556_20rnd_black_mag",
+			"442_556_30rnd_black_mag",
+			"442_556_60rnd_black_mag",
+			"442_556_100rnd_black_mag",
+
+			"442_556_20rnd_yellow_mag",
+			"442_556_30rnd_yellow_mag",
+			"442_556_60rnd_yellow_mag",
+			"442_556_100rnd_yellow_mag",
+
+			"442_556_20rnd_blue_b_mag",
+			"442_556_30rnd_blue_b_mag",
+			"442_556_60rnd_blue_b_mag",
+			"442_556_100rnd_blue_b_mag",
+
+			"442_556_20rnd_red_b_mag",
+			"442_556_30rnd_red_b_mag",
+			"442_556_60rnd_red_b_mag",
+			"442_556_100rnd_red_b_mag",
+
+			"442_556_20rnd_orange_b_mag",
+			"442_556_30rnd_orange_b_mag",
+			"442_556_60rnd_orange_b_mag",
+			"442_556_100rnd_orange_b_mag",
+
+			"442_556_20rnd_green_b_mag",
+			"442_556_30rnd_green_b_mag",
+			"442_556_60rnd_green_b_mag",
+			"442_556_100rnd_green_b_mag",
+
+			"442_556_20rnd_pink_b_mag",
+			"442_556_30rnd_pink_b_mag",
+			"442_556_60rnd_pink_b_mag",
+			"442_556_100rnd_pink_b_mag",
+
+			"442_556_20rnd_purple_b_mag",
+			"442_556_30rnd_purple_b_mag",
+			"442_556_60rnd_purple_b_mag",
+			"442_556_100rnd_purple_b_mag",
+
+			"442_556_20rnd_white_b_mag",
+			"442_556_30rnd_white_b_mag",
+			"442_556_60rnd_white_b_mag",
+			"442_556_100rnd_white_b_mag",
+
+			"442_556_20rnd_yellow_b_mag",
+			"442_556_30rnd_yellow_b_mag",
+			"442_556_60rnd_yellow_b_mag",
+			"442_556_100rnd_yellow_b_mag"
 		};
 		displayname="DC-15s carbine";
 		descriptionShort="Clone trooper carbine";
@@ -897,7 +974,44 @@
 		magazines[] = 
 		{
 			"442_45_45rnd_blue_mag",
-            "442_45_100rnd_blue_mag"
+            "442_45_100rnd_blue_mag",
+            "442_45_45rnd_blue_b_mag",
+            "442_45_100rnd_blue_b_mag",
+
+			"442_45_45rnd_red_mag",
+            "442_45_100rnd_red_mag",
+            "442_45_45rnd_red_b_mag",
+            "442_45_100rnd_red_b_mag",
+
+			"442_45_45rnd_orange_mag",
+            "442_45_100rnd_orange_mag",
+            "442_45_45rnd_orange_b_mag",
+            "442_45_100rnd_orange_b_mag",
+
+			"442_45_45rnd_green_mag",
+            "442_45_100rnd_green_mag",
+            "442_45_45rnd_green_b_mag",
+            "442_45_100rnd_green_b_mag",
+
+			"442_45_45rnd_pink_mag",
+            "442_45_100rnd_pink_mag",
+            "442_45_45rnd_pink_b_mag",
+            "442_45_100rnd_pink_b_mag",
+
+			"442_45_45rnd_purple_mag",
+            "442_45_100rnd_purple_mag",
+            "442_45_45rnd_purple_b_mag",
+            "442_45_100rnd_purple_b_mag",
+
+			"442_45_45rnd_black_mag",
+            "442_45_100rnd_black_mag",
+            "442_45_45rnd_white_b_mag",
+            "442_45_100rnd_white_b_mag",
+
+			"442_45_45rnd_yellow_mag",
+            "442_45_100rnd_yellow_mag",
+            "442_45_45rnd_yellow_b_mag",
+            "442_45_100rnd_yellow_b_mag"
 		};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
@@ -921,7 +1035,29 @@
 		};
 		magazines[]=
 		{
-			"442_127x33_10rnd_blue_mag"
+			"442_127x33_10rnd_blue_mag",
+			"442_127x33_10rnd_blue_b_mag",
+
+			"442_127x33_10rnd_red_mag",
+			"442_127x33_10rnd_red_b_mag",
+
+			"442_127x33_10rnd_orange_mag",
+			"442_127x33_10rnd_orange_b_mag",
+
+			"442_127x33_10rnd_green_mag",
+			"442_127x33_10rnd_green_b_mag",
+
+			"442_127x33_10rnd_pink_mag",
+			"442_127x33_10rnd_pink_b_mag",
+
+			"442_127x33_10rnd_purple_mag",
+			"442_127x33_10rnd_purple_b_mag",
+
+			"442_127x33_10rnd_black_mag",
+			"442_127x33_10rnd_white_b_mag",
+
+			"442_127x33_10rnd_yellow_mag",
+			"442_127x33_10rnd_yellow_b_mag"
 		};
 		magazineReloadSwitchPhase=0.40000001;
 		reloadAction="GestureReloadPistol";
@@ -1059,7 +1195,29 @@
 		picture="\SWLW_clones\rifles\dc15x\data\ui\DC15X_ui.paa";
 		magazines[]=
 		{
-			"442_408_10rnd_blue_mag"
+			"442_408_10rnd_blue_mag",
+			"442_408_10rnd_blue_b_mag",
+
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_b_mag",
+
+			"442_408_10rnd_orange_mag",
+			"442_408_10rnd_orange_b_mag",
+
+			"442_408_10rnd_green_mag",
+			"442_408_10rnd_green_b_mag",
+
+			"442_408_10rnd_pink_mag",
+			"442_408_10rnd_pink_b_mag",
+
+			"442_408_10rnd_purple_mag",
+			"442_408_10rnd_purple_b_mag",
+
+			"442_408_10rnd_black_mag",
+			"442_408_10rnd_white_b_mag",
+
+			"442_408_10rnd_yellow_mag",
+			"442_408_10rnd_yellow_b_mag"
 		};
 		displayname="DC-15X";
 		descriptionShort="";
@@ -1274,7 +1432,29 @@
 		initSpeed = -1;
 		magazines[]=
 		{
-			"442_127x108_5rnd_blue_mag"
+			"442_127x108_5rnd_blue_mag",
+			"442_127x108_5rnd_blue_b_mag",
+
+			"442_127x108_5rnd_red_mag",
+			"442_127x108_5rnd_red_b_mag",
+
+			"442_127x108_5rnd_orange_mag",
+			"442_127x108_5rnd_orange_b_mag",
+
+			"442_127x108_5rnd_green_mag",
+			"442_127x108_5rnd_green_b_mag",
+
+			"442_127x108_5rnd_pink_mag",
+			"442_127x108_5rnd_pink_b_mag",
+
+			"442_127x108_5rnd_purple_mag",
+			"442_127x108_5rnd_purple_b_mag",
+
+			"442_127x108_5rnd_black_mag",
+			"442_127x108_5rnd_white_b_mag",
+
+			"442_127x108_5rnd_yellow_mag",
+			"442_127x108_5rnd_yellow_b_mag"
 		};
 		class Single: Mode_SemiAuto
 		{
@@ -1359,7 +1539,29 @@
 		};
 		magazines[]=
 		{
-			"442_dc17_mag"
+			"442_9_20rnd_blue_mag",
+			"442_9_20rnd_blue_b_mag",
+
+			"442_9_20rnd_red_mag",
+			"442_9_20rnd_red_b_mag",
+
+			"442_9_20rnd_orange_mag",
+			"442_9_20rnd_orange_b_mag",
+
+			"442_9_20rnd_green_mag",
+			"442_9_20rnd_green_b_mag",
+
+			"442_9_20rnd_pink_mag",
+			"442_9_20rnd_pink_b_mag",
+
+			"442_9_20rnd_purple_mag",
+			"442_9_20rnd_purple_b_mag",
+
+			"442_9_20rnd_black_mag",
+			"442_9_20rnd_white_b_mag",
+
+			"442_9_20rnd_yellow_mag",
+			"442_9_20rnd_yellow_b_mag"
 		};
 		reloadAction="GestureReloadPistol";
 		displayName="DC-17";
@@ -1910,6 +2112,58 @@
 			"442_65_30rnd_blue_mag",
 			"442_65_60rnd_blue_mag",
 			"442_65_100rnd_blue_mag",
+			"442_65_30rnd_blue_b_mag",
+			"442_65_60rnd_blue_b_mag",
+			"442_65_100rnd_blue_b_mag",
+
+			"442_65_30rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_100rnd_red_mag",
+			"442_65_30rnd_red_b_mag",
+			"442_65_60rnd_red_b_mag",
+			"442_65_100rnd_red_b_mag",
+
+			"442_65_30rnd_orange_mag",
+			"442_65_60rnd_orange_mag",
+			"442_65_100rnd_orange_mag",
+			"442_65_30rnd_orange_b_mag",
+			"442_65_60rnd_orange_b_mag",
+			"442_65_100rnd_orange_b_mag",
+
+			"442_65_30rnd_green_mag",
+			"442_65_60rnd_green_mag",
+			"442_65_100rnd_green_mag",
+			"442_65_30rnd_green_b_mag",
+			"442_65_60rnd_green_b_mag",
+			"442_65_100rnd_green_b_mag",
+
+			"442_65_30rnd_pink_mag",
+			"442_65_60rnd_pink_mag",
+			"442_65_100rnd_pink_mag",
+			"442_65_30rnd_pink_b_mag",
+			"442_65_60rnd_pink_b_mag",
+			"442_65_100rnd_pink_b_mag",
+
+			"442_65_30rnd_purple_mag",
+			"442_65_60rnd_purple_mag",
+			"442_65_100rnd_purple_mag",
+			"442_65_30rnd_purple_b_mag",
+			"442_65_60rnd_purple_b_mag",
+			"442_65_100rnd_purple_b_mag",
+
+			"442_65_30rnd_black_mag",
+			"442_65_60rnd_black_mag",
+			"442_65_100rnd_black_mag",
+			"442_65_30rnd_white_b_mag",
+			"442_65_60rnd_white_b_mag",
+			"442_65_100rnd_white_b_mag",
+
+			"442_65_30rnd_yellow_mag",
+			"442_65_60rnd_yellow_mag",
+			"442_65_100rnd_yellow_mag",
+			"442_65_30rnd_yellow_b_mag",
+			"442_65_60rnd_yellow_b_mag",
+			"442_65_100rnd_yellow_b_mag"
 		};
 		displayname="Westar M5";
 		descriptionShort="";
@@ -2216,7 +2470,82 @@
 			"442_556_100rnd_blue_mag",
 			"442_556_150rnd_blue_mag",
 			"442_556_200rnd_blue_mag",
-			"442_556_500rnd_blue_mag"
+			"442_556_500rnd_blue_mag",
+
+			"442_556_100rnd_red_mag",
+			"442_556_150rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_500rnd_red_mag",
+
+			"442_556_100rnd_orange_mag",
+			"442_556_150rnd_orange_mag",
+			"442_556_200rnd_orange_mag",
+			"442_556_500rnd_orange_mag",
+
+			"442_556_100rnd_green_mag",
+			"442_556_150rnd_green_mag",
+			"442_556_200rnd_green_mag",
+			"442_556_100rnd_green_mag",
+
+			"442_556_100rnd_pink_mag",
+			"442_556_150rnd_pink_mag",
+			"442_556_200rnd_pink_mag",
+			"442_556_500rnd_pink_mag",
+
+			"442_556_100rnd_purple_mag",
+			"442_556_150rnd_purple_mag",
+			"442_556_200rnd_purple_mag",
+			"442_556_500rnd_purple_mag",
+
+			"442_556_100rnd_black_mag",
+			"442_556_150rnd_black_mag",
+			"442_556_200rnd_black_mag",
+			"442_556_500rnd_black_mag",
+
+			"442_556_100rnd_yellow_mag",
+			"442_556_150rnd_yellow_mag",
+			"442_556_200rnd_yellow_mag",
+			"442_556_500rnd_yellow_mag",
+
+			"442_556_100rnd_blue_b_mag",
+			"442_556_150rnd_blue_b_mag",
+			"442_556_200rnd_blue_b_mag",
+			"442_556_500rnd_blue_b_mag",
+
+			"442_556_100rnd_red_b_mag",
+			"442_556_150rnd_red_b_mag",
+			"442_556_200rnd_red_b_mag",
+			"442_556_500rnd_red_b_mag",
+
+			"442_556_100rnd_orange_b_mag",
+			"442_556_150rnd_orange_b_mag",
+			"442_556_200rnd_orange_b_mag",
+			"442_556_500rnd_orange_b_mag",
+
+			"442_556_100rnd_green_b_mag",
+			"442_556_150rnd_green_b_mag",
+			"442_556_150rnd_green_b_mag",
+			"442_556_500rnd_green_b_mag",
+
+			"442_556_100rnd_pink_b_mag",
+			"442_556_150rnd_pink_b_mag",
+			"442_556_200rnd_pink_b_mag",
+			"442_556_500rnd_pink_b_mag",
+
+			"442_556_100rnd_purple_b_mag",
+			"442_556_150rnd_purple_b_mag",
+			"442_556_200rnd_purple_b_mag",
+			"442_556_5000rnd_purple_b_mag",
+
+			"442_556_100rnd_white_b_mag",
+			"442_556_150rnd_white_b_mag",
+			"442_556_200rnd_white_b_mag",
+			"442_556_500rnd_white_b_mag",
+
+			"442_556_100rnd_yellow_b_mag",
+			"442_556_150rnd_yellow_b_mag",
+			"442_556_200rnd_yellow_b_mag",
+			"442_556_500rnd_yellow_b_mag"
 		};
 		muzzles[]=
 		{
@@ -2280,7 +2609,8 @@
 		modes[] = 
 		{
 			"FullAutoFast", 
-			"FullAutoSlow", 
+			"FullAutoSlow",
+			"Explosive", 
 			"close", 
 			"short", 
 			"medium", 
@@ -2423,6 +2753,14 @@
 			1,
 			1
 		};
+		class animationsources: animationsources
+		{
+			class gatling
+			{
+				source = "revolving";
+				weapon = "442_Z6";
+			};
+		};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
 			mass=176;
@@ -2439,7 +2777,7 @@
 				compatibleItems[]={};
 			};
 		};
-		/*class Explosive: 442_Z6
+		class Explosive: 442_Z6
 		{
 			author="SW Legion Studios";
 			displayName="HE mode";
@@ -2483,7 +2821,7 @@
 			{
 				"Single"
 			};
-		};*/
+		};
 	};
 	class 442_e6z: 442_Z6
 	{
@@ -2499,11 +2837,11 @@
 			"442_556_200rnd_blue_mag",
 			"442_556_500rnd_blue_mag"
 		};
-		/*class explosive: explosive
+		class explosive: explosive
 		{
 			magazines[] = 
 			{
 				"442_40_6rnd_he_blue_mag"
 			};
-		};*/
+		};
 	};

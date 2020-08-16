@@ -1815,3 +1815,69 @@ class CfgVehicleIcons
 	pictureHeal="\A3\ui_f\data\map\vehicleicons\pictureHeal_ca.paa";
 	pictureRepair="\A3\ui_f\data\map\vehicleicons\pictureRepair_ca.paa";
 };
+
+class cfgglasses
+{
+	class none;
+	class 442_clone_p1_glasses: none
+	{
+		model = "\A3\Weapons_f\DummyNVG";
+		displayname = "[K] P1 Hud";
+		ace_dustPath="442_misc\glasses\data\442_p1_hud_dirt.paa";
+		ace_Overlay="442_misc\glasses\data\442_p1_hud.paa";
+		ace_overlaycracked="442_misc\glasses\data\442_p1_hud_damage.paa";
+		ace_overlayDirt="442_misc\glasses\data\442_p1_hud_dirt.paa";
+		ace_resistance = 0;
+		ace_protection = 1;
+		author = "kripto202";
+		mass = 1;
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
+		mode = 0;
+	};
+	class 442_clone_p2_glasses: 442_clone_p1_glasses
+	{
+		displayname = "[K] P2 Hud";
+		ace_dustPath="442_misc\glasses\data\442_p2_hud_dirt.paa";
+		ace_Overlay="442_misc\glasses\data\442_p2_hud.paa";
+		ace_overlaycracked="442_misc\glasses\data\442_p2_hud_damage.paa";
+		ace_overlayDirt="442_misc\glasses\data\442_p2_hud_dirt.paa";
+	};
+	class 442_clone_ab_barc_glasses: 442_clone_p1_glasses
+	{
+		displayname = "[K] Airborne/Barc Hud";
+		ace_dustPath="442_misc\glasses\data\442_ab_barc_hud_dirt.paa";
+		ace_Overlay="442_misc\glasses\data\442_ab_barc_hud.paa";
+		ace_overlaycracked="442_misc\glasses\data\442_ab_barc_hud_damage.paa";
+		ace_overlayDirt="442_misc\glasses\data\442_ab_barc_hud_dirt.paa";
+	};
+	class 442_clone_arf_glasses: 442_clone_p1_glasses
+	{
+		displayname = "[K] ARF Hud";
+		ace_dustPath="442_misc\glasses\data\442_arf_hud_dirt.paa";
+		ace_Overlay="442_misc\glasses\data\442_arf_hud.paa";
+		ace_overlaycracked="442_misc\glasses\data\442_arf_hud_damage.paa";
+		ace_overlayDirt="442_misc\glasses\data\442_arf_hud_dirt.paa";
+	};
+	class 442_clone_p1_diving: 442_clone_p1_glasses
+	{
+		displayname = "[K] P1 Hud (Diving)";
+		mode = 1;
+	};
+	class 442_clone_p2_diving: 442_clone_p2_glasses
+	{
+		displayname = "[K] P2 Hud (Diving)";
+		mode = 1;
+	};
+	class 442_clone_ab_barc_diving: 442_clone_ab_barc_glasses
+	{
+		displayname = "[K] Airborne/Barc Hud (Diving)";
+		mode = 1;
+	};
+	class 442_clone_arf_diving: 442_clone_arf_glasses
+	{
+		displayname = "[K] ARF Hud (Diving)";
+		mode = 1;
+	};
+};
