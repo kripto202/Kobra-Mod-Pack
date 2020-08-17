@@ -98,11 +98,13 @@
 		hiddenSelections[]=
 		{
 			"camo1",
+			"magazine",
 			"sight"
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"442_weapons\clones\dc15a\data\body_co.paa",
+			"442_weapons\clones\dc15a\data\dc15a_co.paa",
+			"442_weapons\clones\dc15a\data\dc15a_mag_co.paa",
 			"\442_weapons\clones\dc15a\data\optic\training_blue.paa"
 		};
 		class Library
@@ -386,12 +388,14 @@
 		{
 			"camo1",
 			"camo2",
+			"magazine",
 			"sight"
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"442_weapons\clones\dc15a\data\body_co.paa",
-			"\SWLW_clones\rifles\dc15a\data\DC15A_ugl_co.paa",
+			"442_weapons\clones\dc15a\data\dc15a_co.paa",
+			"442_weapons\clones\dc15a\data\DC15A_ugl_co.paa",
+			"442_weapons\clones\dc15a\data\dc15a_mag_co.paa",
 			"\442_weapons\clones\dc15a\data\optic\training_blue.paa"
 		};
 		class EGLM: UGL_F
@@ -439,8 +443,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"442_weapons\clones\dc15a\data\body_co.paa",
-			"\SWLW_clones\rifles\dc15a\data\DC15A_ugl_co.paa",
+			"442_weapons\clones\dc15a\data\dc15a_co.paa",
+			"442_weapons\clones\dc15a\data\DC15A_ugl_co.paa",
 			"\442_weapons\clones\dc15a\data\optic\training_blue.paa"
 		};
 		class 442_MC: Rifle_Base_F
@@ -1189,7 +1193,7 @@
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\442_weapons\anim\dc15x\anims\dc15x_handanim.rtm"
+			"\442_weapons\anim\dc15x\dc15x_handanim.rtm"
 		};
 		reloadAction="ReloadMagazine";
 		picture="\SWLW_clones\rifles\dc15x\data\ui\DC15X_ui.paa";
@@ -1965,7 +1969,7 @@
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\442_weapons\anims\rps6\RPS6_handanim.rtm"
+			"\442_weapons\anim\rps6\RPS6_handanim.rtm"
 		};
 		reloadAction="ReloadRPG";
 		recoil="recoil_empty";
@@ -2095,7 +2099,7 @@
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\442_weapons\anims\westar_m5\westarm5_handanim.rtm"
+			"\442_weapons\anim\westar_m5\westarm5_handanim.rtm"
 		};
 		reloadAction="ReloadMagazine";
 		picture="\SWLW_clones\smgs\westar_m5\data\ui\WestarM5_ui.paa";
@@ -2589,7 +2593,7 @@
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\442_weapons\anims\z6\Z6_handanim.rtm"
+			"\442_weapons\anim\z6\Z6_handanim.rtm"
 		};
 		dexterity=1;
 		caseless[]=
@@ -2610,12 +2614,11 @@
 		{
 			"FullAutoFast", 
 			"FullAutoSlow",
-			"Explosive", 
+			//"Explosive", 
 			"close", 
 			"short", 
-			"medium", 
-			"far_optic1", 
-			"far_optic2"
+			"medium",
+			"far"
 		};
 		class FullAutoSlow: Mode_FullAuto
 		{
@@ -2639,7 +2642,7 @@
 					1
 				};
 			};
-			reloadTime=0.0.096001;
+			reloadTime=0.096001;
 			dispersion=0.0099999998;
 			minRange=0;
 			minRangeProbab=0.89999998;
@@ -2777,7 +2780,7 @@
 				compatibleItems[]={};
 			};
 		};
-		class Explosive: UGL_F
+		/*class Explosive: UGL_F
 		{
 			author="SW Legion Studios";
 			displayName="HE mode";
@@ -2821,7 +2824,7 @@
 			{
 				"Single"
 			};
-		};
+		};*/
 	};
 	class 442_e6z: 442_Z6
 	{
@@ -2837,11 +2840,11 @@
 			"442_556_200rnd_blue_mag",
 			"442_556_500rnd_blue_mag"
 		};
-		class explosive: explosive
+		/*class explosive: explosive
 		{
 			magazines[] = 
 			{
 				"442_40_6rnd_he_blue_mag"
 			};
-		};
+		};*/
 	};
