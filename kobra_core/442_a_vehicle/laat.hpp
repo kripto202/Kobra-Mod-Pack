@@ -1,4 +1,4 @@
-	class 442_laat_2_base: Helicopter_Base_H
+class 442_laat_2_base: Helicopter_Base_H
 	{
 		ace_fastroping_enabled=1;
 		ace_fastroping_ropeorigins[]=
@@ -17,8 +17,7 @@
 			"442_laat_gun",
 			"442_laat_gun_2",
 			"missiles_DAR",
-			"CMFlareLauncher",
-			"Laserdesignator_pilotCamera"
+			"CMFlareLauncher"
 		};
 		magazines[]=
 		{
@@ -31,8 +30,7 @@
 			"12rnd_missiles",
 			"240Rnd_CMFlare_Chaff_Magazine",
 			"240Rnd_CMFlare_Chaff_Magazine",
-			"240Rnd_CMFlare_Chaff_Magazine",
-			"Laserbatteries"
+			"240Rnd_CMFlare_Chaff_Magazine"
 		};
 		fuelCapacity=2500;
 		fuelConsumptionRate=0.138;
@@ -83,7 +81,6 @@
 		memoryPointsGetInDriverDir="pos_driver_dir";
 		memoryPointsGetInCargo="pos_cargo";
 		memoryPointsGetInCargoDir="pos_cargo_dir";
-		memoryPointDriverOptics="slingcamera";
 		memoryPointsGetInCargoPrecise[]=
 		{
 			"pos_cargo"
@@ -257,14 +254,10 @@
 			minFov=0.375;
 			maxFov=1.1;
 		};
-		class pilotCamera 
+		class pilotCamera
 		{
-
-			//The various views in the camera
-			class OpticsIn 
+			class OpticsIn
 			{
-				
-				//Default View, all further views are zoomed in versions. Most of this has been copied from vanilla
 				class Wide
 				{
 					opticsDisplayName = "WFOV";
@@ -274,70 +267,45 @@
 					initAngleY = 0;
 					minAngleY = -90;
 					maxAngleY = 90;
-					initFov = 0.425;
-					minFov = 0.425;
-					maxFov = 0.425;
+					initFov = "(30 / 120)";
+					minFov = "(30 / 120)";
+					maxFov = "(30 / 120)";
 					directionStabilized = 1;
-					thermalMode[] = {0,1}; //The two vanilla versions of Thermals are included. The SWOP versions of Thermal have not been included
-					visionMode[] = {"Normal","NVG","Ti"}; //Normal for Normal, NVG for Nightvision (still don't know if the game treats it as a light amplifier or a IR camera, but given the shitty quality sometimes I assume amplifier), Ti for Thermal Image.
+					visionMode[] = {"Normal", "Ti"};
+					thermalMode[] = {0, 1};
 					gunnerOpticsModel = "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_wide_F.p3d";
-					opticsPPEffects[] = {"OpticsCHAbera2","OpticsBlur2"};
+					opticsPPEffects[] = {"OpticsCHAbera2", "OpticsBlur2"};
 				};
-				class zoomx4: Wide
+				class Medium: Wide
+				{
+					opticsDisplayName = "MFOV";
+					initFov = "(15 / 120)";
+					minFov = "(15 / 120)";
+					maxFov = "(15 / 120)";
+					gunnerOpticsModel = "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_medium_F.p3d";
+				};
+				class Narrow: Wide
 				{
 					opticsDisplayName = "NFOV";
-					initFov = "(0.425/4)";
-					minFov = "(0.425/4)";
-					maxFov = "(0.425/4)";
+					initFov = "(3.75 / 120)";
+					minFov = "(3.75 / 120)";
+					maxFov = "(3.75 / 120)";
 					gunnerOpticsModel = "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_narrow_F.p3d";
 				};
-				class zoomX8: Wide
-				{
-					opticsDisplayName = "NFOV";
-					initFov = "(0.42/8)";
-					minFov = "(0.42/8)";
-					maxFov = "(0.42/8)";
-					gunnerOpticsModel = "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_narrow_F.p3d";
-				};
-				class zoomX20: Wide
-				{
-					opticsDisplayName = "NFOV";
-					initFov = "(0.42/20)";
-					minFov = "(0.42/20)";
-					maxFov = "(0.42/20)";
-					gunnerOpticsModel = "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_narrow_F.p3d";
-				};
-				class zoomX50: Wide
-				{
-					opticsDisplayName = "NFOV";
-					initFov = "(0.42/50)";
-					minFov = "(0.42/50)";
-					maxFov = "(0.42/50)";
-					gunnerOpticsModel = "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_narrow_F.p3d";
-				};
-				class zoomX70: Wide
-				{
-					opticsDisplayName = "NFOV";
-					initFov = "(0.42/70)";
-					minFov = "(0.42/70)";
-					maxFov = "(0.42/70)";
-					gunnerOpticsModel = "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_narrow_F.p3d";
-				};
-				showMiniMapInOptics = 1; //Allows you to keep your minimap open while in camera view
-				showUAVViewInOptics = 0; //Does not allow you to keep your Pilot Camera PIP open when switching to the Pilot Camera view
-				showSlingLoadManagerInOptics = 1; //Allows you to keep your SlingLoadAssistant open while in Pilot Camera view, aka when you point it down, you can still use it to help you with sling-loading.
+				showMiniMapInOptics = 1;
+				showUAVViewInOptics = 0;
+				showSlingLoadManagerInOptics = 1;
 			};
-			minTurn = -180; //Together with the below line, this makes for a 360° rotation.
-			maxTurn = 180;
-			initTurn = 0; //Initial camera rotation
-			minElev = -10; //Minimum camera elevation.
-			maxElev = 90; //Maximum camera elevation. It's backwards, a positive level allows you to go further down. 90 is the de-facto maximum.
-			initElev = -10; //Initial camera elevation (it's pointing slightly up)
-			maxXRotSpeed = 0.3; //How fast it can rotate left-right
-			maxYRotSpeed = 0.3; //How fast it can rotate up-down
-			pilotOpticsShowCursor = 1; //In theory allows a HUD to show the point where your Pilot Camera is looking at. The LS LAAT HUD does not seem to have such a function enabled. I kept it at True in case such a function is added later on.
-			controllable = 1; //Allows the pilot to control the camera
-			ace_missileguidance_usePilotCameraForTargeting = 1; //Flag for ACE that Pilot Camera guided weapons (mainly HOT missiles) use this camera for their guidance. With that line set to False, the missile is going to follow the nose of the LAAT.
+			minTurn = -90;
+			maxTurn = 90;
+			initTurn = 0;
+			minElev = -10;
+			maxElev = 90;
+			initElev = -10;
+			maxXRotSpeed = 0.3;
+			maxYRotSpeed = 0.3;
+			pilotOpticsShowCursor = 1;
+			controllable = 1;
 		};
 		class wingvortices
 		{
@@ -4514,39 +4482,39 @@
 		};
 		soundEngineOnInt[]=
 		{
-			"442_a_vehicle\laat\sounds\laat_engine_start_int.wss",
+			"442_laat_2\sounds\laat_engine_start_int.wss",
 			0.316228,
 			1
 		};
 		soundEngineOnExt[]=
 		{
-			"442_a_vehicle\laat\sounds\laat_engine_start.wss",
+			"442_laat_2\sounds\laat_engine_start.wss",
 			0.79432797,
 			1,
 			600
 		};
 		soundEngineOffInt[]=
 		{
-			"442_a_vehicle\laat\sounds\laat_engine_end_int.wss",
+			"442_laat_2\sounds\laat_engine_end_int.wss",
 			0.316228,
 			1
 		};
 		soundEngineOffExt[]=
 		{
-			"442_a_vehicle\laat\sounds\laat_engine_end.wss",
+			"442_laat_2\sounds\laat_engine_end.wss",
 			0.79432797,
 			1,
 			600
 		};
 		soundLocked[]=
 		{
-			"442_a_vehicle\laat\sounds\laat_lock_on_beep.wss",
+			"442_laat_2\sounds\laat_lock_on_beep.wss",
 			1,
 			1
 		};
 		soundIncommingMissile[]=
 		{
-			"442_a_vehicle\laat\sounds\laat_lock_on_alert_beep.wss",
+			"442_laat_2\sounds\laat_lock_on_alert_beep.wss",
 			0.316228,
 			1
 		};
@@ -4908,7 +4876,7 @@
 			{
 				sound[]=
 				{
-					"442_a_vehicle\laat\sounds\laat_engine_int.wss",
+					"442_laat_2\sounds\laat_engine_int.wss",
 					0.79432797,
 					1
 				};
@@ -4919,7 +4887,7 @@
 			{
 				sound[]=
 				{
-					"442_a_vehicle\laat\sounds\laat_engine.wss",
+					"442_laat_2\sounds\laat_engine.wss",
 					1.25893,
 					1,
 					600

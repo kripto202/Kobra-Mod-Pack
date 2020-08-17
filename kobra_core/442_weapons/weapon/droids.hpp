@@ -321,7 +321,7 @@
 			"442_65_60rnd_white_b_mag",
 			"442_65_100rnd_white_b_mag",
 			"442_65_30rnd_yellow_b_mag",
-			"442_65_60rnd_yellow_b_mag",
+			"442_65_60rnd_yellow_b_mag"
 			"442_65_100rnd_yellow_b_mag"
 		};
 		ace_overheating_allowSwapBarrel=1;

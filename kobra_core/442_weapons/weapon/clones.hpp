@@ -2777,7 +2777,7 @@
 				compatibleItems[]={};
 			};
 		};
-		class Explosive: UGL_F
+		class Explosive: 442_Z6
 		{
 			author="SW Legion Studios";
 			displayName="HE mode";
