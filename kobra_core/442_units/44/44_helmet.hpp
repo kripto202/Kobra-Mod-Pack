@@ -12,7 +12,7 @@
 		};
 		hiddenselectionstextures[] = 
 		{
-			"442_units\44\data\helmets\44_swla_p2_helmet.paa",
+			"442_units\44\data\helmets\44_p2_helmet.paa",
 			"442_units\44\data\helmet\p2_helmet\visor_co.paa"
 		};
 	};
@@ -31,7 +31,7 @@
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_units\44\data\helmets\44_swla_p15_helmet.paa",
+			"442_units\44\data\helmets\44_p15_helmet.paa",
 			"442_units\data\helmet\p15_helmet\visor_co.paa",
 			"442_units\data\helmet\p15_helmet\illum_co.paa"
 		};
@@ -45,7 +45,7 @@
 		picture = "442_units\44\data\ui\preview\44_ab_helmet.paa";
 		hiddenselectionstextures[]=
 		{
-			"442_units\44\data\helmets\44_swla_airborne_helmet.paa",
+			"442_units\44\data\helmets\44_airborne_helmet.paa",
 			"442_units\data\helmet\ab_helmet\visor_co.paa"
 		};
 		hiddenselectionsmaterials[] = 
@@ -68,7 +68,7 @@
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_units\44\data\helmets\44_swla_pilot_helmet.paa",
+			"442_units\44\data\helmets\44_pilot_helmet.paa",
 			"442_units\data\helmet\p2_pilot_helmet\visor_co.paa"
 		};
 	};
@@ -81,7 +81,7 @@
 		picture = "442_units\44\data\ui\preview\44_barc_helmet.paa";
 		hiddenselectionstextures[]=
 		{
-			"442_units\44\data\helmets\44_swla_barc_helmet.paa",
+			"442_units\44\data\helmets\44_barc_helmet.paa",
 			"442_uints\data\helmet\barc_helmet\visor_co.paa"
 		};
 		hiddenselectionsmaterials[] = 
@@ -99,7 +99,7 @@
 		picture = "442_units\44\data\ui\preview\44_arf_p1_helmet.paa";
 		hiddenselectionstextures[]=
 		{
-			"442_units\44\data\helmets\44_swla_arf_helmet.paa",
+			"442_units\44\data\helmets\44_arf_helmet.paa",
 			"442_units\data\helmet\arf_helmet\visor_co.paa"
 		};
 		hiddenselectionsmaterials[] = 
@@ -117,7 +117,7 @@
 		picture = "442_units\44\data\ui\preview\44_arf_p2_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
-			"442_units\44\data\helmets\44_swla_arf_helmet.paa",
+			"442_units\44\data\helmets\44_arf_helmet.paa",
 			"442_units\data\helmet\arf_helmet\camo2_co.paa",
 			"442_units\data\helmet\arf_helmet\visor_co.paa"
 		};
@@ -137,7 +137,7 @@
 		picture = "442_units\44\data\ui\preview\44_eng_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
-			"442_units\44\data\helmets\44_swla_engineer_helmet.paa",
+			"442_units\44\data\helmets\44_engineer_helmet.paa",
 			"442_units\data\helmet\eng_helmet\light_co.paa",
 			"442_units\data\helmet\eng_helmet\visor_co.paa"
 		};
@@ -157,7 +157,7 @@
 		picture = "442_units\44\data\ui\preview\44_p1_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
-			"442_units\44\data\helmets\44_swla_p1_helmet.paa",
+			"442_units\44\data\helmets\44_p1_helmet.paa",
 			"442_units\data\helmet\p1_helmet\visor_co.paa",
 			"442_units\data\helmet\p1_helmet\illum_co.paa"
 		};
@@ -177,7 +177,7 @@
 		picture = "442_units\44\data\ui\preview\44_pilot_p1_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
-			"442_units\44\data\helmets\44_swla_p1_pilot_helmet.paa",
+			"442_units\44\data\helmets\44_p1_pilot_helmet.paa",
 			"442_units\44\data\helmets\44_swla_p1_pilot_lifesupport.paa",
 			"442_units\data\helmet\p1_pilot_helmet\visor_co.paa"
 		};
@@ -197,7 +197,7 @@
 		picture = "442_units\44\data\ui\preview\44_spec_p1_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
-			"442_units\44\data\helmets\44_swla_p1_spec_helmet.paa",
+			"442_units\44\data\helmets\44_p1_spec_helmet.paa",
 			"442_units\data\helmet\p1_spec_helmet\visor_co.paa"
 		};
 		hiddenselectionsmaterials[] = 
@@ -215,7 +215,7 @@
 		picture = "442_units\44\data\ui\preview\44_spec_p2_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
-			"442_uints\44\data\helmets\44_swla_p2_spec_helmet.paa",
+			"442_uints\44\data\helmets\44_p2_spec_helmet.paa",
 			"442_units\data\helmet\p2_spec_helmet\visor_co.paa"
 		};
 		hiddenselectionsmaterials[] = 
@@ -233,7 +233,7 @@
 		picture = "442_units\44\data\ui\preview\44_rex_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
-			"442_units\44\data\helmets\44_swla_rex_helmet.paa",
+			"442_units\44\data\helmets\44_rex_helmet.paa",
 			"442_units\data\helmet\rex_helmet\visor_co.paa"
 		};
 		hiddenselectionsmaterials[] = 
