@@ -1818,66 +1818,46 @@ class CfgVehicleIcons
 
 class cfgglasses
 {
-	class none;
-	class 442_clone_p1_glasses: none
+	class G_Combat;
+	class 442_clone_p1_glasses: G_Combat
 	{
-		model = "\A3\Weapons_f\DummyNVG";
+		author="kripto202";
+		ace_Overlay = "\442_misc\glasses\data\442_p1_hud_ca.paa";
+		ACE_OverlayDirt="A3\Ui_f\data\igui\rsctitles\HealthTextures\dust_upper_ca.paa";
+		ace_overlaycracked = "\442_misc\glasses\data\442_p1_hud_damage_ca.paa";
+		ACE_DustPath="\z\ace\addons\goggles\textures\fx\dust\%1.paa";
+		ACE_Resistance=1;
+		ACE_Protection=1;
+		ACE_TintAmount=0;
 		displayname = "[K] P1 Hud";
-		ace_dustPath="442_misc\glasses\data\442_p1_hud_dirt.paa";
-		ace_Overlay="442_misc\glasses\data\442_p1_hud.paa";
-		ace_overlaycracked="442_misc\glasses\data\442_p1_hud_damage.paa";
-		ace_overlayDirt="442_misc\glasses\data\442_p1_hud_dirt.paa";
-		ace_resistance = 0;
-		ace_protection = 1;
-		author = "kripto202";
-		mass = 1;
-		scope = 2;
-		scopecurator = 2;
-		scopearsenal = 2;
-		mode = 0;
+		identityTypes[]={};
+		mass=2;
+		model="\A3\Weapons_f\DummyNVG";
+		hiddenSelections[]={};
+		hiddenSelectionsTextures[]={};
 	};
 	class 442_clone_p2_glasses: 442_clone_p1_glasses
 	{
 		displayname = "[K] P2 Hud";
-		ace_dustPath="442_misc\glasses\data\442_p2_hud_dirt.paa";
-		ace_Overlay="442_misc\glasses\data\442_p2_hud.paa";
-		ace_overlaycracked="442_misc\glasses\data\442_p2_hud_damage.paa";
-		ace_overlayDirt="442_misc\glasses\data\442_p2_hud_dirt.paa";
+		ACE_DustPath="\z\ace\addons\goggles\textures\fx\dust\%1.paa";
+		ace_Overlay="\442_misc\glasses\data\442_p2_hud_ca.paa";
+		ace_overlaycracked="\442_misc\glasses\data\442_p2_hud_damage_ca.paa";
+		ACE_OverlayDirt="A3\Ui_f\data\igui\rsctitles\HealthTextures\dust_upper_ca.paa";
 	};
 	class 442_clone_ab_barc_glasses: 442_clone_p1_glasses
 	{
 		displayname = "[K] Airborne/Barc Hud";
-		ace_dustPath="442_misc\glasses\data\442_ab_barc_hud_dirt.paa";
-		ace_Overlay="442_misc\glasses\data\442_ab_barc_hud.paa";
-		ace_overlaycracked="442_misc\glasses\data\442_ab_barc_hud_damage.paa";
-		ace_overlayDirt="442_misc\glasses\data\442_ab_barc_hud_dirt.paa";
+		ACE_DustPath="\z\ace\addons\goggles\textures\fx\dust\%1.paa";
+		ace_Overlay="\442_misc\glasses\data\442_ab_barc_hud_ca.paa";
+		ace_overlaycracked="\442_misc\glasses\data\442_ab_barc_hud_damage_ca.paa";
+		ACE_OverlayDirt="A3\Ui_f\data\igui\rsctitles\HealthTextures\dust_upper_ca.paa";
 	};
 	class 442_clone_arf_glasses: 442_clone_p1_glasses
 	{
 		displayname = "[K] ARF Hud";
-		ace_dustPath="442_misc\glasses\data\442_arf_hud_dirt.paa";
-		ace_Overlay="442_misc\glasses\data\442_arf_hud.paa";
-		ace_overlaycracked="442_misc\glasses\data\442_arf_hud_damage.paa";
-		ace_overlayDirt="442_misc\glasses\data\442_arf_hud_dirt.paa";
-	};
-	class 442_clone_p1_diving: 442_clone_p1_glasses
-	{
-		displayname = "[K] P1 Hud (Diving)";
-		mode = 1;
-	};
-	class 442_clone_p2_diving: 442_clone_p2_glasses
-	{
-		displayname = "[K] P2 Hud (Diving)";
-		mode = 1;
-	};
-	class 442_clone_ab_barc_diving: 442_clone_ab_barc_glasses
-	{
-		displayname = "[K] Airborne/Barc Hud (Diving)";
-		mode = 1;
-	};
-	class 442_clone_arf_diving: 442_clone_arf_glasses
-	{
-		displayname = "[K] ARF Hud (Diving)";
-		mode = 1;
+		ACE_DustPath="\z\ace\addons\goggles\textures\fx\dust\%1.paa";
+		ace_Overlay="\442_misc\glasses\data\442_arf_hud_ca.paa";
+		ace_overlaycracked="\442_misc\glasses\data\442_arf_hud_damage_ca.paa";
+		ACE_OverlayDirt="A3\Ui_f\data\igui\rsctitles\HealthTextures\dust_upper_ca.paa";
 	};
 };
