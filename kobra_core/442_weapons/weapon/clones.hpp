@@ -2460,7 +2460,7 @@
 		ace_overheating_slowdownFactor=1e-006;
 		ace_overheating_allowSwapBarrel=1;
 		ace_overheating_dispersion=0;
-		scope=1;
+		scope=2;
 		author="SW Legion Studios";
 		displayName="Z6 Rotary Blaster";
 		model="SWLW_clones\machineguns\z6\Z6.p3d";
@@ -2777,7 +2777,7 @@
 				compatibleItems[]={};
 			};
 		};
-		class Explosive: 442_Z6
+		class Explosive: UGL_F
 		{
 			author="SW Legion Studios";
 			displayName="HE mode";

@@ -1,4 +1,4 @@
-class 442_laat_2_base: Helicopter_Base_H
+	class 442_laat_2_base: Helicopter_Base_H
 	{
 		ace_fastroping_enabled=1;
 		ace_fastroping_ropeorigins[]=
@@ -17,7 +17,8 @@ class 442_laat_2_base: Helicopter_Base_H
 			"442_laat_gun",
 			"442_laat_gun_2",
 			"missiles_DAR",
-			"CMFlareLauncher"
+			"CMFlareLauncher",
+			"Laserdesignator_pilotCamera"
 		};
 		magazines[]=
 		{
@@ -30,7 +31,8 @@ class 442_laat_2_base: Helicopter_Base_H
 			"12rnd_missiles",
 			"240Rnd_CMFlare_Chaff_Magazine",
 			"240Rnd_CMFlare_Chaff_Magazine",
-			"240Rnd_CMFlare_Chaff_Magazine"
+			"240Rnd_CMFlare_Chaff_Magazine",
+			"Laserbatteries"
 		};
 		fuelCapacity=2500;
 		fuelConsumptionRate=0.138;
@@ -80,6 +82,7 @@ class 442_laat_2_base: Helicopter_Base_H
 		memoryPointsGetInDriver="pos_driver";
 		memoryPointsGetInDriverDir="pos_driver_dir";
 		memoryPointsGetInCargo="pos_cargo";
+		memoryPointDriverOptics="slingcamera";
 		memoryPointsGetInCargoDir="pos_cargo_dir";
 		memoryPointsGetInCargoPrecise[]=
 		{
