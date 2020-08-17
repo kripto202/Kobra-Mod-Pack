@@ -1200,7 +1200,7 @@
 			};
 			class TransportPylonsComponent
 			{
-				uiPicture="\442_laat_2\data\ui\laat_ui.paa";
+				uiPicture="\442_a_vehicle\laat\data\ui\laat_ui.paa";
 				class Pylons
 				{
 					class PylonLeft1
@@ -4485,39 +4485,39 @@
 		};
 		soundEngineOnInt[]=
 		{
-			"442_laat_2\sounds\laat_engine_start_int.wss",
+			"442_a_vehicle\laat\sounds\laat_engine_start_int.wss",
 			0.316228,
 			1
 		};
 		soundEngineOnExt[]=
 		{
-			"442_laat_2\sounds\laat_engine_start.wss",
+			"442_a_vehicle\laat\sounds\laat_engine_start.wss",
 			0.79432797,
 			1,
 			600
 		};
 		soundEngineOffInt[]=
 		{
-			"442_laat_2\sounds\laat_engine_end_int.wss",
+			"442_a_vehicle\laat\sounds\laat_engine_end_int.wss",
 			0.316228,
 			1
 		};
 		soundEngineOffExt[]=
 		{
-			"442_laat_2\sounds\laat_engine_end.wss",
+			"442_a_vehicle\laat\sounds\laat_engine_end.wss",
 			0.79432797,
 			1,
 			600
 		};
 		soundLocked[]=
 		{
-			"442_laat_2\sounds\laat_lock_on_beep.wss",
+			"442_a_vehicle\laat\sounds\laat_lock_on_beep.wss",
 			1,
 			1
 		};
 		soundIncommingMissile[]=
 		{
-			"442_laat_2\sounds\laat_lock_on_alert_beep.wss",
+			"442_a_vehicle\laat\sounds\laat_lock_on_alert_beep.wss",
 			0.316228,
 			1
 		};
@@ -4879,7 +4879,7 @@
 			{
 				sound[]=
 				{
-					"442_laat_2\sounds\laat_engine_int.wss",
+					"442_a_vehicle\laat\sounds\laat_engine_int.wss",
 					0.79432797,
 					1
 				};
@@ -4890,7 +4890,7 @@
 			{
 				sound[]=
 				{
-					"442_laat_2\sounds\laat_engine.wss",
+					"442_a_vehicle\laat\sounds\laat_engine.wss",
 					1.25893,
 					1,
 					600
@@ -5421,7 +5421,7 @@
 			verticaloffset=0;
 			verticaloffsetworld=0;
 		};
-		model="442_laat_2\Laat_ab.p3d";
+		model="442_a_vehicle\laat\Laat_ab.p3d";
 		displayname="LAAT/I Gunship (Airborne)";
 		getInRadius=5;
 		cargoCanEject=1;
@@ -5750,7 +5750,7 @@
 		scopecurator=2;
 		icon="iconObject_1x2";
 		displayname="LAAT (Wrecked)";
-		model="442_laat_2\laat_w.p3d";
+		model="442_a_vehicle\laat\laat_w.p3d";
 		editorCategory="kobra";
 		editorSubcategory="442_wrecks";
 	};
@@ -5762,21 +5762,21 @@
 		scope=2;
 		scopecurator=2;
 		displayname="LAAT Door 1";
-		model="442_laat_2\laat_w2.p3d";
+		model="442_a_vehicle\laat\laat_w2.p3d";
 		editorSubcategory="EdSubcat_Helicopters";
 	};
 	class 442_laat_door_2: 442_laat_door_1
 	{
 		displayname="LAAT Door 2";
-		model="442_laat_2\laat_w3.p3d";
+		model="442_a_vehicle\laat\laat_w3.p3d";
 	};
 	class 442_laat_door_3: 442_laat_door_1
 	{
 		displayname="LAAT Door 3";
-		model="442_laat_2\laat_w4.p3d";
+		model="442_a_vehicle\laat\laat_w4.p3d";
 	};
 	class 442_laat_door_4: 442_laat_door_1
 	{
 		displayname="LAAT Door 4";
-		model="442_laat_2\laat_w5.p3d";
+		model="442_a_vehicle\laat\laat_w5.p3d";
 	};
