@@ -1685,6 +1685,7 @@ class cfgammo
 		}; */
 	};
 	class ShotgunBase;
+	class grenadehand;
 	class 442_shotgun_base: ShotgunBase
 	{
 		effectfly="442_plasma_blue";

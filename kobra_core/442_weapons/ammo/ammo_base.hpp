@@ -659,3 +659,54 @@ class 442_nlaw_AT: MissileBase
 		distance = 1;
 	};
 };
+
+class 442_thermal_det: grenadehand
+{
+	model = "442_weapons\explosive\thermal_det.p3d";
+	hit = 20;
+	indirectHit = 10;
+	indirecthitrage = 6;
+	dangerradiushit = 60;
+	suppressionradiushit = 24;
+	typicalspeed = 20;
+	visibleFire=0.5;
+	audibleFire=.5;
+	visibleFireTime=1;
+	fuseDistance=0;
+	class NVGMarkers
+	{
+		class Blinking1
+		{
+			name = "blinkpos1";
+			color[] = {0.01, 0.01, 0.01, 1};
+			ambient[] = {0.005, 0.005, 0.005, 1};
+			blinking = 1;
+			brightness = 0.002;
+			onlyInNvg = 1;
+		};
+		class Blinking2
+		{
+			color[] = {0.9, 0.1, 0.1};
+			ambient[] = {0.1, 0.1, 0.1};
+			name = "blinkpos2";
+			blinking = 1;
+			blinkingStartsOn = 1;
+			blinkingPattern[] = {0.1, 0.9};
+			blinkingPatternGuarantee = 1;
+			drawLightSize = 0.35;
+			drawLightCenterSize = 0.05;
+			brightness = 0.002;
+			dayLight = 1;
+			onlyInNvg = 0;
+			intensity = 75;
+			drawLight = 1;
+			activeLight = 0;
+			useFlare = 0;
+		};
+	};
+	ace_frag_enabled = 1;
+	ace_frag_skip = 0;
+	ace_frag_force = 1;
+	explosionEffects = "VehicleExplosionEffects";
+	soundFly[] = {"442_weapons\sounds\thermal_det\thermal_det.ogg", 1.5, 1, 90};
+};
