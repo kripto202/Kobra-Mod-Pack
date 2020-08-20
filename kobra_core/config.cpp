@@ -723,7 +723,7 @@ class cfgweapons
 	#include "442_units\helmet.hpp"
 	#include "442_units\vest.hpp"
 
-	#include "442_units\9\9_uniform.hpp"
+	/*#include "442_units\9\9_uniform.hpp"
 	#include "442_units\9\9_helmet.hpp"
 	#include "442_units\9\9_vest.hpp"
 
@@ -733,10 +733,57 @@ class cfgweapons
 
 	#include "442_units\442\442_uniform.hpp"
 	#include "442_units\442\442_helmet.hpp"
-	#include "442_units\442\442_vest.hpp"
+	#include "442_units\442\442_vest.hpp"*/
 
 	#include "442_equipment\attachment.hpp"
 	#include "442_equipment\vest.hpp"
+	
+	/*class Default;
+	class GrenadeLauncher;
+	class Throw: GrenadeLauncher
+	{
+		class ThrowMuzzle;
+		muzzles[]+= 
+		{
+			"442_throw_thermal_det_muzzle"
+		};
+		class 442_throw_thermal_det_muzzle: ThrowMuzzle
+		{
+			magazines[] = {"442_thermal_det"};
+		};
+	};*/
+	
+	class Default;
+	class GrenadeLauncher: Default{};
+	class Throw: GrenadeLauncher
+	{
+		muzzles[] += {"442_thermal_det_muzzle"};
+		class 442_thermal_det_muzzle: GrenadeLauncher
+		{
+			displayName = "Thermal Det";
+			picture = "\SWLW_clones\grenades\beltgrenade\data\ui\icon_beltGrenade.paa";
+			aidispersioncoefx = 6;
+			aidispersioncoefy = 6;
+			autoreload = 1;
+			cursor = "EmptyCursor";
+			cursoraim = "throw";
+			enableattack = 0;
+			keepininventory = 1;
+			magazinereloadtime = 0;
+			maxrange = 60;
+			maxrangeprobab = 0.03;
+			midrange = 45;
+			midrangeprobab = 0.9;
+			minrange = 10;
+			minrangeprobab = 0.2;
+			modeloptics = "";
+			reloadsound[] = {"",0.000316228,1};
+			reloadtime = 0;
+			showempty = 0;
+			sound[] = {"",0.000316228,1};
+			magazines[] = {"442_thermal_det_mag"};
+		};
+	};
 };
 class cfgvehicles
 {
@@ -1444,6 +1491,7 @@ class cfgammo
 	class Sh_120mm_HE;
 	class ammo_AAA_Gun35mm_AA;
 	class MissileBase;
+	class grenadehand;
 	class BulletBase: BulletCore
 	{
 		class SuperSonicCrack;
@@ -1685,7 +1733,6 @@ class cfgammo
 		}; */
 	};
 	class ShotgunBase;
-	class grenadehand;
 	class 442_shotgun_base: ShotgunBase
 	{
 		effectfly="442_plasma_blue";
@@ -1744,6 +1791,7 @@ class cfgmagazines
 	class 1Rnd_SmokeBlue_Grenade_shell;
 	class 1Rnd_SmokeGreen_Grenade_shell;
 	class Default;
+	class HandGrenade;
 	class CA_Magazine: Default
 	{
 		author="$STR_A3_Bohemia_Interactive";
@@ -1800,6 +1848,7 @@ class cfgmagazines
 	#include "442_weapons\magazine\75_magazine.hpp"
 	#include "442_weapons\magazine\shotgun_magazine.hpp"
 	#include "442_weapons\magazine\rocket_magazine.hpp"
+	#include "442_weapons\magazine\explosive.hpp"
 };
 
 class CfgVehicleIcons

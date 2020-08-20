@@ -660,19 +660,23 @@ class 442_nlaw_AT: MissileBase
 	};
 };
 
-class 442_thermal_det: grenadehand
+
+class 442_thermal_det: GrenadeHand
 {
-	model = "442_weapons\explosive\thermal_det.p3d";
+	author = "kripto202";
+	displayName = "Thermal Detinator";
+	picture = "\SWLW_clones\grenades\beltgrenade\data\ui\icon_beltGrenade.paa";
 	hit = 20;
 	indirectHit = 10;
-	indirecthitrage = 6;
-	dangerradiushit = 60;
-	suppressionradiushit = 24;
-	typicalspeed = 20;
-	visibleFire=0.5;
-	audibleFire=.5;
-	visibleFireTime=1;
-	fuseDistance=0;
+	indirectHitRange = 45;
+	dangerRadiusHit = 60;
+	suppressionRadiusHit = 24;
+	typicalspeed = 30;
+	model = "442_weapons\explosive\thermal_det.p3d";
+	visibleFire = 0.5;
+	audibleFire = 0.05;
+	visibleFireTime = 1;
+	fuseDistance = 0;
 	class NVGMarkers
 	{
 		class Blinking1
@@ -704,9 +708,9 @@ class 442_thermal_det: grenadehand
 			useFlare = 0;
 		};
 	};
-	ace_frag_enabled = 1;
+	ace_frag_enabled = 0;
 	ace_frag_skip = 0;
 	ace_frag_force = 1;
 	explosionEffects = "VehicleExplosionEffects";
-	soundFly[] = {"442_weapons\sounds\thermal_det\thermal_det.ogg", 1.5, 1, 90};
+	soundFly[] = {"442_weapons\sounds\thermal_det\thermal_det.wss", 1.5, 1, 90};
 };
