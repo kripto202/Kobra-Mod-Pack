@@ -664,7 +664,6 @@ class 442_nlaw_AT: MissileBase
 class 442_thermal_det: GrenadeHand
 {
 	author = "kripto202";
-	displayName = "Thermal Detinator";
 	picture = "\SWLW_clones\grenades\beltgrenade\data\ui\icon_beltGrenade.paa";
 	hit = 20;
 	indirectHit = 10;
@@ -710,7 +709,33 @@ class 442_thermal_det: GrenadeHand
 	};
 	ace_frag_enabled = 0;
 	ace_frag_skip = 0;
-	ace_frag_force = 1;
+	ace_frag_force = 0;
 	explosionEffects = "VehicleExplosionEffects";
 	soundFly[] = {"442_weapons\sounds\thermal_det\thermal_det.wss", 1.5, 1, 90};
+};
+class 442_impact: G_40mm_HE
+{
+	author = "kripto202";
+	picture = "\SWLW_clones\grenades\beltgrenade\data\ui\icon_beltGrenade.paa";
+	hit = 15;
+	indirectHit = 8;
+	indirectHitRange = 20;
+	dangerRadiusHit = 30;
+	suppressionRadiusHit = 12;
+	typicalspeed = 30;
+	model = "442_weapons\explosive\impact_grenade.p3d";
+	visibleFire = 0.5;
+	audibleFire = 0.05;
+	visibleFireTime = 1;
+	fuseDistance = 0;
+	ace_frag_enabled = 1;
+	ace_frag_metal = 230;
+	ace_frag_charge = 190;
+	ace_frag_gurney_c = 2700;
+	ace_frag_gurney_k = 3/5;
+	ace_frag_classes[] = {"ace_frag_medium_HD"};
+	ace_frag_skip = 1;
+	ace_frag_force = 1;
+	explosionEffects = "VehicleExplosionEffects";
+	soundFly[] = {"442_weapons\sounds\impact_grenade\impact_grenade_cook.wss", 1.5, 1, 90};
 };

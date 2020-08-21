@@ -757,7 +757,11 @@ class cfgweapons
 	class GrenadeLauncher: Default{};
 	class Throw: GrenadeLauncher
 	{
-		muzzles[] += {"442_thermal_det_muzzle"};
+		muzzles[] += 
+		{
+			"442_thermal_det_muzzle",
+			"442_impact_muzzle"
+		};
 		class 442_thermal_det_muzzle: GrenadeLauncher
 		{
 			displayName = "Thermal Det";
@@ -782,6 +786,10 @@ class cfgweapons
 			showempty = 0;
 			sound[] = {"",0.000316228,1};
 			magazines[] = {"442_thermal_det_mag"};
+		};
+		class 442_impact_muzzle: 442_thermal_det_muzzle
+		{
+			magazines[] = {"442_impact_mag"};
 		};
 	};
 };
@@ -1492,6 +1500,7 @@ class cfgammo
 	class ammo_AAA_Gun35mm_AA;
 	class MissileBase;
 	class grenadehand;
+	class G_40mm_HE;
 	class BulletBase: BulletCore
 	{
 		class SuperSonicCrack;
