@@ -728,14 +728,6 @@ class 442_impact: G_40mm_HE
 	audibleFire = 0.05;
 	visibleFireTime = 1;
 	fuseDistance = 0;
-	ace_frag_enabled = 1;
-	ace_frag_metal = 230;
-	ace_frag_charge = 190;
-	ace_frag_gurney_c = 2700;
-	ace_frag_gurney_k = 3/5;
-	ace_frag_classes[] = {"ace_frag_medium_HD"};
-	ace_frag_skip = 1;
-	ace_frag_force = 1;
 	explosionEffects = "VehicleExplosionEffects";
 	soundFly[] = {"442_weapons\sounds\impact_grenade\impact_grenade_cook.wss", 1.5, 1, 90};
 };
