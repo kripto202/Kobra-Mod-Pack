@@ -205,6 +205,11 @@
     {
         displayname = "[K] Clone P1 NVG Visor";
         model = "442_equipment\attachments\clone_p1_visor_on.p3d";
+        hiddenselectionstextures[] = 
+        {
+            "442_equipment\attachments\data\attachments_co.paa",
+            ""
+        };
         class Iteminfo: iteminfo
         {
             uniformmodel = "442_equipment\attachments\clone_p1_visor_on.p3d";

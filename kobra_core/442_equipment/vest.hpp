@@ -278,7 +278,7 @@ class k_vest_cfr: k_vest_base
         {
             "holster"
         };
-        containerclass = "Supply175";
+        containerclass = "Supply180";
         mass = 35;
         uniformmodel = "442_equipment\vests\clone_cfr_armor.p3d";
     };

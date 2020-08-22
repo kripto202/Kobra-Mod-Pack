@@ -718,12 +718,12 @@ class cfgweapons
 	};
 	#include "442_units\uniform_base.hpp"
 	#include "442_units\helmet_base.hpp"
-	#include "442_units\vest_base.hpp"
+	//#include "442_units\vest_base.hpp"
 	#include "442_units\uniform.hpp"
 	#include "442_units\helmet.hpp"
-	#include "442_units\vest.hpp"
+	//#include "442_units\vest.hpp"
 
-	/*#include "442_units\9\9_uniform.hpp"
+	#include "442_units\9\9_uniform.hpp"
 	#include "442_units\9\9_helmet.hpp"
 	#include "442_units\9\9_vest.hpp"
 
@@ -733,7 +733,7 @@ class cfgweapons
 
 	#include "442_units\442\442_uniform.hpp"
 	#include "442_units\442\442_helmet.hpp"
-	#include "442_units\442\442_vest.hpp"*/
+	#include "442_units\442\442_vest.hpp"
 
 	#include "442_equipment\attachment.hpp"
 	#include "442_equipment\vest.hpp"
