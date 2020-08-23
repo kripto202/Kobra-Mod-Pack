@@ -281,7 +281,7 @@
 		picture = "442_units\data\ui\preview\9_barc_helmet.paa";
 		hiddenselectionstextures[]=
 		{
-			442_units\clones\9\data\helmets\barc_helmet\9_barc_clean_co.paa",
+			"442_units\clones\9\data\helmets\barc_helmet\9_barc_clean_co.paa",
 			"442_units\clones\data\helmet\barc_helmet\visor_co.paa"
 		};
 	};
