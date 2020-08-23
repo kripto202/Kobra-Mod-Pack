@@ -303,10 +303,10 @@
 			maxRange=700;
 			maxRangeProbab=0.2;
 		};
-		aiDispersionCoefY=5;
-		aiDispersionCoefX=5;
+		aiDispersionCoefY=2.5;
+		aiDispersionCoefX=2.5;
 		maxRecoilSway=0.0125;
-		recoil="SWLW_recoil";
+		recoil="442_recoil";
 		swayDecaySpeed=1.25;
 		dexterity=1.7;
 		initspeed=800;
@@ -790,12 +790,12 @@
 			maxRange=700;
 			maxRangeProbab=0.2;
 		};
-		aiDispersionCoefY=5;
-		aiDispersionCoefX=5;
+		aiDispersionCoefY=2.5;
+		aiDispersionCoefX=2.5;
 		inertia=1;
 		dexterity=1.7;
 		initSpeed=-1;
-		recoil="SWLW_recoil";
+		recoil="442_recoil";
 		maxRecoilSway=0.015;
 		swayDecaySpeed=1.25;
 		class WeaponSlotsInfo: WeaponSlotsInfo
@@ -1382,7 +1382,7 @@
 			maxRangeProbab=0.2;
 		};
 		maxRecoilSway=0.0125;
-		recoil="SWLW_recoil";
+		recoil="442_recoil";
 		swayDecaySpeed=1.25;
 		dexterity=1.7;
 		initSpeed = -1;
@@ -2199,7 +2199,7 @@
 			"short",
 			"medium"
 		};
-		recoil="SWLW_recoil";
+		recoil="442_recoil";
 		fireLightDuration=0.050000001;
 		fireLightIntensity=0.40000001;
 		fireLightDiffuse[]={0,0,0.0099999998};
@@ -2733,8 +2733,8 @@
 			maxRange=750;
 			maxRangeProbab=0.2;
 		};
-		recoil="442_Z6_recoil";
-		aiDispersionCoefY=6;
+		recoil="442_recoil";
+		aiDispersionCoefY=4;
 		aiDispersionCoefX=4;
 		drySound[]=
 		{

@@ -634,6 +634,25 @@ class CowsSlot;
 class PointerSlot;
 class UnderBarrelSlot;
 class UGL_F;
+class CfgRecoils
+{
+	class recoil_default;
+	class 442_recoil: recoil_default
+	{
+		kickBack[]={0.02,0.01};
+		muzzleOuter[]={0.30000001,0.40000001,0.30000001,0.2};
+		permanent=0.01;
+		temporary=0.0020000001;
+	};
+	class 442_scatter_recoil
+	{
+		muzzleOuter[]={0.30000001,1,0.30000001,0.2};
+		muzzleInner[]={0,0,0.1,0.1};
+		kickBack[]={0.029999999,0.059999999};
+		permanent=0.2;
+		temporary=0.30000001;
+	};
+};
 class cfgweapons
 {
     class MGun;
@@ -737,21 +756,6 @@ class cfgweapons
 
 	#include "442_equipment\attachment.hpp"
 	#include "442_equipment\vest.hpp"
-	
-	/*class Default;
-	class GrenadeLauncher;
-	class Throw: GrenadeLauncher
-	{
-		class ThrowMuzzle;
-		muzzles[]+= 
-		{
-			"442_throw_thermal_det_muzzle"
-		};
-		class 442_throw_thermal_det_muzzle: ThrowMuzzle
-		{
-			magazines[] = {"442_thermal_det"};
-		};
-	};*/
 	
 	class Default;
 	class GrenadeLauncher: Default{};
