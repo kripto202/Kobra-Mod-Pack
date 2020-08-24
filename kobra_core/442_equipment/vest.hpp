@@ -631,3 +631,13 @@ class k_vest_specialist: k_vest_base
         uniformmodel = "442_equipment\vests\clone_specialist_armor.p3d";
     };
 };
+
+class 9_vest_arc_foe: k_vest_arc_1
+{
+    displayname = "[9] Arc Armor (Foe)";
+    hiddenselectionstextures[] = 
+    {
+        "442_equipment\vests\data\442_vest_1_b.paa",
+        "442_units\clones\9\data\vests\foe_arc_vest.paa"
+    };
+};
