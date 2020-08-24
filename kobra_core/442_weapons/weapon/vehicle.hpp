@@ -1,4 +1,4 @@
-///laat
+///tx130
 	class 442_saber_gun: gatling_20mm
 	{
 		displayname = "50mm Cannons";
@@ -73,13 +73,24 @@
 			maxRangeProbab = 0.1;
 		};
 	};
+	class 442_saber_tow: missiles_titan
+	{
+		scope = 1;
+		displayname = "TOW Launchers";
+		displaynameshort = "TOW";
+		magazines[] = 
+		{
+			"4rnd_saber_tow_mag"
+		};
+	};
+///laat
 	class 442_laat_gun: 442_saber_gun
 	{
 		displayname = "Laat nose guns HE";
 		displaynameshort = "50mm HE";
 		magazines[] = 
         {
-            "442_50_200rnd_he_blue_mag"
+            "442_50_200rnd_he_green_mag"
         };
 		class GunParticles{};
 		class FullAuto: MGun
@@ -93,7 +104,7 @@
 			{
 				begin1[]=
 				{
-					"442_laat_2\sounds\dc-15r.wss",
+					"442_a_vehicle\laat\sounds\dc-15r.wss",
 					1,
 					1,
 					500
@@ -153,7 +164,7 @@
 	};
 	class 442_laat_gun_2: 442_laat_gun
 	{
-		magazines[] = {"442_50_200rnd_ap_blue_mag"};
+		magazines[] = {"442_50_200rnd_ap_green_mag"};
 		displayname = "Laat nose guns AP";
 		displaynameshort = "50mm AP";
 	};
@@ -162,7 +173,7 @@
     class 442_hmp_gun: 442_laat_gun
 	{
 		displayname = "HMP Auto Guns HE";
-		magazines[] = {"442_50_200rnd_he_blue_mag"};
+		magazines[] = {"442_50_200rnd_he_red_mag"};
 		scope = 1;
 		class gunparticles {};
 		selectionFireAnim[] = 
@@ -177,7 +188,7 @@
 	class 442_hmp_gun_2: 442_laat_gun_2
 	{
 		displayname = "HMP Auto Guns AP";
-		magazines[] = {"442_50_200rnd_ap_blue_mag"};
+		magazines[] = {"442_50_200rnd_ap_red_mag"};
 		class gunparticles {};
 		selectionFireAnim[] = 
 		{
@@ -191,7 +202,7 @@
 	class 442_hmp_gun_3: 442_hmp_gun
 	{
 		displayname = "HMP Infantry Cheek Gun";
-		magazines[] = {"442_50_200rnd_ap_blue_mag"};
+		magazines[] = {"442_50_200rnd_ap_red_mag"};
 	};
 
 ///aat
@@ -199,7 +210,7 @@
 	{
 		displayName = "12.7mm AAT Side Gun";
 		scope = 1;
-		magazines[] = {"442_127x99_500rnd_blue_mag"};
+		magazines[] = {"442_127x99_500rnd_red_mag"};
 		maxZeroing = 2000;
 		class GunParticles
 		{
@@ -222,7 +233,7 @@
 			sounds[] = {"StandardSound"};
 			class StandardSound
 			{
-				begin1[] = {"442_aat\sounds\aat_light_guns.wss",1.5848932,1,2100};
+				begin1[] = {"442_g_vehicle\aat\sounds\aat_light_guns.wss",1.5848932,1,2100};
 				soundBegin[] = {"begin1",1};
 			};
 			soundContinuous = 0;
@@ -311,8 +322,8 @@
 		reloadMagazineSound[] = {"A3\Sounds_F\arsenal\weapons_vehicles\cannon_120mm\Cannon_120mm_Reload_01",2.5118864,1,10};
 		magazines[] = 
         {
-            "442_75_30rnd_ap_blue_mag", 
-            "442_75_30rnd_he_blue_mag"
+            "442_75_30rnd_ap_red_mag", 
+            "442_75_30rnd_he_red_mag"
         };
 		reloadTime = 6;
 		magazineReloadTime = 6;
@@ -332,7 +343,7 @@
 			sounds[] = {"StandardSound"};
 			class StandardSound
 			{
-				begin1[] = {"442_aat\sounds\aat_main_gun.wss",3.1622777,1,1500};
+				begin1[] = {"442_g_vehicle\aat\sounds\aat_main_gun.wss",3.1622777,1,1500};
 				soundBegin[] = {"begin1",1};
 			};
 			soundContinuous = 0;
@@ -430,7 +441,7 @@
 		displayName = "$STR_A3_GMG_20mm0";
 		magazines[] = 
         {
-            "442_40_50rnd_he_blue_mag"
+            "442_40_50rnd_he_red_mag"
         };
 		reloadMagazineSound[] = {"A3\Sounds_F\arsenal\weapons_static\Static_GMG\reload_static_GMG",0.8912509,1,20};
 		class GunClouds{};
@@ -544,7 +555,7 @@
         displayname = "75mm MTT Ball Gun";
         magazines[] = 
         {
-            "442_75_30rnd_he_blue_mag"
+            "442_75_30rnd_he_red_mag"
         };
         reloadTime = 2.5;
         magazineReloadTime = 6;
@@ -568,7 +579,7 @@
             sounds[] = {"StandardSound"};
             class StandardSound
             {
-                begin1[] = {"442_aat\sounds\aat_main_gun.wss",3.1622777,1,1500};
+                begin1[] = {"442_g_vehicle\aat\sounds\aat_main_gun.wss",3.1622777,1,1500};
                 soundBegin[] = {"begin1",1};
             };
             soundContinuous = 0;
@@ -678,17 +689,6 @@
             };
         };
     };
-///tx130
-	class 442_saber_tow: missiles_titan
-	{
-		scope = 1;
-		displayname = "TOW Launchers";
-		displaynameshort = "TOW";
-		magazines[] = 
-		{
-			"4rnd_saber_tow_mag"
-		};
-	};
 ///halo warthog
     class rep_Mounted_repeater: HMG_127
 	{
@@ -769,7 +769,7 @@
 	{
 		magazines[] = 
         {
-            "442_127x99_1000rnd_blue_mag"
+            "442_127x99_1000rnd_red_mag"
         };
 	};
 ///assault boat
@@ -799,7 +799,7 @@
 			{
 				begin1[]=
 				{
-					"SWLW_clones\machineguns\z6\sounds\Z6_1.wss",
+					"442_weapons\sounds\z6\Z6_1.wss",
 					1,
 					1,
 					500

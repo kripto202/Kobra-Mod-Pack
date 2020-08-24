@@ -20,3 +20,69 @@ class 442_40_6rnd_he_blue_mag: 442_40_50rnd_he_blue_mag
     mass = 30;
     count = 6;
 };
+
+class 442_40_50rnd_he_green_mag: 442_40_50rnd_he_blue_mag
+{
+    displayname = "40mm HE Plasma Cell (50rnd Green)";
+    ammo = "442_ammo_40mm_green";
+};
+class 442_40_6rnd_he_green_mag: 442_40_6rnd_he_blue_mag
+{
+    displayname = "40mm HE Plasma Cell (6rnd Green)";
+    ammo = "442_ammo_40mm_green";
+};
+
+class 442_40_50rnd_he_orange_mag: 442_40_50rnd_he_blue_mag
+{
+    displayname = "40mm HE Plasma Cell (50rnd Orange)";
+    ammo = "442_ammo_40mm_orange";
+};
+class 442_40_6rnd_he_orange_mag: 442_40_6rnd_he_blue_mag
+{
+    displayname = "40mm HE Plasma Cell (6rnd Orange)";
+    ammo = "442_ammo_40mm_orange";
+};
+
+class 442_40_50rnd_he_red_mag: 442_40_50rnd_he_blue_mag
+{
+    displayname = "40mm HE Plasma Cell (50rnd Red)";
+    ammo = "442_ammo_40mm_red";
+};
+class 442_40_6rnd_he_red_mag: 442_40_6rnd_he_blue_mag
+{
+    displayname = "40mm HE Plasma Cell (6rnd Red)";
+    ammo = "442_ammo_40mm_red";
+};
+
+class 442_40_50rnd_he_pink_mag: 442_40_50rnd_he_blue_mag
+{
+    displayname = "40mm HE Plasma Cell (50rnd Pink)";
+    ammo = "442_ammo_40mm_pink";
+};
+class 442_40_6rnd_he_pink_mag: 442_40_6rnd_he_blue_mag
+{
+    displayname = "40mm HE Plasma Cell (6rnd Pink)";
+    ammo = "442_ammo_40mm_pink";
+};
+
+class 442_40_50rnd_he_purple_mag: 442_40_50rnd_he_blue_mag
+{
+    displayname = "40mm HE Plasma Cell (50rnd Purple)";
+    ammo = "442_ammo_40mm_purple";
+};
+class 442_40_6rnd_he_purple_mag: 442_40_6rnd_he_blue_mag
+{
+    displayname = "40mm HE Plasma Cell (6rnd Purple)";
+    ammo = "442_ammo_40mm_purple";
+};
+
+class 442_40_50rnd_he_yellow_mag: 442_40_50rnd_he_blue_mag
+{
+    displayname = "40mm HE Plasma Cell (50rnd Yellow)";
+    ammo = "442_ammo_40mm_yellow";
+};
+class 442_40_6rnd_he_yellow_mag: 442_40_6rnd_he_blue_mag
+{
+    displayname = "40mm HE Plasma Cell (6rnd Yellow)";
+    ammo = "442_ammo_40mm_yellow";
+};

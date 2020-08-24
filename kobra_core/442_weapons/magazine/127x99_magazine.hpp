@@ -18,3 +18,69 @@ class 442_127x99_1000rnd_blue_mag: 442_127x99_500rnd_blue_mag
     displayname = "12.7mm Plasma Cell (1000rnd Blue)";
     count = 1000;
 };
+
+class 442_127x99_500rnd_green_mag: 442_127x99_500rnd_blue_mag
+{
+    displayname = "12.7mm Plasma Cell (500rnd Green)";
+    ammo = "442_ammo_127x99_green";
+};
+class 442_127x99_1000rnd_green_mag: 442_127x99_1000rnd_blue_mag
+{
+    displayname = "12.7mm Plasma Cell (1000rnd Green)";
+    ammo = "442_ammo_127x99_green";
+};
+
+class 442_127x99_500rnd_orange_mag: 442_127x99_500rnd_blue_mag
+{
+    displayname = "12.7mm Plasma Cell (500rnd Orange)";
+    ammo = "442_ammo_127x99_orange";
+};
+class 442_127x99_1000rnd_orange_mag: 442_127x99_1000rnd_blue_mag
+{
+    displayname = "12.7mm Plasma Cell (1000rnd Orange)";
+    ammo = "442_ammo_127x99_orange";
+};
+
+class 442_127x99_500rnd_red_mag: 442_127x99_500rnd_blue_mag
+{
+    displayname = "12.7mm Plasma Cell (500rnd Red)";
+    ammo = "442_ammo_127x99_red";
+};
+class 442_127x99_1000rnd_red_mag: 442_127x99_1000rnd_blue_mag
+{
+    displayname = "12.7mm Plasma Cell (1000rnd Red)";
+    ammo = "442_ammo_127x99_red";
+};
+
+class 442_127x99_500rnd_pink_mag: 442_127x99_500rnd_blue_mag
+{
+    displayname = "12.7mm Plasma Cell (500rnd Pink)";
+    ammo = "442_ammo_127x99_pink";
+};
+class 442_127x99_1000rnd_pink_mag: 442_127x99_1000rnd_blue_mag
+{
+    displayname = "12.7mm Plasma Cell (1000rnd Pink)";
+    ammo = "442_ammo_127x99_pink";
+};
+
+class 442_127x99_500rnd_purple_mag: 442_127x99_500rnd_blue_mag
+{
+    displayname = "12.7mm Plasma Cell (500rnd Purple)";
+    ammo = "442_ammo_127x99_purple";
+};
+class 442_127x99_1000rnd_purple_mag: 442_127x99_1000rnd_blue_mag
+{
+    displayname = "12.7mm Plasma Cell (1000rnd Purple)";
+    ammo = "442_ammo_127x99_purple";
+};
+
+class 442_127x99_500rnd_yellow_mag: 442_127x99_500rnd_blue_mag
+{
+    displayname = "12.7mm Plasma Cell (500rnd Yellow)";
+    ammo = "442_ammo_127x99_pink";
+};
+class 442_127x99_1000rnd_yellow_mag: 442_127x99_1000rnd_blue_mag
+{
+    displayname = "12.7mm Plasma Cell (1000rnd Yellow)";
+    ammo = "442_ammo_127x99_yellow";
+};

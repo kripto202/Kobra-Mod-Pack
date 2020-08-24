@@ -22,10 +22,10 @@
 		};
 		magazines[]=
 		{
-			"200rnd_laat_he_mag",
-			"200rnd_laat_he_mag",
-			"200rnd_laat_apfsds_mag",
-			"200rnd_laat_apfsds_mag",
+			"442_50_200rnd_he_green_mag",
+			"442_50_200rnd_he_green_mag",
+			"442_50_200rnd_ap_green_mag",
+			"442_50_200rnd_ap_green_mag",
 			"12rnd_missiles",
 			"12rnd_missiles",
 			"12rnd_missiles",

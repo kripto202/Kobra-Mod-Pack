@@ -57,8 +57,8 @@
 						};
 						magazines[]=
 						{
-							"442_127x99_500rnd_blue_mag",
-							"442_127x99_500rnd_blue_mag"
+							"442_127x99_500rnd_red_mag",
+							"442_127x99_500rnd_red_mag"
 						};
 						turretInfoType="RscWeaponRangeZeroing";
 						discreteDistance[]={100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500};
@@ -164,11 +164,10 @@
 				};
 				magazines[]=
 				{
-					"442_75_30rnd_ap_blue_mag",
-					"442_75_30rnd_ap_blue_mag",
-					"442_75_30rnd_ap_blue_mag",
-					"442_75_30rnd_ap_blue_mag",
-					"442_75_30rnd_ap_blue_mag"
+					"442_75_30rnd_ap_red_mag",
+					"442_75_30rnd_ap_red_mag",
+					"442_75_30rnd_he_red_mag",
+					"442_75_30rnd_he_red_mag"
 				};
 				minElev=-5;
 				maxElev=30;

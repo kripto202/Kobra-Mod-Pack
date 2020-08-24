@@ -187,10 +187,10 @@ class Turrets: Turrets
 		};
 		magazines[] = 
 		{
-			"200rnd_hmp_he_mag",
-			"200rnd_hmp_he_mag",
-			"200rnd_hmp_apfsds_mag",
-			"200rnd_hmp_apfsds_mag",
+			"442_50_200rnd_he_red_mag",
+			"442_50_200rnd_he_red_mag",
+			"442_50_200rnd_ap_red_mag",
+			"442_50_200rnd_ap_red_mag",
 		};
 		gunBeg = "usti hlavne 3";
 		gunEnd = "konec hlavne 3";
@@ -233,8 +233,8 @@ class Turrets: Turrets
 		gunnerCompartments = "Compartment3";
 		magazines[] = 
 		{
-			"500rnd_hmp_ap_mag",
-			"500rnd_hmp_ap_mag"
+			"442_50_200rnd_ap_red_mag",
+			"442_50_200rnd_ap_red_mag"
 		};
 		minElev = -80;
 		maxElev = 80;

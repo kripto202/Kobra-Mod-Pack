@@ -14,11 +14,8 @@ class Turrets: Turrets
         weapons[] = {"442_mtt_cannon_75mm_l"};
         magazines[]=
 		{
-			"442_75_30rnd_he_blue_mag",
-			"442_75_30rnd_he_blue_mag",
-			"442_75_30rnd_he_blue_mag",
-			"442_75_30rnd_he_blue_mag",
-			"442_75_30rnd_he_blue_mag",
+			"442_75_30rnd_he_red_mag",
+			"442_75_30rnd_he_red_mag"
 		};
         minelev = -5;
         maxelev = 10;

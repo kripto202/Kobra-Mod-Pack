@@ -10,8 +10,8 @@ class 442_test_hmp_base: Helicopter_Base_H
 		};
 		magazines[] = 
 		{
-			"200rnd_hmp_he_mag",
-			"200rnd_hmp_he_mag",
+			"442_50_200rnd_he_red_mag",
+			"442_50_200rnd_he_red_mag",
 			"12rnd_missiles",
 			"12rnd_missiles",
 			"240Rnd_CMFlare_Chaff_Magazine",
