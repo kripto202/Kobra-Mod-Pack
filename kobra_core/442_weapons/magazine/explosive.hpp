@@ -4,7 +4,7 @@ class 442_thermal_det_mag: HandGrenade
     mass = 10;
     scope = 2;
     value = 1;
-    displayName = "Thermal Det";
+    displayName = "[K] Thermal Det";
     picture = "\SWLW_clones\grenades\beltgrenade\data\ui\icon_beltGrenade.paa";
     model = "442_weapons\explosive\thermal_det.p3d";
     type = 256;
@@ -23,7 +23,7 @@ class 442_impact_mag: HandGrenade
     mass = 5;
     scope = 2;
     value = 1;
-    displayName = "impact grenade (wip)";
+    displayName = "[K] Impact Grenade";
     picture = "\SWLW_clones\grenades\beltgrenade\data\ui\icon_beltGrenade.paa";
     model = "442_weapons\explosive\impact_grenade.p3d";
     type = 256;

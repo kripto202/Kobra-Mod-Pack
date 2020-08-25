@@ -161,13 +161,13 @@
 		displayname = "Trooper (DC-15S)";
 		weapons[] = 
 		{
-			"442_DC15A",
+			"442_DC15s",
 			"Throw",
 			"Put"
 		};
 		respawnweapons[] = 
 		{
-			"442_DC15A",
+			"442_DC15s",
 			"Throw",
 			"Put"
 		};
@@ -177,9 +177,9 @@
 			"442_556_30rnd_blue_mag",
 			"442_556_30rnd_blue_mag",
 			"442_556_30rnd_blue_mag",
-			"swlw_beltgrenade_mag",
-			"swlw_beltgrenade_mag",
-			"swlw_beltgrenade_mag",
+			"442_thermal_det_mag",
+			"442_thermal_det_mag",
+			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
 			"smokeShellRed",
@@ -194,9 +194,9 @@
 			"442_556_30rnd_blue_mag",
 			"442_556_30rnd_blue_mag",
 			"442_556_30rnd_blue_mag",
-			"swlw_beltgrenade_mag",
-			"swlw_beltgrenade_mag",
-			"swlw_beltgrenade_mag",
+			"442_thermal_det_mag",
+			"442_thermal_det_mag",
+			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
 			"smokeShellRed",

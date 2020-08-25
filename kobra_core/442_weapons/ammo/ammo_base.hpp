@@ -591,7 +591,7 @@ class 442_75mm_he_base: Sh_120mm_HE
     tracerscale=2;
 };
 
-class 442_nlaw_AT: MissileBase
+class 442_nlaw_AT: MRAWS_HEAT_F
 {
 	model = "\A3\Weapons_F_beta\Launchers\titan\titan_missile_at_fly";
 	submunitionAmmo = "ammo_Penetrator_Vorona";
@@ -625,11 +625,11 @@ class 442_nlaw_AT: MissileBase
 	airFriction = 0.06;
 	sideAirFriction = 0.09;
 	maxSpeed = 500;
-	thrustTime = 1;
-	thrust = 150;
-	fuseDistance = 50;
+	thrustTime = 2;
+	thrust = 200;
+	fuseDistance = 150;
 	effectsMissile = "missile2";
-	whistleDist = 50;
+	whistleDist = 150;
 	class CamShakeExplode
 	{
 		power = 11;
@@ -665,8 +665,8 @@ class 442_thermal_det: GrenadeHand
 {
 	author = "kripto202";
 	picture = "\SWLW_clones\grenades\beltgrenade\data\ui\icon_beltGrenade.paa";
-	hit = 20;
-	indirectHit = 10;
+	hit = 30;
+	indirectHit = 20;
 	indirectHitRange = 45;
 	dangerRadiusHit = 60;
 	suppressionRadiusHit = 24;
@@ -719,8 +719,8 @@ class 442_impact: G_40mm_HE
 	picture = "\SWLW_clones\grenades\beltgrenade\data\ui\icon_beltGrenade.paa";
 	hit = 15;
 	indirectHit = 8;
-	indirectHitRange = 20;
-	dangerRadiusHit = 30;
+	indirectHitRange = 10;
+	dangerRadiusHit = 15;
 	suppressionRadiusHit = 12;
 	typicalspeed = 30;
 	model = "442_weapons\explosive\impact_grenade.p3d";
@@ -731,3 +731,4 @@ class 442_impact: G_40mm_HE
 	explosionEffects = "VehicleExplosionEffects";
 	soundFly[] = {"442_weapons\sounds\impact_grenade\impact_grenade_cook.wss", 1.5, 1, 90};
 };
+

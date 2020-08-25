@@ -169,3 +169,72 @@ class k_clone_backpack_rocket: k_clone_backpack_base
 		"442_units\clones\data\backpack\pouches_co.paa",
 	};
 };
+
+///backpacks with loadouts
+class k_clone_backpack_medic_med_load: k_clone_backpack_medic_med
+{
+	scope = 1;
+	scopearsenal = 1;
+	scopecurator = 1;
+	class transportitems
+	{
+		class _xx_ace_fielddressing
+		{
+			name = "ACE_fieldDressing";
+			count = 20;
+		};
+		class _xx_ace_elasticbandage: _xx_ace_fielddressing
+		{
+			name = "ACE_ElasticBandage";
+		};
+		class _xx_ace_quickclot: _xx_ace_fielddressing
+		{
+			name = "ACE_quikclot";
+		};
+		class _xx_ACE_packingBandage: _xx_ace_fielddressing
+		{
+			name = "ACE_packingBandage";
+		};
+		class _xx_ace_epinephrine
+		{
+			name = "ACE_epinephrine";
+			count = 5;
+		};
+		class _xx_ACE_morphine
+		{
+			name = "ACE_morphine";
+			count = 5;
+		};
+		class _xx_adv_aceSplint_splint
+		{
+			name="adv_aceSplint_splint";
+			count = 12;
+		};
+		class _xx_ACE_blood_IV
+		{
+			name="ACE_blood_IV";
+			count=4;
+		};
+		class _xx_ACE_blood_IV_500
+		{
+			name="ACE_blood_IV_500";
+			count=4;
+		};
+		class _xx_ACE_blood_IV_250
+		{
+			name="ACE_blood_IV_250";
+			count=4;
+		};
+		class _xx_ACE_touriquet
+		{
+			name="ACE_touriquet";
+			count = 6;
+		};
+		class _xx_ACE_surgicalKit
+		{
+			name="ACE_surgicalKit";
+			count=1;
+		};
+	};
+};
+

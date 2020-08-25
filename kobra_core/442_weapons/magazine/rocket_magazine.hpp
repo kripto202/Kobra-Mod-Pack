@@ -6,7 +6,7 @@
 		displaynameshort = "HEAT";
 		model = "\a3\Weapons_F_Tank\Launchers\MRAWS\rocket_MRAWS_HEAT_F_item.p3d";
 		picture = "\a3\Weapons_F_Tank\Launchers\MRAWS\Data\UI\icon_rocket_MRAWS_HEAT_F_ca.paa";
-		initSpeed = 200;
+		initSpeed = 500;
 		count = 1;
 		ammo = "442_nlaw_AT";
 		type = "2 * 256";
