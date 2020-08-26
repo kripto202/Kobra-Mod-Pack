@@ -591,7 +591,7 @@ class 442_75mm_he_base: Sh_120mm_HE
     tracerscale=2;
 };
 
-class 442_nlaw_AT: MRAWS_HEAT_F
+class 442_nlaw_AT: MissileBase
 {
 	model = "\A3\Weapons_F_beta\Launchers\titan\titan_missile_at_fly";
 	submunitionAmmo = "ammo_Penetrator_Vorona";

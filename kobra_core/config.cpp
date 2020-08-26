@@ -481,6 +481,12 @@ class cfgFactionClasses
 		priority = 1;
 		side = 1;
 	};
+	class 9_ac
+	{
+		displayname = "[K] 9th Assault Corps";
+		priority = 1;
+		side = 1;
+	};
 	class kobra
 	{
 		displayname = "[K] Kobra";
@@ -1505,6 +1511,7 @@ class cfgammo
 	class MissileBase;
 	class grenadehand;
 	class G_40mm_HE;
+	class MRAWS_HEAT_F;
 	class BulletBase: BulletCore
 	{
 		class SuperSonicCrack;

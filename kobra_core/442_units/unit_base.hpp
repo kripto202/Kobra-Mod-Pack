@@ -13,7 +13,7 @@
 		};
 		role="Rifleman";
 		author="kripto202";
-		uniformclass="k_swla_uniform_base";
+		uniformclass="k_swla_uniform";
 		faction="kobra";
 		editorSubCategory="442_trooper";
 		displayname="Trooper";
@@ -57,7 +57,7 @@
 	class k_swla_unit_mc_base: k_swla_unit_base
 	{
 		model="442_units\clones\base_body_mc.p3d";
-		uniformclass="k_swla_uniform_mc_base";
+		uniformclass="k_swla_mc_uniform";
 		//picture = "442_units\clones\data\ui\body_mc.paa"; //this needs to be changed
 		hiddenselections[]=
 		{

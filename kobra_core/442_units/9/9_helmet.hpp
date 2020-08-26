@@ -233,7 +233,7 @@
 			"442_units\clones\data\helmet\ab_helmet\visor_co.paa"
 		};
 	};
-	class 9_airborne_helmet_cpt: k_airborne_helmet
+	class 9_airborne_helmet_nco: k_airborne_helmet
 	{
 		displayname = "[9] Airborne NCO Helmet";
 		scope = 2;
@@ -450,7 +450,7 @@
 			"442_units\clones\data\helmet\p1_helmet\illum_co.paa"
 		};
 	};
-	class 9_p1_helmet_cmd: k_p1_helmet
+	class 9_p1_helmet_lt: k_p1_helmet
 	{
 		displayname = "[9] P1 Lieutenant Helmet";
 		scope = 2;
