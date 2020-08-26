@@ -107,7 +107,7 @@
 	};
 	class 44_p2_arf_helmet: k_p2_arf_helmet
 	{
-		displayname = "[44] P2 ARF Helmet";
+		displayname = "[44] ARF Helmet w/ Flaps";
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
@@ -257,16 +257,50 @@
 			"442_units\clones\44\data\helmets\scout_helmet_visor.rvmat"
 		};
 	};
+
+///custom
 	class 44_scout_helmet_dukas: 44_scout_helmet
 	{
-		displayname = "[44] Dukas Scout Helmet";
-		scope = 2;
-		scopecurator = 2;
-		scopearsenal = 2;
-		picture = "442_units\44\data\ui\preview\44_dukas_scout_helmet.paa";
+		displayname = "[44] Scout Helmet (Dukas)";
 		hiddenselectionstextures[] =
 		{
-			"442_units\clones\44\data\helmets\44_scout_helmet_dukas_co.paa",
+			"442_units\clones\44\data\custom\dukas\44_scout_helmet_co.paa",
 			"442_units\clones\data\helmet\scout_helmet\visor_co.paa",
+		};
+	};
+	class 44_barc_helmet_fox: 44_barc_helmet
+	{
+		displayname = "[44] Barc Helmet (Fox)";
+		hiddenselectionstextures[] =
+		{
+			"442_units\clones\44\data\custom\fox\44_barc_helmet_co.paa",
+			"442_units\clones\data\helmet\barc_helmet\visor_co.paa",
+		};
+	};
+	class 44_p2_helmet_Hollen: 44_p2_helmet
+	{
+		displayname = "[44] P2 Helmet (Hollen)";
+		hiddenselectionstextures[] =
+		{
+			"442_units\clones\44\data\custom\hollen\44_p2_helmet_co.paa",
+			"442_units\clones\data\helmet\p2_helmet\visor_co.paa",
+		};
+	};
+	class 44_barc_helmet_kripto: 44_barc_helmet
+	{
+		displayname = "[44] Barc Helmet (Kripto)";
+		hiddenselectionstextures[] =
+		{
+			"442_units\clones\44\data\custom\kripto\44_barc_helmet_co.paa",
+			"442_units\clones\data\helmet\barc_helmet\visor_co.paa",
+		};
+	};
+	class 44_p1_arf_helmet_monty: 44_p1_arf_helmet
+	{
+		displayname = "[44] Arf P1 Helmet (Monty)";
+		hiddenselectionstextures[] =
+		{
+			"442_units\clones\44\data\custom\monty\44_arf_helmet_co.paa",
+			"442_units\clones\data\helmet\arf_helmet\visor_co.paa",
 		};
 	};
