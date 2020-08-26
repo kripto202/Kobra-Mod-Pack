@@ -2,7 +2,7 @@
 	{
 		displayname = "[442] Clone Trooper Uniform 1";
 		scope = 2;
-		picture = "442_swla\data\ui\preview\442_body.paa";
+		//picture = "442_swla\data\ui\preview\442_body.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";

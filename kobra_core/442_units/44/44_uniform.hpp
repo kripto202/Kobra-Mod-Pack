@@ -2,7 +2,7 @@
 	{
 		displayname = "[44] Clone Trooper Uniform";
 		scope = 2;
-		picture = "44_swla\data\ui\preview\44_body.paa";
+		//picture = "44_swla\data\ui\preview\44_body.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -16,7 +16,7 @@
 	{
 		displayname = "[44] Clone Marshall Commander Uniform";
 		scope = 2;
-		picture = "44_swla\data\ui\preview\44_body_mc.paa";
+		//picture = "44_swla\data\ui\preview\44_body_mc.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
