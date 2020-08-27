@@ -5184,11 +5184,11 @@
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_a_vehicle\laat\data\body1_co.paa",
-			"442_a_vehicle\laat\data\body2_co.paa",
-			"442_a_vehicle\laat\data\door1_co.paa",
-			"442_a_vehicle\laat\data\door2_co.paa",
-			"442_a_vehicle\laat\data\door3_co.paa",
+			"442_a_vehicle\laat\data\body_1_co.paa",
+			"442_a_vehicle\laat\data\body_2_co.paa",
+			"442_a_vehicle\laat\data\door_1_co.paa",
+			"442_a_vehicle\laat\data\door_2_co.paa",
+			"442_a_vehicle\laat\data\door_3_co.paa",
 			"442_a_vehicle\laat\data\wings_co.paa",
 			"442_a_vehicle\laat\data\missiles_co.paa",
 			"442_a_vehicle\laat\data\cockpits_co.paa",

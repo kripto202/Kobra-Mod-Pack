@@ -668,8 +668,9 @@ class 442_thermal_det: GrenadeHand
 	hit = 30;
 	indirectHit = 20;
 	indirectHitRange = 45;
-	dangerRadiusHit = 60;
+	dangerRadiusHit = 45;
 	suppressionRadiusHit = 24;
+	explosionEffectsRadius = 20;
 	typicalspeed = 30;
 	model = "442_weapons\explosive\thermal_det.p3d";
 	visibleFire = 0.5;

@@ -180,7 +180,7 @@
     };
 	class 442_762_100rnd_purple_mag: 442_762_100rnd_blue_mag
     {
-        displayname = "7.62mm Plasma Cell (150rnd Purple)";
+        displayname = "7.62mm Plasma Cell (100rnd Purple)";
 		ammo = "442_ammo_762_purple";
         picture="\442_weapons\ammo\data\ui\DC15a_mag_ui_purple_ca.paa";
     };
