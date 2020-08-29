@@ -1,4 +1,4 @@
-class 442_hardcell_base: StaticShip
+	class 442_hardcell_base: StaticShip
 	{
 		author="kripto202";
 		model="\442_ships\hardcell\base.p3d";

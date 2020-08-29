@@ -1,4 +1,4 @@
-class 442_coreship: House_F
+	class 442_coreship: House_F
 	{
 		scope=2;
 		scopecurator=1;

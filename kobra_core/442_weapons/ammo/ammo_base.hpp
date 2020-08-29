@@ -667,9 +667,9 @@ class 442_thermal_det: GrenadeHand
 	picture = "\SWLW_clones\grenades\beltgrenade\data\ui\icon_beltGrenade.paa";
 	hit = 30;
 	indirectHit = 20;
-	indirectHitRange = 45;
-	dangerRadiusHit = 45;
-	suppressionRadiusHit = 24;
+	indirectHitRange = 10;
+	dangerRadiusHit = 60;
+	suppressionRadiusHit = 30;
 	explosionEffectsRadius = 20;
 	typicalspeed = 30;
 	model = "442_weapons\explosive\thermal_det.p3d";
@@ -720,7 +720,7 @@ class 442_impact: G_40mm_HE
 	picture = "\SWLW_clones\grenades\beltgrenade\data\ui\icon_beltGrenade.paa";
 	hit = 15;
 	indirectHit = 8;
-	indirectHitRange = 10;
+	indirectHitRange = 8;
 	dangerRadiusHit = 15;
 	suppressionRadiusHit = 12;
 	typicalspeed = 30;
