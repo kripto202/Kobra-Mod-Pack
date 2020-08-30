@@ -33,3 +33,19 @@
 			mass=40;
 		};
 	};
+	class k_b1_uniform_base: SWLB_b1_uniform
+	{
+		author = "kripto202";
+		scope = 0;
+		displayname = "b1 uniform";
+		picture="\SWLB_droids\data\ui\icon_b1_uniform_ca.paa";
+		model="\SWLB_groundholders\SWLB_b1_uniform_gh.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="k_swla_mc_unit_base"; //link to unit
+			containerClass="Supply200";
+			uniformType="Neopren";
+			mass=40;
+		};
+	};

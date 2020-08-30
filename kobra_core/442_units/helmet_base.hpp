@@ -360,3 +360,21 @@
 			};
 		};
 	};
+
+	class k_b1_helmet_base: k_helmet_base
+	{
+		model = "442_units\cis_droids\b1_head_gh.p3d";
+		subItems[] = {"k_nvg"};
+		hiddenselections[] = 
+		{
+			"camo1"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "442_units\cis_droids\b1_head.p3d";
+			hiddenselections[] = 
+			{
+				"camo1"
+			};
+		};
+	};

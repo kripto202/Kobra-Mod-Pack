@@ -174,3 +174,56 @@ class k_Scout_Helmet: k_Scout_Helmet_base
         "442_units\clones\data\helmet\scout_helmet\visor_co.paa",
     };
 };
+
+class k_b1_helmet: k_b1_helmet_base
+{
+    scope = 2;
+    scopecurator = 2;
+    scopearsenal = 2;
+    displayname = "[K] B1 Droid Head";
+    picture = "\442_units\clones\data\ui\p2_helmet.paa";
+    hiddenselectionstextures[] = 
+    {
+        "442_units\cis_droids\data\b1_upper_co.paa"
+    };
+};
+class k_b1_helmet_geonosis: k_b1_helmet
+{
+    displayname = "[K] B1 Droid Head (Geonosis)";
+    hiddenselectionstextures[] = 
+    {
+        "442_units\cis_droids\data\b1_upper_geonosis_co.paa"
+    };
+};
+class k_b1_helmet_cmd: k_b1_helmet
+{
+    displayname = "[K] B1 Droid Head (Commander)";
+    hiddenselectionstextures[] = 
+    {
+        "442_units\cis_droids\data\b1_upper_cmd_co.paa"
+    };
+};
+class k_b1_helmet_woodland: k_b1_helmet
+{
+    displayname = "[K] B1 Droid Head (Woodland)";
+    hiddenselectionstextures[] = 
+    {
+        "442_units\cis_droids\data\b1_upper_woodland_co.paa"
+    };
+};
+class k_b1_helmet_desert: k_b1_helmet
+{
+    displayname = "[K] B1 Droid Head (Desert)";
+    hiddenselectionstextures[] = 
+    {
+        "442_units\cis_droids\data\b1_upper_desert_co.paa"
+    };
+};
+class k_b1_helmet_winter: k_b1_helmet
+{
+    displayname = "[K] B1 Droid Head (Winter)";
+    hiddenselectionstextures[] = 
+    {
+        "442_units\cis_droids\data\b1_upper_winter_co.paa"
+    };
+};

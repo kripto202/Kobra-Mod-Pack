@@ -590,6 +590,14 @@ class CfgEditorSubcategories
 	{
 		displayname = "Battledroid (Desert)";
 	};
+	class 442_battledroid_inf_winter
+	{
+		displayname = "Battledroid (Winter)"
+	};
+	class 442_battledroid_inf_geonosis
+	{
+		displayname = "Battledroid (Geonosis)";
+	};
 	class 442_wrecks
 	{
 		displayname = "Wrecks";
@@ -687,6 +695,7 @@ class cfgweapons
 	class GMG_40mm;
 	class nvgoggles;
 	class V_PlateCarrier1_rgr;
+	class SWLB_b1_uniform;
 	class 442_rifle_base: Rifle_Long_Base_F
 	{
 		author="kripto202";
@@ -718,7 +727,8 @@ class cfgweapons
 			"Normal",
 			"NVG"
 		};
-		modelOptics="\SWLB_clones\SWLB_clone_nvg_optic_dummy.p3d";
+		modelOptics="";
+		ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
 	};
 	class k_nvg_ti: Integrated_NVG_F
 	{
@@ -729,7 +739,8 @@ class cfgweapons
 			"TI"
 		};
 		thermalMode[]={0};
-		modelOptics="\SWLB_clones\SWLB_clone_nvg_optic_dummy.p3d";
+		modelOptics="";
+		ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
 	};
 	class k_ti: Integrated_NVG_F
 	{
@@ -739,7 +750,8 @@ class cfgweapons
 			"TI"
 		};
 		thermalMode[]={0};
-		modelOptics="\SWLB_clones\SWLB_clone_nvg_optic_dummy.p3d";
+		modelOptics="";
+		ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
 	};
 	#include "442_units\uniform_base.hpp"
 	#include "442_units\helmet_base.hpp"

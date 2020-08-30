@@ -76,10 +76,93 @@
 		};
 	};
 
+	class k_swla_unit_b1_base: k_swla_unit_base
+	{
+		side = 0;
+		hiddenselections[] = 
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"442_units\cis_droids\data\b1_upper_co.paa",
+			"442_units\cis_droids\data\b1_lower_co.paa"
+		};
+		uniformclass = "k_swla_b1_uniform";
+		model = "442_units\cis_droids\swlb_b1_uniform.p3d";
+		faction="442_CIS";
+		editorSubCategory="442_battledroid_inf";
+	};
+	class k_swla_unit_b1_geonosis_base: k_swla_unit_b1_base
+	{
+		hiddenselectionstextures[] = 
+		{
+			"442_units\cis_droids\data\b1_upper_geonosis_co.paa",
+			"442_units\cis_droids\data\b1_lower_geonosis_co.paa"
+		};
+		uniformclass = "k_swla_b1_geonosis_uniform";
+		editorsubcategory = "442_battledroid_inf_geonosis";
+	};
+	class k_swla_unit_b1_security_base: k_swla_unit_b1_base
+	{
+		hiddenselectionstextures[] = 
+		{
+			"442_units\cis_droids\data\b1_upper_security_co.paa",
+			"442_units\cis_droids\data\b1_lower_co.paa"
+		};
+		uniformclass = "k_swla_b1_security_uniform";
+	};
+	class k_swla_unit_b1_cmd_base: k_swla_unit_b1_base
+	{
+		hiddenselectionstextures[] = 
+		{
+			"442_units\cis_droids\data\b1_upper_cmd_co.paa",
+			"442_units\cis_droids\data\b1_lower_co.paa"
+		};
+		uniformclass = "k_swla_b1_cmd_uniform";
+	};
+	class k_swla_unit_b1_pilot_base: k_swla_unit_b1_base
+	{
+		hiddenselectionstextures[] = 
+		{
+			"442_units\cis_droids\data\b1_upper_pilot_co.paa",
+			"442_units\cis_droids\data\b1_lower_co.paa"
+		};
+		uniformclass = "k_swla_b1_pilot_uniform";
+	};
+	class k_swla_unit_b1_woodland_base: k_swla_unit_b1_base
+	{
+		hiddenselectionstextures[] = 
+		{
+			"442_units\cis_droids\data\b1_upper_woodland_co.paa",
+			"442_units\cis_droids\data\b1_lower_woodland_co.paa"
+		};
+		uniformclass = "k_swla_b1_woodland_uniform";
+		editorsubcategory = "442_battledroid_inf_w";
+	};
+	class k_swla_unit_b1_desert_base: k_swla_unit_b1_base
+	{
+		hiddenselectionstextures[] = 
+		{
+			"442_units\cis_droids\data\b1_upper_desert_co.paa",
+			"442_units\cis_droids\data\b1_lower_desert_co.paa"
+		};
+		uniformclass = "k_swla_b1_desert_uniform";
+		editorsubcategory = "442_battledroid_inf_d";
+	};
+	class k_swla_unit_b1_winter_base: k_swla_unit_b1_base
+	{
+		hiddenselectionstextures[] = 
+		{
+			"442_units\cis_droids\data\b1_upper_winter_co.paa",
+			"442_units\cis_droids\data\b1_lower_winter_co.paa"
+		};
+		uniformclass = "k_swla_b1_winter_uniform";
+		editorsubcategory = "442_battledroid_inf_winter";
+	};
 
-
-
-
+	#include "unit_loadout.hpp"
 ////units with loadouts
 	class k_swla_unit_p2_dc15a: k_swla_unit_base
 	{
