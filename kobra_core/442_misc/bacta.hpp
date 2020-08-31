@@ -2,7 +2,7 @@
 	{
 		scope=2;
 		scopecurator=2;
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		displayName="Bacta Tank";
 		model="442_misc\bacta\bacta_tank.p3d";
 		editorcategory="kobra";
@@ -117,7 +117,7 @@
 	class ruins_f;
 	class 442_bacta_tank_w: ruins_f
 	{
-		author = "kripto202";
+		author = "KOBRA Mod Team";
 		mapsize = 20;
 		editorPreview = "";
 		scope = 2;

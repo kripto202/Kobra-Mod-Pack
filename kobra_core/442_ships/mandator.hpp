@@ -1,6 +1,6 @@
     class 442_mandator_base: StaticShip
 	{
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		model="\442_ships\mandator\base.p3d";
 		reversed=0;
 		scope=2;
@@ -120,7 +120,7 @@
 		reversed=0;
 		scope=1;
 		scopeCurator=0;
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		displayname="mandator_hull_base";
 		editorpreview="";
 		editorcategory="kobra";

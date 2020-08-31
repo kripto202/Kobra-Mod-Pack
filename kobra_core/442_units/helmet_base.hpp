@@ -1,6 +1,6 @@
 	class k_helmet_base: H_HelmetO_ViperSP_hex_F
 	{
-		author = "kripto202";
+		author = "KOBRA Mod Team";
 		displayname = "helmet base config";
 		scope = 0;
 		scopecurator = 0;

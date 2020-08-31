@@ -2,7 +2,7 @@
 	{
 		scope=2;
 		scopecurator=2;
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		displayName="Floor";
 		model="\442_structures\hallway\floor.p3d";
 		editorcategory="kobra";

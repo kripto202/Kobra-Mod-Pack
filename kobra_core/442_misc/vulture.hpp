@@ -2,7 +2,7 @@
 	{
 		scope=2;
 		scopecurator=2;
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		displayName="Vulture Droid (Static)";
 		model="\442_vulture\vulture_static.p3d";
 		editorcategory="kobra";

@@ -22,7 +22,7 @@ class 442_fa181_plane_fighter: b_plane_fighter_01_f
             class base
             {
                 displayname = "base";
-                author = "kripto202";
+                author = "KOBRA Mod Team";
                 textures[] = 
                 {
                     "442_a_vehicle\air\data\fa181\rep_fa181_body.paa",
@@ -83,7 +83,7 @@ class 442_fa181_plane_fighter: b_plane_fighter_01_f
             class base
             {
                 displayname = "base";
-                author = "kripto202";
+                author = "KOBRA Mod Team";
                 textures[] = 
                 {
                     "442_a_vehicle\air\data\fa181\rep_fa181_body.paa",

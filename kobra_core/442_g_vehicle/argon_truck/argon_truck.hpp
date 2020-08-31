@@ -23,7 +23,7 @@
 			class base
 			{
 				displayname = "Republic";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\republic_truck_body.paa",
@@ -38,7 +38,7 @@
 			class 442: base
 			{
 				displayname = "442nd Siege Battalion";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\442_truck_body.paa",
@@ -85,7 +85,7 @@
 			class base
 			{
 				displayname = "Republic";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\republic_truck_body.paa",
@@ -101,7 +101,7 @@
 			class 442: base
 			{
 				displayname = "442nd Siege Battalion";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\442_truck_body.paa",
@@ -150,7 +150,7 @@
 			class base
 			{
 				displayname = "Republic";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\republic_truck_body.paa",
@@ -166,7 +166,7 @@
 			class 442: base
 			{
 				displayname = "442nd Siege Battalion";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\442_truck_body.paa",
@@ -216,7 +216,7 @@
 			class base
 			{
 				displayname = "Republic";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\republic_truck_body.paa",
@@ -233,7 +233,7 @@
 			class 442: base
 			{
 				displayname = "442nd Siege Battalion";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\442_truck_body.paa",
@@ -283,7 +283,7 @@
 			class base
 			{
 				displayname = "Republic";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\republic_truck_body.paa",
@@ -298,7 +298,7 @@
 			class 442: base
 			{
 				displayname = "442nd Siege Battalion";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\442_truck_body.paa",
@@ -344,7 +344,7 @@
 			class base
 			{
 				displayname = "Republic";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\republic_truck_body.paa",
@@ -359,7 +359,7 @@
 			class 442: base
 			{
 				displayname = "442nd Siege Battalion";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\442_truck_body.paa",
@@ -407,7 +407,7 @@
 			class base
 			{
 				displayname = "Republic";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\republic_truck_body.paa",
@@ -423,7 +423,7 @@
 			class 442: base
 			{
 				displayname = "442nd Siege Battalion";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\442_truck_body.paa",

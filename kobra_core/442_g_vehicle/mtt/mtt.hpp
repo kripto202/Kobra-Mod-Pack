@@ -1,6 +1,6 @@
     class 442_mtt: Tank_F
 	{
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		scope=2;
 		scopecurator=2;
 		scopearsenal=2;
@@ -117,7 +117,7 @@
 	
 	class 442_mtt_wreck: Wreck_base_F
 	{
-		author = "kripto202";
+		author = "KOBRA Mod Team";
 		mapsize = 20;
 		editorPreview = "";
 		scope = 2;

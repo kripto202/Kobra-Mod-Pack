@@ -1,7 +1,7 @@
     class 442_Box: B_supplyCrate_F 
 	{
 		scope = 2;
-		author = "kripto202";
+		author = "KOBRA Mod Team";
 		displayName = "[442] Weapons Box";
 		model = "\442_box\box.p3d";
 		editorcategories = "442_siege_bat";

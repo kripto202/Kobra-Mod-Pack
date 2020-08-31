@@ -1,7 +1,7 @@
 
 	class k_swla_vest_base: V_rebreatherB
 	{
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		displayname="[44] Clone trooper vest";
 		scope=0;
 		scopeCurator=0;

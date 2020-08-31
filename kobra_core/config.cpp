@@ -2,7 +2,7 @@ class CfgPatches
 {
 	class kobra_core
 	{
-		author = "kripto202";
+		author = "KOBRA Mod Team";
 		requiredAddons[]=
 		{
 			"A3_Anims_F",

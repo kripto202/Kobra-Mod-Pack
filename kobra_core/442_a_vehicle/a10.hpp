@@ -17,7 +17,7 @@
             class base
             {
                 displayname = "Base";
-                author = "kripto202";
+                author = "KOBRA Mod Team";
                 textures[] = 
                 {
                     "442_a_vehicle\air\data\a10\rep_a10_body.paa",

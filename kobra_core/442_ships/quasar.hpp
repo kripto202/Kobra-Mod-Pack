@@ -2,7 +2,7 @@
 	{
 		scope=2;
 		scopecurator=2;
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		displayName="Quasar Fire Class Cruiser/Carrier";
 		model="\442_ships\quasar\quasar.p3d";
 		editorcategory="kobra";

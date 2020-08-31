@@ -1,6 +1,6 @@
 	class 442_recusant_zeus: House_F
 	{
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		model="\442_ships\recusant\rec_zeus.p3d";
 		scope=2;
 		scopecurator=2;
@@ -29,7 +29,7 @@
 	};
 	class 442_recusant_base: StaticShip
 	{
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		model="\442_ships\recusant\base.p3d";
 		reversed=0;
 		scope=2;
@@ -98,7 +98,7 @@
 		reversed=0;
 		scope=1;
 		scopeCurator=0;
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		displayname="rec_hull_base";
 		editorpreview="";
 		editorcategory="kobra";

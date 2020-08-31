@@ -2,7 +2,7 @@
 	{
 		scope=2;
 		scopecurator=2;
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		displayName="Sweeper Droid (green)";
 		model="442_misc\sweeper\sweeper.p3d";
 		editorcategory="kobra";

@@ -2,7 +2,7 @@
 	class k_swla_uniform_base: U_I_CombatUniform
 	{
 		displayname="Clone Trooper Armor";
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		scope=0;
 		scopeCurator=0;
 		scopeArsenal=0;
@@ -19,7 +19,7 @@
 	};
 	class k_swla_uniform_mc_base: U_I_CombatUniform
 	{
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		scope=0;
 		displayName="Clone marshal commander armor";
 		picture = "\442_equipment\vests\data\ui\icon_swlb_clone_uniform_ca.paa";
@@ -35,7 +35,7 @@
 	};
 	class k_b1_uniform_base: SWLB_b1_uniform
 	{
-		author = "kripto202";
+		author = "KOBRA Mod Team";
 		scope = 0;
 		displayname = "b1 uniform";
 		picture="\SWLB_droids\data\ui\icon_b1_uniform_ca.paa";

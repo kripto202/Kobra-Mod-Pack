@@ -6,7 +6,7 @@ class 442_swla_unit_1: k_swla_unit_base
 		editorpreview = "\SWLB_clones\data\ui\editorPreviews\SWLB_clone_base_P2.jpg";
 		identityTypes[] = {"LanguageENG_F", "Head_NATO"};
 		role = "Rifleman";
-		author = "kripto202";
+		author = "KOBRA Mod Team";
 		uniformclass = "442_swla_uniform_1";
 		faction = "442_siege_bat";
 		editorSubCategory = "442_trooper";

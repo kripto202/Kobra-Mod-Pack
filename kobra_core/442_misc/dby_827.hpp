@@ -2,7 +2,7 @@
 	{
 		scope=2;
 		scopecurator=2;
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		displayName="DBY-827 Heavy Turbolaser (Static)";
 		model="442_misc\dby_827\dby_827.p3d";
 		editorcategory="kobra";

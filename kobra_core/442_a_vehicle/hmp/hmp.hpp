@@ -673,7 +673,7 @@
 	
 	class 442_hmp: 442_test_hmp_base
 	{
-		author = "kripto202";
+		author = "KOBRA Mod Team";
 		displayname = "HMP Gunship";
 		scope = 2;
 		scopecurator = 2;
@@ -758,7 +758,7 @@
 			class base
 			{
 				displayname = "Base";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_a_vehicle\hmp\data\body_co.paa",
@@ -792,7 +792,7 @@
 	};
 	class 442_hmp_transport: 442_test_hmp_base
 	{
-		author = "kripto202";
+		author = "KOBRA Mod Team";
 		displayname = "HMP Gunship (Transport)";
 		scope = 2;
 		scopecurator = 2;
@@ -840,7 +840,7 @@
 			class base
 			{
 				displayname = "Base";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_a_vehicle\hmp\data\body_co.paa",
@@ -875,7 +875,7 @@
 	
 	class 442_hmp_wreck: Wreck_base_F
 	{
-		author = "kripto202";
+		author = "KOBRA Mod Team";
 		mapsize = 20;
 		editorPreview = "";
 		scope = 2;

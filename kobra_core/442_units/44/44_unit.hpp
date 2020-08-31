@@ -6,7 +6,7 @@
 		editorpreview = "\SWLB_clones\data\ui\editorPreviews\SWLB_clone_base_P2.jpg";
 		identityTypes[] = {"LanguageENG_F", "Head_NATO"};
 		role = "Rifleman";
-		author = "kripto202";
+		author = "KOBRA Mod Team";
 		uniformclass = "44_swla_uniform";
 		faction = "44_ab";
 		editorSubCategory = "442_trooper";
@@ -44,7 +44,7 @@
 		editorpreview = "\SWLB_clones\data\ui\editorPreviews\SWLB_clone_base_P2.jpg";
 		identityTypes[] = {"LanguageENG_F", "Head_NATO"};
 		role = "Rifleman";
-		author = "kripto202";
+		author = "KOBRA Mod Team";
 		uniformclass = "44_swla_uniform_mc";
 		faction = "44_sod";
 		editorSubCategory = "swla_44_trooper";

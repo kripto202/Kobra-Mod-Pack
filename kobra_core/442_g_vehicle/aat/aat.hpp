@@ -1,6 +1,6 @@
 	class 442_aat_base: Tank_F
 	{
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		scope=1;
 		scopecurator=1;
 		scopearsenal=1;
@@ -95,7 +95,7 @@
 	class 442_aat: 442_aat_base
 	{
 		displayname="AAT";
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		scope=2;
 		scopecurator=2;
 		editorpreview="";
@@ -116,7 +116,7 @@
 			class base
 			{
 				displayname="Trade Federation";
-				author="kripto202";
+				author = "KOBRA Mod Team";
 				textures[]=
 				{
 					"442_g_vehicle\aat\data\body1_co.paa",
@@ -183,7 +183,7 @@
 
 	class 442_aat_wreck: Wreck_base_F
 	{
-		author = "kripto202";
+		author = "KOBRA Mod Team";
 		mapsize = 20;
 		editorPreview = "";
 		scope = 2;

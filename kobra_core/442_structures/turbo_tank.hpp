@@ -2,7 +2,7 @@
     {
 		scope = 2;
 		scopecurator = 2;
-		author = "kripto202";
+		author = "KOBRA Mod Team";
 		displayName = "Turbo Tank";
 		model = "\442_structures\turbo_tank\turbotank.p3d";
 		editorcategory = "kobra";

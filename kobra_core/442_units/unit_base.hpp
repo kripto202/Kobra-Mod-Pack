@@ -13,7 +13,7 @@
 			"Head_NATO"
 		};
 		role="Rifleman";
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		uniformclass="k_swla_uniform";
 		faction="kobra";
 		editorSubCategory="442_trooper";

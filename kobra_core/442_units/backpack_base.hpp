@@ -1,7 +1,7 @@
 
 	class k_clone_backpack_base: B_Kitbag_rgr
 	{
-		author = "kripto202";
+		author = "KOBRA Mod Team";
 		scope = 0;
 		picture = "";
 		displayname = "";

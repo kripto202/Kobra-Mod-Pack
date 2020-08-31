@@ -2,7 +2,7 @@
 	{
 		scope=2;
 		scopecurator=2;
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		displayName="Stone Cover";
 		model="\442_misc\stone_cover\cover.p3d";
 		editorcategory="kobra";

@@ -2,7 +2,7 @@
 	{
 		scope=2;
 		scopecurator=2;
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		displayName="Radio";
 		model="442_misc\radio\radio.p3d";
 		editorcategory="kobra";

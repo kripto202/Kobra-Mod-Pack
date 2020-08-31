@@ -2,7 +2,7 @@
 	{
 		scope=2;
 		scopecurator=2;
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		displayName="Disabled B1";
 		model="\442_misc\disabled_b1\disabled_b1.p3d";
 		editorcategory="kobra";

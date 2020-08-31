@@ -1,6 +1,6 @@
 	class 442_venator_zeus: house_f
 	{
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		model="\442_ships\venator\venator.p3d";
 		scope=2;
 		scopecurator=2;
@@ -61,7 +61,7 @@
 	};
 	class 442_venator_base: StaticShip
 	{
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		model="\442_ships\venator\venator_base.p3d";
 		reversed=0;
 		scope=2;
@@ -757,7 +757,7 @@
 		reversed=0;
 		scope=1;
 		scopeCurator=0;
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		displayname="ven_hull_base";
 		editorpreview="";
 		editorcategory="kobra";

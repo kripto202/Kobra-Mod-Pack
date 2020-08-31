@@ -1,6 +1,6 @@
     class 442_tx130: Tank_F
 	{
-		author = "kripto202";
+		author = "KOBRA Mod Team";
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
@@ -1275,7 +1275,7 @@
             class 442: base
             {
                 displayname = "442";
-                author = "kripto202";
+                author = "KOBRA Mod Team";
                 textures[] = 
                 {
                     "442_g_vehicle\tx130\data\442_body.paa",

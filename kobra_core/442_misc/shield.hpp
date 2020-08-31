@@ -2,7 +2,7 @@
     {
         scope = 2;
         scopecurator = 2;
-        author = "kripto202";
+        author = "KOBRA Mod Team";
         displayName = "Energy Shield (100x100)";
         model = "442_misc\shield\100x100.p3d";
         editorcategory = "kobra";
@@ -103,7 +103,7 @@
 	{
 		scope = 2;
 		scopecurator = 1;
-		author = "kripto202";
+		author = "KOBRA Mod Team";
 		displayname = "Quasar Hanger Shield";
 		editorcategory = "kobra";
         editorsubcategory = "442_item";
@@ -144,7 +144,7 @@
 		reversed=0;
 		scope=1;
 		scopeCurator=1;
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		displayname="quasar shield piece 1";
 		editorpreview="";
 		editorcategory="kobra";

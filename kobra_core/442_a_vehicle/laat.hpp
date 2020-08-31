@@ -674,7 +674,7 @@
 			class hidedoor1
 			{
 				displayname="Show Front Left Door";
-				Author="kripto202";
+				author = "KOBRA Mod Team";
 				source="user";
 				animperiod=0.001;
 				initphase=1;
@@ -5093,7 +5093,7 @@
 	};
 	class 442_laat_2: 442_laat_2_base
 	{
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		class simpleobject
 		{
 			animate[]=
@@ -5589,7 +5589,7 @@
 	};
 	class 442_laat_wreck: Wreck_base_F
 	{
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		mapsize=20;
 		editorPreview="";
 		scope=2;
@@ -5602,7 +5602,7 @@
 	};
 	class 442_laat_door_1: Items_base_F
 	{
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		mapsize=20;
 		editorPreview="";
 		scope=2;

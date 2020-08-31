@@ -2,7 +2,7 @@
 	{
 		scope=2;
 		scopecurator=2;
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		displayName="First Shot Bottle";
 		model="442_misc\bottle\bottle.p3d";
 		editorcategory="kobra";

@@ -1,6 +1,6 @@
     class 442_rx200_base: tank_f
 	{
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		scope=1;
 		scopecurator=1;
 		scopearsenal=1;
@@ -125,7 +125,7 @@
 	
 	class 442_rx200_wreck: Wreck_base_F
 	{
-		author = "kripto202";
+		author = "KOBRA Mod Team";
 		mapsize = 20;
 		editorPreview = "";
 		scope = 2;

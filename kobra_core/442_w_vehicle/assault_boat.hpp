@@ -1,6 +1,6 @@
 class 442_boat_armed: Boat_Armed_01_minigun_base_F
 	{
-		author = "kripto202";
+		author = "KOBRA Mod Team";
 		scope = 2;
 		accuracy = 1.5;
 		displayname = "Assault Boat";
@@ -20,7 +20,7 @@ class 442_boat_armed: Boat_Armed_01_minigun_base_F
             class default
             {
                 displayname = "Republic";
-                author = "kripto202";
+                author = "KOBRA Mod Team";
                 textures[] = 
                 {
                     "\442_w_vehicle\boat\data\rep_boat_hull.paa",

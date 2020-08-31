@@ -1,6 +1,6 @@
     class 442_holotable_base: house_small_f
 	{
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		mapsize=1;
 		scope=0;
 		scopecurator=0;
@@ -17,7 +17,7 @@
 	};
 	class 442_holotable: 442_holotable_base
 	{
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		scope=2;
 		scopecurator=2;
 		displayname="Holo Table (Round)";

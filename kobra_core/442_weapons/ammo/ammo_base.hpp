@@ -663,7 +663,7 @@ class 442_nlaw_AT: MissileBase
 
 class 442_thermal_det: GrenadeHand
 {
-	author = "kripto202";
+	author = "KOBRA Mod Team";
 	picture = "\SWLW_clones\grenades\beltgrenade\data\ui\icon_beltGrenade.paa";
 	hit = 30;
 	indirectHit = 20;
@@ -716,7 +716,7 @@ class 442_thermal_det: GrenadeHand
 };
 class 442_impact: G_40mm_HE
 {
-	author = "kripto202";
+	author = "KOBRA Mod Team";
 	picture = "\SWLW_clones\grenades\beltgrenade\data\ui\icon_beltGrenade.paa";
 	hit = 15;
 	indirectHit = 8;

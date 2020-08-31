@@ -2,7 +2,7 @@
 	{
 		scope=2;
 		scopecurator=2;
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		displayName="Small Computer";
 		model="\442_misc\small_computer\small_computer.p3d";
 		editorcategory="kobra";

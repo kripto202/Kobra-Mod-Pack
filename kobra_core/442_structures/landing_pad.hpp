@@ -1,6 +1,6 @@
     class 442_landingpad_wide: House_F
 	{
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		scope=2;
 		scopecurator=2;
 		displayname="Landing Pad (Wide)";

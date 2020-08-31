@@ -2,7 +2,7 @@
 	{
 		scope=2;
 		scopecurator=2;
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		displayName="Stimbox";
 		model="442_misc\stimbox\stimbox.p3d";
 		editorcategory="kobra";

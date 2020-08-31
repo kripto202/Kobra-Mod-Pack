@@ -2,7 +2,7 @@
 	{
 		scope=2;
 		scopecurator=2;
-		author="kripto202";
+		author = "KOBRA Mod Team";
 		displayName="Platform (5x5)";
 		model="\442_structures\platforms\5x5.p3d";
 		editorcategory="kobra";

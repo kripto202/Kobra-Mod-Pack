@@ -3,7 +3,7 @@ class TextureSources
             class base
             {
                 displayname = "No Design";
-                author = "kripto202";
+                author = "KOBRA Mod Team";
                 textures[] =
                 {
                     "442_a_vehicle\laat\data\body_1_co.paa",

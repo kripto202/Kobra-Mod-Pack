@@ -28,7 +28,7 @@
 			class default
 			{
 				displayname = "Republic";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\rep_warthog.paa",
@@ -42,7 +42,7 @@
 			class 442
 			{
 				displayname = "442nd Siege Battalion";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\442_warthog.paa",
@@ -56,7 +56,7 @@
 			class black_legion
 			{
 				displayname = "Black Legion";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\bl_warthog.paa",
@@ -257,7 +257,7 @@
 			class default
 			{
 				displayname = "Republic";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\rep_warthog.paa",
@@ -271,7 +271,7 @@
 			class 442
 			{
 				displayname = "442nd Siege Battalion";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\442_warthog.paa",
@@ -285,7 +285,7 @@
 			class black_legion
 			{
 				displayname = "Black Legion";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\bl_warthog.paa",
@@ -324,7 +324,7 @@
 			class default
 			{
 				displayname = "Republic";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\rep_warthog.paa",
@@ -338,7 +338,7 @@
 			class 442
 			{
 				displayname = "442nd Siege Battalion";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\442_warthog.paa",
@@ -352,7 +352,7 @@
 			class black_legion
 			{
 				displayname = "Black Legion";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\bl_warthog.paa",
@@ -391,7 +391,7 @@
 			class default
 			{
 				displayname = "Republic";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\rep_warthog.paa",
@@ -405,7 +405,7 @@
 			class 442
 			{
 				displayname = "442nd Siege Battalion";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\442_warthog.paa",
@@ -419,7 +419,7 @@
 			class black_legion
 			{
 				displayname = "Black Legion";
-				author = "kripto202";
+				author = "KOBRA Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\bl_warthog.paa",
