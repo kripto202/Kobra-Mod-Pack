@@ -696,6 +696,7 @@ class cfgweapons
 	class nvgoggles;
 	class V_PlateCarrier1_rgr;
 	class SWLB_b1_uniform;
+	class gatling_25mm;
 	class 442_rifle_base: Rifle_Long_Base_F
 	{
 		author="kripto202";
@@ -824,7 +825,33 @@ class cfgvehicles
 	class House_F;
 	class FloatingStructure_F;
 	class thingx;
-	class LandVehicle;
+	class Land;
+	class LandVehicle: Land
+	{
+		class NewTurret;
+	};
+	class StaticWeapon: LandVehicle
+	{
+		class Turrets
+	{
+	class MainTurret: NewTurret{};
+	};
+		class HitPoints;
+	};
+	class StaticMGWeapon: StaticWeapon
+	{
+		class EventHandlers;
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class ViewOptics;
+				optics = 1;
+			};
+		};
+		class Components;
+		icon = "iconStaticMG";
+	};
 	class Motorcycle;
 	class FlagCarrier;
 	class Items_base_F;
@@ -1011,6 +1038,7 @@ class cfgvehicles
 	#include "442_units\442\442_backpack.hpp"
 
 	#include "442_equipment\jumppack\jumppack.hpp"
+	#include "442_turrets\droideka.hpp"
 };
 
 class cfgCloudlets
@@ -1881,6 +1909,7 @@ class cfgmagazines
 	#include "442_weapons\magazine\shotgun_magazine.hpp"
 	#include "442_weapons\magazine\rocket_magazine.hpp"
 	#include "442_weapons\magazine\explosive.hpp"
+	#include "442_weapons\magazine\droideka.hpp"
 };
 
 class CfgVehicleIcons

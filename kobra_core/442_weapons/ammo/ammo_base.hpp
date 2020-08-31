@@ -733,3 +733,141 @@ class 442_impact: G_40mm_HE
 	soundFly[] = {"442_weapons\sounds\impact_grenade\impact_grenade_cook.wss", 1.5, 1, 90};
 };
 
+class Droideka_ammo : BulletBase
+{
+	hit=30;
+	indirectHit = 3;
+	indirectHitRange = 0.4;
+	explosive = 0.4;
+	caliber = 3;
+	cost = 1;
+	model = "442_turrets\Droideka\data\tracer\Doublelaserred.p3d";
+	tracerScale = 1;
+	tracerStartTime = 0;
+	timeToLive = 2;
+	tracerEndTime = 3;
+	nvgOnly = 0;
+	typicalSpeed = 60;
+	visibleFire = 32;
+	audibleFire = 32;
+	visibleFireTime = 4;
+	dangerRadiusBulletClose = 16;
+	dangerRadiusHit = 40;
+	suppressionRadiusBulletClose = 10;
+	suppressionRadiusHit = 14;
+	soundHit1[] = {"442_turrets\Droideka\data\Sounds\Heavyimpact\Heavyimpact1.wss",1.2,1,50};
+	soundHit2[] = {"442_turrets\Droideka\data\Sounds\Heavyimpact\Heavyimpact2.wss",1.2,1,50};
+	soundHit3[] = {"442_turrets\Droideka\data\Sounds\Heavyimpact\Heavyimpact3.wss",1.2,1,50};
+	soundHit4[] = {"442_turrets\Droideka\data\Sounds\Heavyimpact\Heavyimpact4.wss",1.2,1,50};
+	soundHit5[] = {"442_turrets\Droideka\data\Sounds\Heavyimpact\Heavyimpact5.wss",1.2,1,50};
+	soundHit6[] = {"442_turrets\Droideka\data\Sounds\Heavyimpact\Heavyimpact6.wss",1.2,1,50};
+	soundHit7[] = {"442_turrets\Droideka\data\Sounds\Heavyimpact\Heavyimpact7.wss",1.2,1,50};
+	soundHit8[] = {"442_turrets\Droideka\data\Sounds\Heavyimpact\Heavyimpact8.wss",1.2,1,50};
+	soundHit9[] = {"442_turrets\Droideka\data\Sounds\Heavyimpact\Heavyimpact9.wss",1.2,1,50};
+	soundHit10[] = {"442_turrets\Droideka\data\Sounds\Heavyimpact\Heavyimpact10.wss",1.2,1,50};
+	soundHit11[] = {"442_turrets\Droideka\data\Sounds\Heavyimpact\Heavyimpact11.wss",1.2,1,50};
+	soundHit12[] = {"442_turrets\Droideka\data\Sounds\Heavyimpact\Heavyimpact12.wss",1.2,1,50};
+	soundHit13[] = {"442_turrets\Droideka\data\Sounds\Heavyimpact\Heavyimpact13.wss",1.2,1,50};
+	soundHit14[] = {"442_turrets\Droideka\data\Sounds\Heavyimpact\Heavyimpact14.wss",1.2,1,50};
+	soundHit15[] = {"442_turrets\Droideka\data\Sounds\Heavyimpact\Heavyimpact15.wss",1.2,1,50};
+	soundHit16[] = {"442_turrets\Droideka\data\Sounds\Heavyimpact\Heavyimpact16.wss",1.2,1,50};
+	soundHit17[] = {"442_turrets\Droideka\data\Sounds\Heavyimpact\Heavyimpact17.wss",1.2,1,50};
+	soundHit18[] = {"442_turrets\Droideka\data\Sounds\Heavyimpact\Heavyimpact18.wss",1.2,1,50};
+	multiSoundHit[] = {"soundHit1",0.055,"soundHit2",0.055,"soundHit3",0.055,"soundHit4",0.055,"soundHit5",0.055,"soundHit6",0.055,"soundHit7",0.055,"soundHit8",0.055,"soundHit9",0.055,"soundHit10",0.055,"soundHit11",0.055,"soundHit12",0.055,"soundHit13",0.055,"soundHit14",0.055,"soundHit15",0.055,"soundHit16",0.055,"soundHit17",0.055,"soundHit18",0.055};
+	explosionSoundEffect = "DefaultExplosion";
+	airLock = 0;
+	explosioneffects = "ExploAmmoExplosion";
+	effectfly = "SWLW_plasma_red";
+	airFriction = -0.00078;
+	muzzleEffect = "";
+	deflecting = 0;
+	initTime = 0;
+	gravityFactor = 0;
+	class CamShakeExplode
+	{
+		power = "(20*0.2)";
+		duration = "((round (20^0.5))*0.2 max 0.2)";
+		frequency = 20;
+		distance = "((1 + 20^0.5)*8)";
+	};		
+	class CamShakeHit
+	{
+		power = 20;
+		duration = "((round (20^0.25))*0.2 max 0.2)";
+		frequency = 20;
+		distance = 1;
+	};
+	class CamShakeFire
+	{
+		power = "(20^0.25)";
+		duration = "((round (20^0.5))*0.2 max 0.2)";
+		frequency = 20;
+		distance = "((20^0.5)*8)";
+	};
+	class CamShakePlayerFire
+	{
+		power = 0.01;
+		duration = 0.1;
+		frequency = 20;
+		distance = 1;
+	};
+	bulletFly1[] = {"442_turrets\Droideka\data\Sounds\flyby_close1.wss",1.5848932,1,30};
+	bulletFly2[] = {"442_turrets\Droideka\data\Sounds\flyby_close2.wss",1.5848932,1,30};
+	bulletFly3[] = {"442_turrets\Droideka\data\Sounds\flyby_close3.wss",1.5848932,1,30};
+	bulletFly4[] = {"442_turrets\Droideka\data\Sounds\flyby_close4.wss",1.5848932,1,30};
+	bulletFly5[] = {"442_turrets\Droideka\data\Sounds\flyby_close5.wss",1.5848932,1,30};
+	bulletFly6[] = {"442_turrets\Droideka\data\Sounds\flyby_close6.wss",1.5848932,1,30};
+	bulletFly7[] = {"442_turrets\Droideka\data\Sounds\flyby_close7.wss",1.5848932,1,30};
+	bulletFly8[] = {"442_turrets\Droideka\data\Sounds\flyby_close8.wss",1.5848932,1,30};
+	bulletFly9[] = {"442_turrets\Droideka\data\Sounds\flyby_close9.wss",1.5848932,1,30};
+	bulletFly10[] = {"442_turrets\Droideka\data\Sounds\flyby_close10.wss",1.5848932,1,30};
+	bulletFly11[] = {"442_turrets\Droideka\data\Sounds\flyby_close11.wss",1.5848932,1,30};
+	bulletFly12[] = {"442_turrets\Droideka\data\Sounds\flyby_close12.wss",1.5848932,1,30};
+	bulletFly[] = {"bulletFly1",0.083,"bulletFly2",0.083,"bulletFly3",0.083,"bulletFly4",0.083,"bulletFly5",0.083,"bulletFly6",0.083,"bulletFly7",0.083,"bulletFly8",0.083,"bulletFly9",0.083,"bulletFly10",0.083,"bulletFly11",0.083,"bulletFly12",0.083};
+	supersonicCrackNear[] = {"442_turrets\Droideka\data\Sounds\Cracks\crack1.wss",1,1,200};
+	supersonicCrackFar[] = {"442_turrets\Droideka\data\Sounds\Cracks\crack2.wss",1,1,200};
+	class SuperSonicCrack
+	{
+		superSonicCrack[] = {"442_turrets\Droideka\data\Sounds\Cracks\crack3.wss",3.1622777,1,200};
+	};
+	class SCrackForest
+	{
+		range[] = {0,500};
+		sound1[] = {"A3\sounds_f\arsenal\sfx\supersonic_crack\sc_forest1",1,1,500};
+		sound2[] = {"A3\sounds_f\arsenal\sfx\supersonic_crack\sc_forest2",1,1,500};
+		sound3[] = {"A3\sounds_f\arsenal\sfx\supersonic_crack\sc_forest3",1,1,500};
+		sounds[] = {"sound1",0.333,"sound2",0.333,"sound3",0.333};
+		frequency = "((speed factor [330, 930]) * 0.1) + 1.05";
+		trigger = "forest";
+	};
+	class SCrackTrees
+	{
+		range[] = {0,500};
+		sound1[] = {"A3\sounds_f\arsenal\sfx\supersonic_crack\sc_trees1",1,1,500};
+		sound2[] = {"A3\sounds_f\arsenal\sfx\supersonic_crack\sc_trees2",1,1,500};
+		sound3[] = {"A3\sounds_f\arsenal\sfx\supersonic_crack\sc_trees3",1,1,500};
+		sounds[] = {"sound1",0.333,"sound2",0.333,"sound3",0.333};
+		frequency = "((speed factor [330, 930]) * 0.1) + 1.05";
+		trigger = "trees";
+	};
+	class SCrackMeadow
+	{
+		range[] = {0,500};
+		sound1[] = {"A3\sounds_f\arsenal\sfx\supersonic_crack\sc_meadow1",1,1,500};
+		sound2[] = {"A3\sounds_f\arsenal\sfx\supersonic_crack\sc_meadow2",1,1,500};
+		sound3[] = {"A3\sounds_f\arsenal\sfx\supersonic_crack\sc_meadow3",1,1,500};
+		sounds[] = {"sound1",0.333,"sound2",0.333,"sound3",0.333};
+		frequency = "((speed factor [330, 930]) * 0.1) + 1.05";
+		trigger = "meadow max sea";
+	};
+	class SCrackHouses
+	{
+		range[] = {0,500};
+		sound1[] = {"A3\sounds_f\arsenal\sfx\supersonic_crack\sc_houses1",1,1,500};
+		sound2[] = {"A3\sounds_f\arsenal\sfx\supersonic_crack\sc_houses2",1,1,500};
+		sound3[] = {"A3\sounds_f\arsenal\sfx\supersonic_crack\sc_houses3",1,1,500};
+		sounds[] = {"sound1",0.333,"sound2",0.333,"sound3",0.333};
+		frequency = "((speed factor [330, 930]) * 0.1) + 1.05";
+		trigger = "houses max interior";
+	};
+};

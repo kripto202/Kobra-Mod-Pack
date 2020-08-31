@@ -908,3 +908,155 @@
 		scope = 1;
 		magazines[] = {"442_40_50rnd_he_blue_mag"};
 	};
+///droidika
+	class Cannon_droideka: gatling_25mm
+	{
+		displayName="BigLasorz";
+		magazines[]={"Droideka_mag"};
+		scope = 1;
+		ballisticsComputer = 1;
+		autoFire = 1;
+		canLock = 2;
+		airLock = 1;
+		weaponInfoType = "RscWeaponZeroing";
+		cursor = "EmptyCursor";
+		cursorAim = "cannon";
+		nameSound = "cannon";
+		initSpeed = 310;
+		muzzlePos = "usti hlavne";
+		muzzleEnd = "konec hlavne";
+		selectionFireAnim = "";
+		reloadTime = 1;
+		reloadmagazinetime = 4;
+		magazinereloadtime = 4;
+		fireLightDuration = 0.03;
+		fireLightIntensity = 0.5;
+		fireLightDiffuse[] = {0.1,0,0.0025};
+		fireLightAmbient[] = {0.1,0,0};
+		soundBullet[] = {};
+		soundContinuous = 0;
+		reloadMagazineSound[] = {"",1,1,1};
+		reloadSound[] = {"",1,1,1};
+		modes[] = {"manual","close","short","medium","far"};
+		class manual: Mode_FullAuto
+		{
+			displayName = "Twin Blaster Cannon";
+			autoFire = 1;
+			sounds[] = {"StandardSound"};
+			class StandardSound
+			{
+				begin1[] = {"442_turrets\Droideka\data\Sounds\droidekafire1.wss",1,1,2000};
+				begin2[] = {"442_turrets\Droideka\data\Sounds\droidekafire1.wss",1,1,2000};
+				begin3[] = {"442_turrets\Droideka\data\Sounds\droidekafire2.wss",1,1,2000};
+				begin4[] = {"442_turrets\Droideka\data\Sounds\droidekafire1.wss",1,1,2000};
+				begin5[] = {"442_turrets\Droideka\data\Sounds\droidekafire2.wss",1,1,2000};
+				begin6[] = {"442_turrets\Droideka\data\Sounds\droidekafire1.wss",1,1,2000};
+				begin7[] = {"442_turrets\Droideka\data\Sounds\droidekafire1.wss",1,1,2000};
+				begin8[] = {"442_turrets\Droideka\data\Sounds\droidekafire2.wss",1,1,2000};
+				begin9[] = {"442_turrets\Droideka\data\Sounds\droidekafire1.wss",1,1,2000};
+				begin10[] = {"442_turrets\Droideka\data\Sounds\droidekafire1.wss",1,1,2000};
+				soundBegin[] = {"begin1",0.1,"begin2",0.1,"begin3",0.1,"begin4",0.1,"begin5",0.1,"begin6",0.1,"begin7",0.1,"begin8",0.1,"begin9",0.1,"begin10",0.1};
+				class SoundTails
+				{
+					class TailForest
+					{
+						sound[] = {"A3\Sounds_F\arsenal\weapons\LongRangeRifles\GM6_Lynx\GM6_tail_forest",1,1,2200};
+						frequency = 1;
+						volume = "(1-interior/1.4)*forest";
+					};
+					class TailHouses
+					{
+						sound[] = {"A3\Sounds_F\arsenal\weapons\LongRangeRifles\GM6_Lynx\GM6_tail_houses",1,1,2200};
+						frequency = 1;
+						volume = "(1-interior/1.4)*houses";
+					};
+					class TailInterior
+					{
+						sound[] = {"A3\Sounds_F\arsenal\weapons\LongRangeRifles\GM6_Lynx\GM6_tail_interior",1.9952624,1,2200};
+						frequency = 1;
+						volume = "interior";
+					};
+					class TailMeadows
+					{
+						sound[] = {"A3\Sounds_F\arsenal\weapons\LongRangeRifles\GM6_Lynx\GM6_tail_meadows",1,1,2200};
+						frequency = 1;
+						volume = "(1-interior/1.4)*(meadows/2 max sea/2)";
+					};
+					class TailTrees
+					{
+						sound[] = {"A3\Sounds_F\arsenal\weapons\LongRangeRifles\GM6_Lynx\GM6_tail_trees",1,1,2200};
+						frequency = 1;
+						volume = "(1-interior/1.4)*trees";
+					};
+				};
+			};
+			recoil = "empty";
+			reloadTime = 0.18;
+			reloadmagazinetime = 4;
+			magazinereloadtime = 4;
+			soundBurst = 0;
+			dispersion = 0.006;
+			showToPlayer = 1;
+			aiRateOfFireDistance = 50;
+			minRange = 1;
+			minRangeProbab = 0.01;
+			midRange = 2;
+			midRangeProbab = 0.01;
+			maxRange = 3;
+			maxRangeProbab = 0.01;
+			textureType = "fullAuto";
+		};
+		class close: manual
+		{
+			showToPlayer = 0;
+			burst = 20;
+			aiBurstTerminable = 1;
+			aiRateOfFire = 0.15;
+			aiRateOfFireDistance = 400;
+			minRange = 0;
+			minRangeProbab = 0.05;
+			midRange = 200;
+			midRangeProbab = 0.58;
+			maxRange = 400;
+			maxRangeProbab = 0.2;
+		};
+		class short: close
+		{
+			burst = 20;
+			aiBurstTerminable = 1;
+			aiRateOfFire = 0.15;
+			aiRateOfFireDistance = 500;
+			minRange = 300;
+			minRangeProbab = 0.2;
+			midRange = 400;
+			midRangeProbab = 0.58;
+			maxRange = 500;
+			maxRangeProbab = 0.2;
+		};
+		class medium: close
+		{
+			burst = 15;
+			aiBurstTerminable = 1;
+			aiRateOfFire = 0.2;
+			aiRateOfFireDistance = 9000;
+			minRange = 400;
+			minRangeProbab = 0.2;
+			midRange = 700;
+			midRangeProbab = 0.58;
+			maxRange = 900;
+			maxRangeProbab = 0.2;
+		};
+		class far: close
+		{
+			burst = 10;
+			aiBurstTerminable = 1;
+			aiRateOfFire = 0.4;
+			aiRateOfFireDistance = 1500;
+			minRange = 800;
+			minRangeProbab = 0.2;
+			midRange = 1000;
+			midRangeProbab = 0.4;
+			maxRange = 1500;
+			maxRangeProbab = 0.01;
+		};
+	};	
