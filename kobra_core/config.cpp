@@ -582,11 +582,11 @@ class CfgEditorSubcategories
 	{
 		displayname = "Battledroid";
 	};
-	class 442_battledroid_inf_w
+	class 442_battledroid_inf_woodland
 	{
 		displayname = "Battledroid (Woodland)";
 	};
-	class 442_battledroid_inf_d
+	class 442_battledroid_inf_desert
 	{
 		displayname = "Battledroid (Desert)";
 	};

@@ -453,7 +453,7 @@
 		author = "mjr121";
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
-		crew = "442_b1_crew_base";
+		crew = "k_swla_unit_b1_e5";
 		displayName = "Argon Transport";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
 		textureList[] = {};
@@ -474,7 +474,7 @@
 		author = "mjr121";
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
-		crew = "442_b1_crew_base";
+		crew = "k_swla_unit_b1_e5";
 		displayName = "Argon Covered Transport";
 		textureList[] = {};
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4"};
@@ -496,7 +496,7 @@
 		author = "mjr121";
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
-		crew = "442_b1_crew_base";
+		crew = "k_swla_unit_b1_e5";
 		displayName = "Argon Ammo Truck";
 		textureList[] = {};
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4"};
@@ -518,7 +518,7 @@
 		author = "mjr121";
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
-		crew = "442_b1_crew_base";
+		crew = "k_swla_unit_b1_e5";
 		displayName = "Argon Device Carrier";
 		textureList[] = {};
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5"};
@@ -541,7 +541,7 @@
 		author = "mjr121";
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
-		crew = "442_b1_crew_base";
+		crew = "k_swla_unit_b1_e5";
 		displayName = "Argon Fuel Truck";
 		textureList[] = {};
 		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
@@ -562,7 +562,7 @@
 		author = "mjr121";
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
-		crew = "442_b1_crew_base";
+		crew = "k_swla_unit_b1_e5";
 		displayName = "Argon Repair Truck";
 		textureList[] = {};
 		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
@@ -583,7 +583,7 @@
 		author = "mjr121";
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
-		crew = "442_b1_crew_base";
+		crew = "k_swla_unit_b1_e5";
 		displayName = "Argon Medical Truck";
 		attendant = 1;
 		textureList[] = {};

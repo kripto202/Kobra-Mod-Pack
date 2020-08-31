@@ -104,11 +104,11 @@
 		forcehideDriver=1;
 		DriverForceOptics=1;
 		#include "mtt_memorypoints.hpp"
-		driver="SWLB_b1_crew_base";
-		crew="SWLB_b1_crew_base";
+		driver="k_swla_unit_b1_pilot_e5";
+		crew="k_swla_unit_b1_pilot_e5";
 		typicalCargo[]=
 		{
-			"SWLB_b1_crew_base"
+			"k_swla_unit_b1_e5"
 		};
 		class Reflectors
 		{

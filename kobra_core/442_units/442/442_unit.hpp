@@ -8,8 +8,8 @@ class 442_swla_unit_1: k_swla_unit_base
 		role = "Rifleman";
 		author = "kripto202";
 		uniformclass = "442_swla_uniform_1";
-		faction = "442_sod";
-		editorSubCategory = "swla_442_trooper";
+		faction = "442_siege_bat";
+		editorSubCategory = "442_trooper";
 		displayname = "Trooper";
 		movesFatigue = "CfgMovesFatigueTrooper";
 		backpack = "";
@@ -76,3 +76,4 @@ class 442_swla_unit_1: k_swla_unit_base
 			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa"
 		};
 	};
+	#include "442_unit_loadout.hpp"

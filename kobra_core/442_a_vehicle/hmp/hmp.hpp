@@ -1,4 +1,4 @@
-class 442_test_hmp_base: Helicopter_Base_H
+	class 442_test_hmp_base: Helicopter_Base_H
 	{
 		ace_fastroping_enabled = 0;
 		ace_cargo_hasCargo = 0;
@@ -28,7 +28,7 @@ class 442_test_hmp_base: Helicopter_Base_H
 		fuelConsumptionRate = 0.138;
 		side = 0;
 		faction = "442_CIS";
-		crew = "SWLB_b1_pilot_base";
+		crew = "k_swla_unit_b1_pilot_e5";
 		icon = "442_a_vehicle\hmp\data\ui\hmp_icon.paa";
 		editorpreview = "442_hmp\data\ui\hmp_preview.jpg";
 		picture = "";
@@ -66,7 +66,7 @@ class 442_test_hmp_base: Helicopter_Base_H
 		
 		accuracy = 0.5;
 		displayname = "Test HMP Gunship";
-		model = "442_hmp\hmp_gunship.p3d";
+		model = "442_a_vehicle\hmp\hmp_gunship.p3d";
 		
 		driverAction = "apctracked2_slot1_in";
 		driverInAction = "apctracked2_slot1_in";
@@ -882,7 +882,7 @@ class 442_test_hmp_base: Helicopter_Base_H
 		scopecurator = 2;
 		icon="iconObject_1x2";
 		displayname = "HMP Gunship (Wrecked)";
-		model = "442_hmp\hmp_gunship_w.p3d";
+		model = "442_a_vehicle\hmp\hmp_gunship_w.p3d";
 		editorCategory = "kobra";
 		editorSubcategory = "442_wrecks";
 	};

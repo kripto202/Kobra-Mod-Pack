@@ -258,7 +258,7 @@
 ///e5c
     class 442_E5C: 442_rifle_base
 	{
-		author="SW Legion Studios";
+		author="Kobra";
 		picture="\SWLW_droids\machineguns\e5c\data\ui\e5c_ui.paa";
 		displayName="E-5C Blaster Repeater";
 		model="\442_weapons\droids\e5c\e5c.p3d";

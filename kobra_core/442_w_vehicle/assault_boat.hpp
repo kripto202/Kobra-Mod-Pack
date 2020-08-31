@@ -4,7 +4,7 @@ class 442_boat_armed: Boat_Armed_01_minigun_base_F
 		scope = 2;
 		accuracy = 1.5;
 		displayname = "Assault Boat";
-		crew = "44_swla_unit";
+		crew = "k_swla_unit_p2_dc15a";
 		faction = "kobra";
 		editorsubcategory = "442_boat";
 		side = 1;

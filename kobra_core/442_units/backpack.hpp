@@ -170,7 +170,142 @@ class k_clone_backpack_rocket: k_clone_backpack_base
 	};
 };
 
+
+class k_b1_backpack: k_clone_backpack_base
+{
+	displayname = "[K] B1 Backpack";
+	scope = 2;
+	model = "442_units\cis_droids\swlb_b1_backpack.p3d";
+	maximumload = 150;
+	picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
+	hiddenselections[] = 
+	{
+		"camo1"
+	};
+	hiddenselectionstextures[] = 
+	{
+		"442_units\cis_droids\data\b1_backpack_co.paa"
+	};
+};
+class k_b1_backpack_heavy: k_b1_backpack
+{
+	displayname = "[K] B1 Heavy Backpack";
+	maximumload = 250;
+};
+class k_b1_backpack_rto: k_b1_backpack
+{
+	displayname = "[K] B1 RTO Backpack";
+	maximumload = 100;
+	tf_dialog="SWLB_clone_rto_radio_dialog";
+	tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
+	tf_encryptionCode="tf_west_radio_code";
+	tf_hasLRradio=1;
+	tf_range=25000;
+	tf_subtype="digital_lr";
+};
+
+class k_b1_backpack_geonosis: k_b1_backpack
+{
+	displayname = "[K] B1 Backpack Geonosis";
+	hiddenselectionstextures[] = 
+	{
+		"442_units\cis_droids\data\b1_backpack_geonosis_co.paa"
+	};
+};
+class k_b1_backpack_heavy_geonosis: k_b1_backpack_heavy
+{
+	displayname = "[K] B1 Heavy Backpack Geonosis";
+	hiddenselectionstextures[] = 
+	{
+		"442_units\cis_droids\data\b1_backpack_geonosis_co.paa"
+	};
+};
+class k_b1_backpack_rto_geonosis: k_b1_backpack_rto
+{
+	displayname = "[K] B1 RTO Backpack Geonosis";
+	hiddenselectionstextures[] = 
+	{
+		"442_units\cis_droids\data\b1_backpack_geonosis_co.paa"
+	};
+};
+
+class k_b1_backpack_woodland: k_b1_backpack
+{
+	displayname = "[K] B1 Backpack Woodland";
+	hiddenselectionstextures[] = 
+	{
+		"442_units\cis_droids\data\b1_backpack_woodland_co.paa"
+	};
+};
+class k_b1_backpack_heavy_woodland: k_b1_backpack_heavy
+{
+	displayname = "[K] B1 Heavy Backpack Woodland";
+	hiddenselectionstextures[] = 
+	{
+		"442_units\cis_droids\data\b1_backpack_woodland_co.paa"
+	};
+};
+class k_b1_backpack_rto_woodland: k_b1_backpack_rto
+{
+	displayname = "[K] B1 RTO Backpack Woodland";
+	hiddenselectionstextures[] = 
+	{
+		"442_units\cis_droids\data\b1_backpack_woodland_co.paa"
+	};
+};
+
+class k_b1_backpack_desert: k_b1_backpack
+{
+	displayname = "[K] B1 Backpack Desert";
+	hiddenselectionstextures[] = 
+	{
+		"442_units\cis_droids\data\b1_backpack_desert_co.paa"
+	};
+};
+class k_b1_backpack_heavy_desert: k_b1_backpack_heavy
+{
+	displayname = "[K] B1 Heavy Backpack Desert";
+	hiddenselectionstextures[] = 
+	{
+		"442_units\cis_droids\data\b1_backpack_desert_co.paa"
+	};
+};
+class k_b1_backpack_rto_desert: k_b1_backpack_rto
+{
+	displayname = "[K] B1 RTO Backpack Desert";
+	hiddenselectionstextures[] = 
+	{
+		"442_units\cis_droids\data\b1_backpack_desert_co.paa"
+	};
+};
+
+class k_b1_backpack_winter: k_b1_backpack
+{
+	displayname = "[K] B1 Backpack Winter";
+	hiddenselectionstextures[] = 
+	{
+		"442_units\cis_droids\data\b1_backpack_winter_co.paa"
+	};
+};
+class k_b1_backpack_heavy_winter: k_b1_backpack_heavy
+{
+	displayname = "[K] B1 Heavy Backpack Winter";
+	hiddenselectionstextures[] = 
+	{
+		"442_units\cis_droids\data\b1_backpack_winter_co.paa"
+	};
+};
+class k_b1_backpack_rto_winter: k_b1_backpack_rto
+{
+	displayname = "[K] B1 RTO Backpack Winter";
+	hiddenselectionstextures[] = 
+	{
+		"442_units\cis_droids\data\b1_backpack_winter_co.paa"
+	};
+};
+
 ///backpacks with loadouts
+///clones
 class k_clone_backpack_medic_med_load: k_clone_backpack_medic_med
 {
 	scope = 1;
@@ -238,3 +373,218 @@ class k_clone_backpack_medic_med_load: k_clone_backpack_medic_med
 	};
 };
 
+///droids
+class k_b1_backpack_rps6_load: k_b1_backpack_heavy
+{
+	scope = 1;
+	scopecurator = 1;
+	scopearsenal = 1;
+	class transportmagazines
+	{
+		class _xx_442_rps6_heat_mag
+		{
+			magazine = "442_rps6_heat_mag";
+			count = 2;
+		};
+	};
+};
+class k_b1_backpack_e60r_at_load: k_b1_backpack_heavy
+{
+	scope = 1;
+	scopecurator = 1;
+	scopearsenal = 1;
+	class transportmagazines
+	{
+		class _xx_SWLW_e60r_at_mag
+		{
+			magazine = "SWLW_e60r_at_mag";
+			count = 2;
+		};
+	};
+};
+class k_b1_backpack_e60r_aa_load: k_b1_backpack_heavy
+{
+	scope = 1;
+	scopecurator = 1;
+	scopearsenal = 1;
+	class transportmagazines
+	{
+		class _xx_SWLW_e60r_aa_mag
+		{
+			magazine = "SWLW_e60r_aa_mag";
+			count = 2;
+		};
+	};
+};
+
+class k_b1_backpack_geonosis_rps6_load: k_b1_backpack_heavy_geonosis
+{
+	scope = 1;
+	scopecurator = 1;
+	scopearsenal = 1;
+	class transportmagazines
+	{
+		class _xx_442_rps6_heat_mag
+		{
+			magazine = "442_rps6_heat_mag";
+			count = 2;
+		};
+	};
+};
+class k_b1_backpack_geonosis_e60r_at_load: k_b1_backpack_heavy_geonosis
+{
+	scope = 1;
+	scopecurator = 1;
+	scopearsenal = 1;
+	class transportmagazines
+	{
+		class _xx_SWLW_e60r_at_mag
+		{
+			magazine = "SWLW_e60r_at_mag";
+			count = 2;
+		};
+	};
+};
+class k_b1_backpack_geonosis_e60r_aa_load: k_b1_backpack_heavy_geonosis
+{
+	scope = 1;
+	scopecurator = 1;
+	scopearsenal = 1;
+	class transportmagazines
+	{
+		class _xx_SWLW_e60r_aa_mag
+		{
+			magazine = "SWLW_e60r_aa_mag";
+			count = 2;
+		};
+	};
+};
+
+class k_b1_backpack_woodland_rps6_load: k_b1_backpack_heavy_woodland
+{
+	scope = 1;
+	scopecurator = 1;
+	scopearsenal = 1;
+	class transportmagazines
+	{
+		class _xx_442_rps6_heat_mag
+		{
+			magazine = "442_rps6_heat_mag";
+			count = 2;
+		};
+	};
+};
+class k_b1_backpack_woodland_e60r_at_load: k_b1_backpack_heavy_woodland
+{
+	scope = 1;
+	scopecurator = 1;
+	scopearsenal = 1;
+	class transportmagazines
+	{
+		class _xx_SWLW_e60r_at_mag
+		{
+			magazine = "SWLW_e60r_at_mag";
+			count = 2;
+		};
+	};
+};
+class k_b1_backpack_woodland_e60r_aa_load: k_b1_backpack_heavy_woodland
+{
+	scope = 1;
+	scopecurator = 1;
+	scopearsenal = 1;
+	class transportmagazines
+	{
+		class _xx_SWLW_e60r_aa_mag
+		{
+			magazine = "SWLW_e60r_aa_mag";
+			count = 2;
+		};
+	};
+};
+
+class k_b1_backpack_desert_rps6_load: k_b1_backpack_heavy_desert
+{
+	scope = 1;
+	scopecurator = 1;
+	scopearsenal = 1;
+	class transportmagazines
+	{
+		class _xx_442_rps6_heat_mag
+		{
+			magazine = "442_rps6_heat_mag";
+			count = 2;
+		};
+	};
+};
+class k_b1_backpack_desert_e60r_at_load: k_b1_backpack_heavy_desert
+{
+	scope = 1;
+	scopecurator = 1;
+	scopearsenal = 1;
+	class transportmagazines
+	{
+		class _xx_SWLW_e60r_at_mag
+		{
+			magazine = "SWLW_e60r_at_mag";
+			count = 2;
+		};
+	};
+};
+class k_b1_backpack_desert_e60r_aa_load: k_b1_backpack_heavy_desert
+{
+	scope = 1;
+	scopecurator = 1;
+	scopearsenal = 1;
+	class transportmagazines
+	{
+		class _xx_SWLW_e60r_aa_mag
+		{
+			magazine = "SWLW_e60r_aa_mag";
+			count = 2;
+		};
+	};
+};
+
+class k_b1_backpack_winter_rps6_load: k_b1_backpack_heavy_winter
+{
+	scope = 1;
+	scopecurator = 1;
+	scopearsenal = 1;
+	class transportmagazines
+	{
+		class _xx_442_rps6_heat_mag
+		{
+			magazine = "442_rps6_heat_mag";
+			count = 2;
+		};
+	};
+};
+class k_b1_backpack_winter_e60r_at_load: k_b1_backpack_heavy_winter
+{
+	scope = 1;
+	scopecurator = 1;
+	scopearsenal = 1;
+	class transportmagazines
+	{
+		class _xx_SWLW_e60r_at_mag
+		{
+			magazine = "SWLW_e60r_at_mag";
+			count = 2;
+		};
+	};
+};
+class k_b1_backpack_winter_e60r_aa_load: k_b1_backpack_heavy_winter
+{
+	scope = 1;
+	scopecurator = 1;
+	scopearsenal = 1;
+	class transportmagazines
+	{
+		class _xx_SWLW_e60r_aa_mag
+		{
+			magazine = "SWLW_e60r_aa_mag";
+			count = 2;
+		};
+	};
+};

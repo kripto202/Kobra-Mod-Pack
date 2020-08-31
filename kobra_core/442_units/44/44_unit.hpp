@@ -9,7 +9,7 @@
 		author = "kripto202";
 		uniformclass = "44_swla_uniform";
 		faction = "44_ab";
-		editorSubCategory = "swla_44_trooper";
+		editorSubCategory = "442_trooper";
 		displayname = "Trooper";
 		movesFatigue = "CfgMovesFatigueTrooper";
 		backpack = "";
@@ -209,3 +209,4 @@
 			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
 		};
 	};
+	#include "44_unit_loadout.hpp"

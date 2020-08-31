@@ -38,7 +38,7 @@
 		fuelConsumptionRate=0.138;
 		side=1;
 		faction="kobra";
-		crew="SWLB_clone_pilot_base_P2";
+		crew="k_swla_unit_p2_dc15a";
 		icon="442_a_vehicle\laat\data\ui\laat_icon.paa";
 		editorpreview="442_a_vehicle\laat\data\ui\laat_preview.jpg";
 		picture="";

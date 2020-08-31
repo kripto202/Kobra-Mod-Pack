@@ -1,4 +1,3 @@
-///p2
 	class 9_swla_trooper_clean: k_swla_unit_base
 	{
 		scope = 1;
@@ -87,3 +86,4 @@
 			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
 		};
 	};
+	#include "9_unit_loadout.hpp"

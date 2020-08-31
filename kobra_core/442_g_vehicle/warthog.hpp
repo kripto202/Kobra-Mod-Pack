@@ -603,7 +603,7 @@
 		displayname = "Warthog (MG)";
 		scope = 2;
 		side = 0;
-		crew = "442_b1_crew_base";
+		crew = "k_swla_unit_b1_e5";
 		faction = "442_CIS";
 		editorsubcategory = "442_g_vehicle";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_troop"};

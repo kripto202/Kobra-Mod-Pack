@@ -1029,7 +1029,7 @@
 ///dc15sa
     class 442_DC15SA: Pistol_Base_F
 	{
-		author="kripto202";
+		author="Kobra";
 		scope=2;
 		model="\SWLW_clones_spec\DC15SA.p3d";
 		picture="\SWLW_clones_spec\data\ui\DC15SA_ui.paa";
@@ -1523,7 +1523,7 @@
 ///dc17
     class 442_DC17: Pistol_Base_F
 	{
-		author="kripto202";
+		author="Kobra";
 		_generalMacro="hgun_P07_F";
 		scope=2;
 		model="SWLW_clones\pistols\dc17\DC17.p3d";
@@ -1952,10 +1952,10 @@
 ///rps6
     class 442_RPS6: Launcher_Base_F
 	{
-		author="kripto202";
+		author="Kobra";
 		_generalMacro="launch_RPG32_F";
 		scope=2;
-		displayName="RPS-6 rocket launcher";
+		displayName="RPS-6 Rocket Launcher";
 		model="SWLW_clones\launchers\rps6\RPS6.p3d";
 		picture="\SWLW_clones\launchers\rps6\data\ui\RPS6_ui.paa";
 		hiddenselections[] = 
@@ -2083,7 +2083,7 @@
 		cmimmunity = 0.1;
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			mass=150;
+			mass=120;
 		};
 		descriptionShort="";
 		class Library
@@ -2387,7 +2387,7 @@
     /*class 442_WestarM5_scope: ItemCore
 	{
 		displayName="Westar M-5 scope";
-		author="kripto202";
+		author="Kobra";
 		picture="\SWLW_clones\smgs\westar_m5\data\ui\westarm5_scope_ui.paa";
 		model="\SWLW_clones\smgs\westar_m5\WestarM5_scope.p3d";
 		scope=2;
@@ -2883,10 +2883,10 @@
 		};
 		magazines[]=
 		{
-			"442_556_100rnd_blue_mag",
-			"442_556_150rnd_blue_mag",
-			"442_556_200rnd_blue_mag",
-			"442_556_500rnd_blue_mag"
+			"442_556_100rnd_red_mag",
+			"442_556_150rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_500rnd_red_mag"
 		};
 		/*class explosive: explosive
 		{

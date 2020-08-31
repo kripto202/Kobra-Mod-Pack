@@ -70,8 +70,8 @@
 			"442_40_50rnd_he_red_mag"
 		};
 		#include "aat_memorypoints.hpp"
-		driver="SWLB_b1_crew_base";
-		crew="SWLB_b1_crew_base";
+		driver="k_swla_unit_b1_pilot_e5";
+		crew="k_swla_unit_b1_pilot_e5";
 		typicalCargo[]=
 		{
 			"SWLB_b1_crew_base"
