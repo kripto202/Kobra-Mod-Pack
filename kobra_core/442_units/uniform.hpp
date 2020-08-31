@@ -88,3 +88,17 @@ class k_swla_b1_winter_uniform: k_swla_b1_uniform
         uniformclass = "k_swla_unit_b1_winter_base";
     };
 };
+class k_barracks_uniform: U_O_officer_noinsignia_hex_F
+{
+    displayname = "Barracks Uniform"; //uniform name
+    scope = 2;
+    scopecurator = 2;
+    scopearsenal = 2;
+    class ItemInfo: UniformItem
+    {
+        uniformmodel = "-";
+        containerclass = "Supply50"; //how much the uniform can store stuff
+        mass = 20; //how heavy the uniform is
+        uniformclass = "k_barracks_unit"; //needs to link to a unit 
+    };
+};

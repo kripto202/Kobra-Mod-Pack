@@ -697,6 +697,7 @@ class cfgweapons
 	class V_PlateCarrier1_rgr;
 	class SWLB_b1_uniform;
 	class gatling_25mm;
+	class U_O_officer_noinsignia_hex_F;
 	class 442_rifle_base: Rifle_Long_Base_F
 	{
 		author="kripto202";
@@ -826,6 +827,7 @@ class cfgvehicles
 	class FloatingStructure_F;
 	class thingx;
 	class Land;
+	class O_officer_F;
 	class LandVehicle: Land
 	{
 		class NewTurret;

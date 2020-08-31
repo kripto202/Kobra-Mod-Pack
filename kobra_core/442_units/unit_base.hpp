@@ -163,4 +163,48 @@
 		editorsubcategory = "442_battledroid_inf_winter";
 	};
 
+	class k_barracks_unit: O_officer_F
+	{
+		scope = 2;
+		displayname = "Trooper (Barracks)";
+		editorpreview = "\SWLB_clones\data\ui\editorPreviews\SWLB_clone_base_P2.jpg";
+		identityTypes[] = {"LanguageENG_F", "Head_NATO"};
+		role = "Rifleman";
+		uniformclass = "k_barracks_uniform";
+		side = 1;
+		faction="kobra";
+		editorSubCategory="442_trooper";
+		movesFatigue="CfgMovesFatigueTrooper";
+		hiddenselectionstextures[] = 
+		{
+			"442_units\clones\data\uniform\Barracks.paa"
+		};
+		weapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		linkedItems[] = 
+		{
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch"
+		};
+		respawnlinkedItems[] = 
+		{
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch"
+		};
+	};
+
 	#include "unit_loadout.hpp"

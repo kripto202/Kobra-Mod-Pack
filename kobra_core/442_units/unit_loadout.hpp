@@ -12,6 +12,7 @@
 		linkedItems[] = 
 		{
 			"k_p2_helmet",
+			"k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -21,6 +22,7 @@
 		respawnlinkedItems[] = 
 		{
 			"k_p2_helmet",
+			"k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -126,12 +128,14 @@
 		weapons[] = 
 		{
 			"442_DC15s",
+			"k_vest_basic",
 			"Throw",
 			"Put"
 		};
 		respawnweapons[] = 
 		{
 			"442_DC15s",
+			"k_vest_basic",
 			"Throw",
 			"Put"
 		};
@@ -198,7 +202,7 @@
         linkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -208,7 +212,7 @@
 		respawnlinkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -419,7 +423,7 @@
         linkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -429,7 +433,7 @@
 		respawnlinkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -536,7 +540,7 @@
         linkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -546,7 +550,7 @@
 		respawnlinkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -767,7 +771,7 @@
         linkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -777,7 +781,7 @@
 		respawnlinkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -988,7 +992,7 @@
         linkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -998,7 +1002,7 @@
 		respawnlinkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -1105,7 +1109,7 @@
         linkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -1115,7 +1119,7 @@
 		respawnlinkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+           "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -1337,7 +1341,7 @@
         linkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -1347,7 +1351,7 @@
 		respawnlinkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -1462,7 +1466,7 @@
         linkedItems[] = 
 		{
 			"k_b1_helmet_cmd",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -1472,7 +1476,7 @@
 		respawnlinkedItems[] = 
 		{
 			"k_b1_helmet_cmd",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -1588,7 +1592,7 @@
         linkedItems[] = 
 		{
 			"k_b1_helmet_geonosis",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -1598,7 +1602,7 @@
 		respawnlinkedItems[] = 
 		{
 			"k_b1_helmet_geonosis",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -1809,7 +1813,7 @@
         linkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -1819,7 +1823,7 @@
 		respawnlinkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -1926,7 +1930,7 @@
         linkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -1936,7 +1940,7 @@
 		respawnlinkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -2158,7 +2162,7 @@
         linkedItems[] = 
 		{
 			"k_b1_helmet_woodland",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -2168,7 +2172,7 @@
 		respawnlinkedItems[] = 
 		{
 			"k_b1_helmet_woodland",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -2379,7 +2383,7 @@
         linkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -2389,7 +2393,7 @@
 		respawnlinkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -2496,7 +2500,7 @@
         linkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -2506,7 +2510,7 @@
 		respawnlinkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -2728,7 +2732,7 @@
         linkedItems[] = 
 		{
 			"k_b1_helmet_desert",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -2738,7 +2742,7 @@
 		respawnlinkedItems[] = 
 		{
 			"k_b1_helmet_desert",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -2948,7 +2952,7 @@
         linkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -2958,7 +2962,7 @@
 		respawnlinkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -3064,7 +3068,7 @@
         linkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -3074,7 +3078,7 @@
 		respawnlinkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -3296,7 +3300,7 @@
         linkedItems[] = 
 		{
 			"k_b1_helmet_winter",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -3306,7 +3310,7 @@
 		respawnlinkedItems[] = 
 		{
 			"k_b1_helmet_winter",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -3517,7 +3521,7 @@
         linkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -3527,7 +3531,7 @@
 		respawnlinkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -3634,7 +3638,7 @@
         linkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -3644,7 +3648,7 @@
 		respawnlinkedItems[] = 
 		{
 			"k_b1_helmet",
-            "k_swla_vest",
+            "k_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
