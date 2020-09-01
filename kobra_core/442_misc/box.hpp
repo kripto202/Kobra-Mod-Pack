@@ -3,8 +3,8 @@
 		scope = 2;
 		author = "KOBRA Mod Team";
 		displayName = "[442] Weapons Box";
-		model = "\442_box\box.p3d";
-		editorcategories = "442_siege_bat";
+		model = "\442_misc\box\box.p3d";
+		editorcategories = "kobra";
 		editorsubcategories = "442_item";
 		maximumLoad=4000;
 		memoryPointSupply="doplnovani";
@@ -50,11 +50,6 @@
 				weapon = "442_dc17";
 				count = 5;
 			};
-			class swlw_rps6_disposable
-			{
-				weapon = "swlw_rps6_disposable";
-				count = 5;
-			};
 
 		};
 		class transportMagazines
@@ -79,11 +74,6 @@
 				magazine = "smokeshell";
 				count = 10;
 			};
-			class sw_squadshield_mag
-			{
-				magazine = "sw_squadshield_mag";
-				count = 5;
-			};
 			class ace_m14
 			{
 				magazine = "ace_m14";
@@ -103,21 +93,6 @@
 			{
 				magazine = "democharge_remote_mag";
 				count = 2;
-			};
-			class 442_dc15a_mag
-			{
-				magazine = "442_dc15a_mag";
-				count = 25;
-			};
-			class 442_dc15s_mag
-			{
-				magazine = "442_dc15s_mag";
-				count = 25;
-			};
-			class 442_dc17_mag
-			{
-				magazine = "442_dc17_mag";
-				count = 25;
 			};
 		};
 	};
