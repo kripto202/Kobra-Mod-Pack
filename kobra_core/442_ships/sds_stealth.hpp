@@ -2,7 +2,7 @@
 	{
 		scope=2;
 		scopecurator=2;
-		author = "KOBRA Mod Team";
+		author = "Kobra Mod Team";
 		displayName="SDS-Stealth Ship";
 		model="\442_ships\sds_stealth\sds_stealth.p3d";
 		editorcategory="kobra";

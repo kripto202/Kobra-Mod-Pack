@@ -2,7 +2,7 @@ class 442_acclamator: House_F
 	{
 		scope=2;
 		scopecurator=2;
-		author = "KOBRA Mod Team";
+		author =Kobra Mod Teamod Team";
 		displayName="Acclamator Landed";
 		model="\442_ships\acclamator\acclamator.p3d";
 		editorcategory="kobra";

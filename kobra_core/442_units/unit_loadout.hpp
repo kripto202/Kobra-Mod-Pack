@@ -181,7 +181,7 @@
 	};
 	class k_swla_unit_p2_engineer: k_swla_unit_p2_dc15s
 	{
-		displayname = "Trooper (Medic)";
+		displayname = "Trooper (Engineer)";
 		engineer = 1;
 		canDeactivateMines= 1;
 	};

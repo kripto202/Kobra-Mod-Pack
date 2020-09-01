@@ -1,6 +1,6 @@
-class 44_swla_vest_base: V_rebreatherB
+	class 44_swla_vest_base: V_rebreatherB
 	{
-		author = "KOBRA Mod Team";
+		author = "Kobra Mod Team";
 		displayname = "[44] Clone trooper vest";
 		scope = 0;
 		scopeCurator = 0;
@@ -309,6 +309,10 @@ class 44_swla_vest_base: V_rebreatherB
 			"camo1",
 			"camo2",
 			"pauldron"
+		};
+		hiddenselectionstextures[] = 
+		{
+			
 		};
 		class Iteminfo: Iteminfo
 		{

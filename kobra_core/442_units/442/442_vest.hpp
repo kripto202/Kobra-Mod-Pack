@@ -1,6 +1,6 @@
 class 442_swla_vest_base: V_rebreatherB
 	{
-		author = "KOBRA Mod Team";
+		author = "Kobra Mod Team";
 		displayname = "[442] Clone trooper vest";
 		scope = 0;
 		scopeCurator = 0;

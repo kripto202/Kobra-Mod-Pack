@@ -329,6 +329,67 @@ class CfgPatches
 			"442_turbotank",
 			"442_turbotank_m",
 			"442_boat_armed",
+
+			"k_swla_unit_p2_dc15a",
+			"k_swla_unit_p2_dc15s",
+			"k_swla_unit_p2_medic",
+			"k_swla_unit_p2_engineer",
+			"k_swla_unit_b1_e5",
+			"k_swla_unit_b1_e5_rps6",
+			"k_swla_unit_b1_dc15x",
+			"k_swla_unit_b1_e5c",
+			"k_swla_unit_b1_e5z",
+			"k_swla_unit_b1_e5_e60r_at",
+			"k_swla_unit_b1_e5_e60r_aa",
+			"k_swla_unit_b1_security_e5",
+			"k_swla_unit_b1_security_e5_rps6",
+			"k_swla_unit_b1_security_dc15x",
+			"k_swla_unit_b1_security_e5c",
+			"k_swla_unit_b1_security_e6z",
+			"k_swla_unit_b1_security_e5_e60r_at",
+			"k_swla_unit_b1_security_e5_e60r_aa",
+			"k_swla_unit_b1_pilot_e5",
+			"k_swla_unit_b1_cmd_e5",
+			"k_swla_unit_b1_geonosis_e5",
+			"k_swla_unit_b1_geonosis_e5_rps6",
+			"k_swla_unit_b1_geonosis_dc15x",
+			"k_swla_unit_b1_geonosis_e5c",
+			"k_swla_unit_b1_geonosis_e6z",
+			"k_swla_unit_b1_geonosis_e5_e60r_at",
+			"k_swla_unit_b1_geonosis_e5_e60r_aa",
+			"k_swla_unit_b1_woodland_e5",
+			"k_swla_unit_b1_woodland_e5_rps6",
+			"k_swla_unit_b1_woodland_dc15x",
+			"k_swla_unit_b1_woodland_e5c",
+			"k_swla_unit_b1_woodland_e6z",
+			"k_swla_unit_b1_woodland_e5_e60r_at",
+			"k_swla_unit_b1_woodland_e5_e60r_aa",
+			"k_swla_unit_b1_desert_e5",
+			"k_swla_unit_b1_desert_e5_rps6",
+			"k_swla_unit_b1_desert_dc15x",
+			"k_swla_unit_b1_desert_e5c",
+			"k_swla_unit_b1_desert_e6z",
+			"k_swla_unit_b1_desert_e5_e60r_at",
+			"k_swla_unit_b1_desert_e5_e60r_aa",
+			"k_swla_unit_b1_winter_e5",
+			"k_swla_unit_b1_winter_e5_rps6",
+			"k_swla_unit_b1_winter_dc15x",
+			"k_swla_unit_b1_winter_e5c",
+			"k_swla_unit_b1_winter_e6z",
+			"k_swla_unit_b1_winter_e5_e60r_at",
+			"k_swla_unit_b1_winter_e5_e60r_aa",
+			"9_swla_trooper_worn_dc15a",
+			"9_swla_trooper_worn_dc15s",
+			"9_swla_trooper_worn_medic",
+			"9_swla_trooper_worn_engineer",
+			"44_swla_unit_dc15a",
+			"44_swla_unit_dc15s",
+			"44_swla_unit_medic",
+			"44_swla_unit_engineer",
+			"442_swla_unit_1_dc15a",
+			"442_swla_unit_1_dc15s",
+			"442_swla_unit_1_medic",
+			"442_swla_unit_1_engineer",
 		};
 		weapons[]=
 		{
@@ -533,6 +594,14 @@ class CfgEditorSubcategories
 	class 442_helmets
 	{
 		displayname = "Helmets";
+	};
+	class 442_droid_head
+	{
+		displayname = "Droid Head";
+	};
+	class 442_weapon
+	{
+		displayname = "Weapons"
 	};
 	class 442_planes
 	{
@@ -764,15 +833,15 @@ class cfgweapons
 
 	#include "442_units\9\9_uniform.hpp"
 	#include "442_units\9\9_helmet.hpp"
-	#include "442_units\9\9_vest.hpp"
+	//#include "442_units\9\9_vest.hpp"
 
 	#include "442_units\44\44_uniform.hpp"
 	#include "442_units\44\44_helmet.hpp"
-	#include "442_units\44\44_vest.hpp"
+	//#include "442_units\44\44_vest.hpp"
 
 	#include "442_units\442\442_uniform.hpp"
 	#include "442_units\442\442_helmet.hpp"
-	#include "442_units\442\442_vest.hpp"
+	//#include "442_units\442\442_vest.hpp"
 
 	#include "442_equipment\attachment.hpp"
 	#include "442_equipment\vest.hpp"
@@ -891,6 +960,9 @@ class cfgvehicles
 	class B_Soldier_base_F;
 	class B_Soldier_02_f;
 	class B_Kitbag_rgr;
+	class headgear_base_f;
+	class Weapon_Base_F;
+	class Item_Base_F;
 	class Boat_Armed_01_base_F: Boat_F
 	{
 		class Hitpoints;
@@ -1041,6 +1113,9 @@ class cfgvehicles
 
 	#include "442_equipment\jumppack\jumppack.hpp"
 	#include "442_turrets\droideka.hpp"
+
+	#include "442_placeable\helmets.hpp"
+	#include "442_placeable\weapons.hpp"
 };
 
 class cfgCloudlets

@@ -1,6 +1,6 @@
     class 442_rps6_heat_mag: CA_Magazine
 	{
-		author = "KOBRA Mod Team";
+		author = "Kobra Dev Team";
 		scope = 2;
 		displayname = "RPS-6 HEAT";
 		displaynameshort = "HEAT";

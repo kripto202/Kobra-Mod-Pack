@@ -17,7 +17,7 @@
             class base
             {
                 displayname = "Base";
-                author = "KOBRA Mod Team";
+                author = "Kobra Mod Team Team";
                 textures[] = 
                 {
                     "442_a_vehicle\air\data\a10\rep_a10_body.paa",
@@ -33,8 +33,8 @@
                 displayname = "442nd";
                 textures[] = 
                 {
-                    "442_air\data\a10\442_a10_body.paa",
-		        	"442_air\data\a10\442_a10_wing.paa"
+                    "442_a_vehicle\air\data\a10\442_a10_body.paa",
+		        	"442_a_vehicle\air\data\a10\442_a10_wing.paa"
                 };
             };
         };

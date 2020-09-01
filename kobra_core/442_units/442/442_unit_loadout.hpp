@@ -1,4 +1,4 @@
-class 442_swla_unit_1_dc15a: 442_swla_unit_1
+	class 442_swla_unit_1_dc15a: 442_swla_unit_1
 	{
 		scope = 2;
 		scopecurator = 2;

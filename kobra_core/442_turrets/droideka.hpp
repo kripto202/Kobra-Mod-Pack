@@ -1,7 +1,7 @@
 	class k_CIS_Droideka: StaticMGWeapon
 	{
 		model="442_turrets\Droideka\data\turret\droideka.p3d";
-		author="Rancor Customs";
+		author="Kobra Mod Team";
 		DisplayName="Droideka";
 		picture = "\A3\Static_F_Gamma\data\UI\gear_StaticTurret_AA_CA.paa";
 		UiPicture = "\A3\Static_F_Gamma\data\UI\gear_StaticTurret_AA_CA.paa";

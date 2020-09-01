@@ -1,6 +1,6 @@
 	class 442_hardcell_base: StaticShip
 	{
-		author = "KOBRA Mod Team";
+		author ="Kobra Mod Team";
 		model="\442_ships\hardcell\base.p3d";
 		reversed=0;
 		scope=2;
@@ -66,7 +66,7 @@
 		reversed=0;
 		scope=1;
 		scopeCurator=0;
-		author = "KOBRA Mod Team";
+		author ="Kobra Mod Team";
 		displayname="hardcell_hull_base";
 		editorpreview="";
 		editorcategory="kobra";

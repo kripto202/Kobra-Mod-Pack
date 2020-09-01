@@ -6,7 +6,7 @@
 		editorpreview = "\SWLB_clones\data\ui\editorPreviews\SWLB_clone_base_P2.jpg";
 		identityTypes[] = {"LanguageENG_F", "Head_NATO"};
 		role = "Rifleman";
-		author = "KOBRA Mod Team";
+		author = "Kobra Mod Team Team";
 		uniformclass = "9_swla_uniform_clean";
 		faction = "9_ac";
 		editorSubCategory = "442_trooper";

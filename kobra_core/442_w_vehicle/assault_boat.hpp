@@ -1,6 +1,6 @@
 class 442_boat_armed: Boat_Armed_01_minigun_base_F
 	{
-		author = "KOBRA Mod Team";
+		author = "Kobra Mod Team Team";
 		scope = 2;
 		accuracy = 1.5;
 		displayname = "Assault Boat";

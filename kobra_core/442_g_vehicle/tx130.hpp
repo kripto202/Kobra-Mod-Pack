@@ -1,6 +1,6 @@
     class 442_tx130: Tank_F
 	{
-		author = "KOBRA Mod Team";
+		author = "Kobra Mod Team";
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
@@ -1183,8 +1183,8 @@
 				effect="ExhaustEffectTankSide";
 			};
 		};
-		driver="442_swla_unit_p2_dc15a";
-		crew="442_swla_unit_p2_dc15a";
+		driver="k_swla_unit_p2_dc15a";
+		crew="k_swla_unit_p2_dc15a";
 		typicalCargo[]=
 		{
 			"44_swla_unit"
@@ -1275,7 +1275,7 @@
             class 442: base
             {
                 displayname = "442";
-                author = "KOBRA Mod Team";
+                author = "Kobra Mod Team";
                 textures[] = 
                 {
                     "442_g_vehicle\tx130\data\442_body.paa",

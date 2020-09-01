@@ -6,7 +6,7 @@
 		editorpreview = "\SWLB_clones\data\ui\editorPreviews\SWLB_clone_base_P2.jpg";
 		identityTypes[] = {"LanguageENG_F", "Head_NATO"};
 		role = "Rifleman";
-		author = "KOBRA Mod Team";
+		author = "Kobra Mod Team Team";
 		uniformclass = "44_swla_uniform";
 		faction = "44_ab";
 		editorSubCategory = "442_trooper";
@@ -44,7 +44,7 @@
 		editorpreview = "\SWLB_clones\data\ui\editorPreviews\SWLB_clone_base_P2.jpg";
 		identityTypes[] = {"LanguageENG_F", "Head_NATO"};
 		role = "Rifleman";
-		author = "KOBRA Mod Team";
+		author = "Kobra Mod Team Team";
 		uniformclass = "44_swla_uniform_mc";
 		faction = "44_sod";
 		editorSubCategory = "swla_44_trooper";
@@ -206,6 +206,36 @@
 		{
 			"442_units\clones\44\data\custom\rex\44_upper_co.paa",
 			"442_units\clones\44\data\custom\rex\44_lower_co.paa",
+			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
+		};
+	};
+	class 44_swla_unit_rex: 44_swla_unit
+	{
+		uniformclass = "44_swla_uniform_delta";
+		hiddenselectionstextures[] = 
+		{
+			"442_units\clones\44\data\custom\delta\44_upper_co.paa",
+			"442_units\clones\44\data\custom\delta\44_lower_co.paa",
+			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
+		};
+	};
+	class 44_swla_unit_delta: 44_swla_unit
+	{
+		uniformclass = "44_swla_uniform_delta";
+		hiddenselectionstextures[] = 
+		{
+			"442_units\clones\44\data\custom\delta\44_upper_co.paa",
+			"442_units\clones\44\data\custom\delta\44_lower_co.paa",
+			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
+		};
+	};
+	class 44_swla_unit_garrus: 44_swla_unit
+	{
+		uniformclass = "44_swla_uniform_garrus";
+		hiddenselectionstextures[] = 
+		{
+			"442_units\clones\44\data\custom\garrus\44_upper_co.paa",
+			"442_units\clones\44\data\custom\garrus\44_lower_co.paa",
 			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
 		};
 	};

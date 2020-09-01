@@ -1,6 +1,6 @@
     class 442_lucrehulk: House_F
 	{
-		author = "KOBRA Mod Team";
+		author ="Kobra Mod Team";
 		model="\442_ships\lucrehulk\lucrehulk.p3d";
 		scope=2;
 		scopecurator=2;
@@ -37,7 +37,7 @@
 	};
 	class 442_lucrehulk_base: StaticShip
 	{
-		author = "KOBRA Mod Team";
+		author ="Kobra Mod Team";
 		model="\442_ships\lucrehulk\lucrehulk_base.p3d";
 		reversed=0;
 		scope=2;
@@ -198,7 +198,7 @@
 		reversed=0;
 		scope=1;
 		scopeCurator=0;
-		author = "KOBRA Mod Team";
+		author ="Kobra Mod Team";
 		displayname="luc_hull_base";
 		editorpreview="";
 		editorcategory="kobra";

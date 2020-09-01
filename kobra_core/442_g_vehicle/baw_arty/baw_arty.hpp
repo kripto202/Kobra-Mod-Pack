@@ -1,6 +1,6 @@
 	class 442_baw_arty_base: tank_f
 	{
-		author = "KOBRA Mod Team";
+		author = "Kobra Mod Team";
 		scope=1;
 		scopecurator=1;
 		scopearsenal=1;
@@ -104,7 +104,7 @@
 
 	class 442_baw_arty_wreck: Wreck_base_F
 	{
-		author = "KOBRA Mod Team";
+		author = "Kobra Mod Team";
 		mapsize = 20;
 		editorPreview = "";
 		scope = 2;

@@ -1,4 +1,4 @@
-class 9_swla_trooper_worn_dc15a: 9_swla_trooper_worn
+	class 9_swla_trooper_worn_dc15a: 9_swla_trooper_worn
 	{
 		scope = 2;
 		scopecurator = 2;

@@ -1,6 +1,6 @@
 class 442_thermal_det_mag: HandGrenade
 {
-    author = "KOBRA Mod Team";
+    author = "Kobra Mod Team Team";
     mass = 10;
     scope = 2;
     value = 1;
@@ -19,7 +19,7 @@ class 442_thermal_det_mag: HandGrenade
 };
 class 442_impact_mag: HandGrenade
 {
-    author = "KOBRA Mod Team";
+    author = "Kobra Mod Team Team";
     mass = 5;
     scope = 2;
     value = 1;

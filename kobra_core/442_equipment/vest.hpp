@@ -212,7 +212,7 @@ class k_vest_airborne_nco_1: k_vest_airborne_1
         "442_equipment\vests\data\442_vest_2_b.paa",
         "442_equipment\vests\data\442_vest_2_b.paa",
         "442_equipment\vests\data\442_vest_1_b.paa",
-        "442_equipment\vests\data\442_vest_1_b.paa"
+        "442_equipment\vests\data\442_vest_2_b.paa"
     };
 };
 class k_vest_airborne_nco_2: k_vest_airborne_1
@@ -223,7 +223,7 @@ class k_vest_airborne_nco_2: k_vest_airborne_1
         "442_equipment\vests\data\442_vest_2_g.paa",
         "442_equipment\vests\data\442_vest_2_g.paa",
         "442_equipment\vests\data\442_vest_1_g.paa",
-        "442_equipment\vests\data\442_vest_1_g.paa"
+        "442_equipment\vests\data\442_vest_2_g.paa"
     };
 };
 
@@ -598,7 +598,7 @@ class k_vest_recon_officer_2: k_vest_recon_officer_1
     hiddenselectionstextures[] = 
     {
         "442_equipment\vests\data\442_vest_1_g.paa",
-		"442_equipment\vests\data\442_vest_1_g.paa"
+		"442_equipment\vests\data\442_vest_2_g.paa"
     };
 };
 

@@ -4,7 +4,7 @@
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
-		picture = "442_swla\data\ui\preview\442_p2_helmet.paa";
+		picture = "\442_units\clones\data\ui\p2_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
 			"442_units\clones\442\data\helmets\442_p2_1_helmet_co.paa",
@@ -53,7 +53,7 @@
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
-		picture = "442_swla\data\ui\preview\442_p15_helmet.paa";
+		picture = "\442_units\clones\data\ui\p15_helmet.paa";
 		hiddenselectionstextures[]=
 		{
 			"442_units\clones\442\data\helmets\442_p15_1_helmet_co.paa",
@@ -107,7 +107,7 @@
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
-		picture = "442_swla\data\ui\preview\442_ab_helmet.paa";
+		picture = "\442_units\clones\data\ui\ab_helmet.paa";
 		hiddenselectionstextures[]=
 		{
 			"442_units\clones\442\data\helmets\442_airborne_helmet_co.paa",
@@ -120,7 +120,7 @@
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
-		picture = "442_swla\data\ui\preview\442_pilot_p2_helmet.paa";
+		picture = "\442_units\clones\data\ui\pilot_p2_helmet.paa";
 		hiddenselectionstextures[]=
 		{
 			"442_units\clones\442\data\helmets\442_pilot_helmet_co.paa",
@@ -133,7 +133,7 @@
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
-		picture = "442_swla\data\ui\preview\442_barc_helmet.paa";
+		picture = "\442_units\clones\data\ui\barc_helmet.paa";
 		hiddenselectionstextures[]=
 		{
 			"442_units\clones\442\data\helmets\442_barc_helmet_co.paa",
@@ -146,7 +146,7 @@
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
-		picture = "442_swla\data\ui\preview\442_arf_p1_helmet.paa";
+		picture = "\442_units\clones\data\ui\arf_p1_helmet.paa";
 		hiddenselectionstextures[]=
 		{
 			"442_units\clones\442\data\helmets\442_arf1_helmet_co.paa",
@@ -164,11 +164,11 @@
 	};
 	class 442_p2_arf_helmet_1: k_p2_arf_helmet
 	{
-		displayname = "[442] P2 ARF Helmet 1";
+		displayname = "[442] P1 ARF Helmet 1 (Flaps)";
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
-		picture = "442_swla\data\ui\preview\442_arf_p2_helmet.paa";
+		picture = "\442_units\clones\data\ui\arf_p2_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
 			"442_units\clones\442\data\helmets\442_arf1_helmet_co.paa",
@@ -178,7 +178,7 @@
 	};
 	class 442_p2_arf_helmet_2: 442_p2_arf_helmet_1
 	{
-		displayname = "[442] P2 ARF Helmet 2";
+		displayname = "[442] P1 ARF Helmet 2 (Flaps)";
 		hiddenselectionstextures[] = 
 		{
 			"442_units\clones\442\data\helmets\442_arf2_helmet_co.paa",
@@ -192,7 +192,7 @@
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
-		picture = "442_swla\data\ui\preview\442_eng_helmet.paa";
+		picture = "\442_units\clones\data\ui\eng_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
 			"442_units\clones\442\data\helmets\442_eng1_helmet_co.paa",
@@ -236,7 +236,7 @@
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
-		picture = "442_swla\data\ui\preview\442_p1_helmet.paa";
+		picture = "\442_units\clones\data\ui\p1_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
 			"442_units\clones\442\data\helmets\442_p1_1_helmet_co.paa",

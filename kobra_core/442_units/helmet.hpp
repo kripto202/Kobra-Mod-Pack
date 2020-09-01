@@ -64,7 +64,7 @@ class k_p1_arf_helmet: k_p1_arf_helmet_base
     scope = 2;
     scopecurator = 2;
     scopearsenal = 2;
-    displayname = "[K] ARF P1 Helmet";
+    displayname = "[K] ARF Helmet";
     picture = "\442_units\clones\data\ui\arf_p1_helmet.paa";
     hiddenselectionstextures[] =
     {
@@ -181,7 +181,7 @@ class k_b1_helmet: k_b1_helmet_base
     scopecurator = 2;
     scopearsenal = 2;
     displayname = "[K] B1 Droid Head";
-    picture = "\442_units\clones\data\ui\p2_helmet.paa";
+    picture = "\SWLB_droids\data\ui\icon_b1_uniform_ca.paa";
     hiddenselectionstextures[] = 
     {
         "442_units\cis_droids\data\b1_upper_co.paa"

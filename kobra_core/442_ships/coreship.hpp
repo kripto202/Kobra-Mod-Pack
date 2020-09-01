@@ -2,7 +2,7 @@
 	{
 		scope=2;
 		scopecurator=1;
-		author = "KOBRA Mod Team";
+		author ="Kobra Mod Team";
 		displayName="Core Ship";
 		model="\442_ships\coreship\coreship_base.p3d";
 		editorcategory="kobra";
@@ -75,7 +75,7 @@
 		reversed=0;
 		scope=1;
 		scopeCurator=0;
-		author = "KOBRA Mod Team";
+		author ="Kobra Mod Team";
 		displayname="core_hull_base";
 		editorpreview="";
 		editorcategory="kobra";

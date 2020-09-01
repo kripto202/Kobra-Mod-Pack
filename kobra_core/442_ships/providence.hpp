@@ -2,7 +2,7 @@
 	{
 		scope=2;
 		scopecurator=1;
-		author = "KOBRA Mod Team";
+		author ="Kobra Mod Team";
 		displayName="Providence-class";
 		model="\442_ships\providence\base.p3d";
 		editorcategory="kobra";
@@ -86,7 +86,7 @@
 	{
 		scope=2;
 		scopecurator=1;
-		author = "KOBRA Mod Team";
+		author ="Kobra Mod Team";
 		displayName="Providence-class Dreadnought";
 		model="\442_ships\providence\base_d.p3d";
 		editorcategory="kobra";
@@ -171,7 +171,7 @@
 		reversed=0;
 		scope=1;
 		scopeCurator=0;
-		author = "KOBRA Mod Team";
+		author ="Kobra Mod Team";
 		displayname="core_hull_base";
 		editorpreview="";
 		editorcategory="kobra";
@@ -334,7 +334,7 @@
 	};
 	class 442_providence_zeus: House_F
 	{
-		author = "KOBRA Mod Team";
+		author ="Kobra Mod Team";
 		model="\442_ships\providence\providence.p3d";
 		scope=2;
 		scopecurator=2;

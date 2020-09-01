@@ -1,6 +1,6 @@
     class 442_jumppack: B_Kitbag_rgr
 	{
-		author = "kripto202";
+		author = "Kobra Dev Team";
 		scope = 2;
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		displayname = "[K] Jumppack";
@@ -104,11 +104,11 @@
 	{
 		scope = 2;
 		maximumload=0;
-		displayname = "[K] JT12 Paradrop";
+		displayname = "[K] JT12 Paradrop (Single, Slow Charge)";
 		NSM_jumppack_is_jumppack=1;
 		NSM_jumppack_spam_delay=1;
-		NSM_jumppack_energy_capacity=1;
-		NSM_jumppack_recharge=0;
+		NSM_jumppack_energy_capacity=100;
+		NSM_jumppack_recharge=2;
 		NSM_jumppack_jump_effect_script="NSM_jumppack_effect_fnc_jt_21";
 		NSM_jumppack_effect_points[] = 
 		{
@@ -137,7 +137,7 @@
 		{
 			{
 				"Short Jump",
-				{25,7,1,0,1,1}
+				{25,7,100,0,1,1}
 			}
 		};
 	};

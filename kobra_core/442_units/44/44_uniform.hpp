@@ -134,3 +134,19 @@
 			uniformClass="44_swla_unit_rex";
 		};
 	};
+	class 44_swla_uniform_delta: 44_swla_uniform
+	{
+		displayname = "[44] Clone Trooper Uniform (Delta)";
+		class iteminfo: iteminfo
+		{
+			uniformClass="44_swla_unit_delta";
+		};
+	};
+	class 44_swla_uniform_garrus: 44_swla_uniform
+	{
+		displayname = "[44] Clone Trooper Uniform (Garrus)";
+		class iteminfo: iteminfo
+		{
+			uniformClass="44_swla_unit_garrus";
+		};
+	};

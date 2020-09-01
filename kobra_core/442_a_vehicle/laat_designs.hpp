@@ -3,7 +3,7 @@ class TextureSources
             class base
             {
                 displayname = "No Design";
-                author = "KOBRA Mod Team";
+                author = "Kobra Mod Team";
                 textures[] =
                 {
                     "442_a_vehicle\laat\data\body_1_co.paa",
@@ -133,6 +133,22 @@ class TextureSources
                     "442_a_vehicle\laat\data\796\glass_ca.paa"
                 };
             };
+            class bl: base
+            {
+                displayname = "Black Legion";
+                textures[] = 
+                {
+                    "442_a_vehicle\laat\data\bl\body_1_co.paa",
+                    "442_a_vehicle\laat\data\body_2_co.paa",
+                    "442_a_vehicle\laat\data\bl\door_1_co.paa",
+                    "442_a_vehicle\laat\data\bl\door_2_co.paa",
+                    "442_a_vehicle\laat\data\bl\door_3_co.paa",
+                    "442_a_vehicle\laat\data\bl\wings_co.paa",
+                    "442_a_vehicle\laat\data\missiles_co.paa",
+                    "442_a_vehicle\laat\data\cockpits_co.paa",
+                    "442_a_vehicle\laat\data\glass_ca.paa"
+                };
+            };
         };
         textureList[] =
         {
@@ -144,4 +160,5 @@ class TextureSources
             "empire", 1,
             "delta", 1,
             "796", 1,
+            "bl", 1
         };

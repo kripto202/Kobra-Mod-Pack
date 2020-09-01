@@ -28,7 +28,7 @@
 			class default
 			{
 				displayname = "Republic";
-				author = "KOBRA Mod Team";
+				author = "Kobra Mod Team Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\rep_warthog.paa",
@@ -42,7 +42,7 @@
 			class 442
 			{
 				displayname = "442nd Siege Battalion";
-				author = "KOBRA Mod Team";
+				author = "Kobra Mod Team Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\442_warthog.paa",
@@ -56,7 +56,7 @@
 			class black_legion
 			{
 				displayname = "Black Legion";
-				author = "KOBRA Mod Team";
+				author = "Kobra Mod Team Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\bl_warthog.paa",
@@ -81,7 +81,7 @@
 	{
 		scope = 0;
 		displayName = "M12 LRV Warthog (MG)";
-		author = "mjr121";
+		author = "Kobra Mod Team";
 		faction = "kobra";
 		model = "OPTRE_Vehicles\Warthog\Warthog_MG.p3d";
 		transportSoldier = 0;
@@ -257,7 +257,7 @@
 			class default
 			{
 				displayname = "Republic";
-				author = "KOBRA Mod Team";
+				author = "Kobra Mod Team Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\rep_warthog.paa",
@@ -271,7 +271,7 @@
 			class 442
 			{
 				displayname = "442nd Siege Battalion";
-				author = "KOBRA Mod Team";
+				author = "Kobra Mod Team Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\442_warthog.paa",
@@ -285,7 +285,7 @@
 			class black_legion
 			{
 				displayname = "Black Legion";
-				author = "KOBRA Mod Team";
+				author = "Kobra Mod TeamMod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\bl_warthog.paa",
@@ -307,7 +307,7 @@
 //TT
 	class 442_warthog_tt: OPTRE_M813_TT
 	{
-		displayname = "[442] Warthog (Transport)";
+		displayname = "Warthog (Transport)";
 		scope = 2;
 		side = 1;
 		crew = "k_swla_unit_p2_dc15a";
@@ -324,7 +324,7 @@
 			class default
 			{
 				displayname = "Republic";
-				author = "KOBRA Mod Team";
+				author = "Kobra Mod TeamMod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\rep_warthog.paa",
@@ -338,7 +338,7 @@
 			class 442
 			{
 				displayname = "442nd Siege Battalion";
-				author = "KOBRA Mod Team";
+				author = "Kobra Mod TeamMod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\442_warthog.paa",
@@ -352,7 +352,7 @@
 			class black_legion
 			{
 				displayname = "Black Legion";
-				author = "KOBRA Mod Team";
+				author = "Kobra Mod TeamMod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\bl_warthog.paa",
@@ -391,7 +391,7 @@
 			class default
 			{
 				displayname = "Republic";
-				author = "KOBRA Mod Team";
+				author = "Kobra Mod TeamMod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\rep_warthog.paa",
@@ -405,7 +405,7 @@
 			class 442
 			{
 				displayname = "442nd Siege Battalion";
-				author = "KOBRA Mod Team";
+				author = "Kobra Mod TeamMod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\442_warthog.paa",
@@ -419,7 +419,7 @@
 			class black_legion
 			{
 				displayname = "Black Legion";
-				author = "KOBRA Mod Team";
+				author = "Kobra Mod TeamMod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\bl_warthog.paa",

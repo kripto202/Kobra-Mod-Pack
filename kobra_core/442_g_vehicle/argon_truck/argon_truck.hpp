@@ -2,10 +2,10 @@
 	{
 		#include "equip-common.hpp"
 		side = 1;
-		author = "kripto202 + 'Airstrike' Ivanov";
+		author = "Kobra Mod Team";
 		faction = "kobra";
 		editorSubcategory = "442_argon";
-		crew = "442_swla_unit_p2_dc15a";
+		crew = "k_swla_unit_p2_dc15a";
 		displayName = "Argon Transport";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
 		textureList[] = {};
@@ -23,7 +23,7 @@
 			class base
 			{
 				displayname = "Republic";
-				author = "KOBRA Mod Team";
+				author = "Kobra Mod Team Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\republic_truck_body.paa",
@@ -38,7 +38,7 @@
 			class 442: base
 			{
 				displayname = "442nd Siege Battalion";
-				author = "KOBRA Mod Team";
+				author = "Kobra Mod TeamMod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\442_truck_body.paa",
@@ -63,10 +63,10 @@
 	{
 		#include "equip-common.hpp"
 		side = 1;
-		author = "kripto202 + 'Airstrike' Ivanov";
+		author = "Kobra Mod Team202 + 'Airstrike' Ivanov";
 		faction = "kobra";
 		editorSubcategory = "442_argon";
-		crew = "442_swla_unit_p2_dc15a";
+		crew = "k_swla_unit_p2_dc15a";
 		displayName = "Argon Covered Transport";
 		textureList[] = {};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "Camo4"};
@@ -85,7 +85,7 @@
 			class base
 			{
 				displayname = "Republic";
-				author = "KOBRA Mod Team";
+				author = "Kobra Mod TeamMod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\republic_truck_body.paa",
@@ -101,7 +101,7 @@
 			class 442: base
 			{
 				displayname = "442nd Siege Battalion";
-				author = "KOBRA Mod Team";
+				author = "Kobra Mod TeamMod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\442_truck_body.paa",
@@ -128,10 +128,10 @@
 	{
 		#include "equip-ammo.hpp"
 		side = 1;
-		author = "kripto202 + 'Airstrike' Ivanov";
+		author = "Kobra Mod Team202 + 'Airstrike' Ivanov";
 		faction = "kobra";
 		editorSubcategory = "442_argon";
-		crew = "442_swla_unit_p2_dc15a";
+		crew = "k_swla_unit_p2_dc15a";
 		displayName = "Argon Ammo Truck";
 		textureList[] = {};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "Camo4"};
@@ -150,7 +150,7 @@
 			class base
 			{
 				displayname = "Republic";
-				author = "KOBRA Mod Team";
+				author = "Kobra Mod TeamMod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\republic_truck_body.paa",
@@ -166,7 +166,7 @@
 			class 442: base
 			{
 				displayname = "442nd Siege Battalion";
-				author = "KOBRA Mod Team";
+				author = "Kobra Mod TeamMod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\442_truck_body.paa",
@@ -193,10 +193,10 @@
 	{
 		#include "equip-common.hpp"
 		side = 1;
-		author = "kripto202 + 'Airstrike' Ivanov";
+		author = "Kobra Mod Team202 + 'Airstrike' Ivanov";
 		faction = "kobra";
 		editorSubcategory = "442_argon";
-		crew = "442_swla_unit_p2_dc15a";
+		crew = "k_swla_unit_p2_dc15a";
 		displayName = "Argon Device Carrier";
 		textureList[] = {};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "Camo4", "Camo5"};
@@ -216,7 +216,7 @@
 			class base
 			{
 				displayname = "Republic";
-				author = "KOBRA Mod Team";
+				author = "Kobra Mod TeamMod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\republic_truck_body.paa",
@@ -233,7 +233,7 @@
 			class 442: base
 			{
 				displayname = "442nd Siege Battalion";
-				author = "KOBRA Mod Team";
+				author = "Kobra Mod TeamMod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\442_truck_body.paa",
@@ -262,10 +262,10 @@
 	{
 		#include "equip-common.hpp"
 		side = 1;
-		author = "kripto202 + 'Airstrike' Ivanov";
+		author = "Kobra Mod Team202 + 'Airstrike' Ivanov";
 		faction = "kobra";
 		editorSubcategory = "442_argon";
-		crew = "442_swla_unit_p2_dc15a";
+		crew = "k_swla_unit_p2_dc15a";
 		displayName = "Argon Fuel Truck";
 		textureList[] = {};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
@@ -283,7 +283,7 @@
 			class base
 			{
 				displayname = "Republic";
-				author = "KOBRA Mod Team";
+				author = "Kobra Mod TeamMod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\republic_truck_body.paa",
@@ -298,7 +298,7 @@
 			class 442: base
 			{
 				displayname = "442nd Siege Battalion";
-				author = "KOBRA Mod Team";
+				author = "Kobra Mod TeamMod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\442_truck_body.paa",
@@ -323,10 +323,10 @@
 	{
 		#include "equip-engineer.hpp"
 		side = 1;
-		author = "kripto202 + 'Airstrike' Ivanov";
+		author = "Kobra Mod Team202 + 'Airstrike' Ivanov";
 		faction = "kobra";
 		editorSubcategory = "442_argon";
-		crew = "442_swla_unit_p2_dc15a";
+		crew = "k_swla_unit_p2_dc15a";
 		displayName = "Argon Repair Truck";
 		textureList[] = {};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
@@ -344,7 +344,7 @@
 			class base
 			{
 				displayname = "Republic";
-				author = "KOBRA Mod Team";
+				author = "Kobra Mod TeamMod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\republic_truck_body.paa",
@@ -359,7 +359,7 @@
 			class 442: base
 			{
 				displayname = "442nd Siege Battalion";
-				author = "KOBRA Mod Team";
+				author = "Kobra Mod TeamMod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\442_truck_body.paa",
@@ -384,10 +384,10 @@
 	{
 		#include "equip-medical.hpp"
 		side = 1;
-		author = "kripto202 + 'Airstrike' Ivanov";
+		author = "Kobra Mod Team202 + 'Airstrike' Ivanov";
 		faction = "kobra";
 		editorSubcategory = "442_argon";
-		crew = "442_swla_unit_p2_dc15a";
+		crew = "k_swla_unit_p2_dc15a";
 		displayName = "Argon Medical Truck";
 		attendant = 1;
 		textureList[] = {};
@@ -407,7 +407,7 @@
 			class base
 			{
 				displayname = "Republic";
-				author = "KOBRA Mod Team";
+				author = "Kobra Mod TeamMod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\republic_truck_body.paa",
@@ -423,7 +423,7 @@
 			class 442: base
 			{
 				displayname = "442nd Siege Battalion";
-				author = "KOBRA Mod Team";
+				author = "Kobra Mod TeamMod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\truck\data\442_truck_body.paa",

@@ -404,7 +404,6 @@
 			descriptionShort="UGL";
 			useModelOptics=0;
 			useExternalOptic=0;
-			magazines[]={};
 			magazineWell[]={};
 			cameraDir="OP_look";
 			discreteDistance[]={100,200,300,400};
