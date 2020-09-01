@@ -390,6 +390,8 @@ class CfgPatches
 			"442_swla_unit_1_dc15s",
 			"442_swla_unit_1_medic",
 			"442_swla_unit_1_engineer",
+
+			
 		};
 		weapons[]=
 		{
