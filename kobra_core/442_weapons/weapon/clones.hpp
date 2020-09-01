@@ -448,7 +448,10 @@
 		};
 		class 442_MC: Rifle_Base_F
 		{
-			magazines[] = {};
+			magazines[] = 
+			{
+				"442_shotgun_8rnd_blue_mag"
+			};
 			Displayname = "Scattergun Mode";
 			displaynameshort = "Scattergun";
 			discreteDistance[] = {50};

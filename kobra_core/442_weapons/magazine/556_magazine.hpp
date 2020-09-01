@@ -31,7 +31,7 @@
     class 442_556_200rnd_blue_mag: 442_556_30rnd_blue_mag
     {
         displayname = "5.56x45mm Plasma Cell (200rnd Blue)";
-        mass = 60;
+        mass = 40;
         count = 200;
 	};
     class 442_556_20rnd_blue_mag: 442_556_30rnd_blue_mag
@@ -389,7 +389,7 @@
 	};
     class 442_556_500rnd_blue_b_mag: 442_556_500rnd_blue_mag
     {
-        displayname = "5.56x45mm Plasma Cell (200rnd Blue/B)";
+        displayname = "5.56x45mm Plasma Cell (500rnd Blue/B)";
 		ammo = "442_ammo_556_blue_b";
         picture="\442_weapons\ammo\data\ui\DC15a_mag_ui_blue_ca.paa";
 	};
