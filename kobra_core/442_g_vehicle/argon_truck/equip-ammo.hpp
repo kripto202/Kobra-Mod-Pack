@@ -40,19 +40,4 @@ class transportMagazines
 		magazine = "democharge_remote_mag";
 		count = 6;
 	};
-	class 442_dc15a_mag
-	{
-		magazine = "442_dc15a_mag";
-		count = 75;
-	};
-	class 442_dc15s_mag
-	{
-		magazine = "442_dc15s_mag";
-		count = 75;
-	};
-	class 442_dc17_mag
-	{
-		magazine = "442_dc17_mag";
-		count = 75;
-	};
 };

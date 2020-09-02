@@ -2063,3 +2063,21 @@ class cfgglasses
 		ACE_OverlayDirt="A3\Ui_f\data\igui\rsctitles\HealthTextures\dust_upper_ca.paa";
 	};
 };
+
+class cfgGroups
+{
+	class East
+	{
+		name = "OPFOR";
+		side = 0;
+		class k_cis_group
+		{
+			name = "[K] CIS";
+			#include "442_groups\cis_standard.hpp"
+			#include "442_groups\cis_security.hpp"
+			#include "442_groups\cis_woodland.hpp"
+			#include "442_groups\cis_desert.hpp"
+			#include "442_groups\cis_winter.hpp"
+		};
+	};
+};

@@ -533,7 +533,7 @@
             "ACE_quikclot",
         };
     };
-	class k_swla_unit_b1_e5z: k_swla_unit_b1_e5
+	class k_swla_unit_b1_e6z: k_swla_unit_b1_e5
     {
 		displayname = "B1 Battledroid (Support)";
         backpack = "k_b1_backpack";
@@ -2380,26 +2380,6 @@
     {
 		displayname = "B1 Battledroid [Woodland(AutoRifleman)]";
         backpack = "k_b1_backpack_woodland";
-        linkedItems[] = 
-		{
-			"k_b1_helmet",
-            "k_vest_basic",
-			"ItemMap",
-			"ItemGPS",
-			"ItemRadio",
-			"ItemCompass",
-			"ItemWatch"
-		};
-		respawnlinkedItems[] = 
-		{
-			"k_b1_helmet",
-            "k_vest_basic",
-			"ItemMap",
-			"ItemGPS",
-			"ItemRadio",
-			"ItemCompass",
-			"ItemWatch"
-		};
 		weapons[] = 
 		{
 			"442_E5C",
@@ -2497,26 +2477,6 @@
     {
 		displayname = "B1 Battledroid [Woodland(Support)]";
         backpack = "k_b1_backpack_woodland";
-        linkedItems[] = 
-		{
-			"k_b1_helmet",
-            "k_vest_basic",
-			"ItemMap",
-			"ItemGPS",
-			"ItemRadio",
-			"ItemCompass",
-			"ItemWatch"
-		};
-		respawnlinkedItems[] = 
-		{
-			"k_b1_helmet",
-            "k_vest_basic",
-			"ItemMap",
-			"ItemGPS",
-			"ItemRadio",
-			"ItemCompass",
-			"ItemWatch"
-		};
 		weapons[] = 
 		{
 			"442_E6Z",
@@ -2949,26 +2909,6 @@
 	class k_swla_unit_b1_desert_e5c: k_swla_unit_b1_desert_e5
     {
 		displayname = "B1 Battledroid [Desert(AutoRifleman)]";
-        linkedItems[] = 
-		{
-			"k_b1_helmet",
-            "k_vest_basic",
-			"ItemMap",
-			"ItemGPS",
-			"ItemRadio",
-			"ItemCompass",
-			"ItemWatch"
-		};
-		respawnlinkedItems[] = 
-		{
-			"k_b1_helmet",
-            "k_vest_basic",
-			"ItemMap",
-			"ItemGPS",
-			"ItemRadio",
-			"ItemCompass",
-			"ItemWatch"
-		};
 		weapons[] = 
 		{
 			"442_E5C",
@@ -3065,26 +3005,6 @@
 	class k_swla_unit_b1_desert_e6z: k_swla_unit_b1_desert_e5
     {
 		displayname = "B1 Battledroid [Desert(Support)]";
-        linkedItems[] = 
-		{
-			"k_b1_helmet",
-            "k_vest_basic",
-			"ItemMap",
-			"ItemGPS",
-			"ItemRadio",
-			"ItemCompass",
-			"ItemWatch"
-		};
-		respawnlinkedItems[] = 
-		{
-			"k_b1_helmet",
-            "k_vest_basic",
-			"ItemMap",
-			"ItemGPS",
-			"ItemRadio",
-			"ItemCompass",
-			"ItemWatch"
-		};
 		weapons[] = 
 		{
 			"442_E6Z",
@@ -3518,26 +3438,6 @@
     {
 		displayname = "B1 Battledroid [Winter(AutoRifleman)]";
 		backapck = "k_b1_backpack_winter";
-        linkedItems[] = 
-		{
-			"k_b1_helmet",
-            "k_vest_basic",
-			"ItemMap",
-			"ItemGPS",
-			"ItemRadio",
-			"ItemCompass",
-			"ItemWatch"
-		};
-		respawnlinkedItems[] = 
-		{
-			"k_b1_helmet",
-            "k_vest_basic",
-			"ItemMap",
-			"ItemGPS",
-			"ItemRadio",
-			"ItemCompass",
-			"ItemWatch"
-		};
 		weapons[] = 
 		{
 			"442_E5C",
@@ -3635,26 +3535,6 @@
     {
 		displayname = "B1 Battledroid [Winter(Support)]";
 		backapck = "k_b1_backpack_winter";
-        linkedItems[] = 
-		{
-			"k_b1_helmet",
-            "k_vest_basic",
-			"ItemMap",
-			"ItemGPS",
-			"ItemRadio",
-			"ItemCompass",
-			"ItemWatch"
-		};
-		respawnlinkedItems[] = 
-		{
-			"k_b1_helmet",
-            "k_vest_basic",
-			"ItemMap",
-			"ItemGPS",
-			"ItemRadio",
-			"ItemCompass",
-			"ItemWatch"
-		};
 		weapons[] = 
 		{
 			"442_E6Z",

@@ -16,30 +16,6 @@ class transportItems
 		count = 5;
 	};
 };
-class transportWeapons
-{
-	class 442_dc15a
-	{
-		weapon = "442_dc15a";
-		count = 5;
-	};
-	class 442_dc15s
-	{
-		weapon = "442_dc15s";
-		count = 5;
-	};
-	class 442_dc17
-	{
-		weapon = "442_dc17";
-		count = 5;
-	};
-	class swlw_rps6_disposable
-	{
-		weapon = "swlw_rps6_disposable";
-		count = 5;
-	};
-	
-};
 class transportMagazines
 {
 	class SWLW_beltgrenade_mag
@@ -81,20 +57,5 @@ class transportMagazines
 	{
 		magazine = "democharge_remote_mag";
 		count = 2;
-	};
-	class 442_dc15a_mag
-	{
-		magazine = "442_dc15a_mag";
-		count = 25;
-	};
-	class 442_dc15s_mag
-	{
-		magazine = "442_dc15s_mag";
-		count = 25;
-	};
-	class 442_dc17_mag
-	{
-		magazine = "442_dc17_mag";
-		count = 25;
 	};
 };
