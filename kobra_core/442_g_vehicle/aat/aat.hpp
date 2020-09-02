@@ -71,10 +71,10 @@
 		};
 		#include "aat_memorypoints.hpp"
 		driver="k_swla_unit_b1_pilot_e5";
-		crew="k_swla_unit_b1_pilot_e5";
+		crew = "k_swla_unit_b1_e5";
 		typicalCargo[]=
 		{
-			"SWLB_b1_crew_base"
+			"k_swla_unit_b1_e5"
 		};
 		class AnimationSources: AnimationSources
 		{

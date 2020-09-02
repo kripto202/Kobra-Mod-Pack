@@ -5,7 +5,7 @@ class 442_boat_armed: Boat_Armed_01_minigun_base_F
 		accuracy = 1.5;
 		displayname = "Assault Boat";
 		crew = "k_swla_unit_p2_dc15a";
-		faction = "kobra";
+		faction = "kobra_b";
 		editorsubcategory = "442_boat";
 		side = 1;
 		typicalCargo[] = {"44_swla_unit"};
@@ -29,7 +29,7 @@ class 442_boat_armed: Boat_Armed_01_minigun_base_F
                 };
                 factions[] = 
                 {
-                    "kobra"
+                    "kobra_b"
                 };
             };
             class 442: default

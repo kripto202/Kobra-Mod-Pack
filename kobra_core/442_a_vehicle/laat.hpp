@@ -37,8 +37,12 @@
 		fuelCapacity=2500;
 		fuelConsumptionRate=0.138;
 		side=1;
-		faction="kobra";
-		crew="k_swla_unit_p2_dc15a";
+		faction="kobra_b";
+		crew = "k_swla_unit_p2_dc15a";
+		typicalCargo[]=
+		{
+			"k_swla_unit_p2_dc15a"
+		};
 		icon="442_a_vehicle\laat\data\ui\laat_icon.paa";
 		editorpreview="442_a_vehicle\laat\data\ui\laat_preview.jpg";
 		picture="";
@@ -589,8 +593,8 @@
 				};
 				magazines[]=
 				{
-					"200rnd_laat_he_mag",
-					"200rnd_laat_he_mag"
+					"442_50_200rnd_he_green_mag",
+					"442_50_200rnd_he_green_mag"
 				};
 				gunBeg="konec hlavne b";
 				gunEnd="usti hlavne b";

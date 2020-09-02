@@ -13,9 +13,10 @@
 			"Head_NATO"
 		};
 		role="Rifleman";
+		side = 1;
 		author = "KOBRA Mod Team";
 		uniformclass="k_swla_uniform";
-		faction="kobra";
+		faction="kobra_b";
 		editorSubCategory="442_trooper";
 		displayname="Trooper";
 		movesFatigue="CfgMovesFatigueTrooper";
@@ -58,6 +59,7 @@
 	class k_swla_unit_mc_base: k_swla_unit_base
 	{
 		model="442_units\clones\base_body_mc.p3d";
+		side = 1;
 		uniformclass="k_swla_mc_uniform";
 		//picture = "442_units\clones\data\ui\body_mc.paa"; //this needs to be changed
 		hiddenselections[]=
@@ -172,7 +174,7 @@
 		role = "Rifleman";
 		uniformclass = "k_barracks_uniform";
 		side = 1;
-		faction="kobra";
+		faction="kobra_b";
 		editorSubCategory="442_trooper";
 		movesFatigue="CfgMovesFatigueTrooper";
 		hiddenselectionstextures[] = 

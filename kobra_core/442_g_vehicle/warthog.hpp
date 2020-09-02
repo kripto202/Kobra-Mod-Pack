@@ -5,7 +5,11 @@
 		scope = 2;
 		side = 1;
 		crew = "k_swla_unit_p2_dc15a";
-		faction = "kobra";
+		typicalCargo[]=
+		{
+			"k_swla_unit_p2_dc15a"
+		};
+		faction = "kobra_b";
 		editorsubcategory = "442_g_vehicle";
 		hiddenSelections[] = 
 		{
@@ -36,7 +40,7 @@
 				};
 				factions[] = 
 				{
-					"kobra"
+					"kobra_b"
 				};
 			};
 			class 442
@@ -50,7 +54,7 @@
 				};
 				factions[] = 
 				{
-					"kobra"
+					"kobra_b"
 				};
 			};
 			class black_legion
@@ -64,7 +68,7 @@
 				};
 				factions[] = 
 				{
-					"kobra"
+					"kobra_b"
 				};
 			};
 		};
@@ -82,7 +86,7 @@
 		scope = 0;
 		displayName = "M12 LRV Warthog (MG)";
 		author = "Kobra Mod Team";
-		faction = "kobra";
+		faction = "kobra_b";
 		model = "OPTRE_Vehicles\Warthog\Warthog_MG.p3d";
 		transportSoldier = 0;
 		editorsubcategory = "442_g_vehicle";
@@ -244,7 +248,11 @@
 		scope = 2;
 		side = 1;
 		crew = "k_swla_unit_p2_dc15a";
-		faction = "kobra";
+		typicalCargo[]=
+		{
+			"k_swla_unit_p2_dc15a"
+		};
+		faction = "kobra_b";
 		editorsubcategory = "442_g_vehicle";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_troop"};
 		hiddenSelectionsTextures[] = 
@@ -265,7 +273,7 @@
 				};
 				factions[] = 
 				{
-					"kobra"
+					"kobra_b"
 				};
 			};
 			class 442
@@ -279,7 +287,7 @@
 				};
 				factions[] = 
 				{
-					"kobra"
+					"kobra_b"
 				};
 			};
 			class black_legion
@@ -293,7 +301,7 @@
 				};
 				factions[] = 
 				{
-					"kobra"
+					"kobra_b"
 				};
 			};
 		};
@@ -311,7 +319,11 @@
 		scope = 2;
 		side = 1;
 		crew = "k_swla_unit_p2_dc15a";
-		faction = "kobra";
+		typicalCargo[]=
+		{
+			"k_swla_unit_p2_dc15a"
+		};
+		faction = "kobra_b";
 		editorsubcategory = "442_g_vehicle";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_mg","attach_antenna"};
 		hiddenSelectionsTextures[] = 
@@ -332,7 +344,7 @@
 				};
 				factions[] = 
 				{
-					"kobra"
+					"kobra_b"
 				};
 			};
 			class 442
@@ -346,7 +358,7 @@
 				};
 				factions[] = 
 				{
-					"kobra"
+					"kobra_b"
 				};
 			};
 			class black_legion
@@ -360,7 +372,7 @@
 				};
 				factions[] = 
 				{
-					"kobra"
+					"kobra_b"
 				};
 			};
 		};
@@ -378,7 +390,11 @@
 		scope = 2;
 		side = 1;
 		crew = "k_swla_unit_p2_dc15a";
-		faction = "kobra";
+		typicalCargo[]=
+		{
+			"k_swla_unit_p2_dc15a"
+		};
+		faction = "kobra_b";
 		editorsubcategory = "442_g_vehicle";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia"};
 		hiddenSelectionsTextures[] = 
@@ -399,7 +415,7 @@
 				};
 				factions[] = 
 				{
-					"kobra"
+					"kobra_b"
 				};
 			};
 			class 442
@@ -413,7 +429,7 @@
 				};
 				factions[] = 
 				{
-					"kobra"
+					"kobra_b"
 				};
 			};
 			class black_legion
@@ -427,7 +443,7 @@
 				};
 				factions[] = 
 				{
-					"kobra"
+					"kobra_b"
 				};
 			};
 		};
@@ -604,6 +620,10 @@
 		scope = 2;
 		side = 0;
 		crew = "k_swla_unit_b1_e5";
+		typicalCargo[]=
+		{
+			"k_swla_unit_b1_e5"
+		};
 		faction = "442_CIS";
 		editorsubcategory = "442_g_vehicle";
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_troop"};

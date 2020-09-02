@@ -4,7 +4,7 @@
 		scopecurator=2;
 		author = "KOBRA Mod Team";
 		displayName="Vulture Droid (Static)";
-		model="\442_vulture\vulture_static.p3d";
+		model="\442_misc\vulture\vulture_static.p3d";
 		editorcategory="kobra";
 		editorsubcategory="442_item";
 		vehicleClass="Structures";
@@ -16,8 +16,8 @@
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_vulture\data\body_co.paa",
-			"442_vulture\data\legs_co.paa",
-			"442_vulture\data\eyes_co.paa"
+			"442_misc\vulture\data\body_co.paa",
+			"442_misc\vulture\data\legs_co.paa",
+			"442_misc\vulture\data\eyes_co.paa"
 		};
 	};

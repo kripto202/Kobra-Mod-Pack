@@ -209,16 +209,6 @@
 			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
 		};
 	};
-	class 44_swla_unit_rex: 44_swla_unit
-	{
-		uniformclass = "44_swla_uniform_delta";
-		hiddenselectionstextures[] = 
-		{
-			"442_units\clones\44\data\custom\delta\44_upper_co.paa",
-			"442_units\clones\44\data\custom\delta\44_lower_co.paa",
-			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
-		};
-	};
 	class 44_swla_unit_delta: 44_swla_unit
 	{
 		uniformclass = "44_swla_uniform_delta";
@@ -236,6 +226,16 @@
 		{
 			"442_units\clones\44\data\custom\garrus\44_upper_co.paa",
 			"442_units\clones\44\data\custom\garrus\44_lower_co.paa",
+			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
+		};
+	};
+	class 44_swla_unit_dishonored: 44_swla_unit
+	{
+		uniformclass = "44_swla_uniform_dishonored";
+		hiddenselectionstextures[] = 
+		{
+			"442_units\clones\44\data\custom\dishonored\44_swla_upper.paa",
+			"442_units\clones\44\data\custom\dishonored\44_swla_lower.paa",
 			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
 		};
 	};

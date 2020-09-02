@@ -2224,21 +2224,21 @@
 				weaponSoundEffect="";
 				begin1[]=
 				{
-					"\\442_weapons\sounds\dc15s\dc15s_1.wss",
+					"\442_weapons\sounds\dc15s\dc15s_1.wss",
 					1,
 					1,
 					1800
 				};
 				begin2[]=
 				{
-					"\\442_weapons\sounds\dc15s\dc15s_2.wss",
+					"\442_weapons\sounds\dc15s\dc15s_2.wss",
 					1,
 					1,
 					1800
 				};
 				begin3[]=
 				{
-					"\\442_weapons\sounds\dc15s\dc15s_3.wss",
+					"\442_weapons\sounds\dc15s\dc15s_3.wss",
 					1,
 					1,
 					1800
@@ -2289,14 +2289,14 @@
 				};
 				begin2[]=
 				{
-					"\\442_weapons\sounds\dc15s\dc15s_2.wss",
+					"\442_weapons\sounds\dc15s\dc15s_2.wss",
 					1,
 					1,
 					1800
 				};
 				begin3[]=
 				{
-					"\\442_weapons\sounds\dc15s\dc15s_3.wss",
+					"\442_weapons\sounds\dc15s\dc15s_3.wss",
 					1,
 					1,
 					1800
@@ -2371,6 +2371,20 @@
 			maxRange=600;
 			maxRangeProbab=0.2;
 		};
+		class EGLM: UGL_F
+		{
+			displayName = "1rnd HE launcher";
+			descriptionShort = "";
+			useModelOptics = 0;
+			useExternalOptic = 0;
+			initspeed = 75;
+			magazines[] = {"SWLW_WestarM5_g_Mag"};
+			magazineWell[] = {};
+			cameraDir = "OP_look";
+			discreteDistance[] = {100};
+			discreteDistanceCameraPoint[] = {"OP_eye"};
+			discreteDistanceInitIndex = 1;
+		};
 		inertia=0.30000001;
 		dexterity=1.7;
 		initSpeed=-1;
@@ -2386,7 +2400,7 @@
 			};
 		};
 	};
-    /*class 442_WestarM5_scope: ItemCore
+    class 442_WestarM5_scope: SWLW_WestarM5_scope
 	{
 		displayName="Westar M-5 scope";
 		author="Kobra";
@@ -2398,10 +2412,6 @@
 		hiddenselections[] =
 		{
 			"camo1"
-		};
-		hiddenselectionstextures[] = 
-		{
-			"\442_weapons\clones\westar_m5\data\kobra_westarm5_scope.paa"
 		};
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
@@ -2458,7 +2468,14 @@
 			};
 		};
 		inertia=0.1;
-	};*/
+	};
+	class 442_WestarM5_ugl: 442_WestarM5
+	{
+		displayname="Westar M5 UGL";
+		model = "\SWLW_clones\smgs\westar_m5\WestarM5_ugl.p3d";
+		muzzles[] = {"this","EGLM"};
+		handAnim[] = {"OFP2_ManSkeleton","\SWLW_clones\smgs\westar_m5\anims\westarm5_ugl_handanim.rtm"};
+	};
 ///z6
 	class 442_Z6: 442_rifle_base
 	{

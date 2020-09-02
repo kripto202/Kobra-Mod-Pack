@@ -1,6 +1,6 @@
 	class 442_subjugator: House_F
 	{
-		author =Kobra Mod Teamod Team";
+		author ="Kobra Mod Team";
 		model="\442_ships\subjugator\subjugator.p3d";
 		scope=2;
 		scopecurator=2;
@@ -37,7 +37,7 @@
 	};
 	class 442_subjugator_base: StaticShip
 	{
-		author =Kobra Mod Teamod Team";
+		author ="Kobra Mod Team";
 		model="\442_ships\subjugator\subjugator_base.p3d";
 		reversed=0;
 		scope=2;
@@ -188,7 +188,7 @@
 		reversed=0;
 		scope=1;
 		scopeCurator=0;
-		author =Kobra Mod Teamod Team";
+		author ="Kobra Mod Team";
 		displayname="subjugator_hull_base";
 		editorpreview="";
 		editorcategory="kobra";

@@ -125,7 +125,7 @@ class 442_ammo_45_base: 442_ammo_base
 	caliber = 1.4;
 	typicalSpeed = 280;
 	tracerStartTime = 0.075;
-	tracerEndTime = 1;
+	tracerEndTime = 1; 
 	airFriction = -0.00082143;
 	tracerScale = 0.25;
 	model="";

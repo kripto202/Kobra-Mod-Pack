@@ -1,4 +1,454 @@
-    class 442_tx130: Tank_F
+    class 442_tx130: SWLG_tanks_tx130_base
+	{
+		faction = "kobra_b";
+		scope = 2;
+		scopecurator = 2;
+		side = 1;
+		class Turrets: Turrets
+		{
+			class CargoTurret1: CargoTurret
+			{
+				gunnerAction="passenger_inside_3";
+				gunnerCompartments="Compartment2";
+				memoryPointsGetInGunner="pos cargo1";
+				memoryPointsGetInGunnerDir="pos cargo1 dir";
+				gunnerName="Passenger Gunner 1";
+				proxyIndex=1;
+				maxElev=15;
+				minElev=-25;
+				maxTurn=60;
+				minTurn=-60;
+				isPersonTurret=2;
+				ejectDeadGunner=1;
+				gunnerInAction="passenger_inside_3";
+				startEngine=0;
+				allowLauncherIn=1;
+				allowLauncherOut=1;
+				LODTurnedIn=1200;
+				forceHideGunner=1;
+			};
+			class CargoTurret2: CargoTurret1
+			{
+				gunnerCompartments="Compartment3";
+				memoryPointsGetInGunner="pos cargo2";
+				memoryPointsGetInGunnerDir="pos cargo2 dir";
+				gunnerName="Passenger Gunner 2";
+				proxyIndex=2;
+			};
+			class CargoTurret3: CargoTurret1
+			{
+				proxyIndex=3;
+				gunnerName="Passenger Gunner 3";
+				gunnerCompartments="Compartment4";
+				memoryPointsGetInGunner="pos cargo3";
+				memoryPointsGetInGunnerDir="pos cargo3 dir";
+			};
+			class CargoTurret4: CargoTurret1
+			{
+				proxyIndex=4;
+				gunnerName="Passenger Gunner 4";
+				gunnerCompartments="Compartment5";
+				memoryPointsGetInGunner="pos cargo4";
+				memoryPointsGetInGunnerDir="pos cargo4 dir";
+			};
+			class CargoTurret5: CargoTurret1
+			{
+				proxyIndex=5;
+				gunnerName="Passenger Gunner 5";
+				gunnerCompartments="Compartment6";
+				memoryPointsGetInGunner="pos cargo5";
+				memoryPointsGetInGunnerDir="pos cargo6 dir";
+			};
+			class CargoTurret6: CargoTurret1
+			{
+				proxyIndex=6;
+				gunnerName="Passenger Gunner 6";
+				gunnerCompartments="Compartment6";
+				memoryPointsGetInGunner="pos cargo6";
+				memoryPointsGetInGunnerDir="pos cargo6 dir";
+			};
+			class CargoTurret7: CargoTurret1
+			{
+				proxyIndex=7;
+				gunnerName="Passenger Gunner 7";
+				gunnerCompartments="Compartment3";
+				memoryPointsGetInGunner="pos cargo6";
+				memoryPointsGetInGunnerDir="pos cargo6 dir";
+			};
+			class CargoTurret8: CargoTurret1
+			{
+				proxyIndex=8;
+				gunnerName="Passenger Gunner 8";
+				gunnerCompartments="Compartment2";
+				memoryPointsGetInGunner="pos cargo6";
+				memoryPointsGetInGunnerDir="pos cargo6 dir";
+			};
+			class CargoTurret9: CargoTurret1
+			{
+				proxyIndex=9;
+				gunnerName="Passenger Gunner 9";
+				gunnerCompartments="Compartment6";
+				memoryPointsGetInGunner="pos cargo6";
+				memoryPointsGetInGunnerDir="pos cargo6 dir";
+			};
+			class CargoTurret10: CargoTurret1
+			{
+				proxyIndex=10;
+				gunnerName="Passenger Gunner 10";
+				gunnerCompartments="Compartment6";
+				memoryPointsGetInGunner="pos cargo6";
+				memoryPointsGetInGunnerDir="pos cargo6 dir";
+			};
+			class CargoTurret11: CargoTurret1
+			{
+				proxyIndex=11;
+				gunnerName="Passenger Gunner 11";
+				gunnerCompartments="Compartment6";
+				memoryPointsGetInGunner="pos cargo11";
+				memoryPointsGetInGunnerDir="pos cargo11 dir";
+			};
+			class MainTurret: MainTurret
+			{
+				class Turrets
+				{
+				};
+				body="mainTurret";
+				gun="mainGun";
+				weapons[] = 
+				{
+					"442_saber_gun",
+					"442_saber_tow"
+				};
+				memoryPointGun[]=
+				{
+					"usti hlavne 1",
+					"usti hlavne 2"
+				};
+				magazines[] = 
+				{
+					"442_50_200rnd_ap_blue_mag",
+					"442_50_200rnd_ap_blue_mag",
+					"442_50_200rnd_ap_blue_mag",
+					"442_50_200rnd_ap_blue_mag",
+					"442_50_200rnd_he_blue_mag",
+					"442_50_200rnd_he_blue_mag",
+					"442_50_200rnd_he_blue_mag",
+					"442_50_200rnd_he_blue_mag",
+					"4rnd_saber_tow_mag"
+				};
+				soundServo[]=
+				{
+					"A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner",
+					0.31622776,
+					1,
+					30
+				};
+				soundServoVertical[]=
+				{
+					"A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner_vertical",
+					0.31622776,
+					1,
+					30
+				};
+				commanding=1;
+				minElev=-7;
+				initElev=0;
+				maxElev=30;
+				minTurn=-14;
+				initTurn=0;
+				maxTurn=14;
+				minCamElev=-90;
+				maxCamElev=90;
+				gunnerAction="crew_tank01_out";
+				gunnerInAction="Gunner_APC_tracked_01_crv_in";
+				gunnerGetInAction="GetInAMV_cargo";
+				gunnerGetOutAction="GetOutLow";
+				viewGunnerInExternal=1;
+				castGunnerShadow=1;
+				forceHideGunner=1;
+				startEngine=0;
+				stabilizedInAxes=3;
+				gunnerForceOptics=0;
+				usePip=1;
+				inGunnerMayFire=1;
+				outGunnerMayFire=0;
+				gunnerOpticsModel="\A3\weapons_f\reticle\Optics_Gunner_02_F";
+				gunnerOutOpticsModel="";
+				discreteDistance[]={100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000};
+				discreteDistanceInitIndex=2;
+				turretInfoType="RscOptics_crows";
+				memoryPointGunnerOptics="gunnerview";
+				selectionFireAnim="";
+				showCrewAim=2;
+				animationSourceStickX="turret_control_x";
+				animationSourceStickY="turret_control_y";
+				gunnerRightHandAnimName="turret_control";
+				LODOpticsIn=0;
+				viewGunnerShadowAmb=0.5;
+				viewGunnerShadowDiff=0.050000001;
+				class ViewGunner: ViewGunner
+				{
+					initAngleX=-9;
+					initAngleY=0;
+					initFov=0.89999998;
+					minFov=0.25;
+					maxFov=1.25;
+					minAngleX=-65;
+					maxAngleX=85;
+					minAngleY=-150;
+					maxAngleY=150;
+					minMoveX=-0.075000003;
+					maxMoveX=0.075000003;
+					minMoveY=-0.075000003;
+					maxMoveY=0.075000003;
+					minMoveZ=-0.075000003;
+					maxMoveZ=0.1;
+				};
+				class ViewOptics: ViewOptics
+				{
+					visionMode[]=
+					{
+						"Normal",
+						"NVG",
+						"TI"
+					};
+				};
+				class HitPoints
+				{
+					class HitGunL
+					{
+						armor=-250;
+						material=-1;
+						armorComponent="gun_left";
+						name="hit_main_gun_point";
+						visual="gun_left";
+						passThrough=0;
+						minimalHit=0.029999999;
+						explosionShielding=0.2;
+						radius=0.2;
+						isGun=1;
+					};
+					class HitGunR
+					{
+						armor=-250;
+						material=-1;
+						armorComponent="gun_right";
+						name="hit_main_gun_point";
+						visual="gun_right";
+						passThrough=0;
+						minimalHit=0.029999999;
+						explosionShielding=0.2;
+						radius=0.2;
+						isGun=1;
+					};
+				};
+			};
+			class CommanderOptics: CommanderOptics
+			{
+				memoryPointGunnerOutOptics="commanderview";
+				memoryPointGunnerOptics="commanderview";
+				minElev=-10;
+				maxElev=30;
+				initElev=0;
+				minTurn=-360;
+				maxTurn=360;
+				initTurn=0;
+				minCamElev=-90;
+				maxCamElev=90;
+				weapons[]=
+				{
+					"SmokeLauncher"
+				};
+				magazines[]=
+				{
+					"SmokeLauncherMag"
+				};
+				soundServo[]=
+				{
+					"A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_comm",
+					0.56234133,
+					1,
+					30
+				};
+				soundServoVertical[]=
+				{
+					"A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_comm",
+					0.56234133,
+					1,
+					30
+				};
+				outGunnerMayFire=0;
+				inGunnerMayFire=1;
+				gunnerAction="Commander_APC_tracked_01_crv_out";
+				gunnerInAction="Commander_APC_tracked_01_crv_in";
+				gunnerGetInAction="GetInAMV_cargo";
+				gunnerGetOutAction="GetOutLow";
+				turretInfoType="RscWeaponRangeFinder";
+				gunnerOpticsModel="\A3\weapons_f\reticle\Optics_Commander_02_F";
+				gunnerforceoptics=0;
+				usePip=1;
+				animationSourceStickX="com_turret_control_x";
+				animationSourceStickY="com_turret_control_y";
+				gunnerLeftHandAnimName="com_turret_control";
+				turretFollowFreeLook=2;
+				LODOpticsIn=0;
+				LODTurnedIn=1100;
+				LODTurnedOut=1;
+				viewGunnerShadowAmb=0.5;
+				viewGunnerShadowDiff=0.050000001;
+				gunnerOutOpticsModel="";
+				gunnerOpticsEffect[]={};
+				class ViewGunner: ViewCargo
+				{
+					initAngleX=-6;
+					initAngleY=0;
+					initFov=0.89999998;
+					minFov=0.25;
+					maxFov=1.25;
+					minAngleX=-65;
+					maxAngleX=85;
+					minAngleY=-150;
+					maxAngleY=150;
+					minMoveX=-0.075000003;
+					maxMoveX=0.075000003;
+					minMoveY=-0.075000003;
+					maxMoveY=0.075000003;
+					minMoveZ=-0.075000003;
+					maxMoveZ=0.1;
+				};
+				class ViewOptics: ViewOptics
+				{
+					initAngleX=0;
+					minAngleX=-30;
+					maxAngleX=30;
+					initAngleY=0;
+					minAngleY=-100;
+					maxAngleY=100;
+					initFov=0.31;
+					minFov=0.034000002;
+					maxFov=0.31;
+					visionMode[]=
+					{
+						"Normal",
+						"NVG",
+						"TI"
+					};
+					thermalMode[]={2,3};
+				};
+				startEngine=0;
+				stabilizedInAxes=3;
+				maxHorizontalRotSpeed=1.8;
+				maxVerticalRotSpeed=1.8;
+				viewGunnerInExternal=1;
+				showCrewAim=1;
+				class HitPoints
+				{
+					class HitComTurret
+					{
+						armor=0.1;
+						material=-1;
+						armorComponent="hit_com_turret";
+						name="hit_com_turret_point";
+						visual="-";
+						passThrough=0;
+						minimalHit=0.1;
+						explosionShielding=1;
+						radius=0.15000001;
+						isTurret=1;
+					};
+					class HitComGun
+					{
+						armor=0.1;
+						material=-1;
+						armorComponent="hit_com_gun";
+						name="hit_com_gun_point";
+						visual="-";
+						passThrough=0;
+						minimalHit=0.1;
+						explosionShielding=1;
+						radius=0.15000001;
+						isGun=1;
+					};
+				};
+				class Components
+				{
+					class VehicleSystemsDisplayManagerComponentLeft: VehicleSystemsTemplateLeftCommander
+					{
+					};
+					class VehicleSystemsDisplayManagerComponentRight: VehicleSystemsTemplateRightCommander
+					{
+					};
+				};
+			};
+		};
+		driver="k_swla_unit_p2_dc15a";
+		crew="k_swla_unit_p2_dc15a";
+		typicalCargo[]=
+		{
+			"k_swla_unit_p2_dc15a"
+		};
+		class AnimationSources: AnimationSources
+		{
+			class maxholdstervalue
+			{
+				source="maxholdstervalue";
+				weapon="missiles_titan";
+				animPeriod=2;
+			};
+			class Missiles_revolving
+			{
+				source="revolving";
+				weapon="missiles_titan";
+			};
+			class Missiles_reloadMagazine: Missiles_revolving
+			{
+				source="reloadMagazine";
+			};
+			class recoil_cannon_source
+			{
+				source="reload";
+				weapon="SWLG_TX130_cannon";
+			};
+			class recoil_mg_source
+			{
+				source="reload";
+				weapon="SWLG_TX130_mg";
+			};
+		};
+		class texturesources
+		{
+			class base
+			{
+				displayname="Republic";
+				author="Legion Studio";
+				textures[]=
+				{
+					"SWLG_clones_tanks\tx130\data\tx130_hull_co.paa",
+                    "SWLG_clones_tanks\tx130\data\tx130_rocket_co.paa",
+                    "SWLG_clones_tanks\tx130\data\tx130_tracks_co.paa",
+                    "SWLG_clones_tanks\tx130\data\tx130_turrets_co.paa"
+				};
+				factions[]=
+				{
+					"kobra_b"
+				};
+			};
+            class 442: base
+            {
+                displayname = "442";
+                author = "Kobra Mod Team";
+                textures[] = 
+                {
+                    "442_g_vehicle\tx130\data\442_body.paa",
+                    "SWLG_clones_tanks\tx130\data\tx130_rocket_co.paa",
+                    "442_g_vehicle\tx130\data\442_track.paa",
+                    "442_g_vehicle\tx130\data\442_turret.paa"
+                };
+            };
+        };
+	};
+	
+	/*class 442_tx130: Tank_F
 	{
 		author = "Kobra Mod Team";
 		scope = 2;
@@ -28,7 +478,7 @@
 			"SWLG_clones_tanks\tx130\data\tx130_tracks_co.paa",
 			"SWLG_clones_tanks\tx130\data\tx130_turrets_co.paa"
 		};
-		faction = "kobra";
+		faction = "kobra_b";
 		canFloat=1;
 		waterPPInVehicle=0;
 		waterResistanceCoef=0.07;
@@ -1187,7 +1637,7 @@
 		crew="k_swla_unit_p2_dc15a";
 		typicalCargo[]=
 		{
-			"44_swla_unit"
+			"k_swla_unit_p2_dc15a"
 		};
 		class AnimationSources: AnimationSources
 		{
@@ -1269,7 +1719,7 @@
 				};
 				factions[]=
 				{
-					"kobra"
+					"kobra_b"
 				};
 			};
             class 442: base
@@ -1285,4 +1735,4 @@
                 };
             };
         };
-	};
+	};*/

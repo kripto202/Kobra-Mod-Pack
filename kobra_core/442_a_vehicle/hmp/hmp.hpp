@@ -28,7 +28,11 @@
 		fuelConsumptionRate = 0.138;
 		side = 0;
 		faction = "442_CIS";
-		crew = "k_swla_unit_b1_pilot_e5";
+		crew = "k_swla_unit_b1_e5";
+		typicalCargo[]=
+		{
+			"k_swla_unit_b1_e5"
+		};
 		icon = "442_a_vehicle\hmp\data\ui\hmp_icon.paa";
 		editorpreview = "442_hmp\data\ui\hmp_preview.jpg";
 		picture = "";

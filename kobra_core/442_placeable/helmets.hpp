@@ -1214,18 +1214,6 @@
             };
         };
     };
-	class k_headgear_442_p1_2: k_headgear_p2
-    {
-        displayname = "[442] P1 Helmet 2";
-        class transportItems
-        {
-            class helmet
-            {
-                name = "442_p1_helmet_2";
-                count = 1;
-            };
-        };
-    };
 	class k_headgear_442_p1_3: k_headgear_p2
     {
         displayname = "[442] P1 Helmet 3";

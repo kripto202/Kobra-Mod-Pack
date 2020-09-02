@@ -330,6 +330,17 @@ class CfgPatches
 			"442_turbotank_m",
 			"442_boat_armed",
 
+			"k_swla_unit_base",
+			"k_swla_unit_mc_base",
+			"k_swla_unit_b1_base",
+			"k_swla_unit_b1_geonosis_base",
+			"k_swla_unit_b1_security_base",
+			"k_swla_unit_b1_cmd_base",
+			"k_swla_unit_b1_pilot_base",
+			"k_swla_unit_b1_woodland_base",
+			"k_swla_unit_b1_desert_base",
+			"k_swla_unit_b1_winter_base",
+			"k_barracks_unit",
 			"k_swla_unit_p2_dc15a",
 			"k_swla_unit_p2_dc15s",
 			"k_swla_unit_p2_medic",
@@ -550,7 +561,7 @@ class cfgFactionClasses
 		priority = 1;
 		side = 1;
 	};
-	class kobra
+	class kobra_b
 	{
 		displayname = "[K] Kobra";
 		priority = 1;
@@ -769,6 +780,7 @@ class cfgweapons
 	class SWLB_b1_uniform;
 	class gatling_25mm;
 	class U_O_officer_noinsignia_hex_F;
+	class SWLW_WestarM5_scope;
 	class 442_rifle_base: Rifle_Long_Base_F
 	{
 		author="kripto202";
@@ -1050,7 +1062,7 @@ class cfgvehicles
 			class Movement;
 		};
 	};
-
+	class SWLG_tanks_tx130_base : Tank_F{};
 	#include "442_ships\acclamator.hpp"
 	#include "442_ships\coreship.hpp"
 	#include "442_ships\hardcell.hpp"
@@ -1074,7 +1086,7 @@ class cfgvehicles
 	#include "442_g_vehicle\baw_arty\baw_arty.hpp"
 	#include "442_g_vehicle\mtt\mtt.hpp"
 	#include "442_g_vehicle\rx200\rx200.hpp"
-	#include "442_g_vehicle\tx130.hpp"
+	//#include "442_g_vehicle\tx130.hpp"
 	#include "442_g_vehicle\warthog.hpp"
 
 	#include "442_misc\bacta.hpp"

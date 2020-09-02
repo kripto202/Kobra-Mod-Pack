@@ -3,9 +3,13 @@
 		#include "equip-common.hpp"
 		side = 1;
 		author = "Kobra Mod Team";
-		faction = "kobra";
+		faction = "kobra_b";
 		editorSubcategory = "442_argon";
 		crew = "k_swla_unit_p2_dc15a";
+		typicalCargo[]=
+		{
+			"k_swla_unit_p2_dc15a"
+		};
 		displayName = "Argon Transport";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
 		textureList[] = {};
@@ -32,7 +36,7 @@
 				};
 				factions[] = 
 				{
-					"kobra"
+					"kobra_b"
 				};
 			};
 			class 442: base
@@ -64,9 +68,13 @@
 		#include "equip-common.hpp"
 		side = 1;
 		author = "Kobra Mod Team202 + 'Airstrike' Ivanov";
-		faction = "kobra";
+		faction = "kobra_b";
 		editorSubcategory = "442_argon";
 		crew = "k_swla_unit_p2_dc15a";
+		typicalCargo[]=
+		{
+			"k_swla_unit_p2_dc15a"
+		};
 		displayName = "Argon Covered Transport";
 		textureList[] = {};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "Camo4"};
@@ -95,7 +103,7 @@
 				};
 				factions[] = 
 				{
-					"kobra"
+					"kobra_b"
 				};
 			};
 			class 442: base
@@ -129,9 +137,13 @@
 		#include "equip-ammo.hpp"
 		side = 1;
 		author = "Kobra Mod Team202 + 'Airstrike' Ivanov";
-		faction = "kobra";
+		faction = "kobra_b";
 		editorSubcategory = "442_argon";
 		crew = "k_swla_unit_p2_dc15a";
+		typicalCargo[]=
+		{
+			"k_swla_unit_p2_dc15a"
+		};
 		displayName = "Argon Ammo Truck";
 		textureList[] = {};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "Camo4"};
@@ -160,7 +172,7 @@
 				};
 				factions[] = 
 				{
-					"kobra"
+					"kobra_b"
 				};
 			};
 			class 442: base
@@ -194,9 +206,13 @@
 		#include "equip-common.hpp"
 		side = 1;
 		author = "Kobra Mod Team202 + 'Airstrike' Ivanov";
-		faction = "kobra";
+		faction = "kobra_b";
 		editorSubcategory = "442_argon";
 		crew = "k_swla_unit_p2_dc15a";
+		typicalCargo[]=
+		{
+			"k_swla_unit_p2_dc15a"
+		};
 		displayName = "Argon Device Carrier";
 		textureList[] = {};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "Camo4", "Camo5"};
@@ -227,7 +243,7 @@
 				};
 				factions[] = 
 				{
-					"kobra"
+					"kobra_b"
 				};
 			};
 			class 442: base
@@ -263,9 +279,13 @@
 		#include "equip-common.hpp"
 		side = 1;
 		author = "Kobra Mod Team202 + 'Airstrike' Ivanov";
-		faction = "kobra";
+		faction = "kobra_b";
 		editorSubcategory = "442_argon";
 		crew = "k_swla_unit_p2_dc15a";
+		typicalCargo[]=
+		{
+			"k_swla_unit_p2_dc15a"
+		};
 		displayName = "Argon Fuel Truck";
 		textureList[] = {};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
@@ -292,7 +312,7 @@
 				};
 				factions[] = 
 				{
-					"kobra"
+					"kobra_b"
 				};
 			};
 			class 442: base
@@ -324,9 +344,13 @@
 		#include "equip-engineer.hpp"
 		side = 1;
 		author = "Kobra Mod Team202 + 'Airstrike' Ivanov";
-		faction = "kobra";
+		faction = "kobra_b";
 		editorSubcategory = "442_argon";
 		crew = "k_swla_unit_p2_dc15a";
+		typicalCargo[]=
+		{
+			"k_swla_unit_p2_dc15a"
+		};
 		displayName = "Argon Repair Truck";
 		textureList[] = {};
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
@@ -353,7 +377,7 @@
 				};
 				factions[] = 
 				{
-					"kobra"
+					"kobra_b"
 				};
 			};
 			class 442: base
@@ -385,9 +409,13 @@
 		#include "equip-medical.hpp"
 		side = 1;
 		author = "Kobra Mod Team202 + 'Airstrike' Ivanov";
-		faction = "kobra";
+		faction = "kobra_b";
 		editorSubcategory = "442_argon";
 		crew = "k_swla_unit_p2_dc15a";
+		typicalCargo[]=
+		{
+			"k_swla_unit_p2_dc15a"
+		};
 		displayName = "Argon Medical Truck";
 		attendant = 1;
 		textureList[] = {};
@@ -417,7 +445,7 @@
 				};
 				factions[] = 
 				{
-					"kobra"
+					"kobra_b"
 				};
 			};
 			class 442: base
@@ -454,6 +482,10 @@
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
 		crew = "k_swla_unit_b1_e5";
+		typicalCargo[]=
+		{
+			"k_swla_unit_b1_e5"
+		};
 		displayName = "Argon Transport";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
 		textureList[] = {};
@@ -475,6 +507,10 @@
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
 		crew = "k_swla_unit_b1_e5";
+		typicalCargo[]=
+		{
+			"k_swla_unit_b1_e5"
+		};
 		displayName = "Argon Covered Transport";
 		textureList[] = {};
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4"};
@@ -497,6 +533,10 @@
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
 		crew = "k_swla_unit_b1_e5";
+		typicalCargo[]=
+		{
+			"k_swla_unit_b1_e5"
+		};
 		displayName = "Argon Ammo Truck";
 		textureList[] = {};
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4"};
@@ -519,6 +559,10 @@
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
 		crew = "k_swla_unit_b1_e5";
+		typicalCargo[]=
+		{
+			"k_swla_unit_b1_e5"
+		};
 		displayName = "Argon Device Carrier";
 		textureList[] = {};
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5"};
@@ -542,6 +586,10 @@
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
 		crew = "k_swla_unit_b1_e5";
+		typicalCargo[]=
+		{
+			"k_swla_unit_b1_e5"
+		};
 		displayName = "Argon Fuel Truck";
 		textureList[] = {};
 		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
@@ -563,6 +611,10 @@
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
 		crew = "k_swla_unit_b1_e5";
+		typicalCargo[]=
+		{
+			"k_swla_unit_b1_e5"
+		};
 		displayName = "Argon Repair Truck";
 		textureList[] = {};
 		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
@@ -584,6 +636,10 @@
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
 		crew = "k_swla_unit_b1_e5";
+		typicalCargo[]=
+		{
+			"k_swla_unit_b1_e5"
+		};
 		displayName = "Argon Medical Truck";
 		attendant = 1;
 		textureList[] = {};

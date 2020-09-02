@@ -9,12 +9,16 @@
 		picture="";
 		icon="\A3\armor_f_gamma\MBT_02\Data\UI\map_MBT_02_ca.paa";
 		side=1;
-		faction="kobra";
+		faction="kobra_b";
 		editorSubcategory="SWLG_GAR_tanks";
 		insideSoundCoef=0.89999998;
 		threat[]={0.80000001,1,0.30000001};
 		canFloat=1;
 		crew = "k_swla_unit_p2_dc15a";
+		typicalCargo[]=
+		{
+			"k_swla_unit_p2_dc15a"
+		};
 		waterLeakiness=2.5;
 		waterAngularDampingCoef=4;
 		waterLinearDampingCoefY=4;

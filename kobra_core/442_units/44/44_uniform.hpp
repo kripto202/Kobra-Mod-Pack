@@ -150,3 +150,11 @@
 			uniformClass="44_swla_unit_garrus";
 		};
 	};
+	class 44_swla_uniform_dishonored: 44_swla_uniform
+	{
+		displayname = "[44] Clone Trooper Uniform (Dishonred)";
+		class iteminfo: iteminfo
+		{
+			uniformClass="44_swla_unit_dishonored";
+		};
+	};

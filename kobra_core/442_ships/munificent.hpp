@@ -2,7 +2,7 @@
 	{
 		scope=2;
 		scopecurator=2;
-		author =Kobra Mod Teamod Team";
+		author ="Kobra Mod Team";
 		displayName="Munificent";
 		model="\442_ships\munificent\munificent.p3d";
 		editorcategory="kobra";

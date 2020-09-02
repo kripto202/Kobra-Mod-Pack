@@ -322,3 +322,12 @@
 			"442_units\clones\data\helmet\p1_spec_helmet\visor_co.paa"
 		};
 	};
+	class 44_p2_specop_helmet_dishonored: 44_p2_specop_helmet
+	{
+		displayname = "[44] P2 SpecOp Helmet (Dishonored)";
+		hiddenselectionstextures[] = 
+		{
+			"442_units\clones\44\data\custom\dishonored\44_swla_p2_spec_helmet.paa",
+			"442_units\clones\data\helmet\p2_spec_helmet\visor_co.paa"
+		};
+	};

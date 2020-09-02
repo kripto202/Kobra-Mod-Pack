@@ -64,6 +64,10 @@
 		uavCameraDriverPos="driver_view";
 		uavCameraDriverDir="driver_view_dir";
 		crew="O_UAV_AI";
+		typicalCargo[]=
+		{
+			"O_UAV_AI"
+		};
 
 		artilleryScanner=1;
 		availableForSupportTypes[]=
@@ -111,7 +115,7 @@
 		scopecurator = 2;
 		icon="iconObject_1x2";
 		displayname = "BAW Artillery Hover Tank (Wrecked)";
-		model = "442_baw_arty\baw_arty_w.p3d";
+		model = "442_g_vehicle\baw_arty\baw_arty_w.p3d";
 		editorCategory = "kobra";
 		editorSubcategory = "442_wrecks";
 	};

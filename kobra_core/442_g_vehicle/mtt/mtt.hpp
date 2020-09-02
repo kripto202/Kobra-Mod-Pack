@@ -108,7 +108,7 @@
 		crew="k_swla_unit_b1_pilot_e5";
 		typicalCargo[]=
 		{
-			"k_swla_unit_b1_e5"
+			"k_swla_unit_b1_pilot_e5"
 		};
 		class Reflectors
 		{

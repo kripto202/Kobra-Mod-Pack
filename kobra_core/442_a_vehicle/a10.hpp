@@ -1,9 +1,13 @@
 	class 442_a10_plane_cas: b_plane_cas_01_dynamicloadout_f
     {
         Displayname="A-10";
-		faction="kobra";
+		faction="kobra_b";
 		editorSubcategory="442_planes";
-		crew="k_swla_unit_p2_dc15a";
+		crew = "k_swla_unit_p2_dc15a";
+		typicalCargo[]=
+		{
+			"k_swla_unit_p2_dc15a"
+		};
 		scope=2;
 		scopecurator=2;
 		scopearsenal=2;
@@ -25,7 +29,7 @@
                 };
                 factions[] = 
                 {
-                    "kobra"
+                    "kobra_b"
                 };
             };
             class 442nd: base

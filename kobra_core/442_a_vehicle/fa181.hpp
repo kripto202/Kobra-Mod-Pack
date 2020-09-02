@@ -1,9 +1,13 @@
 class 442_fa181_plane_fighter: b_plane_fighter_01_f
     {
         displayname = "FA-181";
-        faction = "kobra";
+        faction = "kobra_b";
         editorSubcategory="442_planes";
-		crew="k_swla_unit_p2_dc15a";
+		crew = "k_swla_unit_p2_dc15a";
+		typicalCargo[]=
+		{
+			"k_swla_unit_p2_dc15a"
+		};
 		scope=2;
 		scopecurator=2;
 		scopearsenal=2;
@@ -35,7 +39,7 @@ class 442_fa181_plane_fighter: b_plane_fighter_01_f
                 };
                 factions[] = 
                 {
-                    "kobra"
+                    "kobra_b"
                 };
             };
             class 442nd: base
@@ -62,7 +66,7 @@ class 442_fa181_plane_fighter: b_plane_fighter_01_f
     class 442_fa181_plane_fighter_stealth: b_plane_fighter_01_stealth_f
     {
         displayname = "FA-181";
-        faction = "kobra";
+        faction = "kobra_b";
         editorSubcategory="442_planes";
 		crew="k_swla_unit_p2_dc15a";
 		scope=2;
@@ -96,7 +100,7 @@ class 442_fa181_plane_fighter: b_plane_fighter_01_f
                 };
                 factions[] = 
                 {
-                    "kobra"
+                    "kobra_b"
                 };
             };
             class 442nd: base
