@@ -2620,8 +2620,7 @@
 		};
 		muzzles[]=
 		{
-			"this",
-			"Explosive"
+			"this"
 		};
 		reloadAction="ReloadMagazine";
 		hiddenselections[] =

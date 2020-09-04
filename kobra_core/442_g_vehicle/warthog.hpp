@@ -32,7 +32,7 @@
 			class default
 			{
 				displayname = "Republic";
-				author = "Kobra Mod Team Team";
+				author = "Kobra Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\rep_warthog.paa",
@@ -46,7 +46,7 @@
 			class 442
 			{
 				displayname = "442nd Siege Battalion";
-				author = "Kobra Mod Team Team";
+				author = "Kobra Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\442_warthog.paa",
@@ -60,10 +60,24 @@
 			class black_legion
 			{
 				displayname = "Black Legion";
-				author = "Kobra Mod Team Team";
+				author = "Kobra Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\bl_warthog.paa",
+					"OPTRE_Vehicles\Warthog\data\warthog_addons_black_co.paa"
+				};
+				factions[] = 
+				{
+					"kobra_b"
+				};
+			};
+			class 9_ac
+			{
+				displayname = "9th Assault Corps";
+				author = "Kobra Mod Team";
+				textures[] = 
+				{
+					"442_g_vehicle\warthog\data\9_warthog.paa",
 					"OPTRE_Vehicles\Warthog\data\warthog_addons_black_co.paa"
 				};
 				factions[] = 
@@ -76,7 +90,8 @@
 		{
 			"default", 1,
 			"442", 0,
-			"black_legion", 0
+			"black_legion", 0,
+			"9_ac", 0
 		};
 	};
 
@@ -265,7 +280,7 @@
 			class default
 			{
 				displayname = "Republic";
-				author = "Kobra Mod Team Team";
+				author = "Kobra Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\rep_warthog.paa",
@@ -279,7 +294,7 @@
 			class 442
 			{
 				displayname = "442nd Siege Battalion";
-				author = "Kobra Mod Team Team";
+				author = "Kobra Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\442_warthog.paa",
@@ -293,10 +308,24 @@
 			class black_legion
 			{
 				displayname = "Black Legion";
-				author = "Kobra Mod TeamMod Team";
+				author = "Kobra Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\bl_warthog.paa",
+					"OPTRE_Vehicles\Warthog\data\warthog_addons_black_co.paa"
+				};
+				factions[] = 
+				{
+					"kobra_b"
+				};
+			};
+			class 9_ac
+			{
+				displayname = "9th Assault Corps";
+				author = "Kobra Mod Team";
+				textures[] = 
+				{
+					"442_g_vehicle\warthog\data\9_warthog.paa",
 					"OPTRE_Vehicles\Warthog\data\warthog_addons_black_co.paa"
 				};
 				factions[] = 
@@ -336,7 +365,7 @@
 			class default
 			{
 				displayname = "Republic";
-				author = "Kobra Mod TeamMod Team";
+				author = "Kobra Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\rep_warthog.paa",
@@ -350,7 +379,7 @@
 			class 442
 			{
 				displayname = "442nd Siege Battalion";
-				author = "Kobra Mod TeamMod Team";
+				author = "Kobra Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\442_warthog.paa",
@@ -364,10 +393,24 @@
 			class black_legion
 			{
 				displayname = "Black Legion";
-				author = "Kobra Mod TeamMod Team";
+				author = "Kobra Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\bl_warthog.paa",
+					"OPTRE_Vehicles\Warthog\data\warthog_addons_black_co.paa"
+				};
+				factions[] = 
+				{
+					"kobra_b"
+				};
+			};
+			class 9_ac
+			{
+				displayname = "9th Assault Corps";
+				author = "Kobra Mod Team";
+				textures[] = 
+				{
+					"442_g_vehicle\warthog\data\9_warthog.paa",
 					"OPTRE_Vehicles\Warthog\data\warthog_addons_black_co.paa"
 				};
 				factions[] = 
@@ -380,7 +423,8 @@
 		{
 			"default", 1,
 			"442", 1,
-			"black_legion", 1
+			"black_legion", 1,
+			"9_ac", 1
 		};
 	};
 //AT
@@ -407,7 +451,7 @@
 			class default
 			{
 				displayname = "Republic";
-				author = "Kobra Mod TeamMod Team";
+				author = "Kobra Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\rep_warthog.paa",
@@ -421,7 +465,7 @@
 			class 442
 			{
 				displayname = "442nd Siege Battalion";
-				author = "Kobra Mod TeamMod Team";
+				author = "Kobra Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\442_warthog.paa",
@@ -435,10 +479,24 @@
 			class black_legion
 			{
 				displayname = "Black Legion";
-				author = "Kobra Mod TeamMod Team";
+				author = "Kobra Mod Team";
 				textures[] = 
 				{
 					"442_g_vehicle\warthog\data\bl_warthog.paa",
+					"OPTRE_Vehicles\Warthog\data\warthog_addons_black_co.paa"
+				};
+				factions[] = 
+				{
+					"kobra_b"
+				};
+			};
+			class 9_ac
+			{
+				displayname = "9th Assault Corps";
+				author = "Kobra Mod Team";
+				textures[] = 
+				{
+					"442_g_vehicle\warthog\data\9_warthog.paa",
 					"OPTRE_Vehicles\Warthog\data\warthog_addons_black_co.paa"
 				};
 				factions[] = 
@@ -451,7 +509,8 @@
 		{
 			"default", 1,
 			"442", 1,
-			"black_legion", 1
+			"black_legion", 1,
+			"9_ac", 1
 		};
 	};
 /*Deserter hogs
