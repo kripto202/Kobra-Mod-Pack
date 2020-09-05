@@ -588,84 +588,84 @@
     };
 
 //////50mm HE///////
-    class 442_50mm_he_blue: Cannon_30mm_HE_Plane_CAS_02_F
+    class 442_50mm_he_blue: 442_50mm_he_base
     {
         model = "442_weapons\ammo\blue_tracer.p3d";
         effectfly = "442_plasma_blue";
     };
-    class 442_50mm_he_green: Cannon_30mm_HE_Plane_CAS_02_F
+    class 442_50mm_he_green: 442_50mm_he_base
     {
         model = "442_weapons\ammo\green_tracer.p3d";
         effectfly = "442_plasma_green";
     };
-    class 442_50mm_he_orange: Cannon_30mm_HE_Plane_CAS_02_F
+    class 442_50mm_he_orange: 442_50mm_he_base
     {
         model = "442_weapons\ammo\orange_tracer.p3d";
         effectfly = "442_plasma_orange";
     };
-    class 442_50mm_he_red: Cannon_30mm_HE_Plane_CAS_02_F
+    class 442_50mm_he_red: 442_50mm_he_base
     {
         model = "442_weapons\ammo\red_tracer.p3d";
         effectfly = "442_plasma_red";
     };
-    class 442_50mm_he_pink: Cannon_30mm_HE_Plane_CAS_02_F
+    class 442_50mm_he_pink: 442_50mm_he_base
     {
         model = "442_weapons\ammo\pink_tracer.p3d";
         effectfly = "442_plasma_pink";
     };
-    class 442_50mm_he_purple: Cannon_30mm_HE_Plane_CAS_02_F
+    class 442_50mm_he_purple: 442_50mm_he_base
     {
         model = "442_weapons\ammo\purple_tracer.p3d";
         effectfly = "442_plasma_purple";
     };
-    class 442_50mm_he_black: Cannon_30mm_HE_Plane_CAS_02_F
+    class 442_50mm_he_black: 442_50mm_he_base
     {
         model = "442_weapons\ammo\black_tracer.p3d";
         effectfly = "442_plasma_black";
     };
-    class 442_50mm_he_yellow: Cannon_30mm_HE_Plane_CAS_02_F
+    class 442_50mm_he_yellow: 442_50mm_he_base
     {
         model = "442_weapons\ammo\yellow_tracer.p3d";
         effectfly = "442_plasma_yellow";
     };
 
 //////50mm APFSDS///////
-    class 442_50mm_apfsds_blue: Cannon_30mm_HE_Plane_CAS_02_F
+    class 442_50mm_apfsds_blue: 442_50mm_apfsds_base
     {
         model = "442_weapons\ammo\blue_tracer.p3d";
         effectfly = "442_plasma_blue";
     };
-    class 442_50mm_apfsds_green: Cannon_30mm_HE_Plane_CAS_02_F
+    class 442_50mm_apfsds_green: 442_50mm_apfsds_base
     {
         model = "442_weapons\ammo\green_tracer.p3d";
         effectfly = "442_plasma_green";
     };
-    class 442_50mm_apfsds_orange: Cannon_30mm_HE_Plane_CAS_02_F
+    class 442_50mm_apfsds_orange: 442_50mm_apfsds_base
     {
         model = "442_weapons\ammo\orange_tracer.p3d";
         effectfly = "442_plasma_orange";
     };
-    class 442_50mm_apfsds_red: Cannon_30mm_HE_Plane_CAS_02_F
+    class 442_50mm_apfsds_red: 442_50mm_apfsds_base
     {
         model = "442_weapons\ammo\red_tracer.p3d";
         effectfly = "442_plasma_red";
     };
-    class 442_50mm_apfsds_pink: Cannon_30mm_HE_Plane_CAS_02_F
+    class 442_50mm_apfsds_pink: 442_50mm_apfsds_base
     {
         model = "442_weapons\ammo\pink_tracer.p3d";
         effectfly = "442_plasma_pink";
     };
-    class 442_50mm_apfsds_purple: Cannon_30mm_HE_Plane_CAS_02_F
+    class 442_50mm_apfsds_purple: 442_50mm_apfsds_base
     {
         model = "442_weapons\ammo\purple_tracer.p3d";
         effectfly = "442_plasma_purple";
     };
-    class 442_50mm_apfsds_black: Cannon_30mm_HE_Plane_CAS_02_F
+    class 442_50mm_apfsds_black: 442_50mm_apfsds_base
     {
         model = "442_weapons\ammo\black_tracer.p3d";
         effectfly = "442_plasma_black";
     };
-    class 442_50mm_apfsds_yellow: Cannon_30mm_HE_Plane_CAS_02_F
+    class 442_50mm_apfsds_yellow: 442_50mm_apfsds_base
     {
         model = "442_weapons\ammo\yellow_tracer.p3d";
         effectfly = "442_plasma_yellow";

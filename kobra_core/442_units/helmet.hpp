@@ -175,6 +175,78 @@ class k_Scout_Helmet: k_Scout_Helmet_base
     };
 };
 
+class k_hunter_Helmet: k_hunter_Helmet_base
+{
+    scope = 2;
+    scopecurator = 2;
+    scopearsenal = 2;
+    picture = "\442_units\clones\data\ui\scout_helmet.paa";
+    hiddenselectionstextures[] = 
+    {
+        "442_units\clones\data\helmet\hunter_helmet\camo1_co.paa",
+        "442_units\clones\data\helmet\hunter_helmet\visor_co.paa",
+    };
+};
+class k_crosshair_Helmet: k_crosshair_helmet_base
+{
+    scope = 2;
+    scopecurator = 2;
+    scopearsenal = 2;
+    picture = "\442_units\clones\data\ui\scout_helmet.paa";
+    hiddenselectionstextures[] = 
+    {
+        "442_units\clones\data\helmet\crosshair_helmet\camo1_co.paa",
+        "442_units\clones\data\helmet\crosshair_helmet\visor_co.paa",
+    };
+};
+class k_wrecker_Helmet: k_wrecker_helmet_base
+{
+    scope = 2;
+    scopecurator = 2;
+    scopearsenal = 2;
+    picture = "\442_units\clones\data\ui\scout_helmet.paa";
+    hiddenselectionstextures[] = 
+    {
+        "442_units\clones\data\helmet\wrecker_helmet\camo1_co.paa",
+        "442_units\clones\data\helmet\wrecker_helmet\visor_co.paa",
+    };
+};
+class k_tech_Helmet: k_teck_helmet_base
+{
+    scope = 2;
+    scopecurator = 2;
+    scopearsenal = 2;
+    picture = "\442_units\clones\data\ui\scout_helmet.paa";
+    hiddenselectionstextures[] = 
+    {
+        "442_units\clones\data\helmet\tech_helmet\camo1_co.paa"
+    };
+};
+class k_cadet_Helmet: k_cadet_helmet_base
+{
+    scope = 2;
+    scopecurator = 2;
+    scopearsenal = 2;
+    picture = "\442_units\clones\data\ui\scout_helmet.paa";
+    hiddenselectionstextures[] = 
+    {
+        "442_units\clones\data\helmet\cadet_helmet\camo1_co.paa",
+        "442_units\clones\data\helmet\cadet_helmet\visor_co.paa",
+    };
+};
+class k_desert_Helmet: k_desert_helmet_base
+{
+    scope = 2;
+    scopecurator = 2;
+    scopearsenal = 2;
+    picture = "\442_units\clones\data\ui\scout_helmet.paa";
+    hiddenselectionstextures[] = 
+    {
+        "442_units\clones\data\helmet\desert_helmet\camo1_co.paa",
+        "442_units\clones\data\helmet\desert_helmet\visor_co.paa",
+    };
+};
+
 class k_b1_helmet: k_b1_helmet_base
 {
     scope = 2;

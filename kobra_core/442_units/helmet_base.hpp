@@ -361,6 +361,149 @@
 		};
 	};
 
+	class k_hunter_helmet_base: k_helmet_base
+	{
+		displayName="[K] Hunter Helmet";
+		model="442_units\clones\hunter_helmet.p3d";
+		picture="";
+		subItems[]=
+		{
+			"k_nvg"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"visor"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel="442_units\clones\hunter_helmet.p3d";
+			hiddenSelections[]=
+			{
+				"Camo1",
+				"visor"
+			};
+		};
+	};
+	class k_crosshair_helmet_base: k_helmet_base
+	{
+		displayName="[K] Crosshair Helmet";
+		model="442_units\clones\crosshair_helmet.p3d";
+		picture="";
+		subItems[]=
+		{
+			"k_nvg"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"visor"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel="442_units\clones\crosshair_helmet.p3d";
+			hiddenSelections[]=
+			{
+				"Camo1",
+				"visor"
+			};
+		};
+	};
+	class k_wrecker_helmet_base: k_helmet_base
+	{
+		displayName="[K] Wrecker Helmet";
+		model="442_units\clones\wrecker_helmet.p3d";
+		picture="";
+		subItems[]=
+		{
+			"k_nvg"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"visor"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel="442_units\clones\wrecker_helmet.p3d";
+			hiddenSelections[]=
+			{
+				"Camo1",
+				"visor"
+			};
+		};
+	};
+	class k_teck_helmet_base: k_helmet_base
+	{
+		displayName="[K] Tech Helmet";
+		model="442_units\clones\tech_helmet.p3d";
+		picture="";
+		subItems[]=
+		{
+			"k_nvg"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel="442_units\clones\tech_helmet.p3d";
+			hiddenSelections[]=
+			{
+				"Camo1"
+			};
+		};
+	};
+	class k_cadet_helmet_base: k_helmet_base
+	{
+		displayName="[K] Cadet Helmet";
+		model="442_units\clones\cadet_helmet.p3d";
+		picture="";
+		subItems[]=
+		{
+			"k_nvg"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"visor"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel="442_units\clones\cadet_helmet.p3d";
+			hiddenSelections[]=
+			{
+				"Camo1",
+				"visor"
+			};
+		};
+	};
+	class k_desert_helmet_base: k_helmet_base
+	{
+		displayName="[K] Desert Helmet";
+		model="442_units\clones\desert_helmet.p3d";
+		picture="";
+		subItems[]=
+		{
+			"k_nvg"
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"visor"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel="442_units\clones\desert_helmet.p3d";
+			hiddenSelections[]=
+			{
+				"Camo1",
+				"visor"
+			};
+		};
+	};
+
 	class k_b1_helmet_base: k_helmet_base
 	{
 		model = "442_units\cis_droids\b1_head_gh.p3d";

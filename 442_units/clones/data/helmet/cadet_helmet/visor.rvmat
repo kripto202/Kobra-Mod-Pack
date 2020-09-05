@@ -1,28 +1,24 @@
 class StageTI
 {
-	texture="#(argb,8,8,3)color(0.5,0,0,0,TI)";
+	texture="#(argb,8,8,3)color(1,1,1,1,TI)";
 };
-ambient[]={0.5,0.5,0,1};
-diffuse[]={0.40000001,0.40000001,0.40000001,1};
+ambient[] = {1,1,1,1};
+diffuse[] = {1,1,1,1};
 forcedDiffuse[]={0,0,0,0};
 emmisive[]={0,0,0,1};
-specular[]={0.1,0.1,0.1,1};
-specularPower=800;
+specular[]={0.30000001,0.30000001,0.30000001,1};
+specularPower=500;
 PixelShaderID="Super";
 VertexShaderID="Super";
-RenderFlags[]=
-{
-	"NoZwrite"
-};
 class Stage1
 {
-	texture="\442_a_vehicle\laat\data\glass_nohq.paa";
+	texture="442_units\clones\data\helmet\cadet_helmet\visor_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
 		aside[]={1,0,0};
 		up[]={0,1,0};
-		dir[]={0,0,0};
+		dir[]={0,0,1};
 		pos[]={0,0,0};
 	};
 };
@@ -88,14 +84,6 @@ class Stage6
 };
 class Stage7
 {
-	useWorldEnvMap="false";
-	texture="a3\data_f\env_interier_car_ca.paa";
-	uvSource="tex";
-	class uvTransform
-	{
-		aside[]={1,0,0};
-		up[]={0,1,0};
-		dir[]={0,0,1};
-		pos[]={0,0,0};
-	};
+	texture="a3\data_f\env_co.paa";
+	uvSource="none";
 };
