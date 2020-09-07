@@ -506,15 +506,19 @@
 
 	class k_b1_helmet_base: k_helmet_base
 	{
-		model = "442_units\cis_droids\b1_head_gh.p3d";
+		model = "ls_armor_redfor\helmet\b1\ls_cis_b1_head_gh.p3d";
 		subItems[] = {"k_nvg"};
+		hiddenselectionsmaterials[] = 
+		{
+			"442_units\cis_droids\data\camo1.rvmat"
+		};
 		hiddenselections[] = 
 		{
 			"camo1"
 		};
 		class ItemInfo: ItemInfo
 		{
-			uniformModel = "442_units\cis_droids\b1_head.p3d";
+			uniformModel = "ls_armor_redfor\helmet\b1\ls_cis_b1_head.p3d";
 			hiddenselections[] = 
 			{
 				"camo1"

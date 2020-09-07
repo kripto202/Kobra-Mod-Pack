@@ -96,7 +96,7 @@
 	};
 
 //MG
-	class 442_warthog_mg_Base: OPTRE_M12_LRV
+	/*class 442_warthog_mg_Base: OPTRE_M12_LRV
 	{
 		scope = 0;
 		displayName = "M12 LRV Warthog (MG)";
@@ -256,8 +256,8 @@
 		supplyRadius = 5;
 		transportMaxMagazines = 120;
 		maximumLoad = 400;
-	};
-	class 442_warthog_mg: 442_warthog_mg_Base
+	};*/
+	class 442_warthog_mg: OPTRE_M12_LRV
 	{
 		displayname = "Warthog (MG)";
 		scope = 2;
@@ -691,7 +691,7 @@
 			"OPTRE_Vehicles\Warthog\data\warthog_black_co.paa",
 			"OPTRE_Vehicles\Warthog\data\warthog_addons_black_co.paa"
 		};
-		class Turrets: Turrets
+		/*class Turrets: Turrets
 		{
 			class CargoGunner_1: CargoGunner_1{};
 			class MainTurret: MainTurret
@@ -712,5 +712,5 @@
 				source = "revolving";
 				weapon = "cis_Mounted_repeater";
 			};
-		};			
+		};*/			
 	};

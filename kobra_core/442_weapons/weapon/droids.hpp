@@ -1,25 +1,8 @@
 ///E5
-    class 442_E5: 442_rifle_base
+    class 442_E5: swlw_e5
 	{
 		scope=2;
 		model="\442_weapons\droids\e5\e5.p3d";
-		handAnim[]=
-		{
-			"OFP2_ManSkeleton",
-			"\A3\Weapons_F_epa\LongRangeRifles\DMR_01\Data\Anim\dmr_01.rtm"
-		};
-		reloadAction="ReloadMagazine";
-		picture="\SWLW_droids\smgs\e5\data\ui\e5_ui.paa";
-		hiddenselections[] = 
-		{
-			"camo1",
-			"sight"
-		};
-		hiddenselectionstextures[] = 
-		{
-			"\SWLW_droids\smgs\e5\data\e5_co.paa",
-			"\442_weapons\droids\e5\data\training_red.paa"
-		};
 		magazines[]=
 		{
 			"442_65_30rnd_blue_mag",
@@ -56,27 +39,6 @@
 			"442_65_60rnd_yellow_b_mag"
 		};
 		displayname="E-5 carbine";
-		descriptionShort="";
-		selectionFireAnim="zasleh";
-		class Library
-		{
-			libTextDesc="";
-		};
-		drySound[]=
-		{
-			"",
-			0.39810717,
-			1,
-			20
-		};
-		reloadMagazineSound[]=
-		{
-			"\442_weapons\sounds\e5\sounds\e5_reload.wss",
-			0.56234133,
-			1,
-			30
-		};
-		soundBullet[]={};
 		modes[]=
 		{
 			"Single",
@@ -256,23 +218,11 @@
 		};
 	};
 ///e5c
-    class 442_E5C: 442_rifle_base
+    class 442_E5C: swlw_e5c
 	{
-		author="Kobra";
-		picture="\SWLW_droids\machineguns\e5c\data\ui\e5c_ui.paa";
 		displayName="E-5C Blaster Repeater";
 		model="\442_weapons\droids\e5c\e5c.p3d";
 		scope=2;
-		hiddenselections[] = 
-		{
-			"camo1",
-			"sight"
-		};
-		hiddenselectionstextures[] = 
-		{
-			"SWLW_droids\machineguns\e5c\data\e5c_co.paa",
-			"\442_weapons\droids\e5c\data\training_red.paa"
-		};
 		magazines[]=
 		{
 			"442_65_30rnd_blue_mag",
@@ -329,9 +279,6 @@
 		{
 			"this"
 		};
-		reloadAction="ReloadMagazine";
-		magazineReloadSwitchPhase=0.40000001;
-		discreteDistanceInitIndex=0;
 		maxRecoilSway=0.0099999998;
 		swayDecaySpeed=0.2;
 		inertia=3;
@@ -340,41 +287,13 @@
 		fireLightIntensity=0.40000001;
 		fireLightDiffuse[]={0,0,0.0099999998};
 		fireLightAmbient[]={0,0,0};
-		class GunParticles: GunParticles
-		{
-			class SecondEffect
-			{
-				positionName="Nabojnicestart";
-				directionName="Nabojniceend";
-				effectName="CaselessAmmoCloud";
-			};
-		};
 		opticsZoomMin=0.25;
 		opticsZoomMax=1.25;
 		opticsZoomInit=0.75;
 		distanceZoomMin=300;
 		distanceZoomMax=300;
 		descriptionShort="";
-		handAnim[]=
-		{
-			"OFP2_ManSkeleton",
-			"\A3\Weapons_F_epa\LongRangeRifles\DMR_01\Data\Anim\dmr_01.rtm"
-		};
 		dexterity=3;
-		caseless[]=
-		{
-			"",
-			1,
-			1,
-			1
-		};
-		soundBullet[]=
-		{
-			"caseless",
-			1
-		};
-		flash="gunfire";
-		flashSize=3;
 		modes[]=
 		{
 			"FullAuto"
@@ -462,40 +381,4 @@
 		recoil="SWLW_Z6_recoil";
 		aiDispersionCoefY=6;
 		aiDispersionCoefX=4;
-		drySound[]=
-		{
-			"\442_weapons\sounds\z6\Z6_empty.wss",
-			2,
-			1,
-			20
-		};
-		reloadMagazineSound[]=
-		{
-			"\442_weapons\sounds\e5\e5.wss_reload",
-			1,
-			1,
-			30
-		};
-		reloadSound[]=
-		{
-			"",
-			1,
-			1
-		};
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			mass=176;
-			class MuzzleSlot: MuzzleSlot
-			{
-				compatibleItems[]={};
-			};
-			class CowsSlot: CowsSlot
-			{
-				compatibleItems[]={};
-			};
-			class PointerSlot: PointerSlot
-			{
-				compatibleItems[]={};
-			};
-		};
 	};

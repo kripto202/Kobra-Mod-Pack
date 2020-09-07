@@ -92,8 +92,13 @@
 			"442_units\cis_droids\data\b1_upper_co.paa",
 			"442_units\cis_droids\data\b1_lower_co.paa"
 		};
+		hiddenselectionsmaterials[] = 
+		{
+			"442_units\cis_droids\data\camo1.rvmat",
+			"442_units\cis_droids\data\camo2.rvmat",
+		};
 		uniformclass = "k_swla_b1_uniform";
-		model = "442_units\cis_droids\swlb_b1_uniform.p3d";
+		model = "\ls_armor_redfor\uniform\cis\b1\ls_cis_b1_uniform.p3d";
 		faction="442_CIS";
 		editorSubCategory="442_battledroid_inf";
 	};

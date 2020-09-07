@@ -402,6 +402,14 @@ class CfgPatches
 			"442_swla_unit_1_medic",
 			"442_swla_unit_1_engineer",
 
+			"442_warthog_unarmed",
+			"442_warthog_mg_Base",
+			"442_warthog_mg",
+			"442_warthog_tt",
+			"442_warthog_at",
+			"442_cis_warthog_mg",
+
+			
 			
 		};
 		weapons[]=
@@ -781,6 +789,24 @@ class cfgweapons
 	class gatling_25mm;
 	class U_O_officer_noinsignia_hex_F;
 	class SWLW_WestarM5_scope;
+
+	class swlw_dc15a;
+	class swlw_dc15a_ugl;
+	class swlw_dc15s;
+	class swlw_dc15x;
+	class swlw_e5;
+	class swlw_e5c;
+	class swlw_westarm5;
+	class swlw_westarm5_ugl;
+	class swlw_z6
+	{
+		class animationsources;
+	};
+	class swlw_dc15sa;
+	class swlw_dc17;
+	class swlw_gl;
+
+
 	class 442_rifle_base: Rifle_Long_Base_F
 	{
 		author="kripto202";
@@ -1105,6 +1131,7 @@ class cfgvehicles
 	#include "442_misc\sweeper.hpp"
 	#include "442_misc\vulture.hpp"
 	#include "442_misc\bullet.hpp"
+	#include "442_misc\data_pad.hpp"
 
 	#include "442_structures\hallway.hpp"
 	#include "442_structures\landing_pad.hpp"

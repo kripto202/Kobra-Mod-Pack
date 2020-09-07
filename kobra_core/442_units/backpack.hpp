@@ -178,6 +178,10 @@ class k_b1_backpack: k_clone_backpack_base
 	model = "442_units\cis_droids\swlb_b1_backpack.p3d";
 	maximumload = 150;
 	picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
+	hiddenselectionsmaterials[] = 
+    {
+        "442_units\cis_droids\data\backpack.rvmat"
+    };
 	hiddenselections[] = 
 	{
 		"camo1"

@@ -43,7 +43,7 @@
     class 442_556_500rnd_blue_mag: 442_556_30rnd_blue_mag
     {
         displayname = "5.56x45mm Plasma Cell (500rnd Blue)";
-		mass = 130;
+		mass = 80;
         count = 500;
 	};
 

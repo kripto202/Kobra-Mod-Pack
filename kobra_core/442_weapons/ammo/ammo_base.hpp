@@ -617,17 +617,17 @@ class 442_nlaw_AT: MissileBase
 	explosionSoundEffect = "DefaultExplosion";
 	effectsMissileInit = "RocketBackEffectsRPG";
 	initTime = 0.05;
-	trackOversteer = 0.5;
-	trackLead = 0.85;
+	trackOversteer = 1;
+	trackLead=0.85000002;
 	timeToLive = 30;
 	maneuvrability = 6;
 	simulationStep = 0.002;
 	airFriction = 0.06;
 	sideAirFriction = 0.09;
-	maxSpeed = 500;
-	thrustTime = 2;
-	thrust = 200;
-	fuseDistance = 150;
+	maxSpeed=200;
+	thrustTime = 1;
+	thrust = 70;
+	fuseDistance = 50;
 	effectsMissile = "missile2";
 	whistleDist = 150;
 	class CamShakeExplode

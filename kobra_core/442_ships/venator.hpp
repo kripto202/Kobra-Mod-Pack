@@ -752,6 +752,10 @@
 			}
 		};
 	};
+
+
+
+
 	class 442_ven_hull_base: House_F
 	{
 		reversed=0;
@@ -788,6 +792,7 @@
 		{
 		};
 	};
+	
 	class 442_ven_body1_1: 442_ven_hull_base
 	{
 		displayname="ven body1_1";

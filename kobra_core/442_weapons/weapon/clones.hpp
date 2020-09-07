@@ -1,16 +1,9 @@
 ///dc15a   
-    class 442_DC15A: 442_rifle_base
+    class 442_DC15A: swlw_dc15a
 	{
 		scope=2;
 		model="442_weapons\clones\dc15a\dc15a.p3d";
-		handAnim[]=
-		{
-			"OFP2_ManSkeleton",
-			"\442_weapons\anim\dc15a\dc15a_handanim.rtm"
-		};
-		reloadAction="ReloadMagazine";
-		picture="\SWLW_clones\rifles\dc15a\data\ui\DC15A_ui.paa";
-		magazines[]=
+		magazines[] =
 		{
 			"442_762_20rnd_blue_mag",
 			"442_762_30rnd_blue_mag",
@@ -93,39 +86,6 @@
 			"442_762_100rnd_yellow_b_mag",
 		};
 		displayname="DC-15A rifle";
-		descriptionShort="Clone trooper rifle";
-		selectionFireAnim="zasleh";
-		hiddenSelections[]=
-		{
-			"camo1",
-			"magazine",
-			"sight"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"442_weapons\clones\dc15a\data\dc15a_co.paa",
-			"442_weapons\clones\dc15a\data\dc15a_mag_co.paa",
-			"\442_weapons\clones\dc15a\data\optic\training_blue.paa"
-		};
-		class Library
-		{
-			libTextDesc="";
-		};
-		drySound[]=
-		{
-			"",
-			0.39810717,
-			1,
-			20
-		};
-		reloadMagazineSound[]=
-		{
-			"\442_weapons\sounds\dc17\DC17_reload.wss",
-			0.56234133,
-			1,
-			30
-		};
-		soundBullet[]={};
 		modes[]=
 		{
 			"Single",
@@ -134,10 +94,6 @@
 			"short",
 			"medium"
 		};
-		fireLightDuration=0.050000001;
-		fireLightIntensity=0.40000001;
-		fireLightDiffuse[]={0,0,0.0099999998};
-		fireLightAmbient[]={0,0,0};
 		class Single: Mode_SemiAuto
 		{
 			sounds[]=
@@ -311,69 +267,6 @@
 		dexterity=1.7;
 		initspeed=800;
 		inertia=0.5;
-		class OpticsModes
-		{
-			class sight
-			{
-				opticsID=1;
-				useModelOptics=1;
-				opticsPPEffects[]={""};
-				opticsDisablePeripherialVision=0;
-				opticsZoomMin=0.25;
-				opticsZoomMax=0.5;
-				opticsZoomInit=0.75;
-				discreteInitIndex=0;
-				distanceZoomMin=200;
-				distanceZoomMax=200;
-				memoryPointCamera="eye";
-				visionMode[]={};
-				opticsFlare="false";
-				cameraDir="";
-			};
-			class scope: sight
-			{
-				opticsID = 2;
-				opticsZoomMin = 0.125;
-				opticsZoomMax = 0.125;
-				opticsZoomInit = 0.125;
-				distanceZoomMin = 300;
-				distanceZoomMax = 300;
-			};
-		};
-		class FlashLight
-		{
-			color[]={180,160,130};
-			ambient[]={0.89999998,0.80000001,0.69999999};
-			intensity=100;
-			size=1;
-			innerAngle=5;
-			outerAngle=100;
-			coneFadeCoef=10;
-			position="flash dir";
-			direction="flash";
-			useFlare=1;
-			flareSize=1.5;
-			flareMaxDistance=100;
-			dayLight=1;
-			class Attenuation
-			{
-				start=0;
-				constant=0.5;
-				linear=0.1;
-				quadratic=0.2;
-				hardLimitStart=27;
-				hardLimitEnd=34;
-			};
-			scale[]={0};
-		};
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			mass=130;
-			class CowsSlot: CowsSlot
-			{
-				compatibleItems[]={};
-			};
-		};
 	};
     class 442_DC15A_ugl: 442_DC15A
 	{
@@ -415,14 +308,6 @@
 				"OP_eye4"
 			};
 			discreteDistanceInitIndex=1;
-		};
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			mass=150;
-			class CowsSlot: CowsSlot
-			{
-				compatibleItems[]={};
-			};
 		};
 	};
     class 442_DC15A_MC: 442_DC15A
@@ -490,27 +375,10 @@
 		};
 	};
 ///dc15s
-    class 442_dc15s: 442_rifle_base
+    class 442_dc15s: swlw_dc15s
 	{
 		scope=2;
 		model="442_weapons\clones\dc15s\dc15s.p3d";
-		hiddenselections[] = 
-		{
-			"camo1",
-			"sights"
-		};
-		hiddenselectionstextures[] = 
-		{
-			"\SWLW_clones\smgs\dc15s\data\dc15s_co.paa",
-			"\442_weapons\clones\dc15a\data\optic\training_blue.paa"
-		};
-		handAnim[]=
-		{
-			"OFP2_ManSkeleton",
-			"\A3\Weapons_F_epa\LongRangeRifles\DMR_01\Data\Anim\dmr_01.rtm"
-		};
-		reloadAction="ReloadMagazine";
-		picture="\SWLW_clones\smgs\dc15s\data\ui\DC15s_ui.paa";
 		magazines[]=
 		{
 			"442_556_20rnd_blue_mag",
@@ -594,27 +462,7 @@
 			"442_556_100rnd_yellow_b_mag"
 		};
 		displayname="DC-15s carbine";
-		descriptionShort="Clone trooper carbine";
-		selectionFireAnim="zasleh";
-		class Library
-		{
-			libTextDesc="";
-		};
-		drySound[]=
-		{
-			"",
-			0.39810717,
-			1,
-			20
-		};
-		reloadMagazineSound[]=
-		{
-			"\442_weapons\sounds\dc17\dc17_reload.wss",
-			0.56234133,
-			1,
-			30
-		};
-		soundBullet[]={};
+
 		modes[]=
 		{
 			"Single",
@@ -800,30 +648,11 @@
 		recoil="442_recoil";
 		maxRecoilSway=0.015;
 		swayDecaySpeed=1.25;
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			mass=60;
-			class CowsSlot: CowsSlot
-			{
-				compatibleItems[]={};
-			};
-		};
 	};
     class 442_dc15s_ab: 442_dc15s
 	{
 		displayname = "DC-15AB";
 		inertia = 1.5;
-		reloadTime=0.05;
-		hiddenselections[] = 
-		{
-			"camo1",
-			"sight"
-		};
-		hiddenselectionstextures[] = 
-		{
-			"\SWLW_clones\smgs\dc15s\data\dc15s_co.paa",
-			"\442_weapons\clones\dc15a\data\optic\training_red.paa"
-		};
 		class Single: Mode_SemiAuto
 		{
 			sounds[]=
@@ -1019,22 +848,12 @@
             "442_45_45rnd_yellow_b_mag",
             "442_45_100rnd_yellow_b_mag"
 		};
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			mass=50;
-			class CowsSlot: CowsSlot
-			{
-				compatibleItems[]={};
-			};
-		};
 	};
 ///dc15sa
-    class 442_DC15SA: Pistol_Base_F
+    class 442_DC15SA: swlw_dc15sa
 	{
-		author="Kobra";
 		scope=2;
 		model="\SWLW_clones_spec\DC15SA.p3d";
-		picture="\SWLW_clones_spec\data\ui\DC15SA_ui.paa";
 		muzzles[]=
 		{
 			"this"
@@ -1065,31 +884,10 @@
 			"442_127x33_10rnd_yellow_mag",
 			"442_127x33_10rnd_yellow_b_mag"
 		};
-		magazineReloadSwitchPhase=0.40000001;
-		reloadAction="GestureReloadPistol";
 		displayName="DC-15SA";
-		hiddenSelections[]=
-		{
-			"camo1"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\SWLW_clones_spec\data\DC15SA_co.paa"
-		};
 		modes[]=
 		{
 			"single"
-		};
-		fireLightDuration=0.050000001;
-		fireLightIntensity=0.40000001;
-		fireLightDiffuse[]={0,0,0.0099999998};
-		fireLightAmbient[]={0,0,0};
-		reloadMagazineSound[]=
-		{
-			"swlw_clones_spec\sounds\DC15SA_reload.wss",
-			0.56234133,
-			1,
-			30
 		};
 		class Single: Mode_SemiAuto
 		{
@@ -1169,36 +967,11 @@
 		inertia=1.4;
 		dexterity=1.7;
 		recoil="recoil_pistol_4five";
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			mass=24;
-			holsterScale=0.89999998;
-			class MuzzleSlot: MuzzleSlot
-			{
-				compatibleItems[]={};
-			};
-			class CowsSlot: CowsSlot
-			{
-				compatibleItems[]={};
-			};
-			class PointerSlot: PointerSlot
-			{
-				compatibleItems[]={};
-			};
-		};
 	};
 ///dc15x
-    class 442_DC15X: 442_rifle_base
+    class 442_DC15X: swlw_dc15x
 	{
 		scope=2;
-		model="SWLW_clones\rifles\dc15x\DC15X.p3d";
-		handAnim[]=
-		{
-			"OFP2_ManSkeleton",
-			"\442_weapons\anim\dc15x\dc15x_handanim.rtm"
-		};
-		reloadAction="ReloadMagazine";
-		picture="\SWLW_clones\rifles\dc15x\data\ui\DC15X_ui.paa";
 		magazines[]=
 		{
 			"442_408_10rnd_blue_mag",
@@ -1226,16 +999,6 @@
 			"442_408_10rnd_yellow_b_mag"
 		};
 		displayname="DC-15X";
-		descriptionShort="";
-		selectionFireAnim="zasleh";
-		hiddenSelections[]=
-		{
-			"camo1"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\SWLW_clones\rifles\dc15x\data\DC15X_co.paa"
-		};
 		maxZeroing=1200;
 		opticsZoomMin=0.0099999998;
 		opticsZoomMax=0.041999999;
@@ -1245,25 +1008,6 @@
 		distanceZoomMin=100;
 		distanceZoomMax=1200;
 		discreteDistance[]={100,200,300,400,500,600,700,800,900,1000,1100,1200};
-		class Library
-		{
-			libTextDesc="";
-		};
-		drySound[]=
-		{
-			"",
-			0.39810717,
-			1,
-			20
-		};
-		reloadMagazineSound[]=
-		{
-			"\442_weapons\sounds\dc17\DC17_reload.wss",
-			0.56234133,
-			1,
-			30
-		};
-		soundBullet[]={};
 		modes[]=
 		{
 			"Single",
@@ -1423,14 +1167,6 @@
 				cameraDir="";
 			};
 		};
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			mass=130;
-			class CowsSlot: CowsSlot
-			{
-				compatibleItems[]={};
-			};
-		};
 	};
 	class 442_DC15Y: 442_DC15X
 	{
@@ -1523,21 +1259,10 @@
 		};
 	};
 ///dc17
-    class 442_DC17: Pistol_Base_F
+    class 442_DC17: swlw_dc17
 	{
-		author="Kobra";
-		_generalMacro="hgun_P07_F";
 		scope=2;
 		model="SWLW_clones\pistols\dc17\DC17.p3d";
-		picture="\SWLW_clones\pistols\dc17\data\ui\DC17_ui.paa";
-		hiddenselections[] = 
-		{
-			"camo1"
-		};
-		hiddenselectionstextures[] = 
-		{
-			"\SWLW_clones\pistols\dc17\data\dc17_co.paa"
-		};
 		muzzles[]=
 		{
 			"this",
@@ -1569,23 +1294,7 @@
 			"442_9_20rnd_yellow_mag",
 			"442_9_20rnd_yellow_b_mag"
 		};
-		reloadAction="GestureReloadPistol";
 		displayName="DC-17";
-		drySound[]=
-		{
-			"A3\Sounds_F\arsenal\weapons\Pistols\4-Five\dry_4_Five",
-			0.39810717,
-			1,
-			20
-		};
-		reloadMagazineSound[]=
-		{
-			"\442_weapons\sounds\dc17\DC17_reload.wss",
-			0.56234133,
-			1,
-			30
-		};
-		soundBullet[]={};
 		modes[]=
 		{
 			"Single",
@@ -1739,73 +1448,16 @@
 		initSpeed=300;
 		maxRecoilSway=0.0125;
 		swayDecaySpeed=1.25;
-		recoil="recoil_pistol_4five";
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			mass=24;
-			holsterScale=0.89999998;
-			class MuzzleSlot: MuzzleSlot
-			{
-				compatibleItems[]={};
-			};
-			class CowsSlot: CowsSlot
-			{
-				compatibleItems[]={};
-			};
-			class PointerSlot: PointerSlot
-			{
-				compatibleItems[]={};
-			};
-		};
 	};
 ///gl
-    class 442_GL: 442_rifle_base
+    class 442_GL: swlw_gl
 	{
 		scope=2;
-		model="442_weapons\clones\gl\gl.p3d";
-		hiddenselections[] = 
-		{
-			"camo1",
-			"sight"
-		};
-		hiddenselectionstextures[] = 
-		{
-			"\SWLW_clones\rifles\gl\data\gl_co.paa",
-			"\442_weapons\clones\dc15a\data\optic\training_blue.paa"
-		};
-		handAnim[]=
-		{
-			"OFP2_ManSkeleton",
-			"\A3\Weapons_F_epa\LongRangeRifles\DMR_01\Data\Anim\dmr_01.rtm"
-		};
-		reloadAction="ReloadMagazine";
-		picture="\swlw_clones\rifles\gl\data\ui\GL_ui.paa";
 		magazines[]=
 		{
 			"442_40_6rnd_he_blue_mag"
 		};
 		displayname="Grenade launcher";
-		descriptionShort="";
-		selectionFireAnim="zasleh";
-		class Library
-		{
-			libTextDesc="";
-		};
-		drySound[]=
-		{
-			"",
-			0.39810717,
-			1,
-			20
-		};
-		reloadMagazineSound[]=
-		{
-			"\442_weapons\sounds\dc17\DC17_reload.wss",
-			0.56234133,
-			1,
-			30
-		};
-		soundBullet[]={};
 		modes[]=
 		{
 			"Single",
@@ -1817,16 +1469,6 @@
 		fireLightIntensity=0.40000001;
 		fireLightDiffuse[]={0,0,0.0099999998};
 		fireLightAmbient[]={0,0,0};
-		cameraDir="OP_look";
-		discreteinitindex = 0;
-		discretedistance[] = {100,200,300,400};
-		discreteDistanceCameraPoint[]=
-		{
-			"OP_eye",
-			"OP_eye2",
-			"OP_eye3",
-			"OP_eye4"
-		};
 		class Single: Mode_SemiAuto
 		{
 			sounds[]=
@@ -1942,14 +1584,6 @@
 		maxRecoilSway=0.0125;
 		swayDecaySpeed=1.25;
 		inertia=0.5;
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			mass=180;
-			class CowsSlot: CowsSlot
-			{
-				compatibleItems[]={};
-			};
-		};
 	};
 ///rps6
     class 442_RPS6: Launcher_Base_F
@@ -2046,7 +1680,6 @@
 			midRangeProbab = 0.8;
 			maxRange = 790;
 			maxRangeProbab = 0.8;
-			ace_missileGuidance_attackProfile = "ace_nlaw_directAttack";
 		};
 		class Overfly: Single
 		{
@@ -2060,7 +1693,6 @@
 			midRangeProbab = 0.95;
 			maxRange = 790;
 			maxRangeProbab = 0.95;
-			ace_missileGuidance_attackProfile = "ace_nlaw_overflyTopAttack";
 		};
 		drySound[]=
 		{
@@ -2094,25 +1726,10 @@
 		};
 	};
 ///westarm5
-    class 442_WestarM5: 442_rifle_base
+    class 442_WestarM5: swlw_westarm5
 	{
 		scope=2;
 		model="\SWLW_clones\smgs\westar_m5\WestarM5.p3d";
-		handAnim[]=
-		{
-			"OFP2_ManSkeleton",
-			"\442_weapons\anim\westar_m5\westarm5_handanim.rtm"
-		};
-		reloadAction="ReloadMagazine";
-		picture="\SWLW_clones\smgs\westar_m5\data\ui\WestarM5_ui.paa";
-		hiddenselections[] = 
-		{
-			"camo1"
-		};
-		hiddenselectionstextures[] = 
-		{
-			"\SWLW_clones\smgs\westar_m5\data\westarm5_co.paa"
-		};
 		magazines[]=
 		{
 			"442_65_30rnd_blue_mag",
@@ -2172,27 +1789,6 @@
 			"442_65_100rnd_yellow_b_mag"
 		};
 		displayname="Westar M5";
-		descriptionShort="";
-		selectionFireAnim="zasleh";
-		class Library
-		{
-			libTextDesc="";
-		};
-		drySound[]=
-		{
-			"",
-			0.39810717,
-			1,
-			20
-		};
-		reloadMagazineSound[]=
-		{
-			"\442_weapons\sounds\dc17\dc17_reload.wss",
-			0.56234133,
-			1,
-			30
-		};
-		soundBullet[]={};
 		modes[]=
 		{
 			"Single",
@@ -2388,17 +1984,6 @@
 		inertia=0.30000001;
 		dexterity=1.7;
 		initSpeed=-1;
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			mass=80;
-			class CowsSlot: CowsSlot
-			{
-				compatibleItems[]=
-				{
-					"442_WestarM5_scope"
-				};
-			};
-		};
 	};
     class 442_WestarM5_scope: SWLW_WestarM5_scope
 	{
@@ -2477,17 +2062,15 @@
 		handAnim[] = {"OFP2_ManSkeleton","\SWLW_clones\smgs\westar_m5\anims\westarm5_ugl_handanim.rtm"};
 	};
 ///z6
-	class 442_Z6: 442_rifle_base
+	class 442_Z6: swlw_z6
 	{
 		ace_overheating_mrbs=100000;
 		ace_overheating_slowdownFactor=1e-006;
 		ace_overheating_allowSwapBarrel=1;
 		ace_overheating_dispersion=0;
 		scope=2;
-		author="SW Legion Studios";
 		displayName="Z6 Rotary Blaster";
-		model="SWLW_clones\machineguns\z6\Z6.p3d";
-		picture="\SWLW_clones\machineguns\z6\data\ui\Z6_ui.paa";
+		model="442_weapons\clones\z6\z6.p3d";
 		magazines[]=
 		{
 			"442_556_20rnd_blue_mag",
@@ -2622,17 +2205,6 @@
 		{
 			"this"
 		};
-		reloadAction="ReloadMagazine";
-		hiddenselections[] =
-		{
-			"camo1"
-		};
-		hiddenselectionstextures[] = 
-		{
-			"\SWLW_clones\machineguns\z6\data\z6_co.paa"
-		};
-		magazineReloadSwitchPhase=0.40000001;
-		discreteDistanceInitIndex=0;
 		maxRecoilSway=0.0099999998;
 		swayDecaySpeed=0.7;
 		inertia=2.5;
@@ -2641,41 +2213,12 @@
 		fireLightIntensity=0.40000001;
 		fireLightDiffuse[]={0,0,0.0099999998};
 		fireLightAmbient[]={0,0,0};
-		class GunParticles: GunParticles
-		{
-			class SecondEffect
-			{
-				positionName="Nabojnicestart";
-				directionName="Nabojniceend";
-				effectName="CaselessAmmoCloud";
-			};
-		};
 		opticsZoomMin=0.25;
 		opticsZoomMax=1.25;
 		opticsZoomInit=0.75;
 		distanceZoomMin=300;
 		distanceZoomMax=300;
 		descriptionShort="";
-		handAnim[]=
-		{
-			"OFP2_ManSkeleton",
-			"\442_weapons\anim\z6\Z6_handanim.rtm"
-		};
-		dexterity=1;
-		caseless[]=
-		{
-			"",
-			1,
-			1,
-			1
-		};
-		soundBullet[]=
-		{
-			"caseless",
-			1
-		};
-		flash="gunfire";
-		flashSize=3;
 		modes[] = 
 		{
 			"FullAutoFast", 
@@ -2802,26 +2345,6 @@
 		recoil="442_recoil";
 		aiDispersionCoefY=4;
 		aiDispersionCoefX=4;
-		drySound[]=
-		{
-			"\442_weapons\sounds\z6\Z6_empty.wss",
-			2,
-			1,
-			20
-		};
-		reloadMagazineSound[]=
-		{
-			"\442_weapons\sounds\dc15s\DC15s_reload.wss",
-			1,
-			1,
-			30
-		};
-		reloadSound[]=
-		{
-			"",
-			1,
-			1
-		};
 		class animationsources: animationsources
 		{
 			class gatling
@@ -2830,67 +2353,6 @@
 				weapon = "442_Z6";
 			};
 		};
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			mass=176;
-			class MuzzleSlot: MuzzleSlot
-			{
-				compatibleItems[]={};
-			};
-			class CowsSlot: CowsSlot
-			{
-				compatibleItems[]={};
-			};
-			class PointerSlot: PointerSlot
-			{
-				compatibleItems[]={};
-			};
-		};
-		/*class Explosive: UGL_F
-		{
-			author="SW Legion Studios";
-			displayName="HE mode";
-			initspeed=80;
-			magazines[]=
-			{
-				"442_40_6rnd_he_blue_mag"
-			};
-			class Single: Mode_SemiAuto
-			{
-				sounds[]=
-				{
-					"StandardSound"
-				};
-				class BaseSoundModeType;
-				class StandardSound: BaseSoundModeType
-				{
-					begin1[]=
-					{
-						"SWLW_clones\machineguns\z6\sounds\Z6_1.wss",
-						1,
-						1,
-						500
-					};
-					soundBegin[]=
-					{
-						"begin1",
-						1
-					};
-				};
-				reloadTime=1;
-				dispersion=0.0099999998;
-				minRange=0;
-				minRangeProbab=0.89999998;
-				midRange=15;
-				midRangeProbab=0.69999999;
-				maxRange=30;
-				maxRangeProbab=0.1;
-			};
-			modes[]=
-			{
-				"Single"
-			};
-		};*/
 	};
 	class 442_e6z: 442_Z6
 	{
@@ -2906,11 +2368,4 @@
 			"442_556_200rnd_red_mag",
 			"442_556_500rnd_red_mag"
 		};
-		/*class explosive: explosive
-		{
-			magazines[] = 
-			{
-				"442_40_6rnd_he_blue_mag"
-			};
-		};*/
 	};

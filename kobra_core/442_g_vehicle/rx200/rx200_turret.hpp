@@ -64,6 +64,7 @@ class Turrets: Turrets
 				forceHideGunner=0;
 				inGunnerMayFire=1;
 				viewGunnerInExternal=1;
+				elevationMode=3;
 				class HitPoints
 				{
 					class HitTurret

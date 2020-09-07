@@ -254,6 +254,10 @@ class k_b1_helmet: k_b1_helmet_base
     scopearsenal = 2;
     displayname = "[K] B1 Droid Head";
     picture = "\SWLB_droids\data\ui\icon_b1_uniform_ca.paa";
+    hiddenselectionsmaterials[] = 
+    {
+        "442_units\cis_droids\data\camo1.rvmat"
+    };
     hiddenselectionstextures[] = 
     {
         "442_units\cis_droids\data\b1_upper_co.paa"
