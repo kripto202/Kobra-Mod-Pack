@@ -409,7 +409,7 @@ class CfgPatches
 			"442_warthog_at",
 			"442_cis_warthog_mg",
 
-			
+			"442_tseries_head",
 			
 		};
 		weapons[]=
@@ -695,6 +695,10 @@ class CfgEditorSubcategories
 	class 442_props
 	{
 		displayname = "Photo props";
+	};
+	class 442_data_pad
+	{
+		displayname = "Data Pad";
 	};
 };
 
@@ -1132,6 +1136,7 @@ class cfgvehicles
 	#include "442_misc\vulture.hpp"
 	#include "442_misc\bullet.hpp"
 	#include "442_misc\data_pad.hpp"
+	#include "442_misc\t_series.hpp"
 
 	#include "442_structures\hallway.hpp"
 	#include "442_structures\landing_pad.hpp"
