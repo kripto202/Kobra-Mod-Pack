@@ -410,7 +410,29 @@ class CfgPatches
 			"442_cis_warthog_mg",
 
 			"442_tseries_head",
-			
+			"442_data_pad",
+			"442_data_pad_rep",
+			"442_data_pad_cis",
+			"442_data_pad_pinup1",
+			"442_data_pad_pinup_atago1",
+			"442_data_pad_pinup_atago2",
+			"442_data_pad_pinup_belfast1",
+			"442_data_pad_pinup_belfast2",
+			"442_data_pad_pinup_cleveland1",
+			"442_data_pad_pinup_cleveland2",
+			"442_data_pad_pinup_enty1",
+			"442_data_pad_pinup_enty2",
+			"442_data_pad_pinup_helena1",
+			"442_data_pad_pinup_helena2",
+			"442_data_pad_pinup_prinz1",
+			"442_data_pad_pinup_prinz2",
+			"442_data_pad_pinup_spee1",
+			"442_data_pad_pinup_spee2",
+			"442_data_pad_pinup_takao1",
+			"442_data_pad_pinup_takao2",
+			"442_data_pad_text",
+			"442_data_pad_eod",
+
 		};
 		weapons[]=
 		{
@@ -789,7 +811,7 @@ class cfgweapons
 	class GMG_40mm;
 	class nvgoggles;
 	class V_PlateCarrier1_rgr;
-	class SWLB_b1_uniform;
+	class ls_b1_base;
 	class gatling_25mm;
 	class U_O_officer_noinsignia_hex_F;
 	class SWLW_WestarM5_scope;
@@ -802,10 +824,7 @@ class cfgweapons
 	class swlw_e5c;
 	class swlw_westarm5;
 	class swlw_westarm5_ugl;
-	class swlw_z6
-	{
-		class animationsources;
-	};
+	class swlw_z6;
 	class swlw_dc15sa;
 	class swlw_dc17;
 	class swlw_gl;
@@ -1092,7 +1111,6 @@ class cfgvehicles
 			class Movement;
 		};
 	};
-	class SWLG_tanks_tx130_base : Tank_F{};
 	#include "442_ships\acclamator.hpp"
 	#include "442_ships\coreship.hpp"
 	#include "442_ships\hardcell.hpp"
@@ -1105,6 +1123,7 @@ class cfgvehicles
 	#include "442_ships\sds_stealth.hpp"
 	#include "442_ships\subjugator.hpp"
 	#include "442_ships\venator.hpp"
+	#include "442_ships\arquintens.hpp"
 
 	#include "442_a_vehicle\laat.hpp"
 	#include "442_a_vehicle\hmp\hmp.hpp"
@@ -2010,9 +2029,9 @@ class cfgmagazines
 		reloadaction="";
 		useactiontitle="";
 		modelspecial="";
-		model = "SWLW_clones\rifles\DC15a\DC15a_mag.p3d";
+		model = "SWLW_clones\rifles\DC15a\DC15a_mag_ca.p3d";
 		tracersevery=1;
-		picture="442_weapons\ammo\ui\DC15a_mag_ui.paa";
+		picture="";
 		type=256;
 	};
 	#include "442_weapons\magazine\556_magazine.hpp"

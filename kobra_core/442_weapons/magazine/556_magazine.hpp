@@ -211,7 +211,7 @@
     {
         displayname = "5.56x45mm Plasma Cell (20rnd Pink)";
 		ammo = "442_ammo_556_Pink";
-        picture="\442_weapons\ammo\data\ui\DC15a_mag_ui_pink.paa";
+        picture="\442_weapons\ammo\data\ui\DC15a_mag_ui_pink_ca.paa";
     };
     class 442_556_500rnd_pink_mag: 442_556_500rnd_blue_mag
     {
@@ -254,7 +254,7 @@
     {
         displayname = "5.56x45mm Plasma Cell (20rnd Purple)";
 		ammo = "442_ammo_556_purple";
-        picture="\442_weapons\ammo\data\ui\DC15a_mag_ui_purple.paa";
+        picture="\442_weapons\ammo\data\ui\DC15a_mag_ui_purple_ca.paa";
     };
     class 442_556_500rnd_purple_mag: 442_556_500rnd_blue_mag
     {

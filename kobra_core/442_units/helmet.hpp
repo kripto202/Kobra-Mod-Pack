@@ -239,6 +239,7 @@ class k_desert_Helmet: k_desert_helmet_base
     scope = 2;
     scopecurator = 2;
     scopearsenal = 2;
+    displayname = "[K] Desert Helmet";
     picture = "\442_units\clones\data\ui\scout_helmet.paa";
     hiddenselectionstextures[] = 
     {
@@ -253,7 +254,7 @@ class k_b1_helmet: k_b1_helmet_base
     scopecurator = 2;
     scopearsenal = 2;
     displayname = "[K] B1 Droid Head";
-    picture = "\SWLB_droids\data\ui\icon_b1_uniform_ca.paa";
+    picture = "\ls_armor_redfor\uniform\cis\ui\icon_b1_uniform_ca.paa";
     hiddenselectionsmaterials[] = 
     {
         "442_units\cis_droids\data\camo1.rvmat"

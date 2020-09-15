@@ -8,6 +8,7 @@ class 442_shotgun_8rnd_blue_mag: 442_mag_base
     mass = 8;
     count = 8;
     initspeed = 400;
+    picture="\442_weapons\ammo\data\ui\DC15a_mag_ui_ca.paa";
 };
 class 442_shotgun_10rnd_blue_mag: 442_shotgun_8rnd_blue_mag
 {
@@ -17,7 +18,7 @@ class 442_shotgun_10rnd_blue_mag: 442_shotgun_8rnd_blue_mag
 };
 class 442_shotgun_20rnd_blue_mag: 442_shotgun_8rnd_blue_mag
 {
-    displayname = "Scatter Shot Plasma Cell (10rnd)";
+    displayname = "Scatter Shot Plasma Cell (20rnd)";
     mass = 20;
     count = 20;
 };

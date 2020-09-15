@@ -1,20 +1,20 @@
-soundEngineOnInt[] = {"442_hmp\sounds\hmp_start.wss", 0.794328, 1};
-soundEngineOnExt[] = {"442_hmp\sounds\hmp_start.wss", 0.794328, 1, 600};
-soundEngineOffInt[] = {"442_hmp\sounds\hmp_end.wss", 0.794328, 1};
-soundEngineOffExt[] = {"442_hmp\sounds\hmp_end.wss", 0.794328, 1, 600};
+soundEngineOnInt[] = {"442_a_vehicle\hmp\sounds\hmp_start.wss", 0.794328, 1};
+soundEngineOnExt[] = {"442_a_vehicle\hmp\sounds\hmp_start.wss", 0.794328, 1, 600};
+soundEngineOffInt[] = {"442_a_vehicle\hmp\sounds\hmp_end.wss", 0.794328, 1};
+soundEngineOffExt[] = {"442_a_vehicle\hmp\sounds\hmp_end.wss", 0.794328, 1, 600};
 soundLocked[] = {"442_laat_2\sounds\laat_lock_on_beep.wss", 1, 1};
 soundIncommingMissile[] = {"442_laat_2\sounds\laat_lock_on_alert_beep.wss", 0.316228, 1};
 class sounds
 {
 	class EngineInt
 	{
-		sound[] = {"442_hmp\sounds\hmp_engine_1.wss", 1.25893, 1};
+		sound[] = {"442_a_vehicle\hmp\sounds\hmp_engine_1.wss", 1.25893, 1};
 		frequency = "rotorSpeed*(1+rotorThrust/6)*0.8";
 		volume = "2 * (1-camPos)*(rotorSpeed factor[0.4,1])";
 	};
 	class EngineExt
 	{
-		sound[] = {"442_hmp\sounds\hmp_engine_1.wss", 1.25893, 1, 600};
+		sound[] = {"442_a_vehicle\hmp\sounds\hmp_engine_2.wss", 1.25893, 1, 600};
 		frequency = "rotorSpeed*(1+rotorThrust/6)*0.8";
 		volume = "camPos*((rotorSpeed-0.72)*4)";
 	};

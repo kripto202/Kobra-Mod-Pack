@@ -34,7 +34,7 @@
 			"k_swla_unit_b1_e5"
 		};
 		icon = "442_a_vehicle\hmp\data\ui\hmp_icon.paa";
-		editorpreview = "442_hmp\data\ui\hmp_preview.jpg";
+		editorpreview = "442_a_vehicle\hmp\data\ui\hmp_preview.jpg";
 		picture = "";
 		availableForSupportTypes[] = {"CAS_Heli", "Drop", "Transport"};
 		cost = 2000000;
@@ -711,14 +711,16 @@
 				{
 					class PylonLeft1
 					{
-						attachment = "PylonRack_Missile_AMRAAM_D_x1";
+						attachment = "PylonMissile_Missile_BIM9X_x1";
 						priority = 5;
 						hardpoints[] = 
 						{
-							"SCALPEL_1RND", 
+							"B_BIM9X_RAIL",
+							"B_BIM9X_DUAL_RAIL",
+							"SCALPEL_1RND",
 							"B_ASRAAM",
-							"B_AMRAAM_D_DUAL_RAIL", 
-							"B_SDB_QUAD_RAIL", 
+							"B_AMRAAM_D_DUAL_RAIL",
+							"B_SDB_QUAD_RAIL",
 							"B_GBU12",
 							"B_AGM65_RAIL"
 						};
@@ -741,7 +743,13 @@
 					class Default
 					{
 						displayName = "Default";
-						attachment[] = {"PylonMissile_1Rnd_AAA_missiles", "PylonMissile_1Rnd_AAA_missiles", "PylonRack_12Rnd_PG_missiles", "PylonRack_12Rnd_PG_missiles"};
+						attachment[] = 
+						{
+							"PylonMissile_1Rnd_AAA_missiles", 
+							"PylonMissile_1Rnd_AAA_missiles", 
+							"PylonRack_12Rnd_PG_missiles",
+							"PylonRack_12Rnd_PG_missiles"
+						};
 					};
 					class AT
 					{

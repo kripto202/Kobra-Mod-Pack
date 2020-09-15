@@ -5,8 +5,8 @@
 		model="442_weapons\clones\dc15a\dc15a.p3d";
 		magazines[] =
 		{
-			"442_762_20rnd_blue_mag",
 			"442_762_30rnd_blue_mag",
+			"442_762_20rnd_blue_mag",
 			"442_762_60rnd_blue_mag",
 			"442_762_100rnd_blue_mag",
 
@@ -381,8 +381,8 @@
 		model="442_weapons\clones\dc15s\dc15s.p3d";
 		magazines[]=
 		{
-			"442_556_20rnd_blue_mag",
 			"442_556_30rnd_blue_mag",
+			"442_556_20rnd_blue_mag",
 			"442_556_60rnd_blue_mag",
 			"442_556_100rnd_blue_mag",
 
@@ -2073,12 +2073,12 @@
 		model="442_weapons\clones\z6\z6.p3d";
 		magazines[]=
 		{
+			"442_556_200rnd_blue_mag",
 			"442_556_20rnd_blue_mag",
 			"442_556_30rnd_blue_mag",
 			"442_556_60rnd_blue_mag",
 			"442_556_100rnd_blue_mag",
 			"442_556_150rnd_blue_mag",
-			"442_556_200rnd_blue_mag",
 			"442_556_500rnd_blue_mag",
 
 			"442_556_20rnd_red_mag",
@@ -2345,7 +2345,7 @@
 		recoil="442_recoil";
 		aiDispersionCoefY=4;
 		aiDispersionCoefX=4;
-		class animationsources: animationsources
+		class animationsources
 		{
 			class gatling
 			{
@@ -2363,9 +2363,9 @@
 		};
 		magazines[]=
 		{
+			"442_556_200rnd_red_mag",
 			"442_556_100rnd_red_mag",
 			"442_556_150rnd_red_mag",
-			"442_556_200rnd_red_mag",
 			"442_556_500rnd_red_mag"
 		};
 	};

@@ -33,13 +33,11 @@
 			mass=40;
 		};
 	};
-	class k_b1_uniform_base: SWLB_b1_uniform
+	class k_b1_uniform_base: ls_b1_base
 	{
 		author = "KOBRA Mod Team";
 		scope = 0;
 		displayname = "b1 uniform";
-		picture="\SWLB_droids\data\ui\icon_b1_uniform_ca.paa";
-		model="\SWLB_groundholders\SWLB_b1_uniform_gh.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";

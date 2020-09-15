@@ -1209,10 +1209,12 @@
 				{
 					class PylonLeft1
 					{
-						attachment="PylonRack_Missile_AMRAAM_D_x1";
+						attachment="PylonMissile_Missile_BIM9X_x1";
 						priority=5;
 						hardpoints[]=
 						{
+							"B_BIM9X_RAIL",
+							"B_BIM9X_DUAL_RAIL",
 							"SCALPEL_1RND",
 							"B_ASRAAM",
 							"DAR",
@@ -1227,10 +1229,12 @@
 					};
 					class PylonLeft2: PylonLeft1
 					{
-						attachment="PylonRack_Missile_AMRAAM_D_x1";
+						attachment="PylonMissile_Missile_BIM9X_x1";
 						priority=4;
 						hardpoints[]=
 						{
+							"B_BIM9X_RAIL",
+							"B_BIM9X_DUAL_RAIL",
 							"SCALPEL_1RND",
 							"B_ASRAAM",
 							"DAR",
@@ -1244,10 +1248,12 @@
 					};
 					class PylonLeft3: PylonLeft1
 					{
-						attachment="PylonRack_Missile_AMRAAM_D_x1";
+						attachment="PylonMissile_Missile_BIM9X_x1";
 						priority=3;
 						hardpoints[]=
 						{
+							"B_BIM9X_RAIL",
+							"B_BIM9X_DUAL_RAIL",
 							"SCALPEL_1RND",
 							"B_ASRAAM",
 							"DAR",

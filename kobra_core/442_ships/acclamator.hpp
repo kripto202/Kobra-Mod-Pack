@@ -1,4 +1,4 @@
-class 442_acclamator: House_F
+	class 442_acclamator: House_F
 	{
 		scope=2;
 		scopecurator=2;

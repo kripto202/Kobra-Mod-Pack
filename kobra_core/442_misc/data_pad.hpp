@@ -200,7 +200,7 @@
 		hiddenselectionstextures[] = 
 		{
 			"442_misc\data_pad\data\camo1_co.paa",
-			"442_misc\data_pad\data\screen_1.paa"
+			"442_misc\data_pad\data\screan_1.paa"
 		};
 	};
 	class 442_data_pad_eod: 442_data_pad
@@ -209,7 +209,7 @@
 		hiddenselectionstextures[] = 
 		{
 			"442_misc\data_pad\data\camo1_co.paa",
-			"442_misc\data_pad\data\screen_2.paa"
+			"442_misc\data_pad\data\screan_2.paa"
 		};
 	};
 	
