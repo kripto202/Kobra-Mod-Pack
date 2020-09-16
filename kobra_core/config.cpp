@@ -1157,6 +1157,7 @@ class cfgvehicles
 	#include "442_misc\data_pad.hpp"
 	#include "442_misc\t_series.hpp"
 	#include "442_misc\escape_pod.hpp"
+	#include "442_misc\personal_locker.hpp"
 
 	#include "442_structures\hallway.hpp"
 	#include "442_structures\landing_pad.hpp"
