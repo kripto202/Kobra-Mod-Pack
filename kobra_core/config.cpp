@@ -558,7 +558,13 @@ class CfgPatches
 			"k_headgear_b1_cmd",
 			"k_headgear_b1_woodland",
 			"k_headgear_b1_desert",
-			"k_headgear_b1_winter"
+			"k_headgear_b1_winter",
+
+			"k_personal_locker",
+			"212fc_personal_locker",
+			"9_personal_locker",
+			"44_personal_locker",
+			"44_personal_locker_kripto"
 		};
 		weapons[]=
 		{

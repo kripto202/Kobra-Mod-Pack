@@ -1,4 +1,4 @@
-    class 442_personal_locker: House_F
+    class k_personal_locker: House_F
 	{
 		scope=2;
 		scopecurator=2;
@@ -81,12 +81,59 @@
         };
 	};
 
-    class 442_personal_locker_kripto: 442_personal_locker
+    class bl_personal_locker: k_personal_locker
+    {
+        displayname = "Personal Locker [Black Legion]";
+        hiddenselectionstextures[] = 
+        {
+            "442_misc\personal_locker\data\bl_body_co.paa",
+			"442_misc\personal_locker\data\screen_co.paa",
+			"442_misc\personal_locker\data\picture1_co.paa"
+        };
+    };
+    class 212fc_personal_locker: k_personal_locker
+    {
+        displayname = "Personal Locker [212th FC]";
+        hiddenselectionstextures[] = 
+        {
+            "442_misc\personal_locker\data\212fc_body_co.paa",
+			"442_misc\personal_locker\data\screen_co.paa",
+			"442_misc\personal_locker\data\picture1_co.paa"
+        };
+    };
+    class 9_personal_locker: k_personal_locker
+    {
+        displayname = "Personal Locker [9th AC]";
+        hiddenselectionstextures[] = 
+        {
+            "442_misc\personal_locker\data\9_body_co.paa",
+			"442_misc\personal_locker\data\screen_co.paa",
+			"442_misc\personal_locker\data\picture1_co.paa"
+        };
+        multistructureparts[] = 
+        {
+            {
+                "k_headgear_9_p2_shiny",
+                "helmet"
+            }
+        };
+    };
+    class 44_personal_locker: k_personal_locker
+    {
+        displayname = "Personal Locker [44th AB]";
+        hiddenselectionstextures[] = 
+        {
+            "442_misc\personal_locker\data\44_body_co.paa",
+			"442_misc\personal_locker\data\screen_co.paa",
+			"442_misc\personal_locker\data\picture1_co.paa"
+        };
+    };
+    class 44_personal_locker_kripto: k_personal_locker
     {
         displayname = "Personal Locker (Kripto)";
         hiddenselectionstextures[]=
 		{
-			"442_misc\personal_locker\data\body_co.paa",
+			"442_misc\personal_locker\data\44_body_co.paa",
 			"442_misc\personal_locker\data\screen_kripto_co.paa",
 			"442_misc\personal_locker\data\picture1_co.paa"
 		};
