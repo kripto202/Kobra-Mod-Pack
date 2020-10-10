@@ -180,6 +180,56 @@
 			};
 		};
 	};
+	class 442_aat_red: 442_aat
+	{
+		displayname = "AAT (Red)";
+		hiddenselectionstextures[] = 
+		{
+			"442_g_vehicle\aat\data\body1_red_co.paa",
+			"442_g_vehicle\aat\data\body2_red_co.paa",
+			"442_g_vehicle\aat\data\gun_red_co.paa"
+		};
+	};
+	class 442_aat_black: 442_aat
+	{
+		displayname = "AAT (Black)";
+		hiddenselectionstextures[] = 
+		{
+			"442_g_vehicle\aat\data\body1_black_co.paa",
+			"442_g_vehicle\aat\data\body2_black_co.paa",
+			"442_g_vehicle\aat\data\gun_black_co.paa"
+		};
+	};
+	class 442_aat_green: 442_aat
+	{
+		displayname = "AAT (Green)";
+		hiddenselectionstextures[] = 
+		{
+			"442_g_vehicle\aat\data\body1_green_co.paa",
+			"442_g_vehicle\aat\data\body2_green_co.paa",
+			"442_g_vehicle\aat\data\gun_green_co.paa"
+		};
+	};
+	class 442_aat_blue: 442_aat
+	{
+		displayname = "AAT (Blue)";
+		hiddenselectionstextures[] = 
+		{
+			"442_g_vehicle\aat\data\body1_blue_co.paa",
+			"442_g_vehicle\aat\data\body2_blue_co.paa",
+			"442_g_vehicle\aat\data\gun_blue_co.paa"
+		};
+	};
+	class 442_aat_white: 442_aat
+	{
+		displayname = "AAT (Winter)";
+		hiddenselectionstextures[] = 
+		{
+			"442_g_vehicle\aat\data\body1_base_co.paa",
+			"442_g_vehicle\aat\data\body2_base_co.paa",
+			"442_g_vehicle\aat\data\gun_base_co.paa"
+		};
+	};
 
 	class 442_aat_wreck: Wreck_base_F
 	{

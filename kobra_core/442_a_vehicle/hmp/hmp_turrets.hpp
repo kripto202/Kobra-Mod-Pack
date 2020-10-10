@@ -144,7 +144,7 @@ class Turrets: Turrets
 		};
 		gunnerOpticsEffect[] = {"TankCommanderOptics1", "BWTV"};
 		primaryObserver = 0;
-		gunnerType="SWLB_b1_pilot_base";
+		gunnerType="k_swla_unit_b1_e5";
 		primaryGunner = 1;
 		primary = 1;
 		usePip = 1;

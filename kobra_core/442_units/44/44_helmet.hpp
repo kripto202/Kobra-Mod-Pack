@@ -97,11 +97,13 @@
 		hiddenselectionstextures[]=
 		{
 			"442_units\clones\44\data\helmets\44_arf_helmet_co.paa",
+			"",
 			"442_units\clones\data\helmet\arf_helmet\visor_co.paa"
 		};
 		hiddenselectionsmaterials[] = 
 		{
 			"442_units\clones\data\helmet\arf_helmet\camo1.rvmat",
+			"",
 			"442_units\clones\44\data\helmets\arf_helmet_visor.rvmat"
 		};
 	};
@@ -257,6 +259,85 @@
 			"442_units\clones\44\data\helmets\scout_helmet_visor.rvmat"
 		};
 	};
+	class 44_hunter_helmet: k_hunter_helmet_base
+	{
+		displayname = "[44] Hunter Helmet";
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
+		hiddenselectionstextures[] = 
+		{
+			"442_units\clones\44\data\helmets\44_hunter_helmet_co.paa",
+			"442_units\clones\data\helmet\hunter_helmet\visor_co.paa"
+		};
+		hiddenselectionsmaterials[] = 
+		{
+			"442_units\clones\data\helmet\hunter_helmet\camo1.rvmat",
+			"442_units\clones\44\data\helmets\hunter_helmet_visor.rvmat"
+		};
+	};
+	class 44_hunter_helmet: k_hunter_helmet_base
+	{
+		displayname = "[44] Hunter Helmet";
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
+		hiddenselectionstextures[] = 
+		{
+			"442_units\clones\44\data\helmets\44_hunter_helmet_co.paa",
+			"442_units\clones\data\helmet\hunter_helmet\visor_co.paa"
+		};
+		hiddenselectionsmaterials[] = 
+		{
+			"442_units\clones\data\helmet\hunter_helmet\camo1.rvmat",
+			"442_units\clones\44\data\helmets\hunter_helmet_visor.rvmat"
+		};
+	};
+	class 44_crosshair_helmet: k_crosshair_helmet_base
+	{
+		displayname = "[44] Crosshair Helmet";
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
+		hiddenselectionstextures[] = 
+		{
+			"442_units\clones\44\data\helmets\44_crosshair_helmet_co.paa",
+			"442_units\clones\data\helmet\crosshair_helmet\visor_co.paa"
+		};
+		hiddenselectionsmaterials[] = 
+		{
+			"442_units\clones\data\helmet\crosshair_helmet\camo1.rvmat",
+			"442_units\clones\44\data\helmets\crosshair_helmet_visor.rvmat"
+		};
+	};
+	class 44_wrecker_helmet: k_wrecker_helmet_base
+	{
+		displayname = "[44] Wrecker Helmet";
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
+		hiddenselectionstextures[] = 
+		{
+			"442_units\clones\44\data\helmets\44_wrecker_helmet_co.paa",
+			"442_units\clones\data\helmet\wrecker_helmet\visor_co.paa"
+		};
+		hiddenselectionsmaterials[] = 
+		{
+			"442_units\clones\data\helmet\wrecker_helmet\camo1.rvmat",
+			"442_units\clones\44\data\helmets\wrecker_helmet_visor.rvmat"
+		};
+	};
+	class 44_tech_helmet: k_tech_helmet_base
+	{
+		displayname = "[44] Tech Helmet";
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
+		hiddenselectionstextures[] = 
+		{
+			"442_units\clones\44\data\helmets\44_tech_helmet_co.paa"
+		};
+	};
 
 ///custom
 	class 44_scout_helmet_dukas: 44_scout_helmet
@@ -266,15 +347,6 @@
 		{
 			"442_units\clones\44\data\custom\dukas\44_scout_helmet_co.paa",
 			"442_units\clones\data\helmet\scout_helmet\visor_co.paa",
-		};
-	};
-	class 44_barc_helmet_fox: 44_barc_helmet
-	{
-		displayname = "[44] Barc Helmet (Fox)";
-		hiddenselectionstextures[] =
-		{
-			"442_units\clones\44\data\custom\fox\44_barc_helmet_co.paa",
-			"442_units\clones\data\helmet\barc_helmet\visor_co.paa",
 		};
 	};
 	class 44_p2_helmet_Hollen: 44_p2_helmet
@@ -301,6 +373,7 @@
 		hiddenselectionstextures[] =
 		{
 			"442_units\clones\44\data\custom\monty\44_arf_helmet_co.paa",
+			"",
 			"442_units\clones\data\helmet\arf_helmet\visor_co.paa",
 		};
 	};

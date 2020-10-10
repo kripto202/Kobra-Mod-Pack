@@ -3,7 +3,7 @@
 		scope=1;
 		scopeCurator=1;
 		scopeArsenal=1;
-		model="442_units\clones\base_body.p3d";
+		model = "ls_armor_bluefor\uniform\gar\phase2\ls_gar_phase2_uniform.p3d";
 		editorPreview="";
 		//picture = "442_units\clones\data\ui\body.paa"; //this needs to be changed
 		icon = "kobra_core\442_icons\data\icon_rifleman.paa";
@@ -34,6 +34,14 @@
 			"442_units\clones\data\uniform\uniform\camo2_co.paa",
 			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
 		};
+
+		hiddenselectionsMaterials[]=
+		{
+			"442_units\clones\data\uniform\uniform\camo1.rvmat",
+			"442_units\clones\data\uniform\uniform\camo2.rvmat",
+			"442_units\clones\data\uniform\mc_uniform\undersuit.rvmat",
+		};
+
 		linkedItems[]={};
 		RespawnlinkedItems[]={};
 		weapons[]=
@@ -58,7 +66,7 @@
 	};
 	class k_swla_unit_mc_base: k_swla_unit_base
 	{
-		model="442_units\clones\base_body_mc.p3d";
+		model = "ls_armor_bluefor\uniform\gar\marshalCommander\ls_gar_marshalCommander_uniform.p3d";
 		side = 1;
 		uniformclass="k_swla_mc_uniform";
 		//picture = "442_units\clones\data\ui\body_mc.paa"; //this needs to be changed
@@ -67,15 +75,19 @@
 			"camo1",
 			"camo2",
 			"undersuit",
-			"rank",
 			"insignia"
 		};
 		hiddenselectionsTextures[]=
 		{
 			"442_units\clones\data\uniform\mc_uniform\camo1_co.paa",
 			"442_units\clones\data\uniform\mc_uniform\camo2_co.paa",
-			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
-			"442_units\clones\data\uniform\mc_uniform\rank_co.paa",
+			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa"
+		};
+		hiddenselectionsMaterials[]=
+		{
+			"442_units\clones\data\uniform\mc_uniform\camo1.rvmat",
+			"442_units\clones\data\uniform\mc_uniform\camo2.rvmat",
+			"442_units\clones\data\uniform\mc_uniform\undersuit.rvmat"
 		};
 	};
 
@@ -175,6 +187,7 @@
 		scope = 2;
 		displayname = "Trooper (Barracks)";
 		editorpreview = "\SWLB_clones\data\ui\editorPreviews\SWLB_clone_base_P2.jpg";
+		icon = "kobra_core\442_icons\data\icon_rifleman.paa";
 		identityTypes[] = {"LanguageENG_F", "Head_NATO"};
 		role = "Rifleman";
 		uniformclass = "k_barracks_uniform";

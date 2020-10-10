@@ -5,7 +5,7 @@
 		scopecurator=2;
 		scopearsenal=2;
 		displayname="MTT";
-		model="\442_g_vehicle\mtt\mtt_2.p3d";
+		model="\ls_vehicles_ground\mtt\ls_ground_mtt.p3d";
 		picture="";
 		icon="\A3\armor_f_gamma\MBT_02\Data\UI\map_MBT_02_ca.paa";
 		side=0;
@@ -87,6 +87,13 @@
 			"442_g_vehicle\mtt\data\body2_co.paa",
 			"442_g_vehicle\mtt\data\door_co.paa"
 		};
+		hiddenselectionsmaterials[]=
+		{
+			"442_g_vehicle\mtt\data\body1.rvmat",
+			"442_g_vehicle\mtt\data\body2.rvmat",
+			"442_g_vehicle\mtt\data\door.rvmat"
+		};
+
 		#include "mtt_physx.hpp"
 		cost=1500000;
 		#include "mtt_armor.hpp"
@@ -124,7 +131,7 @@
 		scopecurator = 2;
 		icon="iconObject_1x2";
 		displayname = "MTT (Wrecked)";
-		model = "442_g_vehicle\mtt\mtt_wreck.p3d";
+		model="\ls_vehicles_ground\mtt\ls_ground_mtt_wreck.p3d";
 		editorCategory = "kobra";
 		editorSubcategory = "442_wrecks";
 	};

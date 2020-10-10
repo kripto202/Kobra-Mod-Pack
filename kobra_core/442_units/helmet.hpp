@@ -69,6 +69,7 @@ class k_p1_arf_helmet: k_p1_arf_helmet_base
     hiddenselectionstextures[] =
     {
         "442_units\clones\data\helmet\arf_helmet\camo1_co.paa",
+        "",
         "442_units\clones\data\helmet\arf_helmet\visor_co.paa"  
     };
 };
@@ -211,7 +212,7 @@ class k_wrecker_Helmet: k_wrecker_helmet_base
         "442_units\clones\data\helmet\wrecker_helmet\visor_co.paa",
     };
 };
-class k_tech_Helmet: k_teck_helmet_base
+class k_tech_Helmet: k_tech_helmet_base
 {
     scope = 2;
     scopecurator = 2;

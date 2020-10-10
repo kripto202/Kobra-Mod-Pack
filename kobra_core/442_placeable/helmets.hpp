@@ -864,6 +864,54 @@
             };
         };
     };
+    class k_headgear_44_hunter: k_headgear_p2
+    {
+        displayname = "[44] Hunter Helmet";
+        class transportItems
+        {
+            class helmet
+            {
+                name = "44_hunter_helmet";
+                count = 1;
+            };
+        };
+    };
+    class k_headgear_44_crosshair: k_headgear_p2
+    {
+        displayname = "[44] Crosshair Helmet";
+        class transportItems
+        {
+            class helmet
+            {
+                name = "44_crosshair_helmet";
+                count = 1;
+            };
+        };
+    };
+    class k_headgear_44_wrecker: k_headgear_p2
+    {
+        displayname = "[44] Wrecker Helmet";
+        class transportItems
+        {
+            class helmet
+            {
+                name = "44_wrecker_helmet";
+                count = 1;
+            };
+        };
+    };
+    class k_headgear_44_tech: k_headgear_p2
+    {
+        displayname = "[44] Tech Helmet";
+        class transportItems
+        {
+            class helmet
+            {
+                name = "44_tech_helmet";
+                count = 1;
+            };
+        };
+    };
 	class k_headgear_44_rex: k_headgear_p2
     {
         displayname = "[44] Rex Helmet";
@@ -896,18 +944,6 @@
             class helmet
             {
                 name = "44_scout_dukas_helmet";
-                count = 1;
-            };
-        };
-    };
-	class k_headgear_44_fox: k_headgear_p2
-    {
-        displayname = "[44] BARC Helmet (Fox)";
-        class transportItems
-        {
-            class helmet
-            {
-                name = "44_barc_helmet_fox";
                 count = 1;
             };
         };
@@ -950,7 +986,7 @@
     };
 
 	////442nd SB////
-	class _headgear_442_p2_1: k_headgear_p2
+	class k_headgear_442_p2_1: k_headgear_p2
     {
         displayname = "[442] P2 Helmet 1";
         class transportItems

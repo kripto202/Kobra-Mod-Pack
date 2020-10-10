@@ -1,6 +1,6 @@
 class k_vest_base: V_PlateCarrier1_rgr
 {
-    author = "kripto202";
+    author = "Kobra Mod Team, Clock, and Dezi";
     displayname = "vest base";
     scope = 0;
     scopecurator = 0;
@@ -629,15 +629,5 @@ class k_vest_specialist: k_vest_base
         containerclass = "Supply150";
         mass = 40;
         uniformmodel = "442_equipment\vests\clone_specialist_armor.p3d";
-    };
-};
-
-class 9_vest_arc_foe: k_vest_arc_1
-{
-    displayname = "[9] Arc Armor (Foe)";
-    hiddenselectionstextures[] = 
-    {
-        "442_equipment\vests\data\442_vest_1_b.paa",
-        "442_units\clones\9\data\vests\foe_arc_vest.paa"
     };
 };

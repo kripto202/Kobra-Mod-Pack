@@ -38,16 +38,23 @@
 	class k_p2_helmet_base: k_helmet_base
 	{
 		displayname = "[K] P2 Helmet";
-		picture="\SWLB_clones\data\ui\icon_SWLB_clone_helmet_ca.paa";
+		picture = "ls_armor_bluefor\helmet\_ui\icon_gar_phase2_helmet_ca.paa";
 		hiddenselections[] = 
 		{
 			"camo1",
 			"visor"
 		};
-		model = "442_units\clones\p2_helmet.p3d"; //needs the new model
+
+		hiddenselectionsmaterials[] = 
+		{
+			"442_units\clones\data\helmet\p2_helmet\camo1.rvmat",
+			"442_units\clones\data\helmet\p2_helmet\visor.rvmat"
+		};
+
+		model="ls_armor_bluefor\helmet\gar\phase2\ls_gar_phase2_helmet.p3d";
 		class Iteminfo: Iteminfo
 		{
-			uniformModel = "442_units\clones\p2_helmet.p3d"; //needs the new model
+			uniformModel="ls_armor_bluefor\helmet\gar\phase2\ls_gar_phase2_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"camo1",
@@ -60,16 +67,24 @@
 		displayname = "[K] P1.5 Helmet";
 		picture = "";
 		subItems[] = {};
-		model = "442_units\clones\p15_helmet.p3d";
+		model="\ls_armor_bluefor\helmet\gar\arc\ls_gar_arc_helmet.p3d";
 		hiddenselections[] = 
 		{
 			"camo1",
 			"visor",
 			"illum"
 		};
+
+		hiddenselectionsmaterials[] = 
+		{
+			"442_units\clones\data\helmet\p15_helmet\camo1.rvmat",
+			"442_units\clones\data\helmet\p15_helmet\visor.rvmat",
+			"442_units\clones\data\helmet\p15_helmet\illum.rvmat"
+		};
+
 		class Iteminfo: Iteminfo
 		{
-			UniformModel = "442_units\clones\p15_helmet.p3d";
+			uniformModel="\ls_armor_bluefor\helmet\gar\arc\ls_gar_arc_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"camo1",
@@ -86,15 +101,20 @@
 		{
 			"k_nvg"
 		};
-		model = "442_units\clones\ab_helmet.p3d";
+		model="\ls_armor_bluefor\helmet\gar\airborne\ls_gar_airborne_helmet.p3d";
 		hiddenselections[] = 
 		{
 			"camo1",
 			"visor"
 		};
+		hiddenselectionsmaterials[] = 
+		{
+			"442_units\clones\data\helmet\ab_helmet\camo1.rvmat",
+			"442_units\clones\data\helmet\ab_helmet\visor.rvmat"
+		};
 		class ItemInfo: ItemInfo
 		{
-			uniformModel = "442_units\clones\ab_helmet.p3d";
+			uniformModel="\ls_armor_bluefor\helmet\gar\airborne\ls_gar_airborne_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"camo1",
@@ -112,15 +132,22 @@
 			"k_nvg"
 		};
 		picture = "";
-		model = "442_units\clones\pilot_p2_helmet.p3d";
+		model="ls_armor_bluefor\helmet\gar\phase2Pilot\ls_gar_phase2Pilot_helmet.p3d";
 		hiddenselections[] = 
 		{
 			"camo1",
 			"visor"
 		};
+
+		hiddenselectionsmaterials[] = 
+		{
+			"442_units\clones\data\helmet\p2_pilot_helmet\camo1.rvmat",
+			"442_units\clones\data\helmet\p2_pilot_helmet\visor.rvmat"
+		};
+
 		class ItemInfo: ItemInfo
 		{
-			uniformModel = "442_units\clones\pilot_p2_helmet.p3d";
+			uniformmodel="ls_armor_bluefor\helmet\gar\phase2Pilot\ls_gar_phase2Pilot_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"camo1",
@@ -133,15 +160,22 @@
 		displayname = "[K] Barc Helmet";
 		picture = "";
 		subItems[] = {};
-		model = "442_units\clones\barc_helmet.p3d";
+		model="\ls_armor_bluefor\helmet\gar\barc\ls_gar_barc_helmet.p3d";
 		hiddenselections[] = 
 		{
 			"camo1",
 			"visor"
 		};
+
+		hiddenselectionsmaterials[] = 
+		{
+			"442_units\clones\data\helmet\barc_helmet\camo1.rvmat",
+			"442_units\clones\data\helmet\barc_helmet\visor.rvmat"
+		};
+
 		class ItemInfo: ItemInfo
 		{
-			uniformModel = "442_units\clones\barc_helmet.p3d";
+			uniformModel="\ls_armor_bluefor\helmet\gar\barc\ls_gar_barc_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"camo1",
@@ -156,18 +190,28 @@
 		subitems[] = {
 			"k_nvg_ti"
 		};
-		model = "442_units\clones\arf_p1_helmet.p3d";
+		model="\ls_armor_bluefor\helmet\gar\arf\ls_gar_arf_helmet.p3d";
 		hiddenselections[] = 
 		{
 			"camo1",
+			"camo2",
 			"visor"
 		};
+
+		hiddenselectionsmaterials[] = 
+		{
+			"442_units\clones\data\helmet\arf_helmet\camo1.rvmat",
+			"",
+			"442_units\clones\data\helmet\arf_helmet\visor.rvmat"
+		};
+		
 		class Iteminfo: ItemInfo
 		{
-			uniformModel = "442_units\clones\arf_p1_helmet.p3d";
+			uniformModel="\ls_armor_bluefor\helmet\gar\arf\ls_gar_arf_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"camo1",
+				"camo2",
 				"visor"
 			};
 		};
@@ -175,22 +219,11 @@
 	class k_p2_arf_helmet_base: k_p1_arf_helmet_base
 	{
 		displayname = "[K] P2 ARF Helmet";
-		model = "442_units\clones\arf_p2_helmet.p3d";
 		hiddenselections[] = 
 		{
 			"camo1",
 			"camo2",
 			"visor"
-		};
-		class ItemInfo: ItemInfo
-		{
-			uniformModel = "442_units\clones\arf_p2_helmet.p3d";
-			hiddenselections[] = 
-			{
-				"camo1",
-				"camo2",
-				"visor"
-			};
 		};
 	};
 	class k_eng_helmet_base: k_helmet_base
@@ -200,16 +233,24 @@
 		subItems[] = {
 			"k_nvg"
 		};
-		model = "442_units\clones\eng_helmet.p3d";
+		model = "\ls_armor_bluefor\helmet\gar\engineer\ls_gar_engineer_helmet.p3d";
 		hiddenselections[] = 
 		{
 			"camo1",
 			"illum",
 			"visor"
 		};
+
+		hiddenselectionsmaterials[] = 
+		{
+			"442_units\clones\data\helmet\eng_helmet\camo1.rvmat",
+			"442_units\clones\data\helmet\eng_helmet\illum.rvmat",
+			"442_units\clones\data\helmet\eng_helmet\visor.rvmat"
+		};
+
 		class ItemInfo: ItemInfo
 		{
-			uniformModel = "442_units\clones\eng_helmet.p3d";
+			uniformModel = "\ls_armor_bluefor\helmet\gar\engineer\ls_gar_engineer_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"camo1",
@@ -223,16 +264,24 @@
 		displayname = "[K] P1 Helmet";
 		picture = "";
 		subItems[] = {};
-		model = "442_units\clones\p1_helmet.p3d";
+		model="\ls_armor_bluefor\helmet\gar\phase1\ls_gar_phase1_helmet.p3d";
 		hiddenselections[] = 
 		{
 			"camo1",
 			"visor",
 			"illum"
 		};
+
+		hiddenselectionsmaterials[] = 
+		{
+			"442_units\clones\data\helmet\p1_helmet\camo1.rvmat",
+			"442_units\clones\data\helmet\p1_helmet\visor.rvmat",
+			"442_units\clones\data\helmet\p1_helmet\illum.rvmat"
+		};
+
 		class ItemInfo: ItemInfo
 		{
-			uniformModel = "442_units\clones\p1_helmet.p3d";
+			uniformModel="\ls_armor_bluefor\helmet\gar\phase1\ls_gar_phase1_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"camo1",
@@ -249,16 +298,23 @@
 		{
 			"k_nvg"
 		};
-		model = "442_units\clones\pilot_p1_helmet.p3d";
+		model="ls_armor_bluefor\helmet\gar\phase1Pilot\ls_gar_phase1Pilot_helmet.p3d";
 		hiddenselections[] = 
 		{
 			"camo1",
 			"camo2",
 			"visor"
 		};
+		hiddenselectionsmaterials[] = 
+		{
+			"442_units\clones\data\helmet\p1_pilot_helmet\camo1.rvmat",
+			"442_units\clones\data\helmet\p1_pilot_helmet\camo2.rvmat",
+			"442_units\clones\data\helmet\p1_helmet\visor.rvmat"
+		};
+
 		class ItemInfo: ItemInfo
 		{
-			uniformModel = "442_units\clones\pilot_p1_helmet.p3d";
+			uniformModel="ls_armor_bluefor\helmet\gar\phase1Pilot\ls_gar_phase1Pilot_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"camo1",
@@ -275,15 +331,22 @@
 		{
 			"k_nvg"
 		};
-		model = "442_units\clones\spec_p1_helmet.p3d";
+		model="ls_armor_bluefor\helmet\sob\phase1SpecOp\ls_sob_phase1SpecOp_helmet.p3d";
 		hiddenselections[] = 
 		{
 			"camo1",
 			"visor"
 		};
+
+		hiddenselectionsmaterials[] = 
+		{
+			"442_units\clones\data\helmet\p1_spec_helmet\camo1.rvmat",
+			"442_units\clones\data\helmet\p1_spec_helmet\visor.rvmat"
+		};
+
 		class ItemInfo: ItemInfo
 		{
-			uniformModel = "442_units\clones\spec_p1_helmet.p3d";
+			uniformModel="ls_armor_bluefor\helmet\sob\phase1SpecOp\ls_sob_phase1SpecOp_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"camo1",
@@ -299,15 +362,22 @@
 		{
 			"k_nvg"
 		};
-		model = "442_units\clones\spec_p2_helmet.p3d";
+		model="ls_armor_bluefor\helmet\sob\phase2SpecOp\ls_sob_phase2SpecOp_helmet.p3d";
 		hiddenselections[] = 
 		{
 			"camo1",
 			"visor"
 		};
+
+		hiddenselectionsmaterials[] = 
+		{
+			"442_units\clones\data\helmet\p2_spec_helmet\camo1.rvmat",
+			"442_units\clones\data\helmet\p2_spec_helmet\visor.rvmat"
+		};
+
 		class ItemInfo: ItemInfo
 		{
-			uniformModel = "442_units\clones\spec_p2_helmet.p3d";
+			uniformModel="ls_armor_bluefor\helmet\sob\phase2SpecOp\ls_sob_phase2SpecOp_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"camo1",
@@ -320,15 +390,22 @@
 		displayname = "[K] Rex Helmet";
 		picture = "";
 		subItems[] = {};
-		model = "442_units\clones\rex_helmet.p3d";
+		model="\ls_armor_bluefor\helmet\gar\rex\ls_gar_rex_helmet.p3d";
 		hiddenselections[] = 
 		{
 			"camo1",
 			"visor"
 		};
+
+		hiddenselectionsmaterials[] = 
+		{
+			"442_units\clones\data\helmet\rex_helmet\camo1.rvmat",
+			"442_units\clones\data\helmet\rex_helmet\visor.rvmat"
+		};
+
 		class ItemInfo: ItemInfo
 		{
-			uniformModel = "442_units\clones\rex_helmet.p3d";
+			uniformModel="\ls_armor_bluefor\helmet\gar\rex\ls_gar_rex_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"camo1",
@@ -433,7 +510,7 @@
 			};
 		};
 	};
-	class k_teck_helmet_base: k_helmet_base
+	class k_tech_helmet_base: k_helmet_base
 	{
 		displayName="[K] Tech Helmet";
 		model="442_units\clones\tech_helmet.p3d";
@@ -468,7 +545,7 @@
 		{
 			"Camo1",
 			"visor"
-		};
+		};		
 		class ItemInfo: ItemInfo
 		{
 			uniformModel="442_units\clones\cadet_helmet.p3d";
@@ -506,19 +583,22 @@
 
 	class k_b1_helmet_base: k_helmet_base
 	{
-		model = "ls_armor_redfor\helmet\b1\ls_cis_b1_head_gh.p3d";
+		model = "ls_armor_redfor\helmet\cis\b1\ls_cis_b1_helmet.p3d";
 		subItems[] = {"k_nvg"};
-		hiddenselectionsmaterials[] = 
-		{
-			"442_units\cis_droids\data\camo1.rvmat"
-		};
+		
 		hiddenselections[] = 
 		{
 			"camo1"
 		};
+
+		hiddenselectionsmaterials[] = 
+		{
+			"442_units\cis_droids\data\camo1.rvmat"
+		};
+
 		class ItemInfo: ItemInfo
 		{
-			uniformModel = "ls_armor_redfor\helmet\b1\ls_cis_b1_head.p3d";
+			uniformModel = "ls_armor_redfor\helmet\cis\b1\ls_cis_b1_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"camo1"
