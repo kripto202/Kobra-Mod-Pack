@@ -1737,7 +1737,6 @@
 		_generalMacro="launch_RPG32_F";
 		scope=2;
 		displayName="RPS-6 Rocket Launcher";
-		//model="SWLW_clones\launchers\rps6\RPS6.p3d";
 		model = "SWLW_clones\launchers\rps6\RPS6.p3d";
 		picture="\SWLW_clones\launchers\rps6\data\ui\RPS6_ui.paa";
 		hiddenselections[] = 
@@ -1748,11 +1747,7 @@
 		{
 			"\442_weapons\clones\rps6\data\kobra_rps6.paa"
 		};
-		handAnim[]=
-		{
-			"OFP2_ManSkeleton",
-			"\442_weapons\anim\rps6\RPS6_handanim.rtm"
-		};
+		handAnim[] = {"OFP2_ManSkeleton","\SWLW_clones\launchers\rps6\anims\RPS6_handanim.rtm"};
 		reloadAction="ReloadRPG";
 		recoil="recoil_empty";
 		maxZeroing=800;
