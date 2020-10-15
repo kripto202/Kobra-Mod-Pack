@@ -2,7 +2,7 @@
     class 442_E5: swlw_e5
 	{
 		scope=2;
-		model="\442_weapons\droids\e5\e5.p3d";
+		//model="\442_weapons\droids\e5\e5.p3d";
 		magazines[]=
 		{
 			"442_65_30rnd_blue_mag",
@@ -221,7 +221,7 @@
     class 442_E5C: swlw_e5c
 	{
 		displayName="E-5C Blaster Repeater";
-		model="\442_weapons\droids\e5c\e5c.p3d";
+		//model="\442_weapons\droids\e5c\e5c.p3d";
 		scope=2;
 		magazines[]=
 		{

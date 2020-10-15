@@ -103,7 +103,7 @@
 		hiddenselectionsmaterials[] = 
 		{
 			"442_units\clones\data\helmet\arf_helmet\camo1.rvmat",
-			"",
+			"442_units\clones\data\helmet\arf_helmet\camo2.rvmat",
 			"442_units\clones\44\data\helmets\arf_helmet_visor.rvmat"
 		};
 	};
@@ -122,8 +122,8 @@
 		};
 		hiddenselectionsmaterials[] = 
 		{
-			"442_units\clones\clones\data\helmet\arf_helmet\camo1.rvmat",
-			"442_units\clones\clones\data\helmet\arf_helmet\camo2.rvmat",
+			"442_units\clones\data\helmet\arf_helmet\camo1.rvmat",
+			"442_units\clones\data\helmet\arf_helmet\camo2.rvmat",
 			"442_units\clones\44\data\helmets\arf_helmet_visor.rvmat"
 		};
 	};
@@ -257,23 +257,6 @@
 		{
 			"442_units\clones\data\helmet\scout_helmet\camo1.rvmat",
 			"442_units\clones\44\data\helmets\scout_helmet_visor.rvmat"
-		};
-	};
-	class 44_hunter_helmet: k_hunter_helmet_base
-	{
-		displayname = "[44] Hunter Helmet";
-		scope = 2;
-		scopecurator = 2;
-		scopearsenal = 2;
-		hiddenselectionstextures[] = 
-		{
-			"442_units\clones\44\data\helmets\44_hunter_helmet_co.paa",
-			"442_units\clones\data\helmet\hunter_helmet\visor_co.paa"
-		};
-		hiddenselectionsmaterials[] = 
-		{
-			"442_units\clones\data\helmet\hunter_helmet\camo1.rvmat",
-			"442_units\clones\44\data\helmets\hunter_helmet_visor.rvmat"
 		};
 	};
 	class 44_hunter_helmet: k_hunter_helmet_base

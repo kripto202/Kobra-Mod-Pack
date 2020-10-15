@@ -207,7 +207,7 @@
 			{
 				name = "ACE_bloodIV_500";
 			};
-			class ACE_salineIV_250: ACE_plasmaIV
+			class ACE_bloodIV_250: ACE_plasmaIV
 			{
 				name = "ACE_bloodIV_250";
 			};

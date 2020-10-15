@@ -2,7 +2,7 @@
     class 442_DC15A: swlw_dc15a
 	{
 		scope=2;
-		model="442_weapons\clones\dc15a\dc15a.p3d";
+		//model="442_weapons\clones\dc15a\dc15a.p3d";
 		magazines[] =
 		{
 			"442_762_30rnd_blue_mag",
@@ -270,13 +270,96 @@
 	};
     class 442_DC15A_ugl: 442_DC15A
 	{
+		magazines[] =
+		{
+			"442_762_30rnd_blue_mag",
+			"442_762_20rnd_blue_mag",
+			"442_762_60rnd_blue_mag",
+			"442_762_100rnd_blue_mag",
+
+			"442_762_20rnd_red_mag",
+			"442_762_30rnd_red_mag",
+			"442_762_60rnd_red_mag",
+			"442_762_100rnd_red_mag",
+
+			"442_762_20rnd_orange_mag",
+			"442_762_30rnd_orange_mag",
+			"442_762_60rnd_orange_mag",
+			"442_762_100rnd_orange_mag",
+
+			"442_762_20rnd_green_mag",
+			"442_762_30rnd_green_mag",
+			"442_762_60rnd_green_mag",
+			"442_762_100rnd_green_mag",
+
+			"442_762_20rnd_pink_mag",
+			"442_762_30rnd_pink_mag",
+			"442_762_60rnd_pink_mag",
+			"442_762_100rnd_pink_mag",
+
+			"442_762_20rnd_purple_mag",
+			"442_762_30rnd_purple_mag",
+			"442_762_60rnd_purple_mag",
+			"442_762_100rnd_purple_mag",
+
+			"442_762_20rnd_black_mag",
+			"442_762_30rnd_black_mag",
+			"442_762_60rnd_black_mag",
+			"442_762_100rnd_black_mag",
+
+			"442_762_20rnd_yellow_mag",
+			"442_762_30rnd_yellow_mag",
+			"442_762_60rnd_yellow_mag",
+			"442_762_100rnd_yellow_mag",
+
+			"442_762_20rnd_blue_b_mag",
+			"442_762_30rnd_blue_b_mag",
+			"442_762_60rnd_blue_b_mag",
+			"442_762_100rnd_blue_b_mag",
+
+			"442_762_20rnd_red_b_mag",
+			"442_762_30rnd_red_b_mag",
+			"442_762_60rnd_red_b_mag",
+			"442_762_100rnd_red_b_mag",
+
+			"442_762_20rnd_orange_b_mag",
+			"442_762_30rnd_orange_b_mag",
+			"442_762_60rnd_orange_b_mag",
+			"442_762_100rnd_orange_b_mag",
+
+			"442_762_20rnd_green_b_mag",
+			"442_762_30rnd_green_b_mag",
+			"442_762_60rnd_green_b_mag",
+			"442_762_100rnd_green_b_mag",
+
+			"442_762_20rnd_pink_b_mag",
+			"442_762_30rnd_pink_b_mag",
+			"442_762_60rnd_pink_b_mag",
+			"442_762_100rnd_pink_b_mag",
+
+			"442_762_20rnd_purple_b_mag",
+			"442_762_30rnd_purple_b_mag",
+			"442_762_60rnd_purple_b_mag",
+			"442_762_100rnd_purple_b_mag",
+
+			"442_762_20rnd_white_b_mag",
+			"442_762_30rnd_white_b_mag",
+			"442_762_60rnd_white_b_mag",
+			"442_762_100rnd_white_b_mag",
+
+			"442_762_20rnd_yellow_b_mag",
+			"442_762_30rnd_yellow_b_mag",
+			"442_762_60rnd_yellow_b_mag",
+			"442_762_100rnd_yellow_b_mag",
+		};
 		muzzles[]=
 		{
 			"this",
 			"EGLM"
 		};
 		displayName="DC-15A rifle UGL";
-		model="442_weapons\clones\dc15a\dc15a_ugl.p3d";
+		//model="442_weapons\clones\dc15a\dc15a_ugl.p3d";
+		model = "swlw_rework\rifles\dc15a\dc15a_ugl.p3d";
 		hiddenSelections[]=
 		{
 			"camo1",
@@ -291,6 +374,187 @@
 			"442_weapons\clones\dc15a\data\dc15a_mag_co.paa",
 			"\442_weapons\clones\dc15a\data\optic\training_blue.paa"
 		};
+		modes[]=
+		{
+			"Single",
+			"FullAuto",
+			"close",
+			"short",
+			"medium"
+		};
+		class Single: Mode_SemiAuto
+		{
+			sounds[]=
+			{
+				"StandardSound"
+			};
+			class BaseSoundModeType
+			{
+				weaponSoundEffect="";
+				closure1[]={};
+				closure2[]={};
+				soundClosure[]={};
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				weaponSoundEffect="";
+				begin1[]=
+				{
+					"\442_weapons\sounds\dc15s\dc15s_1.wss",
+					1,
+					1,
+					1800
+				};
+				begin2[]=
+				{
+					"\442_weapons\sounds\dc15s\dc15s_2.wss",
+					1,
+					1,
+					1800
+				};
+				begin3[]=
+				{
+					"\442_weapons\sounds\dc15s\dc15s_3.wss",
+					1,
+					1,
+					1800
+				};
+				soundBegin[]=
+				{
+					"begin1",
+					0.33000001,
+					"begin2",
+					0.33000001,
+					"begin3",
+					0.33000001
+				};
+			};
+			reloadTime=0.096001;
+			dispersion=0.00030149999;
+			minRange=5;
+			minRangeProbab=0.30000001;
+			midRange=25;
+			midRangeProbab=0.60000002;
+			maxRange=50;
+			maxRangeProbab=0.1;
+			aiRateOfFire=2;
+			aiRateOfFireDistance=25;
+		};
+		class FullAuto: Mode_FullAuto
+		{
+			sounds[]=
+			{
+				"StandardSound"
+			};
+			class BaseSoundModeType
+			{
+				weaponSoundEffect="";
+				closure1[]={};
+				closure2[]={};
+				soundClosure[]={};
+			};
+			class StandardSound: BaseSoundModeType
+			{
+				weaponSoundEffect="";
+				begin1[]=
+				{
+					"\442_weapons\sounds\dc15s\dc15s_1.wss",
+					1,
+					1,
+					1800
+				};
+				begin2[]=
+				{
+					"\442_weapons\sounds\dc15s\dc15s_2.wss",
+					1,
+					1,
+					1800
+				};
+				begin3[]=
+				{
+					"\442_weapons\sounds\dc15s\dc15s_3.wss",
+					1,
+					1,
+					1800
+				};
+				soundBegin[]=
+				{
+					"begin1",
+					0.33000001,
+					"begin2",
+					0.33000001,
+					"begin3",
+					0.33000001
+				};
+			};
+			reloadTime=0.104347;
+			dispersion=0.00014545;
+			minRange=5;
+			minRangeProbab=0.30000001;
+			midRange=25;
+			midRangeProbab=0.60000002;
+			maxRange=50;
+			maxRangeProbab=0.1;
+			aiRateOfFire=2;
+			aiRateOfFireDistance=25;
+		};
+		class close: FullAuto
+		{
+			burst = 10;
+			showToPlayer=0;
+			aiRateOfFire=0.25;
+			aiRateOfFireDistance=50;
+			minRange=0;
+			minRangeProbab=0.050000001;
+			midRange=30;
+			midRangeProbab=0.69999999;
+			maxRange=50;
+			maxRangeProbab=0.2;
+		};
+		class short: close
+		{
+			burst = 8;
+			aiRateOfFire=1;
+			aiRateOfFireDistance=300;
+			minRange=50;
+			minRangeProbab=0.2;
+			midRange=150;
+			midRangeProbab=0.69999999;
+			maxRange=300;
+			maxRangeProbab=0.2;
+		};
+		class medium: close
+		{
+			burst = 5;
+			aiRateOfFire=2;
+			aiRateOfFireDistance=600;
+			minRange=300;
+			minRangeProbab=0.2;
+			midRange=450;
+			midRangeProbab=0.69999999;
+			maxRange=600;
+			maxRangeProbab=0.2;
+		};
+		class far: close
+		{
+			burst = 3;
+			aiRateOfFire=4;
+			aiRateOfFireDistance=700;
+			minRange=600;
+			minRangeProbab=0.2;
+			midRange=650;
+			midRangeProbab=0.69999999;
+			maxRange=700;
+			maxRangeProbab=0.2;
+		};
+		aiDispersionCoefY=2.5;
+		aiDispersionCoefX=2.5;
+		maxRecoilSway=0.0125;
+		recoil="442_recoil";
+		swayDecaySpeed=1.25;
+		dexterity=1.7;
+		initspeed=800;
+		inertia=0.5;
 		class EGLM: UGL_F
 		{
 			displayName="Grenade launcher";
@@ -318,7 +582,7 @@
 			"442_MC"
 		};
 		displayName="DC-15A rifle UBSG";
-		model="442_weapons\clones\dc15a\dc15a_ugl.p3d";
+		//model="442_weapons\clones\dc15a\dc15a_ugl.p3d";
 		hiddenSelections[]=
 		{
 			"camo1",
@@ -378,7 +642,7 @@
     class 442_dc15s: swlw_dc15s
 	{
 		scope=2;
-		model="442_weapons\clones\dc15s\dc15s.p3d";
+		//model="442_weapons\clones\dc15s\dc15s.p3d";
 		magazines[]=
 		{
 			"442_556_30rnd_blue_mag",
@@ -853,7 +1117,7 @@
     class 442_DC15SA: swlw_dc15sa
 	{
 		scope=2;
-		model="\SWLW_clones_spec\DC15SA.p3d";
+		//model="\SWLW_clones_spec\DC15SA.p3d";
 		muzzles[]=
 		{
 			"this"
@@ -1262,7 +1526,7 @@
     class 442_DC17: swlw_dc17
 	{
 		scope=2;
-		model="SWLW_clones\pistols\dc17\DC17.p3d";
+		//model="SWLW_clones\pistols\dc17\DC17.p3d";
 		muzzles[]=
 		{
 			"this",
@@ -1592,7 +1856,7 @@
 		_generalMacro="launch_RPG32_F";
 		scope=2;
 		displayName="RPS-6 Rocket Launcher";
-		model="SWLW_clones\launchers\rps6\RPS6.p3d";
+		//model="SWLW_clones\launchers\rps6\RPS6.p3d";
 		picture="\SWLW_clones\launchers\rps6\data\ui\RPS6_ui.paa";
 		hiddenselections[] = 
 		{
@@ -1729,7 +1993,7 @@
     class 442_WestarM5: swlw_westarm5
 	{
 		scope=2;
-		model="\SWLW_clones\smgs\westar_m5\WestarM5.p3d";
+		//model="\SWLW_clones\smgs\westar_m5\WestarM5.p3d";
 		magazines[]=
 		{
 			"442_65_30rnd_blue_mag",
@@ -1990,7 +2254,7 @@
 		displayName="Westar M-5 scope";
 		author="Kobra";
 		picture="\SWLW_clones\smgs\westar_m5\data\ui\westarm5_scope_ui.paa";
-		model="\SWLW_clones\smgs\westar_m5\WestarM5_scope.p3d";
+		//model="\SWLW_clones\smgs\westar_m5\WestarM5_scope.p3d";
 		scope=2;
 		descriptionShort="";
 		weaponInfoType="RscWeaponZeroing";
@@ -2057,7 +2321,7 @@
 	class 442_WestarM5_ugl: 442_WestarM5
 	{
 		displayname="Westar M5 UGL";
-		model = "\SWLW_clones\smgs\westar_m5\WestarM5_ugl.p3d";
+		//model = "\SWLW_clones\smgs\westar_m5\WestarM5_ugl.p3d";
 		muzzles[] = {"this","EGLM"};
 		handAnim[] = {"OFP2_ManSkeleton","\SWLW_clones\smgs\westar_m5\anims\westarm5_ugl_handanim.rtm"};
 	};
@@ -2070,7 +2334,7 @@
 		ace_overheating_dispersion=0;
 		scope=2;
 		displayName="Z6 Rotary Blaster";
-		model="442_weapons\clones\z6\z6.p3d";
+		//model="442_weapons\clones\z6\z6.p3d";
 		magazines[]=
 		{
 			"442_556_200rnd_blue_mag",

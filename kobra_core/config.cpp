@@ -564,7 +564,36 @@ class CfgPatches
 			"212fc_personal_locker",
 			"9_personal_locker",
 			"44_personal_locker",
-			"44_personal_locker_kripto"
+			"44_personal_locker_kripto",
+			
+			"k_clone_small_backpack",
+			"k_clone_small_backpack_pouches",
+			"k_clone_small_backpack_radio",
+			"k_clone_small_backpack_radio_pouches",
+			"k_clone_large_backpack",
+			"k_clone_large_backpack_pouch",
+			"k_clone_large_backpack_medic",
+			"k_clone_large_backpack_medic_pouch",
+			"44_clone_small_backpack",
+			"44_clone_small_backpack_pouches",
+			"44_clone_small_backpack_radio",
+			"44_clone_small_backpack_radio_pouches",
+			"44_clone_large_backpack",
+			"44_clone_large_backpack_pouch",
+			"44_clone_large_backpack_medic",
+			"44_clone_large_backpack_medic_pouch",
+			"44_clone_large_backpack_eod_pouch",
+			"9_clone_small_backpack",
+			"9_clone_small_backpack_pouches",
+			"9_clone_small_backpack_radio",
+			"9_clone_small_backpack_radio_pouches",
+			"9_clone_large_backpack",
+			"9_clone_large_backpack_pouch",
+			"9_clone_large_backpack_medic",
+			"9_clone_large_backpack_medic_pouch",
+			"9_clone_large_backpack_od_pouch",
+
+			"442_escape_pod"
 		};
 		weapons[]=
 		{
@@ -1074,7 +1103,7 @@ class cfgweapons
 			minrangeprobab = 0.2;
 			modeloptics = "";
 			reloadsound[] = {"",0.000316228,1};
-			reloadtime = 0;
+			reloadtime = 5;
 			showempty = 0;
 			sound[] = {"",0.000316228,1};
 			magazines[] = {"442_thermal_det_mag"};
@@ -1314,7 +1343,8 @@ class cfgvehicles
 	#include "442_units\442\442_unit.hpp"
 	#include "442_units\442\442_backpack.hpp"
 
-	#include "442_equipment\jumppack\jumppack.hpp"
+	#include "442_equipment\jumppack.hpp"
+	#include "442_equipment\backpack.hpp"
 	#include "442_turrets\droideka.hpp"
 
 	#include "442_placeable\helmets.hpp"

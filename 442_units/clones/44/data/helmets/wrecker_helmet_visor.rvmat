@@ -24,31 +24,31 @@ class Stage1
 };
 class Stage2
 {
-	texture="#(argb,8,8,3)color(0.5,0.5,0.5,0.5,DT)";
+	texture="#(argb,8,8,3)color(0.5,0.5,0.5,1,DT)";
 	uvSource="tex";
 	class uvTransform
 	{
 		aside[]={1,0,0};
 		up[]={0,1,0};
-		dir[]={0,0,0};
+		dir[]={0,0,1};
 		pos[]={0,0,0};
 	};
 };
 class Stage3
 {
-	exture="#(argb,8,8,3)color(0,0.2,0.4,0.25,MC)";
+	texture="#(argb,8,8,3)color(0,0,0,0,MC)";
 	uvSource="tex";
 	class uvTransform
 	{
 		aside[]={1,0,0};
 		up[]={0,1,0};
-		dir[]={0,0,0};
+		dir[]={0,0,1};
 		pos[]={0,0,0};
 	};
 };
 class Stage4
 {
-	texture="#(argb,8,8,3)color(1,1,1,1,AS)";
+	texture=442_units\clones\data\helmet\wrecker_helmet\visor_as.paa;
 	uvSource="tex";
 	class uvTransform
 	{
@@ -60,7 +60,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="#(argb,8,8,3)color(0,0.2,1,1,SMDI)";
+	texture="442_units\clones\data\helmet\wrecker_helmet\visor_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -72,15 +72,8 @@ class Stage5
 };
 class Stage6
 {
-	texture="#(ai,32,128,1)fresnel(0.85,0.36)";
-	uvSource="tex";
-	class uvTransform
-	{
-		aside[]={1,0,0};
-		up[]={0,1,0};
-		dir[]={0,0,1};
-		pos[]={0,0,0};
-	};
+	texture="#(ai,64,64,1)fresnel(0.5,5.5)";
+	uvSource="none";
 };
 class Stage7
 {

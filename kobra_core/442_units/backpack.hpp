@@ -2,13 +2,18 @@ class k_clone_backpack: k_clone_backpack_base
 {
 	displayname = "[K] Clone Trooper Backpack";
 	scope = 2;
-	model = "442_units\clones\backpack.p3d";
+	model = "ls_equipment_bluefor\backpack\gar\backpack\ls_gar_standard_backpack.p3d";
 	maximumload = 150;
 	picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 	hiddenselections[] = 
 	{
 		"backpack",
 		"cover"
+	};
+	hiddenselectionsmaterials[] = 
+	{
+		"442_units\clones\data\backpack\backpack.rvmat",
+		"442_units\clones\data\backpack\cover.rvmat"
 	};
 	hiddenselectionstextures[] = 
 	{
@@ -20,7 +25,7 @@ class k_clone_backpack_med: k_clone_backpack_base
 {
 	displayname = "[K] Clone Trooper Medium Backpack";
 	scope = 2;
-	model = "442_units\clones\backpack_med.p3d";
+	model = "ls_equipment_bluefor\backpack\gar\mediumBackpack\ls_gar_medium_backpack.p3d";
 	maximumload = 200;
 	picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 	hiddenselections[] = 
@@ -28,6 +33,12 @@ class k_clone_backpack_med: k_clone_backpack_base
 		"backpack",
 		"cover",
 		"pouches"
+	};
+	hiddenselectionsmaterials[] = 
+	{
+		"442_units\clones\data\backpack\backpack.rvmat",
+		"442_units\clones\data\backpack\cover.rvmat",
+		"442_units\clones\data\backpack\bags.rvmat",
 	};
 	hiddenselectionstextures[] = 
 	{
@@ -40,7 +51,7 @@ class k_clone_backpack_heavy: k_clone_backpack_base
 {
 	displayname = "[K] Clone Trooper Heavy Backpack";
 	scope = 2;
-	model = "442_units\clones\backpack_heavy.p3d";
+	model = "ls_equipment_bluefor\backpack\gar\heavyBackpack\ls_gar_heavy_backpack.p3d";
 	maximumload = 250;
 	picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 	hiddenselections[] = 
@@ -49,6 +60,13 @@ class k_clone_backpack_heavy: k_clone_backpack_base
 		"cover",
 		"pouches",
 		"tube"
+	};
+	hiddenselectionsmaterials[] = 
+	{
+		"442_units\clones\data\backpack\backpack.rvmat",
+		"442_units\clones\data\backpack\cover.rvmat",
+		"442_units\clones\data\backpack\bags.rvmat",
+		"442_units\clones\data\backpack\tube.rvmat",
 	};
 	hiddenselectionstextures[] = 
 	{
@@ -62,7 +80,7 @@ class k_clone_backpack_medic: k_clone_backpack_base
 {
 	displayname = "[K] Clone Trooper Medic Backpack";
 	scope = 2;
-	model = "442_units\clones\backpack_medic.p3d";
+	model = "ls_equipment_bluefor\backpack\gar\backpack\ls_gar_medic_backpack.p3d";
 	maximumload = 200;
 	picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 	hiddenselections[] = 
@@ -71,6 +89,13 @@ class k_clone_backpack_medic: k_clone_backpack_base
 		"cover",
 		"medic1",
 		"medic2"
+	};
+	hiddenselectionsmaterials[] = 
+	{
+		"442_units\clones\data\backpack\backpack.rvmat",
+		"442_units\clones\data\backpack\cover.rvmat",
+		"442_units\clones\data\backpack\medic1.rvmat",
+		"442_units\clones\data\backpack\medic2.rvmat",
 	};
 	hiddenselectionstextures[] = 
 	{
@@ -84,7 +109,7 @@ class k_clone_backpack_medic_med: k_clone_backpack_base
 {
 	displayname = "[K] Clone Trooper Medic Medium Backpack";
 	scope = 2;
-	model = "442_units\clones\backpack_medic_med.p3d";
+	model = "ls_equipment_bluefor\backpack\gar\heavyBackpack\ls_gar_heavyMedic_backpack.p3d";
 	maximumload = 250;
 	picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 	hiddenselections[] = 
@@ -94,6 +119,14 @@ class k_clone_backpack_medic_med: k_clone_backpack_base
 		"pouches",
 		"medic1",
 		"medic2"
+	};
+	hiddenselectionsmaterials[] = 
+	{
+		"442_units\clones\data\backpack\backpack.rvmat",
+		"442_units\clones\data\backpack\cover.rvmat",
+		"442_units\clones\data\backpack\bags.rvmat",
+		"442_units\clones\data\backpack\medic1.rvmat",
+		"442_units\clones\data\backpack\medic2.rvmat",
 	};
 	hiddenselectionstextures[] = 
 	{
@@ -108,13 +141,19 @@ class k_clone_backpack_radio: k_clone_rto_backpack_base
 {
 	displayname = "[K] Clone Trooper Radio Backpack";
 	scope = 2;
-	model = "442_units\clones\backpack_radio.p3d";
+	model = "ls_equipment_bluefor\backpack\gar\backpack\ls_gar_radio_backpack.p3d";
 	picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 	hiddenselections[] = 
 	{
 		"backpack",
 		"radio",
 		"screen"
+	};
+	hiddenselectionsmaterials[] = 
+	{
+		"442_units\clones\data\backpack\backpack.rvmat",
+		"442_units\clones\data\backpack\radio.rvmat",
+		"442_units\clones\data\backpack\screen.rvmat",
 	};
 	hiddenselectionstextures[] = 
 	{
@@ -127,7 +166,7 @@ class k_clone_backpack_radio_med: k_clone_rto_backpack_base
 {
 	displayname = "[K] Clone Trooper Radio Medium Backpack";
 	scope = 2;
-	model = "442_units\clones\backpack_radio_med.p3d";
+	model = "ls_equipment_bluefor\backpack\gar\mediumBackpack\ls_gar_mediumRadio_backpack.p3d";
 	picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 	maximumload = 150;
 	hiddenselections[] = 
@@ -136,6 +175,13 @@ class k_clone_backpack_radio_med: k_clone_rto_backpack_base
 		"radio",
 		"screen",
 		"pouches"
+	};
+	hiddenselectionsmaterials[] = 
+	{
+		"442_units\clones\data\backpack\backpack.rvmat",
+		"442_units\clones\data\backpack\radio.rvmat",
+		"442_units\clones\data\backpack\screen.rvmat",
+		"442_units\clones\data\backpack\bags.rvmat",
 	};
 	hiddenselectionstextures[] = 
 	{
@@ -149,7 +195,7 @@ class k_clone_backpack_rocket: k_clone_backpack_base
 {
 	displayname = "[K] Clone Trooper Rocket Backpack";
 	scope = 2;
-	model = "442_units\clones\backpack_rocket.p3d";
+	model = "ls_equipment_bluefor\backpack\gar\backpack\ls_gar_rocket_backpack.p3d";
 	maximumload = 300;
 	picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 	hiddenselections[] = 
@@ -159,6 +205,14 @@ class k_clone_backpack_rocket: k_clone_backpack_base
 		"rocket",
 		"light",
 		"pouches"
+	};
+	hiddenselectionsmaterials[] = 
+	{
+		"442_units\clones\data\backpack\backpack.rvmat",
+		"442_units\clones\data\backpack\holder.rvmat",
+		"442_units\clones\data\backpack\rocket.rvmat",
+		"442_units\clones\data\backpack\lights.rvmat",
+		"442_units\clones\data\backpack\bags.rvmat",
 	};
 	hiddenselectionstextures[] = 
 	{
@@ -175,9 +229,9 @@ class k_b1_backpack: k_clone_backpack_base
 {
 	displayname = "[K] B1 Backpack";
 	scope = 2;
-	model = "442_units\cis_droids\swlb_b1_backpack.p3d";
+	model = "ls_equipment_redfor\backpack\cis\standard\ls_cis_standard_backpack.p3d";
 	maximumload = 150;
-	picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
+	picture = "ls_equipment_redfor\backpack\cis\ui\icon_b1_backpack_ca.paa";
 	hiddenselectionsmaterials[] = 
     {
         "442_units\cis_droids\data\backpack.rvmat"
