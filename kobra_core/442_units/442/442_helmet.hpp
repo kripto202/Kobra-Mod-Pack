@@ -150,6 +150,7 @@
 		hiddenselectionstextures[]=
 		{
 			"442_units\clones\442\data\helmets\442_arf1_helmet_co.paa",
+			"",
 			"442_units\clones\data\helmet\arf_helmet\visor_co.paa"
 		};
 	};
@@ -159,6 +160,7 @@
 		hiddenselectionstextures[]=
 		{
 			"442_units\clones\442\data\helmets\442_arf2_helmet_co.paa",
+			"",
 			"442_units\clones\data\helmet\arf_helmet\visor_co.paa"
 		};
 	};

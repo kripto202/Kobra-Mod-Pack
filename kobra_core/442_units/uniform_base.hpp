@@ -7,7 +7,7 @@
 		scopeCurator=0;
 		scopeArsenal=0;
 		picture = "\442_equipment\vests\data\ui\icon_swlb_clone_uniform_ca.paa";
-		model="442_units\clones\base_body_gh"; //model for the ground
+		model="ls_armor_bluefor\uniform\gar\phase2\ls_gar_phase2_uniform_groundholder.p3d"; //model for the ground
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -23,7 +23,7 @@
 		scope=0;
 		displayName="Clone marshal commander armor";
 		picture = "\442_equipment\vests\data\ui\icon_swlb_clone_uniform_ca.paa";
-		model="442_units\clones\base_body_gh";
+		model="ls_armor_bluefor\uniform\gar\phase2\ls_gar_phase2_uniform_groundholder.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -33,7 +33,7 @@
 			mass=40;
 		};
 	};
-	class k_b1_uniform_base: ls_b1_base
+	class k_b1_uniform_base: ls_cis_b1_uniform
 	{
 		author = "KOBRA Mod Team";
 		scope = 0;

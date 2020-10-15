@@ -110,26 +110,14 @@
 			class StandardSound: BaseSoundModeType
 			{
 				weaponSoundEffect="";
-				begin1[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_1.wss",
-					1,
-					1,
-					1800
+				begin1[]= {
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_1", 1, 1, 1800
 				};
-				begin2[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_2.wss",
-					1,
-					1,
-					1800
+				begin2[]= {
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_2", 1, 1, 1800
 				};
-				begin3[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_3.wss",
-					1,
-					1,
-					1800
+				begin3[]= {
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_3", 1, 1, 1800
 				};
 				soundBegin[]=
 				{
@@ -168,26 +156,14 @@
 			class StandardSound: BaseSoundModeType
 			{
 				weaponSoundEffect="";
-				begin1[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_1.wss",
-					1,
-					1,
-					1800
+				begin1[]= {
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_1", 1, 1, 1800
 				};
-				begin2[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_2.wss",
-					1,
-					1,
-					1800
+				begin2[]= {
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_2", 1, 1, 1800
 				};
-				begin3[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_3.wss",
-					1,
-					1,
-					1800
+				begin3[]= {
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_3", 1, 1, 1800
 				};
 				soundBegin[]=
 				{
@@ -369,10 +345,10 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"442_weapons\clones\dc15a\data\dc15a_co.paa",
-			"442_weapons\clones\dc15a\data\DC15A_ugl_co.paa",
-			"442_weapons\clones\dc15a\data\dc15a_mag_co.paa",
-			"\442_weapons\clones\dc15a\data\optic\training_blue.paa"
+			"swlw_rework\rifles\dc15a\data\dc15a_co.paa",
+			"swlw_rework\rifles\dc15a\data\DC15A_ugl_co.paa",
+			"swlw_rework\rifles\dc15a\data\dc15a_mag_co.paa",
+			"swlw_rework\rifles\dc15a\data\training_blue.paa"
 		};
 		modes[]=
 		{
@@ -398,26 +374,14 @@
 			class StandardSound: BaseSoundModeType
 			{
 				weaponSoundEffect="";
-				begin1[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_1.wss",
-					1,
-					1,
-					1800
+				begin1[]= {
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_1", 1, 1, 1800
 				};
-				begin2[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_2.wss",
-					1,
-					1,
-					1800
+				begin2[]= {
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_2", 1, 1, 1800
 				};
-				begin3[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_3.wss",
-					1,
-					1,
-					1800
+				begin3[]= {
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_3", 1, 1, 1800
 				};
 				soundBegin[]=
 				{
@@ -456,26 +420,14 @@
 			class StandardSound: BaseSoundModeType
 			{
 				weaponSoundEffect="";
-				begin1[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_1.wss",
-					1,
-					1,
-					1800
+				begin1[]= {
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_1", 1, 1, 1800
 				};
-				begin2[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_2.wss",
-					1,
-					1,
-					1800
+				begin2[]= {
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_2", 1, 1, 1800
 				};
-				begin3[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_3.wss",
-					1,
-					1,
-					1800
+				begin3[]= {
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_3", 1, 1, 1800
 				};
 				soundBegin[]=
 				{
@@ -583,18 +535,14 @@
 		};
 		displayName="DC-15A rifle UBSG";
 		//model="442_weapons\clones\dc15a\dc15a_ugl.p3d";
+		model = "\swlw_rework\rifles\dc15a\DC15A_ugl.p3d";
 		hiddenSelections[]=
 		{
 			"camo1",
 			"camo2",
 			"sight"
 		};
-		hiddenSelectionsTextures[]=
-		{
-			"442_weapons\clones\dc15a\data\dc15a_co.paa",
-			"442_weapons\clones\dc15a\data\DC15A_ugl_co.paa",
-			"\442_weapons\clones\dc15a\data\optic\training_blue.paa"
-		};
+		hiddenSelectionsTextures[] = {"\SWLW_clones\rifles\dc15a\data\DC15A_co.paa","\SWLW_clones\rifles\dc15a\data\DC15A_ugl_co.paa"};
 		class 442_MC: Rifle_Base_F
 		{
 			magazines[] = 
@@ -755,26 +703,14 @@
 			class StandardSound: BaseSoundModeType
 			{
 				weaponSoundEffect="";
-				begin1[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_1.wss",
-					1,
-					1,
-					1800
+				begin1[]= {
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_1", 1, 1, 1800
 				};
-				begin2[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_2.wss",
-					1,
-					1,
-					1800
+				begin2[]= {
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_2", 1, 1, 1800
 				};
-				begin3[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_3.wss",
-					1,
-					1,
-					1800
+				begin3[]= {
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_3", 1, 1, 1800
 				};
 				soundBegin[]=
 				{
@@ -813,26 +749,14 @@
 			class StandardSound: BaseSoundModeType
 			{
 				weaponSoundEffect="";
-				begin1[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_1.wss",
-					1,
-					1,
-					1800
+				begin1[]= {
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_1", 1, 1, 1800
 				};
-				begin2[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_2.wss",
-					1,
-					1,
-					1800
+				begin2[]= {
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_2", 1, 1, 1800
 				};
-				begin3[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_3.wss",
-					1,
-					1,
-					1800
+				begin3[]= {
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_3", 1, 1, 1800
 				};
 				soundBegin[]=
 				{
@@ -933,26 +857,14 @@
 			class StandardSound: BaseSoundModeType
 			{
 				weaponSoundEffect="";
-				begin1[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_1.wss",
-					1,
-					1,
-					1800
+				begin1[]= {
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_1", 1, 1, 1800
 				};
-				begin2[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_2.wss",
-					1,
-					1,
-					1800
+				begin2[]= {
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_2", 1, 1, 1800
 				};
-				begin3[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_3.wss",
-					1,
-					1,
-					1800
+				begin3[]= {
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_3", 1, 1, 1800
 				};
 				soundBegin[]=
 				{
@@ -991,26 +903,14 @@
 			class StandardSound: BaseSoundModeType
 			{
 				weaponSoundEffect="";
-				begin1[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_1.wss",
-					1,
-					1,
-					1800
+				begin1[]= {
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_1", 1, 1, 1800
 				};
-				begin2[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_2.wss",
-					1,
-					1,
-					1800
+				begin2[]= {
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_2", 1, 1, 1800
 				};
-				begin3[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_3.wss",
-					1,
-					1,
-					1800
+				begin3[]= {
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_3", 1, 1, 1800
 				};
 				soundBegin[]=
 				{
@@ -1301,21 +1201,21 @@
 				weaponSoundEffect="";
 				begin1[]=
 				{
-					"\442_weapons\sounds\dc15s\dc15s_1.wss",
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_1",
 					1,
 					1,
 					1800
 				};
 				begin2[]=
 				{
-					"\442_weapons\sounds\dc15s\dc15s_2.wss",
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_2",
 					1,
 					1,
 					1800
 				};
 				begin3[]=
 				{
-					"\442_weapons\sounds\dc15s\dc15s_3.wss",
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_3",
 					1,
 					1,
 					1800
@@ -1480,21 +1380,21 @@
 				weaponSoundEffect="";
 				begin1[]=
 				{
-					"\442_weapons\sounds\dc15s\dc15s_1.wss",
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_1",
 					1,
 					1,
 					1800
 				};
 				begin2[]=
 				{
-					"\442_weapons\sounds\dc15s\dc15s_2.wss",
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_2",
 					1,
 					1,
 					1800
 				};
 				begin3[]=
 				{
-					"\442_weapons\sounds\dc15s\dc15s_3.wss",
+					"SWLW_clones\smgs\dc15s\sounds\DC15S_3",
 					1,
 					1,
 					1800
@@ -1586,33 +1486,17 @@
 			class StandardSound: BaseSoundModeType
 			{
 				weaponSoundEffect="";
-				begin1[]=
-				{
-					"\442_weapons\sounds\dc17\DC17_1.wss",
-					1,
-					1,
-					1800
+				begin1[]= {
+					"SWLW_clones\pistols\dc17\sounds\DC17_1", 1, 1, 1800
 				};
-				begin2[]=
-				{
-					"\442_weapons\sounds\dc17\DC17_1.wss",
-					1,
-					1,
-					1800
+				begin2[]= {
+					"SWLW_clones\pistols\dc17\sounds\DC17_1", 1, 1, 1800
 				};
-				begin3[]=
-				{
-					"\442_weapons\sounds\dc17\DC17_1.wss",
-					1,
-					1,
-					1800
+				begin3[]= {
+					"SWLW_clones\pistols\dc17\sounds\DC17_1", 1, 1, 1800
 				};
-				begin4[]=
-				{
-					"\442_weapons\sounds\dc17\DC17_1.wss",
-					1,
-					1,
-					1800
+				begin4[]= {
+					"SWLW_clones\pistols\dc17\sounds\DC17_1", 1, 1, 1800
 				};
 				soundBegin[]=
 				{
@@ -1749,23 +1633,20 @@
 			class StandardSound: BaseSoundModeType
 			{
 				weaponSoundEffect="";
-				begin1[]=
-				{
-					"442_weapons\sounds\gl\gl.wss",
+				begin1[]= {
+					"SWLW_clones\rifles\gl\sounds\gl",
 					1,
 					1,
 					1800
 				};
-				begin2[]=
-				{
-					"442_weapons\sounds\gl\gl.wss",
+				begin2[]= {
+					"SWLW_clones\rifles\gl\sounds\gl",
 					1,
 					1,
 					1800
 				};
-				begin3[]=
-				{
-					"442_weapons\sounds\gl\gl.wss",
+				begin3[]= {
+					"SWLW_clones\rifles\gl\sounds\gl",
 					1,
 					1,
 					1800
@@ -1857,6 +1738,7 @@
 		scope=2;
 		displayName="RPS-6 Rocket Launcher";
 		//model="SWLW_clones\launchers\rps6\RPS6.p3d";
+		model = "SWLW_clones\launchers\rps6\RPS6.p3d";
 		picture="\SWLW_clones\launchers\rps6\data\ui\RPS6_ui.paa";
 		hiddenselections[] = 
 		{
@@ -2082,26 +1964,14 @@
 			class StandardSound: BaseSoundModeType
 			{
 				weaponSoundEffect="";
-				begin1[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_1.wss",
-					1,
-					1,
-					1800
+				begin1[]= {
+					"SWLW_merc_mando\rifles\westar35s\sounds\westar35s", 1, 1, 1800
 				};
-				begin2[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_2.wss",
-					1,
-					1,
-					1800
+				begin2[]= {
+					"SWLW_merc_mando\rifles\westar35s\sounds\westar35s", 1, 1, 1800
 				};
-				begin3[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_3.wss",
-					1,
-					1,
-					1800
+				begin3[]= {
+					"SWLW_merc_mando\rifles\westar35s\sounds\westar35s", 1, 1, 1800
 				};
 				soundBegin[]=
 				{
@@ -2140,26 +2010,14 @@
 			class StandardSound: BaseSoundModeType
 			{
 				weaponSoundEffect="";
-				begin1[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_1.wss",
-					1,
-					1,
-					1800
+				begin1[]= {
+					"SWLW_merc_mando\rifles\westar35s\sounds\westar35s", 1, 1, 1800
 				};
-				begin2[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_2.wss",
-					1,
-					1,
-					1800
+				begin2[]= {
+					"SWLW_merc_mando\rifles\westar35s\sounds\westar35s", 1, 1, 1800
 				};
-				begin3[]=
-				{
-					"\442_weapons\sounds\dc15s\dc15s_3.wss",
-					1,
-					1,
-					1800
+				begin3[]= {
+					"SWLW_merc_mando\rifles\westar35s\sounds\westar35s", 1, 1, 1800
 				};
 				soundBegin[]=
 				{
@@ -2322,6 +2180,7 @@
 	{
 		displayname="Westar M5 UGL";
 		//model = "\SWLW_clones\smgs\westar_m5\WestarM5_ugl.p3d";
+		model = "\SWLW_clones\smgs\westar_m5\WestarM5_ugl.p3d";
 		muzzles[] = {"this","EGLM"};
 		handAnim[] = {"OFP2_ManSkeleton","\SWLW_clones\smgs\westar_m5\anims\westarm5_ugl_handanim.rtm"};
 	};
@@ -2504,7 +2363,7 @@
 			{
 				begin1[]=
 				{
-					"\442_weapons\sounds\z6\Z6_1.wss",
+					"swlw_rework\sounds\z-series\z6\z6_shot.wss",
 					1,
 					1,
 					500
@@ -2536,7 +2395,7 @@
 			{
 				begin1[]=
 				{
-					"\442_weapons\sounds\z6\Z6_1.wss",
+					"swlw_rework\sounds\z-series\z6\z6_shot.wss",
 					1,
 					1,
 					500

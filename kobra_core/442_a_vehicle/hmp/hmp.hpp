@@ -802,6 +802,20 @@
 			};
 		};
 	};
+	class 442_hmp_unmarked: 442_hmp
+	{
+		displayname = "HMP Gunship (unmarked)";
+		hiddenselectionstextures[] = 
+		{
+			"442_a_vehicle\hmp\data\b_body_co.paa",
+			"442_a_vehicle\hmp\data\engine_co.paa",
+			"442_a_vehicle\hmp\data\eyes_co.paa",
+			"442_a_vehicle\hmp\data\b_head_co.paa",
+			"442_a_vehicle\hmp\data\b_missiles_co.paa",
+			"",
+			"442_a_vehicle\hmp\data\b_wings_co.paa",
+		};
+	};
 	class 442_hmp_transport: 442_test_hmp_base
 	{
 		author = "Kobra Mod Team";
@@ -882,6 +896,20 @@
 					"442_a_vehicle\hmp\data\b_wings_co.paa",
 				};
 			};
+		};
+	};
+	class 442_hmp_transport_unmarked: 442_hmp_transport
+	{
+		displayname = "HMP Gunship (Transport-unmarked)";
+		hiddenselectionstextures[] = 
+		{
+			"442_a_vehicle\hmp\data\b_body_co.paa",
+			"442_a_vehicle\hmp\data\engine_co.paa",
+			"442_a_vehicle\hmp\data\eyes_co.paa",
+			"442_a_vehicle\hmp\data\b_head_co.paa",
+			"442_a_vehicle\hmp\data\b_missiles_co.paa",
+			"442_a_vehicle\hmp\data\b_seats_co.paa",
+			"442_a_vehicle\hmp\data\b_wings_co.paa",
 		};
 	};
 	

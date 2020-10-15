@@ -67,26 +67,14 @@
 			class StandardSound: BaseSoundModeType
 			{
 				weaponSoundEffect="";
-				begin1[]=
-				{
-					"\442_weapons\sounds\e5\e5.wss",
-					1,
-					1,
-					1800
+				begin1[]= {
+					"\swlw_rework\sounds\e-series\E5_shot1.wss", 1, 1, 1800
 				};
-				begin2[]=
-				{
-					"\442_weapons\sounds\e5\e5.wss",
-					1,
-					1,
-					1800
+				begin2[]= {
+					"\swlw_rework\sounds\e-series\E5_shot2.wss", 1, 1, 1800
 				};
-				begin3[]=
-				{
-					"\442_weapons\sounds\e5\e5.wss",
-					1,
-					1,
-					1800
+				begin3[]= {
+					"\swlw_rework\sounds\e-series\E5_shot3.wss", 1, 1, 1800
 				};
 				soundBegin[]=
 				{
@@ -125,26 +113,14 @@
 			class StandardSound: BaseSoundModeType
 			{
 				weaponSoundEffect="";
-				begin1[]=
-				{
-					"\442_weapons\sounds\e5\e5.wss",
-					1,
-					1,
-					1800
+				begin1[]= {
+					"\swlw_rework\sounds\e-series\E5_shot1.wss", 1, 1, 1800
 				};
-				begin2[]=
-				{
-					"\442_weapons\sounds\e5\e5.wss",
-					1,
-					1,
-					1800
+				begin2[]= {
+					"\swlw_rework\sounds\e-series\E5_shot2.wss", 1, 1, 1800
 				};
-				begin3[]=
-				{
-					"\442_weapons\sounds\e5\e5.wss",
-					1,
-					1,
-					1800
+				begin3[]= {
+					"\swlw_rework\sounds\e-series\E5_shot3.wss", 1, 1, 1800
 				};
 				soundBegin[]=
 				{
@@ -307,12 +283,8 @@
 			class BaseSoundModeType;
 			class StandardSound: BaseSoundModeType
 			{
-				begin1[]=
-				{
-					"\442_weapons\sounds\e5\e5.wss",
-					1,
-					1,
-					500
+				begin1[]= {
+					"\swlw_rework\sounds\e-series\E5_shot1.wss", 1, 1, 1800
 				};
 				soundBegin[]=
 				{

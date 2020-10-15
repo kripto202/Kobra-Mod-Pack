@@ -1,6 +1,6 @@
 	class 44_clone_backpack: k_clone_backpack
 	{
-		displayname = "[44] Clone Trooper Backpack";
+		displayname = "[44/LS] Clone Trooper Backpack";
 		scope = 2;
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselectionstextures[] = 
@@ -11,7 +11,7 @@
 	};
 	class 44_clone_backpack_med: k_clone_backpack_med
 	{
-		displayname = "[44] Clone Trooper Medium Backpack";
+		displayname = "[44/LS] Clone Trooper Medium Backpack";
 		scope = 2;
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselectionstextures[] = 
@@ -23,7 +23,7 @@
 	};
 	class 44_clone_backpack_heavy: k_clone_backpack_heavy
 	{
-		displayname = "[44] Clone Trooper Heavy Backpack";
+		displayname = "[44/LS] Clone Trooper Heavy Backpack";
 		scope = 2;
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselectionstextures[] = 
@@ -36,7 +36,7 @@
 	};
 	class 44_clone_backpack_medic: k_clone_backpack_medic
 	{
-		displayname = "[44] Clone Trooper Medic Backpack";
+		displayname = "[44/LS] Clone Trooper Medic Backpack";
 		scope = 2;
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselectionstextures[] = 
@@ -49,7 +49,7 @@
 	};
 	class 44_clone_backpack_medic_med: k_clone_backpack_medic_med
 	{
-		displayname = "[44] Clone Trooper Medic Medium Backpack";
+		displayname = "[44/LS] Clone Trooper Medic Medium Backpack";
 		scope = 2;
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselectionstextures[] = 
@@ -63,7 +63,7 @@
 	};
 	class 44_clone_backpack_radio: k_clone_backpack_radio
 	{
-		displayname = "[44] Clone Trooper Radio Backpack";
+		displayname = "[44/LS] Clone Trooper Radio Backpack";
 		scope = 2;
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselectionstextures[] = 
@@ -75,7 +75,7 @@
 	};
 	class 44_clone_backpack_radio_med: k_clone_backpack_radio_med
 	{
-		displayname = "[44] Clone Trooper Radio Medium Backpack";
+		displayname = "[44/LS] Clone Trooper Radio Medium Backpack";
 		scope = 2;
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselectionstextures[] = 
@@ -88,7 +88,7 @@
 	};
 	class 44_clone_backpack_rocket: k_clone_backpack_rocket
 	{
-		displayname = "[44] Clone Trooper Rocket Backpack";
+		displayname = "[44/LS] Clone Trooper Rocket Backpack";
 		scope = 2;
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselectionstextures[] = 

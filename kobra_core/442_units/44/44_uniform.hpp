@@ -36,14 +36,6 @@
 			uniformClass="44_swla_unit_dukas";
 		};
 	};
-	class 44_swla_uniform_fox: 44_swla_uniform
-	{
-		displayname = "[44] Clone Trooper Uniform (Fox)";
-		class iteminfo: iteminfo
-		{
-			uniformClass="44_swla_unit_fox";
-		};
-	};
 	class 44_swla_uniform_hollen: 44_swla_uniform
 	{
 		displayname = "[44] Clone Trooper Uniform (Hollen)";

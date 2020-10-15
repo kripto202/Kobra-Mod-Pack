@@ -66,6 +66,12 @@ class k_p1_arf_helmet: k_p1_arf_helmet_base
     scopearsenal = 2;
     displayname = "[K] ARF Helmet";
     picture = "\442_units\clones\data\ui\arf_p1_helmet.paa";
+    /*hiddenselectionsmaterials[] = 
+    {
+        "442_units\clones\data\helmet\arf_helmet\camo1.rvmat",
+        "",
+        "442_units\clones\data\helmet\arf_helmet\visor.rvmat"
+    };*/
     hiddenselectionstextures[] =
     {
         "442_units\clones\data\helmet\arf_helmet\camo1_co.paa",
@@ -79,8 +85,14 @@ class k_p2_arf_helmet: k_p2_arf_helmet_base
     scopecurator = 2;
     scopearsenal = 2;
     displayname = "[K] ARF Helmet w/ Flaps";
-    model = "442_units\arf_p2_helmet.p3d";
+    //model = "442_units\arf_p2_helmet.p3d";
     picture = "\442_units\clones\data\ui\arf_p2_helmet.paa";
+    /*hiddenselectionsmaterials[] = 
+    {
+        "442_units\clones\data\helmet\arf_helmet\camo1.rvmat",
+        "442_units\clones\data\helmet\arf_helmet\camo2.rvmat",
+        "442_units\clones\data\helmet\arf_helmet\visor.rvmat"
+    };*/
     hiddenselectionstextures[] = 
     {
         "442_units\clones\data\helmet\arf_helmet\camo1_co.paa",

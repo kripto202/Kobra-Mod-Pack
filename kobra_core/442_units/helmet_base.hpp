@@ -75,12 +75,12 @@
 			"illum"
 		};
 
-		hiddenselectionsmaterials[] = 
+		/*hiddenselectionsmaterials[] = 
 		{
 			"442_units\clones\data\helmet\p15_helmet\camo1.rvmat",
 			"442_units\clones\data\helmet\p15_helmet\visor.rvmat",
 			"442_units\clones\data\helmet\p15_helmet\illum.rvmat"
-		};
+		};*/
 
 		class Iteminfo: Iteminfo
 		{
@@ -198,12 +198,12 @@
 			"visor"
 		};
 
-		hiddenselectionsmaterials[] = 
+		/*hiddenselectionsmaterials[] = 
 		{
 			"442_units\clones\data\helmet\arf_helmet\camo1.rvmat",
 			"",
 			"442_units\clones\data\helmet\arf_helmet\visor.rvmat"
-		};
+		};*/
 		
 		class Iteminfo: ItemInfo
 		{
@@ -219,12 +219,12 @@
 	class k_p2_arf_helmet_base: k_p1_arf_helmet_base
 	{
 		displayname = "[K] P2 ARF Helmet";
-		hiddenselections[] = 
+		/*hiddenselectionsmaterials[] = 
 		{
-			"camo1",
-			"camo2",
-			"visor"
-		};
+			"442_units\clones\data\helmet\arf_helmet\camo1.rvmat",
+			"442_units\clones\data\helmet\arf_helmet\camo2.rvmat",
+			"442_units\clones\data\helmet\arf_helmet\visor.rvmat"
+		};*/
 	};
 	class k_eng_helmet_base: k_helmet_base
 	{

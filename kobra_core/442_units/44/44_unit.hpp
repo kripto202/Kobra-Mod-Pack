@@ -87,16 +87,6 @@
 			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
 		};
 	};
-	class 44_swla_unit_fox: 44_swla_unit
-	{
-		uniformclass = "44_swla_uniform_fox";
-		hiddenselectionstextures[] = 
-		{
-			"442_units\clones\44\data\custom\fox\44_upper_co.paa",
-			"442_units\clones\44\data\custom\fox\44_lower_co.paa",
-			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
-		};
-	};
 	class 44_swla_unit_hollen: 44_swla_unit
 	{
 		uniformclass = "44_swla_uniform_hollen";

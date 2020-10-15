@@ -284,6 +284,7 @@
 		hiddenselectionstextures[]=
 		{
 			"442_units\clones\9\data\helmets\arf_helmet\9_arf_helmet_clean_co.paa",
+			"",
 			"442_units\clones\data\helmet\arf_helmet\visor_co.paa"
 		};
 	};
@@ -296,6 +297,7 @@
 		hiddenselectionstextures[]=
 		{
 			"442_units\clones\9\data\helmets\arf_helmet\9_arf_helmet_worn_co.paa",
+			"",
 			"442_units\clones\data\helmet\arf_helmet\visor_co.paa"
 		};
 	};

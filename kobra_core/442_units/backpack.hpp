@@ -1,6 +1,6 @@
 class k_clone_backpack: k_clone_backpack_base
 {
-	displayname = "[K] Clone Trooper Backpack";
+	displayname = "[K/LS] Clone Trooper Backpack";
 	scope = 2;
 	model = "ls_equipment_bluefor\backpack\gar\backpack\ls_gar_standard_backpack.p3d";
 	maximumload = 150;
@@ -23,7 +23,7 @@ class k_clone_backpack: k_clone_backpack_base
 };
 class k_clone_backpack_med: k_clone_backpack_base
 {
-	displayname = "[K] Clone Trooper Medium Backpack";
+	displayname = "[K/LS] Clone Trooper Medium Backpack";
 	scope = 2;
 	model = "ls_equipment_bluefor\backpack\gar\mediumBackpack\ls_gar_medium_backpack.p3d";
 	maximumload = 200;
@@ -49,7 +49,7 @@ class k_clone_backpack_med: k_clone_backpack_base
 };
 class k_clone_backpack_heavy: k_clone_backpack_base
 {
-	displayname = "[K] Clone Trooper Heavy Backpack";
+	displayname = "[K/LS] Clone Trooper Heavy Backpack";
 	scope = 2;
 	model = "ls_equipment_bluefor\backpack\gar\heavyBackpack\ls_gar_heavy_backpack.p3d";
 	maximumload = 250;
@@ -78,7 +78,7 @@ class k_clone_backpack_heavy: k_clone_backpack_base
 };
 class k_clone_backpack_medic: k_clone_backpack_base
 {
-	displayname = "[K] Clone Trooper Medic Backpack";
+	displayname = "[K/LS] Clone Trooper Medic Backpack";
 	scope = 2;
 	model = "ls_equipment_bluefor\backpack\gar\backpack\ls_gar_medic_backpack.p3d";
 	maximumload = 200;
@@ -107,7 +107,7 @@ class k_clone_backpack_medic: k_clone_backpack_base
 };
 class k_clone_backpack_medic_med: k_clone_backpack_base
 {
-	displayname = "[K] Clone Trooper Medic Medium Backpack";
+	displayname = "[K/LS] Clone Trooper Medic Medium Backpack";
 	scope = 2;
 	model = "ls_equipment_bluefor\backpack\gar\heavyBackpack\ls_gar_heavyMedic_backpack.p3d";
 	maximumload = 250;
@@ -139,7 +139,7 @@ class k_clone_backpack_medic_med: k_clone_backpack_base
 };
 class k_clone_backpack_radio: k_clone_rto_backpack_base
 {
-	displayname = "[K] Clone Trooper Radio Backpack";
+	displayname = "[K/LS] Clone Trooper Radio Backpack";
 	scope = 2;
 	model = "ls_equipment_bluefor\backpack\gar\backpack\ls_gar_radio_backpack.p3d";
 	picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
@@ -164,7 +164,7 @@ class k_clone_backpack_radio: k_clone_rto_backpack_base
 };
 class k_clone_backpack_radio_med: k_clone_rto_backpack_base
 {
-	displayname = "[K] Clone Trooper Radio Medium Backpack";
+	displayname = "[K/LS] Clone Trooper Radio Medium Backpack";
 	scope = 2;
 	model = "ls_equipment_bluefor\backpack\gar\mediumBackpack\ls_gar_mediumRadio_backpack.p3d";
 	picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
@@ -193,7 +193,7 @@ class k_clone_backpack_radio_med: k_clone_rto_backpack_base
 };
 class k_clone_backpack_rocket: k_clone_backpack_base
 {
-	displayname = "[K] Clone Trooper Rocket Backpack";
+	displayname = "[K/LS] Clone Trooper Rocket Backpack";
 	scope = 2;
 	model = "ls_equipment_bluefor\backpack\gar\backpack\ls_gar_rocket_backpack.p3d";
 	maximumload = 300;
@@ -227,7 +227,7 @@ class k_clone_backpack_rocket: k_clone_backpack_base
 
 class k_b1_backpack: k_clone_backpack_base
 {
-	displayname = "[K] B1 Backpack";
+	displayname = "[K/LS] B1 Backpack";
 	scope = 2;
 	model = "ls_equipment_redfor\backpack\cis\standard\ls_cis_standard_backpack.p3d";
 	maximumload = 150;
@@ -247,12 +247,12 @@ class k_b1_backpack: k_clone_backpack_base
 };
 class k_b1_backpack_heavy: k_b1_backpack
 {
-	displayname = "[K] B1 Heavy Backpack";
+	displayname = "[K/LS] B1 Heavy Backpack";
 	maximumload = 250;
 };
 class k_b1_backpack_rto: k_b1_backpack
 {
-	displayname = "[K] B1 RTO Backpack";
+	displayname = "[K/LS] B1 RTO Backpack";
 	maximumload = 100;
 	tf_dialog="SWLB_clone_rto_radio_dialog";
 	tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
@@ -264,7 +264,7 @@ class k_b1_backpack_rto: k_b1_backpack
 
 class k_b1_backpack_geonosis: k_b1_backpack
 {
-	displayname = "[K] B1 Backpack Geonosis";
+	displayname = "[K/LS] B1 Backpack Geonosis";
 	hiddenselectionstextures[] = 
 	{
 		"442_units\cis_droids\data\b1_backpack_geonosis_co.paa"
@@ -272,7 +272,7 @@ class k_b1_backpack_geonosis: k_b1_backpack
 };
 class k_b1_backpack_heavy_geonosis: k_b1_backpack_heavy
 {
-	displayname = "[K] B1 Heavy Backpack Geonosis";
+	displayname = "[K/LS] B1 Heavy Backpack Geonosis";
 	hiddenselectionstextures[] = 
 	{
 		"442_units\cis_droids\data\b1_backpack_geonosis_co.paa"
@@ -280,7 +280,7 @@ class k_b1_backpack_heavy_geonosis: k_b1_backpack_heavy
 };
 class k_b1_backpack_rto_geonosis: k_b1_backpack_rto
 {
-	displayname = "[K] B1 RTO Backpack Geonosis";
+	displayname = "[K/LS] B1 RTO Backpack Geonosis";
 	hiddenselectionstextures[] = 
 	{
 		"442_units\cis_droids\data\b1_backpack_geonosis_co.paa"
@@ -289,7 +289,7 @@ class k_b1_backpack_rto_geonosis: k_b1_backpack_rto
 
 class k_b1_backpack_woodland: k_b1_backpack
 {
-	displayname = "[K] B1 Backpack Woodland";
+	displayname = "[K/LS] B1 Backpack Woodland";
 	hiddenselectionstextures[] = 
 	{
 		"442_units\cis_droids\data\b1_backpack_woodland_co.paa"
@@ -297,7 +297,7 @@ class k_b1_backpack_woodland: k_b1_backpack
 };
 class k_b1_backpack_heavy_woodland: k_b1_backpack_heavy
 {
-	displayname = "[K] B1 Heavy Backpack Woodland";
+	displayname = "[K/LS] B1 Heavy Backpack Woodland";
 	hiddenselectionstextures[] = 
 	{
 		"442_units\cis_droids\data\b1_backpack_woodland_co.paa"
@@ -305,7 +305,7 @@ class k_b1_backpack_heavy_woodland: k_b1_backpack_heavy
 };
 class k_b1_backpack_rto_woodland: k_b1_backpack_rto
 {
-	displayname = "[K] B1 RTO Backpack Woodland";
+	displayname = "[K/LS] B1 RTO Backpack Woodland";
 	hiddenselectionstextures[] = 
 	{
 		"442_units\cis_droids\data\b1_backpack_woodland_co.paa"
@@ -314,7 +314,7 @@ class k_b1_backpack_rto_woodland: k_b1_backpack_rto
 
 class k_b1_backpack_desert: k_b1_backpack
 {
-	displayname = "[K] B1 Backpack Desert";
+	displayname = "[K/LS] B1 Backpack Desert";
 	hiddenselectionstextures[] = 
 	{
 		"442_units\cis_droids\data\b1_backpack_desert_co.paa"
@@ -322,7 +322,7 @@ class k_b1_backpack_desert: k_b1_backpack
 };
 class k_b1_backpack_heavy_desert: k_b1_backpack_heavy
 {
-	displayname = "[K] B1 Heavy Backpack Desert";
+	displayname = "[K/LS] B1 Heavy Backpack Desert";
 	hiddenselectionstextures[] = 
 	{
 		"442_units\cis_droids\data\b1_backpack_desert_co.paa"
@@ -330,7 +330,7 @@ class k_b1_backpack_heavy_desert: k_b1_backpack_heavy
 };
 class k_b1_backpack_rto_desert: k_b1_backpack_rto
 {
-	displayname = "[K] B1 RTO Backpack Desert";
+	displayname = "[K/LS] B1 RTO Backpack Desert";
 	hiddenselectionstextures[] = 
 	{
 		"442_units\cis_droids\data\b1_backpack_desert_co.paa"
@@ -339,7 +339,7 @@ class k_b1_backpack_rto_desert: k_b1_backpack_rto
 
 class k_b1_backpack_winter: k_b1_backpack
 {
-	displayname = "[K] B1 Backpack Winter";
+	displayname = "[K/LS] B1 Backpack Winter";
 	hiddenselectionstextures[] = 
 	{
 		"442_units\cis_droids\data\b1_backpack_winter_co.paa"
@@ -347,7 +347,7 @@ class k_b1_backpack_winter: k_b1_backpack
 };
 class k_b1_backpack_heavy_winter: k_b1_backpack_heavy
 {
-	displayname = "[K] B1 Heavy Backpack Winter";
+	displayname = "[K/LS] B1 Heavy Backpack Winter";
 	hiddenselectionstextures[] = 
 	{
 		"442_units\cis_droids\data\b1_backpack_winter_co.paa"
@@ -355,7 +355,7 @@ class k_b1_backpack_heavy_winter: k_b1_backpack_heavy
 };
 class k_b1_backpack_rto_winter: k_b1_backpack_rto
 {
-	displayname = "[K] B1 RTO Backpack Winter";
+	displayname = "[K/LS] B1 RTO Backpack Winter";
 	hiddenselectionstextures[] = 
 	{
 		"442_units\cis_droids\data\b1_backpack_winter_co.paa"

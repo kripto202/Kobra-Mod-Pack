@@ -134,6 +134,8 @@
 			"442_misc\box\data\box5_co.paa"
 		};
 		maximumLoad=2000;
+		class transportweapons {};
+		class transportmagazines {};
 		class transportItems
 		{
 			class ACE_fieldDressing
@@ -231,6 +233,8 @@
 	class 442_box5_2: 442_box5_1
 	{
 		displayname = "Box 5 [Basic Medical]";
+		class transportweapons {};
+		class transportmagazines {};
 		class transportItems
 		{
 			class ACE_fieldDressing
@@ -313,10 +317,112 @@
 	};
 	class 442_box10: 442_box2
 	{
-		displayname = "Box 10";
+		displayname = "Box 10 (Clone Ammo)";
 		model = "442_misc\box\box10.p3d";
 		hiddenselectionstextures[] = 
 		{
 			"442_misc\box\data\box10_co.paa"
+		};
+		class transportweapons {};
+		class transportItems {};
+		class transportMagazines
+		{
+			class	442_762_30rnd_blue_mag
+			{
+				magazine = "442_762_30rnd_blue_mag";
+				count = 30;
+			};
+			class 442_556_30rnd_blue_mag
+			{
+				magazine = "442_556_30rnd_blue_mag";
+				count = 30;
+			};
+			class 442_556_200rnd_blue_mag
+			{	
+				magazine = "442_556_200rnd_blue_mag";
+				count = 10;
+			};
+			class 442_45_45rnd_blue_mag
+			{	
+				magazine = "442_45_45rnd_blue_mag";
+				count = 20;
+			};
+			class 442_556_200rnd_blue_mag
+			{	
+				magazine = "442_556_200rnd_blue_mag";
+				count = 10;
+			};
+			class 442_65_60rnd_blue_mag
+			{	
+				magazine = "442_65_60rnd_blue_mag";
+				count = 15;
+			};
+			class 442_9_20rnd_blue_mag
+			{	
+				magazine = "442_9_20rnd_blue_mag";
+				count = 20;
+			};
+			class 442_127x33_10rnd_blue_mag
+			{	
+				magazine = "442_127x33_10rnd_blue_mag";
+				count = 20;
+			};
+			class 442_127x108_5rnd_blue_mag
+			{	
+				magazine = "442_127x108_5rnd_blue_mag";
+				count = 20;
+			};
+		};
+	};
+	class 442_box10_1: 442_box10
+	{
+		displayname = "Box 10 (CIS Ammo)";
+		class transportMagazines
+		{
+			class 442_762_30rnd_red_mag
+			{
+				magazine = "442_762_30rnd_red_mag";
+				count = 30;
+			};
+			class 442_556_30rnd_red_mag
+			{
+				magazine = "442_556_30rnd_red_mag";
+				count = 30;
+			};
+			class 442_556_200rnd_red_mag
+			{	
+				magazine = "442_556_200rnd_red_mag";
+				count = 10;
+			};
+			class 442_45_45rnd_red_mag
+			{	
+				magazine = "442_45_45rnd_red_mag";
+				count = 20;
+			};
+			class 442_556_200rnd_red_mag
+			{	
+				magazine = "442_556_200rnd_red_mag";
+				count = 10;
+			};
+			class 442_65_60rnd_red_mag
+			{	
+				magazine = "442_65_60rnd_red_mag";
+				count = 15;
+			};
+			class 442_9_20rnd_red_mag
+			{	
+				magazine = "442_9_20rnd_red_mag";
+				count = 20;
+			};
+			class 442_127x33_10rnd_red_mag
+			{	
+				magazine = "442_127x33_10rnd_red_mag";
+				count = 20;
+			};
+			class 442_127x108_5rnd_red_mag
+			{	
+				magazine = "442_127x108_5rnd_red_mag";
+				count = 20;
+			};
 		};
 	};

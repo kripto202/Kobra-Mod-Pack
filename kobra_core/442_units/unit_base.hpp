@@ -113,6 +113,108 @@
 		model = "\ls_armor_redfor\uniform\cis\b1\ls_cis_b1_uniform.p3d";
 		faction="442_CIS";
 		editorSubCategory="442_battledroid_inf";
+		class SoundEnvironExt
+		{
+			normalExt[] = {
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step.wss", 0.562, 1}
+			};
+			normal[] = {
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step.wss", 0.562, 1}
+			};
+			road[] = {
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step.wss", 0.562, 1}
+			};
+			rock[] = {
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step.wss", 0.562, 1}
+			};
+			water[] = {
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step.wss", 0.562, 1}
+			};
+			gravel[] = {
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step.wss", 0.562, 1}
+			};
+			gravel2[] = {
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt1.wss", 0.562, 1}, 
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt2.wss", 0.562, 1},
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt3.wss", 0.562, 1},
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt4.wss", 0.562, 1}
+			};
+			sand[] = {
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step.wss", 0.562, 1}
+			};
+			drygrass[] = {
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step.wss", 0.562, 1}
+			};
+			grass[] = {
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_grass.wss", 0.562, 1}
+			};
+			forest[] = {
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt1.wss", 0.562, 1}, 
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt2.wss", 0.562, 1},
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt3.wss", 0.562, 1},
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt4.wss", 0.562, 1}
+			};
+			mud[] = {
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt1.wss", 0.562, 1}, 
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt2.wss", 0.562, 1},
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt3.wss", 0.562, 1},
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt4.wss", 0.562, 1}
+			};
+			wood[] = {
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_wood.wss", 0.562, 1}
+			};
+			wood_int[] = {
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_wood.wss", 0.562, 1}
+			};
+			carpet[] = {
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step.wss", 0.562, 1}
+			};
+			concrete_int[] = {
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step.wss", 0.562, 1}
+			};
+			concrete_ext[] = {
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step.wss", 0.562, 1}
+			};
+			metal[] = {
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_metal.wss", 0.562, 1}
+			};
+			steel[] = {
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step.wss", 0.562, 1}
+			};
+			hallway[] = {
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step.wss", 0.562, 1}
+			};
+			dirt[] = {
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt1.wss", 0.562, 1}, 
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt2.wss", 0.562, 1},
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt3.wss", 0.562, 1},
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt4.wss", 0.562, 1}
+			};
+			parkety[] = {
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt1.wss", 0.562, 1}, 
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt2.wss", 0.562, 1},
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt3.wss", 0.562, 1},
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt4.wss", 0.562, 1}
+			};
+			wave_plate[] = {
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt1.wss", 0.562, 1}, 
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt2.wss", 0.562, 1},
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt3.wss", 0.562, 1},
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt4.wss", 0.562, 1}
+			};
+			lepenka[] = {
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt1.wss", 0.562, 1}, 
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt2.wss", 0.562, 1},
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt3.wss", 0.562, 1},
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step_dirt4.wss", 0.562, 1}
+			};
+			snow[] = {
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step.wss", 0.562, 1}
+			};
+			crawl[] = {
+				{"\ls_armor_redfor\uniform\cis\b1\data\sounds\B1step.wss", 0.562, 1}
+			};
+		};
 	};
 	class k_swla_unit_b1_geonosis_base: k_swla_unit_b1_base
 	{

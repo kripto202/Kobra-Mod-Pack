@@ -20,12 +20,12 @@
 		scopecurator = 2;
 		scopearsenal = 2;
 		picture = "\442_units\clones\data\ui\p15_helmet.paa";
-		hiddenselectionsmaterials[] = 
+		/*hiddenselectionsmaterials[] = 
 		{
 			"442_units\clones\data\helmet\p15_helmet\camo1.rvmat",
 			"442_units\clones\44\data\helmets\p15_helmet_visor.rvmat",
 			"442_units\clones\data\helmet\p15_helmet\illum.rvmat"
-		};
+		};*/
 		hiddenselectionstextures[]=
 		{
 			"442_units\clones\44\data\helmets\44_p15_helmet_co.paa",
@@ -100,12 +100,12 @@
 			"",
 			"442_units\clones\data\helmet\arf_helmet\visor_co.paa"
 		};
-		hiddenselectionsmaterials[] = 
+		/*hiddenselectionsmaterials[] = 
 		{
 			"442_units\clones\data\helmet\arf_helmet\camo1.rvmat",
-			"442_units\clones\data\helmet\arf_helmet\camo2.rvmat",
+			"",
 			"442_units\clones\44\data\helmets\arf_helmet_visor.rvmat"
-		};
+		};*/
 	};
 	class 44_p2_arf_helmet: k_p2_arf_helmet
 	{
@@ -120,12 +120,12 @@
 			"442_units\clones\data\helmet\arf_helmet\camo2_co.paa",
 			"442_units\clones\data\helmet\arf_helmet\visor_co.paa"
 		};
-		hiddenselectionsmaterials[] = 
+		/*hiddenselectionsmaterials[] = 
 		{
 			"442_units\clones\data\helmet\arf_helmet\camo1.rvmat",
 			"442_units\clones\data\helmet\arf_helmet\camo2.rvmat",
 			"442_units\clones\44\data\helmets\arf_helmet_visor.rvmat"
-		};
+		};*/
 	};
 	class 44_eng_helmet: k_eng_helmet
 	{

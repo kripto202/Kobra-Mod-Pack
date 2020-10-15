@@ -5206,6 +5206,134 @@
 		};
 		#include "laat_designs.hpp"
 	};
+	class 442_laat_44: 442_laat_2
+	{
+		displayname="LAAT/I Gunship (44th AB)";
+		hiddenselectionstextures[] = 
+		{
+			"442_a_vehicle\laat\data\44\body_1_co.paa",
+			"442_a_vehicle\laat\data\body_2_co.paa",
+			"442_a_vehicle\laat\data\44\door_1_co.paa",
+			"442_a_vehicle\laat\data\44\door_2_co.paa",
+			"442_a_vehicle\laat\data\44\door_3_co.paa",
+			"442_a_vehicle\laat\data\44\wings_co.paa",
+			"442_a_vehicle\laat\data\missiles_co.paa",
+			"442_a_vehicle\laat\data\cockpits_co.paa",
+			"442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+	class 442_laat_9: 442_laat_2
+	{
+		displayname="LAAT/I Gunship (9th AC)";
+		hiddenselectionstextures[] = 
+		{
+			"442_a_vehicle\laat\data\9\body_1_co.paa",
+			"442_a_vehicle\laat\data\body_2_co.paa",
+			"442_a_vehicle\laat\data\door_1_co.paa",
+			"442_a_vehicle\laat\data\door_2_co.paa",
+			"442_a_vehicle\laat\data\door_3_co.paa",
+			"442_a_vehicle\laat\data\9\wings_co.paa",
+			"442_a_vehicle\laat\data\missiles_co.paa",
+			"442_a_vehicle\laat\data\cockpits_co.paa",
+			"442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+	class 442_laat_9_doc: 442_laat_2
+	{
+		displayname="LAAT/I Gunship (9th AC Doc)";
+		hiddenselectionstextures[] = 
+		{
+			"442_a_vehicle\laat\data\9\body_1_doc_co.paa",
+			"442_a_vehicle\laat\data\body_2_co.paa",
+			"442_a_vehicle\laat\data\door_1_co.paa",
+			"442_a_vehicle\laat\data\door_2_co.paa",
+			"442_a_vehicle\laat\data\door_3_co.paa",
+			"442_a_vehicle\laat\data\9\wings_co.paa",
+			"442_a_vehicle\laat\data\missiles_co.paa",
+			"442_a_vehicle\laat\data\cockpits_co.paa",
+			"442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+	class 442_laat_dukas: 442_laat_2
+	{
+		displayname="LAAT/I Gunship (Dukas)";
+		hiddenselectionstextures[] = 
+		{
+			"442_a_vehicle\laat\data\dukas\body_1_co.paa",
+			"442_a_vehicle\laat\data\dukas\body_2_co.paa",
+			"442_a_vehicle\laat\data\dukas\door_1_co.paa",
+			"442_a_vehicle\laat\data\dukas\door_2_co.paa",
+			"442_a_vehicle\laat\data\dukas\door_3_co.paa",
+			"442_a_vehicle\laat\data\dukas\wings_co.paa",
+			"442_a_vehicle\laat\data\missiles_co.paa",
+			"442_a_vehicle\laat\data\cockpits_co.paa",
+			"442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+	class 442_laat_empire: 442_laat_2
+	{
+		displayname="LAAT/I Gunship (Empire)";
+		hiddenselectionstextures[] = 
+		{
+			"442_a_vehicle\laat\data\empire\body_1_co.paa",
+			"442_a_vehicle\laat\data\empire\body_2_co.paa",
+			"442_a_vehicle\laat\data\empire\door_1_co.paa",
+			"442_a_vehicle\laat\data\empire\door_2_co.paa",
+			"442_a_vehicle\laat\data\empire\door_3_co.paa",
+			"442_a_vehicle\laat\data\empire\wings_co.paa",
+			"442_a_vehicle\laat\data\missiles_co.paa",
+			"442_a_vehicle\laat\data\cockpits_co.paa",
+			"442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+	class 442_laat_delta: 442_laat_2
+	{
+		displayname="LAAT/I Gunship (Delta)";
+		hiddenselectionstextures[] = 
+		{
+			"442_a_vehicle\laat\data\delta\body_1_co.paa",
+			"442_a_vehicle\laat\data\delta\body_2_co.paa",
+			"442_a_vehicle\laat\data\delta\door_1_co.paa",
+			"442_a_vehicle\laat\data\delta\door_2_co.paa",
+			"442_a_vehicle\laat\data\delta\door_3_co.paa",
+			"442_a_vehicle\laat\data\delta\wings_co.paa",
+			"442_a_vehicle\laat\data\missiles_co.paa",
+			"442_a_vehicle\laat\data\cockpits_co.paa",
+			"442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+	class 442_laat_796: 442_laat_2
+	{
+		displayname="LAAT/I Gunship (796th SC)";
+		hiddenselectionstextures[] = 
+		{
+			"442_a_vehicle\laat\data\796\body_1_co.paa",
+			"442_a_vehicle\laat\data\796\body_2_co.paa",
+			"442_a_vehicle\laat\data\796\door_1_co.paa",
+			"442_a_vehicle\laat\data\796\door_2_co.paa",
+			"442_a_vehicle\laat\data\796\door_3_co.paa",
+			"442_a_vehicle\laat\data\796\wings_co.paa",
+			"442_a_vehicle\laat\data\missiles_co.paa",
+			"442_a_vehicle\laat\data\cockpits_co.paa",
+			"442_a_vehicle\laat\data\796\glass_ca.paa"
+		};
+	};
+	class 442_laat_bl: 442_laat_2
+	{
+		displayname="LAAT/I Gunship (Black Legion)";
+		hiddenselectionstextures[] = 
+		{
+			"442_a_vehicle\laat\data\bl\body_1_co.paa",
+			"442_a_vehicle\laat\data\body_2_co.paa",
+			"442_a_vehicle\laat\data\bl\door_1_co.paa",
+			"442_a_vehicle\laat\data\bl\door_2_co.paa",
+			"442_a_vehicle\laat\data\bl\door_3_co.paa",
+			"442_a_vehicle\laat\data\bl\wings_co.paa",
+			"442_a_vehicle\laat\data\missiles_co.paa",
+			"442_a_vehicle\laat\data\cockpits_co.paa",
+			"442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
 	class 442_laat_2_ab: 442_laat_2
 	{
 		class simpleobject
@@ -5595,6 +5723,134 @@
 				};
 			};
 			class TransportCounterMeasuresComponent;
+		};
+	};
+	class 442_laat_44_ab: 442_laat_2_ab
+	{
+		displayname="LAAT/I Gunship (44th AB Airborne)";
+		hiddenselectionstextures[] = 
+		{
+			"442_a_vehicle\laat\data\44\body_1_co.paa",
+			"442_a_vehicle\laat\data\body_2_co.paa",
+			"442_a_vehicle\laat\data\44\door_1_co.paa",
+			"442_a_vehicle\laat\data\44\door_2_co.paa",
+			"442_a_vehicle\laat\data\44\door_3_co.paa",
+			"442_a_vehicle\laat\data\44\wings_co.paa",
+			"442_a_vehicle\laat\data\missiles_co.paa",
+			"442_a_vehicle\laat\data\cockpits_co.paa",
+			"442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+	class 442_laat_9_ab: 442_laat_2_ab
+	{
+		displayname="LAAT/I Gunship (9th AC Airborne)";
+		hiddenselectionstextures[] = 
+		{
+			"442_a_vehicle\laat\data\9\body_1_co.paa",
+			"442_a_vehicle\laat\data\body_2_co.paa",
+			"442_a_vehicle\laat\data\door_1_co.paa",
+			"442_a_vehicle\laat\data\door_2_co.paa",
+			"442_a_vehicle\laat\data\door_3_co.paa",
+			"442_a_vehicle\laat\data\9\wings_co.paa",
+			"442_a_vehicle\laat\data\missiles_co.paa",
+			"442_a_vehicle\laat\data\cockpits_co.paa",
+			"442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+	class 442_laat_9_doc_ab: 442_laat_2_ab
+	{
+		displayname="LAAT/I Gunship (9th AC Doc Airborne)";
+		hiddenselectionstextures[] = 
+		{
+			"442_a_vehicle\laat\data\9\body_1_doc_co.paa",
+			"442_a_vehicle\laat\data\body_2_co.paa",
+			"442_a_vehicle\laat\data\door_1_co.paa",
+			"442_a_vehicle\laat\data\door_2_co.paa",
+			"442_a_vehicle\laat\data\door_3_co.paa",
+			"442_a_vehicle\laat\data\9\wings_co.paa",
+			"442_a_vehicle\laat\data\missiles_co.paa",
+			"442_a_vehicle\laat\data\cockpits_co.paa",
+			"442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+	class 442_laat_dukas_ab: 442_laat_2_ab
+	{
+		displayname="LAAT/I Gunship (Dukas Airborne)";
+		hiddenselectionstextures[] = 
+		{
+			"442_a_vehicle\laat\data\dukas\body_1_co.paa",
+			"442_a_vehicle\laat\data\dukas\body_2_co.paa",
+			"442_a_vehicle\laat\data\dukas\door_1_co.paa",
+			"442_a_vehicle\laat\data\dukas\door_2_co.paa",
+			"442_a_vehicle\laat\data\dukas\door_3_co.paa",
+			"442_a_vehicle\laat\data\dukas\wings_co.paa",
+			"442_a_vehicle\laat\data\missiles_co.paa",
+			"442_a_vehicle\laat\data\cockpits_co.paa",
+			"442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+	class 442_laat_dukas_ab: 442_laat_2_ab
+	{
+		displayname="LAAT/I Gunship (Empire Airborne)";
+		hiddenselectionstextures[] = 
+		{
+			"442_a_vehicle\laat\data\empire\body_1_co.paa",
+			"442_a_vehicle\laat\data\empire\body_2_co.paa",
+			"442_a_vehicle\laat\data\empire\door_1_co.paa",
+			"442_a_vehicle\laat\data\empire\door_2_co.paa",
+			"442_a_vehicle\laat\data\empire\door_3_co.paa",
+			"442_a_vehicle\laat\data\empire\wings_co.paa",
+			"442_a_vehicle\laat\data\missiles_co.paa",
+			"442_a_vehicle\laat\data\cockpits_co.paa",
+			"442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+	class 442_laat_delta_ab: 442_laat_2_ab
+	{
+		displayname="LAAT/I Gunship (Delta Airborne)";
+		hiddenselectionstextures[] = 
+		{
+			"442_a_vehicle\laat\data\delta\body_1_co.paa",
+			"442_a_vehicle\laat\data\delta\body_2_co.paa",
+			"442_a_vehicle\laat\data\delta\door_1_co.paa",
+			"442_a_vehicle\laat\data\delta\door_2_co.paa",
+			"442_a_vehicle\laat\data\delta\door_3_co.paa",
+			"442_a_vehicle\laat\data\delta\wings_co.paa",
+			"442_a_vehicle\laat\data\missiles_co.paa",
+			"442_a_vehicle\laat\data\cockpits_co.paa",
+			"442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+	class 442_laat_796_ab: 442_laat_2_ab
+	{
+		displayname="LAAT/I Gunship (796th SC Airborne)";
+		hiddenselectionstextures[] = 
+		{
+			"442_a_vehicle\laat\data\796\body_1_co.paa",
+			"442_a_vehicle\laat\data\796\body_2_co.paa",
+			"442_a_vehicle\laat\data\796\door_1_co.paa",
+			"442_a_vehicle\laat\data\796\door_2_co.paa",
+			"442_a_vehicle\laat\data\796\door_3_co.paa",
+			"442_a_vehicle\laat\data\796\wings_co.paa",
+			"442_a_vehicle\laat\data\missiles_co.paa",
+			"442_a_vehicle\laat\data\cockpits_co.paa",
+			"442_a_vehicle\laat\data\796\glass_ca.paa"
+		};
+	};
+	class 442_laat_bl_ab: 442_laat_2_ab
+	{
+		displayname="LAAT/I Gunship (Black Legion Airborne)";
+		hiddenselectionstextures[] = 
+		{
+			"442_a_vehicle\laat\data\bl\body_1_co.paa",
+			"442_a_vehicle\laat\data\body_2_co.paa",
+			"442_a_vehicle\laat\data\bl\door_1_co.paa",
+			"442_a_vehicle\laat\data\bl\door_2_co.paa",
+			"442_a_vehicle\laat\data\bl\door_3_co.paa",
+			"442_a_vehicle\laat\data\bl\wings_co.paa",
+			"442_a_vehicle\laat\data\missiles_co.paa",
+			"442_a_vehicle\laat\data\cockpits_co.paa",
+			"442_a_vehicle\laat\data\glass_ca.paa"
 		};
 	};
 	class 442_laat_wreck: Wreck_base_F

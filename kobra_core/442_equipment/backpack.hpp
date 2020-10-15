@@ -90,7 +90,7 @@ class k_clone_small_backpack_radio: k_clone_small_backpack_base
 };
 class k_clone_small_backpack_radio_pouches: k_clone_small_backpack_base
 {
-	displayname = "[K] Clone Trooper Small Radio Backpack";
+	displayname = "[K] Clone Trooper Small Radio Backpack w/ Pouches";
 	scope = 2;
 	maximumload = 150;
 	tf_dialog="SWLB_clone_rto_radio_dialog";
@@ -214,7 +214,7 @@ class 44_clone_small_backpack_radio: k_clone_small_backpack_base
 };
 class 44_clone_small_backpack_radio_pouches: k_clone_small_backpack_base
 {
-	displayname = "[44] Clone Trooper Small Radio Backpack";
+	displayname = "[44] Clone Trooper Small Radio Backpack w/ Pouches";
 	scope = 2;
 	maximumload = 150;
 	tf_dialog="SWLB_clone_rto_radio_dialog";

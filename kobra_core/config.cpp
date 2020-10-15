@@ -193,7 +193,23 @@ class CfgPatches
 			"442_ven_bridge",
 
 			"442_laat_2",
+			"442_laat_44",
+			"442_laat_9",
+			"442_laat_9_doc",
+			"442_laat_dukas",
+			"442_laat_empire",
+			"442_laat_delta",
+			"442_laat_796",
+			"442_laat_bl",
 			"442_laat_2_ab",
+			"442_laat_44_ab",
+			"442_laat_9_ab",
+			"442_laat_9_doc_ab",
+			"442_laat_dukas_ab",
+			"442_laat_empire_ab",
+			"442_laat_delta_ab",
+			"442_laat_796_ab",
+			"442_laat_bl_ab",
 			"442_laat_wreck",
 			"442_laat_door_1",
 			"442_laat_door_2",
@@ -201,7 +217,9 @@ class CfgPatches
 			"442_laat_door_4",
 
 			"442_hmp",
+			"442_hmp_unmarked",
 			"442_hmp_transport",
+			"442_hmp_transport_unmarked",
 
 			"442_a10_plane_cas",
 			"442_fa181_plane_fighter",
@@ -310,7 +328,7 @@ class CfgPatches
 			"442_sweeper",
 			"442_sweeper_2",
 			"442_sweeper_3",
-			"442_vulture_static",
+			//"442_vulture_static",
 
 			"442_floor",
 			"442_roof",
@@ -976,7 +994,7 @@ class cfgweapons
 	class GMG_40mm;
 	class nvgoggles;
 	class V_PlateCarrier1_rgr;
-	class ls_b1_base;
+	class ls_cis_b1_uniform;
 	class gatling_25mm;
 	class U_O_officer_noinsignia_hex_F;
 	class SWLW_WestarM5_scope;
@@ -1317,7 +1335,7 @@ class cfgvehicles
 	#include "442_misc\stimbox.hpp"
 	#include "442_misc\stone_cover.hpp"
 	#include "442_misc\sweeper.hpp"
-	#include "442_misc\vulture.hpp"
+	//#include "442_misc\vulture.hpp"
 	#include "442_misc\bullet.hpp"
 	#include "442_misc\data_pad.hpp"
 	#include "442_misc\t_series.hpp"
@@ -2197,7 +2215,7 @@ class cfgmagazines
 		reloadaction="";
 		useactiontitle="";
 		modelspecial="";
-		model = "SWLW_clones\rifles\DC15a\DC15a_mag_ca.p3d";
+		model = "SWLW_clones\rifles\DC15a\DC15a_mag.p3d";
 		tracersevery=1;
 		picture="";
 		type=256;
