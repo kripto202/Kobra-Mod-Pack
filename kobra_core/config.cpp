@@ -977,13 +977,6 @@ class cfgweapons
 	class Rifle_Long_Base_F;
 	class UGL_F;
 	class Rifle_Base_F;
-	class HeadgearItem;
-	class UniformItem;
-	class VestItem;
-	class V_rebreatherB;
-	class U_I_CombatUniform;
-	class Integrated_NVG_F;
-	class H_HelmetO_ViperSP_hex_F;
 	class LMG_RCWS;
 	class cannon_120mm;
 	class GMG_F;
@@ -992,13 +985,8 @@ class cfgweapons
 	class HMG_127;
 	class LMG_Minigun;
 	class GMG_40mm;
-	class nvgoggles;
-	class V_PlateCarrier1_rgr;
-	class ls_cis_b1_uniform;
 	class gatling_25mm;
-	class U_O_officer_noinsignia_hex_F;
 	class SWLW_WestarM5_scope;
-
 	class swlw_dc15a;
 	class swlw_dc15a_ugl;
 	class swlw_dc15s;
@@ -1034,63 +1022,31 @@ class cfgweapons
 	{
 		class WeaponSlotsInfo;
 	};
-	#include "442_weapons\weapon\clones.hpp"
-	#include "442_weapons\weapon\droids.hpp"
+	//#include "442_weapons\weapon\clones.hpp"
+	//#include "442_weapons\weapon\droids.hpp"
 	#include "442_weapons\weapon\vehicle.hpp"
-	class k_nvg: Integrated_NVG_F
-	{
-		scope=1;
-		visionMode[]={
-			"Normal",
-			"NVG"
-		};
-		modelOptics="";
-		ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
-	};
-	class k_nvg_ti: Integrated_NVG_F
-	{
-		scope=1;
-		visionMode[]={
-			"Normal",
-			"NVG",
-			"TI"
-		};
-		thermalMode[]={0};
-		modelOptics="";
-		ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
-	};
-	class k_ti: Integrated_NVG_F
-	{
-		scope=1;
-		visionMode[] = {
-			"Normal",
-			"TI"
-		};
-		thermalMode[]={0};
-		modelOptics="";
-		ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
-	};
-	#include "442_units\uniform_base.hpp"
-	#include "442_units\helmet_base.hpp"
+
+	//#include "442_units\uniform_base.hpp"
+	//#include "442_units\helmet_base.hpp"
 	//#include "442_units\vest_base.hpp"
-	#include "442_units\uniform.hpp"
-	#include "442_units\helmet.hpp"
+	//#include "442_units\uniform.hpp"
+	//#include "442_units\helmet.hpp"
 	//#include "442_units\vest.hpp"
 
-	#include "442_units\9\9_uniform.hpp"
-	#include "442_units\9\9_helmet.hpp"
+	//#include "442_units\9\9_uniform.hpp"
+	//#include "442_units\9\9_helmet.hpp"
 	//#include "442_units\9\9_vest.hpp"
 
-	#include "442_units\44\44_uniform.hpp"
-	#include "442_units\44\44_helmet.hpp"
+	//#include "442_units\44\44_uniform.hpp"
+	//#include "442_units\44\44_helmet.hpp"
 	//#include "442_units\44\44_vest.hpp"
 
-	#include "442_units\442\442_uniform.hpp"
-	#include "442_units\442\442_helmet.hpp"
+	//#include "442_units\442\442_uniform.hpp"
+	//#include "442_units\442\442_helmet.hpp"
 	//#include "442_units\442\442_vest.hpp"
 
-	#include "442_equipment\attachment.hpp"
-	#include "442_equipment\vest.hpp"
+	//#include "442_equipment\attachment.hpp"
+	//#include "442_equipment\vest.hpp"
 	
 	class Default;
 	class GrenadeLauncher: Default{};
@@ -1316,10 +1272,10 @@ class cfgvehicles
 	#include "442_g_vehicle\aat\aat.hpp"
 	#include "442_g_vehicle\argon_truck\argon_truck.hpp"
 	#include "442_g_vehicle\baw_arty\baw_arty.hpp"
-	#include "442_g_vehicle\mtt\mtt.hpp"
+	//#include "442_g_vehicle\mtt\mtt.hpp"
 	#include "442_g_vehicle\rx200\rx200.hpp"
 	//#include "442_g_vehicle\tx130.hpp"
-	#include "442_g_vehicle\warthog.hpp"
+	//#include "442_g_vehicle\warthog.hpp"
 
 	#include "442_misc\bacta.hpp"
 	#include "442_misc\bottle.hpp"
@@ -1336,7 +1292,7 @@ class cfgvehicles
 	#include "442_misc\stone_cover.hpp"
 	#include "442_misc\sweeper.hpp"
 	//#include "442_misc\vulture.hpp"
-	#include "442_misc\bullet.hpp"
+	//#include "442_misc\bullet.hpp"
 	#include "442_misc\data_pad.hpp"
 	#include "442_misc\t_series.hpp"
 	#include "442_misc\escape_pod.hpp"
@@ -1349,24 +1305,24 @@ class cfgvehicles
 
 	#include "442_w_vehicle\assault_boat.hpp"
 
-	#include "442_units\unit_base.hpp"
-	#include "442_units\backpack_base.hpp"
+	//#include "442_units\unit_base.hpp"
+	//#include "442_units\backpack_base.hpp"
 	//#include "442_units\unit.hpp"
-	#include "442_units\backpack.hpp"
+	//#include "442_units\backpack.hpp"
 
-	#include "442_units\9\9_unit.hpp"
-	#include "442_units\9\9_backpack.hpp"
-	#include "442_units\44\44_unit.hpp"
-	#include "442_units\44\44_backpack.hpp"
-	#include "442_units\442\442_unit.hpp"
-	#include "442_units\442\442_backpack.hpp"
+	//#include "442_units\9\9_unit.hpp"
+	//#include "442_units\9\9_backpack.hpp"
+	//#include "442_units\44\44_unit.hpp"
+	//#include "442_units\44\44_backpack.hpp"
+	//#include "442_units\442\442_unit.hpp"
+	//#include "442_units\442\442_backpack.hpp"
 
 	#include "442_equipment\jumppack.hpp"
 	#include "442_equipment\backpack.hpp"
 	#include "442_turrets\droideka.hpp"
 
-	#include "442_placeable\helmets.hpp"
-	#include "442_placeable\weapons.hpp"
+	//#include "442_placeable\helmets.hpp"
+	//#include "442_placeable\weapons.hpp"
 };
 
 class cfgCloudlets
