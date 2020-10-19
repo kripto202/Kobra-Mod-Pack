@@ -63,7 +63,7 @@
         {
             class magazine
             {
-                weapon = "442_762_30rnd_blue_mag";
+                magazine = "442_762_30rnd_blue_mag";
                 count = 1;
             };
         };
