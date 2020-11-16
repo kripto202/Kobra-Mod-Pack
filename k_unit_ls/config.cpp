@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class k_unit_blufor_ls
+    class k_unit_ls
     {
         author = "KOBRA Mod Team";
         requiredAddons[] = 
@@ -12,10 +12,54 @@ class CfgPatches
         requiredversion = 0.1;
         units[] = 
         {
+			"k_swla_unit_base",
+			"k_swla_unit_mc_base",
+			"k_swla_unit_b1_base",
+			"k_swla_unit_b1_base",
+			"k_swla_unit_b1_geonosis_base",
+			"k_swla_unit_b1_security_base",
+			"k_swla_unit_b1_cmd_base",
+			"k_swla_unit_b1_pilot_base",
+			"k_swla_unit_b1_woodland_base",
+			"k_swla_unit_b1_desert_base",
+			"k_swla_unit_b1_winter_base",
 
+			"k_clone_backpack_base",
+			"k_clone_rto_backpack_base",
+			
         };
         weapons[] = 
         {
+			"k_helmet_base",
+			"k_p2_helmet_base",
+			"k_p15_helmet_base",
+			"k_airborne_helmet_base",
+			"k_p2_pilot_helmet_base",
+			"k_barc_helmet_base",
+			"k_p1_arf_helmet_base",
+			"k_p2_arf_helmet_base",
+			"k_eng_helmet_base",
+			"k_p1_helmet_base",
+			"k_p1_pilot_helmet_base",
+			"k_p1_specops_helmet_base",
+			"k_p2_specops_helmet_base",
+			"k_rex_helmet_base",
+			"k_b1_helmet_base",
+			"k_vest_base",
+			"k_swla_uniform_base",
+			"k_swla_uniform_mc_base",
+			"k_b1_uniform_base",
+			"442_nvg_base",
+			"442_nvg_rangefinder",
+			"442_nvg_clone_visor",
+			"442_nvg_clone_visor_nco",
+			"442_nvg_clone_visor_nco",
+			"442_nvg_clone_visor_command",
+			"442_nvg_clone_visor_cc",
+			"442_nvg_p1_rangefinder",
+			"442_nvg_clone_p1_visor",
+			"442_nvg_clone_p1_visor_cc",
+
 
         };
     };
@@ -28,47 +72,12 @@ class cfgweapons
 	class VestItem;
 	class V_rebreatherB;
 	class U_I_CombatUniform;
-	class Integrated_NVG_F;
 	class H_HelmetO_ViperSP_hex_F;
     class V_PlateCarrier1_rgr;
     class nvgoggles;
     class ls_cis_b1_uniform;
     class U_O_officer_noinsignia_hex_F;
     class ItemCore;
-
-    class k_nvg: Integrated_NVG_F
-	{
-		scope=1;
-		visionMode[]={
-			"Normal",
-			"NVG"
-		};
-		modelOptics="";
-		ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
-	};
-	class k_nvg_ti: Integrated_NVG_F
-	{
-		scope=1;
-		visionMode[]={
-			"Normal",
-			"NVG",
-			"TI"
-		};
-		thermalMode[]={0};
-		modelOptics="";
-		ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
-	};
-	class k_ti: Integrated_NVG_F
-	{
-		scope=1;
-		visionMode[] = {
-			"Normal",
-			"TI"
-		};
-		thermalMode[]={0};
-		modelOptics="";
-		ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
-	};
 
 /////////////helmet//////////////////
     class k_helmet_base: H_HelmetO_ViperSP_hex_F
@@ -486,173 +495,6 @@ class cfgweapons
 			};
 		};
 	};
-	class k_Scout_Helmet_base: k_helmet_base
-	{
-		displayName="[K] Scout Helmet";
-		model="442_units\clones\scout_helmet.p3d";
-		picture="";
-		subItems[]=
-		{
-			"k_nvg_ti"
-		};
-		hiddenSelections[]=
-		{
-			"Camo1",
-			"visor"
-		};
-		class ItemInfo: ItemInfo
-		{
-			uniformModel="442_units\clones\scout_helmet.p3d";
-			hiddenSelections[]=
-			{
-				"Camo1",
-				"visor"
-			};
-		};
-	};
-
-	class k_hunter_helmet_base: k_helmet_base
-	{
-		displayName="[K] Hunter Helmet";
-		model="442_units\clones\hunter_helmet.p3d";
-		picture="";
-		subItems[]=
-		{
-			"k_nvg"
-		};
-		hiddenSelections[]=
-		{
-			"Camo1",
-			"visor"
-		};
-		class ItemInfo: ItemInfo
-		{
-			uniformModel="442_units\clones\hunter_helmet.p3d";
-			hiddenSelections[]=
-			{
-				"Camo1",
-				"visor"
-			};
-		};
-	};
-	class k_crosshair_helmet_base: k_helmet_base
-	{
-		displayName="[K] Crosshair Helmet";
-		model="442_units\clones\crosshair_helmet.p3d";
-		picture="";
-		subItems[]=
-		{
-			"k_nvg"
-		};
-		hiddenSelections[]=
-		{
-			"Camo1",
-			"visor"
-		};
-		class ItemInfo: ItemInfo
-		{
-			uniformModel="442_units\clones\crosshair_helmet.p3d";
-			hiddenSelections[]=
-			{
-				"Camo1",
-				"visor"
-			};
-		};
-	};
-	class k_wrecker_helmet_base: k_helmet_base
-	{
-		displayName="[K] Wrecker Helmet";
-		model="442_units\clones\wrecker_helmet.p3d";
-		picture="";
-		subItems[]=
-		{
-			"k_nvg"
-		};
-		hiddenSelections[]=
-		{
-			"Camo1",
-			"visor"
-		};
-		class ItemInfo: ItemInfo
-		{
-			uniformModel="442_units\clones\wrecker_helmet.p3d";
-			hiddenSelections[]=
-			{
-				"Camo1",
-				"visor"
-			};
-		};
-	};
-	class k_tech_helmet_base: k_helmet_base
-	{
-		displayName="[K] Tech Helmet";
-		model="442_units\clones\tech_helmet.p3d";
-		picture="";
-		subItems[]=
-		{
-			"k_nvg"
-		};
-		hiddenSelections[]=
-		{
-			"Camo1"
-		};
-		class ItemInfo: ItemInfo
-		{
-			uniformModel="442_units\clones\tech_helmet.p3d";
-			hiddenSelections[]=
-			{
-				"Camo1"
-			};
-		};
-	};
-	class k_cadet_helmet_base: k_helmet_base
-	{
-		displayName="[K] Cadet Helmet";
-		model="442_units\clones\cadet_helmet.p3d";
-		picture="";
-		subItems[]=
-		{
-			"k_nvg"
-		};
-		hiddenSelections[]=
-		{
-			"Camo1",
-			"visor"
-		};		
-		class ItemInfo: ItemInfo
-		{
-			uniformModel="442_units\clones\cadet_helmet.p3d";
-			hiddenSelections[]=
-			{
-				"Camo1",
-				"visor"
-			};
-		};
-	};
-	class k_desert_helmet_base: k_helmet_base
-	{
-		displayName="[K] Desert Helmet";
-		model="442_units\clones\desert_helmet.p3d";
-		picture="";
-		subItems[]=
-		{
-			"k_nvg"
-		};
-		hiddenSelections[]=
-		{
-			"Camo1",
-			"visor"
-		};
-		class ItemInfo: ItemInfo
-		{
-			uniformModel="442_units\clones\desert_helmet.p3d";
-			hiddenSelections[]=
-			{
-				"Camo1",
-				"visor"
-			};
-		};
-	};
 
 	class k_b1_helmet_base: k_helmet_base
 	{
@@ -666,7 +508,7 @@ class cfgweapons
 
 		hiddenselectionsmaterials[] = 
 		{
-			"442_units\cis_droids\data\camo1.rvmat"
+			"k_unit_ls\data\uniform\b1_uniform\camo1.rvmat"
 		};
 
 		class ItemInfo: ItemInfo
@@ -774,6 +616,87 @@ class cfgweapons
 		};
 	};
 	#include "uniform.hpp"
+//////////attachments/////////
+	class 442_nvg_base: nvgoggles
+    {
+        scope = 1;
+        ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+        displayname = "nvg_visor_base";
+        model = "";
+        modeloptics = "";
+        visionmode[] = {"Normal", "NVG", "TI"};
+        thermalMode[] = {0};
+    };
+    class SWLB_clone_rangefinder;
+    class 442_nvg_rangefinder: SWLB_clone_rangefinder
+    {
+        scope = 2;
+        displayname = "[K] Clone Rangefinder";
+        visionmode[] = {"Normal", "NVG"};
+        ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+        modeloptics = "";
+    };
+    class SWLB_clone_nvg;
+    class 442_nvg_clone_visor: SWLB_clone_nvg
+    {
+        scope = 2;
+        displayname = "[K] Clone NVG Visor";
+        visionmode[] = {"Normal", "NVG"};
+        ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+        modeloptics = "";
+    };
+    class SWLB_clone_nvg_nco;
+    class 442_nvg_clone_visor_nco: SWLB_clone_nvg_nco
+    {
+        displayname = "[K] Clone NVG Visor NCO";
+        visionmode[] = {"Normal", "NVG"};
+        ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+        modeloptics = "";
+    };
+    class SWLB_clone_ccVisor;
+    class 442_nvg_clone_visor_command: SWLB_clone_ccVisor
+    {
+        scope = 2;
+        displayname = "[K] Clone Visor";
+        visionmode[] = {"Normal", "NVG"};
+        ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+        modeloptics = "";
+    };
+    class SWLB_clone_mcVisor;
+    class 442_nvg_clone_visor_cc: SWLB_clone_mcVisor
+    {
+        displayname = "[K] Clone Visor Commander";
+        visionmode[] = {"Normal", "NVG"};
+        ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+        modeloptics = "";
+    };
+
+///P1 attachments///
+
+    class swlb_cee_p1_rangefinder;
+    class 442_nvg_p1_rangefinder: swlb_cee_p1_rangefinder
+    {
+        displayname = "[K] Clone P1 Rangefinder";
+        visionmode[] = {"Normal", "NVG"};
+        ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+        modeloptics = "";
+    };
+    class SWLB_CEE_P1_Visor;
+    class 442_nvg_clone_p1_visor: SWLB_CEE_P1_Visor
+    {
+        displayname = "[K] Clone P1 NVG Visor";
+        visionmode[] = {"Normal", "NVG"};
+        ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+        modeloptics = "";
+    };
+    class SWLB_CEE_P1_MC_Visor;
+    class 442_nvg_clone_p1_visor_cc: SWLB_CEE_P1_MC_Visor
+    {
+        displayname = "[K] Clone P1 Visor Commander";
+        visionmode[] = {"Normal", "NVG"};
+        ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+        modeloptics = "";
+    };
 };
 class cfgvehicles 
 {
@@ -814,16 +737,16 @@ class cfgvehicles
 		};
 		hiddenselectionsTextures[]=
 		{
-			"442_units\clones\data\uniform\uniform\camo1_co.paa",
-			"442_units\clones\data\uniform\uniform\camo2_co.paa",
-			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\uniform\uniform\camo1_co.paa",
+			"k_unit_ls\data\uniform\uniform\camo2_co.paa",
+			"k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa",
 		};
 
 		hiddenselectionsMaterials[]=
 		{
-			"442_units\clones\data\uniform\uniform\camo1.rvmat",
-			"442_units\clones\data\uniform\uniform\camo2.rvmat",
-			"442_units\clones\data\uniform\mc_uniform\undersuit.rvmat",
+			"k_unit_ls\data\uniform\uniform\camo1.rvmat",
+			"k_unit_ls\data\uniform\uniform\camo2.rvmat",
+			"k_unit_ls\data\uniform\mc_uniform\undersuit.rvmat",
 		};
 
 		linkedItems[]={};
@@ -863,15 +786,15 @@ class cfgvehicles
 		};
 		hiddenselectionsTextures[]=
 		{
-			"442_units\clones\data\uniform\mc_uniform\camo1_co.paa",
-			"442_units\clones\data\uniform\mc_uniform\camo2_co.paa",
-			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa"
+			"k_unit_ls\data\uniform\mc_uniform\camo1_co.paa",
+			"k_unit_ls\data\uniform\mc_uniform\camo2_co.paa",
+			"k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa"
 		};
 		hiddenselectionsMaterials[]=
 		{
-			"442_units\clones\data\uniform\mc_uniform\camo1.rvmat",
-			"442_units\clones\data\uniform\mc_uniform\camo2.rvmat",
-			"442_units\clones\data\uniform\mc_uniform\undersuit.rvmat"
+			"k_unit_ls\data\uniform\mc_uniform\camo1.rvmat",
+			"k_unit_ls\data\uniform\mc_uniform\camo2.rvmat",
+			"k_unit_ls\data\uniform\mc_uniform\undersuit.rvmat"
 		};
 	};
 
@@ -885,13 +808,13 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[] = 
 		{
-			"442_units\cis_droids\data\b1_upper_co.paa",
-			"442_units\cis_droids\data\b1_lower_co.paa"
+			"k_unit_ls\data\uniform\b1_uniform\b1_upper_co.paa",
+			"k_unit_ls\data\uniform\b1_uniform\b1_lower_co.paa"
 		};
 		hiddenselectionsmaterials[] = 
 		{
-			"442_units\cis_droids\data\camo1.rvmat",
-			"442_units\cis_droids\data\camo2.rvmat",
+			"k_unit_ls\data\uniform\b1_uniform\camo1.rvmat",
+			"k_unit_ls\data\uniform\b1_uniform\camo2.rvmat",
 		};
 		uniformclass = "k_swla_b1_uniform";
 		model = "\ls_armor_redfor\uniform\cis\b1\ls_cis_b1_uniform.p3d";
@@ -1004,8 +927,8 @@ class cfgvehicles
 	{
 		hiddenselectionstextures[] = 
 		{
-			"442_units\cis_droids\data\b1_upper_geonosis_co.paa",
-			"442_units\cis_droids\data\b1_lower_geonosis_co.paa"
+			"k_unit_ls\data\uniform\b1_uniform\b1_upper_geonosis_co.paa",
+			"k_unit_ls\data\uniform\b1_uniform\b1_lower_geonosis_co.paa"
 		};
 		uniformclass = "k_swla_b1_geonosis_uniform";
 		editorsubcategory = "442_battledroid_inf_geonosis";
@@ -1014,8 +937,8 @@ class cfgvehicles
 	{
 		hiddenselectionstextures[] = 
 		{
-			"442_units\cis_droids\data\b1_upper_security_co.paa",
-			"442_units\cis_droids\data\b1_lower_co.paa"
+			"k_unit_ls\data\uniform\b1_uniform\b1_upper_security_co.paa",
+			"k_unit_ls\data\uniform\b1_uniform\b1_lower_co.paa"
 		};
 		uniformclass = "k_swla_b1_security_uniform";
 	};
@@ -1023,8 +946,8 @@ class cfgvehicles
 	{
 		hiddenselectionstextures[] = 
 		{
-			"442_units\cis_droids\data\b1_upper_cmd_co.paa",
-			"442_units\cis_droids\data\b1_lower_co.paa"
+			"k_unit_ls\data\uniform\b1_uniform\b1_upper_cmd_co.paa",
+			"k_unit_ls\data\uniform\b1_uniform\b1_lower_co.paa"
 		};
 		uniformclass = "k_swla_b1_cmd_uniform";
 	};
@@ -1032,8 +955,8 @@ class cfgvehicles
 	{
 		hiddenselectionstextures[] = 
 		{
-			"442_units\cis_droids\data\b1_upper_pilot_co.paa",
-			"442_units\cis_droids\data\b1_lower_co.paa"
+			"k_unit_ls\data\uniform\b1_uniform\b1_upper_pilot_co.paa",
+			"k_unit_ls\data\uniform\b1_uniform\b1_lower_co.paa"
 		};
 		uniformclass = "k_swla_b1_pilot_uniform";
 	};
@@ -1041,8 +964,8 @@ class cfgvehicles
 	{
 		hiddenselectionstextures[] = 
 		{
-			"442_units\cis_droids\data\b1_upper_woodland_co.paa",
-			"442_units\cis_droids\data\b1_lower_woodland_co.paa"
+			"k_unit_ls\data\uniform\b1_uniform\b1_upper_woodland_co.paa",
+			"k_unit_ls\data\uniform\b1_uniform\b1_lower_woodland_co.paa"
 		};
 		uniformclass = "k_swla_b1_woodland_uniform";
 		editorsubcategory = "442_battledroid_inf_w";
@@ -1051,8 +974,8 @@ class cfgvehicles
 	{
 		hiddenselectionstextures[] = 
 		{
-			"442_units\cis_droids\data\b1_upper_desert_co.paa",
-			"442_units\cis_droids\data\b1_lower_desert_co.paa"
+			"k_unit_ls\data\uniform\b1_uniform\b1_upper_desert_co.paa",
+			"k_unit_ls\data\uniform\b1_uniform\b1_lower_desert_co.paa"
 		};
 		uniformclass = "k_swla_b1_desert_uniform";
 		editorsubcategory = "442_battledroid_inf_d";
@@ -1061,56 +984,11 @@ class cfgvehicles
 	{
 		hiddenselectionstextures[] = 
 		{
-			"442_units\cis_droids\data\b1_upper_winter_co.paa",
-			"442_units\cis_droids\data\b1_lower_winter_co.paa"
+			"k_unit_ls\data\uniform\b1_uniform\b1_upper_winter_co.paa",
+			"k_unit_ls\data\uniform\b1_uniform\b1_lower_winter_co.paa"
 		};
 		uniformclass = "k_swla_b1_winter_uniform";
 		editorsubcategory = "442_battledroid_inf_winter";
-	};
-
-	class k_barracks_unit: O_officer_F
-	{
-		scope = 2;
-		displayname = "Trooper (Barracks)";
-		editorpreview = "\SWLB_clones\data\ui\editorPreviews\SWLB_clone_base_P2.jpg";
-		icon = "kobra_core\442_icons\data\icon_rifleman.paa";
-		identityTypes[] = {"LanguageENG_F", "Head_NATO"};
-		role = "Rifleman";
-		uniformclass = "k_barracks_uniform";
-		side = 1;
-		faction="kobra_b";
-		editorSubCategory="442_trooper";
-		movesFatigue="CfgMovesFatigueTrooper";
-		hiddenselectionstextures[] = 
-		{
-			"442_units\clones\data\uniform\Barracks.paa"
-		};
-		weapons[]=
-		{
-			"Throw",
-			"Put"
-		};
-		respawnWeapons[]=
-		{
-			"Throw",
-			"Put"
-		};
-		linkedItems[] = 
-		{
-			"ItemMap",
-			"ItemGPS",
-			"ItemRadio",
-			"ItemCompass",
-			"ItemWatch"
-		};
-		respawnlinkedItems[] = 
-		{
-			"ItemMap",
-			"ItemGPS",
-			"ItemRadio",
-			"ItemCompass",
-			"ItemWatch"
-		};
 	};
 	#include "unit.hpp"
 //////////////backpack/////////////

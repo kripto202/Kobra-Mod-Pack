@@ -999,7 +999,41 @@ class cfgweapons
 	class swlw_dc15sa;
 	class swlw_dc17;
 	class swlw_gl;
+	class Integrated_NVG_F;
 
+	class k_nvg: Integrated_NVG_F
+	{
+		scope=1;
+		visionMode[]={
+			"Normal",
+			"NVG"
+		};
+		modelOptics="";
+		ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+	};
+	class k_nvg_ti: Integrated_NVG_F
+	{
+		scope=1;
+		visionMode[]={
+			"Normal",
+			"NVG",
+			"TI"
+		};
+		thermalMode[]={0};
+		modelOptics="";
+		ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+	};
+	class k_ti: Integrated_NVG_F
+	{
+		scope=1;
+		visionMode[] = {
+			"Normal",
+			"TI"
+		};
+		thermalMode[]={0};
+		modelOptics="";
+		ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+	};
 
 	class 442_rifle_base: Rifle_Long_Base_F
 	{

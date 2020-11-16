@@ -438,6 +438,7 @@
 		};
 	};
 
+////////kobra
 	class k_hunter_helmet_base: k_helmet_base
 	{
 		displayName="[K] Hunter Helmet";
@@ -580,6 +581,7 @@
 			};
 		};
 	};
+
 
 	class k_b1_helmet_base: k_helmet_base
 	{
