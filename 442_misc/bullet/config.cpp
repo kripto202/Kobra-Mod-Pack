@@ -1,3 +1,69 @@
+class cfgpatches
+{
+    class 442_misc_bullet
+    {
+        author = "KOBRA Mod Team";
+        requiredAddons[]={};
+		requiredVersion = 0.1;
+		units[] = 
+        {
+            "442_blue_tracer",
+            "442_blue_tracer_05",
+            "442_blue_tracer_025",
+            "442_blue_tracer_b",
+            "442_blue_tracer_b_05",
+            "442_blue_tracer_025",
+            "442_red_tracer",
+            "442_red_tracer_05",
+            "442_red_tracer_025",
+            "442_red_tracer_b",
+            "442_red_tracer_b_05",
+            "442_red_tracer_b_025",
+            "442_green_tracer",
+            "442_green_tracer_05",
+            "442_green_tracer_025",
+            "442_green_tracer_b",
+            "442_green_tracer_b_05",
+            "442_green_tracer_b_05",
+            "442_orange_tracer",
+            "442_orange_tracer_05",
+            "442_orange_tracer_025",
+            "442_orange_tracer_b",
+            "442_orange_tracer_b_05",
+            "442_orange_tracer_b_025",
+            "442_pink_tracer",
+            "442_pink_tracer_05",
+            "442_pink_tracer_025",
+            "442_pink_tracer_b",
+            "442_pink_tracer_b_05",
+            "442_pink_tracer_b_025",
+            "442_purple_tracer",
+            "442_purple_tracer_05",
+            "442_purple_tracer_025",
+            "442_purple_tracer_b",
+            "442_purple_tracer_b_05",
+            "442_purple_tracer_b_025",
+            "442_black_tracer",
+            "442_black_tracer_05",
+            "442_black_tracer_025",
+            "442_white_tracer_b",
+            "442_white_tracer_b_05",
+            "442_white_tracer_b_025",
+            "442_yellow_tracer",
+            "442_yellow_tracer_05",
+            "442_yellow_tracer_025",
+            "442_yellow_tracer_b",
+            "442_yellow_tracer_b_05",
+            "442_yellow_tracer_b_025",
+        };
+        weapons[] = {};
+    };
+};
+
+class cfgvehicles
+{
+    class House_F;
+////////////blue tracer////////////
     class 442_blue_tracer: house_f
     {
         scope = 2;
@@ -33,7 +99,7 @@
         displayname = "Plasma Bolt (Blue/B - Small)";
         model = "442_weapons\ammo\blue_b_tracer_025.p3d";
     };
-
+////////////red tracer////////////////
 	class 442_red_tracer: 442_blue_tracer
     {
         displayname = "Plasma Bolt (Red)";
@@ -65,7 +131,7 @@
         displayname = "Plasma Bolt (Red/B - Small)";
         model = "442_weapons\ammo\red_b_tracer_025.p3d";
     };
-	
+////////////green tracer////////////
 	class 442_green_tracer: 442_blue_tracer
     {
         displayname = "Plasma Bolt (Green)";
@@ -97,7 +163,7 @@
         displayname = "Plasma Bolt (Green/B - Small)";
         model = "442_weapons\ammo\green_b_tracer_025.p3d";
     };
-
+////////////orange tracer///////////////
 	class 442_orange_tracer: 442_blue_tracer
     {
         displayname = "Plasma Bolt (Orange)";
@@ -129,7 +195,7 @@
         displayname = "Plasma Bolt (Orange/B - Small)";
         model = "442_weapons\ammo\orange_b_tracer_025.p3d";
     };
-	
+////////////pink tracer//////////////
 	class 442_pink_tracer: 442_blue_tracer
     {
         displayname = "Plasma Bolt (Pink)";
@@ -161,7 +227,7 @@
         displayname = "Plasma Bolt (Pink/B - Small)";
         model = "442_weapons\ammo\pink_b_tracer_025.p3d";
     };
-
+////////////purple tracer////////////
 	class 442_purple_tracer: 442_blue_tracer
     {
         displayname = "Plasma Bolt (Purple)";
@@ -193,7 +259,7 @@
         displayname = "Plasma Bolt (Purple/B - Small)";
         model = "442_weapons\ammo\purple_tracer_b_025.p3d";
     };
-
+////////////black tracer////////////
 	class 442_black_tracer: 442_blue_tracer
     {
         displayname = "Plasma Bolt (Black)";
@@ -209,7 +275,7 @@
         displayname = "Plasma Bolt (Black - Small)";
         model = "442_weapons\ammo\black_tracer_025.p3d";
     };
-
+////////////white tracer////////////
 	class 442_white_tracer_b: 442_blue_tracer
     {
         displayname = "Plasma Bolt (White/B)";
@@ -225,7 +291,7 @@
         displayname = "Plasma Bolt (White/B - Small)";
         model = "442_weapons\ammo\white_b_tracer_025.p3d";
     };
-	
+////////////yellow tracer/////////////
 	class 442_yellow_tracer: 442_blue_tracer
     {
         displayname = "Plasma Bolt (Yellow)";
@@ -257,5 +323,4 @@
         displayname = "Plasma Bolt (Yellow/B - Small)";
         model = "442_weapons\ammo\yellow_tracer_b_025.p3d";
     };
-    
-    
+};

@@ -1284,7 +1284,7 @@ class cfgvehicles
 			class Movement;
 		};
 	};
-	#include "442_ships\acclamator.hpp"
+	/*#include "442_ships\acclamator.hpp"
 	#include "442_ships\coreship.hpp"
 	#include "442_ships\hardcell.hpp"
 	#include "442_ships\lucrehulk.hpp"
@@ -1296,12 +1296,12 @@ class cfgvehicles
 	#include "442_ships\sds_stealth.hpp"
 	#include "442_ships\subjugator.hpp"
 	#include "442_ships\venator.hpp"
-	#include "442_ships\arquintens.hpp"
+	#include "442_ships\arquintens.hpp"*/
 
-	#include "442_a_vehicle\laat.hpp"
+	/*#include "442_a_vehicle\laat.hpp"
 	#include "442_a_vehicle\hmp\hmp.hpp"
 	#include "442_a_vehicle\a10.hpp"
-	#include "442_a_vehicle\fa181.hpp"
+	#include "442_a_vehicle\fa181.hpp"*/
 
 	#include "442_g_vehicle\aat\aat.hpp"
 	#include "442_g_vehicle\argon_truck\argon_truck.hpp"
@@ -1351,9 +1351,9 @@ class cfgvehicles
 	//#include "442_units\442\442_unit.hpp"
 	//#include "442_units\442\442_backpack.hpp"
 
-	#include "442_equipment\jumppack.hpp"
+	/*#include "442_equipment\jumppack.hpp"
 	#include "442_equipment\backpack.hpp"
-	#include "442_turrets\droideka.hpp"
+	#include "442_turrets\droideka.hpp"*/
 
 	//#include "442_placeable\helmets.hpp"
 	//#include "442_placeable\weapons.hpp"
