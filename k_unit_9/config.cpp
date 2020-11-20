@@ -22,8 +22,10 @@ class cfgvehicles
     class k_clone_backpack_radio;
     class k_clone_backpack_radio_med;
     class k_clone_backpack_rocket;
+    class k_headgear_p2;
     #include "9_unit.hpp"
     #include "9_backpack.hpp"
+    #include "placeable_helmet.hpp"
 };
 class cfgweapons 
 {

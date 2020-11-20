@@ -1056,3 +1056,40 @@ class cfgweapons
 		};
 	};
 };
+
+class cfgvehicles
+{
+	class Item_Base_F;
+	///grenades///
+    class k_mag_thermal_det: Item_Base_F
+    {
+        scope = 2;
+        displayname = "Thermal Det";
+        author = "KOBRA Mod Team";
+        editorcategory = "kobra";
+        editorsubcategory = "442_weapon";
+        vehicleclass = "WeaponsPrimary";
+        class TransportWeapons {};
+        class TransportMagazines
+        {
+            class magazine
+            {
+                magazine = "442_thermal_det_mag";
+                count = 1;
+            };
+        };
+    };
+    class k_mag_impact_grenade: k_weapon_dc15a
+    {
+        displayname = "Impact Grenade";
+        class TransportWeapons {};
+        class TransportMagazines
+        {
+            class magazine
+            {
+                magazine = "442_impact_mag";
+                count = 1;
+            };
+        };
+    };
+};

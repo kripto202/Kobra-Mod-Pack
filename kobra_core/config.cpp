@@ -39,24 +39,6 @@ class CfgSounds
 
 };
 
-class SensorTemplatePassiveRadar;
-class DefaultVehicleSystemsDisplayManagerLeft
-{
-    class components;
-};
-class DefaultVehicleSystemsDisplayManagerRight
-{
-    class components;
-};
-class VehicleSystemsTemplateLeftPilot : DefaultVehicleSystemsDisplayManagerLeft
-{
-    class components;
-};
-class VehicleSystemsTemplateRightPilot : DefaultVehicleSystemsDisplayManagerRight
-{
-    class components;
-};
-
 class CfgFunctions 
 {
 	class kobra_Vehicle
@@ -355,22 +337,4 @@ class CfgVehicleIcons
     442_iconManOfficer="kobra_core\442_icons\data\icon_leader.paa";
 	pictureHeal="\A3\ui_f\data\map\vehicleicons\pictureHeal_ca.paa";
 	pictureRepair="\A3\ui_f\data\map\vehicleicons\pictureRepair_ca.paa";
-};
-
-class cfgGroups
-{
-	class East
-	{
-		name = "OPFOR";
-		side = 0;
-		class k_cis_group
-		{
-			name = "[K] CIS";
-			#include "442_groups\cis_standard.hpp"
-			#include "442_groups\cis_security.hpp"
-			#include "442_groups\cis_woodland.hpp"
-			#include "442_groups\cis_desert.hpp"
-			#include "442_groups\cis_winter.hpp"
-		};
-	};
 };

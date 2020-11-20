@@ -851,6 +851,7 @@ class cfgvehicles
     class k_swla_unit_b1_base;
     class O_officer_F;
 	class B_Kitbag_rgr;
+	class headgear_base_f;
 /////////////unit//////////////
     class k_swla_unit_base: B_Soldier_02_f
 	{
@@ -1139,4 +1140,23 @@ class cfgvehicles
 	};
 	#include "unit.hpp"
 	#include "backpack.hpp"
+	#include "placeable_helmet.hpp"
+};
+
+class cfgGroups
+{
+	class East
+	{
+		name = "OPFOR";
+		side = 0;
+		class k_cis_group
+		{
+			name = "[K] CIS";
+			#include "cis_standard_group.hpp"
+			#include "cis_security_group.hpp"
+			#include "cis_woodland_group.hpp"
+			#include "cis_desert_group.hpp"
+			#include "cis_winter_group.hpp"
+		};
+	};
 };
