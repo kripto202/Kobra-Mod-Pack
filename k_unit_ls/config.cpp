@@ -669,7 +669,7 @@ class cfgweapons
 	};
 	#include "helmet.hpp"
 ////////////////vest//////////////////
-    class k_vest_base: V_PlateCarrier1_rgr
+    class k_vest_base: V_rebreatherB
     {
         author = "Kobra Mod Team, Clock, and Dezi";
         displayname = "vest base";
