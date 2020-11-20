@@ -1,3 +1,68 @@
+class cfgpatches
+{
+    class k_vehicle_ls_mtt
+    {
+        author = "KOBRA Mod Team";
+        requiredAddons[]={};
+		requiredVersion = 0.1;
+		units[] = 
+        {
+            "442_mtt",
+            "442_mtt_wreck"
+        };
+        weapons[] = {};
+    };
+};
+
+class cfgvehicles 
+{
+    class Land;
+    class LandVehicle: Land
+	{
+		class NewTurret;
+	};
+    class Tank: LandVehicle
+	{
+		class NewTurret;
+		class Sounds;
+		class HitPoints;
+		class CommanderOptics;
+	};
+	class Tank_F: Tank
+	{
+		class Turrets
+		{
+			class MainTurret: NewTurret
+			{
+				class Turrets
+				{
+					class CommanderOptics;
+				};
+				class Components;
+			};
+		};
+		class AnimationSources;
+		class ViewPilot;
+		class ViewOptics;
+		class CargoTurret;
+		class RCWSOptics;
+		class ViewGunner;
+		class ViewCargo;
+		class HeadLimits;
+		class HitPoints: HitPoints
+		{
+			class HitHull;
+			class HitFuel;
+			class HitEngine;
+			class HitLTrack;
+			class HitRTrack;
+		};
+		class Sounds: Sounds
+		{
+			class Engine;
+			class Movement;
+		};
+	};
     class 442_mtt: Tank_F
 	{
 		author ="Kobra Mod Team";
@@ -121,7 +186,6 @@
 		{
 		};
 	};
-	
 	class 442_mtt_wreck: Wreck_base_F
 	{
 		author = "Kobra Mod Team";
@@ -135,3 +199,4 @@
 		editorCategory = "kobra";
 		editorSubcategory = "442_wrecks";
 	};
+};

@@ -1,3 +1,97 @@
+class cfgpatches
+{
+    class k_weapon_ls
+    {
+        author = "KOBRA Mod Team";
+        requiredAddons[]={};
+		requiredVersion = 0.1;
+		units[] = {};
+        weapons[] = 
+        {
+            "442_DC15A",
+            "442_DC15A_ugl",
+            "442_DC15A_MC",
+            "442_dc15s",
+            "442_dc15s_ab",
+            "442_DC15SA",
+            "442_DC15X",
+            "442_DC15Y",
+            "442_DC17",
+            "442_GL",
+            "442_RPS6",
+            "442_WestarM5",
+            "442_WestarM5_scope",
+            "442_WestarM5_ugl",
+            "442_Z6",
+            "442_e6z",
+        };
+    };
+};
+
+class Mode_SemiAuto;
+class Mode_FullAuto;
+class Mode_Burst;
+class SlotInfo;
+class MuzzleSlot;
+class CowsSlot;
+class PointerSlot;
+class UnderBarrelSlot;
+class UGL_F;
+
+class cfgweapons
+{
+    class MGun;
+    class gatling_20mm;
+    class missiles_titan;
+	class ItemCore;
+	class InventoryItem_Base_F;
+	class InventoryOpticsItem_Base_F;
+	class Rifle_Long_Base_F;
+	class UGL_F;
+	class Rifle_Base_F;
+	class LMG_RCWS;
+	class cannon_120mm;
+	class GMG_F;
+	class missiles_ASRAAM;
+	class CannonCore;
+	class HMG_127;
+	class LMG_Minigun;
+	class GMG_40mm;
+	class gatling_25mm;
+	class SWLW_WestarM5_scope;
+	class swlw_dc15a;
+	class swlw_dc15a_ugl;
+	class swlw_dc15s;
+	class swlw_dc15x;
+	class swlw_e5;
+	class swlw_e5c;
+	class swlw_westarm5;
+	class swlw_westarm5_ugl;
+	class swlw_z6;
+	class swlw_dc15sa;
+	class swlw_dc17;
+	class swlw_gl;
+	class 442_rifle_base: Rifle_Long_Base_F
+	{
+		author="kripto202";
+		scope=1;
+		class WeaponSlotsInfo
+		{
+			class SlotInfo;
+		};
+		class GunParticles;
+		class AnimationSources;
+	};
+	class pistol;
+	class Pistol_Base_F: Pistol
+	{
+		class WeaponSlotsInfo;
+	};
+	class Launcher;
+	class Launcher_Base_F: Launcher
+	{
+		class WeaponSlotsInfo;
+	};
 ///dc15a   
     class 442_DC15A: swlw_dc15a
 	{
@@ -1745,7 +1839,7 @@
 		};
 		hiddenselectionstextures[] = 
 		{
-			"\442_weapons\clones\rps6\data\kobra_rps6.paa"
+			"\442_weapons\weapons\rps6\data\kobra_rps6.paa"
 		};
 		handAnim[] = {"OFP2_ManSkeleton","\SWLW_clones\launchers\rps6\anims\RPS6_handanim.rtm"};
 		reloadAction="ReloadRPG";
@@ -2487,3 +2581,4 @@
 			"442_556_500rnd_red_mag"
 		};
 	};
+};

@@ -4,7 +4,7 @@
 		author = "Rancor";
 		displayName = "dekaMagazine";
 		picture = "\SWLW_droids\smgs\e5\data\ui\e5_mag_ui.paa";
-		ammo = "Droideka_Ammo";
+		ammo = "Droideka_ammo";
 		tracersEvery = 1;
 		type = 16;
 		count = 30;

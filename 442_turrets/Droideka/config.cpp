@@ -1,6 +1,24 @@
-	class k_CIS_Droideka: StaticMGWeapon
+class cfgpatches
+{
+    class 442_turrets_droideka
+    {
+        author = "KOBRA Mod Team";
+        requiredAddons[]={};
+		requiredVersion = 0.1;
+		units[] = {};
+        weapons[] = 
+        {
+            "k_CIS_Droideka",
+            "Droideka_wreck"
+        };
+    };
+};
+
+class cfgvehicles
+{
+    class k_CIS_Droideka: StaticMGWeapon
 	{
-		model="442_turrets\Droideka\data\turret\droideka.p3d";
+		model="442_turrets\droideka\droideka.p3d";
 		author="Kobra Mod Team";
 		DisplayName="Droideka";
 		picture = "\A3\Static_F_Gamma\data\UI\gear_StaticTurret_AA_CA.paa";
@@ -13,7 +31,7 @@
 		scope = 2;
 		side = 0;
 		hiddenSelections[] = {"Camo1"};
-		hiddenSelectionsTextures[] = {"442_turrets\Droideka\data\Textures\Droideka_CO.paa"};
+		hiddenSelectionsTextures[] = {"442_turrets\droideka\data\Droideka_CO.paa"};
 		enableGPS = 1;
 		radarType = 4;
 		gunnerCanSee = "1+2+4+16";
@@ -239,15 +257,15 @@
 			tex[] = {};
 			mat[] = 
 			{
-				"442_turrets\Droideka\data\Textures\Droideka.rvmat",
-				"442_turrets\Droideka\data\Textures\Droideka.rvmat",
-				"442_turrets\Droideka\data\Textures\Droideka.rvmat",
-				"442_turrets\Droideka\data\Textures\Droideka.rvmat",
-				"442_turrets\Droideka\data\Textures\Droideka.rvmat",
-				"442_turrets\Droideka\data\Textures\Droideka.rvmat",
-				"442_turrets\Droideka\data\Textures\Droideka.rvmat",
-				"442_turrets\Droideka\data\Textures\Droideka.rvmat",
-				"442_turrets\Droideka\data\Textures\Droideka.rvmat"
+				"442_turrets\droideka\data\Droideka.rvmat",
+				"442_turrets\droideka\data\Droideka.rvmat",
+				"442_turrets\droideka\data\Droideka.rvmat",
+				"442_turrets\droideka\data\Droideka.rvmat",
+				"442_turrets\droideka\data\Droideka.rvmat",
+				"442_turrets\droideka\data\Droideka.rvmat",
+				"442_turrets\droideka\data\Droideka.rvmat",
+				"442_turrets\droideka\data\Droideka.rvmat",
+				"442_turrets\droideka\data\Droideka.rvmat"
 			};
 		};
 		destrType = "DestructWreck";
@@ -355,7 +373,7 @@
 	class Droideka_wreck: Wreck
 	{
 		scope = 1;
-		model = "442_turrets\Droideka\data\droideka.p3d";
+		model = "442_turrets\Droideka\droideka.p3d";
 		typicalCargo[] = {};
 		irTarget = 0;
 		transportAmmo = 0;
@@ -364,3 +382,4 @@
 		transportSoldier = 1;
 		class Eventhandlers{};
 	};
+};
