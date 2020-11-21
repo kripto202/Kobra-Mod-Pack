@@ -15,7 +15,12 @@ class CfgPatches
 		};
 		requiredVersion = 0.1;
 		units[] = {};
-		weapons[] = {};
+		weapons[] = 
+		{
+			"k_nvg",
+			"k_nvg_ti",
+			"k_ti"
+		};
 	};
 };
 
@@ -69,18 +74,27 @@ class CfgFunctions
 
 class cfgFactionClasses
 {
-	class 442_siege_bat
-	{
-		displayName = "[K] 442nd Siege Battalion";
-		priority = 1;
-		side = 1;
-		icon = "";
-	};
 	class 442_CIS
 	{
 		displayname = "[K] CIS";
 		priority = 1;
 		side = 0;
+	};
+	class 442_CIS_woodland: 442_CIS
+	{
+		displayname = "[K] CIS (Woodland)";
+	};
+	class 442_CIS_desert: 442_CIS
+	{
+		displayname = "[K] CIS (Desert)";
+	};
+	class 442_CIS_secruity: 442_CIS
+	{
+		displayname = "[K] CIS (Secruity)";
+	};
+	class 442_CIS_winter: 442_CIS
+	{
+		displayname = "[K] CIS (Winter)";
 	};
 	class black_legion
 	{
@@ -97,6 +111,18 @@ class cfgFactionClasses
 	class 9_ac
 	{
 		displayname = "[K] 9th Assault Corps";
+		priority = 1;
+		side = 1;
+	};
+	class 212_fc
+	{
+		displayname = "[K] 212th Falcon Company";
+		priority = 1;
+		side = 1;
+	};
+	class 125_ac
+	{
+		displayname = "[K] 125th Assault Corps";
 		priority = 1;
 		side = 1;
 	};
@@ -322,19 +348,4 @@ class cfgweapons
 		modelOptics="";
 		ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
 	};
-};
-
-class CfgVehicleIcons
-{
-	442_iconMan="\A3\ui_f\data\map\vehicleicons\iconMan_ca.paa";
-    442_iconManMedic="kobra_core\442_icons\data\icon_medic.paa";
-    442_iconManEngineer="kobra_core\442_icons\data\icon_engineer.paa";
-    442_iconManExplosive="kobra_core\442_icons\data\icon_engineer.paa";
-    442_iconManRecon="kobra_core\442_icons\data\icon_marksman.paa";
-	442_iconManAT="kobra_core\442_icons\data\icon_at.paa";
-    442_iconManLeader="kobra_core\442_icons\data\icon_leader.paa";
-    442_iconManMG="kobra_core\442_icons\data\icon_mg.paa";
-    442_iconManOfficer="kobra_core\442_icons\data\icon_leader.paa";
-	pictureHeal="\A3\ui_f\data\map\vehicleicons\pictureHeal_ca.paa";
-	pictureRepair="\A3\ui_f\data\map\vehicleicons\pictureRepair_ca.paa";
 };

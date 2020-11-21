@@ -49,7 +49,7 @@ class cfgvehicles
 		};
 		hiddenSelectionsTextures[] = 
 		{
-			"442_g_vehicle\warthog\data\rep_warthog.paa",
+			"k_vehicle_optre\warthog\data\rep_warthog.paa",
 			"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
 		};
 		class texturesources
@@ -60,7 +60,7 @@ class cfgvehicles
 				author = "Kobra Mod Team";
 				textures[] = 
 				{
-					"442_g_vehicle\warthog\data\rep_warthog.paa",
+					"k_vehicle_optre\warthog\data\rep_warthog.paa",
 					"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
 				};
 				factions[] = 
@@ -68,14 +68,14 @@ class cfgvehicles
 					"kobra_b"
 				};
 			};
-			class 442
+			class 44_ab
 			{
-				displayname = "442nd Siege Battalion";
+				displayname = "44th Attack Battalion";
 				author = "Kobra Mod Team";
 				textures[] = 
 				{
-					"442_g_vehicle\warthog\data\442_warthog.paa",
-					"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
+					"k_vehicle_optre\warthog\data\44_warthog.paa",
+					"OPTRE_Vehicles\Warthog\data\warthog_addons_black_co.paa"
 				};
 				factions[] = 
 				{
@@ -88,7 +88,7 @@ class cfgvehicles
 				author = "Kobra Mod Team";
 				textures[] = 
 				{
-					"442_g_vehicle\warthog\data\bl_warthog.paa",
+					"k_vehicle_optre\warthog\data\bl_warthog.paa",
 					"OPTRE_Vehicles\Warthog\data\warthog_addons_black_co.paa"
 				};
 				factions[] = 
@@ -102,8 +102,37 @@ class cfgvehicles
 				author = "Kobra Mod Team";
 				textures[] = 
 				{
-					"442_g_vehicle\warthog\data\9_warthog.paa",
+					"k_vehicle_optre\warthog\data\9_warthog.paa",
 					"OPTRE_Vehicles\Warthog\data\warthog_addons_black_co.paa"
+				};
+				factions[] = 
+				{
+					"kobra_b"
+				};
+			};
+			class 125_ac
+			{
+				displayname = "125th Assault Corps";
+				author = "Kobra Mod Team";
+				textures[] = 
+				{
+					"k_vehicle_optre\warthog\data\9_warthog.paa",
+					"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
+				};
+				factions[] = 
+				{
+					"kobra_b"
+				};
+			};
+		};
+		class 212_fc
+			{
+				displayname = "212th Falcon Company";
+				author = "Kobra Mod Team";
+				textures[] = 
+				{
+					"k_vehicle_optre\warthog\data\212_warthog.paa",
+					"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
 				};
 				factions[] = 
 				{
@@ -114,9 +143,11 @@ class cfgvehicles
 		texturelist[] = 
 		{
 			"default", 1,
-			"442", 0,
-			"black_legion", 0,
-			"9_ac", 0
+			"44_ab", 1,
+			"black_legion", 1,
+			"9_ac", 1,
+			"125_ac", 1,
+			"212_fc", 1,
 		};
 	};
 //MG
@@ -135,7 +166,7 @@ class cfgvehicles
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_troop"};
 		hiddenSelectionsTextures[] = 
 		{
-			"442_g_vehicle\warthog\data\rep_warthog.paa",
+			"k_vehicle_optre\warthog\data\rep_warthog.paa",
 			"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
 		};
 		class texturesources
@@ -146,7 +177,7 @@ class cfgvehicles
 				author = "Kobra Mod Team";
 				textures[] = 
 				{
-					"442_g_vehicle\warthog\data\rep_warthog.paa",
+					"k_vehicle_optre\warthog\data\rep_warthog.paa",
 					"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
 				};
 				factions[] = 
@@ -154,14 +185,14 @@ class cfgvehicles
 					"kobra_b"
 				};
 			};
-			class 442
+			class 44_ab
 			{
-				displayname = "442nd Siege Battalion";
+				displayname = "44th Attack Battalion";
 				author = "Kobra Mod Team";
 				textures[] = 
 				{
-					"442_g_vehicle\warthog\data\442_warthog.paa",
-					"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
+					"k_vehicle_optre\warthog\data\44_warthog.paa",
+					"OPTRE_Vehicles\Warthog\data\warthog_addons_black_co.paa"
 				};
 				factions[] = 
 				{
@@ -174,7 +205,7 @@ class cfgvehicles
 				author = "Kobra Mod Team";
 				textures[] = 
 				{
-					"442_g_vehicle\warthog\data\bl_warthog.paa",
+					"k_vehicle_optre\warthog\data\bl_warthog.paa",
 					"OPTRE_Vehicles\Warthog\data\warthog_addons_black_co.paa"
 				};
 				factions[] = 
@@ -188,8 +219,36 @@ class cfgvehicles
 				author = "Kobra Mod Team";
 				textures[] = 
 				{
-					"442_g_vehicle\warthog\data\9_warthog.paa",
+					"k_vehicle_optre\warthog\data\9_warthog.paa",
 					"OPTRE_Vehicles\Warthog\data\warthog_addons_black_co.paa"
+				};
+				factions[] = 
+				{
+					"kobra_b"
+				};
+			};
+			class 125_ac
+			{
+				displayname = "125th Assault Corps";
+				author = "Kobra Mod Team";
+				textures[] = 
+				{
+					"k_vehicle_optre\warthog\data\9_warthog.paa",
+					"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
+				};
+				factions[] = 
+				{
+					"kobra_b"
+				};
+			};
+			class 212_fc
+			{
+				displayname = "212th Falcon Company";
+				author = "Kobra Mod Team";
+				textures[] = 
+				{
+					"k_vehicle_optre\warthog\data\212_warthog.paa",
+					"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
 				};
 				factions[] = 
 				{
@@ -200,8 +259,11 @@ class cfgvehicles
 		texturelist[] = 
 		{
 			"default", 1,
-			"442", 1,
-			"black_legion", 1
+			"44_ab", 1,
+			"black_legion", 1,
+			"9_ac", 1,
+			"125_ac", 1,
+			"212_fc", 1,
 		};
 	};
 //TT
@@ -220,7 +282,7 @@ class cfgvehicles
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_mg","attach_antenna"};
 		hiddenSelectionsTextures[] = 
 		{
-			"442_g_vehicle\warthog\data\rep_warthog.paa",
+			"k_vehicle_optre\warthog\data\rep_warthog.paa",
 			"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
 		};
 		class texturesources
@@ -231,7 +293,7 @@ class cfgvehicles
 				author = "Kobra Mod Team";
 				textures[] = 
 				{
-					"442_g_vehicle\warthog\data\rep_warthog.paa",
+					"k_vehicle_optre\warthog\data\rep_warthog.paa",
 					"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
 				};
 				factions[] = 
@@ -239,14 +301,14 @@ class cfgvehicles
 					"kobra_b"
 				};
 			};
-			class 442
+			class 44_ab
 			{
-				displayname = "442nd Siege Battalion";
+				displayname = "44th Attack Battalion";
 				author = "Kobra Mod Team";
 				textures[] = 
 				{
-					"442_g_vehicle\warthog\data\442_warthog.paa",
-					"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
+					"k_vehicle_optre\warthog\data\44_warthog.paa",
+					"OPTRE_Vehicles\Warthog\data\warthog_addons_black_co.paa"
 				};
 				factions[] = 
 				{
@@ -259,7 +321,7 @@ class cfgvehicles
 				author = "Kobra Mod Team";
 				textures[] = 
 				{
-					"442_g_vehicle\warthog\data\bl_warthog.paa",
+					"k_vehicle_optre\warthog\data\bl_warthog.paa",
 					"OPTRE_Vehicles\Warthog\data\warthog_addons_black_co.paa"
 				};
 				factions[] = 
@@ -273,8 +335,37 @@ class cfgvehicles
 				author = "Kobra Mod Team";
 				textures[] = 
 				{
-					"442_g_vehicle\warthog\data\9_warthog.paa",
+					"k_vehicle_optre\warthog\data\9_warthog.paa",
 					"OPTRE_Vehicles\Warthog\data\warthog_addons_black_co.paa"
+				};
+				factions[] = 
+				{
+					"kobra_b"
+				};
+			};
+			class 125_ac
+			{
+				displayname = "125th Assault Corps";
+				author = "Kobra Mod Team";
+				textures[] = 
+				{
+					"k_vehicle_optre\warthog\data\9_warthog.paa",
+					"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
+				};
+				factions[] = 
+				{
+					"kobra_b"
+				};
+			};
+		};
+		class 212_fc
+			{
+				displayname = "212th Falcon Company";
+				author = "Kobra Mod Team";
+				textures[] = 
+				{
+					"k_vehicle_optre\warthog\data\212_warthog.paa",
+					"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
 				};
 				factions[] = 
 				{
@@ -285,9 +376,11 @@ class cfgvehicles
 		texturelist[] = 
 		{
 			"default", 1,
-			"442", 1,
+			"44_ab", 1,
 			"black_legion", 1,
-			"9_ac", 1
+			"9_ac", 1,
+			"125_ac", 1,
+			"212_fc", 1,
 		};
 	};
 //AT
@@ -306,7 +399,7 @@ class cfgvehicles
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia"};
 		hiddenSelectionsTextures[] = 
 		{
-			"442_g_vehicle\warthog\data\rep_warthog.paa",
+			"k_vehicle_optre\warthog\data\rep_warthog.paa",
 			"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
 		};
 		class texturesources
@@ -317,7 +410,7 @@ class cfgvehicles
 				author = "Kobra Mod Team";
 				textures[] = 
 				{
-					"442_g_vehicle\warthog\data\rep_warthog.paa",
+					"k_vehicle_optre\warthog\data\rep_warthog.paa",
 					"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
 				};
 				factions[] = 
@@ -325,14 +418,14 @@ class cfgvehicles
 					"kobra_b"
 				};
 			};
-			class 442
+			class 44ab
 			{
-				displayname = "442nd Siege Battalion";
+				displayname = "44th Attack Battalion";
 				author = "Kobra Mod Team";
 				textures[] = 
 				{
-					"442_g_vehicle\warthog\data\442_warthog.paa",
-					"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
+					"k_vehicle_optre\warthog\data\44_warthog.paa",
+					"OPTRE_Vehicles\Warthog\data\warthog_addons_black_co.paa"
 				};
 				factions[] = 
 				{
@@ -345,7 +438,7 @@ class cfgvehicles
 				author = "Kobra Mod Team";
 				textures[] = 
 				{
-					"442_g_vehicle\warthog\data\bl_warthog.paa",
+					"k_vehicle_optre\warthog\data\bl_warthog.paa",
 					"OPTRE_Vehicles\Warthog\data\warthog_addons_black_co.paa"
 				};
 				factions[] = 
@@ -359,8 +452,37 @@ class cfgvehicles
 				author = "Kobra Mod Team";
 				textures[] = 
 				{
-					"442_g_vehicle\warthog\data\9_warthog.paa",
+					"k_vehicle_optre\warthog\data\9_warthog.paa",
 					"OPTRE_Vehicles\Warthog\data\warthog_addons_black_co.paa"
+				};
+				factions[] = 
+				{
+					"kobra_b"
+				};
+			};
+			class 125_ac
+			{
+				displayname = "125th Assault Corps";
+				author = "Kobra Mod Team";
+				textures[] = 
+				{
+					"k_vehicle_optre\warthog\data\9_warthog.paa",
+					"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
+				};
+				factions[] = 
+				{
+					"kobra_b"
+				};
+			};
+		};
+		class 212_fc
+			{
+				displayname = "212th Falcon Company";
+				author = "Kobra Mod Team";
+				textures[] = 
+				{
+					"k_vehicle_optre\warthog\data\212_warthog.paa",
+					"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
 				};
 				factions[] = 
 				{
@@ -371,9 +493,11 @@ class cfgvehicles
 		texturelist[] = 
 		{
 			"default", 1,
-			"442", 1,
+			"44_ab", 1,
 			"black_legion", 1,
-			"9_ac", 1
+			"9_ac", 1,
+			"125_ac", 1,
+			"212_fc", 1,
 		};
 	};
 /*Deserter hogs
@@ -398,8 +522,8 @@ class cfgvehicles
 		};
 		hiddenSelectionsTextures[] = 
 		{
-			"442_g_vehicle\warthog\data\442_warthog_body_black.paa",
-			"442_g_vehicle\warthog\data\442_warthog_addons_black.paa"
+			"k_vehicle_optre\warthog\data\442_warthog_body_black.paa",
+			"k_vehicle_optre\warthog\data\442_warthog_addons_black.paa"
 		};
 	};
 	class 442_deserter_warthog_mg_black: 442_warthog_mg
@@ -413,8 +537,8 @@ class cfgvehicles
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_troop"};
 		hiddenSelectionsTextures[] = 
 		{
-			"442_g_vehicle\warthog\data\442_warthog_body_black.paa",
-			"442_g_vehicle\warthog\data\442_warthog_addons_black.paa"
+			"k_vehicle_optre\warthog\data\442_warthog_body_black.paa",
+			"k_vehicle_optre\warthog\data\442_warthog_addons_black.paa"
 		};
 	};
 	class 442_deserter_warthog_at_black: OPTRE_M12A1_LRV
@@ -428,8 +552,8 @@ class cfgvehicles
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_troop"};
 		hiddenSelectionsTextures[] = 
 		{
-			"442_g_vehicle\warthog\data\442_warthog_body_black.paa",
-			"442_g_vehicle\warthog\data\442_warthog_addons_black.paa"
+			"k_vehicle_optre\warthog\data\442_warthog_body_black.paa",
+			"k_vehicle_optre\warthog\data\442_warthog_addons_black.paa"
 		};
 	};
 	class 442_deserter_warthog_tt_black: OPTRE_M813_TT
@@ -443,8 +567,8 @@ class cfgvehicles
 		hiddenSelections[] = {"camo1","camo2","clan","clan_text","insignia","attach_apc","attach_troop"};
 		hiddenSelectionsTextures[] = 
 		{
-			"442_g_vehicle\warthog\data\442_warthog_body_black.paa",
-			"442_g_vehicle\warthog\data\442_warthog_addons_black.paa"
+			"k_vehicle_optre\warthog\data\442_warthog_body_black.paa",
+			"k_vehicle_optre\warthog\data\442_warthog_addons_black.paa"
 		};
 	};
 	class 442_deserter_warthog_unarmed_tan: 442_deserter_warthog_unarmed_black
@@ -454,8 +578,8 @@ class cfgvehicles
 		editorsubcategory = "442_deserters_ground_veh_tan";
 		hiddenSelectionsTextures[] = 
 		{
-			"442_g_vehicle\warthog\data\442_warthog_body_tan.paa",
-			"442_g_vehicle\warthog\data\442_warthog_addons_tan.paa"
+			"k_vehicle_optre\warthog\data\442_warthog_body_tan.paa",
+			"k_vehicle_optre\warthog\data\442_warthog_addons_tan.paa"
 		};
 	};
 	class 442_deserter_warthog_mg_tan: 442_deserter_warthog_mg_black
@@ -465,8 +589,8 @@ class cfgvehicles
 		editorsubcategory = "442_deserters_ground_veh_tan";
 		hiddenSelectionsTextures[] = 
 		{
-			"442_g_vehicle\warthog\data\442_warthog_body_tan.paa",
-			"442_g_vehicle\warthog\data\442_warthog_addons_tan.paa"
+			"k_vehicle_optre\warthog\data\442_warthog_body_tan.paa",
+			"k_vehicle_optre\warthog\data\442_warthog_addons_tan.paa"
 		};
 	};
 	class 442_deserter_warthog_at_tan: 442_deserter_warthog_at_black
@@ -476,8 +600,8 @@ class cfgvehicles
 		editorsubcategory = "442_deserters_ground_veh_tan";
 		hiddenSelectionsTextures[] = 
 		{
-			"442_g_vehicle\warthog\data\442_warthog_body_tan.paa",
-			"442_g_vehicle\warthog\data\442_warthog_addons_tan.paa"
+			"k_vehicle_optre\warthog\data\442_warthog_body_tan.paa",
+			"k_vehicle_optre\warthog\data\442_warthog_addons_tan.paa"
 		};
 	};
 	class 442_deserter_warthog_tt_tan: 442_deserter_warthog_tt_black
@@ -487,8 +611,8 @@ class cfgvehicles
 		editorsubcategory = "442_deserters_ground_veh_tan";
 		hiddenSelectionsTextures[] = 
 		{
-			"442_g_vehicle\warthog\data\442_warthog_body_tan.paa",
-			"442_g_vehicle\warthog\data\442_warthog_addons_tan.paa"
+			"k_vehicle_optre\warthog\data\442_warthog_body_tan.paa",
+			"k_vehicle_optre\warthog\data\442_warthog_addons_tan.paa"
 		};
 	};
 	class 442_deserter_warthog_unarmed_woodland: 442_deserter_warthog_unarmed_black
@@ -498,8 +622,8 @@ class cfgvehicles
 		editorsubcategory = "442_deserters_ground_veh_woodland";
 		hiddenSelectionsTextures[] = 
 		{
-			"442_g_vehicle\warthog\data\442_warthog_body_woodland.paa",
-			"442_g_vehicle\warthog\data\442_warthog_addons_woodland.paa"
+			"k_vehicle_optre\warthog\data\442_warthog_body_woodland.paa",
+			"k_vehicle_optre\warthog\data\442_warthog_addons_woodland.paa"
 		};
 	};
 	class 442_deserter_warthog_mg_woodland: 442_deserter_warthog_mg_black
@@ -509,8 +633,8 @@ class cfgvehicles
 		editorsubcategory = "442_deserters_ground_veh_woodland";
 		hiddenSelectionsTextures[] = 
 		{
-			"442_g_vehicle\warthog\data\442_warthog_body_woodland.paa",
-			"442_g_vehicle\warthog\data\442_warthog_addons_woodland.paa"
+			"k_vehicle_optre\warthog\data\442_warthog_body_woodland.paa",
+			"k_vehicle_optre\warthog\data\442_warthog_addons_woodland.paa"
 		};
 	};
 	class 442_deserter_warthog_at_woodland: 442_deserter_warthog_at_black
@@ -520,8 +644,8 @@ class cfgvehicles
 		editorsubcategory = "442_deserters_ground_veh_woodland";
 		hiddenSelectionsTextures[] = 
 		{
-			"442_g_vehicle\warthog\data\442_warthog_body_woodland.paa",
-			"442_g_vehicle\warthog\data\442_warthog_addons_woodland.paa"
+			"k_vehicle_optre\warthog\data\442_warthog_body_woodland.paa",
+			"k_vehicle_optre\warthog\data\442_warthog_addons_woodland.paa"
 		};
 	};
 	class 442_deserter_warthog_tt_woodland: 442_deserter_warthog_tt_black
@@ -531,8 +655,8 @@ class cfgvehicles
 		editorsubcategory = "442_deserters_ground_veh_woodland";
 		hiddenSelectionsTextures[] = 
 		{
-			"442_g_vehicle\warthog\data\442_warthog_body_woodland.paa",
-			"442_g_vehicle\warthog\data\442_warthog_addons_woodland.paa"
+			"k_vehicle_optre\warthog\data\442_warthog_body_woodland.paa",
+			"k_vehicle_optre\warthog\data\442_warthog_addons_woodland.paa"
 		};
 	};*/
 //CIS

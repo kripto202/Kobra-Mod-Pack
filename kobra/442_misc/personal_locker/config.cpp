@@ -41,7 +41,7 @@ class cfgvehicles
         multistructureparts[] = 
         {
             {
-                "k_headgear_p2",
+                "",
                 "helmet"
             }
         };

@@ -5,7 +5,25 @@ class cfgpatches
         author = "KOBRA Mod Team";
         requiredAddons[]={};
 		requiredVersion = 0.1;
-		units[] = {};
+		units[] = 
+		{
+			"k_weapon_dc15a",
+			"k_weapon_dc15a_ugl",
+			"k_weapon_dc15a_mc",
+			"k_weapon_dc15s",
+			"k_weapon_dc15s_ab",
+			"k_weapon_dc15sa",
+			"k_weapon_dc15x",
+			"k_weapon_dc15y",
+			"k_weapon_dc17",
+			"k_weapon_gl",
+			"k_weapon_rps6",
+			"k_weapon_westar_m5",
+			"k_weapon_z6",
+			"k_weapon_e6z",
+			"k_weapon_e5",
+			"k_weapon_e5c",
+		};
         weapons[] = 
         {
             "442_DC15A",
@@ -24,6 +42,8 @@ class cfgpatches
             "442_WestarM5_ugl",
             "442_Z6",
             "442_e6z",
+			"442_E5",
+			"442_E5C"
         };
     };
 };
