@@ -7,7 +7,7 @@ class cfgpatches
 		requiredVersion = 0.1;
 		units[] = 
         {
-            
+            "k_personal_locker",
         };
         weapons[] = {};
     };
@@ -21,7 +21,7 @@ class cfgvehicles
 		scope=2;
 		scopecurator=2;
 		author = "KOBRA Mod Team";
-		displayName="Personal Locker (P2)";
+		displayName="Personal Locker";
 		model="\442_misc\personal_locker\personal_locker.p3d";
 		editorcategory="kobra";
 		editorsubcategory="442_item";
@@ -77,7 +77,7 @@ class cfgvehicles
             class open_locker
             {
                 source = "user";
-                animPeriod = 2;
+                animPeriod = 1;
                 initphase = 0;
             };
         };
@@ -98,69 +98,4 @@ class cfgvehicles
             verticaloffsetworld = 0;
         };
 	};
-//////////these need to be removed later///////////
-    class bl_personal_locker: k_personal_locker
-    {
-        displayname = "Personal Locker [Black Legion]";
-        hiddenselectionstextures[] = 
-        {
-            "442_misc\personal_locker\data\bl_body_co.paa",
-			"442_misc\personal_locker\data\screen_co.paa",
-			"442_misc\personal_locker\data\picture1_co.paa"
-        };
-    };
-    class 212fc_personal_locker: k_personal_locker
-    {
-        displayname = "Personal Locker [212th FC]";
-        hiddenselectionstextures[] = 
-        {
-            "442_misc\personal_locker\data\212fc_body_co.paa",
-			"442_misc\personal_locker\data\screen_co.paa",
-			"442_misc\personal_locker\data\picture1_co.paa"
-        };
-    };
-    class 9_personal_locker: k_personal_locker
-    {
-        displayname = "Personal Locker [9th AC]";
-        hiddenselectionstextures[] = 
-        {
-            "442_misc\personal_locker\data\9_body_co.paa",
-			"442_misc\personal_locker\data\screen_co.paa",
-			"442_misc\personal_locker\data\picture1_co.paa"
-        };
-        multistructureparts[] = 
-        {
-            {
-                "k_headgear_9_p2_shiny",
-                "helmet"
-            }
-        };
-    };
-    class 44_personal_locker: k_personal_locker
-    {
-        displayname = "Personal Locker [44th AB]";
-        hiddenselectionstextures[] = 
-        {
-            "442_misc\personal_locker\data\44_body_co.paa",
-			"442_misc\personal_locker\data\screen_co.paa",
-			"442_misc\personal_locker\data\picture1_co.paa"
-        };
-    };
-    class 44_personal_locker_kripto: k_personal_locker
-    {
-        displayname = "Personal Locker (Kripto)";
-        hiddenselectionstextures[]=
-		{
-			"442_misc\personal_locker\data\44_body_co.paa",
-			"442_misc\personal_locker\data\screen_kripto_co.paa",
-			"442_misc\personal_locker\data\picture1_co.paa"
-		};
-        multistructureparts[] = 
-        {
-            {
-                "k_headgear_44_kripto",
-                "helmet"
-            }
-        };
-    };
 };
