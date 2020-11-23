@@ -301,7 +301,7 @@ class cfgvehicles
 			"442_g_vehicle\aat\data\gun_base_co.paa"
 		};
 	};
-
+	class Wreck_base_F;
 	class 442_aat_wreck: Wreck_base_F
 	{
 		author = "Kobra Mod Team";

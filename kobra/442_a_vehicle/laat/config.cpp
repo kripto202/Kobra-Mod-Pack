@@ -6121,6 +6121,7 @@ class cfgvehicles
 			"442_a_vehicle\laat\data\glass_ca.paa"
 		};
 	};*/
+	class Wreck_base_F;
 	class 442_laat_wreck: Wreck_base_F
 	{
 		author ="Kobra Mod Team";
@@ -6134,6 +6135,7 @@ class cfgvehicles
 		editorCategory="kobra";
 		editorSubcategory="442_wrecks";
 	};
+	class Items_base_F;
 	class 442_laat_door_1: Items_base_F
 	{
 		author ="Kobra Mod Team";

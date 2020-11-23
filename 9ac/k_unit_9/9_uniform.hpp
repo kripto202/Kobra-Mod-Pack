@@ -1,5 +1,5 @@
 ///p2
-	
+	class uniformItem;
 	class 9_swla_uniform_clean: k_swla_uniform
 	{
 		displayname = "[9/LS] Clone Trooper Uniform (Clean)";

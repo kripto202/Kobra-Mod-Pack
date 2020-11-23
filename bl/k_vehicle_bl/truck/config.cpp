@@ -13,7 +13,7 @@ class cfgpatches
             "442_argon_device_bl",
             "442_argon_fuel_bl",
             "442_argon_repair_bl",
-            "442_argon_medical"
+            "442_argon_medical_bl"
         };
         weapons[] = {};
     };

@@ -848,7 +848,6 @@ class cfgweapons
 class cfgvehicles 
 {
     class B_Soldier_02_f;
-    class k_swla_unit_b1_base;
     class O_officer_F;
 	class B_Kitbag_rgr;
 	class headgear_base_f;

@@ -15,6 +15,32 @@ class cfgpatches
     };
 };
 
+class DefaultEventHandlers;
+class WeaponFireGun;
+class WeaponCloudsGun;
+class WeaponFireMGun;
+class WeaponCloudsMGun;
+class RCWSOptics;
+class Optics_Armored;
+class Optics_Commander_01: Optics_Armored
+{
+	class Wide;
+	class Medium;
+	class Narrow;
+};
+class Optics_Gunner_AAA_01: Optics_Armored
+{
+	class Wide;
+	class Medium;
+	class Narrow;
+};
+class Optics_Gunner_MBT_01: Optics_Armored
+{
+	class Wide;
+	class Medium;
+	class Narrow;
+};
+
 class cfgvehicles 
 {
     class Land;
@@ -172,7 +198,7 @@ class cfgvehicles
 		scopearsenal = 2;
 		scopecurator = 2;
 	};
-
+	class Wreck_base_F;
 	class 442_baw_arty_wreck: Wreck_base_F
 	{
 		author = "Kobra Mod Team";

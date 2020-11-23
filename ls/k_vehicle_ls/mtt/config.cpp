@@ -63,6 +63,7 @@ class cfgvehicles
 			class Movement;
 		};
 	};
+	class Wreck_base_F;
     class 442_mtt: Tank_F
 	{
 		author ="Kobra Mod Team";

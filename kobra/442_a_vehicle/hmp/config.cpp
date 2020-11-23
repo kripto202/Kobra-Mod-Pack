@@ -1004,7 +1004,7 @@ class cfgVehicles
 			"442_a_vehicle\hmp\data\b_wings_co.paa",
 		};
 	};
-	
+	class Wreck_base_F;
 	class 442_hmp_wreck: Wreck_base_F
 	{
 		author = "Kobra Mod Team";

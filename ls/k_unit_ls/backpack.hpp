@@ -1,3 +1,5 @@
+class k_clone_backpack_base;
+class k_clone_rto_backpack_base;
 class k_clone_backpack: k_clone_backpack_base
 {
 	displayname = "[K/LS] Clone Trooper Backpack";

@@ -1,4 +1,5 @@
-    class 44_swla_uniform: k_swla_uniform
+    class UniformItem;
+	class 44_swla_uniform: k_swla_uniform
 	{
 		displayname = "[44/LS] Clone Trooper Uniform";
 		scope = 2;

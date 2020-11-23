@@ -15,6 +15,7 @@ class cfgpatches
 
 class cfgvehicles
 {
+	class House_F;
     class 442_arquitens: House_F
 	{
 		scope=2;

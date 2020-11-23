@@ -15,6 +15,7 @@ class cfgpatches
 
 class cfgvehicles
 {
+    class Boat_F;
     class Boat_Armed_01_base_F: Boat_F
 	{
 		class Hitpoints;

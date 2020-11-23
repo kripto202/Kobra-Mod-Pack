@@ -14,8 +14,101 @@ class cfgpatches
     };
 };
 
+class SensorTemplatePassiveRadar;
+class DefaultVehicleSystemsDisplayManagerLeft
+{
+    class components;
+};
+class DefaultVehicleSystemsDisplayManagerRight
+{
+    class components;
+};
+class VehicleSystemsTemplateLeftPilot : DefaultVehicleSystemsDisplayManagerLeft
+{
+    class components;
+};
+class VehicleSystemsTemplateRightPilot : DefaultVehicleSystemsDisplayManagerRight
+{
+    class components;
+};
+
+class SensorTemplateAntiRadiation;
+class SensorTemplateActiveRadar;
+class SensorTemplateIR;
+class SensorTemplateVisual;
+class SensorTemplateMan;
+class SensorTemplateLaser;
+class SensorTemplateNV;
+class SensorTemplateDataLink;
+class VehicleSystemsTemplateLeftCommander: DefaultVehicleSystemsDisplayManagerLeft
+{
+	class components;
+};
+class VehicleSystemsTemplateRightCommander: DefaultVehicleSystemsDisplayManagerRight
+{
+	class components;
+};
+class VehicleSystemsTemplateLeftGunner: DefaultVehicleSystemsDisplayManagerLeft
+{
+	class components;
+};
+class VehicleSystemsTemplateRightGunner: DefaultVehicleSystemsDisplayManagerRight
+{
+	class components;
+};
+class DefaultEventHandlers;
+class WeaponFireGun;
+class WeaponCloudsGun;
+class WeaponFireMGun;
+class WeaponCloudsMGun;
+class RCWSOptics;
+class Optics_Armored;
+class Optics_Commander_01: Optics_Armored
+{
+	class Wide;
+	class Medium;
+	class Narrow;
+};
+class Optics_Gunner_AAA_01: Optics_Armored
+{
+	class Wide;
+	class Medium;
+	class Narrow;
+};
+class Optics_Gunner_MBT_01: Optics_Armored
+{
+	class Wide;
+	class Medium;
+	class Narrow;
+};
+
 class cfgvehicles
 {
+	class land;
+	class LandVehicle: Land
+	{
+		class NewTurret;
+	};
+	class StaticWeapon: LandVehicle
+	{
+		class Turrets;
+		class MainTurret: NewTurret{};
+		class HitPoints;
+	};
+	class StaticMGWeapon: StaticWeapon
+	{
+		class EventHandlers;
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class ViewOptics;
+				optics = 1;
+			};
+		};
+		class Components;
+		icon = "iconStaticMG";
+	};
     class k_CIS_Droideka: StaticMGWeapon
 	{
 		model="442_turrets\droideka\droideka.p3d";

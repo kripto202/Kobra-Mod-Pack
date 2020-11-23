@@ -12,7 +12,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="442_units\clones\data\helmet\p2_pilot_helmet\camo1_nohq.paa";
+	texture="k_units_ls\data\helmet\p2_pilot_helmet\camo1_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -48,7 +48,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="442_units\clones\data\helmet\p2_pilot_helmet\camo1_as.paa";
+	texture="k_units_ls\data\helmet\p2_pilot_helmet\camo1_as.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -60,7 +60,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="442_units\clones\data\helmet\p2_pilot_helmet\camo1_smdi.paa";
+	texture="k_units_ls\data\helmet\p2_pilot_helmet\camo1_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{

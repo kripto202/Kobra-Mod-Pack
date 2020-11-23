@@ -1079,7 +1079,7 @@ class cfgvehicles
             };
         };
     };
-    class k_mag_impact_grenade: k_weapon_dc15a
+    class k_mag_impact_grenade: Item_Base_F
     {
         displayname = "Impact Grenade";
         class TransportWeapons {};

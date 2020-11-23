@@ -153,6 +153,7 @@ class cfgweapons
     class k_p2_pilot_helmet;
     class k_barc_helmet;
     class k_p1_arf_helmet;
+    class k_p2_arf_helmet;
     class k_eng_helmet;
     class k_p1_helmet;
     class k_p1_pilot_helmet;
