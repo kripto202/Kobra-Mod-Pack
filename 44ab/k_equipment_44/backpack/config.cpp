@@ -27,7 +27,7 @@ class cfgvehicles
 //////////small backpack
     class 44_clone_small_backpack: k_clone_small_backpack_base
     {
-        displayname = "[44] Clone Trooper Small Backpack";
+        displayname = "[44/LS] Clone Trooper Small Backpack";
         scope = 2;
         hiddenselectionstextures[] = 
         {
@@ -40,7 +40,7 @@ class cfgvehicles
     };
     class 44_clone_small_backpack_pouches: k_clone_small_backpack_base
     {
-        displayname = "[44] Clone Trooper Small Backpack w/ Pouches";
+        displayname = "[44/LS] Clone Trooper Small Backpack w/ Pouches";
         scope = 2;
         maximumload = 200;
         hiddenselectionstextures[] = 
@@ -54,7 +54,7 @@ class cfgvehicles
     };
     class 44_clone_small_backpack_radio: k_clone_small_backpack_base
     {
-        displayname = "[44] Clone Trooper Small Radio Backpack";
+        displayname = "[44/LS] Clone Trooper Small Radio Backpack";
         scope = 2;
         maximumload = 100;
         tf_dialog="SWLB_clone_rto_radio_dialog";
@@ -74,7 +74,7 @@ class cfgvehicles
     };
     class 44_clone_small_backpack_radio_pouches: k_clone_small_backpack_base
     {
-        displayname = "[44] Clone Trooper Small Radio Backpack w/ Pouches";
+        displayname = "[44/LS] Clone Trooper Small Radio Backpack w/ Pouches";
         scope = 2;
         maximumload = 150;
         tf_dialog="SWLB_clone_rto_radio_dialog";
@@ -95,7 +95,7 @@ class cfgvehicles
 ////////////large backpack
     class 44_clone_large_backpack: k_clone_large_backpack_base
     {
-        displayname = "[44] Clone Trooper Large Backpack";
+        displayname = "[44/LS] Clone Trooper Large Backpack";
         scope = 2;
         hiddenselectionstextures[] = 
         {
@@ -106,7 +106,7 @@ class cfgvehicles
     };
     class 44_clone_large_backpack_pouch: k_clone_large_backpack_base
     {
-        displayname = "[44] Clone Trooper Large Backpack w/ Pouches";
+        displayname = "[44/LS] Clone Trooper Large Backpack w/ Pouches";
         scope = 2;
         hiddenselectionstextures[] = 
         {
@@ -117,7 +117,7 @@ class cfgvehicles
     };
     class 44_clone_large_backpack_medic: k_clone_large_backpack_base
     {
-        displayname = "[44] Clone Trooper Large Medic Backpack";
+        displayname = "[44/LS] Clone Trooper Large Medic Backpack";
         scope = 2;
         hiddenselectionstextures[] = 
         {
@@ -128,7 +128,7 @@ class cfgvehicles
     };
     class 44_clone_large_backpack_medic_pouch: k_clone_large_backpack_base
     {
-        displayname = "[44] Clone Trooper Large Medic Backpack w/ Pouches";
+        displayname = "[44/LS] Clone Trooper Large Medic Backpack w/ Pouches";
         scope = 2;
         hiddenselectionstextures[] = 
         {
@@ -139,7 +139,7 @@ class cfgvehicles
     };
     class 44_clone_large_backpack_eod_pouch: k_clone_large_backpack_base
     {
-        displayname = "[44] Clone Trooper Large Medic Backpack w/ Pouches";
+        displayname = "[44/LS] Clone Trooper Large Medic Backpack w/ Pouches";
         scope = 2;
         hiddenselectionstextures[] = 
         {

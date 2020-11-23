@@ -5,8 +5,8 @@ class 9_clone_backpack: k_clone_backpack
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselectionstextures[] = 
 		{
-			"442_units\clones\9\data\backpacks\9_backpack_co.paa",
-			"442_units\clones\data\backpack\cover_co.paa",
+			"k_unit_9\data\backpacks\9_backpack_co.paa",
+			"k_unit_ls\data\backpack\clone\backpack\cover_co.paa",
 		};
 	};
 	class 9_clone_backpack_med: k_clone_backpack_med
@@ -16,9 +16,9 @@ class 9_clone_backpack: k_clone_backpack
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselectionstextures[] = 
 		{
-			"442_units\clones\9\data\backpacks\9_medicpack_co.paa",
-			"442_units\clones\data\backpack\cover_co.paa",
-			"442_units\clones\data\backpack\pouches_co.paa",
+			"k_unit_9\data\backpacks\9_medicpack_co.paa",
+			"k_unit_ls\data\backpack\clone\backpack\cover_co.paa",
+			"k_unit_ls\data\backpack\clone\backpack\pouches_co.paa",
 		};
 	};
 	class 9_clone_backpack_heavy: k_clone_backpack_heavy
@@ -28,10 +28,10 @@ class 9_clone_backpack: k_clone_backpack
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselectionstextures[] = 
 		{
-			"442_units\clones\9\data\backpacks\9_backpack_co.paa",
-			"442_units\clones\data\backpack\cover_co.paa",
-			"442_units\clones\data\backpack\pouches_co.paa",
-			"442_units\clones\data\backpack\tube_co.paa",
+			"k_unit_9\data\backpacks\9_backpack_co.paa",
+			"k_unit_ls\data\backpack\clone\backpack\cover_co.paa",
+			"k_unit_ls\data\backpack\clone\backpack\pouches_co.paa",
+			"k_unit_ls\data\backpack\clone\backpack\tube_co.paa",
 		};
 	};
 	class 9_clone_backpack_heavy_eod: k_clone_backpack_heavy
@@ -41,10 +41,10 @@ class 9_clone_backpack: k_clone_backpack
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselectionstextures[] = 
 		{
-			"442_units\clones\9\data\backpacks\9_eodpack_co.paa",
-			"442_units\clones\data\backpack\cover_co.paa",
-			"442_units\clones\data\backpack\pouches_co.paa",
-			"442_units\clones\data\backpack\tube_co.paa",
+			"k_unit_9\data\backpacks\9_eodpack_co.paa",
+			"k_unit_ls\data\backpack\clone\backpack\cover_co.paa",
+			"k_unit_ls\data\backpack\clone\backpack\pouches_co.paa",
+			"k_unit_ls\data\backpack\clone\backpack\tube_co.paa",
 		};
 	};
 	class 9_clone_backpack_medic: k_clone_backpack_medic
@@ -54,10 +54,10 @@ class 9_clone_backpack: k_clone_backpack
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselectionstextures[] = 
 		{
-			"442_units\clones\9\data\backpacks\9_medicpack_co.paa",
-			"442_units\clones\data\backpack\cover_co.paa",
-			"442_units\clones\data\backpack\medic_co.paa",
-			"442_units\clones\data\backpack\medic_co.paa",
+			"k_unit_9\data\backpacks\9_medicpack_co.paa",
+			"k_unit_ls\data\backpack\clone\backpack\cover_co.paa",
+			"k_unit_ls\data\backpack\clone\backpack\medic_co.paa",
+			"k_unit_ls\data\backpack\clone\backpack\medic_co.paa",
 		};
 	};
 	class 9_clone_backpack_medic_med: k_clone_backpack_medic_med
@@ -67,11 +67,11 @@ class 9_clone_backpack: k_clone_backpack
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselectionstextures[] = 
 		{
-			"442_units\clones\9\data\backpacks\9_medicpack_co.paa",
-			"442_units\clones\data\backpack\cover_co.paa",
-			"442_units\clones\data\backpack\pouches_co.paa",
-			"442_units\clones\data\backpack\medic_co.paa",
-			"442_units\clones\data\backpack\medic_co.paa",
+			"k_unit_9\data\backpacks\9_medicpack_co.paa",
+			"k_unit_ls\data\backpack\clone\backpack\cover_co.paa",
+			"k_unit_ls\data\backpack\clone\backpack\pouches_co.paa",
+			"k_unit_ls\data\backpack\clone\backpack\medic_co.paa",
+			"k_unit_ls\data\backpack\clone\backpack\medic_co.paa",
 		};
 	};
 	class 9_clone_backpack_radio: k_clone_backpack_radio
@@ -81,9 +81,9 @@ class 9_clone_backpack: k_clone_backpack
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselectionstextures[] = 
 		{
-			"442_units\clones\9\data\backpacks\9_backpack_co.paa",
-			"442_units\clones\data\backpack\radio_co.paa",
-			"442_units\clones\data\backpack\screen_co.paa",
+			"k_unit_9\data\backpacks\9_backpack_co.paa",
+			"k_unit_ls\data\backpack\clone\backpack\radio_co.paa",
+			"k_unit_ls\data\backpack\clone\backpack\screen_co.paa",
 		};
 	};
 	class 9_clone_backpack_radio_med: k_clone_backpack_radio_med
@@ -93,10 +93,10 @@ class 9_clone_backpack: k_clone_backpack
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselectionstextures[] = 
 		{
-			"442_units\clones\9\data\backpacks\9_backpack_co.paa",
-			"442_units\clones\data\backpack\radio_co.paa",
-			"442_units\clones\data\backpack\screen_co.paa",
-			"442_units\clones\data\backpack\pouches_co.paa",
+			"k_unit_9\data\backpacks\9_backpack_co.paa",
+			"k_unit_ls\data\backpack\clone\backpack\radio_co.paa",
+			"k_unit_ls\data\backpack\clone\backpack\screen_co.paa",
+			"k_unit_ls\data\backpack\clone\backpack\pouches_co.paa",
 		};
 	};
 	class 9_clone_backpack_rocket: k_clone_backpack_rocket
@@ -106,10 +106,10 @@ class 9_clone_backpack: k_clone_backpack
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselectionstextures[] = 
 		{
-			"442_units\clones\9\data\backpacks\9_eodpack_co.paa",
-			"442_units\clones\data\backpack\holder_co.paa",
-			"442_units\clones\data\backpack\rocket_co.paa",
-			"442_units\clones\data\backpack\light_co.paa",
-			"442_units\clones\data\backpack\pouches_co.paa",
+			"k_unit_9\data\backpacks\9_eodpack_co.paa",
+			"k_unit_ls\data\backpack\clone\backpack\holder_co.paa",
+			"k_unit_ls\data\backpack\clone\backpack\rocket_co.paa",
+			"k_unit_ls\data\backpack\clone\backpack\light_co.paa",
+			"k_unit_ls\data\backpack\clone\backpack\pouches_co.paa",
 		};
 	};

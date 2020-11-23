@@ -1,6 +1,6 @@
 	class k_headgear_44_p2: k_headgear_p2
     {
-        displayname = "[44] P2 Helmet";
+        displayname = "[44/LS] P2 Helmet";
         class transportItems
         {
             class helmet
@@ -12,7 +12,7 @@
     };
 	class k_headgear_44_p15: k_headgear_p2
     {
-        displayname = "[44] P1.5 Helmet";
+        displayname = "[44/LS] P1.5 Helmet";
         class transportItems
         {
             class helmet
@@ -24,7 +24,7 @@
     };
 	class k_headgear_44_ab: k_headgear_p2
     {
-        displayname = "[44] Airborne Helmet";
+        displayname = "[44/LS] Airborne Helmet";
         class transportItems
         {
             class helmet
@@ -36,7 +36,7 @@
     };
 	class k_headgear_44_p2_pilot: k_headgear_p2
     {
-        displayname = "[44] P2 Pilot Helmet";
+        displayname = "[44/LS] P2 Pilot Helmet";
         class transportItems
         {
             class helmet
@@ -48,7 +48,7 @@
     };
 	class k_headgear_44_barc: k_headgear_p2
     {
-        displayname = "[44] BARC Helmet";
+        displayname = "[44/LS] BARC Helmet";
         class transportItems
         {
             class helmet
@@ -60,7 +60,7 @@
     };
 	class k_headgear_44_p1_arf: k_headgear_p2
     {
-        displayname = "[44] P1 ARF Helmet";
+        displayname = "[44/LS] P1 ARF Helmet";
         class transportItems
         {
             class helmet
@@ -72,7 +72,7 @@
     };
 	class k_headgear_44_p2_arf: k_headgear_p2
     {
-        displayname = "[44] P1 ARF Helmet (Flaps)";
+        displayname = "[44/LS] P1 ARF Helmet (Flaps)";
         class transportItems
         {
             class helmet
@@ -84,7 +84,7 @@
     };
 	class k_headgear_44_eng: k_headgear_p2
     {
-        displayname = "[44] Engineer Helmet";
+        displayname = "[44/LS] Engineer Helmet";
         class transportItems
         {
             class helmet
@@ -96,7 +96,7 @@
     };
 	class k_headgear_44_p1: k_headgear_p2
     {
-        displayname = "[44] P1 Helmet";
+        displayname = "[44/LS] P1 Helmet";
         class transportItems
         {
             class helmet
@@ -108,7 +108,7 @@
     };
 	class k_headgear_44_p1_pilot: k_headgear_p2
     {
-        displayname = "[44] P1 Pilot Helmet";
+        displayname = "[44/LS] P1 Pilot Helmet";
         class transportItems
         {
             class helmet
@@ -120,7 +120,7 @@
     };
 	class k_headgear_44_p1_specops: k_headgear_p2
     {
-        displayname = "[44] P1 Specops Helmet";
+        displayname = "[44/LS] P1 Specops Helmet";
         class transportItems
         {
             class helmet
@@ -132,7 +132,7 @@
     };
 	class k_headgear_44_p2_specops: k_headgear_p2
     {
-        displayname = "[44] P2 Specops Helmet";
+        displayname = "[44/LS] P2 Specops Helmet";
         class transportItems
         {
             class helmet
@@ -144,7 +144,7 @@
     };
     class k_headgear_44_hunter: k_headgear_p2
     {
-        displayname = "[44] Hunter Helmet";
+        displayname = "[44/LS] Hunter Helmet";
         class transportItems
         {
             class helmet
@@ -156,7 +156,7 @@
     };
     class k_headgear_44_crosshair: k_headgear_p2
     {
-        displayname = "[44] Crosshair Helmet";
+        displayname = "[44/LS] Crosshair Helmet";
         class transportItems
         {
             class helmet
@@ -168,7 +168,7 @@
     };
     class k_headgear_44_wrecker: k_headgear_p2
     {
-        displayname = "[44] Wrecker Helmet";
+        displayname = "[44/LS] Wrecker Helmet";
         class transportItems
         {
             class helmet
@@ -180,7 +180,7 @@
     };
     class k_headgear_44_tech: k_headgear_p2
     {
-        displayname = "[44] Tech Helmet";
+        displayname = "[44/LS] Tech Helmet";
         class transportItems
         {
             class helmet
@@ -192,7 +192,7 @@
     };
 	class k_headgear_44_rex: k_headgear_p2
     {
-        displayname = "[44] Rex Helmet";
+        displayname = "[44/LS] Rex Helmet";
         class transportItems
         {
             class helmet
@@ -204,7 +204,7 @@
     };
 	class k_headgear_44_scout: k_headgear_p2
     {
-        displayname = "[44] Scout Helmet";
+        displayname = "[44/LS] Scout Helmet";
         class transportItems
         {
             class helmet
@@ -216,7 +216,7 @@
     };
 	class k_headgear_44_dukas: k_headgear_p2
     {
-        displayname = "[44] Scout Helmet (Dukas)";
+        displayname = "[44/LS] Scout Helmet (Dukas)";
         class transportItems
         {
             class helmet
@@ -228,7 +228,7 @@
     };
 	class k_headgear_44_hollen: k_headgear_p2
     {
-        displayname = "[44] P2 Helmet (Hollen)";
+        displayname = "[44/LS] P2 Helmet (Hollen)";
         class transportItems
         {
             class helmet
@@ -240,7 +240,7 @@
     };
 	class k_headgear_44_kripto: k_headgear_p2
     {
-        displayname = "[44] BARC Helmet (Kripto)";
+        displayname = "[44/LS] BARC Helmet (Kripto)";
         class transportItems
         {
             class helmet
@@ -252,7 +252,7 @@
     };
 	class k_headgear_44_monty: k_headgear_p2
     {
-        displayname = "[44] P1 ARF Helmet";
+        displayname = "[44/LS] P1 ARF Helmet";
         class transportItems
         {
             class helmet

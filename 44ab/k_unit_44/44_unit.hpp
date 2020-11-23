@@ -15,9 +15,9 @@
 		backpack = "";
 		hiddenselectionstextures[] = 
 		{
-			"442_units\clones\44\data\armor\44_upper_co.paa",
-			"442_units\clones\44\data\armor\44_lower_co.paa",
-			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
+			"k_unit_44\data\armor\44_upper_co.paa",
+			"k_unit_44\data\armor\44_lower_co.paa",
+			"k_unit_ls\data\armor\mc_uniform\undersuit_co.paa",
 		};
 		linkedItems[] = {};
 		respawnlinkeditems[] = {};
@@ -53,10 +53,10 @@
 		backpack = "";
 		hiddenselectionstextures[] = 
 		{
-			"442_units\clones\44\data\armor\44_mc_upper_co.paa",
-			"442_units\clones\44\data\armor\44_mc_lower_co.paa",
-			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
-			"442_units\clones\data\uniform\mc_uniform\rank_co.paa"
+			"k_unit_44\data\armor\44_mc_upper_co.paa",
+			"k_unit_44\data\armor\44_mc_lower_co.paa",
+			"k_unit_ls\data\armor\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\armor\mc_uniform\rank_co.paa"
 		};
 		linkedItems[] = {};
 		respawnlinkeditems[] = {};
@@ -84,7 +84,7 @@
 		{
 			"442_units\clones\44\data\custom\dukas\44_upper_co.paa",
 			"442_units\clones\44\data\custom\dukas\44_lower_co.paa",
-			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\armor\mc_uniform\undersuit_co.paa",
 		};
 	};
 	class 44_swla_unit_hollen: 44_swla_unit
@@ -94,7 +94,7 @@
 		{
 			"442_units\clones\44\data\custom\hollen\44_upper_co.paa",
 			"442_units\clones\44\data\custom\hollen\44_lower_co.paa",
-			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\armor\mc_uniform\undersuit_co.paa",
 		};
 	};
 	class 44_swla_unit_kripto: 44_swla_unit
@@ -104,7 +104,7 @@
 		{
 			"442_units\clones\44\data\custom\kripto\44_upper_co.paa",
 			"442_units\clones\44\data\custom\kripto\44_lower_co.paa",
-			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\armor\mc_uniform\undersuit_co.paa",
 		};
 	};
 	class 44_swla_unit_monty: 44_swla_unit
@@ -114,7 +114,7 @@
 		{
 			"442_units\clones\44\data\custom\monty\44_upper_co.paa",
 			"442_units\clones\44\data\custom\monty\44_lower_co.paa",
-			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\armor\mc_uniform\undersuit_co.paa",
 		};
 	};
 	class 44_swla_unit_rex: 44_swla_unit
@@ -124,7 +124,7 @@
 		{
 			"442_units\clones\44\data\custom\rex\44_upper_co.paa",
 			"442_units\clones\44\data\custom\rex\44_lower_co.paa",
-			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\armor\mc_uniform\undersuit_co.paa",
 		};
 	};
 	class 44_swla_unit_delta: 44_swla_unit
@@ -134,7 +134,7 @@
 		{
 			"442_units\clones\44\data\custom\delta\44_upper_co.paa",
 			"442_units\clones\44\data\custom\delta\44_lower_co.paa",
-			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\armor\mc_uniform\undersuit_co.paa",
 		};
 	};
 	class 44_swla_unit_garrus: 44_swla_unit
@@ -144,7 +144,7 @@
 		{
 			"442_units\clones\44\data\custom\garrus\44_upper_co.paa",
 			"442_units\clones\44\data\custom\garrus\44_lower_co.paa",
-			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\armor\mc_uniform\undersuit_co.paa",
 		};
 	};
 	class 44_swla_unit_dishonored: 44_swla_unit
@@ -154,7 +154,7 @@
 		{
 			"442_units\clones\44\data\custom\dishonored\44_swla_upper.paa",
 			"442_units\clones\44\data\custom\dishonored\44_swla_lower.paa",
-			"442_units\clones\data\uniform\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\armor\mc_uniform\undersuit_co.paa",
 		};
 	};
 	#include "44_unit_loadout.hpp"

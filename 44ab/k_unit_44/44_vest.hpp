@@ -1,7 +1,7 @@
 	class 44_swla_vest_base: V_rebreatherB
 	{
 		author = "Kobra Mod Team";
-		displayname = "[44] Clone trooper vest";
+		displayname = "[44/LS] Clone trooper vest";
 		scope = 0;
 		scopeCurator = 0;
 		scopeArsenal = 0;
@@ -43,7 +43,7 @@
 	};
 	class 44_swla_airborne_vest_base: 44_swla_vest_base
 	{
-		displayname = "[44] Clone trooper airborne vest";
+		displayname = "[44/LS] Clone trooper airborne vest";
 		picture="\SWLB_clones\data\ui\icon_SWLB_clone_airborne_armor_ca.paa";
 		model="\SWLB_clones\SWLB_clone_airborne_armor.p3d";
 		hiddenSelections[]=
@@ -69,7 +69,7 @@
 	};
 	class 44_swla_medic_vest_base: 44_swla_vest_base
 	{
-		displayName = "[44] Clone trooper medic vest";
+		displayName = "[44/LS] Clone trooper medic vest";
 		picture="\SWLB_clones\data\ui\icon_SWLB_clone_medic_armor_ca.paa";
 		model="\SWLB_clones\SWLB_clone_medic_armor.p3d";
 		hiddenSelections[]=
@@ -89,7 +89,7 @@
 	};
 	class 44_swla_cfr_vest_base: 44_swla_vest_base
 	{
-		displayname = "[44] Clone trooper CFR vest";
+		displayname = "[44/LS] Clone trooper CFR vest";
 		picture="\SWLB_clones\data\ui\icon_SWLB_clone_cfr_armor_ca.paa";
 		model="\SWLB_clones\SWLB_clone_cfr_armor.p3d";
 		hiddenSelections[]=
@@ -109,7 +109,7 @@
 	};
 	class 44_swla_recon_vest_base: 44_swla_vest_base
 	{
-		displayname = "[44] Clone trooper Recon vest";
+		displayname = "[44/LS] Clone trooper Recon vest";
 		picture="\SWLB_clones\data\ui\icon_SWLB_clone_recon_armor_ca.paa";
 		model="\SWLB_clones\SWLB_clone_recon_armor.p3d";
 		hiddenSelections[]=
@@ -133,7 +133,7 @@
 	};
 	class 44_swla_arc_vest_base: 44_swla_vest_base
 	{
-		displayname = "[44] Clone ARC trooper vest";
+		displayname = "[44/LS] Clone ARC trooper vest";
 		picture="\SWLB_clones\data\ui\icon_SWLB_clone_arc_armor_ca.paa";
 		model="\SWLB_clones\SWLB_clone_arc_armor.p3d";
 		hiddenSelections[]=
@@ -179,7 +179,7 @@
 	};
 	class 44_swla_assault_vest_base: 44_swla_vest_base
 	{
-		displayName = "[44] Clone trooper assault vest";
+		displayName = "[44/LS] Clone trooper assault vest";
 		picture="\SWLB_clones\data\ui\icon_SWLB_clone_light_armor_ca.paa";
 		model="\SWLB_clones\SWLB_clone_assault_armor.p3d";
 		hiddenSelections[]=
@@ -200,7 +200,7 @@
 	};
 	class 44_swla_grenadier_vest_base: 44_swla_vest_base
 	{
-		displayName="[44] Clone trooper grenadier vest";
+		displayName="[44/LS] Clone trooper grenadier vest";
 		picture="\SWLB_clones\data\ui\icon_SWLB_clone_light_armor_ca.paa";
 		model="\SWLB_clones\SWLB_clone_grenadier_armor.p3d";
 		hiddenSelections[]=
@@ -221,7 +221,7 @@
 	};
 	class 44_swla_specialist_vest_base: 44_swla_vest_base
 	{
-		displayName="[44] Clone trooper specialist vest";
+		displayName="[44/LS] Clone trooper specialist vest";
 		picture="\SWLB_clones\data\ui\icon_SWLB_clone_light_armor_ca.paa";
 		model="\SWLB_clones\SWLB_clone_specialist_armor.p3d";
 		hiddenSelections[]=
@@ -242,7 +242,7 @@
 	};
 	class 44_swla_kama_vest_base: 44_swla_vest_base
 	{
-		displayName="[44] Clone trooper kama";
+		displayName="[44/LS] Clone trooper kama";
 		picture="\SWLB_clones\data\ui\icon_SWLB_clone_kama_armor_ca.paa";
 		model="\SWLB_clones\SWLB_clone_kama_armor.p3d";
 		hiddenSelections[]=
@@ -280,7 +280,7 @@
 	};
 	class 44_swla_commander_vest_base: 44_swla_vest_base
 	{
-		displayName="[44] Clone trooper commander vest";
+		displayName="[44/LS] Clone trooper commander vest";
 		picture="\SWLB_clones\data\ui\icon_SWLB_clone_commander_armor_ca.paa";
 		model="\SWLB_clones\SWLB_clone_commander_armor.p3d";
 		hiddenSelections[]=
@@ -300,7 +300,7 @@
 	};
 	class 44_swla_airborne_cfr_vest_base: 44_swla_vest_base
 	{
-		displayname = "[44] Clone airborne CFR vest";
+		displayname = "[44/LS] Clone airborne CFR vest";
 		model="\SWLB_CEE\data\SWLB_CEE_Airborne_CFR.p3d";
 		picture="\SWLB_clones\data\ui\icon_SWLB_clone_airborne_armor_ca.paa";
 		hiddenSelections[]=
@@ -329,7 +329,7 @@
 	};
 	class 44_swla_airborne_light_vest_base: 44_swla_vest_base
 	{
-		displayname = "[44] Clone airborne light vest";
+		displayname = "[44/LS] Clone airborne light vest";
 		model="\SWLB_CEE\data\SWLB_CEE_Airborne_Light.p3d";
 		picture="\SWLB_clones\data\ui\icon_SWLB_clone_airborne_armor_ca.paa";
 		hiddenSelections[]=
@@ -354,7 +354,7 @@
 	};
 	class 44_swla_airborne_officer_vest_base: 44_swla_vest_base
 	{
-		displayName="[44] Clone airborne officer vest";
+		displayName="[44/LS] Clone airborne officer vest";
 		model="\SWLB_CEE\data\SWLB_CEE_Airborne_Officer.p3d";
 		hiddenSelections[]=
 		{
@@ -551,7 +551,7 @@
 
 	class 44_swla_airborne_vest_1: 44_swla_airborne_vest_base
 	{
-		displayname = "[44] Clone trooper airborne vest 1";
+		displayname = "[44/LS] Clone trooper airborne vest 1";
 		scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;
@@ -564,7 +564,7 @@
 	};
 	class 44_swla_airborne_vest_2: 44_swla_airborne_vest_1
 	{
-		displayname = "[44] Clone trooper airborne vest 2";
+		displayname = "[44/LS] Clone trooper airborne vest 2";
 		hiddenselectionstextures[] = 
 		{
 			"44_swla\data\vests\44_vest_2_2.paa",
@@ -574,7 +574,7 @@
 	};
 	class 44_swla_airborne_nco_vest_1: 44_swla_airborne_vest_1
 	{
-		displayname = "[44] Clone trooper airborne NCO vest 1";
+		displayname = "[44/LS] Clone trooper airborne NCO vest 1";
 		hiddenselectionstextures[] = 
 		{
 			"44_swla\data\vests\44_vest_2_1.paa",
@@ -585,7 +585,7 @@
 	};
 	class 44_swla_airborne_nco_vest_2: 44_swla_airborne_vest_1
 	{
-		displayname = "[44] Clone trooper airborne NCO vest 2";
+		displayname = "[44/LS] Clone trooper airborne NCO vest 2";
 		hiddenselectionstextures[] = 
 		{
 			"44_swla\data\vests\44_vest_2_2.paa",
@@ -619,7 +619,7 @@
 
 	class 44_swla_recon_vest_1: 44_swla_recon_vest_base
 	{
-		displayname = "[44] Clone trooper Recon vest 1";
+		displayname = "[44/LS] Clone trooper Recon vest 1";
 		scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;
@@ -633,7 +633,7 @@
 
 	class 44_swla_arc_plate: 44_swla_arc_vest_base
 	{
-		displayname = "[44] Clone trooper arc plates";
+		displayname = "[44/LS] Clone trooper arc plates";
 		scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;
@@ -645,7 +645,7 @@
 
 	class 44_swla_assault_vest_1: 44_swla_assault_vest_base
 	{
-		displayname = "[44] Clone trooper assault vest 1";
+		displayname = "[44/LS] Clone trooper assault vest 1";
 		scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;
@@ -658,7 +658,7 @@
 
 	class 44_swla_grenadier_vest_1: 44_swla_grenadier_vest_base
 	{
-		displayname = "[44] Clone trooper grenadier vest 1";
+		displayname = "[44/LS] Clone trooper grenadier vest 1";
 		scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;
@@ -671,7 +671,7 @@
 
 	class 44_swla_specialist_vest_1: 44_swla_specialist_vest_base
 	{
-		displayname = "[44] Clone trooper specialist vest 1";
+		displayname = "[44/LS] Clone trooper specialist vest 1";
 		scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;
@@ -684,7 +684,7 @@
 
 	class 44_swla_airborne_cfr_vest_1: 44_swla_airborne_cfr_vest_base
 	{
-		displayname = "[44] Clone airborne CFR vest 1";
+		displayname = "[44/LS] Clone airborne CFR vest 1";
 		scope = 2;
 		scopearsenal = 2;
 		scopecurator = 2;
@@ -698,7 +698,7 @@
 	};
 	class 44_swla_airborne_cfr_vest_2: 44_swla_airborne_cfr_vest_base
 	{
-		displayname = "[44] Clone airborne CFR vest 2";
+		displayname = "[44/LS] Clone airborne CFR vest 2";
 		scope = 2;
 		scopearsenal = 2;
 		scopecurator = 2;
@@ -713,7 +713,7 @@
 
 	class 44_swla_airborne_light_vest_1: 44_swla_airborne_light_vest_base
 	{
-		displayname = "[44] Clone airborne light vest 1";
+		displayname = "[44/LS] Clone airborne light vest 1";
 		scope = 2;
 		scopearsenal = 2;
 		scopecurator = 2;
@@ -727,7 +727,7 @@
 	};
 	class 44_swla_airborne_light_vest_2: 44_swla_airborne_light_vest_base
 	{
-		displayname = "[44] Clone airborne light vest 2";
+		displayname = "[44/LS] Clone airborne light vest 2";
 		scope = 2;
 		scopearsenal = 2;
 		scopecurator = 2;
@@ -742,7 +742,7 @@
 
 	class 44_swla_arf_vest_1: 44_swla_arf_vest_base
 	{
-		displayname = "[44] Clone arf vest 1";
+		displayname = "[44/LS] Clone arf vest 1";
 		scope = 2;
 		scopearsenal = 2;
 		scopecurator = 2;
@@ -756,7 +756,7 @@
 
 	class 44_swla_heavy_vest_1: 44_swla_heavy_vest_base
 	{
-		displayname = "[44] Clone heavy vest 1";
+		displayname = "[44/LS] Clone heavy vest 1";
 		scope = 2;
 		scopearsenal = 2;
 		scopecurator = 2;
@@ -771,7 +771,7 @@
 	};
 	class 44_swla_heavy_vest_2: 44_swla_heavy_vest_base
 	{
-		displayname = "[44] Clone heavy vest 2";
+		displayname = "[44/LS] Clone heavy vest 2";
 		scope = 2;
 		scopearsenal = 2;
 		scopecurator = 2;
@@ -787,7 +787,7 @@
 
 	class 44_swla_heavy_gunner_vest_1: 44_swla_heavy_gunner_vest_base
 	{
-		displayname = "[44] Clone heavy gunner vest 1";
+		displayname = "[44/LS] Clone heavy gunner vest 1";
 		scope = 2;
 		scopearsenal = 2;
 		scopecurator = 2;
@@ -803,7 +803,7 @@
 	};
 	class 44_swla_heavy_gunner_vest_2: 44_swla_heavy_gunner_vest_base
 	{
-		displayname = "[44] Clone heavy gunner vest 2";
+		displayname = "[44/LS] Clone heavy gunner vest 2";
 		scope = 2;
 		scopearsenal = 2;
 		scopecurator = 2;
@@ -820,7 +820,7 @@
 
 	class 44_swla_recon_survival_vest_1: 44_swla_recon_survival_vest_base
 	{
-		displayName="[44] Clone recon survival vest 1";
+		displayName="[44/LS] Clone recon survival vest 1";
 		scope = 2;
 		scopearsenal = 2;
 		scopecurator = 2;
@@ -836,7 +836,7 @@
 
 	class 44_swla_force_recon_vest_1: 44_swla_force_recon_vest_base
 	{
-		displayName="[44] Clone force recon vest 1";
+		displayName="[44/LS] Clone force recon vest 1";
 		scope = 2;
 		scopearsenal = 2;
 		scopecurator = 2;
@@ -848,7 +848,7 @@
 	};
 	class 44_swla_force_recon_vest_2: 44_swla_force_recon_vest_base
 	{
-		displayName="[44] Clone force recon vest 2";
+		displayName="[44/LS] Clone force recon vest 2";
 		scope = 2;
 		scopearsenal = 2;
 		scopecurator = 2;
@@ -861,7 +861,7 @@
 
 	class 44_swla_force_recon_nco_vest_1: 44_swla_force_recon_nco_vest_base
 	{
-		displayName="[44] Clone force recon nco vest 1";
+		displayName="[44/LS] Clone force recon nco vest 1";
 		scope = 2;
 		scopearsenal = 2;
 		scopecurator = 2;
