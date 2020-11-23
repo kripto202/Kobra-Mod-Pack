@@ -3,7 +3,10 @@ class cfgpatches
     class k_equipment_44_backpack
     {
         author = "KOBRA Mod Team";
-        requiredAddons[]={};
+        requiredAddons[]=
+        {
+            "kobra_core"
+        };
 		requiredVersion = 0.1;
 		units[] = 
         {

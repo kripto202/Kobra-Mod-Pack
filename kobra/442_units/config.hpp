@@ -3,7 +3,10 @@ class cfgpatches
     class 442_units
     {
         author = "KOBRA Mod Team";
-        requiredAddons[]={};
+        requiredAddons[]=
+        {
+            "kobra_core"
+        };
 		requiredVersion = 0.1;
 		units[] = 
         {

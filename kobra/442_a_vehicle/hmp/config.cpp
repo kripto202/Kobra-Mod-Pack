@@ -3,7 +3,10 @@ class cfgPatches
     class 442_a_vehicle_hmp_gunship
     {
         author = "KOBRA Mod Team";
-        requiredaddons[] = {};
+        requiredAddons[]=
+        {
+            "kobra_core"
+        };
         requiredVersion = 0.1;
         units[] = 
         {

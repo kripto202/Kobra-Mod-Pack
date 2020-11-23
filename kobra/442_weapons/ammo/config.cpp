@@ -3,7 +3,10 @@ class cfgpatches
     class 442_weapons_ammo
     {
         author = "KOBRA Mod Team";
-        requiredAddons[]={};
+        requiredAddons[]=
+        {
+            "kobra_core"
+        };
 		requiredVersion = 0.1;
 		units[] = {};
         weapons[] = {};

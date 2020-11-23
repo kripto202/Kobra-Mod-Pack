@@ -3,7 +3,11 @@ class cfgpatches
     class k_vehicle_optre_warthog
     {
         author = "KOBRA Mod Team";
-        requiredAddons[]={};
+        requiredAddons[]=
+        {
+            "kobra_core",
+			"OPTRE_Vehicles_Warthog"
+        };
 		requiredVersion = 0.1;
 		units[] = 
         {
