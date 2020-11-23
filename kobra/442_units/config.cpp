@@ -46,7 +46,7 @@ class cfgvehicles
 		model = "";
 		editorPreview="";
 		picture = ""; //this needs to be changed
-		icon = "kobra_core\442_icons\data\icon_rifleman.paa";
+		icon = "kobra_core\icons\data\icon_rifleman.paa";
 		identityTypes[]=
 		{
 			"LanguageENG_F",
@@ -114,7 +114,7 @@ class cfgvehicles
 		scope = 2;
 		displayname = "Trooper (Barracks)";
 		editorpreview = "\SWLB_clones\data\ui\editorPreviews\SWLB_clone_base_P2.jpg";
-		icon = "kobra_core\442_icons\data\icon_rifleman.paa";
+		icon = "kobra_core\icons\data\icon_rifleman.paa";
 		identityTypes[] = {"LanguageENG_F", "Head_NATO"};
 		role = "Rifleman";
 		uniformclass = "k_barracks_uniform";
@@ -161,6 +161,7 @@ class cfgweapons
     class UniformItem;
     class U_I_CombatUniform;
     class vestitem;
+	class V_rebreatherB;
     class 442_swla_uniform_base: U_I_CombatUniform
 	{
 		displayname="Clone Trooper Armor";

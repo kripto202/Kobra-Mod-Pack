@@ -123,7 +123,7 @@ class cfgvehicles
 				author = "Kobra Mod Team";
 				textures[] = 
 				{
-					"k_vehicle_optre\warthog\data\9_warthog.paa",
+					"k_vehicle_optre\warthog\data\125_warthog.paa",
 					"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
 				};
 				factions[] = 
@@ -239,7 +239,7 @@ class cfgvehicles
 				author = "Kobra Mod Team";
 				textures[] = 
 				{
-					"k_vehicle_optre\warthog\data\9_warthog.paa",
+					"k_vehicle_optre\warthog\data\125_warthog.paa",
 					"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
 				};
 				factions[] = 
@@ -355,7 +355,7 @@ class cfgvehicles
 				author = "Kobra Mod Team";
 				textures[] = 
 				{
-					"k_vehicle_optre\warthog\data\9_warthog.paa",
+					"k_vehicle_optre\warthog\data\125_warthog.paa",
 					"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
 				};
 				factions[] = 
@@ -471,7 +471,7 @@ class cfgvehicles
 				author = "Kobra Mod Team";
 				textures[] = 
 				{
-					"k_vehicle_optre\warthog\data\9_warthog.paa",
+					"k_vehicle_optre\warthog\data\125_warthog.paa",
 					"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa"
 				};
 				factions[] = 

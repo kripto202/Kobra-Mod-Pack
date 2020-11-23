@@ -10,7 +10,7 @@ class cfgpatches
 
 class CfgVehicleIcons
 {
-	442_iconMan="\A3\ui_f\data\map\vehicleicons\iconMan_ca.paa";
+	442_iconMan="kobra_core\icons\data\icon_rifleman.paa";
     442_iconManMedic="kobra_core\icons\data\icon_medic.paa";
     442_iconManEngineer="kobra_core\icons\data\icon_engineer.paa";
     442_iconManExplosive="kobra_core\icons\data\icon_engineer.paa";
