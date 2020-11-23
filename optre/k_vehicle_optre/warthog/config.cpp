@@ -24,9 +24,12 @@ class cfgpatches
 class cfgvehicles 
 {
     class OPTRE_M12_FAV;
-    class OPTRE_M12_LRV;
-    class OPTRE_M813_TT;
-    class OPTRE_M12A1_LRV;
+	class OPTRE_M12_LRV;
+	class OPTRE_M12A1_LRV;
+	class OPTRE_M12G1_LRV;
+	class OPTRE_M12R_AA;
+	class OPTRE_M914_RV;
+	class OPTRE_M813_TT;
 //Unarmed
 	class 442_warthog_unarmed: OPTRE_M12_FAV
 	{
@@ -128,8 +131,7 @@ class cfgvehicles
 					"kobra_b"
 				};
 			};
-		};
-		class 212_fc
+			class 212_fc
 			{
 				displayname = "212th Falcon Company";
 				author = "Kobra Mod Team";
@@ -361,8 +363,7 @@ class cfgvehicles
 					"kobra_b"
 				};
 			};
-		};
-		class 212_fc
+			class 212_fc
 			{
 				displayname = "212th Falcon Company";
 				author = "Kobra Mod Team";
@@ -478,8 +479,7 @@ class cfgvehicles
 					"kobra_b"
 				};
 			};
-		};
-		class 212_fc
+			class 212_fc
 			{
 				displayname = "212th Falcon Company";
 				author = "Kobra Mod Team";

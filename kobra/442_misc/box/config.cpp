@@ -42,7 +42,7 @@ class cfgvehicles
 		ace_cargo_size = 1;
 		ace_cargo_canload = 1;
 		ace_dragging_can_drag = 1;
-		ace_dragging_dragPosition = {0, 1.2, 0};
+		ace_dragging_dragPosition[] = {0, 1.2, 0};
 		ace_dragging_dragDirection = 0;
 		ace_dragging_canCarry = 1;
 		ace_dragging_carryPosition[] = {0, 1.2, 0};
@@ -93,11 +93,6 @@ class cfgvehicles
 		};
 		class transportMagazines
 		{
-			class SWLW_beltgrenade_mag
-			{
-				magazine = "SWLW_beltgrenade_mag";
-				count = 10;
-			};
 			class smokeshellblue
 			{
 				magazine = "smokeshellblue";
@@ -142,7 +137,7 @@ class cfgvehicles
 		ace_cargo_size = 1;
 		ace_cargo_canload = 1;
 		ace_dragging_can_drag = 1;
-		ace_dragging_dragPosition = {0, 1.2, 0};
+		ace_dragging_dragPosition[] = {0, 1.2, 0};
 		ace_dragging_dragDirection = 0;
 		ace_dragging_canCarry = 1;
 		ace_dragging_carryPosition[] = {0, 1.2, 0};
@@ -222,7 +217,7 @@ class cfgvehicles
 		ace_cargo_size = 1;
 		ace_cargo_canload = 1;
 		ace_dragging_can_drag = 1;
-		ace_dragging_dragPosition = {0, 1.2, 0};
+		ace_dragging_dragPosition[] = {0, 1.2, 0};
 		ace_dragging_dragDirection = 0;
 		ace_dragging_canCarry = 1;
 		ace_dragging_carryPosition[] = {0, 1.2, 0};
@@ -239,7 +234,7 @@ class cfgvehicles
 		ace_cargo_size = 1;
 		ace_cargo_canload = 1;
 		ace_dragging_can_drag = 1;
-		ace_dragging_dragPosition = {0, 1.2, 0};
+		ace_dragging_dragPosition[] = {0, 1.2, 0};
 		ace_dragging_dragDirection = 0;
 		ace_dragging_canCarry = 1;
 		ace_dragging_carryPosition[] = {0, 1.2, 0};
@@ -428,7 +423,7 @@ class cfgvehicles
 		ace_cargo_size = 1;
 		ace_cargo_canload = 1;
 		ace_dragging_can_drag = 1;
-		ace_dragging_dragPosition = {0, 1.2, 0};
+		ace_dragging_dragPosition[] = {0, 1.2, 0};
 		ace_dragging_dragDirection = 0;
 		ace_dragging_canCarry = 1;
 		ace_dragging_carryPosition[] = {0, 1.2, 0};
@@ -445,7 +440,7 @@ class cfgvehicles
 		ace_cargo_size = 1;
 		ace_cargo_canload = 1;
 		ace_dragging_can_drag = 1;
-		ace_dragging_dragPosition = {0, 1.2, 0};
+		ace_dragging_dragPosition[] = {0, 1.2, 0};
 		ace_dragging_dragDirection = 0;
 		ace_dragging_canCarry = 1;
 		ace_dragging_carryPosition[] = {0, 1.2, 0};
@@ -511,7 +506,7 @@ class cfgvehicles
 		ace_cargo_size = 1;
 		ace_cargo_canload = 1;
 		ace_dragging_can_drag = 1;
-		ace_dragging_dragPosition = {0, 1.2, 0};
+		ace_dragging_dragPosition[] = {0, 1.2, 0};
 		ace_dragging_dragDirection = 0;
 		ace_dragging_canCarry = 1;
 		ace_dragging_carryPosition[] = {0, 1.2, 0};
