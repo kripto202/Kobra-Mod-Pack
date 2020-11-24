@@ -17,7 +17,7 @@
 		{
 			"k_unit_9\data\armor\9_armor_upper_clean_co.paa",
 			"k_unit_9\data\armor\9_armor_lower_clean_co.paa",
-			"k_unit_ls\uniform\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa",
 		};
 		linkedItems[] = {};
 		respawnlinkeditems[] = {};
@@ -43,7 +43,7 @@
 		{
 			"k_unit_9\data\armor\9_armor_upper_worn_co.paa",
 			"k_unit_9\data\armor\9_armor_lower_worn_co.paa",
-			"k_unit_ls\uniform\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa",
 		};
 	};
 	class 9_swla_trooper_nco: 9_swla_trooper_clean
@@ -53,7 +53,7 @@
 		{
 			"k_unit_9\data\armor\9_armor_upper_nco_co.paa",
 			"k_unit_9\data\armor\9_armor_lower_nco_co.paa",
-			"k_unit_ls\uniform\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa",
 		};
 	};
 	class 9_swla_trooper_lt: 9_swla_trooper_clean
@@ -63,7 +63,7 @@
 		{
 			"k_unit_9\data\armor\9_armor_upper_lt_co.paa",
 			"k_unit_9\data\armor\9_armor_lower_nco_co.paa",
-			"k_unit_ls\uniform\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa",
 		};
 	};
 	class 9_swla_trooper_cpt: 9_swla_trooper_clean
@@ -73,7 +73,7 @@
 		{
 			"k_unit_9\data\armor\9_armor_upper_cpt_co.paa",
 			"k_unit_9\data\armor\9_armor_lower_nco_co.paa",
-			"k_unit_ls\uniform\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa",
 		};
 	};
 	class 9_swla_trooper_cmd: 9_swla_trooper_clean
@@ -83,7 +83,7 @@
 		{
 			"k_unit_9\data\armor\9_armor_upper_cmd_co.paa",
 			"k_unit_9\data\armor\9_armor_lower_nco_co.paa",
-			"k_unit_ls\uniform\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa",
 		};
 	};
 	#include "9_unit_loadout.hpp"

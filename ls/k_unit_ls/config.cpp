@@ -276,8 +276,8 @@ class cfgweapons
 
 		hiddenselectionsmaterials[] = 
 		{
-			"442_units\clones\data\helmet\p2_helmet\camo1.rvmat",
-			"442_units\clones\data\helmet\p2_helmet\visor.rvmat"
+			"k_unit_ls\data\helmet\p2_helmet\camo1.rvmat",
+			"k_unit_ls\data\helmet\p2_helmet\visor.rvmat"
 		};
 
 		model="ls_armor_bluefor\helmet\gar\phase2\ls_gar_phase2_helmet.p3d";
@@ -306,9 +306,9 @@ class cfgweapons
 
 		/*hiddenselectionsmaterials[] = 
 		{
-			"442_units\clones\data\helmet\p15_helmet\camo1.rvmat",
-			"442_units\clones\data\helmet\p15_helmet\visor.rvmat",
-			"442_units\clones\data\helmet\p15_helmet\illum.rvmat"
+			"k_unit_ls\data\helmet\p15_helmet\camo1.rvmat",
+			"k_unit_ls\data\helmet\p15_helmet\visor.rvmat",
+			"k_unit_ls\data\helmet\p15_helmet\illum.rvmat"
 		};*/
 
 		class Iteminfo: Iteminfo
@@ -338,8 +338,8 @@ class cfgweapons
 		};
 		hiddenselectionsmaterials[] = 
 		{
-			"442_units\clones\data\helmet\ab_helmet\camo1.rvmat",
-			"442_units\clones\data\helmet\ab_helmet\visor.rvmat"
+			"k_unit_ls\data\helmet\ab_helmet\camo1.rvmat",
+			"k_unit_ls\data\helmet\ab_helmet\visor.rvmat"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -370,8 +370,8 @@ class cfgweapons
 
 		hiddenselectionsmaterials[] = 
 		{
-			"442_units\clones\data\helmet\p2_pilot_helmet\camo1.rvmat",
-			"442_units\clones\data\helmet\p2_pilot_helmet\visor.rvmat"
+			"k_unit_ls\data\helmet\p2_pilot_helmet\camo1.rvmat",
+			"k_unit_ls\data\helmet\p2_pilot_helmet\visor.rvmat"
 		};
 
 		class ItemInfo: ItemInfo
@@ -398,8 +398,8 @@ class cfgweapons
 
 		hiddenselectionsmaterials[] = 
 		{
-			"442_units\clones\data\helmet\barc_helmet\camo1.rvmat",
-			"442_units\clones\data\helmet\barc_helmet\visor.rvmat"
+			"k_unit_ls\data\helmet\barc_helmet\camo1.rvmat",
+			"k_unit_ls\data\helmet\barc_helmet\visor.rvmat"
 		};
 
 		class ItemInfo: ItemInfo
@@ -429,9 +429,9 @@ class cfgweapons
 
 		/*hiddenselectionsmaterials[] = 
 		{
-			"442_units\clones\data\helmet\arf_helmet\camo1.rvmat",
+			"k_unit_ls\data\helmet\arf_helmet\camo1.rvmat",
 			"",
-			"442_units\clones\data\helmet\arf_helmet\visor.rvmat"
+			"k_unit_ls\data\helmet\arf_helmet\visor.rvmat"
 		};*/
 		
 		class Iteminfo: ItemInfo
@@ -450,9 +450,9 @@ class cfgweapons
 		displayname = "[K] P2 ARF Helmet";
 		/*hiddenselectionsmaterials[] = 
 		{
-			"442_units\clones\data\helmet\arf_helmet\camo1.rvmat",
-			"442_units\clones\data\helmet\arf_helmet\camo2.rvmat",
-			"442_units\clones\data\helmet\arf_helmet\visor.rvmat"
+			"k_unit_ls\data\helmet\arf_helmet\camo1.rvmat",
+			"k_unit_ls\data\helmet\arf_helmet\camo2.rvmat",
+			"k_unit_ls\data\helmet\arf_helmet\visor.rvmat"
 		};*/
 	};
 	class k_eng_helmet_base: k_helmet_base
@@ -472,9 +472,9 @@ class cfgweapons
 
 		hiddenselectionsmaterials[] = 
 		{
-			"442_units\clones\data\helmet\eng_helmet\camo1.rvmat",
-			"442_units\clones\data\helmet\eng_helmet\illum.rvmat",
-			"442_units\clones\data\helmet\eng_helmet\visor.rvmat"
+			"k_unit_ls\data\helmet\eng_helmet\camo1.rvmat",
+			"k_unit_ls\data\helmet\eng_helmet\illum.rvmat",
+			"k_unit_ls\data\helmet\eng_helmet\visor.rvmat"
 		};
 
 		class ItemInfo: ItemInfo
@@ -503,9 +503,9 @@ class cfgweapons
 
 		hiddenselectionsmaterials[] = 
 		{
-			"442_units\clones\data\helmet\p1_helmet\camo1.rvmat",
-			"442_units\clones\data\helmet\p1_helmet\visor.rvmat",
-			"442_units\clones\data\helmet\p1_helmet\illum.rvmat"
+			"k_unit_ls\data\helmet\p1_helmet\camo1.rvmat",
+			"k_unit_ls\data\helmet\p1_helmet\visor.rvmat",
+			"k_unit_ls\data\helmet\p1_helmet\illum.rvmat"
 		};
 
 		class ItemInfo: ItemInfo
@@ -536,9 +536,9 @@ class cfgweapons
 		};
 		hiddenselectionsmaterials[] = 
 		{
-			"442_units\clones\data\helmet\p1_pilot_helmet\camo1.rvmat",
-			"442_units\clones\data\helmet\p1_pilot_helmet\camo2.rvmat",
-			"442_units\clones\data\helmet\p1_helmet\visor.rvmat"
+			"k_unit_ls\data\helmet\p1_pilot_helmet\camo1.rvmat",
+			"k_unit_ls\data\helmet\p1_pilot_helmet\camo2.rvmat",
+			"k_unit_ls\data\helmet\p1_helmet\visor.rvmat"
 		};
 
 		class ItemInfo: ItemInfo
@@ -569,8 +569,8 @@ class cfgweapons
 
 		hiddenselectionsmaterials[] = 
 		{
-			"442_units\clones\data\helmet\p1_spec_helmet\camo1.rvmat",
-			"442_units\clones\data\helmet\p1_spec_helmet\visor.rvmat"
+			"k_unit_ls\data\helmet\p1_spec_helmet\camo1.rvmat",
+			"k_unit_ls\data\helmet\p1_spec_helmet\visor.rvmat"
 		};
 
 		class ItemInfo: ItemInfo
@@ -600,8 +600,8 @@ class cfgweapons
 
 		hiddenselectionsmaterials[] = 
 		{
-			"442_units\clones\data\helmet\p2_spec_helmet\camo1.rvmat",
-			"442_units\clones\data\helmet\p2_spec_helmet\visor.rvmat"
+			"k_unit_ls\data\helmet\p2_spec_helmet\camo1.rvmat",
+			"k_unit_ls\data\helmet\p2_spec_helmet\visor.rvmat"
 		};
 
 		class ItemInfo: ItemInfo
@@ -628,8 +628,8 @@ class cfgweapons
 
 		hiddenselectionsmaterials[] = 
 		{
-			"442_units\clones\data\helmet\rex_helmet\camo1.rvmat",
-			"442_units\clones\data\helmet\rex_helmet\visor.rvmat"
+			"k_unit_ls\data\helmet\rex_helmet\camo1.rvmat",
+			"k_unit_ls\data\helmet\rex_helmet\visor.rvmat"
 		};
 
 		class ItemInfo: ItemInfo
@@ -859,8 +859,8 @@ class cfgvehicles
 		scopeArsenal=1;
 		model = "ls_armor_bluefor\uniform\gar\phase2\ls_gar_phase2_uniform.p3d";
 		editorPreview="";
-		//picture = "442_units\clones\data\ui\body.paa"; //this needs to be changed
-		icon = "kobra_core\442_icons\data\icon_rifleman.paa";
+		//picture = "k_unit_ls\ui\body.paa"; //this needs to be changed
+		icon = "kobra_core\icons\data\icon_rifleman.paa";
 		identityTypes[]=
 		{
 			"LanguageENG_F",
@@ -923,7 +923,7 @@ class cfgvehicles
 		model = "ls_armor_bluefor\uniform\gar\marshalCommander\ls_gar_marshalCommander_uniform.p3d";
 		side = 1;
 		uniformclass="k_swla_mc_uniform";
-		//picture = "442_units\clones\data\ui\body_mc.paa"; //this needs to be changed
+		//picture = "k_unit_ls\ui\body_mc.paa"; //this needs to be changed
 		hiddenselections[]=
 		{
 			"camo1",

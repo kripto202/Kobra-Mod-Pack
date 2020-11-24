@@ -1301,7 +1301,7 @@ class cfgammo
 		flaresize=5;
 		tracerscale=1.1;
 		effectflare="FlareShell";
-		tracerstarttime=0;
+		tracerstarttime=0.05;
 		tracerendtime=10;
 		nvgonly=0;
 		typicalspeed=920;

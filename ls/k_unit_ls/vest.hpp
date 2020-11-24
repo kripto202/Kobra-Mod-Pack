@@ -4,10 +4,10 @@ class k_vest_basic: k_vest_base
     scopecurator = 2;
     scopearsenal = 2;
     displayname = "[K] Vest Basic";
-    model = "442_equipment\vests\clone_basic_armor.p3d";
+    model = "k_unit_ls\clone_basic_armor.p3d";
     class ItemInfo: ItemInfo
     {
-        uniformModel = "442_equipment\vests\clone_basic_armor.p3d";
+        uniformModel = "k_unit_ls\clone_basic_armor.p3d";
         containerClass = "Supply100";
         mass = 10;
     };
@@ -18,7 +18,7 @@ class k_vest_arc_1: k_vest_base
     scopecurator = 2;
     scopearsenal = 2;
     displayname = "[K] Arc Armor (Black)";
-    model = "442_equipment\vests\clone_arc_armor.p3d";
+    model = "k_unit_ls\clone_arc_armor.p3d";
     hiddenselections[] = 
     {
         "arc_kama_pauldron",
@@ -26,8 +26,8 @@ class k_vest_arc_1: k_vest_base
     };
     hiddenselectionstextures[] = 
     {
-        "442_equipment\vests\data\442_vest_1_b.paa",
-        "442_equipment\vests\data\442_arc_vest.paa"
+        "k_unit_ls\data\vest\442_vest_1_b.paa",
+        "k_unit_ls\data\vest\442_arc_vest.paa"
     };
     class ItemInfo: ItemInfo
     {
@@ -38,7 +38,7 @@ class k_vest_arc_1: k_vest_base
         };
         containerclass = "Supply200";
         mass = 150;
-        uniformmodel = "442_equipment\vests\clone_arc_armor.p3d";
+        uniformmodel = "k_unit_ls\clone_arc_armor.p3d";
         class HitpointsProtectionInfo
         {
             class Chest
@@ -73,7 +73,7 @@ class k_vest_arc_2: k_vest_arc_1
     scopecurator = 2;
     scopearsenal = 2;
     displayname = "[K] Arc Armor (Grey)";
-    model = "442_equipment\vests\clone_arc_armor.p3d";
+    model = "k_unit_ls\clone_arc_armor.p3d";
     hiddenselections[] = 
     {
         "arc_kama_pauldron",
@@ -81,8 +81,8 @@ class k_vest_arc_2: k_vest_arc_1
     };
     hiddenselectionstextures[] = 
     {
-        "442_equipment\vests\data\442_vest_1_g.paa",
-        "442_equipment\vests\data\442_arc_vest.paa"
+        "k_unit_ls\data\vest\442_vest_1_g.paa",
+        "k_unit_ls\data\vest\442_arc_vest.paa"
     };
 };
 class k_vest_arc_plate: k_vest_arc_1
@@ -91,7 +91,7 @@ class k_vest_arc_plate: k_vest_arc_1
     scopecurator = 2;
     scopearsenal = 2;
     displayname = "[K] Arc Plates";
-    model = "442_equipment\vests\clone_arc_armor.p3d";
+    model = "k_unit_ls\clone_arc_armor.p3d";
     hiddenselections[] = 
     {
         "arc_kama_pauldron",
@@ -100,7 +100,7 @@ class k_vest_arc_plate: k_vest_arc_1
     hiddenselectionstextures[] = 
     {
         "",
-        "442_equipment\vests\data\442_arc_vest.paa"
+        "k_unit_ls\data\vest\442_arc_vest.paa"
     };
 };
 
@@ -119,12 +119,12 @@ class k_vest_airborne_1: k_vest_base
     };
     hiddenselectionstextures[] = 
     {
-        "442_equipment\vests\data\442_vest_2_b.paa",
-        "442_equipment\vests\data\442_vest_2_b.paa",
-        "442_equipment\vests\data\442_vest_1_b.paa",
+        "k_unit_ls\data\vest\442_vest_2_b.paa",
+        "k_unit_ls\data\vest\442_vest_2_b.paa",
+        "k_unit_ls\data\vest\442_vest_1_b.paa",
         ""
     };
-    model = "442_equipment\vests\clone_airborne_armor.p3d";
+    model = "k_unit_ls\clone_airborne_armor.p3d";
     class ItemInfo: ItemInfo
     {
         hiddenselections[] = 
@@ -136,7 +136,7 @@ class k_vest_airborne_1: k_vest_base
         };
         containerclass = "Supply250";
         mass = 70;
-        uniformmodel = "442_equipment\vests\clone_airborne_armor.p3d";
+        uniformmodel = "k_unit_ls\clone_airborne_armor.p3d";
     };
 };
 class k_vest_airborne_2: k_vest_airborne_1
@@ -144,9 +144,9 @@ class k_vest_airborne_2: k_vest_airborne_1
     displayname = "[K] Airborne Vest (Grey)";
     hiddenselectionstextures[] = 
     {
-        "442_equipment\vests\data\442_vest_2_g.paa",
-        "442_equipment\vests\data\442_vest_2_g.paa",
-        "442_equipment\vests\data\442_vest_1_g.paa",
+        "k_unit_ls\data\vest\442_vest_2_g.paa",
+        "k_unit_ls\data\vest\442_vest_2_g.paa",
+        "k_unit_ls\data\vest\442_vest_1_g.paa",
         ""
     };
 };
@@ -155,9 +155,9 @@ class k_vest_airborne_medic: k_vest_airborne_1
     displayname = "[K] Airborne Vest (Medic)";
     hiddenselectionstextures[] = 
     {
-        "442_equipment\vests\data\442_vest_2_m.paa",
-        "442_equipment\vests\data\442_vest_2_m.paa",
-        "442_equipment\vests\data\442_vest_1_g.paa",
+        "k_unit_ls\data\vest\442_vest_2_m.paa",
+        "k_unit_ls\data\vest\442_vest_2_m.paa",
+        "k_unit_ls\data\vest\442_vest_1_g.paa",
         ""
     };
 };
@@ -166,10 +166,10 @@ class k_vest_airborne_nco_1: k_vest_airborne_1
     displayname = "[K] Airborne NCO Vest (Black)";
     hiddenselectionstextures[] = 
     {
-        "442_equipment\vests\data\442_vest_2_b.paa",
-        "442_equipment\vests\data\442_vest_2_b.paa",
-        "442_equipment\vests\data\442_vest_1_b.paa",
-        "442_equipment\vests\data\442_vest_2_b.paa"
+        "k_unit_ls\data\vest\442_vest_2_b.paa",
+        "k_unit_ls\data\vest\442_vest_2_b.paa",
+        "k_unit_ls\data\vest\442_vest_1_b.paa",
+        "k_unit_ls\data\vest\442_vest_2_b.paa"
     };
 };
 class k_vest_airborne_nco_2: k_vest_airborne_1
@@ -177,10 +177,10 @@ class k_vest_airborne_nco_2: k_vest_airborne_1
     displayname = "[K] Airborne NCO Vest (Grey)";
     hiddenselectionstextures[] = 
     {
-        "442_equipment\vests\data\442_vest_2_g.paa",
-        "442_equipment\vests\data\442_vest_2_g.paa",
-        "442_equipment\vests\data\442_vest_1_g.paa",
-        "442_equipment\vests\data\442_vest_2_g.paa"
+        "k_unit_ls\data\vest\442_vest_2_g.paa",
+        "k_unit_ls\data\vest\442_vest_2_g.paa",
+        "k_unit_ls\data\vest\442_vest_1_g.paa",
+        "k_unit_ls\data\vest\442_vest_2_g.paa"
     };
 };
 
@@ -197,10 +197,10 @@ class k_vest_assault: k_vest_base
     };
     hiddenselectionstextures[] = 
     {
-        "442_equipment\vests\data\442_vest_3_b.paa",
-        "442_equipment\vests\data\442_vest_2_b.paa",
+        "k_unit_ls\data\vest\442_vest_3_b.paa",
+        "k_unit_ls\data\vest\442_vest_2_b.paa",
     };
-    model = "442_equipment\vests\clone_assault_armor.p3d";
+    model = "k_unit_ls\clone_assault_armor.p3d";
     class ItemInfo: ItemInfo
     {
         hiddenselections[] = 
@@ -210,7 +210,7 @@ class k_vest_assault: k_vest_base
         };
         containerclass = "Supply150";
         mass = 30;
-        uniformmodel = "442_equipment\vests\clone_assault_armor.p3d";
+        uniformmodel = "k_unit_ls\clone_assault_armor.p3d";
     };
 };
 
@@ -226,9 +226,9 @@ class k_vest_cfr: k_vest_base
     };
     hiddenselectionstextures[] = 
     {
-        "442_equipment\vests\data\442_vest_2_b.paa"
+        "k_unit_ls\data\vest\442_vest_2_b.paa"
     };
-    model = "442_equipment\vests\clone_cfr_armor.p3d";
+    model = "k_unit_ls\clone_cfr_armor.p3d";
     class ItemInfo: ItemInfo
     {
         hiddenselections[] = 
@@ -237,7 +237,7 @@ class k_vest_cfr: k_vest_base
         };
         containerclass = "Supply180";
         mass = 35;
-        uniformmodel = "442_equipment\vests\clone_cfr_armor.p3d";
+        uniformmodel = "k_unit_ls\clone_cfr_armor.p3d";
     };
 };
 
@@ -254,10 +254,10 @@ class k_vest_commander_armor_1: k_vest_base
     };
     hiddenselectionstextures[] = 
     {
-        "442_equipment\vests\data\442_vest_1_b.paa",
-        "442_equipment\vests\data\rank_co.paa"
+        "k_unit_ls\data\vest\442_vest_1_b.paa",
+        "k_unit_ls\data\vest\rank_co.paa"
     };
-    model = "442_equipment\vests\clone_commander_armor.p3d";
+    model = "k_unit_ls\clone_commander_armor.p3d";
     class ItemInfo: ItemInfo
     {
         hiddenselections[] = 
@@ -267,7 +267,7 @@ class k_vest_commander_armor_1: k_vest_base
         };
         containerclass = "Supply200";
         mass = 35;
-        uniformmodel = "442_equipment\vests\clone_commander_armor.p3d";
+        uniformmodel = "k_unit_ls\clone_commander_armor.p3d";
     };
 };
 class k_vest_commander_armor_2: k_vest_commander_armor_1
@@ -275,8 +275,8 @@ class k_vest_commander_armor_2: k_vest_commander_armor_1
     displayname = "[K] Clone Marshall Commander Vest (Grey)";
     hiddenselectionstextures[] = 
     {
-        "442_equipment\vests\data\442_vest_1_g.paa",
-        "442_equipment\vests\data\rank_co.paa"
+        "k_unit_ls\data\vest\442_vest_1_g.paa",
+        "k_unit_ls\data\vest\rank_co.paa"
     };
 };
 class k_vest_commander_armor_3: k_vest_commander_armor_1
@@ -284,7 +284,7 @@ class k_vest_commander_armor_3: k_vest_commander_armor_1
     displayname = "[K] Clone Commander Vest (Black)";
     hiddenselectionstextures[] = 
     {
-        "442_equipment\vests\data\442_vest_1_b.paa"
+        "k_unit_ls\data\vest\442_vest_1_b.paa"
     };
 };
 class k_vest_commander_armor_4: k_vest_commander_armor_1
@@ -292,7 +292,7 @@ class k_vest_commander_armor_4: k_vest_commander_armor_1
     displayname = "[K] Clone Commander Vest (Grey)";
     hiddenselectionstextures[] = 
     {
-        "442_equipment\vests\data\442_vest_1_g.paa"
+        "k_unit_ls\data\vest\442_vest_1_g.paa"
     };
 };
 
@@ -309,10 +309,10 @@ class k_vest_grenadier: k_vest_base
     };
     hiddenselectionstextures[] = 
     {
-        "442_equipment\vests\data\442_vest_3_b.paa",
-        "442_equipment\vests\data\442_vest_2_b.paa"
+        "k_unit_ls\data\vest\442_vest_3_b.paa",
+        "k_unit_ls\data\vest\442_vest_2_b.paa"
     };
-    model = "442_equipment\vests\clone_grenadier_armor.p3d";
+    model = "k_unit_ls\clone_grenadier_armor.p3d";
     class ItemInfo: ItemInfo
     {
         hiddenselections[] = 
@@ -322,7 +322,7 @@ class k_vest_grenadier: k_vest_base
         };
         containerclass = "Supply180";
         mass = 40;
-        uniformmodel = "442_equipment\vests\clone_grenadier_armor.p3d";
+        uniformmodel = "k_unit_ls\clone_grenadier_armor.p3d";
     };
 };
 
@@ -338,9 +338,9 @@ class k_vest_kama_1: k_vest_base
     };
     hiddenselectionstextures[] = 
     {
-        "442_equipment\vests\data\442_vest_1_b.paa"
+        "k_unit_ls\data\vest\442_vest_1_b.paa"
     };
-    model = "442_equipment\vests\clone_kama_armor.p3d";
+    model = "k_unit_ls\clone_kama_armor.p3d";
     class ItemInfo: ItemInfo
     {
         hiddenselections[] = 
@@ -349,7 +349,7 @@ class k_vest_kama_1: k_vest_base
         };
         containerclass = "Supply120";
         mass = 40;
-        uniformmodel = "442_equipment\vests\clone_kama_armor.p3d";
+        uniformmodel = "k_unit_ls\clone_kama_armor.p3d";
     };
 };
 class k_vest_kama_2: k_vest_kama_1
@@ -357,7 +357,7 @@ class k_vest_kama_2: k_vest_kama_1
     displayname = "[K] Clone Kama (Grey)";
     hiddenselectionstextures[] = 
     {
-        "442_equipment\vests\data\442_vest_1_g.paa"
+        "k_unit_ls\data\vest\442_vest_1_g.paa"
     };
 };
 
@@ -373,9 +373,9 @@ class k_vest_pauldron_1: k_vest_base
     };
     hiddenselectionstextures[] = 
     {
-        "442_equipment\vests\data\442_vest_1_b.paa"
+        "k_unit_ls\data\vest\442_vest_1_b.paa"
     };
-    model = "442_equipment\vests\clone_lieutenant_armor.p3d";
+    model = "k_unit_ls\clone_lieutenant_armor.p3d";
     class ItemInfo: ItemInfo
     {
         hiddenselections[] = 
@@ -384,7 +384,7 @@ class k_vest_pauldron_1: k_vest_base
         };
         containerclass = "Supply120";
         mass = 40;
-        uniformmodel = "442_equipment\vests\clone_lieutenant_armor.p3d";
+        uniformmodel = "k_unit_ls\clone_lieutenant_armor.p3d";
     };
 };
 class k_vest_pauldron_2: k_vest_pauldron_1
@@ -395,7 +395,7 @@ class k_vest_pauldron_2: k_vest_pauldron_1
     displayname = "[K] Clone Pauldron (Grey)";
     hiddenselectionstextures[] = 
     {
-        "442_equipment\vests\data\442_vest_1_g.paa"
+        "k_unit_ls\data\vest\442_vest_1_g.paa"
     };
 };
 
@@ -419,17 +419,17 @@ class k_vest_light: k_vest_base
     };
     hiddenselectionstextures[] = 
     {
-        "442_equipment\vests\data\442_vest_3_b.paa",
+        "k_unit_ls\data\vest\442_vest_3_b.paa",
         "",
-        "442_equipment\vests\data\442_vest_3_b.paa",
+        "k_unit_ls\data\vest\442_vest_3_b.paa",
         "",
-        "442_equipment\vests\data\442_vest_3_b.paa",
-        "442_equipment\vests\data\442_vest_3_b.paa",
-        "442_equipment\vests\data\442_vest_3_b.paa",
-        "442_equipment\vests\data\442_vest_3_b.paa",
+        "k_unit_ls\data\vest\442_vest_3_b.paa",
+        "k_unit_ls\data\vest\442_vest_3_b.paa",
+        "k_unit_ls\data\vest\442_vest_3_b.paa",
+        "k_unit_ls\data\vest\442_vest_3_b.paa",
         "",
     };
-    model = "442_equipment\vests\clone_light_armor.p3d";
+    model = "k_unit_ls\clone_light_armor.p3d";
     class ItemInfo: ItemInfo
     {
         hiddenselections[] = 
@@ -446,7 +446,7 @@ class k_vest_light: k_vest_base
         };
         containerclass = "Supply200";
         mass = 30;
-        uniformmodel = "442_equipment\vests\clone_light_armor.p3d";
+        uniformmodel = "k_unit_ls\clone_light_armor.p3d";
     };
 };
 
@@ -462,9 +462,9 @@ class k_vest_medic: k_vest_base
     };
     hiddenselectionstextures[] = 
     {
-        "442_equipment\vests\data\442_vest_2_m.paa"
+        "k_unit_ls\data\vest\442_vest_2_m.paa"
     };
-    model = "442_equipment\vests\clone_medic_armor.p3d";
+    model = "k_unit_ls\clone_medic_armor.p3d";
     class ItemInfo: ItemInfo
     {
         hiddenselections[] = 
@@ -473,7 +473,7 @@ class k_vest_medic: k_vest_base
         };
         containerclass = "Supply250";
         mass = 40;
-        uniformmodel = "442_equipment\vests\clone_medic_armor.p3d";
+        uniformmodel = "k_unit_ls\clone_medic_armor.p3d";
     };
 };
 
@@ -491,11 +491,11 @@ class k_vest_recon_1: k_vest_base
     };
     hiddenselectionstextures[] = 
     {
-        "442_equipment\vests\data\442_vest_2_b.paa",
-		"442_equipment\vests\data\442_vest_2_b.paa",
-		"442_equipment\vests\data\442_vest_2_b.paa"
+        "k_unit_ls\data\vest\442_vest_2_b.paa",
+		"k_unit_ls\data\vest\442_vest_2_b.paa",
+		"k_unit_ls\data\vest\442_vest_2_b.paa"
     };
-    model = "442_equipment\vests\clone_recon_armor.p3d";
+    model = "k_unit_ls\clone_recon_armor.p3d";
     class ItemInfo: ItemInfo
     {
         hiddenselections[] = 
@@ -506,7 +506,7 @@ class k_vest_recon_1: k_vest_base
         };
         containerclass = "Supply150";
         mass = 30;
-        uniformmodel = "442_equipment\vests\clone_recon_armor.p3d";
+        uniformmodel = "k_unit_ls\clone_recon_armor.p3d";
     };
 };
 class k_vest_recon_2: k_vest_recon_1
@@ -514,9 +514,9 @@ class k_vest_recon_2: k_vest_recon_1
     displayname = "[K] Clone Recon Vest (Grey)";
     hiddenselectionstextures[] = 
     {
-        "442_equipment\vests\data\442_vest_2_g.paa",
-		"442_equipment\vests\data\442_vest_2_g.paa",
-		"442_equipment\vests\data\442_vest_2_g.paa"
+        "k_unit_ls\data\vest\442_vest_2_g.paa",
+		"k_unit_ls\data\vest\442_vest_2_g.paa",
+		"k_unit_ls\data\vest\442_vest_2_g.paa"
     };
 };
 
@@ -533,10 +533,10 @@ class k_vest_recon_officer_1: k_vest_base
     };
     hiddenselectionstextures[] = 
     {
-        "442_equipment\vests\data\442_vest_1_b.paa",
-		"442_equipment\vests\data\442_vest_2_b.paa"
+        "k_unit_ls\data\vest\442_vest_1_b.paa",
+		"k_unit_ls\data\vest\442_vest_2_b.paa"
     };
-    model = "442_equipment\vests\clone_recon_officer_armor.p3d";
+    model = "k_unit_ls\clone_recon_officer_armor.p3d";
     class ItemInfo: ItemInfo
     {
         hiddenselections[] = 
@@ -546,7 +546,7 @@ class k_vest_recon_officer_1: k_vest_base
         };
         containerclass = "Supply150";
         mass = 60;
-        uniformmodel = "442_equipment\vests\clone_recon_officer_armor.p3d";
+        uniformmodel = "k_unit_ls\clone_recon_officer_armor.p3d";
     };
 };
 class k_vest_recon_officer_2: k_vest_recon_officer_1
@@ -554,8 +554,8 @@ class k_vest_recon_officer_2: k_vest_recon_officer_1
     displayname = "[K] Clone Recon Officer Vest (Grey)";
     hiddenselectionstextures[] = 
     {
-        "442_equipment\vests\data\442_vest_1_g.paa",
-		"442_equipment\vests\data\442_vest_2_g.paa"
+        "k_unit_ls\data\vest\442_vest_1_g.paa",
+		"k_unit_ls\data\vest\442_vest_2_g.paa"
     };
 };
 
@@ -572,10 +572,10 @@ class k_vest_specialist: k_vest_base
     };
     hiddenselectionstextures[] = 
     {
-        "442_equipment\vests\data\442_vest_3_b.paa",
-		"442_equipment\vests\data\442_vest_2_b.paa"
+        "k_unit_ls\data\vest\442_vest_3_b.paa",
+		"k_unit_ls\data\vest\442_vest_2_b.paa"
     };
-    model = "442_equipment\vests\clone_specialist_armor.p3d";
+    model = "k_unit_ls\clone_specialist_armor.p3d";
     class ItemInfo: ItemInfo
     {
         hiddenselections[] = 
@@ -585,6 +585,6 @@ class k_vest_specialist: k_vest_base
         };
         containerclass = "Supply150";
         mass = 40;
-        uniformmodel = "442_equipment\vests\clone_specialist_armor.p3d";
+        uniformmodel = "k_unit_ls\clone_specialist_armor.p3d";
     };
 };
