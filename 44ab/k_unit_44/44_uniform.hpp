@@ -29,14 +29,6 @@
 	};
 
 ///custom armor
-	class 44_swla_uniform_dukas: 44_swla_uniform
-	{
-		displayname = "[44/LS] Clone Trooper Uniform (Dukas)";
-		class iteminfo: iteminfo
-		{
-			uniformClass="44_swla_unit_dukas";
-		};
-	};
 	class 44_swla_uniform_hollen: 44_swla_uniform
 	{
 		displayname = "[44/LS] Clone Trooper Uniform (Hollen)";

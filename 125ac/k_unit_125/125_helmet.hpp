@@ -21,7 +21,7 @@
 		picture = "\442_units\clones\data\ui\arf_p1_helmet.paa";
 		hiddenselectionstextures[]=
 		{
-			"k_unit_125\data\125_arf_helmet_co.paa",
+			"k_unit_125\data\helmets\125_arf_helmet_co.paa",
 			"",
 			"k_unit_ls\data\helmet\arf_helmet\visor_co.paa"
 		};
@@ -35,7 +35,7 @@
 		picture = "\442_units\clones\data\ui\arf_p2_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
-			"k_unit_125\data\125_arf_helmet_co.paa",
+			"k_unit_125\data\helmets\125_arf_helmet_co.paa",
 			"k_unit_ls\data\helmet\arf_helmet\camo2_co.paa",
 			"k_unit_ls\data\helmet\arf_helmet\visor_co.paa"
 		};
@@ -49,7 +49,7 @@
 		picture = "\442_units\clones\data\ui\barc_helmet.paa";
 		hiddenselectionstextures[]=
 		{
-			"k_unit_44\data\44_barc_helmet_co.paa",
+			"k_unit_44\data\helmets\44_barc_helmet_co.paa",
 			"k_unit_ls\data\helmet\barc_helmet\visor_co.paa"
 		};
 	};
@@ -62,7 +62,7 @@
 		picture = "\442_units\clones\data\ui\pilot_p2_helmet.paa";
 		hiddenselectionstextures[]=
 		{
-			"k_unit_44\data\125_pilot_helmet_co.paa",
+			"k_unit_44\data\helmets\125_pilot_helmet_co.paa",
 			"k_unit_ls\data\helmet\p2_pilot_helmet\visor_co.paa"
 		};
 	};
@@ -72,7 +72,7 @@
 		picture = "\442_units\clones\data\ui\p2_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
-			"k_unit_125\data\p2_helmet_co.paa",
+			"k_unit_125\data\helmets\p2_helmet_co.paa",
 			"k_unit_ls\data\helmet\p2_helmet\visor_co.paa"
 		};
 	};
