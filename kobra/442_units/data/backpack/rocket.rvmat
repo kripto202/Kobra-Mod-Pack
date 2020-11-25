@@ -12,7 +12,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="442_units\clones\data\backpack\rocket_nohq.paa";
+	texture="442_units\data\backpack\rocket_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -48,7 +48,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="442_units\clones\data\backpack\rocket_as.paa";
+	texture="442_units\data\backpack\rocket_as.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -60,7 +60,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="442_units\clones\data\backpack\rocket_smdi.paa";
+	texture="442_units\data\backpack\rocket_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{
