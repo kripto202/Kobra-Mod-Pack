@@ -252,12 +252,72 @@
     };
 	class k_headgear_44_monty: k_headgear_p2
     {
-        displayname = "[44/LS] P1 ARF Helmet";
+        displayname = "[44/LS] P1 ARF Helmet (Monty)";
         class transportItems
         {
             class helmet
             {
-                name = "44_scout_helmet";
+                name = "44_p1_arf_helmet_monty";
+                count = 1;
+            };
+        };
+    };
+    class k_headgear_44_dishonored: k_headgear_p2
+    {
+        displayname = "[44/LS] P1.5 Helmet (Dishonored)";
+        class transportItems
+        {
+            class helmet
+            {
+                name = "44_p15_helmet_dishonored";
+                count = 1;
+            };
+        };
+    };
+    class k_headgear_44_azarael: k_headgear_p2
+    {
+        displayname = "[44/LS] P1 Arf Helmet (Azarael)";
+        class transportItems
+        {
+            class helmet
+            {
+                name = "44_p1_arf_helmet_azarael";
+                count = 1;
+            };
+        };
+    };
+    class k_headgear_44_nico: k_headgear_p2
+    {
+        displayname = "[44/LS] Airborne Helmet (Nico)";
+        class transportItems
+        {
+            class helmet
+            {
+                name = "44_airborne_helmet_nico";
+                count = 1;
+            };
+        };
+    };
+    class k_headgear_44_sexton: k_headgear_p2
+    {
+        displayname = "[44/LS] Engineer Helmet (Sexton)";
+        class transportItems
+        {
+            class helmet
+            {
+                name = "44_eng_helmet_sexton";
+                count = 1;
+            };
+        };
+    };
+    class k_headgear_44_steele: k_headgear_p2
+    {
+        displayname = "[44/LS] P1 Helmet (Steele)";
+        class transportItems
+        {
+            class helmet
+            {
+                name = "44_p1_helmet_steele";
                 count = 1;
             };
         };

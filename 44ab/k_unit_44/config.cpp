@@ -9,7 +9,56 @@ class cfgpatches
         };
 		requiredVersion = 0.1;
 		units[] = {};
-        weapons[] = {};
+        weapons[] = 
+        {
+            "44_p2_helmet",
+            "44_p15_helmet",
+            "44_airborne_helmet",
+            "44_p2_pilot_helmet",
+            "44_barc_helmet",
+            "44_p1_arf_helmet",
+            "44_p2_arf_helmet",
+            "44_eng_helmet",
+            "44_p1_helmet",
+            "44_p1_pilot_helmet",
+            "44_p1_specop_helmet",
+            "44_p2_specop_helmet",
+            "44_rex_helmet",
+            "44_scout_helmet",
+            "44_hunter_helmet",
+            "44_crosshair_helmet",
+            "44_wrecker_helmet",
+            "44_tech_helmet",
+            "44_p2_helmet_Hollen",
+            "44_p1_arf_helmet_monty",
+            "44_barc_helmet_kripto",
+            "44_p2_pilot_helmet_delta",
+            "44_p1_specop_helmet_garrus",
+            "44_p15_helmet_dishonored",
+            "44_p1_arf_helmet_azarael",
+            "44_airborne_helmet_nico",
+            "44_eng_helmet_sexton",
+            "44_p1_helmet_steele",
+
+            "44_swla_uniform",
+            "44_swla_uniform_mc",
+            "44_swla_uniform_hollen",
+            "44_swla_uniform_kripto",
+            "44_swla_uniform_monty",
+            "44_swla_uniform_rex",
+            "44_swla_uniform_delta",
+            "44_swla_uniform_garrus",
+            "44_swla_uniform_dishonored",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+        };
     };
 };
 

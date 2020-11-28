@@ -85,3 +85,35 @@
 			uniformClass="44_swla_unit_dishonored";
 		};
 	};
+	class 44_swla_uniform_azarael: 44_swla_uniform
+	{
+		displayname = "[44/LS] Clone Trooper Uniform (Azarael)";
+		class iteminfo: iteminfo
+		{
+			uniformClass="44_swla_unit_azarael";
+		};
+	};
+	class 44_swla_uniform_nico: 44_swla_uniform
+	{
+		displayname = "[44/LS] Clone Trooper Uniform (Nico)";
+		class iteminfo: iteminfo
+		{
+			uniformClass="44_swla_unit_nico";
+		};
+	};
+	class 44_swla_uniform_sexton: 44_swla_uniform
+	{
+		displayname = "[44/LS] Clone Trooper Uniform (Sexton)";
+		class iteminfo: iteminfo
+		{
+			uniformClass="44_swla_unit_sexton";
+		};
+	};
+	class 44_swla_uniform_steele: 44_swla_uniform
+	{
+		displayname = "[44/LS] Clone Trooper Uniform (Steele)";
+		class iteminfo: iteminfo
+		{
+			uniformClass="44_swla_unit_steele";
+		};
+	};

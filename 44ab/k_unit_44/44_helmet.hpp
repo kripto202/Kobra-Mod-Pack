@@ -369,12 +369,52 @@
 			"k_unit_ls\data\helmet\p1_spec_helmet\visor_co.paa"
 		};
 	};
-	class 44_p2_specop_helmet_dishonored: 44_p2_specop_helmet
+	class 44_p15_helmet_dishonored: 44_p15_helmet
 	{
-		displayname = "[44/LS] P2 SpecOp Helmet (Dishonored)";
+		displayname = "[44/LS] P1.5 Helmet (Dishonored)";
 		hiddenselectionstextures[] = 
 		{
-			"k_unit_44\data\custom\dishonored\44_swla_p2_spec_helmet.paa",
-			"k_unit_ls\data\helmet\p2_spec_helmet\visor_co.paa"
+			"k_unit_44\data\custom\dishonored\44_swla_p15_helmet.paa",
+			"k_unit_ls\data\helmet\p15_helmet\visor_co.paa",
+			"k_unit_ls\data\helmet\p15_helmet\illum_co.paa"
+		};
+	};
+	class 44_p1_arf_helmet_azarael: 44_p1_arf_helmet
+	{
+		displayname = "[44/LS] Arf Helmet (Azarael)";
+		hiddenselectionstextures[] = 
+		{
+			"k_unit_44\data\custom\azarael\arf_camo1_co.paa",
+			"",
+			"k_unit_ls\data\helmet\arf_helmet\visor_co.paa"
+		};
+	};
+	class 44_airborne_helmet_nico: 44_airborne_helmet
+	{
+		displayname = "[44/LS] Arf Helmet (Azarael)";
+		hiddenselectionstextures[] = 
+		{
+			"k_unit_44\data\custom\nico\ab_camo1_co.paa",
+			"k_unit_ls\data\helmet\ab_helmet\visor_co.paa"
+		};
+	};
+	class 44_eng_helmet_sexton: 44_eng_helmet
+	{
+		displayname = "[44/LS] Arf Helmet (Sexton)";
+		hiddenselectionstextures[] = 
+		{
+			"k_unit_44\data\custom\sexton\eng_camo1_co.paa",
+			"k_unit_ls\data\helmet\eng_helmet\light_co.paa",
+			"k_unit_ls\data\helmet\eng_helmet\visor_co.paa"
+		};
+	};
+	class 44_p1_helmet_steele: 44_eng_helmet
+	{
+		displayname = "[44/LS] P1 Helmet (Steele)";
+		hiddenselectionstextures[] = 
+		{
+			"k_unit_44\data\custom\steele\p1_camo1_co.paa",
+			"k_unit_ls\data\helmet\p1_helmet\visor_co.paa",
+			"k_unit_ls\data\helmet\p1_helmet\illum_co.paa"
 		};
 	};
