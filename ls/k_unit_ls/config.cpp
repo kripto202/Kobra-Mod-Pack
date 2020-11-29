@@ -115,7 +115,31 @@ class CfgPatches
 			"k_b1_backpack_desert_e60r_aa_load",
 			"k_b1_backpack_winter_rps6_load",
 			"k_b1_backpack_winter_e60r_at_load",
-			"k_b1_backpack_winter_e60r_aa_load"
+			"k_b1_backpack_winter_e60r_aa_load",
+
+			"k_headgear_p2",
+			"k_headgear_p15",
+			"k_headgear_airborne",
+			"k_headgear_p2_pilot",
+			"k_headgear_barc",
+			"k_headgear_p1_arf",
+			"k_headgear_p2_arf",
+			"k_headgear_eng",
+			"k_headgear_p1",
+			"k_headgear_p1_pilot",
+			"k_headgear_p1_specops",
+			"k_headgear_p2_specops",
+			"k_headgear_rex",
+			"k_headgear_p1_sgt",
+			"k_headgear_p1_lt",
+			"k_headgear_p1_cpt",
+			"k_headgear_p1_cmd",
+			"k_headgear_b1",
+			"k_headgear_b1_geonosis",
+			"k_headgear_b1_cmd",
+			"k_headgear_b1_woodland",
+			"k_headgear_b1_desert",
+			"k_headgear_b1_winter",
         };
         weapons[] = 
         {
@@ -162,6 +186,10 @@ class CfgPatches
 			"k_p1_specops_helmet",
 			"k_p2_specops_helmet",
 			"k_rex_helmet",
+			"k_p1_helmet_sgt",
+			"k_p1_helmet_lt",
+			"k_p1_helmet_cpt",
+			"k_p1_helmet_cmd",
 			"k_b1_helmet",
 			"k_b1_helmet_geonosis",
 			"k_b1_helmet_cmd",
@@ -266,7 +294,7 @@ class cfgweapons
 	};
 	class k_p2_helmet_base: k_helmet_base
 	{
-		displayname = "[K] P2 Helmet";
+		displayname = "[K\LS] P2 Helmet";
 		picture = "ls_armor_bluefor\helmet\_ui\icon_gar_phase2_helmet_ca.paa";
 		hiddenselections[] = 
 		{
@@ -293,7 +321,7 @@ class cfgweapons
 	};
 	class k_p15_helmet_base: k_helmet_base
 	{
-		displayname = "[K] P1.5 Helmet";
+		displayname = "[K\LS] P1.5 Helmet";
 		picture = "";
 		subItems[] = {};
 		model="\ls_armor_bluefor\helmet\gar\arc\ls_gar_arc_helmet.p3d";
@@ -324,7 +352,7 @@ class cfgweapons
 	};
 	class k_airborne_helmet_base: k_helmet_base
 	{
-		displayname = "[K] Airborne Helmet";
+		displayname = "[K\LS] Airborne Helmet";
 		picture = "";
 		subItems[] = 
 		{
@@ -353,7 +381,7 @@ class cfgweapons
 	};
 	class k_p2_pilot_helmet_base: k_helmet_base
 	{
-		displayname = "[K] P2 Pilot Helmet";
+		displayname = "[K\LS] P2 Pilot Helmet";
 		ace_hearing_protection = 1;
 		ace_hearing_lowervolume = 0.5;
 		subItems[] = 
@@ -386,7 +414,7 @@ class cfgweapons
 	};
 	class k_barc_helmet_base: k_helmet_base
 	{
-		displayname = "[K] Barc Helmet";
+		displayname = "[K\LS] Barc Helmet";
 		picture = "";
 		subItems[] = {};
 		model="\ls_armor_bluefor\helmet\gar\barc\ls_gar_barc_helmet.p3d";
@@ -414,7 +442,7 @@ class cfgweapons
 	};
 	class k_p1_arf_helmet_base: k_helmet_base
 	{
-		displayname = "[K] P1 ARF Helmet";
+		displayname = "[K\LS] P1 ARF Helmet";
 		picture = "";
 		subitems[] = {
 			"k_nvg_ti"
@@ -447,7 +475,7 @@ class cfgweapons
 	};
 	class k_p2_arf_helmet_base: k_p1_arf_helmet_base
 	{
-		displayname = "[K] P2 ARF Helmet";
+		displayname = "[K\LS] P2 ARF Helmet";
 		/*hiddenselectionsmaterials[] = 
 		{
 			"k_unit_ls\data\helmet\arf_helmet\camo1.rvmat",
@@ -457,7 +485,7 @@ class cfgweapons
 	};
 	class k_eng_helmet_base: k_helmet_base
 	{
-		displayname = "[K] Engineer Helmet";
+		displayname = "[K\LS] Engineer Helmet";
 		picture = "";
 		subItems[] = {
 			"k_nvg"
@@ -490,7 +518,7 @@ class cfgweapons
 	};
 	class k_p1_helmet_base: k_helmet_base
 	{
-		displayname = "[K] P1 Helmet";
+		displayname = "[K\LS] P1 Helmet";
 		picture = "";
 		subItems[] = {};
 		model="\ls_armor_bluefor\helmet\gar\phase1\ls_gar_phase1_helmet.p3d";
@@ -521,7 +549,7 @@ class cfgweapons
 	};
 	class k_p1_pilot_helmet_base: k_helmet_base
 	{
-		displayname = "[K] P1 Pilot Helmet";
+		displayname = "[K\LS] P1 Pilot Helmet";
 		picture = "";
 		subItems[] = 
 		{
@@ -554,7 +582,7 @@ class cfgweapons
 	};
 	class k_p1_specops_helmet_base: k_helmet_base
 	{
-		displayname = "[K] P1 Specops Helmet";
+		displayname = "[K\LS] P1 Specops Helmet";
 		picture = "";
 		subItems[] = 
 		{
@@ -585,7 +613,7 @@ class cfgweapons
 	};
 	class k_p2_specops_helmet_base: k_helmet_base
 	{
-		displayname = "[K] P2 Specops Helmet";
+		displayname = "[K\LS] P2 Specops Helmet";
 		picture = "";
 		subItems[] = 
 		{
@@ -616,7 +644,7 @@ class cfgweapons
 	};
 	class k_rex_helmet_base: k_helmet_base
 	{
-		displayname = "[K] Rex Helmet";
+		displayname = "[K\LS] Rex Helmet";
 		picture = "";
 		subItems[] = {};
 		model="\ls_armor_bluefor\helmet\gar\rex\ls_gar_rex_helmet.p3d";
@@ -778,7 +806,7 @@ class cfgweapons
     class 442_nvg_rangefinder: SWLB_clone_rangefinder
     {
         scope = 2;
-        displayname = "[K] Clone Rangefinder";
+        displayname = "[K\LS] Clone Rangefinder";
         visionmode[] = {"Normal", "NVG"};
         ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
         modeloptics = "";
@@ -787,7 +815,7 @@ class cfgweapons
     class 442_nvg_clone_visor: SWLB_clone_nvg
     {
         scope = 2;
-        displayname = "[K] Clone NVG Visor";
+        displayname = "[K\LS] Clone NVG Visor";
         visionmode[] = {"Normal", "NVG"};
         ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
         modeloptics = "";
@@ -795,7 +823,7 @@ class cfgweapons
     class SWLB_clone_nvg_nco;
     class 442_nvg_clone_visor_nco: SWLB_clone_nvg_nco
     {
-        displayname = "[K] Clone NVG Visor NCO";
+        displayname = "[K\LS] Clone NVG Visor NCO";
         visionmode[] = {"Normal", "NVG"};
         ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
         modeloptics = "";
@@ -804,7 +832,7 @@ class cfgweapons
     class 442_nvg_clone_visor_command: SWLB_clone_ccVisor
     {
         scope = 2;
-        displayname = "[K] Clone Visor";
+        displayname = "[K\LS] Clone Visor";
         visionmode[] = {"Normal", "NVG"};
         ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
         modeloptics = "";
@@ -812,7 +840,7 @@ class cfgweapons
     class SWLB_clone_mcVisor;
     class 442_nvg_clone_visor_cc: SWLB_clone_mcVisor
     {
-        displayname = "[K] Clone Visor Commander";
+        displayname = "[K\LS] Clone Visor Commander";
         visionmode[] = {"Normal", "NVG"};
         ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
         modeloptics = "";
@@ -823,7 +851,7 @@ class cfgweapons
     class swlb_cee_p1_rangefinder;
     class 442_nvg_p1_rangefinder: swlb_cee_p1_rangefinder
     {
-        displayname = "[K] Clone P1 Rangefinder";
+        displayname = "[K\LS] Clone P1 Rangefinder";
         visionmode[] = {"Normal", "NVG"};
         ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
         modeloptics = "";
@@ -831,7 +859,7 @@ class cfgweapons
     class SWLB_CEE_P1_Visor;
     class 442_nvg_clone_p1_visor: SWLB_CEE_P1_Visor
     {
-        displayname = "[K] Clone P1 NVG Visor";
+        displayname = "[K\LS] Clone P1 NVG Visor";
         visionmode[] = {"Normal", "NVG"};
         ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
         modeloptics = "";
@@ -839,7 +867,7 @@ class cfgweapons
     class SWLB_CEE_P1_MC_Visor;
     class 442_nvg_clone_p1_visor_cc: SWLB_CEE_P1_MC_Visor
     {
-        displayname = "[K] Clone P1 Visor Commander";
+        displayname = "[K\LS] Clone P1 Visor Commander";
         visionmode[] = {"Normal", "NVG"};
         ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
         modeloptics = "";
@@ -917,6 +945,42 @@ class cfgvehicles
 		explosionShielding=0.5;
 		minTotalDamageThreshold=0.001;
 		impactDamageMultiplier=0.5;
+	};
+	class k_swla_unit_base_sgt: k_swla_unit_base
+	{
+		hiddenselectionsTextures[]=
+		{
+			"k_unit_ls\data\uniform\uniform\camo1_sgt_co.paa",
+			"k_unit_ls\data\uniform\uniform\camo2_co.paa",
+			"k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa",
+		};
+	};
+	class k_swla_unit_base_lt: k_swla_unit_base
+	{
+		hiddenselectionsTextures[]=
+		{
+			"k_unit_ls\data\uniform\uniform\camo1_lt_co.paa",
+			"k_unit_ls\data\uniform\uniform\camo2_co.paa",
+			"k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa",
+		};
+	};
+	class k_swla_unit_base_cpt: k_swla_unit_base
+	{
+		hiddenselectionsTextures[]=
+		{
+			"k_unit_ls\data\uniform\uniform\camo1_cpt_co.paa",
+			"k_unit_ls\data\uniform\uniform\camo2_co.paa",
+			"k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa",
+		};
+	};
+	class k_swla_unit_base_cmd: k_swla_unit_base
+	{
+		hiddenselectionsTextures[]=
+		{
+			"k_unit_ls\data\uniform\uniform\camo1_cmd_co.paa",
+			"k_unit_ls\data\uniform\uniform\camo2_co.paa",
+			"k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa",
+		};
 	};
 	class k_swla_unit_mc_base: k_swla_unit_base
 	{
@@ -1150,7 +1214,7 @@ class cfgGroups
 		side = 0;
 		class k_cis_group
 		{
-			name = "[K] CIS";
+			name = "[K\LS] CIS";
 			#include "cis_standard_group.hpp"
 			#include "cis_security_group.hpp"
 			#include "cis_woodland_group.hpp"

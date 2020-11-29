@@ -111,7 +111,7 @@
 		displayname = "[125 - Ghostly] P2 Helmet";
 		hiddenselectionstextures[] = 
 		{
-			"k_unit_125\data\custom\ghostly\125th_doomer_p2_helmet_co.paa",
+			"k_unit_125\data\custom\ghostly\125th_ghostly_p2_helmet_co.paa",
 			"k_unit_ls\data\helmet\p2_helmet\visor_co.paa"
 		};
 	};

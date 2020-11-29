@@ -5335,54 +5335,6 @@ class cfgvehicles
                     "kobra_b"
                 };
             };
-            class 44: base
-            {
-                displayname = "44th Attack Battalion";
-                textures[] = 
-                {
-                    "442_a_vehicle\laat\data\44\body_1_co.paa",
-                    "442_a_vehicle\laat\data\body_2_co.paa",
-                    "442_a_vehicle\laat\data\44\door_1_co.paa",
-                    "442_a_vehicle\laat\data\44\door_2_co.paa",
-                    "442_a_vehicle\laat\data\44\door_3_co.paa",
-                    "442_a_vehicle\laat\data\44\wings_co.paa",
-                    "442_a_vehicle\laat\data\missiles_co.paa",
-                    "442_a_vehicle\laat\data\cockpits_co.paa",
-                    "442_a_vehicle\laat\data\glass_ca.paa"
-                };
-            };
-            class 9: base
-            {
-                displayname = "9th Assault Corps";
-                textures[] =
-                {
-                    "442_a_vehicle\laat\data\9\body_1_co.paa",
-                    "442_a_vehicle\laat\data\body_2_co.paa",
-                    "442_a_vehicle\laat\data\door_1_co.paa",
-                    "442_a_vehicle\laat\data\door_2_co.paa",
-                    "442_a_vehicle\laat\data\door_3_co.paa",
-                    "442_a_vehicle\laat\data\9\wings_co.paa",
-                    "442_a_vehicle\laat\data\missiles_co.paa",
-                    "442_a_vehicle\laat\data\cockpits_co.paa",
-                    "442_a_vehicle\laat\data\glass_ca.paa"
-                };
-            };
-            class 9_doc: base
-            {
-                displayname = "9th Assault Corps (Doc)";
-                textures[] =
-                {
-                    "442_a_vehicle\laat\data\9\body_1_doc_co.paa",
-                    "442_a_vehicle\laat\data\body_2_co.paa",
-                    "442_a_vehicle\laat\data\door_1_co.paa",
-                    "442_a_vehicle\laat\data\door_2_co.paa",
-                    "442_a_vehicle\laat\data\door_3_co.paa",
-                    "442_a_vehicle\laat\data\9\wings_co.paa",
-                    "442_a_vehicle\laat\data\missiles_co.paa",
-                    "442_a_vehicle\laat\data\cockpits_co.paa",
-                    "442_a_vehicle\laat\data\glass_ca.paa"
-                };
-            };
             class dukas: base
             {
                 displayname = "Misfit 1-2";
@@ -5447,84 +5399,16 @@ class cfgvehicles
                     "442_a_vehicle\laat\data\796\glass_ca.paa"
                 };
             };
-            class bl: base
-            {
-                displayname = "Black Legion";
-                textures[] = 
-                {
-                    "442_a_vehicle\laat\data\bl\body_1_co.paa",
-                    "442_a_vehicle\laat\data\body_2_co.paa",
-                    "442_a_vehicle\laat\data\bl\door_1_co.paa",
-                    "442_a_vehicle\laat\data\bl\door_2_co.paa",
-                    "442_a_vehicle\laat\data\bl\door_3_co.paa",
-                    "442_a_vehicle\laat\data\bl\wings_co.paa",
-                    "442_a_vehicle\laat\data\missiles_co.paa",
-                    "442_a_vehicle\laat\data\cockpits_co.paa",
-                    "442_a_vehicle\laat\data\glass_ca.paa"
-                };
-            };
         };
         textureList[] =
         {
             "base", 1,
-            "44", 1,
-            "9", 1,
-            "9_doc", 1,
             "dukas", 1,
             "empire", 1,
             "delta", 1,
-            "796", 1,
-            "bl", 1
+            "796", 1
         };
 	};
-	/*class 442_laat_44: 442_laat_2
-	{
-		displayname="LAAT/I Gunship (44th AB)";
-		hiddenselectionstextures[] = 
-		{
-			"442_a_vehicle\laat\data\44\body_1_co.paa",
-			"442_a_vehicle\laat\data\body_2_co.paa",
-			"442_a_vehicle\laat\data\44\door_1_co.paa",
-			"442_a_vehicle\laat\data\44\door_2_co.paa",
-			"442_a_vehicle\laat\data\44\door_3_co.paa",
-			"442_a_vehicle\laat\data\44\wings_co.paa",
-			"442_a_vehicle\laat\data\missiles_co.paa",
-			"442_a_vehicle\laat\data\cockpits_co.paa",
-			"442_a_vehicle\laat\data\glass_ca.paa"
-		};
-	};
-	class 442_laat_9: 442_laat_2
-	{
-		displayname="LAAT/I Gunship (9th AC)";
-		hiddenselectionstextures[] = 
-		{
-			"442_a_vehicle\laat\data\9\body_1_co.paa",
-			"442_a_vehicle\laat\data\body_2_co.paa",
-			"442_a_vehicle\laat\data\door_1_co.paa",
-			"442_a_vehicle\laat\data\door_2_co.paa",
-			"442_a_vehicle\laat\data\door_3_co.paa",
-			"442_a_vehicle\laat\data\9\wings_co.paa",
-			"442_a_vehicle\laat\data\missiles_co.paa",
-			"442_a_vehicle\laat\data\cockpits_co.paa",
-			"442_a_vehicle\laat\data\glass_ca.paa"
-		};
-	};
-	class 442_laat_9_doc: 442_laat_2
-	{
-		displayname="LAAT/I Gunship (9th AC Doc)";
-		hiddenselectionstextures[] = 
-		{
-			"442_a_vehicle\laat\data\9\body_1_doc_co.paa",
-			"442_a_vehicle\laat\data\body_2_co.paa",
-			"442_a_vehicle\laat\data\door_1_co.paa",
-			"442_a_vehicle\laat\data\door_2_co.paa",
-			"442_a_vehicle\laat\data\door_3_co.paa",
-			"442_a_vehicle\laat\data\9\wings_co.paa",
-			"442_a_vehicle\laat\data\missiles_co.paa",
-			"442_a_vehicle\laat\data\cockpits_co.paa",
-			"442_a_vehicle\laat\data\glass_ca.paa"
-		};
-	};*/
 	class 442_laat_dukas: 442_laat_2
 	{
 		displayname="LAAT/I Gunship (Dukas)";
@@ -5589,22 +5473,6 @@ class cfgvehicles
 			"442_a_vehicle\laat\data\796\glass_ca.paa"
 		};
 	};
-	/*class 442_laat_bl: 442_laat_2
-	{
-		displayname="LAAT/I Gunship (Black Legion)";
-		hiddenselectionstextures[] = 
-		{
-			"442_a_vehicle\laat\data\bl\body_1_co.paa",
-			"442_a_vehicle\laat\data\body_2_co.paa",
-			"442_a_vehicle\laat\data\bl\door_1_co.paa",
-			"442_a_vehicle\laat\data\bl\door_2_co.paa",
-			"442_a_vehicle\laat\data\bl\door_3_co.paa",
-			"442_a_vehicle\laat\data\bl\wings_co.paa",
-			"442_a_vehicle\laat\data\missiles_co.paa",
-			"442_a_vehicle\laat\data\cockpits_co.paa",
-			"442_a_vehicle\laat\data\glass_ca.paa"
-		};
-	};*/
 	class 442_laat_2_ab: 442_laat_2
 	{
 		class simpleobject
@@ -5996,54 +5864,6 @@ class cfgvehicles
 			class TransportCounterMeasuresComponent;
 		};
 	};
-	/*class 442_laat_44_ab: 442_laat_2_ab
-	{
-		displayname="LAAT/I Gunship (44th AB Airborne)";
-		hiddenselectionstextures[] = 
-		{
-			"442_a_vehicle\laat\data\44\body_1_co.paa",
-			"442_a_vehicle\laat\data\body_2_co.paa",
-			"442_a_vehicle\laat\data\44\door_1_co.paa",
-			"442_a_vehicle\laat\data\44\door_2_co.paa",
-			"442_a_vehicle\laat\data\44\door_3_co.paa",
-			"442_a_vehicle\laat\data\44\wings_co.paa",
-			"442_a_vehicle\laat\data\missiles_co.paa",
-			"442_a_vehicle\laat\data\cockpits_co.paa",
-			"442_a_vehicle\laat\data\glass_ca.paa"
-		};
-	};
-	class 442_laat_9_ab: 442_laat_2_ab
-	{
-		displayname="LAAT/I Gunship (9th AC Airborne)";
-		hiddenselectionstextures[] = 
-		{
-			"442_a_vehicle\laat\data\9\body_1_co.paa",
-			"442_a_vehicle\laat\data\body_2_co.paa",
-			"442_a_vehicle\laat\data\door_1_co.paa",
-			"442_a_vehicle\laat\data\door_2_co.paa",
-			"442_a_vehicle\laat\data\door_3_co.paa",
-			"442_a_vehicle\laat\data\9\wings_co.paa",
-			"442_a_vehicle\laat\data\missiles_co.paa",
-			"442_a_vehicle\laat\data\cockpits_co.paa",
-			"442_a_vehicle\laat\data\glass_ca.paa"
-		};
-	};
-	class 442_laat_9_doc_ab: 442_laat_2_ab
-	{
-		displayname="LAAT/I Gunship (9th AC Doc Airborne)";
-		hiddenselectionstextures[] = 
-		{
-			"442_a_vehicle\laat\data\9\body_1_doc_co.paa",
-			"442_a_vehicle\laat\data\body_2_co.paa",
-			"442_a_vehicle\laat\data\door_1_co.paa",
-			"442_a_vehicle\laat\data\door_2_co.paa",
-			"442_a_vehicle\laat\data\door_3_co.paa",
-			"442_a_vehicle\laat\data\9\wings_co.paa",
-			"442_a_vehicle\laat\data\missiles_co.paa",
-			"442_a_vehicle\laat\data\cockpits_co.paa",
-			"442_a_vehicle\laat\data\glass_ca.paa"
-		};
-	};*/
 	class 442_laat_dukas_ab: 442_laat_2_ab
 	{
 		displayname="LAAT/I Gunship (Dukas Airborne)";
@@ -6108,22 +5928,6 @@ class cfgvehicles
 			"442_a_vehicle\laat\data\796\glass_ca.paa"
 		};
 	};
-	/*class 442_laat_bl_ab: 442_laat_2_ab
-	{
-		displayname="LAAT/I Gunship (Black Legion Airborne)";
-		hiddenselectionstextures[] = 
-		{
-			"442_a_vehicle\laat\data\bl\body_1_co.paa",
-			"442_a_vehicle\laat\data\body_2_co.paa",
-			"442_a_vehicle\laat\data\bl\door_1_co.paa",
-			"442_a_vehicle\laat\data\bl\door_2_co.paa",
-			"442_a_vehicle\laat\data\bl\door_3_co.paa",
-			"442_a_vehicle\laat\data\bl\wings_co.paa",
-			"442_a_vehicle\laat\data\missiles_co.paa",
-			"442_a_vehicle\laat\data\cockpits_co.paa",
-			"442_a_vehicle\laat\data\glass_ca.paa"
-		};
-	};*/
 	class Wreck_base_F;
 	class 442_laat_wreck: Wreck_base_F
 	{

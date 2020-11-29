@@ -7,7 +7,7 @@
 		identityTypes[] = {"LanguageENG_F", "Head_NATO"};
 		role = "Rifleman";
 		author = "Kobra Mod Team Team";
-		uniformclass = "44_swla_uniform";
+		uniformclass = "125_swla_uniform";
 		faction = "125_ac";
 		editorSubCategory = "442_trooper";
 		displayname = "Trooper";
@@ -17,7 +17,7 @@
 		{
 			"k_unit_125\data\armor\125th_bodyupper_co.paa",
 			"k_unit_125\data\armor\125th_bodylower_co.paa",
-			"k_unit_ls\data\armor\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa",
 		};
 		linkedItems[] = {};
 		respawnlinkeditems[] = {};
@@ -43,7 +43,7 @@
 		{
 			"k_unit_125\data\armor\125th_arc_bodyupper_co.paa",
 			"k_unit_125\data\armor\125th_arc_bodylower_co.paa",
-			"k_unit_ls\data\armor\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa",
 		};
     };
     class 125_swla_medic_unit: 125_swla_unit
@@ -53,7 +53,7 @@
 		{
 			"k_unit_125\data\armor\125th_medic_bodyupper_co.paa",
 			"k_unit_125\data\armor\125th_medic_bodylower_co.paa",
-			"k_unit_ls\data\armor\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa",
 		};
     };
     class 125_swla_pilot_unit: 125_swla_unit
@@ -63,7 +63,7 @@
 		{
 			"k_unit_125\data\armor\125th_pilot_bodyupper_co.paa",
 			"k_unit_125\data\armor\125th_pilot_bodylower_co.paa",
-			"k_unit_ls\data\armor\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa",
 		};
     };
 ///////////custom
@@ -74,7 +74,7 @@
 		{
 			"k_unit_125\data\custom\dao\125th_dao_bodyupper_co.paa",
 			"k_unit_125\data\custom\dao\125th_dao_bodylower_co.paa",
-			"k_unit_ls\data\armor\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa",
 		};
     };
     class 125_swla_unit_ithil: 125_swla_unit
@@ -84,7 +84,7 @@
 		{
 			"k_unit_125\data\custom\ithil\125th_ithil_bodyupper_co.paa",
 			"k_unit_125\data\custom\ithil\125th_ithil_bodylower_co.paa",
-			"k_unit_ls\data\armor\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa",
 		};
     };
     class 125_swla_unit_kyrus: 125_swla_unit
@@ -94,7 +94,7 @@
 		{
 			"k_unit_125\data\custom\kyrus\125th_kyrus_bodyupper_co.paa",
 			"k_unit_125\data\custom\kyrus\125th_kyrus_bodylower_co.paa",
-			"k_unit_ls\data\armor\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa",
 		};
     };
     class 125_swla_unit_rooche: 125_swla_unit
@@ -104,7 +104,7 @@
 		{
 			"k_unit_125\data\custom\rooche\125th_rooche_bodyupper_co.paa",
 			"k_unit_125\data\custom\rooche\125th_rooche_bodylower_co.paa",
-			"k_unit_ls\data\armor\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa",
 		};
     };
     class 125_swla_unit_tetre: 125_swla_unit
@@ -114,7 +114,7 @@
 		{
 			"k_unit_125\data\custom\tetre\125th_tetre_bodyupper_co.paa",
 			"k_unit_125\data\custom\tetre\125th_tetre_bodylower_co.paa",
-			"k_unit_ls\data\armor\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa",
 		};
     };
     class 125_swla_unit_thatcher: 125_swla_unit
@@ -124,17 +124,7 @@
 		{
 			"k_unit_125\data\custom\thatcher\125th_thatcher_bodyupper_co.paa",
 			"k_unit_125\data\custom\thatcher\125th_thatcher_bodylower_co.paa",
-			"k_unit_ls\data\armor\mc_uniform\undersuit_co.paa",
-		};
-    };
-    class 125_swla_arc_unit_thatcher: 125_swla_unit
-    {
-        uniformclass = "125_swla_arc_uniform_thatcher";
-        hiddenselectionstextures[] = 
-		{
-			"k_unit_125\data\custom\thatcher\125th_thatcher_arc_bodyupper_co.paa",
-			"k_unit_125\data\custom\thatcher\125th_thatcher_arc_bodylower_co.paa",
-			"k_unit_ls\data\armor\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa",
 		};
     };
     class 125_swla_unit_thor: 125_swla_unit
@@ -144,6 +134,6 @@
 		{
 			"k_unit_125\data\custom\thor\125th_thor_bodyupper_co.paa",
 			"k_unit_125\data\custom\thor\125th_thor_bodylower_co.paa",
-			"k_unit_ls\data\armor\mc_uniform\undersuit_co.paa",
+			"k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa",
 		};
     };

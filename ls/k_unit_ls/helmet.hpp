@@ -127,6 +127,46 @@
             "k_unit_ls\data\helmet\p1_helmet\illum_co.paa",
         };
     };
+    class k_p1_helmet_sgt: k_p1_helmet
+    {
+        displayname = "[K\LS] P1 SGT Helmet";
+        hiddenselectionstextures[] =
+        {
+            "k_unit_ls\data\helmet\p1_helmet\camo1_sgt_co.paa",
+            "k_unit_ls\data\helmet\p1_helmet\visor_co.paa",
+            "k_unit_ls\data\helmet\p1_helmet\illum_co.paa",
+        };
+    };
+    class k_p1_helmet_lt: k_p1_helmet
+    {
+        displayname = "[K\LS] P1 LT Helmet";
+        hiddenselectionstextures[] =
+        {
+            "k_unit_ls\data\helmet\p1_helmet\camo1_lt_co.paa",
+            "k_unit_ls\data\helmet\p1_helmet\visor_co.paa",
+            "k_unit_ls\data\helmet\p1_helmet\illum_co.paa",
+        };
+    };
+    class k_p1_helmet_cpt: k_p1_helmet
+    {
+        displayname = "[K\LS] P1 CPT Helmet";
+        hiddenselectionstextures[] =
+        {
+            "k_unit_ls\data\helmet\p1_helmet\camo1_cpt_co.paa",
+            "k_unit_ls\data\helmet\p1_helmet\visor_co.paa",
+            "k_unit_ls\data\helmet\p1_helmet\illum_co.paa",
+        };
+    };
+    class k_p1_helmet_cmd: k_p1_helmet
+    {
+        displayname = "[K\LS] P1 CMD Helmet";
+        hiddenselectionstextures[] =
+        {
+            "k_unit_ls\data\helmet\p1_helmet\camo1_cmd_co.paa",
+            "k_unit_ls\data\helmet\p1_helmet\visor_co.paa",
+            "k_unit_ls\data\helmet\p1_helmet\illum_co.paa",
+        };
+    };
     class k_p1_pilot_helmet: k_p1_pilot_helmet_base
     {
         scope = 2;

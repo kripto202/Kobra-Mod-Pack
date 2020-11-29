@@ -176,14 +176,50 @@
             };
         };
     };
-	class k_headgear_scout: k_headgear_p2
+	class k_headgear_p1_sgt: k_headgear_p2
     {
-        displayname = "Scout Helmet";
+        displayname = "P1 Sgt Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "k_scout_helmet";
+                name = "k_p1_helmet_sgt";
+                count = 1;
+            };
+        };
+    };
+    class k_headgear_p1_lt: k_headgear_p2
+    {
+        displayname = "P1 LT Helmet";
+        class transportItems
+        {
+            class helmet
+            {
+                name = "k_p1_helmet_lt";
+                count = 1;
+            };
+        };
+    };
+    class k_headgear_p1_cpt: k_headgear_p2
+    {
+        displayname = "P1 Cpt Helmet";
+        class transportItems
+        {
+            class helmet
+            {
+                name = "k_p1_helmet_cpt";
+                count = 1;
+            };
+        };
+    };
+    class k_headgear_p1_cmd: k_headgear_p2
+    {
+        displayname = "P1 Cmd Helmet";
+        class transportItems
+        {
+            class helmet
+            {
+                name = "k_p1_helmet_cmd";
                 count = 1;
             };
         };

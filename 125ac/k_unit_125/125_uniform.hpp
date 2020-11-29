@@ -86,14 +86,6 @@
 			uniformClass="125_swla_unit_thatcher";
 		};
     };
-    class 125_swla_arc_uniform_thatcher: 125_swla_uniform
-    {
-        displayname = "[125 - Thatcher] Clone Trooper Uniform";
-		class ItemInfo: ItemInfo
-		{
-			uniformClass="125_swla_arc_unit_thatcher";
-		};
-    };
     class 125_swla_uniform_thor: 125_swla_uniform
     {
         displayname = "[125 - Thor] Clone Trooper Uniform";
