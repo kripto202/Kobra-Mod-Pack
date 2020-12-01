@@ -55,9 +55,9 @@ class cfgvehicles
 		textureList[] = {};
 		hiddenSelectionsTextures[]=
 		{
-			"442_g_vehicle\truck\data\republic_truck_body.paa",
+			"kobra\442_g_vehicle\truck\data\republic_truck_body.paa",
 			"",
-			"442_g_vehicle\truck\data\republic_truck_cargo.paa"
+			"kobra\442_g_vehicle\truck\data\republic_truck_cargo.paa"
 		};
 		ace_cargo_space = 16;
 		ace_interaction_bodyWidth = 3;
@@ -81,10 +81,10 @@ class cfgvehicles
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "Camo4"};
 		hiddenSelectionsTextures[] =
 		{
-			"442_g_vehicle\truck\data\republic_truck_body.paa",
+			"kobra\442_g_vehicle\truck\data\republic_truck_body.paa",
 			"",
-			"442_g_vehicle\truck\data\republic_truck_cargo.paa",
-			"442_g_vehicle\truck\data\republic_truck_cover.paa"
+			"kobra\442_g_vehicle\truck\data\republic_truck_cargo.paa",
+			"kobra\442_g_vehicle\truck\data\republic_truck_cover.paa"
 		};
 		ace_cargo_space = 16;
 		ace_interaction_bodyWidth = 3;
@@ -108,9 +108,9 @@ class cfgvehicles
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "Camo4"};
 		hiddenSelectionsTextures[] =
 		{
-			"442_g_vehicle\truck\data\republic_truck_body.paa",
+			"kobra\442_g_vehicle\truck\data\republic_truck_body.paa",
 			"",
-			"442_g_vehicle\truck\data\republic_truck_cargo.paa",
+			"kobra\442_g_vehicle\truck\data\republic_truck_cargo.paa",
 			"\A3\Structures_F\Data\Metal\Containers\Containers_02_set_CO.paa"
 		};
 		ace_cargo_space = 20;
@@ -135,9 +135,9 @@ class cfgvehicles
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "Camo4", "Camo5"};
 		hiddenSelectionsTextures[] =
 		{
-			"442_g_vehicle\truck\data\republic_truck_body.paa",
+			"kobra\442_g_vehicle\truck\data\republic_truck_body.paa",
 			"",
-			"442_g_vehicle\truck\data\republic_truck_cargo.paa",
+			"kobra\442_g_vehicle\truck\data\republic_truck_cargo.paa",
 			"\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_02_CO.paa",
 			"\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_03_CO.paa"
 		};
@@ -163,9 +163,9 @@ class cfgvehicles
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
 		hiddenSelectionsTextures[] =
 		{
-			"442_g_vehicle\truck\data\republic_truck_body.paa",
+			"kobra\442_g_vehicle\truck\data\republic_truck_body.paa",
 			"",
-			"442_g_vehicle\truck\data\republic_truck_fuel.paa"
+			"kobra\442_g_vehicle\truck\data\republic_truck_fuel.paa"
 		};
 		ace_cargo_space = 8;
 		ace_interaction_bodyWidth = 3;
@@ -189,9 +189,9 @@ class cfgvehicles
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3"};
 		hiddenSelectionsTextures[] =
 		{
-			"442_g_vehicle\truck\data\republic_truck_body.paa",
+			"kobra\442_g_vehicle\truck\data\republic_truck_body.paa",
 			"",
-			"442_g_vehicle\truck\data\republic_truck_repair.paa"
+			"kobra\442_g_vehicle\truck\data\republic_truck_repair.paa"
 		};
 		ace_cargo_space = 8;
 		ace_interaction_bodyWidth = 3;
@@ -216,10 +216,10 @@ class cfgvehicles
 		hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "Camo4"};
 		hiddenSelectionsTextures[] =
 		{
-			"442_g_vehicle\truck\data\republic_truck_body.paa",
+			"kobra\442_g_vehicle\truck\data\republic_truck_body.paa",
 			"",
-			"442_g_vehicle\truck\data\republic_truck_cargo.paa",
-			"442_g_vehicle\truck\data\republic_truck_cover_m.paa"
+			"kobra\442_g_vehicle\truck\data\republic_truck_cargo.paa",
+			"kobra\442_g_vehicle\truck\data\republic_truck_cover_m.paa"
 		};
 		ace_cargo_space = 8;
 		ace_interaction_bodyWidth = 3;
@@ -244,9 +244,9 @@ class cfgvehicles
 		textureList[] = {};
 		hiddenSelectionsTextures[] = 
         {
-            "442_g_vehicle\truck\data\cis_body_CO.paa",
+            "kobra\442_g_vehicle\truck\data\cis_body_CO.paa",
             "",
-            "442_g_vehicle\truck\data\cis_cargo_CO.paa"
+            "kobra\442_g_vehicle\truck\data\cis_cargo_CO.paa"
         };
 		ace_cargo_space = 16;
 		ace_interaction_bodyWidth = 3;
@@ -269,10 +269,10 @@ class cfgvehicles
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4"};
 		hiddenSelectionsTextures[] = 
         {
-            "442_g_vehicle\truck\data\cis_body_CO.paa",
+            "kobra\442_g_vehicle\truck\data\cis_body_CO.paa",
             "",
-            "442_g_vehicle\truck\data\cis_cargo_CO.paa",
-            "442_g_vehicle\truck\data\cis_cover_CO.paa"
+            "kobra\442_g_vehicle\truck\data\cis_cargo_CO.paa",
+            "kobra\442_g_vehicle\truck\data\cis_cover_CO.paa"
         };
 		ace_cargo_space = 16;
 		ace_interaction_bodyWidth = 3;
@@ -295,9 +295,9 @@ class cfgvehicles
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4"};
 		hiddenSelectionsTextures[] = 
         {
-            "442_g_vehicle\truck\data\cis_body_CO.paa",
+            "kobra\442_g_vehicle\truck\data\cis_body_CO.paa",
             "",
-            "442_g_vehicle\truck\data\cis_cargo_CO.paa",
+            "kobra\442_g_vehicle\truck\data\cis_cargo_CO.paa",
             "\A3\Structures_F\Data\Metal\Containers\Containers_02_set_CO.paa"
         };
 		ace_cargo_space = 20;
@@ -321,9 +321,9 @@ class cfgvehicles
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5"};
 		hiddenSelectionsTextures[] = 
         {
-            "442_g_vehicle\truck\data\cis_body_CO.paa",
+            "kobra\442_g_vehicle\truck\data\cis_body_CO.paa",
             "",
-            "442_g_vehicle\truck\data\cis_cargo_CO.paa",
+            "kobra\442_g_vehicle\truck\data\cis_cargo_CO.paa",
             "\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_02_CO.paa",
             "\A3\Structures_F_EPC\Items\Electronics\Data\The_Device_03_CO.paa"
         };
@@ -348,9 +348,9 @@ class cfgvehicles
 		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
 		hiddenSelectionsTextures[] = 
         {
-            "442_g_vehicle\truck\data\cis_body_CO.paa",
+            "kobra\442_g_vehicle\truck\data\cis_body_CO.paa",
             "",
-            "442_g_vehicle\truck\data\cis_fuel_CO.paa"
+            "kobra\442_g_vehicle\truck\data\cis_fuel_CO.paa"
         };
 		ace_cargo_space = 8;
 		ace_interaction_bodyWidth = 3;
@@ -373,9 +373,9 @@ class cfgvehicles
 		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
 		hiddenSelectionsTextures[] = 
         {
-            "442_g_vehicle\truck\data\cis_body_CO.paa",
+            "kobra\442_g_vehicle\truck\data\cis_body_CO.paa",
             "",
-            "442_g_vehicle\truck\data\cis_repair_CO.paa"
+            "kobra\442_g_vehicle\truck\data\cis_repair_CO.paa"
         };
 		ace_cargo_space = 8;
 		ace_interaction_bodyWidth = 3;
@@ -399,10 +399,10 @@ class cfgvehicles
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4"};
 		hiddenSelectionsTextures[] = 
         {
-            "442_g_vehicle\truck\data\cis_body_CO.paa",
+            "kobra\442_g_vehicle\truck\data\cis_body_CO.paa",
             "",
-            "442_g_vehicle\truck\data\cis_cargo_CO.paa",
-            "442_g_vehicle\truck\data\cis_cover_CO.paa"
+            "kobra\442_g_vehicle\truck\data\cis_cargo_CO.paa",
+            "kobra\442_g_vehicle\truck\data\cis_cover_CO.paa"
         };
 		ace_cargo_space = 8;
 		ace_interaction_bodyWidth = 3;

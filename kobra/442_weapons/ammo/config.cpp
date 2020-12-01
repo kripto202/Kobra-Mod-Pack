@@ -1296,7 +1296,7 @@ class cfgammo
 		hit=8;
 		indirecthit=0;
 		indirecthitrange=0;
-		model="442_weapons\ammo\blue_tracer.p3d";
+		model="kobra\442_weapons\ammo\blue_tracer.p3d";
 		lightcolor[]={0.25,0.25,0.5};
 		flaresize=5;
 		tracerscale=1.1;
@@ -1532,7 +1532,7 @@ class cfgammo
 	{
 		effectfly="442_plasma_blue";
 		simulation = "shotSpread";
-		model="442_weapons\ammo\blue_tracer.p3d";
+		model="kobra\442_weapons\ammo\blue_tracer.p3d";
 		lightcolor[]={0.25,0.25,0.5};
 		flaresize=5;
 		tracerscale=1.1;

@@ -46,9 +46,9 @@ class cfgvehicles
 		typicalCargo[] = {"44_swla_unit"};
 		hiddenselectionstextures[] = 
 		{
-			"\442_w_vehicle\boat\data\rep_boat_hull.paa",
+			"\kobra\442_w_vehicle\boat\data\rep_boat_hull.paa",
 			"\A3\boat_f\Boat_Armed_01\data\Boat_Armed_01_int_co.paa",
-			"\442_w_vehicle\boat\data\rep_boat_crow.paa",
+			"\kobra\442_w_vehicle\boat\data\rep_boat_crow.paa",
 		};
         class texturesources
         {
@@ -58,9 +58,9 @@ class cfgvehicles
                 author = "KOBRA Mod Team";
                 textures[] = 
                 {
-                    "\442_w_vehicle\boat\data\rep_boat_hull.paa",
+                    "\kobra\442_w_vehicle\boat\data\rep_boat_hull.paa",
                     "\A3\boat_f\Boat_Armed_01\data\Boat_Armed_01_int_co.paa",
-                    "\442_w_vehicle\boat\data\rep_boat_crow.paa",
+                    "\kobra\442_w_vehicle\boat\data\rep_boat_crow.paa",
                 };
                 factions[] = 
                 {
@@ -72,9 +72,9 @@ class cfgvehicles
                 displayname = "442nd Siege Battalion";
                 textures[] = 
                 {
-                    "\442_w_vehicle\boat\data\442_boat_hull.paa",
+                    "\kobra\442_w_vehicle\boat\data\442_boat_hull.paa",
                     "\A3\boat_f\Boat_Armed_01\data\Boat_Armed_01_int_co.paa",
-                    "\442_w_vehicle\boat\data\442_boat_crow.paa",
+                    "\kobra\442_w_vehicle\boat\data\442_boat_crow.paa",
                 };
             };
             class black_legion: default
@@ -82,9 +82,9 @@ class cfgvehicles
                 displayname = "Black Legion";
                 textures[] = 
                 {
-                    "\442_w_vehicle\boat\data\bl_boat_hull.paa",
+                    "\kobra\442_w_vehicle\boat\data\bl_boat_hull.paa",
                     "\A3\boat_f\Boat_Armed_01\data\Boat_Armed_01_int_co.paa",
-                    "\442_w_vehicle\boat\data\bl_boat_crow.paa",
+                    "\kobra\442_w_vehicle\boat\data\bl_boat_crow.paa",
                 };
             };
         };

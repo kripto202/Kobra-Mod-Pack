@@ -12,7 +12,7 @@ class 442_40_50rnd_he_blue_mag: 442_mag_base
 	nameSound = "";
 	descriptionShort = "40mm HE";
 	muzzleImpulseFactor[] = {0.1,0.1};
-    picture="\442_weapons\ammo\data\ui\DC15a_mag_ui_ca.paa";
+    picture="\kobra\442_weapons\ammo\data\ui\DC15a_mag_ui_ca.paa";
 };
 class 442_40_6rnd_he_blue_mag: 442_40_50rnd_he_blue_mag
 {

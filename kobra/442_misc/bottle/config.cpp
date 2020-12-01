@@ -25,7 +25,7 @@ class cfgvehicles
 		scopecurator=2;
 		author = "KOBRA Mod Team";
 		displayName="First Shot Bottle";
-		model="442_misc\bottle\bottle.p3d";
+		model="kobra\442_misc\bottle\bottle.p3d";
 		editorcategory="kobra";
 		editorsubcategory="442_item_small";
 		simulation="thingx";
@@ -51,7 +51,7 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_misc\bottle\data\firstshot_co.paa"
+			"kobra\442_misc\bottle\data\firstshot_co.paa"
 		};
 	};
 };

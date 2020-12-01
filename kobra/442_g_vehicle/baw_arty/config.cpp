@@ -101,8 +101,8 @@ class cfgvehicles
 		scopecurator=1;
 		scopearsenal=1;
 		displayname="BAW Artillery Hover Tank";
-		model="\442_g_vehicle\baw_arty\baw_arty_2.p3d";
-		picture="";
+		model="\kobra\442_g_vehicle\baw_arty\baw_arty_2.p3d";
+		picture="kobra\kobra_core\kobra.paa";
 		icon="\A3\armor_f_gamma\MBT_02\Data\UI\map_MBT_02_ca.paa";
 		side=0;
 		faction="442_CIS";
@@ -179,9 +179,9 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[] = 
 		{
-			"442_g_vehicle\baw_arty\data\body_co.paa",
-			"442_g_vehicle\baw_arty\data\eyes_co.paa",
-			"442_g_vehicle\baw_arty\data\gun_co.paa",
+			"kobra\442_g_vehicle\baw_arty\data\body_co.paa",
+			"kobra\442_g_vehicle\baw_arty\data\eyes_co.paa",
+			"kobra\442_g_vehicle\baw_arty\data\gun_co.paa",
 		};
 
 		class simpleobject
@@ -211,7 +211,7 @@ class cfgvehicles
 		scopecurator = 2;
 		icon="iconObject_1x2";
 		displayname = "BAW Artillery Hover Tank (Wrecked)";
-		model = "442_g_vehicle\baw_arty\baw_arty_w.p3d";
+		model = "kobra\442_g_vehicle\baw_arty\baw_arty_w.p3d";
 		editorCategory = "kobra";
 		editorSubcategory = "442_wrecks";
 	};

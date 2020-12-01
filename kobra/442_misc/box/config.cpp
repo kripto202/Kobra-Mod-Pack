@@ -34,7 +34,7 @@ class cfgvehicles
 		scope = 2;
 		author = "KOBRA Mod Team";
 		displayName = "[442] Weapons Box";
-		model = "\442_misc\box\box.p3d";
+		model = "\kobra\442_misc\box\box.p3d";
 		editorcategory = "kobra";
 		editorsubcategory = "442_supplies";
 		maximumLoad=4000;
@@ -133,7 +133,7 @@ class cfgvehicles
 	class 442_box2: 442_box
 	{
 		displayname = "Box 2";
-		model = "\442_misc\box\box2.p3d";
+		model = "\kobra\442_misc\box\box2.p3d";
 		ace_cargo_size = 1;
 		ace_cargo_canload = 1;
 		ace_dragging_can_drag = 1;
@@ -148,7 +148,7 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[] = 
 		{
-			"442_misc\box\data\box2_co.paa"
+			"kobra\442_misc\box\data\box2_co.paa"
 		};
 		slingLoadCargoMemoryPoints[]=
 		{
@@ -213,7 +213,7 @@ class cfgvehicles
 	class 442_box4: 442_box2
 	{
 		displayname = "Box 4";
-		model = "442_misc\box\box4.p3d";
+		model = "kobra\442_misc\box\box4.p3d";
 		ace_cargo_size = 1;
 		ace_cargo_canload = 1;
 		ace_dragging_can_drag = 1;
@@ -224,13 +224,13 @@ class cfgvehicles
 		ace_dragging_carryDirection = 0;
 		hiddenselectionstextures[] = 
 		{
-			"442_misc\box\data\box4_co.paa"
+			"kobra\442_misc\box\data\box4_co.paa"
 		};
 	};
 	class 442_box5_1: 442_box2
 	{
 		displayname = "Box 5 [ADV Medical]";
-		model = "442_misc\box\box5.p3d";
+		model = "kobra\442_misc\box\box5.p3d";
 		ace_cargo_size = 1;
 		ace_cargo_canload = 1;
 		ace_dragging_can_drag = 1;
@@ -241,7 +241,7 @@ class cfgvehicles
 		ace_dragging_carryDirection = 0;
 		hiddenselectionstextures[] = 
 		{
-			"442_misc\box\data\box5_co.paa"
+			"kobra\442_misc\box\data\box5_co.paa"
 		};
 		maximumLoad=2000;
 		class transportweapons {};
@@ -392,34 +392,34 @@ class cfgvehicles
 	class 442_box6: 442_box2
 	{
 		displayname = "Box 6";
-		model = "442_misc\box\box6.p3d";
+		model = "kobra\442_misc\box\box6.p3d";
 		hiddenselectionstextures[] = 
 		{
-			"442_misc\box\data\box6_co.paa"
+			"kobra\442_misc\box\data\box6_co.paa"
 		};
 	};
 	class 442_box7: 442_box2
 	{
 		displayname = "Box 7";
-		model = "442_misc\box\box7.p3d";
+		model = "kobra\442_misc\box\box7.p3d";
 		hiddenselectionstextures[] = 
 		{
-			"442_misc\box\data\box7_co.paa"
+			"kobra\442_misc\box\data\box7_co.paa"
 		};
 	};
 	class 442_box8: 442_box2
 	{
 		displayname = "Box 8";
-		model = "442_misc\box\box8.p3d";
+		model = "kobra\442_misc\box\box8.p3d";
 		hiddenselectionstextures[] = 
 		{
-			"442_misc\box\data\box8_co.paa"
+			"kobra\442_misc\box\data\box8_co.paa"
 		};
 	};
 	class 442_box9: 442_box2
 	{
 		displayname = "Box 9";
-		model = "442_misc\box\box9.p3d";
+		model = "kobra\442_misc\box\box9.p3d";
 		ace_cargo_size = 1;
 		ace_cargo_canload = 1;
 		ace_dragging_can_drag = 1;
@@ -430,13 +430,13 @@ class cfgvehicles
 		ace_dragging_carryDirection = 0;
 		hiddenselectionstextures[] = 
 		{
-			"442_misc\box\data\box9_co.paa"
+			"kobra\442_misc\box\data\box9_co.paa"
 		};
 	};
 	class 442_box10: 442_box2
 	{
 		displayname = "Box 10 (Clone Ammo)";
-		model = "442_misc\box\box10.p3d";
+		model = "kobra\442_misc\box\box10.p3d";
 		ace_cargo_size = 1;
 		ace_cargo_canload = 1;
 		ace_dragging_can_drag = 1;
@@ -447,7 +447,7 @@ class cfgvehicles
 		ace_dragging_carryDirection = 0;
 		hiddenselectionstextures[] = 
 		{
-			"442_misc\box\data\box10_co.paa"
+			"kobra\442_misc\box\data\box10_co.paa"
 		};
 		class transportweapons {};
 		class transportItems {};

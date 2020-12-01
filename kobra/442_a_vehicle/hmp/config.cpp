@@ -128,8 +128,8 @@ class cfgVehicles
 		{
 			"k_swla_unit_b1_e5"
 		};
-		icon = "442_a_vehicle\hmp\data\ui\hmp_icon.paa";
-		editorpreview = "442_a_vehicle\hmp\data\ui\hmp_preview.jpg";
+		icon = "kobra\442_a_vehicle\hmp\data\ui\hmp_icon.paa";
+		editorpreview = "kobra\442_a_vehicle\hmp\data\ui\hmp_preview.jpg";
 		picture = "";
 		availableForSupportTypes[] = {"CAS_Heli", "Drop", "Transport"};
 		cost = 2000000;
@@ -165,7 +165,7 @@ class cfgVehicles
 		
 		accuracy = 0.5;
 		displayname = "Test HMP Gunship";
-		model = "442_a_vehicle\hmp\hmp_gunship.p3d";
+		model = "kobra\442_a_vehicle\hmp\hmp_gunship.p3d";
 		
 		driverAction = "apctracked2_slot1_in";
 		driverInAction = "apctracked2_slot1_in";
@@ -789,19 +789,19 @@ class cfgVehicles
 		};
 		hiddenselectionstextures[] = 
 		{
-			"442_a_vehicle\hmp\data\body_co.paa",
-			"442_a_vehicle\hmp\data\engine_co.paa",
-			"442_a_vehicle\hmp\data\eyes_co.paa",
-			"442_a_vehicle\hmp\data\head_co.paa",
-			"442_a_vehicle\hmp\data\missiles_co.paa",
+			"kobra\442_a_vehicle\hmp\data\body_co.paa",
+			"kobra\442_a_vehicle\hmp\data\engine_co.paa",
+			"kobra\442_a_vehicle\hmp\data\eyes_co.paa",
+			"kobra\442_a_vehicle\hmp\data\head_co.paa",
+			"kobra\442_a_vehicle\hmp\data\missiles_co.paa",
 			"",
-			"442_a_vehicle\hmp\data\wings_co.paa",
+			"kobra\442_a_vehicle\hmp\data\wings_co.paa",
 		};
 		class components: components
 		{
 			class TransportPylonsComponent
 			{
-				uiPicture="\442_hmp\data\ui\cis_ui.paa";
+				uiPicture="kobra\442_a_vehicle\hmp\data\ui\cis_ui.paa";
 				class Pylons
 				{
 					class PylonLeft1
@@ -868,13 +868,13 @@ class cfgVehicles
 				author = "Kobra Mod Team Team";
 				textures[] = 
 				{
-					"442_a_vehicle\hmp\data\body_co.paa",
-					"442_a_vehicle\hmp\data\engine_co.paa",
-					"442_a_vehicle\hmp\data\eyes_co.paa",
-					"442_a_vehicle\hmp\data\head_co.paa",
-					"442_a_vehicle\hmp\data\missiles_co.paa",
+					"kobra\442_a_vehicle\hmp\data\body_co.paa",
+					"kobra\442_a_vehicle\hmp\data\engine_co.paa",
+					"kobra\442_a_vehicle\hmp\data\eyes_co.paa",
+					"kobra\442_a_vehicle\hmp\data\head_co.paa",
+					"kobra\442_a_vehicle\hmp\data\missiles_co.paa",
 					"",
-					"442_a_vehicle\hmp\data\wings_co.paa",
+					"kobra\442_a_vehicle\hmp\data\wings_co.paa",
 				};
 				factions[] = 
 				{
@@ -886,13 +886,13 @@ class cfgVehicles
 				displayname = "Unmarked";
 				textures[] = 
 				{
-					"442_a_vehicle\hmp\data\b_body_co.paa",
-					"442_a_vehicle\hmp\data\engine_co.paa",
-					"442_a_vehicle\hmp\data\eyes_co.paa",
-					"442_a_vehicle\hmp\data\b_head_co.paa",
-					"442_a_vehicle\hmp\data\b_missiles_co.paa",
+					"kobra\442_a_vehicle\hmp\data\b_body_co.paa",
+					"kobra\442_a_vehicle\hmp\data\engine_co.paa",
+					"kobra\442_a_vehicle\hmp\data\eyes_co.paa",
+					"kobra\442_a_vehicle\hmp\data\b_head_co.paa",
+					"kobra\442_a_vehicle\hmp\data\b_missiles_co.paa",
 					"",
-					"442_a_vehicle\hmp\data\b_wings_co.paa",
+					"kobra\442_a_vehicle\hmp\data\b_wings_co.paa",
 				};
 			};
 		};
@@ -902,13 +902,13 @@ class cfgVehicles
 		displayname = "HMP Gunship (unmarked)";
 		hiddenselectionstextures[] = 
 		{
-			"442_a_vehicle\hmp\data\b_body_co.paa",
-			"442_a_vehicle\hmp\data\engine_co.paa",
-			"442_a_vehicle\hmp\data\eyes_co.paa",
-			"442_a_vehicle\hmp\data\b_head_co.paa",
-			"442_a_vehicle\hmp\data\b_missiles_co.paa",
+			"kobra\442_a_vehicle\hmp\data\b_body_co.paa",
+			"kobra\442_a_vehicle\hmp\data\engine_co.paa",
+			"kobra\442_a_vehicle\hmp\data\eyes_co.paa",
+			"kobra\442_a_vehicle\hmp\data\b_head_co.paa",
+			"kobra\442_a_vehicle\hmp\data\b_missiles_co.paa",
 			"",
-			"442_a_vehicle\hmp\data\b_wings_co.paa",
+			"kobra\442_a_vehicle\hmp\data\b_wings_co.paa",
 		};
 	};
 	class 442_hmp_transport: 442_test_hmp_base
@@ -930,13 +930,13 @@ class cfgVehicles
 		};
 		hiddenselectionstextures[] = 
 		{
-			"442_a_vehicle\hmp\data\body_co.paa",
-			"442_a_vehicle\hmp\data\engine_co.paa",
-			"442_a_vehicle\hmp\data\eyes_co.paa",
-			"442_a_vehicle\hmp\data\head_co.paa",
-			"442_a_vehicle\hmp\data\missiles_co.paa",
-			"442_a_vehicle\hmp\data\seats_co.paa",
-			"442_a_vehicle\hmp\data\wings_co.paa",
+			"kobra\442_a_vehicle\hmp\data\body_co.paa",
+			"kobra\442_a_vehicle\hmp\data\engine_co.paa",
+			"kobra\442_a_vehicle\hmp\data\eyes_co.paa",
+			"kobra\442_a_vehicle\hmp\data\head_co.paa",
+			"kobra\442_a_vehicle\hmp\data\missiles_co.paa",
+			"kobra\442_a_vehicle\hmp\data\seats_co.paa",
+			"kobra\442_a_vehicle\hmp\data\wings_co.paa",
 		};
 		
 		transportSoldier = 10;
@@ -964,13 +964,13 @@ class cfgVehicles
 				author = "Kobra Mod Team";
 				textures[] = 
 				{
-					"442_a_vehicle\hmp\data\body_co.paa",
-					"442_a_vehicle\hmp\data\engine_co.paa",
-					"442_a_vehicle\hmp\data\eyes_co.paa",
-					"442_a_vehicle\hmp\data\head_co.paa",
-					"442_a_vehicle\hmp\data\missiles_co.paa",
-					"442_a_vehicle\hmp\data\seats_co.paa",
-					"442_a_vehicle\hmp\data\wings_co.paa",
+					"kobra\442_a_vehicle\hmp\data\body_co.paa",
+					"kobra\442_a_vehicle\hmp\data\engine_co.paa",
+					"kobra\442_a_vehicle\hmp\data\eyes_co.paa",
+					"kobra\442_a_vehicle\hmp\data\head_co.paa",
+					"kobra\442_a_vehicle\hmp\data\missiles_co.paa",
+					"kobra\442_a_vehicle\hmp\data\seats_co.paa",
+					"kobra\442_a_vehicle\hmp\data\wings_co.paa",
 				};
 				factions[] = 
 				{
@@ -982,13 +982,13 @@ class cfgVehicles
 				displayname = "Unmarked";
 				textures[] = 
 				{
-					"442_a_vehicle\hmp\data\b_body_co.paa",
-					"442_a_vehicle\hmp\data\engine_co.paa",
-					"442_a_vehicle\hmp\data\eyes_co.paa",
-					"442_a_vehicle\hmp\data\b_head_co.paa",
-					"442_a_vehicle\hmp\data\b_missiles_co.paa",
-					"442_a_vehicle\hmp\data\b_seats_co.paa",
-					"442_a_vehicle\hmp\data\b_wings_co.paa",
+					"kobra\442_a_vehicle\hmp\data\b_body_co.paa",
+					"kobra\442_a_vehicle\hmp\data\engine_co.paa",
+					"kobra\442_a_vehicle\hmp\data\eyes_co.paa",
+					"kobra\442_a_vehicle\hmp\data\b_head_co.paa",
+					"kobra\442_a_vehicle\hmp\data\b_missiles_co.paa",
+					"kobra\442_a_vehicle\hmp\data\b_seats_co.paa",
+					"kobra\442_a_vehicle\hmp\data\b_wings_co.paa",
 				};
 			};
 		};
@@ -998,13 +998,13 @@ class cfgVehicles
 		displayname = "HMP Gunship (Transport-unmarked)";
 		hiddenselectionstextures[] = 
 		{
-			"442_a_vehicle\hmp\data\b_body_co.paa",
-			"442_a_vehicle\hmp\data\engine_co.paa",
-			"442_a_vehicle\hmp\data\eyes_co.paa",
-			"442_a_vehicle\hmp\data\b_head_co.paa",
-			"442_a_vehicle\hmp\data\b_missiles_co.paa",
-			"442_a_vehicle\hmp\data\b_seats_co.paa",
-			"442_a_vehicle\hmp\data\b_wings_co.paa",
+			"kobra\442_a_vehicle\hmp\data\b_body_co.paa",
+			"kobra\442_a_vehicle\hmp\data\engine_co.paa",
+			"kobra\442_a_vehicle\hmp\data\eyes_co.paa",
+			"kobra\442_a_vehicle\hmp\data\b_head_co.paa",
+			"kobra\442_a_vehicle\hmp\data\b_missiles_co.paa",
+			"kobra\442_a_vehicle\hmp\data\b_seats_co.paa",
+			"kobra\442_a_vehicle\hmp\data\b_wings_co.paa",
 		};
 	};
 	class Wreck_base_F;
@@ -1017,7 +1017,7 @@ class cfgVehicles
 		scopecurator = 2;
 		icon="iconObject_1x2";
 		displayname = "HMP Gunship (Wrecked)";
-		model = "442_a_vehicle\hmp\hmp_gunship_w.p3d";
+		model = "kobra\442_a_vehicle\hmp\hmp_gunship_w.p3d";
 		editorCategory = "kobra";
 		editorSubcategory = "442_wrecks";
 	};

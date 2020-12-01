@@ -31,7 +31,7 @@ class cfgvehicles
     class 442_hardcell_base: StaticShip
 	{
 		author ="Kobra Mod Team";
-		model="\442_ships\hardcell\base.p3d";
+		model="\kobra\442_ships\hardcell\base.p3d";
 		reversed=0;
 		scope=2;
 		scopecurator=1;
@@ -104,7 +104,7 @@ class cfgvehicles
 		vehicleClass="Structures_Military";
 		icon="iconObject_1x1";
 		mapsize=70;
-		model="\442_ships\hardcell\1.p3d";
+		model="";
 		armor=1000000000000000000;
 		hideUnitInfo=1;
 		nameSound="ship";
@@ -133,14 +133,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="hardcell body";
 		editorpreview="";
-		model="\442_ships\hardcell\body.p3d";
+		model="\kobra\442_ships\hardcell\body.p3d";
 		hiddenselections[]=
 		{
 			"upper"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\hardcell\data\upper_co.paa"
+			"kobra\442_ships\hardcell\data\upper_co.paa"
 		};
 	};
 	class 442_hardcell_engine1: 442_hardcell_hull_base
@@ -149,14 +149,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="hardcell engine1";
 		editorpreview="";
-		model="\442_ships\hardcell\engine1.p3d";
+		model="\kobra\442_ships\hardcell\engine1.p3d";
 		hiddenselections[]=
 		{
 			"lower"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\hardcell\data\lower_co.paa"
+			"kobra\442_ships\hardcell\data\lower_co.paa"
 		};
 	};
 	class 442_hardcell_engine2: 442_hardcell_hull_base
@@ -165,14 +165,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="hardcell engine2";
 		editorpreview="";
-		model="\442_ships\hardcell\engine2.p3d";
+		model="\kobra\442_ships\hardcell\engine2.p3d";
 		hiddenselections[]=
 		{
 			"lower"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\hardcell\data\lower_co.paa"
+			"kobra\442_ships\hardcell\data\lower_co.paa"
 		};
 	};
 	class 442_hardcell_engine3: 442_hardcell_hull_base
@@ -181,14 +181,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="hardcell engine3";
 		editorpreview="";
-		model="\442_ships\hardcell\engine3.p3d";
+		model="\kobra\442_ships\hardcell\engine3.p3d";
 		hiddenselections[]=
 		{
 			"lower"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\hardcell\data\lower_co.paa"
+			"kobra\442_ships\hardcell\data\lower_co.paa"
 		};
 	};
 	class 442_hardcell_leg1: 442_hardcell_hull_base
@@ -197,14 +197,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="hardcell leg1";
 		editorpreview="";
-		model="\442_ships\hardcell\leg1.p3d";
+		model="\kobra\442_ships\hardcell\leg1.p3d";
 		hiddenselections[]=
 		{
 			"lower"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\hardcell\data\lower_co.paa"
+			"kobra\442_ships\hardcell\data\lower_co.paa"
 		};
 	};
 	class 442_hardcell_leg2: 442_hardcell_hull_base
@@ -213,14 +213,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="hardcell leg2";
 		editorpreview="";
-		model="\442_ships\hardcell\leg2.p3d";
+		model="\kobra\442_ships\hardcell\leg2.p3d";
 		hiddenselections[]=
 		{
 			"lower"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\hardcell\data\lower_co.paa"
+			"kobra\442_ships\hardcell\data\lower_co.paa"
 		};
 	};
 	class 442_hardcell_leg3: 442_hardcell_hull_base
@@ -229,14 +229,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="hardcell leg3";
 		editorpreview="";
-		model="\442_ships\hardcell\leg3.p3d";
+		model="\kobra\442_ships\hardcell\leg3.p3d";
 		hiddenselections[]=
 		{
 			"lower"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\hardcell\data\lower_co.paa"
+			"kobra\442_ships\hardcell\data\lower_co.paa"
 		};
 	};
 };

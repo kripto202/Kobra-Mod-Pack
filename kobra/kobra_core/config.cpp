@@ -8,8 +8,6 @@ class CfgPatches
 			"A3_Anims_F",
 			"A3_Characters_F",
 			"A3_UI_F",
-			"ls_laat_2",
-			"ls_hmp",
 			"A3_Armor_F_Beta",
 			"A3_Armor_F_EPB_MBT_03",
 		};
@@ -29,7 +27,7 @@ class CfgSounds
 	class kobra_Vic_ImpulseOn 
 	{
 		titles[] = {"kobra_Vic_ImpulseOn"};
-		sound[] = {"kobra_core\sounds\Impulsor_On.wss", 15, 1, 1500};
+		sound[] = {"kobra\kobra_core\sounds\Impulsor_On.wss", 15, 1, 1500};
 		name = "kobra_Vic_ImpulseOn";
 		duration = 3;
 	};
@@ -37,7 +35,7 @@ class CfgSounds
 	class kobra_Vic_ImpulseOff 
 	{
 		titles[] = {"kobra_Vic_ImpulseOff"};
-		sound[] = {"kobra_core\sounds\Impulsor_Off.wss", 15, 1, 1500};
+		sound[] = {"kobra\kobra_core\sounds\Impulsor_Off.wss", 15, 1, 1500};
 		name = "kobra_Vic_ImpulseOff";
 		duration = 3;
 	};
@@ -50,7 +48,7 @@ class CfgFunctions
 	{
 		class Operation 
 		{
-			file = "kobra_core\Scripts";
+			file = "kobra\kobra_core\Scripts";
 			
 			class Init
 			{
@@ -238,7 +236,7 @@ class CfgEditorSubcategories
 	};
 	class 442_battledroid_inf_winter
 	{
-		displayname = "Battledroid (Winter)"
+		displayname = "Battledroid (Winter)";
 	};
 	class 442_battledroid_inf_geonosis
 	{
@@ -293,6 +291,21 @@ class CfgMovesFatigueTrooper
 	TerrainSpeedCoef = 0.9;
 };
 
+class CfgVehicleIcons
+{
+	442_iconMan="kobra\kobra_core\icons\data\icon_rifleman.paa";
+    442_iconManMedic="kobra\kobra_core\icons\data\icon_medic.paa";
+    442_iconManEngineer="kobra\kobra_core\icons\data\icon_engineer.paa";
+    442_iconManExplosive="kobra\kobra_core\icons\data\icon_engineer.paa";
+    442_iconManRecon="kobra\kobra_core\icons\data\icon_marksman.paa";
+	442_iconManAT="kobra\kobra_core\icons\data\icon_at.paa";
+    442_iconManLeader="kobra\kobra_core\icons\data\icon_leader.paa";
+    442_iconManMG="kobra\kobra_core\icons\data\icon_mg.paa";
+    442_iconManOfficer="kobra\kobra_core\icons\data\icon_leader.paa";
+	pictureHeal="\A3\ui_f\data\map\vehicleicons\pictureHeal_ca.paa";
+	pictureRepair="\A3\ui_f\data\map\vehicleicons\pictureRepair_ca.paa";
+};
+
 class CfgRecoils
 {
 	class recoil_default;
@@ -312,40 +325,44 @@ class CfgRecoils
 		temporary=0.30000001;
 	};
 };
+
 class cfgweapons
 {
 	class Integrated_NVG_F;
 	class k_nvg: Integrated_NVG_F
 	{
 		scope=1;
-		visionMode[]={
+		visionMode[]=
+		{
 			"Normal",
 			"NVG"
 		};
 		modelOptics="";
-		ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+		ace_nightvision_border = "kobra\442_equipment\attachments\data\nvg_mask_sw_4096.paa";
 	};
 	class k_nvg_ti: Integrated_NVG_F
 	{
 		scope=1;
-		visionMode[]={
+		visionMode[]=
+		{
 			"Normal",
 			"NVG",
 			"TI"
 		};
 		thermalMode[]={0};
 		modelOptics="";
-		ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+		ace_nightvision_border = "kobra\442_equipment\attachments\data\nvg_mask_sw_4096.paa";
 	};
 	class k_ti: Integrated_NVG_F
 	{
 		scope=1;
-		visionMode[] = {
+		visionMode[] = 
+		{
 			"Normal",
 			"TI"
 		};
 		thermalMode[]={0};
 		modelOptics="";
-		ace_nightvision_border = "442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+		ace_nightvision_border = "kobra\442_equipment\attachments\data\nvg_mask_sw_4096.paa";
 	};
 };

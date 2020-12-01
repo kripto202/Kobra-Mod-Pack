@@ -26,7 +26,7 @@ class cfgvehicles
 		scopecurator=2;
 		author = "KOBRA Mod Team";
 		displayName="Bacta Tank";
-		model="442_misc\bacta\bacta_tank.p3d";
+		model="kobra\442_misc\bacta\bacta_tank.p3d";
 		editorcategory="kobra";
 		editorsubcategory="442_item";
 		armor=5;
@@ -53,12 +53,12 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_misc\bacta\data\body1_co.paa",
-			"442_misc\bacta\data\body2_co.paa",
-			"442_misc\bacta\data\body3_co.paa",
-			"442_misc\bacta\data\clear_glass_ca.paa",
-			"442_misc\bacta\data\blue_glass_ca.paa",
-			"442_misc\bacta\data\screens_co.paa",
+			"kobra\442_misc\bacta\data\body1_co.paa",
+			"kobra\442_misc\bacta\data\body2_co.paa",
+			"kobra\442_misc\bacta\data\body3_co.paa",
+			"kobra\442_misc\bacta\data\clear_glass_ca.paa",
+			"kobra\442_misc\bacta\data\blue_glass_ca.paa",
+			"kobra\442_misc\bacta\data\screens_co.paa",
 		};
 		class useractions
         {
@@ -102,7 +102,7 @@ class cfgvehicles
 				lifeTime = 1;
 				position = "";
 				simulation = ruin;
-				type = "442_misc\bacta\bacta_tank_w.p3d";
+				type = "kobra\442_misc\bacta\bacta_tank_w.p3d";
 			};
 			
 		};
@@ -146,7 +146,7 @@ class cfgvehicles
 		scopecurator = 2;
 		icon="iconObject_1x2";
 		displayname = "Bacta Tank (Destroyed)";
-		model = "442_misc\bacta\bacta_tank_w.p3d";
+		model = "kobra\442_misc\bacta\bacta_tank_w.p3d";
 		editorCategory = "kobra";
 		editorSubcategory = "442_item";
 	};

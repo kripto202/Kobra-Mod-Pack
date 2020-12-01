@@ -144,8 +144,8 @@ class cfgvehicles
 		scopecurator=1;
 		scopearsenal=1;
 		displayname="rx200";
-		model="\442_g_vehicle\rx200\rx200_2";
-		picture="";
+		model="\kobra\442_g_vehicle\rx200\rx200_2";
+		picture="kobra\kobra_core\kobra.paa";
 		icon="\A3\armor_f_gamma\MBT_02\Data\UI\map_MBT_02_ca.paa";
 		side=1;
 		faction="kobra_b";
@@ -213,10 +213,10 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_g_vehicle\rx200\data\body1_co.paa",
-			"442_g_vehicle\rx200\data\body2_co.paa",
-			"442_g_vehicle\rx200\data\turret_co.paa",
-			"442_g_vehicle\rx200\data\gun_co.paa"
+			"kobra\442_g_vehicle\rx200\data\body1_co.paa",
+			"kobra\442_g_vehicle\rx200\data\body2_co.paa",
+			"kobra\442_g_vehicle\rx200\data\turret_co.paa",
+			"kobra\442_g_vehicle\rx200\data\gun_co.paa"
 		};
 
 		class simpleobject
@@ -275,7 +275,7 @@ class cfgvehicles
 		scopecurator = 2;
 		icon="iconObject_1x2";
 		displayname = "RX200 (Wrecked)";
-		model = "442_g_vehicle\rx200\rx200_w.p3d";
+		model = "kobra\442_g_vehicle\rx200\rx200_w.p3d";
 		editorCategory = "kobra";
 		editorSubcategory = "442_wrecks";
 	};

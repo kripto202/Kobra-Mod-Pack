@@ -51,7 +51,7 @@ class cfgvehicles
     class 442_lucrehulk: House_F
 	{
 		author ="Kobra Mod Team";
-		model="\442_ships\lucrehulk\lucrehulk.p3d";
+		model="\kobra\442_ships\lucrehulk\lucrehulk.p3d";
 		scope=2;
 		scopecurator=2;
 		editorpreview="";
@@ -74,21 +74,21 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[] = 
 		{
-			"442_ships\lucrehulk\data\top_co.paa",
-			"442_ships\lucrehulk\data\radar_co.paa",
-			"442_ships\lucrehulk\data\inner_co.paa",
-			"442_ships\lucrehulk\data\front_co.paa",
-			"442_ships\lucrehulk\data\gate_co.paa",
-			"442_ships\lucrehulk\data\core_co.paa",
-			"442_ships\lucrehulk\data\bottom_co.paa",
-			"442_ships\lucrehulk\data\engine_co.paa",
-			"442_ships\lucrehulk\data\back_co.paa"
+			"kobra\442_ships\lucrehulk\data\top_co.paa",
+			"kobra\442_ships\lucrehulk\data\radar_co.paa",
+			"kobra\442_ships\lucrehulk\data\inner_co.paa",
+			"kobra\442_ships\lucrehulk\data\front_co.paa",
+			"kobra\442_ships\lucrehulk\data\gate_co.paa",
+			"kobra\442_ships\lucrehulk\data\core_co.paa",
+			"kobra\442_ships\lucrehulk\data\bottom_co.paa",
+			"kobra\442_ships\lucrehulk\data\engine_co.paa",
+			"kobra\442_ships\lucrehulk\data\back_co.paa"
 		};
 	};
 	class 442_lucrehulk_base: StaticShip
 	{
 		author ="Kobra Mod Team";
-		model="\442_ships\lucrehulk\lucrehulk_base.p3d";
+		model="\kobra\442_ships\lucrehulk\lucrehulk_base.p3d";
 		reversed=0;
 		scope=2;
 		scopecurator=2;
@@ -256,7 +256,7 @@ class cfgvehicles
 		vehicleClass="Structures_Military";
 		icon="iconObject_1x1";
 		mapsize=70;
-		model="\442_ships\lucrehulk\1.p3d";
+		model="";
 		armor=1000000000000000000;
 		hideUnitInfo=1;
 		nameSound="ship";
@@ -285,14 +285,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="luc hull 1";
 		editorpreview="";
-		model="\442_ships\lucrehulk\back_1.p3d";
+		model="\kobra\442_ships\lucrehulk\back_1.p3d";
 		hiddenselections[]=
 		{
 			"back"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\lucrehulk\data\back_co.paa"
+			"kobra\442_ships\lucrehulk\data\back_co.paa"
 		};
 	};
 	class 442_bottom_1: 442_luc_hull_base
@@ -301,14 +301,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="luc hull 2";
 		editorpreview="";
-		model="\442_ships\lucrehulk\bottom_1.p3d";
+		model="\kobra\442_ships\lucrehulk\bottom_1.p3d";
 		hiddenselections[]=
 		{
 			"bottom"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\lucrehulk\data\bottom_co.paa"
+			"kobra\442_ships\lucrehulk\data\bottom_co.paa"
 		};
 	};
 	class 442_bottom_2: 442_luc_hull_base
@@ -317,14 +317,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="luc hull 3";
 		editorpreview="";
-		model="\442_ships\lucrehulk\bottom_2.p3d";
+		model="\kobra\442_ships\lucrehulk\bottom_2.p3d";
 		hiddenselections[]=
 		{
 			"bottom"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\lucrehulk\data\bottom_co.paa"
+			"kobra\442_ships\lucrehulk\data\bottom_co.paa"
 		};
 	};
 	class 442_bottom_3: 442_luc_hull_base
@@ -333,14 +333,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="luc hull 4";
 		editorpreview="";
-		model="\442_ships\lucrehulk\bottom_3.p3d";
+		model="\kobra\442_ships\lucrehulk\bottom_3.p3d";
 		hiddenselections[]=
 		{
 			"bottom"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\lucrehulk\data\bottom_co.paa"
+			"kobra\442_ships\lucrehulk\data\bottom_co.paa"
 		};
 	};
 	class 442_bottom_4: 442_luc_hull_base
@@ -349,14 +349,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="luc hull 5";
 		editorpreview="";
-		model="\442_ships\lucrehulk\bottom_4.p3d";
+		model="\kobra\442_ships\lucrehulk\bottom_4.p3d";
 		hiddenselections[]=
 		{
 			"bottom"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\lucrehulk\data\bottom_co.paa"
+			"kobra\442_ships\lucrehulk\data\bottom_co.paa"
 		};
 	};
 	class 442_core_1: 442_luc_hull_base
@@ -365,14 +365,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="luc hull 6";
 		editorpreview="";
-		model="\442_ships\lucrehulk\core_1.p3d";
+		model="\kobra\442_ships\lucrehulk\core_1.p3d";
 		hiddenselections[]=
 		{
 			"core"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\lucrehulk\data\core_co.paa"
+			"kobra\442_ships\lucrehulk\data\core_co.paa"
 		};
 	};
 	class 442_core_2: 442_luc_hull_base
@@ -381,14 +381,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="luc hull 7";
 		editorpreview="";
-		model="\442_ships\lucrehulk\core_2.p3d";
+		model="\kobra\442_ships\lucrehulk\core_2.p3d";
 		hiddenselections[]=
 		{
 			"core"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\lucrehulk\data\core_co.paa"
+			"kobra\442_ships\lucrehulk\data\core_co.paa"
 		};
 	};
 	class 442_core_3: 442_luc_hull_base
@@ -397,14 +397,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="luc hull 8";
 		editorpreview="";
-		model="\442_ships\lucrehulk\core_3.p3d";
+		model="\kobra\442_ships\lucrehulk\core_3.p3d";
 		hiddenselections[]=
 		{
 			"core"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\lucrehulk\data\core_co.paa"
+			"kobra\442_ships\lucrehulk\data\core_co.paa"
 		};
 	};
 	class 442_engine_1: 442_luc_hull_base
@@ -413,14 +413,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="luc hull 9";
 		editorpreview="";
-		model="\442_ships\lucrehulk\engine_1.p3d";
+		model="\kobra\442_ships\lucrehulk\engine_1.p3d";
 		hiddenselections[]=
 		{
 			"engine"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\lucrehulk\data\engine_co.paa"
+			"kobra\442_ships\lucrehulk\data\engine_co.paa"
 		};
 	};
 	class 442_front_1: 442_luc_hull_base
@@ -429,14 +429,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="luc hull 10";
 		editorpreview="";
-		model="\442_ships\lucrehulk\front_1.p3d";
+		model="\kobra\442_ships\lucrehulk\front_1.p3d";
 		hiddenselections[]=
 		{
 			"front"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\lucrehulk\data\front_co.paa"
+			"kobra\442_ships\lucrehulk\data\front_co.paa"
 		};
 	};
 	class 442_front_2: 442_luc_hull_base
@@ -445,14 +445,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="luc hull 11";
 		editorpreview="";
-		model="\442_ships\lucrehulk\front_2.p3d";
+		model="\kobra\442_ships\lucrehulk\front_2.p3d";
 		hiddenselections[]=
 		{
 			"front"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\lucrehulk\data\front_co.paa"
+			"kobra\442_ships\lucrehulk\data\front_co.paa"
 		};
 	};
 	class 442_front_3: 442_luc_hull_base
@@ -461,14 +461,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="luc hull 12";
 		editorpreview="";
-		model="\442_ships\lucrehulk\front_3.p3d";
+		model="\kobra\442_ships\lucrehulk\front_3.p3d";
 		hiddenselections[]=
 		{
 			"front"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\lucrehulk\data\front_co.paa"
+			"kobra\442_ships\lucrehulk\data\front_co.paa"
 		};
 	};
 	class 442_front_4: 442_luc_hull_base
@@ -477,14 +477,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="luc hull 13";
 		editorpreview="";
-		model="\442_ships\lucrehulk\front_4.p3d";
+		model="\kobra\442_ships\lucrehulk\front_4.p3d";
 		hiddenselections[]=
 		{
 			"front"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\lucrehulk\data\front_co.paa"
+			"kobra\442_ships\lucrehulk\data\front_co.paa"
 		};
 	};
 	class 442_gate_1: 442_luc_hull_base
@@ -493,14 +493,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="luc hull 14";
 		editorpreview="";
-		model="\442_ships\lucrehulk\gate_1.p3d";
+		model="\kobra\442_ships\lucrehulk\gate_1.p3d";
 		hiddenselections[]=
 		{
 			"gate"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\lucrehulk\data\gate_co.paa"
+			"kobra\442_ships\lucrehulk\data\gate_co.paa"
 		};
 	};
 	class 442_inner_1: 442_luc_hull_base
@@ -509,14 +509,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="luc hull 15";
 		editorpreview="";
-		model="\442_ships\lucrehulk\inner_1.p3d";
+		model="\kobra\442_ships\lucrehulk\inner_1.p3d";
 		hiddenselections[]=
 		{
 			"inner"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\lucrehulk\data\inner_co.paa"
+			"kobra\442_ships\lucrehulk\data\inner_co.paa"
 		};
 	};
 	class 442_inner_2: 442_luc_hull_base
@@ -525,14 +525,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="luc hull 16";
 		editorpreview="";
-		model="\442_ships\lucrehulk\inner_2.p3d";
+		model="\kobra\442_ships\lucrehulk\inner_2.p3d";
 		hiddenselections[]=
 		{
 			"inner"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\lucrehulk\data\inner_co.paa"
+			"kobra\442_ships\lucrehulk\data\inner_co.paa"
 		};
 	};
 	class 442_inner_3: 442_luc_hull_base
@@ -541,14 +541,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="luc hull 17";
 		editorpreview="";
-		model="\442_ships\lucrehulk\inner_3.p3d";
+		model="\kobra\442_ships\lucrehulk\inner_3.p3d";
 		hiddenselections[]=
 		{
 			"inner"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\lucrehulk\data\inner_co.paa"
+			"kobra\442_ships\lucrehulk\data\inner_co.paa"
 		};
 	};
 	class 442_inner_4: 442_luc_hull_base
@@ -557,14 +557,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="luc hull 18";
 		editorpreview="";
-		model="\442_ships\lucrehulk\inner_4.p3d";
+		model="\kobra\442_ships\lucrehulk\inner_4.p3d";
 		hiddenselections[]=
 		{
 			"inner"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\lucrehulk\data\inner_co.paa"
+			"kobra\442_ships\lucrehulk\data\inner_co.paa"
 		};
 	};
 	class 442_radar_1: 442_luc_hull_base
@@ -573,14 +573,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="luc hull 19";
 		editorpreview="";
-		model="\442_ships\lucrehulk\radar_1.p3d";
+		model="\kobra\442_ships\lucrehulk\radar_1.p3d";
 		hiddenselections[]=
 		{
 			"radar"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\lucrehulk\data\radar_co.paa"
+			"kobra\442_ships\lucrehulk\data\radar_co.paa"
 		};
 	};
 	class 442_radar_2: 442_luc_hull_base
@@ -589,14 +589,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="luc hull 20";
 		editorpreview="";
-		model="\442_ships\lucrehulk\radar_2.p3d";
+		model="\kobra\442_ships\lucrehulk\radar_2.p3d";
 		hiddenselections[]=
 		{
 			"radar"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\lucrehulk\data\radar_co.paa"
+			"kobra\442_ships\lucrehulk\data\radar_co.paa"
 		};
 	};
 	class 442_radar_3: 442_luc_hull_base
@@ -605,14 +605,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="luc hull 21";
 		editorpreview="";
-		model="\442_ships\lucrehulk\radar_3.p3d";
+		model="\kobra\442_ships\lucrehulk\radar_3.p3d";
 		hiddenselections[]=
 		{
 			"radar"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\lucrehulk\data\radar_co.paa"
+			"kobra\442_ships\lucrehulk\data\radar_co.paa"
 		};
 	};
 	class 442_radar_4: 442_luc_hull_base
@@ -621,14 +621,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="luc hull 22";
 		editorpreview="";
-		model="\442_ships\lucrehulk\radar_4.p3d";
+		model="\kobra\442_ships\lucrehulk\radar_4.p3d";
 		hiddenselections[]=
 		{
 			"radar"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\lucrehulk\data\radar_co.paa"
+			"kobra\442_ships\lucrehulk\data\radar_co.paa"
 		};
 	};
 	class 442_top_1: 442_luc_hull_base
@@ -637,14 +637,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="luc hull 23";
 		editorpreview="";
-		model="\442_ships\lucrehulk\top_1.p3d";
+		model="\kobra\442_ships\lucrehulk\top_1.p3d";
 		hiddenselections[]=
 		{
 			"top"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\lucrehulk\data\top_co.paa"
+			"kobra\442_ships\lucrehulk\data\top_co.paa"
 		};
 	};
 	class 442_top_2: 442_luc_hull_base
@@ -653,14 +653,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="luc hull 24";
 		editorpreview="";
-		model="\442_ships\lucrehulk\top_2.p3d";
+		model="\kobra\442_ships\lucrehulk\top_2.p3d";
 		hiddenselections[]=
 		{
 			"top"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\lucrehulk\data\top_co.paa"
+			"kobra\442_ships\lucrehulk\data\top_co.paa"
 		};
 	};
 	class 442_top_3: 442_luc_hull_base
@@ -669,14 +669,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="luc hull 25";
 		editorpreview="";
-		model="\442_ships\lucrehulk\top_3.p3d";
+		model="\kobra\442_ships\lucrehulk\top_3.p3d";
 		hiddenselections[]=
 		{
 			"top"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\lucrehulk\data\top_co.paa"
+			"kobra\442_ships\lucrehulk\data\top_co.paa"
 		};
 	};
 	class 442_top_4: 442_luc_hull_base
@@ -685,14 +685,14 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="luc hull 26";
 		editorpreview="";
-		model="\442_ships\lucrehulk\top_4.p3d";
+		model="\kobra\442_ships\lucrehulk\top_4.p3d";
 		hiddenselections[]=
 		{
 			"top"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\lucrehulk\data\top_co.paa"
+			"kobra\442_ships\lucrehulk\data\top_co.paa"
 		};
 	};
 };

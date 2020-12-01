@@ -82,7 +82,7 @@ class TegGen7
 };
 class stage1
 {
-	texture="442_turrets\Droideka\data\Textures\Droideka_NOHQ.paa";
+	texture="kobra\442_turrets\Droideka\data\Textures\Droideka_NOHQ.paa";
 	Texgen=1;
 };
 class stage2
@@ -97,12 +97,12 @@ class stage3
 };
 class stage4
 {
-	texture="442_turrets\Droideka\data\Textures\Droideka_AS.paa";
+	texture="kobra\442_turrets\Droideka\data\Textures\Droideka_AS.paa";
 	Texgen=4;
 };
 class stage5
 {
-	texture="442_turrets\Droideka\data\Textures\Droideka_SMDI.paa";
+	texture="kobra\442_turrets\Droideka\data\Textures\Droideka_SMDI.paa";
 	Texgen=5;
 };
 class stage6

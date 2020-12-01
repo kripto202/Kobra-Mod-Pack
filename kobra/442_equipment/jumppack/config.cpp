@@ -29,9 +29,9 @@ class cfgvehicles
 	{
 		author = "Kobra Dev Team";
 		scope = 2;
-		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
+		picture = "kobra\kobra_core\kobra.paa";
 		displayname = "[K] Jumppack";
-		model = "442_equipment\jumppack\jumppack.p3d";
+		model = "kobra\442_equipment\jumppack\jumppack.p3d";
 		maximumload = 150;
 		hiddenselections[] = 
 		{
@@ -39,7 +39,7 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[] = 
 		{
-			"442_equipment\jumppack\data\jumppack_co.paa"
+			"kobra\442_equipment\jumppack\data\jumppack_co.paa"
 		};
 		NSM_jumppack_is_jumppack=1;
 		NSM_jumppack_spam_delay=1;
@@ -80,16 +80,16 @@ class cfgvehicles
 	class 442_jt12: 442_jumppack
 	{
 		maximumload=150;
-		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
+		picture = "kobra\kobra_core\kobra.paa";
 		displayName="[K] JT-12 Jumppack";
-		model = "442_equipment\jumppack\jt12.p3d";
+		model = "kobra\442_equipment\jumppack\jt12.p3d";
 		hiddenselections[] = 
 		{
 			"camo1"
 		};
 		hiddenselectionstextures[] = 
 		{
-			"442_equipment\jumppack\data\jt12_body_co.paa"
+			"kobra\442_equipment\jumppack\data\jt12_body_co.paa"
 		};
 		NSM_jumppack_is_jumppack=1;
 		NSM_jumppack_spam_delay=1;
@@ -186,7 +186,7 @@ class cfgvehicles
 	};
 	class 442_jt12_radio: 442_jt12
 	{
-		model = "442_equipment\jumppack\jt12_radio.p3d";
+		model = "kobra\442_equipment\jumppack\jt12_radio.p3d";
 		scope = 2;
 		NSM_jumppack_is_jumppack=1;
 		NSM_jumppack_spam_delay=1;
@@ -230,11 +230,11 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[] = 
 		{
-			"442_equipment\jumppack\data\jt12_body_co.paa",
-			"442_equipment\jumppack\data\radio_co.paa"
+			"kobra\442_equipment\jumppack\data\jt12_body_co.paa",
+			"kobra\442_equipment\jumppack\data\radio_co.paa"
 		};
 		maximumload=150;
-		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
+		picture = "kobra\kobra_core\kobra.paa";
 		displayName="[K] JT-12 Jumppack (Radio)";
 		tf_dialog="SWLB_clone_rto_radio_dialog";
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";

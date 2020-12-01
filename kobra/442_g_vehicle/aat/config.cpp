@@ -79,8 +79,8 @@ class cfgvehicles
 		scopecurator=1;
 		scopearsenal=1;
 		displayname="AAT";
-		model="\442_g_vehicle\aat\aat.p3d";
-		picture="";
+		model="\kobra\442_g_vehicle\aat\aat.p3d";
+		picture="kobra\kobra_core\kobra.paa";
 		icon="\A3\armor_f_gamma\MBT_02\Data\UI\map_MBT_02_ca.paa";
 		side=0;
 		faction="442_CIS";
@@ -181,9 +181,9 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_g_vehicle\aat\data\body1_co.paa",
-			"442_g_vehicle\aat\data\body2_co.paa",
-			"442_g_vehicle\aat\data\gun_co.paa"
+			"kobra\442_g_vehicle\aat\data\body1_co.paa",
+			"kobra\442_g_vehicle\aat\data\body2_co.paa",
+			"kobra\442_g_vehicle\aat\data\gun_co.paa"
 		};
 		class texturesources
 		{
@@ -193,9 +193,9 @@ class cfgvehicles
 				author = "KOBRA Mod Team";
 				textures[]=
 				{
-					"442_g_vehicle\aat\data\body1_co.paa",
-					"442_g_vehicle\aat\data\body2_co.paa",
-					"442_g_vehicle\aat\data\gun_co.paa"
+					"kobra\442_g_vehicle\aat\data\body1_co.paa",
+					"kobra\442_g_vehicle\aat\data\body2_co.paa",
+					"kobra\442_g_vehicle\aat\data\gun_co.paa"
 				};
 				factions[]=
 				{
@@ -207,9 +207,9 @@ class cfgvehicles
 				displayname="CIS Red";
 				textures[]=
 				{
-					"442_g_vehicle\aat\data\body1_red_co.paa",
-					"442_g_vehicle\aat\data\body2_red_co.paa",
-					"442_g_vehicle\aat\data\gun_red_co.paa"
+					"kobra\442_g_vehicle\aat\data\body1_red_co.paa",
+					"kobra\442_g_vehicle\aat\data\body2_red_co.paa",
+					"kobra\442_g_vehicle\aat\data\gun_red_co.paa"
 				};
 			};
 			class black: base
@@ -217,9 +217,9 @@ class cfgvehicles
 				displayname="CIS Black";
 				textures[]=
 				{
-					"442_g_vehicle\aat\data\body1_black_co.paa",
-					"442_g_vehicle\aat\data\body2_black_co.paa",
-					"442_g_vehicle\aat\data\gun_black_co.paa"
+					"kobra\442_g_vehicle\aat\data\body1_black_co.paa",
+					"kobra\442_g_vehicle\aat\data\body2_black_co.paa",
+					"kobra\442_g_vehicle\aat\data\gun_black_co.paa"
 				};
 			};
 			class green: base
@@ -227,9 +227,9 @@ class cfgvehicles
 				displayname="CIS Green";
 				textures[]=
 				{
-					"442_g_vehicle\aat\data\body1_green_co.paa",
-					"442_g_vehicle\aat\data\body2_green_co.paa",
-					"442_g_vehicle\aat\data\gun_green_co.paa"
+					"kobra\442_g_vehicle\aat\data\body1_green_co.paa",
+					"kobra\442_g_vehicle\aat\data\body2_green_co.paa",
+					"kobra\442_g_vehicle\aat\data\gun_green_co.paa"
 				};
 			};
 			class blue: base
@@ -237,9 +237,9 @@ class cfgvehicles
 				displayname="CIS Blue";
 				textures[]=
 				{
-					"442_g_vehicle\aat\data\body1_blue_co.paa",
-					"442_g_vehicle\aat\data\body2_blue_co.paa",
-					"442_g_vehicle\aat\data\gun_blue_co.paa"
+					"kobra\442_g_vehicle\aat\data\body1_blue_co.paa",
+					"kobra\442_g_vehicle\aat\data\body2_blue_co.paa",
+					"kobra\442_g_vehicle\aat\data\gun_blue_co.paa"
 				};
 			};
 			class winter: base
@@ -247,9 +247,9 @@ class cfgvehicles
 				displayname="CIS Winter";
 				textures[]=
 				{
-					"442_g_vehicle\aat\data\body1_base_co.paa",
-					"442_g_vehicle\aat\data\body2_base_co.paa",
-					"442_g_vehicle\aat\data\gun_base_co.paa"
+					"kobra\442_g_vehicle\aat\data\body1_base_co.paa",
+					"kobra\442_g_vehicle\aat\data\body2_base_co.paa",
+					"kobra\442_g_vehicle\aat\data\gun_base_co.paa"
 				};
 			};
 		};
@@ -259,9 +259,9 @@ class cfgvehicles
 		displayname = "AAT (Red)";
 		hiddenselectionstextures[] = 
 		{
-			"442_g_vehicle\aat\data\body1_red_co.paa",
-			"442_g_vehicle\aat\data\body2_red_co.paa",
-			"442_g_vehicle\aat\data\gun_red_co.paa"
+			"kobra\442_g_vehicle\aat\data\body1_red_co.paa",
+			"kobra\442_g_vehicle\aat\data\body2_red_co.paa",
+			"kobra\442_g_vehicle\aat\data\gun_red_co.paa"
 		};
 	};
 	class 442_aat_black: 442_aat
@@ -269,9 +269,9 @@ class cfgvehicles
 		displayname = "AAT (Black)";
 		hiddenselectionstextures[] = 
 		{
-			"442_g_vehicle\aat\data\body1_black_co.paa",
-			"442_g_vehicle\aat\data\body2_black_co.paa",
-			"442_g_vehicle\aat\data\gun_black_co.paa"
+			"kobra\442_g_vehicle\aat\data\body1_black_co.paa",
+			"kobra\442_g_vehicle\aat\data\body2_black_co.paa",
+			"kobra\442_g_vehicle\aat\data\gun_black_co.paa"
 		};
 	};
 	class 442_aat_green: 442_aat
@@ -279,9 +279,9 @@ class cfgvehicles
 		displayname = "AAT (Green)";
 		hiddenselectionstextures[] = 
 		{
-			"442_g_vehicle\aat\data\body1_green_co.paa",
-			"442_g_vehicle\aat\data\body2_green_co.paa",
-			"442_g_vehicle\aat\data\gun_green_co.paa"
+			"kobra\442_g_vehicle\aat\data\body1_green_co.paa",
+			"kobra\442_g_vehicle\aat\data\body2_green_co.paa",
+			"kobra\442_g_vehicle\aat\data\gun_green_co.paa"
 		};
 	};
 	class 442_aat_blue: 442_aat
@@ -289,9 +289,9 @@ class cfgvehicles
 		displayname = "AAT (Blue)";
 		hiddenselectionstextures[] = 
 		{
-			"442_g_vehicle\aat\data\body1_blue_co.paa",
-			"442_g_vehicle\aat\data\body2_blue_co.paa",
-			"442_g_vehicle\aat\data\gun_blue_co.paa"
+			"kobra\442_g_vehicle\aat\data\body1_blue_co.paa",
+			"kobra\442_g_vehicle\aat\data\body2_blue_co.paa",
+			"kobra\442_g_vehicle\aat\data\gun_blue_co.paa"
 		};
 	};
 	class 442_aat_white: 442_aat
@@ -299,9 +299,9 @@ class cfgvehicles
 		displayname = "AAT (Winter)";
 		hiddenselectionstextures[] = 
 		{
-			"442_g_vehicle\aat\data\body1_base_co.paa",
-			"442_g_vehicle\aat\data\body2_base_co.paa",
-			"442_g_vehicle\aat\data\gun_base_co.paa"
+			"kobra\442_g_vehicle\aat\data\body1_base_co.paa",
+			"kobra\442_g_vehicle\aat\data\body2_base_co.paa",
+			"kobra\442_g_vehicle\aat\data\gun_base_co.paa"
 		};
 	};
 	class Wreck_base_F;
@@ -314,7 +314,7 @@ class cfgvehicles
 		scopecurator = 2;
 		icon="iconObject_1x2";
 		displayname = "AAT (Wrecked)";
-		model = "442_g_vehicle\aat\aat_wreck.p3d";
+		model = "kobra\442_g_vehicle\aat\aat_wreck.p3d";
 		editorCategory = "kobra";
 		editorSubcategory = "442_wrecks";
 	};

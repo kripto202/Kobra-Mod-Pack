@@ -29,14 +29,14 @@ class cfgvehicles
 		editorcategory="kobra";
 		editorsubcategory="442_item";
 		armor=5000;
-		model = "442_structures\landing_pad\wide_landing_pad.p3d";
+		model = "kobra\442_structures\landing_pad\wide_landing_pad.p3d";
 		hiddenselections[] = 
 		{
 			"body1"
 		};
 		hiddenselectionstextures[] = 
 		{
-			"442_structures\landing_pad\data\pad_wide_co.paa"
+			"kobra\442_structures\landing_pad\data\pad_wide_co.paa"
 		};
 	};
 };

@@ -44,7 +44,7 @@ class cfgvehicles
 		scope=2;
 		scopecurator=2;
 		displayname="Holo Table (Round)";
-		model="442_misc\holotable\holotable.p3d";
+		model="kobra\442_misc\holotable\holotable.p3d";
 		hiddenselections[]=
 		{
 			"body",
@@ -53,9 +53,9 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_misc\holotable\data\body_co.paa",
-			"442_misc\holotable\data\lights_co.paa",
-			"442_misc\holotable\data\holo_co.paa"
+			"kobra\442_misc\holotable\data\body_co.paa",
+			"kobra\442_misc\holotable\data\lights_co.paa",
+			"kobra\442_misc\holotable\data\holo_co.paa"
 		};
 		class MarkerLights
 		{
@@ -87,7 +87,7 @@ class cfgvehicles
 	class 442_holotable2: 442_holotable
 	{
 		displayname="Holo Table (Long)";
-		model="442_misc\holotable\holotable2.p3d";
+		model="kobra\442_misc\holotable\holotable2.p3d";
 		hiddenselections[]=
 		{
 			"body",
@@ -95,8 +95,8 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_misc\holotable\data\body2_co.paa",
-			"442_misc\holotable\data\holo2_co.paa"
+			"kobra\442_misc\holotable\data\body2_co.paa",
+			"kobra\442_misc\holotable\data\holo2_co.paa"
 		};
 		class MarkerLights
 		{

@@ -114,11 +114,11 @@ class cfgvehicles
 	};
     class k_CIS_Droideka: StaticMGWeapon
 	{
-		model="442_turrets\droideka\droideka.p3d";
+		model="kobra\442_turrets\droideka\droideka.p3d";
 		author="Kobra Mod Team";
 		DisplayName="Droideka";
-		picture = "\A3\Static_F_Gamma\data\UI\gear_StaticTurret_AA_CA.paa";
-		UiPicture = "\A3\Static_F_Gamma\data\UI\gear_StaticTurret_AA_CA.paa";
+		picture = "kobra\kobra_core\kobra.paa";
+		UiPicture = "kobra\kobra_core\kobra.paa";
 		icon = "\A3\Static_F_Gamma\data\UI\map_StaticTurret_AA_CA.paa";
 		accuracy = 0.12;
 		cost = 250000;
@@ -127,7 +127,7 @@ class cfgvehicles
 		scope = 2;
 		side = 0;
 		hiddenSelections[] = {"Camo1"};
-		hiddenSelectionsTextures[] = {"442_turrets\droideka\data\Droideka_CO.paa"};
+		hiddenSelectionsTextures[] = {"kobra\442_turrets\droideka\data\Droideka_CO.paa"};
 		enableGPS = 1;
 		radarType = 4;
 		gunnerCanSee = "1+2+4+16";
@@ -353,15 +353,15 @@ class cfgvehicles
 			tex[] = {};
 			mat[] = 
 			{
-				"442_turrets\droideka\data\Droideka.rvmat",
-				"442_turrets\droideka\data\Droideka.rvmat",
-				"442_turrets\droideka\data\Droideka.rvmat",
-				"442_turrets\droideka\data\Droideka.rvmat",
-				"442_turrets\droideka\data\Droideka.rvmat",
-				"442_turrets\droideka\data\Droideka.rvmat",
-				"442_turrets\droideka\data\Droideka.rvmat",
-				"442_turrets\droideka\data\Droideka.rvmat",
-				"442_turrets\droideka\data\Droideka.rvmat"
+				"kobra\442_turrets\droideka\data\Droideka.rvmat",
+				"kobra\442_turrets\droideka\data\Droideka.rvmat",
+				"kobra\442_turrets\droideka\data\Droideka.rvmat",
+				"kobra\442_turrets\droideka\data\Droideka.rvmat",
+				"kobra\442_turrets\droideka\data\Droideka.rvmat",
+				"kobra\442_turrets\droideka\data\Droideka.rvmat",
+				"kobra\442_turrets\droideka\data\Droideka.rvmat",
+				"kobra\442_turrets\droideka\data\Droideka.rvmat",
+				"kobra\442_turrets\droideka\data\Droideka.rvmat"
 			};
 		};
 		destrType = "DestructWreck";
@@ -469,7 +469,7 @@ class cfgvehicles
 	class Droideka_wreck: Wreck
 	{
 		scope = 1;
-		model = "442_turrets\Droideka\droideka.p3d";
+		model = "kobra\442_turrets\Droideka\droideka.p3d";
 		typicalCargo[] = {};
 		irTarget = 0;
 		transportAmmo = 0;

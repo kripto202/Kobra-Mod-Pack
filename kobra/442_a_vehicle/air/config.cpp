@@ -36,8 +36,8 @@ class cfgvehicles
 		scopearsenal=2;
         hiddenselectionstextures[]=
 		{
-			"442_a_vehicle\air\data\a10\rep_a10_body.paa",
-			"442_a_vehicle\air\data\a10\rep_a10_wing.paa"
+			"kobra\442_a_vehicle\air\data\a10\rep_a10_body.paa",
+			"kobra\442_a_vehicle\air\data\a10\rep_a10_wing.paa"
 		};
     };
     class b_plane_fighter_01_f;
@@ -56,13 +56,13 @@ class cfgvehicles
 		scopearsenal=2;
         hiddenselectionstextures[]=
 		{
-			"442_a_vehicle\air\data\fa181\rep_fa181_body.paa",
-			"442_a_vehicle\air\data\fa181\rep_fa181_wing.paa",
-			"a3\air_f_jets\plane_fighter_01\data\fighter_01_glass_01_ca.paa",
-			"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_01_co.paa",
-			"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_02_co.paa",
-			"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_03_co.paa",
-			"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_05_co.paa"
+			"kobra\442_a_vehicle\air\data\fa181\rep_fa181_body.paa",
+			"kobra\442_a_vehicle\air\data\fa181\rep_fa181_wing.paa",
+			"kobra\442_a_vehicle\air\data\fa181\fighter_01_glass_01_ca.paa",
+			"kobra\442_a_vehicle\air\data\fa181\fighter_01_cockpit_01_co.paa",
+			"kobra\442_a_vehicle\air\data\fa181\fighter_01_cockpit_02_co.paa",
+			"kobra\442_a_vehicle\air\data\fa181\fighter_01_cockpit_03_co.paa",
+			"kobra\442_a_vehicle\air\data\fa181\fighter_01_cockpit_05_co.paa"
 		};
     };
     class b_plane_fighter_01_stealth_f;
@@ -77,13 +77,13 @@ class cfgvehicles
 		scopearsenal=2;
         hiddenselectionstextures[]=
 		{
-			"442_a_vehicle\air\data\fa181\rep_fa181_body.paa",
-			"442_a_vehicle\air\data\fa181\rep_fa181_wing.paa",
-			"a3\air_f_jets\plane_fighter_01\data\fighter_01_glass_01_ca.paa",
-			"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_01_co.paa",
-			"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_02_co.paa",
-			"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_03_co.paa",
-			"a3\air_f_jets\plane_fighter_01\data\fighter_01_cockpit_05_co.paa"
+			"kobra\442_a_vehicle\air\data\fa181\rep_fa181_body.paa",
+			"kobra\442_a_vehicle\air\data\fa181\rep_fa181_wing.paa",
+			"kobra\442_a_vehicle\air\data\fa181\fighter_01_glass_01_ca.paa",
+			"kobra\442_a_vehicle\air\data\fa181\fighter_01_cockpit_01_co.paa",
+			"kobra\442_a_vehicle\air\data\fa181\fighter_01_cockpit_02_co.paa",
+			"kobra\442_a_vehicle\air\data\fa181\fighter_01_cockpit_03_co.paa",
+			"kobra\442_a_vehicle\air\data\fa181\fighter_01_cockpit_05_co.paa"
 		};
     };
 };

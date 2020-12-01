@@ -44,7 +44,7 @@ class cfgvehicles
 		scopecurator=2;
 		author = "Kobra Mod Team";
 		displayName="Floor";
-		model="\442_structures\hallway\floor.p3d";
+		model="\kobra\442_structures\hallway\floor.p3d";
 		editorcategory="kobra";
 		editorsubcategory="442_hallway";
 		vehicleClass="Structures";
@@ -56,14 +56,14 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_structures\hallway\data\tile_co.paa",
-			"442_structures\hallway\data\lower_co.paa"
+			"kobra\442_structures\hallway\data\tile_co.paa",
+			"kobra\442_structures\hallway\data\lower_co.paa"
 		};
 	};
 	class 442_roof: 442_floor
 	{
 		displayName="Roof Light";
-		model="\442_structures\hallway\rooflight.p3d";
+		model="\kobra\442_structures\hallway\rooflight.p3d";
 		hiddenselections[]=
 		{
 			"roof",
@@ -120,8 +120,8 @@ class cfgvehicles
 		}; */
 		hiddenselectionstextures[]=
 		{
-			"442_structures\hallway\data\roof_co.paa",
-			"442_structures\hallway\data\light_co.paa"
+			"kobra\442_structures\hallway\data\roof_co.paa",
+			"kobra\442_structures\hallway\data\light_co.paa"
 		};
 	};
 	class 442_roof_r: 442_roof
@@ -178,27 +178,27 @@ class cfgvehicles
 		}; */
 		hiddenselectionstextures[]=
 		{
-			"442_structures\hallway\data\roof_co.paa",
-			"442_structures\hallway\data\light_2_co.paa"
+			"kobra\442_structures\hallway\data\roof_co.paa",
+			"kobra\442_structures\hallway\data\light_2_co.paa"
 		};
 	};
 	class 442_wall: 442_floor
 	{
 		displayName="Wall";
-		model="\442_structures\hallway\wall.p3d";
+		model="\kobra\442_structures\hallway\wall.p3d";
 		hiddenselections[]=
 		{
 			"wall_2"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_structures\hallway\data\wall_2_co.paa"
+			"kobra\442_structures\hallway\data\wall_2_co.paa"
 		};
 	};
 	class 442_wall_light: 442_floor
 	{
 		displayName="Wall Light";
-		model="\442_structures\hallway\walllight.p3d";
+		model="\kobra\442_structures\hallway\walllight.p3d";
 		/* class MarkerLights
 		{
 			class Light_1
@@ -232,8 +232,8 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_structures\hallway\data\wall_co.paa",
-			"442_structures\hallway\data\light_co.paa"
+			"kobra\442_structures\hallway\data\wall_co.paa",
+			"kobra\442_structures\hallway\data\light_co.paa"
 		};
 	};
 	class 442_wall_light_r: 442_wall_light
@@ -267,14 +267,14 @@ class cfgvehicles
 		}; */
 		hiddenselectionstextures[]=
 		{
-			"442_structures\hallway\data\wall_co.paa",
-			"442_structures\hallway\data\light_2_co.paa"
+			"kobra\442_structures\hallway\data\wall_co.paa",
+			"kobra\442_structures\hallway\data\light_2_co.paa"
 		};
 	};
 	class 442_segment: 442_floor
 	{
 		displayName="Segment";
-		model="\442_structures\hallway\segment.p3d";
+		model="\kobra\442_structures\hallway\segment.p3d";
 		hiddenselections[]=
 		{
 			"segment",
@@ -308,8 +308,8 @@ class cfgvehicles
 		}; */
 		hiddenselectionstextures[]=
 		{
-			"442_structures\hallway\data\segment_co.paa",
-			"442_structures\hallway\data\light_co.paa"
+			"kobra\442_structures\hallway\data\segment_co.paa",
+			"kobra\442_structures\hallway\data\light_co.paa"
 		};
 	};
 	class 442_segment_r: 442_segment
@@ -343,14 +343,14 @@ class cfgvehicles
 		}; */
 		hiddenselectionstextures[]=
 		{
-			"442_structures\hallway\data\segment_co.paa",
-			"442_structures\hallway\data\light_2_co.paa"
+			"kobra\442_structures\hallway\data\segment_co.paa",
+			"kobra\442_structures\hallway\data\light_2_co.paa"
 		};
 	};
 	class 442_door: 442_floor
 	{
 		displayname="Door";
-		model="\442_structures\hallway\door.p3d";
+		model="\kobra\442_structures\hallway\door.p3d";
 		hiddenselections[]=
 		{
 			"door1",
@@ -359,9 +359,9 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_structures\hallway\data\doors_co.paa",
-			"442_structures\hallway\data\doors_co.paa",
-			"442_structures\hallway\data\frame_co.paa"
+			"kobra\442_structures\hallway\data\doors_co.paa",
+			"kobra\442_structures\hallway\data\doors_co.paa",
+			"kobra\442_structures\hallway\data\frame_co.paa"
 		};
 		class animationsources
 		{
@@ -405,7 +405,7 @@ class cfgvehicles
 	class 442_2way_rep: 442_floor
 	{
 		displayName="2-way Hallway";
-		model="\442_structures\hallway\2way.p3d";
+		model="\kobra\442_structures\hallway\2way.p3d";
 		hiddenselections[]=
 		{
 			"tile",
@@ -418,13 +418,13 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_structures\hallway\data\tile_co.paa",
-			"442_structures\hallway\data\lower_co.paa",
-			"442_structures\hallway\data\roof_co.paa",
-			"442_structures\hallway\data\segment_co.paa",
-			"442_structures\hallway\data\wall_co.paa",
-			"442_structures\hallway\data\wall_2_co.paa",
-			"442_structures\hallway\data\light_co.paa"
+			"kobra\442_structures\hallway\data\tile_co.paa",
+			"kobra\442_structures\hallway\data\lower_co.paa",
+			"kobra\442_structures\hallway\data\roof_co.paa",
+			"kobra\442_structures\hallway\data\segment_co.paa",
+			"kobra\442_structures\hallway\data\wall_co.paa",
+			"kobra\442_structures\hallway\data\wall_2_co.paa",
+			"kobra\442_structures\hallway\data\light_co.paa"
 		};
 		// class MarkerLights
 		// {
@@ -458,13 +458,13 @@ class cfgvehicles
 		displayName="2-way Hallway (Red)";
 		hiddenselectionstextures[]=
 		{
-			"442_structures\hallway\data\tile_co.paa",
-			"442_structures\hallway\data\lower_co.paa",
-			"442_structures\hallway\data\roof_co.paa",
-			"442_structures\hallway\data\segment_co.paa",
-			"442_structures\hallway\data\wall_co.paa",
-			"442_structures\hallway\data\wall_2_co.paa",
-			"442_structures\hallway\data\light_2_co.paa"
+			"kobra\442_structures\hallway\data\tile_co.paa",
+			"kobra\442_structures\hallway\data\lower_co.paa",
+			"kobra\442_structures\hallway\data\roof_co.paa",
+			"kobra\442_structures\hallway\data\segment_co.paa",
+			"kobra\442_structures\hallway\data\wall_co.paa",
+			"kobra\442_structures\hallway\data\wall_2_co.paa",
+			"kobra\442_structures\hallway\data\light_2_co.paa"
 		};
 		/* class MarkerLights
 		{
@@ -496,16 +496,16 @@ class cfgvehicles
 	class 442_3way_rep: 442_2way_rep
 	{
 		displayName="3-way Hallway";
-		model="\442_structures\hallway\3way.p3d";
+		model="\kobra\442_structures\hallway\3way.p3d";
 		hiddenselectionstextures[]=
 		{
-			"442_structures\hallway\data\tile_co.paa",
-			"442_structures\hallway\data\lower_co.paa",
-			"442_structures\hallway\data\roof_co.paa",
-			"442_structures\hallway\data\segment_co.paa",
-			"442_structures\hallway\data\wall_co.paa",
-			"442_structures\hallway\data\wall_2_co.paa",
-			"442_structures\hallway\data\light_co.paa"
+			"kobra\442_structures\hallway\data\tile_co.paa",
+			"kobra\442_structures\hallway\data\lower_co.paa",
+			"kobra\442_structures\hallway\data\roof_co.paa",
+			"kobra\442_structures\hallway\data\segment_co.paa",
+			"kobra\442_structures\hallway\data\wall_co.paa",
+			"kobra\442_structures\hallway\data\wall_2_co.paa",
+			"kobra\442_structures\hallway\data\light_co.paa"
 		};
 	};
 	class 442_3way_rep_r: 442_3way_rep
@@ -513,13 +513,13 @@ class cfgvehicles
 		displayName="3-way Hallway (Red)";
 		hiddenselectionstextures[]=
 		{
-			"442_structures\hallway\data\tile_co.paa",
-			"442_structures\hallway\data\lower_co.paa",
-			"442_structures\hallway\data\roof_co.paa",
-			"442_structures\hallway\data\segment_co.paa",
-			"442_structures\hallway\data\wall_co.paa",
-			"442_structures\hallway\data\wall_2_co.paa",
-			"442_structures\hallway\data\light_2_co.paa"
+			"kobra\442_structures\hallway\data\tile_co.paa",
+			"kobra\442_structures\hallway\data\lower_co.paa",
+			"kobra\442_structures\hallway\data\roof_co.paa",
+			"kobra\442_structures\hallway\data\segment_co.paa",
+			"kobra\442_structures\hallway\data\wall_co.paa",
+			"kobra\442_structures\hallway\data\wall_2_co.paa",
+			"kobra\442_structures\hallway\data\light_2_co.paa"
 		};
 		/* class MarkerLights
 		{
@@ -551,16 +551,16 @@ class cfgvehicles
 	class 442_4way_rep: 442_2way_rep
 	{
 		displayName="4-way Hallway";
-		model="\442_structures\hallway\4way.p3d";
+		model="\kobra\442_structures\hallway\4way.p3d";
 		hiddenselectionstextures[]=
 		{
-			"442_structures\hallway\data\tile_co.paa",
-			"442_structures\hallway\data\lower_co.paa",
-			"442_structures\hallway\data\roof_co.paa",
-			"442_structures\hallway\data\segment_co.paa",
-			"442_structures\hallway\data\wall_co.paa",
-			"442_structures\hallway\data\wall_2_co.paa",
-			"442_structures\hallway\data\light_co.paa"
+			"kobra\442_structures\hallway\data\tile_co.paa",
+			"kobra\442_structures\hallway\data\lower_co.paa",
+			"kobra\442_structures\hallway\data\roof_co.paa",
+			"kobra\442_structures\hallway\data\segment_co.paa",
+			"kobra\442_structures\hallway\data\wall_co.paa",
+			"kobra\442_structures\hallway\data\wall_2_co.paa",
+			"kobra\442_structures\hallway\data\light_co.paa"
 		};
 	};
 	class 442_4way_rep_r: 442_4way_rep
@@ -568,13 +568,13 @@ class cfgvehicles
 		displayName="4-way Hallway (Red)";
 		hiddenselectionstextures[]=
 		{
-			"442_structures\hallway\data\tile_co.paa",
-			"442_structures\hallway\data\lower_co.paa",
-			"442_structures\hallway\data\roof_co.paa",
-			"442_structures\hallway\data\segment_co.paa",
-			"442_structures\hallway\data\wall_1_co.paa",
-			"442_structures\hallway\data\wall_2_co.paa",
-			"442_structures\hallway\data\light_2_co.paa"
+			"kobra\442_structures\hallway\data\tile_co.paa",
+			"kobra\442_structures\hallway\data\lower_co.paa",
+			"kobra\442_structures\hallway\data\roof_co.paa",
+			"kobra\442_structures\hallway\data\segment_co.paa",
+			"kobra\442_structures\hallway\data\wall_1_co.paa",
+			"kobra\442_structures\hallway\data\wall_2_co.paa",
+			"kobra\442_structures\hallway\data\light_2_co.paa"
 		};
 		/* class MarkerLights
 		{
@@ -606,16 +606,16 @@ class cfgvehicles
 	class 442_corner_rep: 442_2way_rep
 	{
 		displayName="Corner Hallway";
-		model="\442_structures\hallway\corner.p3d";
+		model="\kobra\442_structures\hallway\corner.p3d";
 		hiddenselectionstextures[]=
 		{
-			"442_structures\hallway\data\tile_co.paa",
-			"442_structures\hallway\data\lower_co.paa",
-			"442_structures\hallway\data\roof_co.paa",
-			"442_structures\hallway\data\segment_co.paa",
-			"442_structures\hallway\data\wall_co.paa",
-			"442_structures\hallway\data\wall_2_co.paa",
-			"442_structures\hallway\data\light_co.paa"
+			"kobra\442_structures\hallway\data\tile_co.paa",
+			"kobra\442_structures\hallway\data\lower_co.paa",
+			"kobra\442_structures\hallway\data\roof_co.paa",
+			"kobra\442_structures\hallway\data\segment_co.paa",
+			"kobra\442_structures\hallway\data\wall_co.paa",
+			"kobra\442_structures\hallway\data\wall_2_co.paa",
+			"kobra\442_structures\hallway\data\light_co.paa"
 		};
 	};
 	class 442_corner_rep_r: 442_corner_rep
@@ -623,13 +623,13 @@ class cfgvehicles
 		displayName="Corner Hallway (Red)";
 		hiddenselectionstextures[]=
 		{
-			"442_structures\hallway\data\tile_co.paa",
-			"442_structures\hallway\data\lower_co.paa",
-			"442_structures\hallway\data\roof_co.paa",
-			"442_structures\hallway\data\segment_co.paa",
-			"442_structures\hallway\data\wall_co.paa",
-			"442_structures\hallway\data\wall_2_co.paa",
-			"442_structures\hallway\data\light_2_co.paa"
+			"kobra\442_structures\hallway\data\tile_co.paa",
+			"kobra\442_structures\hallway\data\lower_co.paa",
+			"kobra\442_structures\hallway\data\roof_co.paa",
+			"kobra\442_structures\hallway\data\segment_co.paa",
+			"kobra\442_structures\hallway\data\wall_co.paa",
+			"kobra\442_structures\hallway\data\wall_2_co.paa",
+			"kobra\442_structures\hallway\data\light_2_co.paa"
 		};
 		/* class MarkerLights
 		{
@@ -661,7 +661,7 @@ class cfgvehicles
 	class 442_ramp_rep: 442_floor
 	{
 		displayname = "Ramp";
-		model = "442_structures\hallway\ramp.p3d";
+		model = "kobra\442_structures\hallway\ramp.p3d";
 		hiddenselections[] = 
 		{
 			"ramp",
@@ -670,9 +670,9 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[] = 
 		{
-			"442_structures\hallway\data\ramp_co.paa",
-			"442_structures\hallway\data\segment_co.paa",
-			"442_structures\hallway\data\light_co.paa"
+			"kobra\442_structures\hallway\data\ramp_co.paa",
+			"kobra\442_structures\hallway\data\segment_co.paa",
+			"kobra\442_structures\hallway\data\light_co.paa"
 		};
 	};
 	class 442_ramp_rep_r: 442_ramp_rep
@@ -680,9 +680,9 @@ class cfgvehicles
 		displayname = "Ramp (Red)";
 		hiddenselectionstextures[] = 
 		{
-			"442_structures\hallway\data\ramp_co.paa",
-			"442_structures\hallway\data\segment_co.paa",
-			"442_structures\hallway\data\light_2_co.paa"
+			"kobra\442_structures\hallway\data\ramp_co.paa",
+			"kobra\442_structures\hallway\data\segment_co.paa",
+			"kobra\442_structures\hallway\data\light_2_co.paa"
 		};
 	};
 };

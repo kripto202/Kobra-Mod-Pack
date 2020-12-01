@@ -41,7 +41,7 @@ class cfgammo
         suppressionRadiusHit = 30;
         explosionEffectsRadius = 20;
         typicalspeed = 30;
-        model = "442_weapons\explosive\thermal_det.p3d";
+        model = "kobra\442_weapons\explosive\thermal_det.p3d";
         visibleFire = 0.5;
         audibleFire = 0.05;
         visibleFireTime = 1;
@@ -81,7 +81,7 @@ class cfgammo
         ace_frag_skip = 0;
         ace_frag_force = 0;
         explosionEffects = "VehicleExplosionEffects";
-        soundFly[] = {"442_weapons\sounds\thermal_det\thermal_det.wss", 1.5, 1, 90};
+        soundFly[] = {"kobra\442_weapons\sounds\thermal_det\thermal_det.wss", 1.5, 1, 90};
     };
     class 442_impact: G_40mm_HE
     {
@@ -93,13 +93,13 @@ class cfgammo
         dangerRadiusHit = 15;
         suppressionRadiusHit = 12;
         typicalspeed = 30;
-        model = "442_weapons\explosive\impact_grenade.p3d";
+        model = "kobra\442_weapons\explosive\impact_grenade.p3d";
         visibleFire = 0.5;
         audibleFire = 0.05;
         visibleFireTime = 1;
         fuseDistance = 0;
         explosionEffects = "VehicleExplosionEffects";
-        soundFly[] = {"442_weapons\sounds\impact_grenade\impact_grenade_cook.wss", 1.5, 1, 90};
+        soundFly[] = {"kobra\442_weapons\sounds\impact_grenade\impact_grenade_cook.wss", 1.5, 1, 90};
     };
 };
 class cfgmagazines 
@@ -113,7 +113,7 @@ class cfgmagazines
         value = 1;
         displayName = "[K] Thermal Det";
         picture = "";
-        model = "442_weapons\explosive\thermal_det.p3d";
+        model = "kobra\442_weapons\explosive\thermal_det.p3d";
         type = 256;
         ammo = "442_thermal_det";
         count = 1;
@@ -132,7 +132,7 @@ class cfgmagazines
         value = 1;
         displayName = "[K] Impact Grenade";
         picture = "";
-        model = "442_weapons\explosive\impact_grenade.p3d";
+        model = "kobra\442_weapons\explosive\impact_grenade.p3d";
         type = 256;
         ammo = "442_impact";
         count = 1;

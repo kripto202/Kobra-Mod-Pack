@@ -25,7 +25,7 @@ class cfgvehicles
 		scopecurator=2;
 		author = "KOBRA Mod Team";
 		displayName="Stimbox";
-		model="442_misc\stimbox\stimbox.p3d";
+		model="kobra\442_misc\stimbox\stimbox.p3d";
 		editorcategory="kobra";
 		editorsubcategory="442_item";
 		simulation="thingx";
@@ -37,9 +37,9 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_misc\stimbox\data\body1_co.paa",
-			"442_misc\stimbox\data\body2_co.paa",
-			"442_misc\stimbox\data\screen_co.paa"
+			"kobra\442_misc\stimbox\data\body1_co.paa",
+			"kobra\442_misc\stimbox\data\body2_co.paa",
+			"kobra\442_misc\stimbox\data\screen_co.paa"
 		};
 	};
 };

@@ -33,7 +33,7 @@ class cfgvehicles
     class 442_recusant_zeus: House_F
 	{
 		author ="Kobra Mod Team";
-		model="\442_ships\recusant\rec_zeus.p3d";
+		model="\kobra\442_ships\recusant\rec_zeus.p3d";
 		scope=2;
 		scopecurator=2;
 		editorpreview="";
@@ -50,9 +50,9 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\recusant\data\body1_co.paa",
-			"442_ships\recusant\data\body2_co.paa",
-			"442_ships\recusant\data\engine_co.paa"
+			"kobra\442_ships\recusant\data\body1_co.paa",
+			"kobra\442_ships\recusant\data\body2_co.paa",
+			"kobra\442_ships\recusant\data\engine_co.paa"
 		};
 	};
 	class 442_recusant_zeus_d: 442_recusant_zeus
@@ -62,7 +62,7 @@ class cfgvehicles
 	class 442_recusant_base: StaticShip
 	{
 		author ="Kobra Mod Team";
-		model="\442_ships\recusant\base.p3d";
+		model="\kobra\442_ships\recusant\base.p3d";
 		reversed=0;
 		scope=2;
 		scopecurator=1;
@@ -105,7 +105,7 @@ class cfgvehicles
 	class 442_recusant_base_d: 442_recusant_base
 	{
 		displayname="Recusant Dreadnought";
-		model="\442_ships\recusant\base_d.p3d";
+		model="\kobra\442_ships\recusant\base_d.p3d";
 		multistructureparts[]=
 		{
 			
@@ -138,7 +138,7 @@ class cfgvehicles
 		vehicleClass="Structures_Military";
 		icon="iconObject_1x1";
 		mapsize=70;
-		model="\442_ships\recusant\rec_body1.p3d";
+		model="\kobra\442_ships\recusant\rec_body1.p3d";
 		armor=1000000000000000000;
 		hideUnitInfo=1;
 		nameSound="ship";
@@ -167,19 +167,19 @@ class cfgvehicles
 		scope=2;
 		scopecurator=2;
 		editorpreview="";
-		model="\442_ships\recusant\rec_body1.p3d";
+		model="\kobra\442_ships\recusant\rec_body1.p3d";
 		hiddenselections[]=
 		{
 			"body1"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\recusant\data\body1_co.paa"
+			"kobra\442_ships\recusant\data\body1_co.paa"
 		};
 	};
 	class 442_rec_body1_d: 442_rec_body1
 	{
-		model="\442_ships\recusant\rec_body1_d.p3d";
+		model="\kobra\442_ships\recusant\rec_body1_d.p3d";
 	};
 	class 442_rec_body2: 442_rec_hull_base
 	{
@@ -187,19 +187,19 @@ class cfgvehicles
 		scope=2;
 		scopecurator=2;
 		editorpreview="";
-		model="\442_ships\recusant\rec_body2.p3d";
+		model="\kobra\442_ships\recusant\rec_body2.p3d";
 		hiddenselections[]=
 		{
 			"body2"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\recusant\data\body2_co.paa"
+			"kobra\442_ships\recusant\data\body2_co.paa"
 		};
 	};
 	class 442_rec_body2_d: 442_rec_body2
 	{
-		model="\442_ships\recusant\rec_body2_d.p3d";
+		model="\kobra\442_ships\recusant\rec_body2_d.p3d";
 	};
 	class 442_rec_engine: 442_rec_hull_base
 	{
@@ -207,18 +207,18 @@ class cfgvehicles
 		scope=2;
 		scopecurator=2;
 		editorpreview="";
-		model="\442_ships\recusant\rec_engine.p3d";
+		model="\kobra\442_ships\recusant\rec_engine.p3d";
 		hiddenselections[]=
 		{
 			"engine"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\recusant\data\engine_co.paa"
+			"kobra\442_ships\recusant\data\engine_co.paa"
 		};
 	};
 	class 442_rec_engine_d: 442_rec_engine
 	{
-		model="\442_ships\recusant\rec_engine_d.p3d";
+		model="\kobra\442_ships\recusant\rec_engine_d.p3d";
 	};
 };

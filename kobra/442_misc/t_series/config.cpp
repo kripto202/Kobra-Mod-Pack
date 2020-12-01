@@ -25,7 +25,7 @@ class cfgvehicles
 		scopecurator=2;
 		author = "KOBRA Mod Team";
 		displayName="T-Series Head";
-		model="\442_misc\t_series\t_series_head.p3d";
+		model="\kobra\442_misc\t_series\t_series_head.p3d";
 		editorcategory="kobra";
 		editorsubcategory="442_item_small";
 		simulation="thingx";
@@ -36,8 +36,8 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[]=
 		{
-			"\442_misc\t_series\data\camo1_co.paa",
-			"\442_misc\t_series\data\lights_co.paa",
+			"\kobra\442_misc\t_series\data\camo1_co.paa",
+			"\kobra\442_misc\t_series\data\lights_co.paa",
 		};
 	};
 };

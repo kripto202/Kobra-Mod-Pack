@@ -25,7 +25,7 @@ class cfgvehicles
 		scopecurator=2;
 		author = "KOBRA Mod Team";
 		displayName="Stone Cover";
-		model="\442_misc\stone_cover\cover.p3d";
+		model="\kobra\442_misc\stone_cover\cover.p3d";
 		editorcategory="kobra";
 		editorsubcategory="442_item";
 		vehicleClass="Structures";
@@ -35,7 +35,7 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_misc\stone_cover\data\cover_co.paa"
+			"kobra\442_misc\stone_cover\data\cover_co.paa"
 		};
 	};
 };

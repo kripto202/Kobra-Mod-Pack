@@ -151,8 +151,8 @@ class cfgvehicles
 		{
 			"k_swla_unit_p2_dc15a"
 		};
-		icon="442_a_vehicle\laat\data\ui\laat_icon.paa";
-		editorpreview="442_a_vehicle\laat\data\ui\laat_preview.jpg";
+		icon="kobra\442_a_vehicle\laat\data\ui\laat_icon.paa";
+		editorpreview="kobra\442_a_vehicle\laat\data\ui\laat_preview.jpg";
 		picture="";
 		availableForSupportTypes[]=
 		{
@@ -184,7 +184,7 @@ class cfgvehicles
 		draconicTorqueYCoef=0;
 		accuracy=0.5;
 		displayname="LAAT/I Gunship";
-		model="442_a_vehicle\laat\Laat.p3d";
+		model="kobra\442_a_vehicle\laat\Laat.p3d";
 		driverAction="pilot_Heli_Light_02";
 		driverInAction="pilot_Heli_Light_02";
 		precisegetinout=1;
@@ -1312,7 +1312,7 @@ class cfgvehicles
 			};
 			class TransportPylonsComponent
 			{
-				uiPicture="\442_a_vehicle\laat\data\ui\laat_ui.paa";
+				uiPicture="\kobra\442_a_vehicle\laat\data\ui\laat_ui.paa";
 				class Pylons
 				{
 					class PylonLeft1
@@ -4603,39 +4603,39 @@ class cfgvehicles
 		};
 		soundEngineOnInt[]=
 		{
-			"442_a_vehicle\laat\sounds\laat_engine_start_int.wss",
+			"kobra\442_a_vehicle\laat\sounds\laat_engine_start_int.wss",
 			0.316228,
 			1
 		};
 		soundEngineOnExt[]=
 		{
-			"442_a_vehicle\laat\sounds\laat_engine_start.wss",
+			"kobra\442_a_vehicle\laat\sounds\laat_engine_start.wss",
 			0.79432797,
 			1,
 			600
 		};
 		soundEngineOffInt[]=
 		{
-			"442_a_vehicle\laat\sounds\laat_engine_end_int.wss",
+			"kobra\442_a_vehicle\laat\sounds\laat_engine_end_int.wss",
 			0.316228,
 			1
 		};
 		soundEngineOffExt[]=
 		{
-			"442_a_vehicle\laat\sounds\laat_engine_end.wss",
+			"kobra\442_a_vehicle\laat\sounds\laat_engine_end.wss",
 			0.79432797,
 			1,
 			600
 		};
 		soundLocked[]=
 		{
-			"442_a_vehicle\laat\sounds\laat_lock_on_beep.wss",
+			"kobra\442_a_vehicle\laat\sounds\laat_lock_on_beep.wss",
 			1,
 			1
 		};
 		soundIncommingMissile[]=
 		{
-			"442_a_vehicle\laat\sounds\laat_lock_on_alert_beep.wss",
+			"kobra\442_a_vehicle\laat\sounds\laat_lock_on_alert_beep.wss",
 			0.316228,
 			1
 		};
@@ -4997,7 +4997,7 @@ class cfgvehicles
 			{
 				sound[]=
 				{
-					"442_a_vehicle\laat\sounds\laat_engine_int.wss",
+					"kobra\442_a_vehicle\laat\sounds\laat_engine_int.wss",
 					0.79432797,
 					1
 				};
@@ -5008,7 +5008,7 @@ class cfgvehicles
 			{
 				sound[]=
 				{
-					"442_a_vehicle\laat\sounds\laat_engine.wss",
+					"kobra\442_a_vehicle\laat\sounds\laat_engine.wss",
 					1.25893,
 					1,
 					600
@@ -5302,15 +5302,15 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_a_vehicle\laat\data\body_1_co.paa",
-			"442_a_vehicle\laat\data\body_2_co.paa",
-			"442_a_vehicle\laat\data\door_1_co.paa",
-			"442_a_vehicle\laat\data\door_2_co.paa",
-			"442_a_vehicle\laat\data\door_3_co.paa",
-			"442_a_vehicle\laat\data\wings_co.paa",
-			"442_a_vehicle\laat\data\missiles_co.paa",
-			"442_a_vehicle\laat\data\cockpits_co.paa",
-			"442_a_vehicle\laat\data\glass_ca.paa"
+			"kobra\442_a_vehicle\laat\data\body_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
 		};
 		class TextureSources
         {
@@ -5320,15 +5320,15 @@ class cfgvehicles
                 author = "Kobra Mod Team";
                 textures[] =
                 {
-                    "442_a_vehicle\laat\data\body_1_co.paa",
-                    "442_a_vehicle\laat\data\body_2_co.paa",
-                    "442_a_vehicle\laat\data\door_1_co.paa",
-                    "442_a_vehicle\laat\data\door_2_co.paa",
-                    "442_a_vehicle\laat\data\door_3_co.paa",
-                    "442_a_vehicle\laat\data\wings_co.paa",
-                    "442_a_vehicle\laat\data\missiles_co.paa",
-                    "442_a_vehicle\laat\data\cockpits_co.paa",
-                    "442_a_vehicle\laat\data\glass_ca.paa"
+                    "kobra\442_a_vehicle\laat\data\body_1_co.paa",
+                    "kobra\442_a_vehicle\laat\data\body_2_co.paa",
+                    "kobra\442_a_vehicle\laat\data\door_1_co.paa",
+                    "kobra\442_a_vehicle\laat\data\door_2_co.paa",
+                    "kobra\442_a_vehicle\laat\data\door_3_co.paa",
+                    "kobra\442_a_vehicle\laat\data\wings_co.paa",
+                    "kobra\442_a_vehicle\laat\data\missiles_co.paa",
+                    "kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+                    "kobra\442_a_vehicle\laat\data\glass_ca.paa"
                 };
                 factions[] =
                 {
@@ -5340,15 +5340,15 @@ class cfgvehicles
                 displayname = "Misfit 1-2";
                 textures[] =
                 {
-                    "442_a_vehicle\laat\data\dukas\body_1_co.paa",
-                    "442_a_vehicle\laat\data\dukas\body_2_co.paa",
-                    "442_a_vehicle\laat\data\dukas\door_1_co.paa",
-                    "442_a_vehicle\laat\data\dukas\door_2_co.paa",
-                    "442_a_vehicle\laat\data\dukas\door_3_co.paa",
-                    "442_a_vehicle\laat\data\dukas\wings_co.paa",
-                    "442_a_vehicle\laat\data\missiles_co.paa",
-                    "442_a_vehicle\laat\data\cockpits_co.paa",
-                    "442_a_vehicle\laat\data\glass_ca.paa"
+                    "kobra\442_a_vehicle\laat\data\dukas\body_1_co.paa",
+                    "kobra\442_a_vehicle\laat\data\dukas\body_2_co.paa",
+                    "kobra\442_a_vehicle\laat\data\dukas\door_1_co.paa",
+                    "kobra\442_a_vehicle\laat\data\dukas\door_2_co.paa",
+                    "kobra\442_a_vehicle\laat\data\dukas\door_3_co.paa",
+                    "kobra\442_a_vehicle\laat\data\dukas\wings_co.paa",
+                    "kobra\442_a_vehicle\laat\data\missiles_co.paa",
+                    "kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+                    "kobra\442_a_vehicle\laat\data\glass_ca.paa"
                 };
             };
             class empire: base
@@ -5356,15 +5356,15 @@ class cfgvehicles
                 displayname = "Empire";
                 textures[] = 
                 {
-                    "442_a_vehicle\laat\data\empire\body_1_co.paa",
-                    "442_a_vehicle\laat\data\empire\body_2_co.paa",
-                    "442_a_vehicle\laat\data\empire\door_1_co.paa",
-                    "442_a_vehicle\laat\data\empire\door_2_co.paa",
-                    "442_a_vehicle\laat\data\empire\door_3_co.paa",
-                    "442_a_vehicle\laat\data\empire\wings_co.paa",
-                    "442_a_vehicle\laat\data\missiles_co.paa",
-                    "442_a_vehicle\laat\data\cockpits_co.paa",
-                    "442_a_vehicle\laat\data\glass_ca.paa"
+                    "kobra\442_a_vehicle\laat\data\empire\body_1_co.paa",
+                    "kobra\442_a_vehicle\laat\data\empire\body_2_co.paa",
+                    "kobra\442_a_vehicle\laat\data\empire\door_1_co.paa",
+                    "kobra\442_a_vehicle\laat\data\empire\door_2_co.paa",
+                    "kobra\442_a_vehicle\laat\data\empire\door_3_co.paa",
+                    "kobra\442_a_vehicle\laat\data\empire\wings_co.paa",
+                    "kobra\442_a_vehicle\laat\data\missiles_co.paa",
+                    "kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+                    "kobra\442_a_vehicle\laat\data\glass_ca.paa"
                 };
             };
             class delta: base
@@ -5372,15 +5372,15 @@ class cfgvehicles
                 displayname = "Delta";
                 textures[] = 
                 {
-                    "442_a_vehicle\laat\data\delta\body_1_co.paa",
-                    "442_a_vehicle\laat\data\delta\body_2_co.paa",
-                    "442_a_vehicle\laat\data\delta\door_1_co.paa",
-                    "442_a_vehicle\laat\data\delta\door_2_co.paa",
-                    "442_a_vehicle\laat\data\delta\door_3_co.paa",
-                    "442_a_vehicle\laat\data\delta\wings_co.paa",
-                    "442_a_vehicle\laat\data\missiles_co.paa",
-                    "442_a_vehicle\laat\data\cockpits_co.paa",
-                    "442_a_vehicle\laat\data\glass_ca.paa"
+                    "kobra\442_a_vehicle\laat\data\delta\body_1_co.paa",
+                    "kobra\442_a_vehicle\laat\data\delta\body_2_co.paa",
+                    "kobra\442_a_vehicle\laat\data\delta\door_1_co.paa",
+                    "kobra\442_a_vehicle\laat\data\delta\door_2_co.paa",
+                    "kobra\442_a_vehicle\laat\data\delta\door_3_co.paa",
+                    "kobra\442_a_vehicle\laat\data\delta\wings_co.paa",
+                    "kobra\442_a_vehicle\laat\data\missiles_co.paa",
+                    "kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+                    "kobra\442_a_vehicle\laat\data\glass_ca.paa"
                 };
             };
             class 796: base
@@ -5388,15 +5388,15 @@ class cfgvehicles
                 displayname = "796th Star Corps";
                 textures[] = 
                 {
-                    "442_a_vehicle\laat\data\796\body_1_co.paa",
-                    "442_a_vehicle\laat\data\796\body_2_co.paa",
-                    "442_a_vehicle\laat\data\796\door_1_co.paa",
-                    "442_a_vehicle\laat\data\796\door_2_co.paa",
-                    "442_a_vehicle\laat\data\796\door_3_co.paa",
-                    "442_a_vehicle\laat\data\796\wings_co.paa",
-                    "442_a_vehicle\laat\data\missiles_co.paa",
-                    "442_a_vehicle\laat\data\cockpits_co.paa",
-                    "442_a_vehicle\laat\data\796\glass_ca.paa"
+                    "kobra\442_a_vehicle\laat\data\796\body_1_co.paa",
+                    "kobra\442_a_vehicle\laat\data\796\body_2_co.paa",
+                    "kobra\442_a_vehicle\laat\data\796\door_1_co.paa",
+                    "kobra\442_a_vehicle\laat\data\796\door_2_co.paa",
+                    "kobra\442_a_vehicle\laat\data\796\door_3_co.paa",
+                    "kobra\442_a_vehicle\laat\data\796\wings_co.paa",
+                    "kobra\442_a_vehicle\laat\data\missiles_co.paa",
+                    "kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+                    "kobra\442_a_vehicle\laat\data\796\glass_ca.paa"
                 };
             };
         };
@@ -5414,15 +5414,15 @@ class cfgvehicles
 		displayname="LAAT/I Gunship (Dukas)";
 		hiddenselectionstextures[] = 
 		{
-			"442_a_vehicle\laat\data\dukas\body_1_co.paa",
-			"442_a_vehicle\laat\data\dukas\body_2_co.paa",
-			"442_a_vehicle\laat\data\dukas\door_1_co.paa",
-			"442_a_vehicle\laat\data\dukas\door_2_co.paa",
-			"442_a_vehicle\laat\data\dukas\door_3_co.paa",
-			"442_a_vehicle\laat\data\dukas\wings_co.paa",
-			"442_a_vehicle\laat\data\missiles_co.paa",
-			"442_a_vehicle\laat\data\cockpits_co.paa",
-			"442_a_vehicle\laat\data\glass_ca.paa"
+			"kobra\442_a_vehicle\laat\data\dukas\body_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\dukas\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\dukas\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\dukas\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\dukas\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\dukas\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
 		};
 	};
 	class 442_laat_empire: 442_laat_2
@@ -5430,15 +5430,15 @@ class cfgvehicles
 		displayname="LAAT/I Gunship (Empire)";
 		hiddenselectionstextures[] = 
 		{
-			"442_a_vehicle\laat\data\empire\body_1_co.paa",
-			"442_a_vehicle\laat\data\empire\body_2_co.paa",
-			"442_a_vehicle\laat\data\empire\door_1_co.paa",
-			"442_a_vehicle\laat\data\empire\door_2_co.paa",
-			"442_a_vehicle\laat\data\empire\door_3_co.paa",
-			"442_a_vehicle\laat\data\empire\wings_co.paa",
-			"442_a_vehicle\laat\data\missiles_co.paa",
-			"442_a_vehicle\laat\data\cockpits_co.paa",
-			"442_a_vehicle\laat\data\glass_ca.paa"
+			"kobra\442_a_vehicle\laat\data\empire\body_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\empire\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\empire\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\empire\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\empire\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\empire\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
 		};
 	};
 	class 442_laat_delta: 442_laat_2
@@ -5446,15 +5446,15 @@ class cfgvehicles
 		displayname="LAAT/I Gunship (Delta)";
 		hiddenselectionstextures[] = 
 		{
-			"442_a_vehicle\laat\data\delta\body_1_co.paa",
-			"442_a_vehicle\laat\data\delta\body_2_co.paa",
-			"442_a_vehicle\laat\data\delta\door_1_co.paa",
-			"442_a_vehicle\laat\data\delta\door_2_co.paa",
-			"442_a_vehicle\laat\data\delta\door_3_co.paa",
-			"442_a_vehicle\laat\data\delta\wings_co.paa",
-			"442_a_vehicle\laat\data\missiles_co.paa",
-			"442_a_vehicle\laat\data\cockpits_co.paa",
-			"442_a_vehicle\laat\data\glass_ca.paa"
+			"kobra\442_a_vehicle\laat\data\delta\body_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\delta\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\delta\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\delta\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\delta\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\delta\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
 		};
 	};
 	class 442_laat_796: 442_laat_2
@@ -5462,15 +5462,15 @@ class cfgvehicles
 		displayname="LAAT/I Gunship (796th SC)";
 		hiddenselectionstextures[] = 
 		{
-			"442_a_vehicle\laat\data\796\body_1_co.paa",
-			"442_a_vehicle\laat\data\796\body_2_co.paa",
-			"442_a_vehicle\laat\data\796\door_1_co.paa",
-			"442_a_vehicle\laat\data\796\door_2_co.paa",
-			"442_a_vehicle\laat\data\796\door_3_co.paa",
-			"442_a_vehicle\laat\data\796\wings_co.paa",
-			"442_a_vehicle\laat\data\missiles_co.paa",
-			"442_a_vehicle\laat\data\cockpits_co.paa",
-			"442_a_vehicle\laat\data\796\glass_ca.paa"
+			"kobra\442_a_vehicle\laat\data\796\body_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\796\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\796\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\796\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\796\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\796\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\796\glass_ca.paa"
 		};
 	};
 	class 442_laat_2_ab: 442_laat_2
@@ -5544,7 +5544,7 @@ class cfgvehicles
 			verticaloffset=0;
 			verticaloffsetworld=0;
 		};
-		model="442_a_vehicle\laat\Laat_ab.p3d";
+		model="kobra\442_a_vehicle\laat\Laat_ab.p3d";
 		displayname="LAAT/I Gunship (Airborne)";
 		getInRadius=5;
 		cargoCanEject=1;
@@ -5869,15 +5869,15 @@ class cfgvehicles
 		displayname="LAAT/I Gunship (Dukas Airborne)";
 		hiddenselectionstextures[] = 
 		{
-			"442_a_vehicle\laat\data\dukas\body_1_co.paa",
-			"442_a_vehicle\laat\data\dukas\body_2_co.paa",
-			"442_a_vehicle\laat\data\dukas\door_1_co.paa",
-			"442_a_vehicle\laat\data\dukas\door_2_co.paa",
-			"442_a_vehicle\laat\data\dukas\door_3_co.paa",
-			"442_a_vehicle\laat\data\dukas\wings_co.paa",
-			"442_a_vehicle\laat\data\missiles_co.paa",
-			"442_a_vehicle\laat\data\cockpits_co.paa",
-			"442_a_vehicle\laat\data\glass_ca.paa"
+			"kobra\442_a_vehicle\laat\data\dukas\body_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\dukas\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\dukas\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\dukas\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\dukas\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\dukas\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
 		};
 	};
 	class 442_laat_empire_ab: 442_laat_2_ab
@@ -5885,15 +5885,15 @@ class cfgvehicles
 		displayname="LAAT/I Gunship (Empire Airborne)";
 		hiddenselectionstextures[] = 
 		{
-			"442_a_vehicle\laat\data\empire\body_1_co.paa",
-			"442_a_vehicle\laat\data\empire\body_2_co.paa",
-			"442_a_vehicle\laat\data\empire\door_1_co.paa",
-			"442_a_vehicle\laat\data\empire\door_2_co.paa",
-			"442_a_vehicle\laat\data\empire\door_3_co.paa",
-			"442_a_vehicle\laat\data\empire\wings_co.paa",
-			"442_a_vehicle\laat\data\missiles_co.paa",
-			"442_a_vehicle\laat\data\cockpits_co.paa",
-			"442_a_vehicle\laat\data\glass_ca.paa"
+			"kobra\442_a_vehicle\laat\data\empire\body_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\empire\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\empire\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\empire\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\empire\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\empire\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
 		};
 	};
 	class 442_laat_delta_ab: 442_laat_2_ab
@@ -5901,15 +5901,15 @@ class cfgvehicles
 		displayname="LAAT/I Gunship (Delta Airborne)";
 		hiddenselectionstextures[] = 
 		{
-			"442_a_vehicle\laat\data\delta\body_1_co.paa",
-			"442_a_vehicle\laat\data\delta\body_2_co.paa",
-			"442_a_vehicle\laat\data\delta\door_1_co.paa",
-			"442_a_vehicle\laat\data\delta\door_2_co.paa",
-			"442_a_vehicle\laat\data\delta\door_3_co.paa",
-			"442_a_vehicle\laat\data\delta\wings_co.paa",
-			"442_a_vehicle\laat\data\missiles_co.paa",
-			"442_a_vehicle\laat\data\cockpits_co.paa",
-			"442_a_vehicle\laat\data\glass_ca.paa"
+			"kobra\442_a_vehicle\laat\data\delta\body_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\delta\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\delta\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\delta\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\delta\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\delta\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
 		};
 	};
 	class 442_laat_796_ab: 442_laat_2_ab
@@ -5917,15 +5917,15 @@ class cfgvehicles
 		displayname="LAAT/I Gunship (796th SC Airborne)";
 		hiddenselectionstextures[] = 
 		{
-			"442_a_vehicle\laat\data\796\body_1_co.paa",
-			"442_a_vehicle\laat\data\796\body_2_co.paa",
-			"442_a_vehicle\laat\data\796\door_1_co.paa",
-			"442_a_vehicle\laat\data\796\door_2_co.paa",
-			"442_a_vehicle\laat\data\796\door_3_co.paa",
-			"442_a_vehicle\laat\data\796\wings_co.paa",
-			"442_a_vehicle\laat\data\missiles_co.paa",
-			"442_a_vehicle\laat\data\cockpits_co.paa",
-			"442_a_vehicle\laat\data\796\glass_ca.paa"
+			"kobra\442_a_vehicle\laat\data\796\body_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\796\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\796\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\796\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\796\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\796\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\796\glass_ca.paa"
 		};
 	};
 	class Wreck_base_F;
@@ -5938,7 +5938,7 @@ class cfgvehicles
 		scopecurator=2;
 		icon="iconObject_1x2";
 		displayname="LAAT (Wrecked)";
-		model="442_a_vehicle\laat\laat_w.p3d";
+		model="kobra\442_a_vehicle\laat\laat_w.p3d";
 		editorCategory="kobra";
 		editorSubcategory="442_wrecks";
 	};
@@ -5951,22 +5951,22 @@ class cfgvehicles
 		scope=2;
 		scopecurator=2;
 		displayname="LAAT Door 1";
-		model="442_a_vehicle\laat\laat_w2.p3d";
+		model="kobra\442_a_vehicle\laat\laat_w2.p3d";
 		editorSubcategory="EdSubcat_Helicopters";
 	};
 	class 442_laat_door_2: 442_laat_door_1
 	{
 		displayname="LAAT Door 2";
-		model="442_a_vehicle\laat\laat_w3.p3d";
+		model="kobra\442_a_vehicle\laat\laat_w3.p3d";
 	};
 	class 442_laat_door_3: 442_laat_door_1
 	{
 		displayname="LAAT Door 3";
-		model="442_a_vehicle\laat\laat_w4.p3d";
+		model="kobra\442_a_vehicle\laat\laat_w4.p3d";
 	};
 	class 442_laat_door_4: 442_laat_door_1
 	{
 		displayname="LAAT Door 4";
-		model="442_a_vehicle\laat\laat_w5.p3d";
+		model="kobra\442_a_vehicle\laat\laat_w5.p3d";
 	};
 };

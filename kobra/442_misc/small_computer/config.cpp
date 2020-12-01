@@ -25,7 +25,7 @@ class cfgvehicles
 		scopecurator=2;
 		author = "KOBRA Mod Team";
 		displayName="Small Computer";
-		model="\442_misc\small_computer\small_computer.p3d";
+		model="\kobra\442_misc\small_computer\small_computer.p3d";
 		editorcategory="kobra";
 		editorsubcategory="442_item_small";
 		vehicleClass="Structures";
@@ -41,8 +41,8 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_misc\small_computer\data\computer_body_co.paa",
-			"442_misc\small_computer\data\computer_controls_co.paa"
+			"kobra\442_misc\small_computer\data\computer_body_co.paa",
+			"kobra\442_misc\small_computer\data\computer_controls_co.paa"
 		};
 	};
 };

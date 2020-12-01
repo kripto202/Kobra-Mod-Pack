@@ -45,7 +45,7 @@ class cfgvehicles
         scopecurator = 2;
         author = "KOBRA Mod Team";
         displayName = "Energy Shield (100x100)";
-        model = "442_misc\shield\100x100.p3d";
+        model = "kobra\442_misc\shield\100x100.p3d";
         editorcategory = "kobra";
         editorsubcategory = "442_item";
         armor = 100000000000000;
@@ -57,87 +57,87 @@ class cfgvehicles
         };
         hiddenselectionstextures[] = 
         {
-            "442_misc\shield\data\camo1_ca.paa"
+            "kobra\442_misc\shield\data\camo1_ca.paa"
         };
     };
 	class 442_shield_70x70: 442_shield_100x100
 	{
 		displayName = "Energy Shield (70x70)";
-        model = "442_misc\shield\70x70.p3d";
+        model = "kobra\442_misc\shield\70x70.p3d";
 	};
 	class 442_shield_50x50: 442_shield_100x100
 	{
 		displayName = "Energy Shield (50x50)";
-        model = "442_misc\shield\50x50.p3d";
+        model = "kobra\442_misc\shield\50x50.p3d";
 	};
 	class 442_shield_50x25: 442_shield_100x100
 	{
 		displayName = "Energy Shield (50x25)";
-        model = "442_misc\shield\50x25.p3d";
+        model = "kobra\442_misc\shield\50x25.p3d";
 	};
 	class 442_shield_25x25: 442_shield_100x100
 	{
 		displayName = "Energy Shield (25x25)";
-        model = "442_misc\shield\25x25.p3d";
+        model = "kobra\442_misc\shield\25x25.p3d";
 	};
 	class 442_shield_25x10: 442_shield_100x100
 	{
 		displayName = "Energy Shield (25x10)";
-        model = "442_misc\shield\25x10.p3d";
+        model = "kobra\442_misc\shield\25x10.p3d";
 	};
 	class 442_shield_10x10: 442_shield_100x100
 	{
 		displayName = "Energy Shield (10x10)";
-        model = "442_misc\shield\10x10.p3d";
+        model = "kobra\442_misc\shield\10x10.p3d";
 	};
 	class 442_shield_5x5: 442_shield_100x100
 	{
 		displayName = "Energy Shield (5x5)";
-        model = "442_misc\shield\5x5.p3d";
+        model = "kobra\442_misc\shield\5x5.p3d";
 	};
     class 442_ray_100x100: 442_shield_100x100
     {
         displayName = "Ray Shield (100x100)";
-        model = "442_misc\shield\100x100_r.p3d";
+        model = "kobra\442_misc\shield\100x100_r.p3d";
         hiddenselectionstextures[] = 
         {
-            "442_misc\shield\data\camo1_red_ca.paa"
+            "kobra\442_misc\shield\data\camo1_red_ca.paa"
         };
     };
 	class 442_ray_70x70: 442_ray_100x100
 	{
 		displayName = "Ray Shield (70x70)";
-        model = "442_misc\shield\70x70_r.p3d";
+        model = "kobra\442_misc\shield\70x70_r.p3d";
 	};
 	class 442_ray_50x50: 442_ray_100x100
 	{
 		displayName = "Ray Shield (50x50)";
-        model = "442_misc\shield\50x50_r.p3d";
+        model = "kobra\442_misc\shield\50x50_r.p3d";
 	};
 	class 442_ray_50x25: 442_ray_100x100
 	{
 		displayName = "Ray Shield (50x25)";
-        model = "442_misc\shield\50x25_r.p3d";
+        model = "kobra\442_misc\shield\50x25_r.p3d";
 	};
 	class 442_ray_25x25: 442_ray_100x100
 	{
 		displayName = "Ray Shield (25x25)";
-        model = "442_misc\shield\25x25_r.p3d";
+        model = "kobra\442_misc\shield\25x25_r.p3d";
 	};
 	class 442_ray_25x10: 442_ray_100x100
 	{
 		displayName = "Ray Shield (25x10)";
-        model = "442_misc\shield\25x10_r.p3d";
+        model = "kobra\442_misc\shield\25x10_r.p3d";
 	};
 	class 442_ray_10x10: 442_ray_100x100
 	{
 		displayName = "Ray Shield (10x10)";
-        model = "442_misc\shield\10x10_r.p3d";
+        model = "kobra\442_misc\shield\10x10_r.p3d";
 	};
 	class 442_ray_5x5: 442_ray_100x100
 	{
 		displayName = "Ray Shield (5x5)";
-        model = "442_misc\shield\5x5_r.p3d";
+        model = "kobra\442_misc\shield\5x5_r.p3d";
 	};
 	
 	class 442_quasar_shield: house_f
@@ -151,7 +151,7 @@ class cfgvehicles
         armor = 100000000000000;
         vehicleClass = "Structures";
         destrtype = "DestructNo";
-		model = "442_misc\shield\quasar_shield_base.p3d";
+		model = "kobra\442_misc\shield\quasar_shield_base.p3d";
 		multistructureparts[] = 
 		{
 			{
@@ -193,7 +193,7 @@ class cfgvehicles
 		vehicleClass="Structures_Military";
 		icon="iconObject_1x1";
 		mapsize=70;
-		model="\442_misc\shield\quasar_shield_1.p3d";
+		model="\kobra\442_misc\shield\quasar_shield_1.p3d";
 		armor=1000000000000000000;
 		hideUnitInfo=1;
 		nameSound="ship";
@@ -204,7 +204,7 @@ class cfgvehicles
         };
         hiddenselectionstextures[] = 
         {
-            "442_misc\shield\data\camo1_ca.paa"
+            "kobra\442_misc\shield\data\camo1_ca.paa"
         };
 		class Hitpoints
 		{
@@ -227,16 +227,16 @@ class cfgvehicles
 	class 442_quasar_shield_2: 442_quasar_shield_1
 	{
 		displayname="quasar shield piece 2";
-		model="\442_misc\shield\quasar_shield_2.p3d";
+		model="\kobra\442_misc\shield\quasar_shield_2.p3d";
 	};
 	class 442_quasar_shield_3: 442_quasar_shield_1
 	{
 		displayname="quasar shield piece 3";
-		model="\442_misc\shield\quasar_shield_3.p3d";
+		model="\kobra\442_misc\shield\quasar_shield_3.p3d";
 	};
 	class 442_quasar_shield_4: 442_quasar_shield_1
 	{
 		displayname="quasar shield piece 4";
-		model="\442_misc\shield\quasar_shield_4.p3d";
+		model="\kobra\442_misc\shield\quasar_shield_4.p3d";
 	};
 };

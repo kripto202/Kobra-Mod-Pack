@@ -45,10 +45,10 @@ class cfgvehicles
 {
     class StaticShip;
     class House_F;
-    	class 442_subjugator: House_F
+    class 442_subjugator: House_F
 	{
 		author ="Kobra Mod Team";
-		model="\442_ships\subjugator\subjugator.p3d";
+		model="\kobra\442_ships\subjugator\subjugator.p3d";
 		scope=2;
 		scopecurator=2;
 		editorpreview="";
@@ -71,21 +71,21 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[] = 
 		{
-			"442_ships\subjugator\data\body1_co.paa",
-			"442_ships\subjugator\data\body2_co.paa",
-			"442_ships\subjugator\data\body3_co.paa",
-			"442_ships\subjugator\data\body4_co.paa",
-			"442_ships\subjugator\data\body5_co.paa",
-			"442_ships\subjugator\data\bridge_co.paa",
-			"442_ships\subjugator\data\emp1_co.paa",
-			"442_ships\subjugator\data\emp2_co.paa",
-			"442_ships\subjugator\data\engine_co.paa"
+			"kobra\442_ships\subjugator\data\body1_co.paa",
+			"kobra\442_ships\subjugator\data\body2_co.paa",
+			"kobra\442_ships\subjugator\data\body3_co.paa",
+			"kobra\442_ships\subjugator\data\body4_co.paa",
+			"kobra\442_ships\subjugator\data\body5_co.paa",
+			"kobra\442_ships\subjugator\data\bridge_co.paa",
+			"kobra\442_ships\subjugator\data\emp1_co.paa",
+			"kobra\442_ships\subjugator\data\emp2_co.paa",
+			"kobra\442_ships\subjugator\data\engine_co.paa"
 		};
 	};
 	class 442_subjugator_base: StaticShip
 	{
 		author ="Kobra Mod Team";
-		model="\442_ships\subjugator\subjugator_base.p3d";
+		model="\kobra\442_ships\subjugator\subjugator_base.p3d";
 		reversed=0;
 		scope=2;
 		scopecurator=1;
@@ -243,7 +243,7 @@ class cfgvehicles
 		vehicleClass="Structures_Military";
 		icon="iconObject_1x1";
 		mapsize=70;
-		model="\442_ships\subjugator\hull_1.p3d";
+		model="";
 		armor=1000000000000000000;
 		hideUnitInfo=1;
 		nameSound="ship";
@@ -272,20 +272,20 @@ class cfgvehicles
 		scope=2;
 		scopeCurator=2;
 		editorpreview="";
-		model="\442_ships\subjugator\body1.p3d";
+		model="\kobra\442_ships\subjugator\body1.p3d";
 		hiddenselections[]=
 		{
 			"body1"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\subjugator\data\body1_co.paa"
+			"kobra\442_ships\subjugator\data\body1_co.paa"
 		};
 	};
 	class 442_subjugator_body1_1: 442_subjugator_body1
 	{
 		displayname="subjugator hull 1_1";
-		model="\442_ships\subjugator\body1_1.p3d";
+		model="\kobra\442_ships\subjugator\body1_1.p3d";
 	};
 	class 442_subjugator_body2: 442_subjugator_hull_base
 	{
@@ -293,35 +293,35 @@ class cfgvehicles
 		scope=2;
 		scopeCurator=2;
 		editorpreview="";
-		model="\442_ships\subjugator\body2.p3d";
+		model="\kobra\442_ships\subjugator\body2.p3d";
 		hiddenselections[]=
 		{
 			"body2"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\subjugator\data\body2_co.paa"
+			"kobra\442_ships\subjugator\data\body2_co.paa"
 		};
 	};
 	class 442_subjugator_body2_1: 442_subjugator_body2
 	{
 		displayname="subjugator hull 2_1";
-		model="\442_ships\subjugator\body2_1.p3d";
+		model="\kobra\442_ships\subjugator\body2_1.p3d";
 	};
 	class 442_subjugator_body2_2: 442_subjugator_body2
 	{
 		displayname="subjugator hull 2_2";
-		model="\442_ships\subjugator\body2_2.p3d";
+		model="\kobra\442_ships\subjugator\body2_2.p3d";
 	};
 	class 442_subjugator_body2_3: 442_subjugator_body2
 	{
 		displayname="subjugator hull 2_3";
-		model="\442_ships\subjugator\body2_3.p3d";
+		model="\kobra\442_ships\subjugator\body2_3.p3d";
 	};
 	class 442_subjugator_body2_4: 442_subjugator_body2
 	{
 		displayname="subjugator hull 2_4";
-		model="\442_ships\subjugator\body2_4.p3d";
+		model="\kobra\442_ships\subjugator\body2_4.p3d";
 	};
 	class 442_subjugator_body3: 442_subjugator_hull_base
 	{
@@ -329,14 +329,14 @@ class cfgvehicles
 		scope=2;
 		scopeCurator=2;
 		editorpreview="";
-		model="\442_ships\subjugator\body3.p3d";
+		model="\kobra\442_ships\subjugator\body3.p3d";
 		hiddenselections[]=
 		{
 			"body3"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\subjugator\data\body3_co.paa"
+			"kobra\442_ships\subjugator\data\body3_co.paa"
 		};
 	};
 	class 442_subjugator_body4: 442_subjugator_hull_base
@@ -345,35 +345,35 @@ class cfgvehicles
 		scope=2;
 		scopeCurator=2;
 		editorpreview="";
-		model="\442_ships\subjugator\body4.p3d";
+		model="\kobra\442_ships\subjugator\body4.p3d";
 		hiddenselections[]=
 		{
 			"body4"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\subjugator\data\body4_co.paa"
+			"kobra\442_ships\subjugator\data\body4_co.paa"
 		};
 	};
 	class 442_subjugator_body4_1: 442_subjugator_body4
 	{
 		displayname="subjugator hull 4_1";
-		model="\442_ships\subjugator\body4_1.p3d";
+		model="\kobra\442_ships\subjugator\body4_1.p3d";
 	};
 	class 442_subjugator_body4_2: 442_subjugator_body4
 	{
 		displayname="subjugator hull 4_2";
-		model="\442_ships\subjugator\body4_2.p3d";
+		model="\kobra\442_ships\subjugator\body4_2.p3d";
 	};
 	class 442_subjugator_body4_3: 442_subjugator_body4
 	{
 		displayname="subjugator hull 4_3";
-		model="\442_ships\subjugator\body4_3.p3d";
+		model="\kobra\442_ships\subjugator\body4_3.p3d";
 	};
 	class 442_subjugator_body4_4: 442_subjugator_body4
 	{
 		displayname="subjugator hull 4_4";
-		model="\442_ships\subjugator\body4_4.p3d";
+		model="\kobra\442_ships\subjugator\body4_4.p3d";
 	};
 	class 442_subjugator_body5: 442_subjugator_hull_base
 	{
@@ -381,35 +381,35 @@ class cfgvehicles
 		scope=2;
 		scopeCurator=2;
 		editorpreview="";
-		model="\442_ships\subjugator\body5.p3d";
+		model="\kobra\442_ships\subjugator\body5.p3d";
 		hiddenselections[]=
 		{
 			"body5"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\subjugator\data\body5_co.paa"
+			"kobra\442_ships\subjugator\data\body5_co.paa"
 		};
 	};
 	class 442_subjugator_body5_1: 442_subjugator_body5
 	{
 		displayname="subjugator hull 5_1";
-		model="\442_ships\subjugator\body5_1.p3d";
+		model="\kobra\442_ships\subjugator\body5_1.p3d";
 	};
 	class 442_subjugator_body5_2: 442_subjugator_body5
 	{
 		displayname="subjugator hull 5_2";
-		model="\442_ships\subjugator\body5_2.p3d";
+		model="\kobra\442_ships\subjugator\body5_2.p3d";
 	};
 	class 442_subjugator_body5_3: 442_subjugator_body5
 	{
 		displayname="subjugator hull 5_3";
-		model="\442_ships\subjugator\body5_3.p3d";
+		model="\kobra\442_ships\subjugator\body5_3.p3d";
 	};
 	class 442_subjugator_body5_4: 442_subjugator_body5
 	{
 		displayname="subjugator hull 5_4";
-		model="\442_ships\subjugator\body5_4.p3d";
+		model="\kobra\442_ships\subjugator\body5_4.p3d";
 	};
 	class 442_subjugator_bridge: 442_subjugator_hull_base
 	{
@@ -417,14 +417,14 @@ class cfgvehicles
 		scope=2;
 		scopeCurator=2;
 		editorpreview="";
-		model="\442_ships\subjugator\bridge.p3d";
+		model="\kobra\442_ships\subjugator\bridge.p3d";
 		hiddenselections[]=
 		{
 			"bridge"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\subjugator\data\bridge_co.paa"
+			"kobra\442_ships\subjugator\data\bridge_co.paa"
 		};
 	};
 	class 442_subjugator_emp1: 442_subjugator_hull_base
@@ -433,20 +433,20 @@ class cfgvehicles
 		scope=2;
 		scopeCurator=2;
 		editorpreview="";
-		model="\442_ships\subjugator\emp1.p3d";
+		model="\kobra\442_ships\subjugator\emp1.p3d";
 		hiddenselections[]=
 		{
 			"emp1"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\subjugator\data\emp1_co.paa"
+			"kobra\442_ships\subjugator\data\emp1_co.paa"
 		};
 	};
 	class 442_subjugator_emp1_1: 442_subjugator_emp1
 	{
 		displayname="subjugator emp 1_1";
-		model="\442_ships\subjugator\emp1_1.p3d";
+		model="\kobra\442_ships\subjugator\emp1_1.p3d";
 	};
 	class 442_subjugator_emp2: 442_subjugator_hull_base
 	{
@@ -454,20 +454,20 @@ class cfgvehicles
 		scope=2;
 		scopeCurator=2;
 		editorpreview="";
-		model="\442_ships\subjugator\emp2.p3d";
+		model="\kobra\442_ships\subjugator\emp2.p3d";
 		hiddenselections[]=
 		{
 			"emp2"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\subjugator\data\emp2_co.paa"
+			"kobra\442_ships\subjugator\data\emp2_co.paa"
 		};
 	};
 	class 442_subjugator_emp2_1: 442_subjugator_emp2
 	{
 		displayname="subjugator emp 2_1";
-		model="\442_ships\subjugator\emp2_1.p3d";
+		model="\kobra\442_ships\subjugator\emp2_1.p3d";
 	};
 	class 442_subjugator_engine: 442_subjugator_hull_base
 	{
@@ -475,14 +475,14 @@ class cfgvehicles
 		scope=2;
 		scopeCurator=2;
 		editorpreview="";
-		model="\442_ships\subjugator\engine.p3d";
+		model="\kobra\442_ships\subjugator\engine.p3d";
 		hiddenselections[]=
 		{
 			"engine"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\subjugator\data\engine_co.paa"
+			"kobra\442_ships\subjugator\data\engine_co.paa"
 		};
 	};
 };

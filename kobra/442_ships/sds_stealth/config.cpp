@@ -26,7 +26,7 @@ class cfgvehicles
 		scopecurator=2;
 		author = "Kobra Mod Team";
 		displayName="SDS-Stealth Ship";
-		model="\442_ships\sds_stealth\sds_stealth.p3d";
+		model="\kobra\442_ships\sds_stealth\sds_stealth.p3d";
 		editorcategory="kobra";
 		editorsubcategory="442_ships";
 		vehicleClass="Structures";
@@ -40,11 +40,11 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\sds_stealth\data\body1_co.paa",
-			"442_ships\sds_stealth\data\body2_co.paa",
-			"442_ships\sds_stealth\data\body3_co.paa",
-			"442_ships\sds_stealth\data\body4_co.paa",
-			"442_ships\sds_stealth\data\engine_co.paa"
+			"kobra\442_ships\sds_stealth\data\body1_co.paa",
+			"kobra\442_ships\sds_stealth\data\body2_co.paa",
+			"kobra\442_ships\sds_stealth\data\body3_co.paa",
+			"kobra\442_ships\sds_stealth\data\body4_co.paa",
+			"kobra\442_ships\sds_stealth\data\engine_co.paa"
 		};
 	};
 };

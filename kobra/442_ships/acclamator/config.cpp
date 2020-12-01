@@ -29,7 +29,7 @@ class cfgVehicles
 		scopecurator=2;
 		author = "Kobra Mod Team";
 		displayName="Acclamator Landed";
-		model="\442_ships\acclamator\acclamator.p3d";
+		model="\kobra\442_ships\acclamator\acclamator.p3d";
 		editorcategory="kobra";
 		editorsubcategory="442_ships";
 		vehicleClass="Structures";
@@ -53,21 +53,21 @@ class cfgVehicles
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\acclamator\data\body_co.paa",
-			"442_ships\acclamator\data\body_2_co.paa",
-			"442_ships\acclamator\data\body_3_co.paa",
-			"442_ships\acclamator\data\body_4_co.paa",
-			"442_ships\acclamator\data\body_5_co.paa",
-			"442_ships\acclamator\data\body_6_co.paa",
-			"442_ships\acclamator\data\engine_co.paa",
-			"442_ships\acclamator\data\glass_co.paa",
-			"442_ships\acclamator\data\interior_1_co.paa",
-			"442_ships\acclamator\data\interior_2_co.paa",
-			"442_ships\acclamator\data\interior_3_co.paa",
-			"442_ships\acclamator\data\interior_4_co.paa",
-			"442_ships\acclamator\data\landing_gear_feet_co.paa",
-			"442_ships\acclamator\data\landing_gear_legs_co.paa",
-			"442_ships\acclamator\data\ramp_co.paa"
+			"kobra\442_ships\acclamator\data\body_co.paa",
+			"kobra\442_ships\acclamator\data\body_2_co.paa",
+			"kobra\442_ships\acclamator\data\body_3_co.paa",
+			"kobra\442_ships\acclamator\data\body_4_co.paa",
+			"kobra\442_ships\acclamator\data\body_5_co.paa",
+			"kobra\442_ships\acclamator\data\body_6_co.paa",
+			"kobra\442_ships\acclamator\data\engine_co.paa",
+			"kobra\442_ships\acclamator\data\glass_co.paa",
+			"kobra\442_ships\acclamator\data\interior_1_co.paa",
+			"kobra\442_ships\acclamator\data\interior_2_co.paa",
+			"kobra\442_ships\acclamator\data\interior_3_co.paa",
+			"kobra\442_ships\acclamator\data\interior_4_co.paa",
+			"kobra\442_ships\acclamator\data\landing_gear_feet_co.paa",
+			"kobra\442_ships\acclamator\data\landing_gear_legs_co.paa",
+			"kobra\442_ships\acclamator\data\ramp_co.paa"
 		};
 	};
 	class 442_acclamator_2: 442_acclamator
@@ -75,18 +75,18 @@ class cfgVehicles
 		displayname="Acclamator";
 		hiddenselectionstextures[]=
 		{
-			"442_ships\acclamator\data\body_co.paa",
-			"442_ships\acclamator\data\body_2_co.paa",
-			"442_ships\acclamator\data\body_3_co.paa",
-			"442_ships\acclamator\data\body_4_co.paa",
-			"442_ships\acclamator\data\body_5_co.paa",
-			"442_ships\acclamator\data\body_6_co.paa",
-			"442_ships\acclamator\data\engine_co.paa",
-			"442_ships\acclamator\data\glass_co.paa",
-			"442_ships\acclamator\data\interior_1_co.paa",
-			"442_ships\acclamator\data\interior_2_co.paa",
-			"442_ships\acclamator\data\interior_3_co.paa",
-			"442_ships\acclamator\data\interior_4_co.paa",
+			"kobra\442_ships\acclamator\data\body_co.paa",
+			"kobra\442_ships\acclamator\data\body_2_co.paa",
+			"kobra\442_ships\acclamator\data\body_3_co.paa",
+			"kobra\442_ships\acclamator\data\body_4_co.paa",
+			"kobra\442_ships\acclamator\data\body_5_co.paa",
+			"kobra\442_ships\acclamator\data\body_6_co.paa",
+			"kobra\442_ships\acclamator\data\engine_co.paa",
+			"kobra\442_ships\acclamator\data\glass_co.paa",
+			"kobra\442_ships\acclamator\data\interior_1_co.paa",
+			"kobra\442_ships\acclamator\data\interior_2_co.paa",
+			"kobra\442_ships\acclamator\data\interior_3_co.paa",
+			"kobra\442_ships\acclamator\data\interior_4_co.paa",
 			"",
 			"",
 			""
@@ -97,21 +97,21 @@ class cfgVehicles
 		displayname="Acclamator Landed (Hallow)";
 		hiddenselectionstextures[]=
 		{
-			"442_ships\acclamator\data\body_co.paa",
-			"442_ships\acclamator\data\body_2_co.paa",
-			"442_ships\acclamator\data\body_3_co.paa",
-			"442_ships\acclamator\data\body_4_co.paa",
-			"442_ships\acclamator\data\body_5_co.paa",
-			"442_ships\acclamator\data\body_6_co.paa",
-			"442_ships\acclamator\data\engine_co.paa",
+			"kobra\442_ships\acclamator\data\body_co.paa",
+			"kobra\442_ships\acclamator\data\body_2_co.paa",
+			"kobra\442_ships\acclamator\data\body_3_co.paa",
+			"kobra\442_ships\acclamator\data\body_4_co.paa",
+			"kobra\442_ships\acclamator\data\body_5_co.paa",
+			"kobra\442_ships\acclamator\data\body_6_co.paa",
+			"kobra\442_ships\acclamator\data\engine_co.paa",
 			"",
 			"",
 			"",
 			"",
 			"",
-			"442_ships\acclamator\data\landing_gear_feet_co.paa",
-			"442_ships\acclamator\data\landing_gear_legs_co.paa",
-			"442_ships\acclamator\data\ramp_co.paa"
+			"kobra\442_ships\acclamator\data\landing_gear_feet_co.paa",
+			"kobra\442_ships\acclamator\data\landing_gear_legs_co.paa",
+			"kobra\442_ships\acclamator\data\ramp_co.paa"
 		};
 	};
 	class 442_acclamator_4: 442_acclamator
@@ -119,13 +119,13 @@ class cfgVehicles
 		displayname="Acclamator (Hallow)";
 		hiddenselectionstextures[]=
 		{
-			"442_ships\acclamator\data\body_co.paa",
-			"442_ships\acclamator\data\body_2_co.paa",
-			"442_ships\acclamator\data\body_3_co.paa",
-			"442_ships\acclamator\data\body_4_co.paa",
-			"442_ships\acclamator\data\body_5_co.paa",
-			"442_ships\acclamator\data\body_6_co.paa",
-			"442_ships\acclamator\data\engine_co.paa",
+			"kobra\442_ships\acclamator\data\body_co.paa",
+			"kobra\442_ships\acclamator\data\body_2_co.paa",
+			"kobra\442_ships\acclamator\data\body_3_co.paa",
+			"kobra\442_ships\acclamator\data\body_4_co.paa",
+			"kobra\442_ships\acclamator\data\body_5_co.paa",
+			"kobra\442_ships\acclamator\data\body_6_co.paa",
+			"kobra\442_ships\acclamator\data\engine_co.paa",
 			"",
 			"",
 			"",
@@ -141,20 +141,20 @@ class cfgVehicles
 		displayname="Acclamator Landed (Hallow, No Ramp)";
 		hiddenselectionstextures[]=
 		{
-			"442_ships\acclamator\data\body_co.paa",
-			"442_ships\acclamator\data\body_2_co.paa",
-			"442_ships\acclamator\data\body_3_co.paa",
-			"442_ships\acclamator\data\body_4_co.paa",
-			"442_ships\acclamator\data\body_5_co.paa",
-			"442_ships\acclamator\data\body_6_co.paa",
-			"442_ships\acclamator\data\engine_co.paa",
+			"kobra\442_ships\acclamator\data\body_co.paa",
+			"kobra\442_ships\acclamator\data\body_2_co.paa",
+			"kobra\442_ships\acclamator\data\body_3_co.paa",
+			"kobra\442_ships\acclamator\data\body_4_co.paa",
+			"kobra\442_ships\acclamator\data\body_5_co.paa",
+			"kobra\442_ships\acclamator\data\body_6_co.paa",
+			"kobra\442_ships\acclamator\data\engine_co.paa",
 			"",
 			"",
 			"",
 			"",
 			"",
-			"442_ships\acclamator\data\landing_gear_feet_co.paa",
-			"442_ships\acclamator\data\landing_gear_legs_co.paa",
+			"kobra\442_ships\acclamator\data\landing_gear_feet_co.paa",
+			"kobra\442_ships\acclamator\data\landing_gear_legs_co.paa",
 			""
 		};
 	};

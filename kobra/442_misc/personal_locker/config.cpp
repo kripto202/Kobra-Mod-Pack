@@ -25,7 +25,7 @@ class cfgvehicles
 		scopecurator=2;
 		author = "KOBRA Mod Team";
 		displayName="Personal Locker";
-		model="\442_misc\personal_locker\personal_locker.p3d";
+		model="\kobra\442_misc\personal_locker\personal_locker.p3d";
 		editorcategory="kobra";
 		editorsubcategory="442_item";
 		vehicleClass="Structures";
@@ -37,9 +37,9 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_misc\personal_locker\data\body_co.paa",
-			"442_misc\personal_locker\data\screen_co.paa",
-			"442_misc\personal_locker\data\picture1_co.paa"
+			"kobra\442_misc\personal_locker\data\body_co.paa",
+			"kobra\442_misc\personal_locker\data\screen_co.paa",
+			"kobra\442_misc\personal_locker\data\picture1_co.paa"
 		};
         multistructureparts[] = 
         {

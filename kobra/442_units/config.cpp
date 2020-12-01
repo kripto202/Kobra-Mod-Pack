@@ -124,7 +124,7 @@ class cfgvehicles
 		movesFatigue="CfgMovesFatigueTrooper";
 		hiddenselectionstextures[] = 
 		{
-			"442_units\data\uniform\Barracks.paa"
+			"kobra\442_units\data\uniform\Barracks.paa"
 		};
 		weapons[]=
 		{
@@ -263,7 +263,7 @@ class cfgweapons
 	class k_Scout_Helmet_base: k_helmet_base
 	{
 		displayName="[K] Scout Helmet";
-		model="442_units\scout_helmet.p3d";
+		model="kobra\442_units\scout_helmet.p3d";
 		picture="";
 		subItems[]=
 		{
@@ -276,7 +276,7 @@ class cfgweapons
 		};
 		class ItemInfo: ItemInfo
 		{
-			uniformModel="442_units\scout_helmet.p3d";
+			uniformModel="kobra\442_units\scout_helmet.p3d";
 			hiddenSelections[]=
 			{
 				"Camo1",
@@ -287,7 +287,7 @@ class cfgweapons
 	class k_hunter_helmet_base: k_helmet_base
 	{
 		displayName="[K] Hunter Helmet";
-		model="442_units\hunter_helmet.p3d";
+		model="kobra\442_units\hunter_helmet.p3d";
 		picture="";
 		subItems[]=
 		{
@@ -300,7 +300,7 @@ class cfgweapons
 		};
 		class ItemInfo: ItemInfo
 		{
-			uniformModel="442_units\hunter_helmet.p3d";
+			uniformModel="kobra\442_units\hunter_helmet.p3d";
 			hiddenSelections[]=
 			{
 				"Camo1",
@@ -311,7 +311,7 @@ class cfgweapons
 	class k_crosshair_helmet_base: k_helmet_base
 	{
 		displayName="[K] Crosshair Helmet";
-		model="442_units\crosshair_helmet.p3d";
+		model="kobra\442_units\crosshair_helmet.p3d";
 		picture="";
 		subItems[]=
 		{
@@ -324,7 +324,7 @@ class cfgweapons
 		};
 		class ItemInfo: ItemInfo
 		{
-			uniformModel="442_units\crosshair_helmet.p3d";
+			uniformModel="kobra\442_units\crosshair_helmet.p3d";
 			hiddenSelections[]=
 			{
 				"Camo1",
@@ -335,7 +335,7 @@ class cfgweapons
 	class k_wrecker_helmet_base: k_helmet_base
 	{
 		displayName="[K] Wrecker Helmet";
-		model="442_units\wrecker_helmet.p3d";
+		model="kobra\442_units\wrecker_helmet.p3d";
 		picture="";
 		subItems[]=
 		{
@@ -348,7 +348,7 @@ class cfgweapons
 		};
 		class ItemInfo: ItemInfo
 		{
-			uniformModel="442_units\wrecker_helmet.p3d";
+			uniformModel="kobra\442_units\wrecker_helmet.p3d";
 			hiddenSelections[]=
 			{
 				"Camo1",
@@ -359,7 +359,7 @@ class cfgweapons
 	class k_tech_helmet_base: k_helmet_base
 	{
 		displayName="[K] Tech Helmet";
-		model="442_units\tech_helmet.p3d";
+		model="kobra\442_units\tech_helmet.p3d";
 		picture="";
 		subItems[]=
 		{
@@ -371,7 +371,7 @@ class cfgweapons
 		};
 		class ItemInfo: ItemInfo
 		{
-			uniformModel="442_units\tech_helmet.p3d";
+			uniformModel="kobra\442_units\tech_helmet.p3d";
 			hiddenSelections[]=
 			{
 				"Camo1"
@@ -381,7 +381,7 @@ class cfgweapons
 	class k_cadet_helmet_base: k_helmet_base
 	{
 		displayName="[K] Cadet Helmet";
-		model="442_units\cadet_helmet.p3d";
+		model="kobra\442_units\cadet_helmet.p3d";
 		picture="";
 		subItems[]=
 		{
@@ -394,7 +394,7 @@ class cfgweapons
 		};		
 		class ItemInfo: ItemInfo
 		{
-			uniformModel="442_units\cadet_helmet.p3d";
+			uniformModel="kobra\442_units\cadet_helmet.p3d";
 			hiddenSelections[]=
 			{
 				"Camo1",
@@ -405,7 +405,7 @@ class cfgweapons
 	class k_desert_helmet_base: k_helmet_base
 	{
 		displayName="[K] Desert Helmet";
-		model="442_units\desert_helmet.p3d";
+		model="kobra\442_units\desert_helmet.p3d";
 		picture="";
 		subItems[]=
 		{
@@ -418,7 +418,7 @@ class cfgweapons
 		};
 		class ItemInfo: ItemInfo
 		{
-			uniformModel="442_units\desert_helmet.p3d";
+			uniformModel="kobra\442_units\desert_helmet.p3d";
 			hiddenSelections[]=
 			{
 				"Camo1",

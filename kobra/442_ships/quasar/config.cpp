@@ -26,7 +26,7 @@ class cfgvehicles
 		scopecurator=2;
 		author ="Kobra Mod Team";
 		displayName="Quasar Fire Class Cruiser/Carrier";
-		model="\442_ships\quasar\quasar.p3d";
+		model="\kobra\442_ships\quasar\quasar.p3d";
 		editorcategory="kobra";
 		editorsubcategory="442_ships";
 		vehicleClass="Structures";
@@ -46,17 +46,17 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\quasar\data\body1_co.paa",
-			"442_ships\quasar\data\body2_co.paa",
-			"442_ships\quasar\data\engine_co.paa",
-			"442_ships\quasar\data\guns_co.paa",
-			"442_ships\quasar\data\interior1_co.paa",
-			"442_ships\quasar\data\interior2_co.paa",
-			"442_ships\quasar\data\interior3_co.paa",
-			"442_ships\quasar\data\interior4_co.paa",
-			"442_structures\hallway\data\doors_co.paa",
-			"442_structures\hallway\data\doors_co.paa",
-			"442_structures\hallway\data\frame_co.paa",
+			"kobra\442_ships\quasar\data\body1_co.paa",
+			"kobra\442_ships\quasar\data\body2_co.paa",
+			"kobra\442_ships\quasar\data\engine_co.paa",
+			"kobra\442_ships\quasar\data\guns_co.paa",
+			"kobra\442_ships\quasar\data\interior1_co.paa",
+			"kobra\442_ships\quasar\data\interior2_co.paa",
+			"kobra\442_ships\quasar\data\interior3_co.paa",
+			"kobra\442_ships\quasar\data\interior4_co.paa",
+			"kobra\442_ships\quasar\data\doors_co.paa",
+			"kobra\442_ships\quasar\data\doors_co.paa",
+			"kobra\442_ships\quasar\data\frame_co.paa",
 		};
 	};
 };

@@ -797,7 +797,7 @@ class cfgweapons
 			{
 				begin1[]=
 				{
-					"442_weapons\sounds\z6\Z6_1.wss",
+					"kobra\442_weapons\sounds\z6\Z6_1.wss",
 					1,
 					1,
 					500

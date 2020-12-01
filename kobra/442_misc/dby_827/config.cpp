@@ -25,7 +25,7 @@ class cfgvehicles
 		scopecurator=2;
 		author = "KOBRA Mod Team";
 		displayName="DBY-827 Heavy Turbolaser (Static)";
-		model="442_misc\dby_827\dby_827.p3d";
+		model="kobra\442_misc\dby_827\dby_827.p3d";
 		editorcategory="kobra";
 		editorsubcategory="442_item";
 		hiddenselections[]=
@@ -39,12 +39,12 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_misc\dby_827\data\base_co.paa",
-			"442_misc\dby_827\data\body1_co.paa",
-			"442_misc\dby_827\data\body2_co.paa",
-			"442_misc\dby_827\data\body3_co.paa",
-			"442_misc\dby_827\data\gear_co.paa",
-			"442_misc\dby_827\data\gun_co.paa"
+			"kobra\442_misc\dby_827\data\base_co.paa",
+			"kobra\442_misc\dby_827\data\body1_co.paa",
+			"kobra\442_misc\dby_827\data\body2_co.paa",
+			"kobra\442_misc\dby_827\data\body3_co.paa",
+			"kobra\442_misc\dby_827\data\gear_co.paa",
+			"kobra\442_misc\dby_827\data\gun_co.paa"
 		};
 	};
 };

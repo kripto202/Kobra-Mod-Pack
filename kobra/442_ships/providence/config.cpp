@@ -44,7 +44,7 @@ class cfgvehicles
 		scopecurator=1;
 		author ="Kobra Mod Team";
 		displayName="Providence-class";
-		model="\442_ships\providence\base.p3d";
+		model="\kobra\442_ships\providence\base.p3d";
 		editorcategory="kobra";
 		editorsubcategory="442_ships";
 		vehicleClass="Structures";
@@ -128,7 +128,7 @@ class cfgvehicles
 		scopecurator=1;
 		author ="Kobra Mod Team";
 		displayName="Providence-class Dreadnought";
-		model="\442_ships\providence\base_d.p3d";
+		model="\kobra\442_ships\providence\base_d.p3d";
 		editorcategory="kobra";
 		editorsubcategory="442_ships";
 		vehicleClass="Structures";
@@ -219,7 +219,7 @@ class cfgvehicles
 		vehicleClass="Structures_Military";
 		icon="iconObject_1x1";
 		mapsize=70;
-		model="\442_ships\providence\body1.p3d";
+		model="\kobra\442_ships\providence\body1.p3d";
 		armor=1000000000000000000;
 		hideUnitInfo=1;
 		nameSound="ship";
@@ -248,23 +248,23 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="providence body1";
 		editorpreview="";
-		model="\442_ships\providence\body1.p3d";
+		model="\kobra\442_ships\providence\body1.p3d";
 		hiddenselections[]=
 		{
 			"body1"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\providence\data\body1_co.paa"
+			"kobra\442_ships\providence\data\body1_co.paa"
 		};
 	};
 	class 442_providence_body1_d: 442_providence_body1
 	{
 		displayname="providence dreadnought body1";
-		model="\442_ships\providence\body1_d.p3d";
+		model="\kobra\442_ships\providence\body1_d.p3d";
 		hiddenselectionstextures[]=
 		{
-			"442_ships\providence\data\body1_d_co.paa"
+			"kobra\442_ships\providence\data\body1_d_co.paa"
 		};
 	};
 	class 442_providence_body2: 442_providence_hull_base
@@ -273,20 +273,20 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="providence body2";
 		editorpreview="";
-		model="\442_ships\providence\body2.p3d";
+		model="\kobra\442_ships\providence\body2.p3d";
 		hiddenselections[]=
 		{
 			"body2"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\providence\data\body2_co.paa"
+			"kobra\442_ships\providence\data\body2_co.paa"
 		};
 	};
 	class 442_providence_body2_d: 442_providence_body2
 	{
 		displayname="providence dreadnought body2";
-		model="\442_ships\providence\body2_d.p3d";
+		model="\kobra\442_ships\providence\body2_d.p3d";
 	};
 	class 442_providence_body3: 442_providence_hull_base
 	{
@@ -294,20 +294,20 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="providence body3";
 		editorpreview="";
-		model="\442_ships\providence\body3.p3d";
+		model="\kobra\442_ships\providence\body3.p3d";
 		hiddenselections[]=
 		{
 			"body3"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\providence\data\body3_co.paa"
+			"kobra\442_ships\providence\data\body3_co.paa"
 		};
 	};
 	class 442_providence_body3_d: 442_providence_body3
 	{
 		displayname="providence dreadnought body3";
-		model="\442_ships\providence\body3_d.p3d";
+		model="\kobra\442_ships\providence\body3_d.p3d";
 	};
 	class 442_providence_bridge: 442_providence_hull_base
 	{
@@ -315,20 +315,20 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="providence bridge";
 		editorpreview="";
-		model="\442_ships\providence\bridge.p3d";
+		model="\kobra\442_ships\providence\bridge.p3d";
 		hiddenselections[]=
 		{
 			"bridge"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\providence\data\bridge_co.paa"
+			"kobra\442_ships\providence\data\bridge_co.paa"
 		};
 	};
 	class 442_providence_bridge_d: 442_providence_bridge
 	{
 		displayname="providence dreadnought bridge";
-		model="\442_ships\providence\bridge_d.p3d";
+		model="\kobra\442_ships\providence\bridge_d.p3d";
 	};
 	class 442_providence_engine: 442_providence_hull_base
 	{
@@ -336,20 +336,20 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="providence engine";
 		editorpreview="";
-		model="\442_ships\providence\engine.p3d";
+		model="\kobra\442_ships\providence\engine.p3d";
 		hiddenselections[]=
 		{
 			"engine"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\providence\data\engine_co.paa"
+			"kobra\442_ships\providence\data\engine_co.paa"
 		};
 	};
 	class 442_providence_engine_d: 442_providence_engine
 	{
 		displayname="providence dreadnought engine";
-		model="\442_ships\providence\engine_d.p3d";
+		model="\kobra\442_ships\providence\engine_d.p3d";
 	};
 	class 442_providence_interior: 442_providence_hull_base
 	{
@@ -357,25 +357,25 @@ class cfgvehicles
 		scopeCurator=2;
 		displayname="providence interior";
 		editorpreview="";
-		model="\442_ships\providence\interior.p3d";
+		model="\kobra\442_ships\providence\interior.p3d";
 		hiddenselections[]=
 		{
 			"interior"
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\providence\data\interior_co.paa"
+			"kobra\442_ships\providence\data\interior_co.paa"
 		};
 	};
 	class 442_providence_interior_d: 442_providence_interior
 	{
 		displayname="providence dreadnought interior";
-		model="\442_ships\providence\interior_d.p3d";
+		model="\kobra\442_ships\providence\interior_d.p3d";
 	};
 	class 442_providence_zeus: House_F
 	{
 		author ="Kobra Mod Team";
-		model="\442_ships\providence\providence.p3d";
+		model="\kobra\442_ships\providence\providence.p3d";
 		scope=2;
 		scopecurator=2;
 		editorpreview="";
@@ -395,26 +395,26 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[]=
 		{
-			"442_ships\providence\data\body1_co.paa",
-			"442_ships\providence\data\body2_co.paa",
-			"442_ships\providence\data\body3_co.paa",
-			"442_ships\providence\data\bridge_co.paa",
-			"442_ships\providence\data\engine_co.paa",
-			"442_ships\providence\data\interior_co.paa"
+			"kobra\442_ships\providence\data\body1_co.paa",
+			"kobra\442_ships\providence\data\body2_co.paa",
+			"kobra\442_ships\providence\data\body3_co.paa",
+			"kobra\442_ships\providence\data\bridge_co.paa",
+			"kobra\442_ships\providence\data\engine_co.paa",
+			"kobra\442_ships\providence\data\interior_co.paa"
 		};
 	};
 	class 442_providence_d_zeus: 442_providence_zeus
 	{
-		model="\442_ships\providence\providence_d.p3d";
+		model="\kobra\442_ships\providence\providence_d.p3d";
 		displayname="Providence Dreadnought (Zeus)";
 		hiddenselectionstextures[]=
 		{
-			"442_ships\providence\data\body1_d_co.paa",
-			"442_ships\providence\data\body2_co.paa",
-			"442_ships\providence\data\body3_co.paa",
-			"442_ships\providence\data\bridge_co.paa",
-			"442_ships\providence\data\engine_co.paa",
-			"442_ships\providence\data\interior_co.paa"
+			"kobra\442_ships\providence\data\body1_d_co.paa",
+			"kobra\442_ships\providence\data\body2_co.paa",
+			"kobra\442_ships\providence\data\body3_co.paa",
+			"kobra\442_ships\providence\data\bridge_co.paa",
+			"kobra\442_ships\providence\data\engine_co.paa",
+			"kobra\442_ships\providence\data\interior_co.paa"
 		};
 	};
 };

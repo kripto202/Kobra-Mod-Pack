@@ -35,7 +35,7 @@ class cfgvehicles
 	{
 		author = "KOBRA Mod Team";
 		scope = 0;
-		picture = "";
+		picture = "kobra\kobra_core\kobra.paa";
 		displayname = "";
 		model = "";
 		maximumload = 200;
@@ -44,7 +44,7 @@ class cfgvehicles
 	class k_clone_rto_backpack_base: k_clone_backpack_base
 	{
 		maximumload=100;
-		picture="";
+		picture="kobra\kobra_core\kobra.paa";
 		displayName="";
 		tf_dialog="SWLB_clone_rto_radio_dialog";
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
@@ -57,9 +57,9 @@ class cfgvehicles
     {
         displayname = "[K] Clone Trooper Backpack";
         scope = 1;
-        model = "442_equipment\backpack\small_backpack.p3d";
+        model = "kobra\442_equipment\backpack\small_backpack.p3d";
         maximumload = 150;
-        picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
+        picture = "kobra\kobra_core\kobra.paa";
         hiddenselections[] = 
         {
             "backpack",
@@ -70,17 +70,17 @@ class cfgvehicles
         };
         hiddenselectionstextures[] = 
         {
-            "442_equipment\backpack\data\small_backpack_co.paa",
-            "442_equipment\backpack\data\cover1_co.paa",
-            "442_equipment\backpack\data\pouches_co.paa",
-            "442_equipment\backpack\data\radio_co.paa",
-            "442_equipment\backpack\data\screen_co.paa",
+            "kobra\442_equipment\backpack\data\small_backpack_co.paa",
+            "kobra\442_equipment\backpack\data\cover1_co.paa",
+            "kobra\442_equipment\backpack\data\pouches_co.paa",
+            "kobra\442_equipment\backpack\data\radio_co.paa",
+            "kobra\442_equipment\backpack\data\screen_co.paa",
         };
     };
     class k_clone_large_backpack_base: k_clone_small_backpack_base
     {
         displayname = "[K] Clone Trooper Large Backpack";
-        model = "442_equipment\backpack\large_backpack.p3d";
+        model = "kobra\442_equipment\backpack\large_backpack.p3d";
         maximumload = 250;
         hiddenselections[] = 
         {
@@ -90,9 +90,9 @@ class cfgvehicles
         };
         hiddenselectionstextures[] = 
         {
-            "442_equipment\backpack\data\large_backpack_co.paa",
-            "442_equipment\backpack\data\cover2_co.paa",
-            "442_equipment\backpack\data\pouches2_co.paa",
+            "kobra\442_equipment\backpack\data\large_backpack_co.paa",
+            "kobra\442_equipment\backpack\data\cover2_co.paa",
+            "kobra\442_equipment\backpack\data\pouches2_co.paa",
         };
     };
 
@@ -102,8 +102,8 @@ class cfgvehicles
         scope = 2;
         hiddenselectionstextures[] = 
         {
-            "442_equipment\backpack\data\small_backpack_co.paa",
-            "442_equipment\backpack\data\cover1_co.paa",
+            "kobra\442_equipment\backpack\data\small_backpack_co.paa",
+            "kobra\442_equipment\backpack\data\cover1_co.paa",
             "",
             "",
             "",
@@ -116,9 +116,9 @@ class cfgvehicles
         maximumload = 200;
         hiddenselectionstextures[] = 
         {
-            "442_equipment\backpack\data\small_backpack_co.paa",
-            "442_equipment\backpack\data\cover1_co.paa",
-            "442_equipment\backpack\data\pouches_co.paa",
+            "kobra\442_equipment\backpack\data\small_backpack_co.paa",
+            "kobra\442_equipment\backpack\data\cover1_co.paa",
+            "kobra\442_equipment\backpack\data\pouches_co.paa",
             "",
             "",
         };
@@ -136,11 +136,11 @@ class cfgvehicles
         tf_subtype="digital_lr";
         hiddenselectionstextures[] = 
         {
-            "442_equipment\backpack\data\small_backpack_co.paa",
+            "kobra\442_equipment\backpack\data\small_backpack_co.paa",
             "",
             "",
-            "442_equipment\backpack\data\radio_co.paa",
-            "442_equipment\backpack\data\screen_co.paa",
+            "kobra\442_equipment\backpack\data\radio_co.paa",
+            "kobra\442_equipment\backpack\data\screen_co.paa",
         };
     };
     class k_clone_small_backpack_radio_pouches: k_clone_small_backpack_base
@@ -156,11 +156,11 @@ class cfgvehicles
         tf_subtype="digital_lr";
         hiddenselectionstextures[] = 
         {
-            "442_equipment\backpack\data\small_backpack_co.paa",
+            "kobra\442_equipment\backpack\data\small_backpack_co.paa",
             "",
-            "442_equipment\backpack\data\pouches_co.paa",
-            "442_equipment\backpack\data\radio_co.paa",
-            "442_equipment\backpack\data\screen_co.paa",
+            "kobra\442_equipment\backpack\data\pouches_co.paa",
+            "kobra\442_equipment\backpack\data\radio_co.paa",
+            "kobra\442_equipment\backpack\data\screen_co.paa",
         };
     };
 
@@ -170,8 +170,8 @@ class cfgvehicles
         scope = 2;
         hiddenselectionstextures[] = 
         {
-            "442_equipment\backpack\data\large_backpack_co.paa",
-            "442_equipment\backpack\data\cover2_co.paa",
+            "kobra\442_equipment\backpack\data\large_backpack_co.paa",
+            "kobra\442_equipment\backpack\data\cover2_co.paa",
             ""
         };
     };
@@ -181,9 +181,9 @@ class cfgvehicles
         scope = 2;
         hiddenselectionstextures[] = 
         {
-            "442_equipment\backpack\data\large_backpack_co.paa",
-            "442_equipment\backpack\data\cover2_co.paa",
-            "442_equipment\backpack\data\pouches2_co.paa",
+            "kobra\442_equipment\backpack\data\large_backpack_co.paa",
+            "kobra\442_equipment\backpack\data\cover2_co.paa",
+            "kobra\442_equipment\backpack\data\pouches2_co.paa",
         };
     };
     class k_clone_large_backpack_medic: k_clone_large_backpack_base
@@ -192,8 +192,8 @@ class cfgvehicles
         scope = 2;
         hiddenselectionstextures[] = 
         {
-            "442_equipment\backpack\data\large_backpack_medic_co.paa",
-            "442_equipment\backpack\data\cover2_co.paa",
+            "kobra\442_equipment\backpack\data\large_backpack_medic_co.paa",
+            "kobra\442_equipment\backpack\data\cover2_co.paa",
             "",
         };
     };
@@ -203,9 +203,9 @@ class cfgvehicles
         scope = 2;
         hiddenselectionstextures[] = 
         {
-            "442_equipment\backpack\data\large_backpack_eod_co.paa",
-            "442_equipment\backpack\data\cover2_co.paa",
-            "442_equipment\backpack\data\pouches2_co.paa",
+            "kobra\442_equipment\backpack\data\large_backpack_eod_co.paa",
+            "kobra\442_equipment\backpack\data\cover2_co.paa",
+            "kobra\442_equipment\backpack\data\pouches2_co.paa",
         };
     };
     class k_clone_large_backpack_eod_pouch: k_clone_large_backpack_base
@@ -214,9 +214,9 @@ class cfgvehicles
         scope = 2;
         hiddenselectionstextures[] = 
         {
-            "442_equipment\backpack\data\large_backpack_eod_co.paa",
-            "442_equipment\backpack\data\cover2_co.paa",
-            "442_equipment\backpack\data\pouches2_co.paa",
+            "kobra\442_equipment\backpack\data\large_backpack_eod_co.paa",
+            "kobra\442_equipment\backpack\data\cover2_co.paa",
+            "kobra\442_equipment\backpack\data\pouches2_co.paa",
         };
     };
 };

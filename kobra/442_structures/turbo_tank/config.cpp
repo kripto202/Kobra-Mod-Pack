@@ -26,7 +26,7 @@ class cfgvehicles
 		scopecurator = 2;
 		author = "Kobra Mod Team";
 		displayName = "Turbo Tank";
-		model = "\442_structures\turbo_tank\turbotank.p3d";
+		model = "\kobra\442_structures\turbo_tank\turbotank.p3d";
 		editorcategory = "kobra";
 		editorsubcategory = "442_item";
 		vehicleClass = Structures;
@@ -43,14 +43,14 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[] = 
 		{
-			"442_structures\turbo_tank\data\armor_CO.paa",
-			"442_structures\turbo_tank\data\axel_CO.paa",
-			"442_structures\turbo_tank\data\body_CO.paa",
-			"442_structures\turbo_tank\data\catwalk_CO.paa",
-			"442_structures\turbo_tank\data\interior_1_CO.paa",
-			"442_structures\turbo_tank\data\interior_2_CO.paa",
-			"442_structures\turbo_tank\data\interior_3_CO.paa",
-			"442_structures\turbo_tank\data\wheel_CO.paa",
+			"kobra\442_structures\turbo_tank\data\armor_CO.paa",
+			"kobra\442_structures\turbo_tank\data\axel_CO.paa",
+			"kobra\442_structures\turbo_tank\data\body_CO.paa",
+			"kobra\442_structures\turbo_tank\data\catwalk_CO.paa",
+			"kobra\442_structures\turbo_tank\data\interior_1_CO.paa",
+			"kobra\442_structures\turbo_tank\data\interior_2_CO.paa",
+			"kobra\442_structures\turbo_tank\data\interior_3_CO.paa",
+			"kobra\442_structures\turbo_tank\data\wheel_CO.paa",
 		};
 	};
 	class 442_turbotank_m: 442_turbotank
@@ -58,14 +58,14 @@ class cfgvehicles
 		displayName = "Turbo Tank (Captured)";
 		hiddenselectionstextures[] = 
 		{
-			"442_structures\turbo_tank\data\armor_CO.paa",
-			"442_structures\turbo_tank\data\axel_CO.paa",
-			"442_structures\turbo_tank\data\body_m_CO.paa",
-			"442_structures\turbo_tank\data\catwalk_m_CO.paa",
-			"442_structures\turbo_tank\data\interior_1_m_CO.paa",
-			"442_structures\turbo_tank\data\interior_2_m_CO.paa",
-			"442_structures\turbo_tank\data\interior_3_CO.paa",
-			"442_structures\turbo_tank\data\wheel_CO.paa",
+			"kobra\442_structures\turbo_tank\data\armor_CO.paa",
+			"kobra\442_structures\turbo_tank\data\axel_CO.paa",
+			"kobra\442_structures\turbo_tank\data\body_m_CO.paa",
+			"kobra\442_structures\turbo_tank\data\catwalk_m_CO.paa",
+			"kobra\442_structures\turbo_tank\data\interior_1_m_CO.paa",
+			"kobra\442_structures\turbo_tank\data\interior_2_m_CO.paa",
+			"kobra\442_structures\turbo_tank\data\interior_3_CO.paa",
+			"kobra\442_structures\turbo_tank\data\wheel_CO.paa",
 		};
 	};
 };
