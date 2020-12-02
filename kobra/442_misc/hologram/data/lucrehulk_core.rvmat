@@ -12,7 +12,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="442_ships\lucrehulk\data\core_nohq.paa";
+	texture="kobra\442_ships\lucrehulk\data\core_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{

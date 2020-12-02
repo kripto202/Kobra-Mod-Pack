@@ -47,7 +47,7 @@ class cfgvehicles
 		};
         hiddenselectionstextures[] = 
         {
-            "kobra\kobra\k_a_vehicle_9\data\laat\body_1_co.paa",
+            "kobra\k_a_vehicle_9\data\laat\body_1_co.paa",
 			"kobra\442_a_vehicle\laat\data\body_2_co.paa",
 			"kobra\442_a_vehicle\laat\data\door_1_co.paa",
 			"kobra\442_a_vehicle\laat\data\door_2_co.paa",

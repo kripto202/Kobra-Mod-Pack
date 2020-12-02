@@ -473,11 +473,6 @@ class cfgvehicles
 				magazine = "442_45_45rnd_blue_mag";
 				count = 20;
 			};
-			class 442_556_200rnd_blue_mag
-			{	
-				magazine = "442_556_200rnd_blue_mag";
-				count = 10;
-			};
 			class 442_65_60rnd_blue_mag
 			{	
 				magazine = "442_65_60rnd_blue_mag";
@@ -532,11 +527,6 @@ class cfgvehicles
 			{	
 				magazine = "442_45_45rnd_red_mag";
 				count = 20;
-			};
-			class 442_556_200rnd_red_mag
-			{	
-				magazine = "442_556_200rnd_red_mag";
-				count = 10;
 			};
 			class 442_65_60rnd_red_mag
 			{	

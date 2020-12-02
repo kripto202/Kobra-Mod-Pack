@@ -1359,126 +1359,126 @@ class cfgammo
 		};
 		bulletFly1[]=
 		{
-			"kobra_core\scounds\blaster_fire1.wss",
+			"kobra\kobra_core\sounds\blaster_fire1.wss",
 			1.58,
 			1,
 			30
 		};
 		bulletFly10[]=
 		{
-			"kobra_core\scounds\blaster_fire1.wss",
+			"kobra\kobra_core\sounds\blaster_fire1.wss",
 			1.58,
 			1,
 			30
 		};
 		bulletFly11[]=
 		{
-			"kobra_core\scounds\blaster_fire1.wss",
+			"kobra\kobra_core\sounds\blaster_fire1.wss",
 			1.58,
 			1,
 			30
 		};
 		bulletFly12[]=
 		{
-			"kobra_core\scounds\blaster_fire1.wss",
+			"kobra\kobra_core\sounds\blaster_fire1.wss",
 			1.58,
 			1,
 			30
 		};
 		bulletFly2[]=
 		{
-			"kobra_core\scounds\blaster_fire1.wss",
+			"kobra\kobra_core\sounds\blaster_fire1.wss",
 			1.58,
 			1,
 			30
 		};
 		bulletFly3[]=
 		{
-			"kobra_core\scounds\blaster_fire1.wss",
+			"kobra\kobra_core\sounds\blaster_fire1.wss",
 			1.58,
 			1,
 			30
 		};
 		bulletFly4[]=
 		{
-			"kobra_core\scounds\blaster_fire1.wss",
+			"kobra\kobra_core\sounds\blaster_fire1.wss",
 			2.2387199,
 			1,
 			100
 		};
 		bulletFly5[]=
 		{
-			"kobra_core\scounds\blaster_fire1.wss",
+			"kobra\kobra_core\sounds\blaster_fire1.wss",
 			2.2387199,
 			1,
 			100
 		};
 		bulletFly6[]=
 		{
-			"kobra_core\scounds\blaster_fire1.wss",
+			"kobra\kobra_core\sounds\blaster_fire1.wss",
 			2.2387199,
 			1,
 			100
 		};
 		bulletFly7[]=
 		{
-			"kobra_core\scounds\blaster_fire1.wss",
+			"kobra\kobra_core\sounds\blaster_fire1.wss",
 			2.2387199,
 			1,
 			100
 		};
 		bulletFly8[]=
 		{
-			"kobra_core\scounds\blaster_fire1.wss",
+			"kobra\kobra_core\sounds\blaster_fire1.wss",
 			2.2387199,
 			1,
 			100
 		};
 		bulletFly9[]=
 		{
-			"kobra_core\scounds\blaster_fire1.wss",
+			"kobra\kobra_core\sounds\blaster_fire1.wss",
 			2.2387199,
 			1,
 			100
 		};
 		soundHit1[]=
 		{
-			"kobra_core\scounds\blaster_fire1.wss",
+			"kobra\kobra_core\sounds\blaster_fire1.wss",
 			1.9952624,
 			1,
 			120
 		};
 		soundHit2[]=
 		{
-			"kobra_core\scounds\blaster_fire1.wss",
+			"kobra\kobra_core\sounds\blaster_fire1.wss",
 			1.9952624,
 			1,
 			120
 		};
 		soundHit3[]=
 		{
-			"kobra_core\scounds\blaster_fire1.wss",
+			"kobra\kobra_core\sounds\blaster_fire1.wss",
 			1.9952624,
 			1,
 			120
 		};
 		soundHit4[]=
 		{
-			"kobra_core\scounds\blaster_fire1.wss",
+			"kobra\kobra_core\sounds\blaster_fire1.wss",
 			1.9952624,
 			1,
 			120
 		};
 		soundHit5[]=
 		{
-			"kobra_core\scounds\blaster_fire1.wss",
+			"kobra\kobra_core\sounds\blaster_fire1.wss",
 			1.9952624,
 			1,
 			120
 		};
 		soundHit6[]=
 		{
-			"kobra_core\scounds\blaster_fire1.wss",
+			"kobra\kobra_core\sounds\blaster_fire1.wss",
 			1.9952624,
 			1,
 			120
@@ -1622,7 +1622,6 @@ class cfgmagazines
 		reloadaction="";
 		useactiontitle="";
 		modelspecial="";
-		model = "SWLW_clones\rifles\DC15a\DC15a_mag.p3d";
 		tracersevery=1;
 		picture="";
 		type=256;

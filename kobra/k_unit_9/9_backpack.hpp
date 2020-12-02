@@ -6,7 +6,7 @@ class 9_clone_backpack: k_clone_backpack
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_9\data\backpacks\9_backpack_co.paa",
-			"kobra\k_unit_ls\data\backpack\clone\backpack\cover_co.paa",
+			"kobra\k_unit_ls\data\backpack\clone\cover_co.paa",
 		};
 	};
 	class 9_clone_backpack_med: k_clone_backpack_med
@@ -17,8 +17,8 @@ class 9_clone_backpack: k_clone_backpack
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_9\data\backpacks\9_medicpack_co.paa",
-			"kobra\k_unit_ls\data\backpack\clone\backpack\cover_co.paa",
-			"kobra\k_unit_ls\data\backpack\clone\backpack\pouches_co.paa",
+			"kobra\k_unit_ls\data\backpack\clone\cover_co.paa",
+			"kobra\k_unit_ls\data\backpack\clone\pouches_co.paa",
 		};
 	};
 	class 9_clone_backpack_heavy: k_clone_backpack_heavy
@@ -29,9 +29,9 @@ class 9_clone_backpack: k_clone_backpack
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_9\data\backpacks\9_backpack_co.paa",
-			"kobra\k_unit_ls\data\backpack\clone\backpack\cover_co.paa",
-			"kobra\k_unit_ls\data\backpack\clone\backpack\pouches_co.paa",
-			"kobra\k_unit_ls\data\backpack\clone\backpack\tube_co.paa",
+			"kobra\k_unit_ls\data\backpack\clone\cover_co.paa",
+			"kobra\k_unit_ls\data\backpack\clone\pouches_co.paa",
+			"kobra\k_unit_ls\data\backpack\clone\tube_co.paa",
 		};
 	};
 	class 9_clone_backpack_heavy_eod: k_clone_backpack_heavy
@@ -42,9 +42,9 @@ class 9_clone_backpack: k_clone_backpack
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_9\data\backpacks\9_eodpack_co.paa",
-			"kobra\k_unit_ls\data\backpack\clone\backpack\cover_co.paa",
-			"kobra\k_unit_ls\data\backpack\clone\backpack\pouches_co.paa",
-			"kobra\k_unit_ls\data\backpack\clone\backpack\tube_co.paa",
+			"kobra\k_unit_ls\data\backpack\clone\cover_co.paa",
+			"kobra\k_unit_ls\data\backpack\clone\pouches_co.paa",
+			"kobra\k_unit_ls\data\backpack\clone\tube_co.paa",
 		};
 	};
 	class 9_clone_backpack_medic: k_clone_backpack_medic
@@ -55,9 +55,9 @@ class 9_clone_backpack: k_clone_backpack
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_9\data\backpacks\9_medicpack_co.paa",
-			"kobra\k_unit_ls\data\backpack\clone\backpack\cover_co.paa",
-			"kobra\k_unit_ls\data\backpack\clone\backpack\medic_co.paa",
-			"kobra\k_unit_ls\data\backpack\clone\backpack\medic_co.paa",
+			"kobra\k_unit_ls\data\backpack\clone\cover_co.paa",
+			"kobra\k_unit_ls\data\backpack\clone\medic_co.paa",
+			"kobra\k_unit_ls\data\backpack\clone\medic_co.paa",
 		};
 	};
 	class 9_clone_backpack_medic_med: k_clone_backpack_medic_med
@@ -68,10 +68,10 @@ class 9_clone_backpack: k_clone_backpack
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_9\data\backpacks\9_medicpack_co.paa",
-			"kobra\k_unit_ls\data\backpack\clone\backpack\cover_co.paa",
-			"kobra\k_unit_ls\data\backpack\clone\backpack\pouches_co.paa",
-			"kobra\k_unit_ls\data\backpack\clone\backpack\medic_co.paa",
-			"kobra\k_unit_ls\data\backpack\clone\backpack\medic_co.paa",
+			"kobra\k_unit_ls\data\backpack\clone\cover_co.paa",
+			"kobra\k_unit_ls\data\backpack\clone\pouches_co.paa",
+			"kobra\k_unit_ls\data\backpack\clone\medic_co.paa",
+			"kobra\k_unit_ls\data\backpack\clone\medic_co.paa",
 		};
 	};
 	class 9_clone_backpack_radio: k_clone_backpack_radio
@@ -82,8 +82,8 @@ class 9_clone_backpack: k_clone_backpack
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_9\data\backpacks\9_backpack_co.paa",
-			"kobra\k_unit_ls\data\backpack\clone\backpack\radio_co.paa",
-			"kobra\k_unit_ls\data\backpack\clone\backpack\screen_co.paa",
+			"kobra\k_unit_ls\data\backpack\clone\radio_co.paa",
+			"kobra\k_unit_ls\data\backpack\clone\screen_co.paa",
 		};
 	};
 	class 9_clone_backpack_radio_med: k_clone_backpack_radio_med
@@ -94,9 +94,9 @@ class 9_clone_backpack: k_clone_backpack
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_9\data\backpacks\9_backpack_co.paa",
-			"kobra\k_unit_ls\data\backpack\clone\backpack\radio_co.paa",
-			"kobra\k_unit_ls\data\backpack\clone\backpack\screen_co.paa",
-			"kobra\k_unit_ls\data\backpack\clone\backpack\pouches_co.paa",
+			"kobra\k_unit_ls\data\backpack\clone\radio_co.paa",
+			"kobra\k_unit_ls\data\backpack\clone\screen_co.paa",
+			"kobra\k_unit_ls\data\backpack\clone\pouches_co.paa",
 		};
 	};
 	class 9_clone_backpack_rocket: k_clone_backpack_rocket
@@ -107,9 +107,9 @@ class 9_clone_backpack: k_clone_backpack
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_9\data\backpacks\9_eodpack_co.paa",
-			"kobra\k_unit_ls\data\backpack\clone\backpack\holder_co.paa",
-			"kobra\k_unit_ls\data\backpack\clone\backpack\rocket_co.paa",
-			"kobra\k_unit_ls\data\backpack\clone\backpack\light_co.paa",
-			"kobra\k_unit_ls\data\backpack\clone\backpack\pouches_co.paa",
+			"kobra\k_unit_ls\data\backpack\clone\holder_co.paa",
+			"kobra\k_unit_ls\data\backpack\clone\rocket_co.paa",
+			"kobra\k_unit_ls\data\backpack\clone\light_co.paa",
+			"kobra\k_unit_ls\data\backpack\clone\pouches_co.paa",
 		};
 	};

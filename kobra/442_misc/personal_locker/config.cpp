@@ -66,13 +66,13 @@ class cfgvehicles
                 radius = 3;
                 onlyforplayer = 0;
                 condition = "this animationsourcephase ""open_locker"" == 0";
-                statement = "this animatesource [""open_locker"", 1];"
+                statement = "this animatesource [""open_locker"", 1];";
             };
             class close_locker: open_locker
             {
                 displayname = "Close Locker";
                 condition = "this animationsourcephase ""open_locker"" == 1";
-                statement = "this animatesource [""open_locker"", 0];"
+                statement = "this animatesource [""open_locker"", 0];";
             };
         };
         class animationsources

@@ -255,12 +255,12 @@ class cfgvehicles
     class 442_purple_tracer_b_05: 442_blue_tracer
     {
         displayname = "Plasma Bolt (Purple/B - Medium)";
-        model = "kobra\442_weapons\ammo\purple_tracer_b_05.p3d";
+        model = "kobra\442_weapons\ammo\purple_b_tracer_05.p3d";
     };
     class 442_purple_tracer_b_025: 442_blue_tracer
     {
         displayname = "Plasma Bolt (Purple/B - Small)";
-        model = "kobra\442_weapons\ammo\purple_tracer_b_025.p3d";
+        model = "kobra\442_weapons\ammo\purple_b_tracer_025.p3d";
     };
 ////////////black tracer////////////
 	class 442_black_tracer: 442_blue_tracer
@@ -319,11 +319,11 @@ class cfgvehicles
     class 442_yellow_tracer_b_05: 442_blue_tracer
     {
         displayname = "Plasma Bolt (Yellow/B - Medium)";
-        model = "kobra\442_weapons\ammo\yellow_tracer_b_05.p3d";
+        model = "kobra\442_weapons\ammo\yellow_b_tracer_05.p3d";
     };
     class 442_yellow_tracer_b_025: 442_blue_tracer
     {
         displayname = "Plasma Bolt (Yellow/B - Small)";
-        model = "kobra\442_weapons\ammo\yellow_tracer_b_025.p3d";
+        model = "kobra\442_weapons\ammo\yellow_b_tracer_025.p3d";
     };
 };

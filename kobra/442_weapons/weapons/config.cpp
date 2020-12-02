@@ -185,7 +185,7 @@ class cfgweapons
 			{
 				begin1[]=
 				{
-					"442_a_vehicle\laat\sounds\dc-15r.wss",
+					"kobra\442_a_vehicle\laat\sounds\dc-15r.wss",
 					1,
 					1,
 					500
@@ -314,7 +314,7 @@ class cfgweapons
 			sounds[] = {"StandardSound"};
 			class StandardSound
 			{
-				begin1[] = {"442_g_vehicle\aat\sounds\aat_light_guns.wss",1.5848932,1,2100};
+				begin1[] = {"kobra\442_g_vehicle\aat\sounds\aat_light_guns.wss",1.5848932,1,2100};
 				soundBegin[] = {"begin1",1};
 			};
 			soundContinuous = 0;
@@ -424,7 +424,7 @@ class cfgweapons
 			sounds[] = {"StandardSound"};
 			class StandardSound
 			{
-				begin1[] = {"442_g_vehicle\aat\sounds\aat_main_gun.wss",3.1622777,1,1500};
+				begin1[] = {"kobra\442_g_vehicle\aat\sounds\aat_main_gun.wss",3.1622777,1,1500};
 				soundBegin[] = {"begin1",1};
 			};
 			soundContinuous = 0;
@@ -549,7 +549,7 @@ class cfgweapons
 			sounds[] = {"StandardSound"};
 			class StandardSound
 			{
-				begin1[] = {"SWLW_clones\rifles\gl\sounds\gl",1.1220185,1.0,1200};
+				begin1[] = {"kobra\442_weapons\sounds\heavy\heavy12.wss",1.1220185,1.0,1200};
 				soundBegin[] = {"begin1",1};
 			};
 			soundContinuous = 0;
@@ -660,7 +660,7 @@ class cfgweapons
             sounds[] = {"StandardSound"};
             class StandardSound
             {
-                begin1[] = {"442_g_vehicle\aat\sounds\aat_main_gun.wss",3.1622777,1,1500};
+                begin1[] = {"kobra\442_g_vehicle\aat\sounds\aat_main_gun.wss",3.1622777,1,1500};
                 soundBegin[] = {"begin1",1};
             };
             soundContinuous = 0;
@@ -797,7 +797,7 @@ class cfgweapons
 			{
 				begin1[]=
 				{
-					"kobra\442_weapons\sounds\z6\Z6_1.wss",
+					"kobra\442_weapons\sounds\rifle\blaster50.wss",
 					1,
 					1,
 					500
@@ -943,16 +943,16 @@ class cfgweapons
 			sounds[] = {"StandardSound"};
 			class StandardSound
 			{
-				begin1[] = {"442_turrets\droideka\sounds\droidekafire1.wss",1,1,2000};
-				begin2[] = {"442_turrets\droideka\sounds\droidekafire1.wss",1,1,2000};
-				begin3[] = {"442_turrets\droideka\sounds\droidekafire2.wss",1,1,2000};
-				begin4[] = {"442_turrets\droideka\sounds\droidekafire1.wss",1,1,2000};
-				begin5[] = {"442_turrets\droideka\sounds\droidekafire2.wss",1,1,2000};
-				begin6[] = {"442_turrets\droideka\sounds\droidekafire1.wss",1,1,2000};
-				begin7[] = {"442_turrets\droideka\sounds\droidekafire1.wss",1,1,2000};
-				begin8[] = {"442_turrets\droideka\sounds\droidekafire2.wss",1,1,2000};
-				begin9[] = {"442_turrets\droideka\sounds\droidekafire1.wss",1,1,2000};
-				begin10[] = {"442_turrets\droideka\sounds\droidekafire1.wss",1,1,2000};
+				begin1[] = {"kobra\442_turrets\droideka\sounds\droidekafire1.wss",1,1,2000};
+				begin2[] = {"kobra\442_turrets\droideka\sounds\droidekafire1.wss",1,1,2000};
+				begin3[] = {"kobra\442_turrets\droideka\sounds\droidekafire2.wss",1,1,2000};
+				begin4[] = {"kobra\442_turrets\droideka\sounds\droidekafire1.wss",1,1,2000};
+				begin5[] = {"kobra\442_turrets\droideka\sounds\droidekafire2.wss",1,1,2000};
+				begin6[] = {"kobra\442_turrets\droideka\sounds\droidekafire1.wss",1,1,2000};
+				begin7[] = {"kobra\442_turrets\droideka\sounds\droidekafire1.wss",1,1,2000};
+				begin8[] = {"kobra\442_turrets\droideka\sounds\droidekafire2.wss",1,1,2000};
+				begin9[] = {"kobra\442_turrets\droideka\sounds\droidekafire1.wss",1,1,2000};
+				begin10[] = {"kobra\442_turrets\droideka\sounds\droidekafire1.wss",1,1,2000};
 				soundBegin[] = {"begin1",0.1,"begin2",0.1,"begin3",0.1,"begin4",0.1,"begin5",0.1,"begin6",0.1,"begin7",0.1,"begin8",0.1,"begin9",0.1,"begin10",0.1};
 				class SoundTails
 				{

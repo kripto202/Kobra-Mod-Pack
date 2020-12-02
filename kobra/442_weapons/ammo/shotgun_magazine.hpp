@@ -8,7 +8,7 @@ class 442_shotgun_8rnd_blue_mag: 442_mag_base
     mass = 8;
     count = 8;
     initspeed = 400;
-    picture="\442_weapons\ammo\data\ui\DC15a_mag_ui_ca.paa";
+    picture="kobra\kobra_core\kobra.paa";
 };
 class 442_shotgun_10rnd_blue_mag: 442_shotgun_8rnd_blue_mag
 {

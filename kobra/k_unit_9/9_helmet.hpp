@@ -553,6 +553,6 @@
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_9\data\helmets\scout_helmet\9_scout_helmet_co.paa",
-			"kobra\k_unit_ls\data\helmet\scout_helmet\visor_co.paa"
+			"kobra\442_units\data\helmet\scout_helmet\visor_co.paa"
 		};
 	};

@@ -5,7 +5,7 @@ class 125_clone_backpack: k_clone_backpack
 		picture = "kobra\kobra_core\kobra.paa";
 		hiddenselectionstextures[] = 
 		{
-			"kobra\k_unit_125\data\backpacks\125th_backpack_co.paa_co.paa",
+			"kobra\k_unit_125\data\backpacks\125th_backpack_co.paa",
 			"kobra\k_unit_ls\data\backpack\clone\cover_co.paa",
 		};
 	};
@@ -16,7 +16,7 @@ class 125_clone_backpack: k_clone_backpack
 		picture = "kobra\kobra_core\kobra.paa";
 		hiddenselectionstextures[] = 
 		{
-			"kobra\k_unit_125\data\backpacks\125th_backpack_co.paa_co.paa",
+			"kobra\k_unit_125\data\backpacks\125th_backpack_co.paa",
 			"kobra\k_unit_ls\data\backpack\clone\cover_co.paa",
 			"kobra\k_unit_ls\data\backpack\clone\pouches_co.paa",
 		};
@@ -28,7 +28,7 @@ class 125_clone_backpack: k_clone_backpack
 		picture = "kobra\kobra_core\kobra.paa";
 		hiddenselectionstextures[] = 
 		{
-			"kobra\k_unit_125\data\backpacks\125th_backpack_co.paa_co.paa",
+			"kobra\k_unit_125\data\backpacks\125th_backpack_co.paa",
 			"kobra\k_unit_ls\data\backpack\clone\cover_co.paa",
 			"kobra\k_unit_ls\data\backpack\clone\pouches_co.paa",
 			"kobra\k_unit_ls\data\backpack\clone\tube_co.paa",
@@ -41,7 +41,7 @@ class 125_clone_backpack: k_clone_backpack
 		picture = "kobra\kobra_core\kobra.paa";
 		hiddenselectionstextures[] = 
 		{
-			"kobra\k_unit_125\data\backpacks\125th_backpack_co.paa_co.paa",
+			"kobra\k_unit_125\data\backpacks\125th_backpack_co.paa",
 			"kobra\k_unit_ls\data\backpack\clone\cover_co.paa",
 			"kobra\k_unit_ls\data\backpack\clone\medic_co.paa",
 			"kobra\k_unit_ls\data\backpack\clone\medic_co.paa",
@@ -54,7 +54,7 @@ class 125_clone_backpack: k_clone_backpack
 		picture = "kobra\kobra_core\kobra.paa";
 		hiddenselectionstextures[] = 
 		{
-			"kobra\k_unit_125\data\backpacks\125th_backpack_co.paa_co.paa",
+			"kobra\k_unit_125\data\backpacks\125th_backpack_co.paa",
 			"kobra\k_unit_ls\data\backpack\clone\cover_co.paa",
 			"kobra\k_unit_ls\data\backpack\clone\pouches_co.paa",
 			"kobra\k_unit_ls\data\backpack\clone\medic_co.paa",
@@ -68,7 +68,7 @@ class 125_clone_backpack: k_clone_backpack
 		picture = "kobra\kobra_core\kobra.paa";
 		hiddenselectionstextures[] = 
 		{
-			"kobra\k_unit_125\data\backpacks\125th_backpack_co.paa_co.paa",
+			"kobra\k_unit_125\data\backpacks\125th_backpack_co.paa",
 			"kobra\k_unit_ls\data\backpack\clone\radio_co.paa",
 			"kobra\k_unit_ls\data\backpack\clone\screen_co.paa",
 		};
@@ -80,7 +80,7 @@ class 125_clone_backpack: k_clone_backpack
 		picture = "kobra\kobra_core\kobra.paa";
 		hiddenselectionstextures[] = 
 		{
-			"kobra\k_unit_125\data\backpacks\125th_backpack_co.paa_co.paa",
+			"kobra\k_unit_125\data\backpacks\125th_backpack_co.paa",
 			"kobra\k_unit_ls\data\backpack\clone\radio_co.paa",
 			"kobra\k_unit_ls\data\backpack\clone\screen_co.paa",
 			"kobra\k_unit_ls\data\backpack\clone\pouches_co.paa",
@@ -93,7 +93,7 @@ class 125_clone_backpack: k_clone_backpack
 		picture = "kobra\kobra_core\kobra.paa";
 		hiddenselectionstextures[] = 
 		{
-			"kobra\k_unit_125\data\backpacks\125th_backpack_co.paa_co.paa",
+			"kobra\k_unit_125\data\backpacks\125th_backpack_co.paa",
 			"kobra\k_unit_ls\data\backpack\clone\holder_co.paa",
 			"kobra\k_unit_ls\data\backpack\clone\rocket_co.paa",
 			"kobra\k_unit_ls\data\backpack\clone\light_co.paa",

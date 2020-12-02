@@ -765,7 +765,7 @@
         deflecting = 30;
         indirectHit = 2;
         indirectHitRange = 0.4;
-        model="swlw_main\Effects\laser_blue.p3d";
+        model="kobra\442_weapons\ammo\blue_tracer.p3d";
         effectfly="442_plasma_blue";
         ExplosionEffects="442_plasma_impact";
         cratereffects = "442_plasma_impact";

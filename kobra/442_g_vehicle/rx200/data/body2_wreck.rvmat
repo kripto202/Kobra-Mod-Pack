@@ -12,7 +12,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="442_g_vehicle\rx200\data\body2_wreck_nohq.paa";
+	texture="kobra\442_g_vehicle\rx200\data\body2_wreck_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -48,7 +48,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="442_g_vehicle\rx200\data\body2_wreck_as.paa";
+	texture="kobra\442_g_vehicle\rx200\data\body2_wreck_as.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -60,7 +60,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="442_g_vehicle\rx200\data\body2_wreck_smdi.paa";
+	texture="kobra\442_g_vehicle\rx200\data\body2_wreck_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{

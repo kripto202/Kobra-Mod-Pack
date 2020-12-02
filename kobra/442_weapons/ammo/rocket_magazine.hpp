@@ -4,8 +4,8 @@
 		scope = 2;
 		displayname = "RPS-6 HEAT";
 		displaynameshort = "HEAT";
-		model = "\a3\Weapons_F_Tank\Launchers\MRAWS\rocket_MRAWS_HEAT_F_item.p3d";
-		picture = "\a3\Weapons_F_Tank\Launchers\MRAWS\Data\UI\icon_rocket_MRAWS_HEAT_F_ca.paa";
+		model = "a3\Weapons_F_Tank\Launchers\MRAWS\rocket_MRAWS_HEAT_F_item.p3d";
+		picture = "kobra\kobra_core\kobra.paa";
 		initSpeed = 150;
 		maxLeadSpeed=27.7778;
 		count = 1;

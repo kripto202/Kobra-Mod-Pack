@@ -34,7 +34,7 @@ class cfgvehicles
         scope = 2;
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\backpack\9\small_backpack_co.paa",
+            "kobra\k_equipment_9\backpack\data\small_backpack_co.paa",
             "kobra\442_equipment\backpack\data\cover1_co.paa",
             "",
             "",
@@ -48,7 +48,7 @@ class cfgvehicles
         maximumload = 200;
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\backpack\9\small_backpack_co.paa",
+            "kobra\k_equipment_9\backpack\data\small_backpack_co.paa",
             "kobra\442_equipment\backpack\data\cover1_co.paa",
             "kobra\442_equipment\backpack\data\pouches_co.paa",
             "",
@@ -68,7 +68,7 @@ class cfgvehicles
         tf_subtype="digital_lr";
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\backpack\9\small_backpack_co.paa",
+            "kobra\k_equipment_9\backpack\data\small_backpack_co.paa",
             "",
             "",
             "kobra\442_equipment\backpack\data\radio_co.paa",
@@ -88,7 +88,7 @@ class cfgvehicles
         tf_subtype="digital_lr";
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\backpack\9\small_backpack_co.paa",
+            "kobra\k_equipment_9\backpack\data\small_backpack_co.paa",
             "",
             "kobra\442_equipment\backpack\data\pouches_co.paa",
             "kobra\442_equipment\backpack\data\radio_co.paa",
@@ -102,7 +102,7 @@ class cfgvehicles
         scope = 2;
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\backpack\9\large_backpack_co.paa",
+            "kobra\k_equipment_9\backpack\data\large_backpack_co.paa",
             "kobra\442_equipment\backpack\data\cover2_co.paa",
             ""
         };
@@ -113,7 +113,7 @@ class cfgvehicles
         scope = 2;
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\backpack\9\large_backpack_co.paa",
+            "kobra\k_equipment_9\backpack\data\large_backpack_co.paa",
             "kobra\442_equipment\backpack\data\cover2_co.paa",
             "kobra\442_equipment\backpack\data\pouches2_co.paa",
         };
@@ -124,7 +124,7 @@ class cfgvehicles
         scope = 2;
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\backpack\9\large_backpack_medic_co.paa",
+            "kobra\k_equipment_9\backpack\data\large_backpack_medic_co.paa",
             "kobra\442_equipment\backpack\data\cover2_co.paa",
             "",
         };
@@ -135,7 +135,7 @@ class cfgvehicles
         scope = 2;
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\backpack\9\large_backpack_medic_co.paa",
+            "kobra\k_equipment_9\backpack\data\large_backpack_medic_co.paa",
             "kobra\442_equipment\backpack\data\cover2_co.paa",
             "kobra\442_equipment\backpack\data\pouches2_co.paa",
         };
@@ -146,7 +146,7 @@ class cfgvehicles
         scope = 2;
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\backpack\9\large_backpack_eod_co.paa",
+            "kobra\k_equipment_9\backpack\data\large_backpack_eod_co.paa",
             "kobra\442_equipment\backpack\data\cover2_co.paa",
             "kobra\442_equipment\backpack\data\pouches2_co.paa",
         };

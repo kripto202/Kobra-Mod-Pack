@@ -176,7 +176,7 @@ class CfgEditorSubcategories
 	};
 	class 442_weapon
 	{
-		displayname = "Weapons"
+		displayname = "Weapons";
 	};
 	class 442_planes
 	{

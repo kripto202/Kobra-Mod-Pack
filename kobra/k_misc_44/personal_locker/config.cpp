@@ -52,7 +52,7 @@ class cfgvehicles
         hiddenselectionstextures[]=
 		{
 			"kobra\k_misc_44\personal_locker\data\44_body_co.paa",
-			"kobra\442_misc\personal_locker\data\screen_kripto_co.paa",
+			"kobra\k_misc_44\personal_locker\data\screen_kripto_co.paa",
 			"kobra\442_misc\personal_locker\data\picture1_co.paa"
 		};
         multistructureparts[] = 
@@ -69,8 +69,8 @@ class cfgvehicles
         hiddenselectionstextures[]=
 		{
 			"kobra\k_misc_44\personal_locker\data\44_body_co.paa",
-			"kobra\442_misc\personal_locker\data\screen_azarael_co.paa",
-			"kobra\442_misc\personal_locker\data\picture_azarael_co.paa"
+			"kobra\k_misc_44\personal_locker\data\screen_azarael_co.paa",
+			"kobra\k_misc_44\personal_locker\data\picture_azarael_co.paa"
 		};
         multistructureparts[] = 
         {
@@ -86,8 +86,8 @@ class cfgvehicles
         hiddenselectionstextures[]=
 		{
 			"kobra\k_misc_44\personal_locker\data\44_body_co.paa",
-			"kobra\442_misc\personal_locker\data\screen_delta_co.paa",
-			"kobra\442_misc\personal_locker\data\picture_delta_co.paa"
+			"kobra\k_misc_44\personal_locker\data\screen_delta_co.paa",
+			"kobra\k_misc_44\personal_locker\data\picture_delta_co.paa"
 		};
         multistructureparts[] = 
         {
@@ -103,8 +103,8 @@ class cfgvehicles
         hiddenselectionstextures[]=
 		{
 			"kobra\k_misc_44\personal_locker\data\44_body_co.paa",
-			"kobra\442_misc\personal_locker\data\screen_dishonored_co.paa",
-			"kobra\442_misc\personal_locker\data\picture_dishonored_co.paa"
+			"kobra\k_misc_44\personal_locker\data\screen_dishonored_co.paa",
+			"kobra\k_misc_44\personal_locker\data\picture_dishonored_co.paa"
 		};
         multistructureparts[] = 
         {
@@ -120,8 +120,8 @@ class cfgvehicles
         hiddenselectionstextures[]=
 		{
 			"kobra\k_misc_44\personal_locker\data\44_body_co.paa",
-			"kobra\442_misc\personal_locker\data\screen_hollen_co.paa",
-			"kobra\442_misc\personal_locker\data\picture_hollen_co.paa"
+			"kobra\k_misc_44\personal_locker\data\screen_hollen_co.paa",
+			"kobra\k_misc_44\personal_locker\data\picture_hollen_co.paa"
 		};
         multistructureparts[] = 
         {
@@ -137,8 +137,8 @@ class cfgvehicles
         hiddenselectionstextures[]=
 		{
 			"kobra\k_misc_44\personal_locker\data\44_body_co.paa",
-			"kobra\442_misc\personal_locker\data\screen_monty_co.paa",
-			"kobra\442_misc\personal_locker\data\picture_monty_co.paa"
+			"kobra\k_misc_44\personal_locker\data\screen_monty_co.paa",
+			"kobra\k_misc_44\personal_locker\data\picture_monty_co.paa"
 		};
         multistructureparts[] = 
         {
@@ -154,8 +154,8 @@ class cfgvehicles
         hiddenselectionstextures[]=
 		{
 			"kobra\k_misc_44\personal_locker\data\44_body_co.paa",
-			"kobra\442_misc\personal_locker\data\screen_nico_co.paa",
-			"kobra\442_misc\personal_locker\data\picture_nico_co.paa"
+			"kobra\k_misc_44\personal_locker\data\screen_nico_co.paa",
+			"kobra\k_misc_44\personal_locker\data\picture_nico_co.paa"
 		};
         multistructureparts[] = 
         {
@@ -171,8 +171,8 @@ class cfgvehicles
         hiddenselectionstextures[]=
 		{
 			"kobra\k_misc_44\personal_locker\data\44_body_co.paa",
-			"kobra\442_misc\personal_locker\data\screen_sexton_co.paa",
-			"kobra\442_misc\personal_locker\data\picture_sexton_co.paa"
+			"kobra\k_misc_44\personal_locker\data\screen_sexton_co.paa",
+			"kobra\k_misc_44\personal_locker\data\picture_sexton_co.paa"
 		};
         multistructureparts[] = 
         {
@@ -188,8 +188,8 @@ class cfgvehicles
         hiddenselectionstextures[]=
 		{
 			"kobra\k_misc_44\personal_locker\data\44_body_co.paa",
-			"kobra\442_misc\personal_locker\data\screen_steele_co.paa",
-			"kobra\442_misc\personal_locker\data\picture_steele_co.paa"
+			"kobra\k_misc_44\personal_locker\data\screen_steele_co.paa",
+			"kobra\k_misc_44\personal_locker\data\picture_steele_co.paa"
 		};
         multistructureparts[] = 
         {
