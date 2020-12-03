@@ -162,6 +162,7 @@ class cfgweapons
     class U_I_CombatUniform;
     class vestitem;
 	class V_rebreatherB;
+	class U_O_OfficerUniform_ocamo;
     class 442_swla_uniform_base: U_I_CombatUniform
 	{
 		displayname="Clone Trooper Armor";
@@ -178,6 +179,22 @@ class cfgweapons
 			mass=40;
 			uniformType="Neopren";
 			uniformClass="";
+		};
+	};
+	class k_barracks_uniform: U_O_OfficerUniform_ocamo
+	{
+		displayname = "[K] Barracks Uniform";
+		author = "KOBRA Mod Team";
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
+		picture = "kobra\kobra_core\kobra.paa";
+		class ItemInfo: UniformItem
+		{
+			uniformmodel = "";
+			containerClass = "Supply40";
+			mass = 10;
+			uniformclass = "k_barracks_unit";
 		};
 	};
     class 442_vest_base: V_rebreatherB
