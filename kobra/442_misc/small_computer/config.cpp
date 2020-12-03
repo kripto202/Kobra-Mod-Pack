@@ -1,0 +1,48 @@
+class cfgpatches
+{
+    class 442_misc_small_computer
+    {
+        author = "KOBRA Mod Team";
+        requiredAddons[]=
+        {
+            "kobra_core"
+        };
+        requiredVersion = 0.1;
+        units[] = 
+        {
+            "442_small_computer"
+        };
+        weapons[] = {};
+    };
+};
+
+class cfgvehicles
+{
+    class Items_base_F;
+    class 442_small_computer: Items_base_F
+	{
+		scope=2;
+		scopecurator=2;
+		author = "KOBRA Mod Team";
+		displayName="Small Computer";
+		model="\kobra\442_misc\small_computer\small_computer.p3d";
+		editorcategory="kobra";
+		editorsubcategory="442_item_small";
+		vehicleClass="Structures";
+		simulation="thingx";
+		hiddenselections[]=
+		{
+			"camo1",
+			"camo2",
+			"terminal1",
+			"terminal2",
+			"terminal3",
+			"terminal4"
+		};
+		hiddenselectionstextures[]=
+		{
+			"kobra\442_misc\small_computer\data\computer_body_co.paa",
+			"kobra\442_misc\small_computer\data\computer_controls_co.paa"
+		};
+	};
+};
