@@ -243,7 +243,7 @@
 	};
 	class 44_scout_helmet: k_Scout_Helmet
 	{
-		displayname = "[44/LS] Scout Helmet";
+		displayname = "[44] Scout Helmet";
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
@@ -261,7 +261,7 @@
 	};
 	class 44_hunter_helmet: k_hunter_helmet_base
 	{
-		displayname = "[44/LS] Hunter Helmet";
+		displayname = "[44] Hunter Helmet";
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
@@ -278,7 +278,7 @@
 	};
 	class 44_crosshair_helmet: k_crosshair_helmet_base
 	{
-		displayname = "[44/LS] Crosshair Helmet";
+		displayname = "[44] Crosshair Helmet";
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
@@ -295,7 +295,7 @@
 	};
 	class 44_wrecker_helmet: k_wrecker_helmet_base
 	{
-		displayname = "[44/LS] Wrecker Helmet";
+		displayname = "[44] Wrecker Helmet";
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
@@ -312,7 +312,7 @@
 	};
 	class 44_tech_helmet: k_tech_helmet_base
 	{
-		displayname = "[44/LS] Tech Helmet";
+		displayname = "[44] Tech Helmet";
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
@@ -391,7 +391,7 @@
 	};
 	class 44_airborne_helmet_nico: 44_airborne_helmet
 	{
-		displayname = "[44/LS] Arf Helmet (Azarael)";
+		displayname = "[44/LS] Arf Helmet (Nico)";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\custom\nico\ab_camo1_co.paa",
@@ -408,7 +408,7 @@
 			"kobra\k_unit_ls\data\helmet\eng_helmet\visor_co.paa"
 		};
 	};
-	class 44_p1_helmet_steele: 44_eng_helmet
+	class 44_p1_helmet_steele: 44_p1_helmet
 	{
 		displayname = "[44/LS] P1 Helmet (Steele)";
 		hiddenselectionstextures[] = 

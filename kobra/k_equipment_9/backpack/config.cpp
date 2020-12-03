@@ -18,7 +18,7 @@ class cfgpatches
             "9_clone_large_backpack_pouch",
             "9_clone_large_backpack_medic",
             "9_clone_large_backpack_medic_pouch",
-            "9_clone_large_backpack_eod_pouch",
+            "9_clone_large_backpack_eod_pouch"
         };
     };
 };
@@ -38,7 +38,7 @@ class cfgvehicles
             "kobra\442_equipment\backpack\data\cover1_co.paa",
             "",
             "",
-            "",
+            ""
         };
     };
     class 9_clone_small_backpack_pouches: k_clone_small_backpack_base
@@ -52,7 +52,7 @@ class cfgvehicles
             "kobra\442_equipment\backpack\data\cover1_co.paa",
             "kobra\442_equipment\backpack\data\pouches_co.paa",
             "",
-            "",
+            ""
         };
     };
     class 9_clone_small_backpack_radio: k_clone_small_backpack_base
@@ -72,7 +72,7 @@ class cfgvehicles
             "",
             "",
             "kobra\442_equipment\backpack\data\radio_co.paa",
-            "kobra\442_equipment\backpack\data\screen_co.paa",
+            "kobra\442_equipment\backpack\data\screen_co.paa"
         };
     };
     class 9_clone_small_backpack_radio_pouches: k_clone_small_backpack_base
@@ -92,7 +92,7 @@ class cfgvehicles
             "",
             "kobra\442_equipment\backpack\data\pouches_co.paa",
             "kobra\442_equipment\backpack\data\radio_co.paa",
-            "kobra\442_equipment\backpack\data\screen_co.paa",
+            "kobra\442_equipment\backpack\data\screen_co.paa"
         };
     };
 
@@ -115,7 +115,7 @@ class cfgvehicles
         {
             "kobra\k_equipment_9\backpack\data\large_backpack_co.paa",
             "kobra\442_equipment\backpack\data\cover2_co.paa",
-            "kobra\442_equipment\backpack\data\pouches2_co.paa",
+            "kobra\442_equipment\backpack\data\pouches2_co.paa"
         };
     };
     class 9_clone_large_backpack_medic: k_clone_large_backpack_base
@@ -126,7 +126,7 @@ class cfgvehicles
         {
             "kobra\k_equipment_9\backpack\data\large_backpack_medic_co.paa",
             "kobra\442_equipment\backpack\data\cover2_co.paa",
-            "",
+            ""
         };
     };
     class 9_clone_large_backpack_medic_pouch: k_clone_large_backpack_base
@@ -137,7 +137,7 @@ class cfgvehicles
         {
             "kobra\k_equipment_9\backpack\data\large_backpack_medic_co.paa",
             "kobra\442_equipment\backpack\data\cover2_co.paa",
-            "kobra\442_equipment\backpack\data\pouches2_co.paa",
+            "kobra\442_equipment\backpack\data\pouches2_co.paa"
         };
     };
     class 9_clone_large_backpack_eod_pouch: k_clone_large_backpack_base
@@ -148,7 +148,7 @@ class cfgvehicles
         {
             "kobra\k_equipment_9\backpack\data\large_backpack_eod_co.paa",
             "kobra\442_equipment\backpack\data\cover2_co.paa",
-            "kobra\442_equipment\backpack\data\pouches2_co.paa",
+            "kobra\442_equipment\backpack\data\pouches2_co.paa"
         };
     };
 };

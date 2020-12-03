@@ -147,4 +147,44 @@
 			"kobra\k_unit_44\data\armor\undersuit_co.paa",
 		};
 	};
+	class 44_swla_unit_azarael: 44_swla_unit
+	{
+		uniformclass = "44_swla_uniform_azarael";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\k_unit_44\data\custom\azarael\camo1_co.paa",
+			"kobra\k_unit_44\data\custom\azarael\camo2_co.paa",
+			"kobra\k_unit_44\data\armor\undersuit_co.paa",
+		};
+	};
+	class 44_swla_unit_nico: 44_swla_unit
+	{
+		uniformclass = "44_swla_uniform_nico";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\k_unit_44\data\custom\nico\camo1_co.paa",
+			"kobra\k_unit_44\data\custom\nico\camo2_co.paa",
+			"kobra\k_unit_44\data\armor\undersuit_co.paa",
+		};
+	};
+	class 44_swla_unit_sexton: 44_swla_unit
+	{
+		uniformclass = "44_swla_uniform_sexton";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\k_unit_44\data\custom\sexton\camo1_co.paa",
+			"kobra\k_unit_44\data\custom\sexton\camo2_co.paa",
+			"kobra\k_unit_44\data\armor\undersuit_co.paa",
+		};
+	};
+	class 44_swla_unit_steele: 44_swla_unit
+	{
+		uniformclass = "44_swla_uniform_nico";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\k_unit_44\data\custom\steele\camo1_co.paa",
+			"kobra\k_unit_44\data\custom\steele\camo2_co.paa",
+			"kobra\k_unit_44\data\armor\undersuit_co.paa",
+		};
+	};
 	#include "44_unit_loadout.hpp"

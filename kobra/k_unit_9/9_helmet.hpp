@@ -546,7 +546,7 @@
 	};
 	class 9_scout_helmet: k_Scout_Helmet
 	{
-		displayname = "[9/LS] Scout Helmet";
+		displayname = "[9] Scout Helmet";
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;

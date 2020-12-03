@@ -227,6 +227,7 @@ class cfgweapons
 	{
 		author = "KOBRA Mod Team";
 		displayname = "helmet base config";
+		picture = "kobra\kobra_core\kobra.paa";
 		scope = 0;
 		scopecurator = 0;
 		scopearsenal = 0;
@@ -264,7 +265,6 @@ class cfgweapons
 	{
 		displayName="[K] Scout Helmet";
 		model="kobra\442_units\scout_helmet.p3d";
-		picture="";
 		subItems[]=
 		{
 			"k_nvg_ti"
@@ -288,7 +288,6 @@ class cfgweapons
 	{
 		displayName="[K] Hunter Helmet";
 		model="kobra\442_units\hunter_helmet.p3d";
-		picture="";
 		subItems[]=
 		{
 			"k_nvg"
@@ -312,7 +311,6 @@ class cfgweapons
 	{
 		displayName="[K] Crosshair Helmet";
 		model="kobra\442_units\crosshair_helmet.p3d";
-		picture="";
 		subItems[]=
 		{
 			"k_nvg"
@@ -336,7 +334,6 @@ class cfgweapons
 	{
 		displayName="[K] Wrecker Helmet";
 		model="kobra\442_units\wrecker_helmet.p3d";
-		picture="";
 		subItems[]=
 		{
 			"k_nvg"
@@ -360,7 +357,6 @@ class cfgweapons
 	{
 		displayName="[K] Tech Helmet";
 		model="kobra\442_units\tech_helmet.p3d";
-		picture="";
 		subItems[]=
 		{
 			"k_nvg"
@@ -382,7 +378,6 @@ class cfgweapons
 	{
 		displayName="[K] Cadet Helmet";
 		model="kobra\442_units\cadet_helmet.p3d";
-		picture="";
 		subItems[]=
 		{
 			"k_nvg"
@@ -406,7 +401,6 @@ class cfgweapons
 	{
 		displayName="[K] Desert Helmet";
 		model="kobra\442_units\desert_helmet.p3d";
-		picture="";
 		subItems[]=
 		{
 			"k_nvg"

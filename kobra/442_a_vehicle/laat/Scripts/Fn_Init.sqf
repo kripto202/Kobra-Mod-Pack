@@ -1,4 +1,4 @@
 
 if isDedicated exitWith {};
 
-0 = [] execVM "442_laat_2\Scripts\Keys.sqf";
+0 = [] execVM "kobra\442_a_vehicle\laat\Scripts\Keys.sqf";

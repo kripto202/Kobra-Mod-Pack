@@ -15,7 +15,6 @@
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
-        picture = "\kobra\442_units\data\ui\scout_helmet.paa";
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\helmet\hunter_helmet\camo1_co.paa",
@@ -27,7 +26,6 @@
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
-        picture = "\kobra\442_units\data\ui\scout_helmet.paa";
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\helmet\crosshair_helmet\camo1_co.paa",
@@ -39,7 +37,6 @@
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
-        picture = "\kobra\442_units\data\ui\scout_helmet.paa";
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\helmet\wrecker_helmet\camo1_co.paa",
@@ -51,7 +48,6 @@
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
-        picture = "\kobra\442_units\data\ui\scout_helmet.paa";
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\helmet\tech_helmet\camo1_co.paa"
@@ -62,7 +58,6 @@
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
-        picture = "\kobra\442_units\data\ui\scout_helmet.paa";
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\helmet\cadet_helmet\camo1_co.paa",
@@ -75,7 +70,6 @@
         scopecurator = 2;
         scopearsenal = 2;
         displayname = "[K] Desert Helmet";
-        picture = "\kobra\442_units\data\ui\scout_helmet.paa";
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\helmet\desert_helmet\camo1_co.paa",
