@@ -418,3 +418,13 @@
 			"kobra\k_unit_ls\data\helmet\p1_helmet\illum_co.paa"
 		};
 	};
+	class 44_p1_pilot_helmet_euda: 44_p1_pilot_helmet
+	{
+		displayname = "[44/LS] P1 Pilot Helmet (Euda)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\k_unit_44\data\custom\euda\p1_pilot_camo1_co.paa",
+			"kobra\k_unit_44\data\helmets\44_p1_pilot_lifesupport_co.paa",
+			"kobra\k_unit_ls\data\helmet\p1_pilot_helmet\visor_co.paa"
+		};
+	};

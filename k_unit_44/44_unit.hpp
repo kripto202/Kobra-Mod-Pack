@@ -179,11 +179,21 @@
 	};
 	class 44_swla_unit_steele: 44_swla_unit
 	{
-		uniformclass = "44_swla_uniform_nico";
+		uniformclass = "44_swla_uniform_steele";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\custom\steele\camo1_co.paa",
 			"kobra\k_unit_44\data\custom\steele\camo2_co.paa",
+			"kobra\k_unit_44\data\armor\undersuit_co.paa",
+		};
+	};
+	class 44_swla_unit_euda: 44_swla_unit
+	{
+		uniformclass = "44_swla_uniform_euda";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\k_unit_44\data\custom\euda\camo1_co.paa",
+			"kobra\k_unit_44\data\custom\euda\camo2_co.paa",
 			"kobra\k_unit_44\data\armor\undersuit_co.paa",
 		};
 	};

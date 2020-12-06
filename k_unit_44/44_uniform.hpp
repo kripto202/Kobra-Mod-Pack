@@ -117,3 +117,11 @@
 			uniformClass="44_swla_unit_steele";
 		};
 	};
+	class 44_swla_uniform_euda: 44_swla_uniform
+	{
+		displayname = "[44/LS] Clone Trooper Uniform (Euda)";
+		class iteminfo: iteminfo
+		{
+			uniformClass="44_swla_unit_euda";
+		};
+	};

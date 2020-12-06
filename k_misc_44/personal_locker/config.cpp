@@ -19,7 +19,8 @@ class cfgpatches
             "44_personal_locker_monty",
             "44_personal_locker_nico",
             "44_personal_locker_sexton",
-            "44_personal_locker_steele"
+            "44_personal_locker_steele",
+            "44_personal_locker_euda"
         };
         weapons[] = {};
     };
@@ -195,6 +196,23 @@ class cfgvehicles
         {
             {
                 "k_headgear_44_steele",
+                "helmet"
+            }
+        };
+    };
+    class 44_personal_locker_euda: k_personal_locker
+    {
+        displayname = "Personal Locker (Euda)";
+        hiddenselectionstextures[]=
+		{
+			"kobra\k_misc_44\personal_locker\data\44_body_co.paa",
+			"kobra\k_misc_44\personal_locker\data\screen_euda_co.paa",
+			"kobra\k_misc_44\personal_locker\data\picture_euda_co.paa"
+		};
+        multistructureparts[] = 
+        {
+            {
+                "k_headgear_44_euda",
                 "helmet"
             }
         };

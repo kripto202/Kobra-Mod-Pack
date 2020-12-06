@@ -322,3 +322,27 @@
             };
         };
     };
+    class k_headgear_44_delta: k_headgear_p2
+    {
+        displayname = "[44/LS] P2 Pilot Helmet (Delta)";
+        class transportItems
+        {
+            class helmet
+            {
+                name = "44_p2_pilot_helmet_delta";
+                count = 1;
+            };
+        };
+    };
+    class k_headgear_44_euda: k_headgear_p2
+    {
+        displayname = "[44/LS] P1 Pilot Helmet (Euda)";
+        class transportItems
+        {
+            class helmet
+            {
+                name = "44_p1_pilot_helmet_euda";
+                count = 1;
+            };
+        };
+    };
