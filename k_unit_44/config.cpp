@@ -155,5 +155,5 @@ class cfgweapons
     class V_rebreatherB;
     #include "44_uniform.hpp"
     #include "44_helmet.hpp"
-    #include "44_vest.hpp"
+    //#include "44_vest.hpp"
 };
