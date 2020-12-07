@@ -39,6 +39,22 @@ class cfgvehicles
 		armor=10;
 		transportFuel = 600;
 		destrType="DestructBuilding";
+		ace_cargo_size = 1;
+		ace_cargo_canload = 1;
+		ace_dragging_can_drag = 1;
+		ace_dragging_dragPosition[] = {0, 1.2, 0};
+		ace_dragging_dragDirection = 0;
+		ace_dragging_canCarry = 1;
+		ace_dragging_carryPosition[] = {0, 1.2, 0};
+		ace_dragging_carryDirection = 0;
+		ace_interaction_bodyWidth=3;
+		slingLoadCargoMemoryPoints[]=
+		{
+			"SlingLoadCargo1",
+			"SlingLoadCargo2",
+			"SlingLoadCargo3",
+			"SlingLoadCargo4"
+		};
 		class DestructionEffects
 		{
 			class HouseDestr
