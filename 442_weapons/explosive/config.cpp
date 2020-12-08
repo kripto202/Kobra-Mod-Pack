@@ -33,7 +33,7 @@ class cfgammo
     class 442_thermal_det: GrenadeHand
     {
         author = "KOBRA Mod Team";
-        picture = "";
+        picture = "kobra\kobra_core\kobra.paa";
         hit = 30;
         indirectHit = 20;
         indirectHitRange = 10;
@@ -86,7 +86,7 @@ class cfgammo
     class 442_impact: G_40mm_HE
     {
         author = "KOBRA Mod Team";
-        picture = "";
+        picture = "kobra\kobra_core\kobra.paa";
         hit = 15;
         indirectHit = 8;
         indirectHitRange = 8;
@@ -112,7 +112,7 @@ class cfgmagazines
         scope = 2;
         value = 1;
         displayName = "[K] Thermal Det";
-        picture = "";
+        picture = "kobra\kobra_core\kobra.paa";
         model = "kobra\442_weapons\explosive\thermal_det.p3d";
         type = 256;
         ammo = "442_thermal_det";
@@ -131,7 +131,7 @@ class cfgmagazines
         scope = 2;
         value = 1;
         displayName = "[K] Impact Grenade";
-        picture = "";
+        picture = "kobra\kobra_core\kobra.paa";
         model = "kobra\442_weapons\explosive\impact_grenade.p3d";
         type = 256;
         ammo = "442_impact";
@@ -158,7 +158,7 @@ class cfgweapons
 		class 442_thermal_det_muzzle: GrenadeLauncher
 		{
 			displayName = "Thermal Det";
-			picture = "";
+			picture = "kobra\kobra_core\kobra.paa";
 			aidispersioncoefx = 6;
 			aidispersioncoefy = 6;
 			autoreload = 1;
