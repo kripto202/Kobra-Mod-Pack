@@ -586,4 +586,21 @@ class cfgvehicles
 			};
 		};
 	};
+	class 442_box11: 442_box2
+	{
+		displayname = "Box 11";
+		model = "kobra\442_misc\box\box11.p3d";
+		ace_cargo_size = 2;
+		ace_cargo_canload = 1;
+		ace_dragging_can_drag = 0;
+		ace_dragging_dragPosition[] = {0, 1.2, 0};
+		ace_dragging_dragDirection = 0;
+		ace_dragging_canCarry = 0;
+		ace_dragging_carryPosition[] = {0, 1.2, 0};
+		ace_dragging_carryDirection = 0;
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_misc\box\data\box11_co.paa"
+		};
+	};
 };
