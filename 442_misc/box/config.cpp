@@ -11,6 +11,7 @@ class cfgpatches
 		units[] = 
         {
             "442_box",
+            "442_box1",
             "442_box2",
             "442_box4",
             "442_box5_1",
@@ -129,6 +130,41 @@ class cfgvehicles
 				count = 2;
 			};
 		};
+	};
+	class 442_box1: 442_box
+	{
+		displayname = "Box 1";
+		model = "\kobra\442_misc\box\box1.p3d";
+		ace_cargo_size = 2;
+		ace_cargo_canload = 1;
+		ace_dragging_can_drag = 0;
+		ace_dragging_dragPosition[] = {0, 1.2, 0};
+		ace_dragging_dragDirection = 0;
+		ace_dragging_canCarry = 0;
+		ace_dragging_carryPosition[] = {0, 1.2, 0};
+		ace_dragging_carryDirection = 0;
+		ace_rearm_defaultSupply = 1200;
+		supplyRadius = 10;
+		hiddenselections[] = 
+		{
+			"box",
+			"lights"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_misc\box\data\box1_co.paa",
+			"kobra\442_misc\box\data\box1_lights_co.paa",
+		};
+		slingLoadCargoMemoryPoints[]=
+		{
+			"CargoSling1",
+			"CargoSling2",
+			"CargoSling3",
+			"CargoSling4"
+		};
+		class transportItems{};
+		class transportWeapons{};
+		class transportMagazines{};
 	};
 	class 442_box2: 442_box
 	{
