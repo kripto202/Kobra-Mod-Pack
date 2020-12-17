@@ -38,14 +38,14 @@ class cfgvehicles
     class B_Kitbag_rgr;
     class O_officer_F;
     class B_Soldier_02_f;
-    class 442_swla_unit_base: B_Soldier_02_f
+    class 442_unit_base: B_Soldier_02_f
 	{
 		scope=1;
 		scopeCurator=1;
 		scopeArsenal=1;
 		model = "";
 		editorPreview="";
-		picture = ""; //this needs to be changed
+		picture = "kobra\kobra_core\kobra.paa"; //this needs to be changed
 		//icon = "kobra_core\icons\data\icon_rifleman.paa";
 		identityTypes[]=
 		{
@@ -153,6 +153,7 @@ class cfgvehicles
 			"ItemWatch"
 		};
 	};
+	#include "unit.hpp"
 };
 class cfgweapons 
 {
@@ -163,14 +164,14 @@ class cfgweapons
     class vestitem;
 	class V_rebreatherB;
 	class U_O_OfficerUniform_ocamo;
-    class 442_swla_uniform_base: U_I_CombatUniform
+    class 442_uniform_base: U_I_CombatUniform
 	{
 		displayname="Clone Trooper Armor";
 		author = "KOBRA Mod Team";
 		scope=0;
 		scopeCurator=0;
 		scopeArsenal=0;
-		picture = "";
+		picture = "kobra\kobra_core\kobra.paa";
 		model=""; //model for the ground
 		class ItemInfo: UniformItem
 		{
@@ -438,5 +439,6 @@ class cfgweapons
 		};
 	};
     #include "helmet.hpp"
-
+	#include "uniform.hpp"
+	#include "vest.hpp"
 };
