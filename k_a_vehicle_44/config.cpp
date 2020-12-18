@@ -11,7 +11,11 @@ class cfgpatches
         units[] = 
         {
             "442_laat_44",
-            "442_laat_44_ab"
+            "442_laat_44_ab",
+			"442_laat_44_delta",
+			"442_laat_44_ab_delta",
+			"442_laat_44_euda",
+			"442_laat_44_ab_euda"
         };
         weapons[] = {};
     };
@@ -91,4 +95,72 @@ class cfgvehicles
 			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
         };
     };
+
+////////////delta/////////////
+	class 442_laat_44_delta: 442_laat_44
+	{
+		displayname = "LAAT (Delta)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\k_a_vehicle_44\data\laat\body_1_Delta_co.paa",
+            "kobra\442_a_vehicle\laat\data\body_2_co.paa",
+			"kobra\k_a_vehicle_44\data\laat\door_1_co.paa",
+			"kobra\k_a_vehicle_44\data\laat\door_2_co.paa",
+			"kobra\k_a_vehicle_44\data\laat\door_3_co.paa",
+			"kobra\k_a_vehicle_44\data\laat\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+	class 442_laat_44_ab_delta: 442_laat_44_ab
+	{
+		displayname = "LAAT AB (Delta)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\k_a_vehicle_44\data\laat\body_1_Delta_co.paa",
+            "kobra\442_a_vehicle\laat\data\body_2_co.paa",
+			"kobra\k_a_vehicle_44\data\laat\door_1_co.paa",
+			"kobra\k_a_vehicle_44\data\laat\door_2_co.paa",
+			"kobra\k_a_vehicle_44\data\laat\door_3_co.paa",
+			"kobra\k_a_vehicle_44\data\laat\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+
+////////////euda//////////////
+	class 442_laat_44_euda: 442_laat_44
+	{
+		displayname = "LAAT (Euda)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\k_a_vehicle_44\data\laat\body_1_euda_co.paa",
+            "kobra\442_a_vehicle\laat\data\body_2_co.paa",
+			"kobra\k_a_vehicle_44\data\laat\door_1_co.paa",
+			"kobra\k_a_vehicle_44\data\laat\door_2_co.paa",
+			"kobra\k_a_vehicle_44\data\laat\door_3_co.paa",
+			"kobra\k_a_vehicle_44\data\laat\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+	class 442_laat_44_ab_euda: 442_laat_44_ab
+	{
+		displayname = "LAAT AB (Euda)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\k_a_vehicle_44\data\laat\body_1_euda_co.paa",
+            "kobra\442_a_vehicle\laat\data\body_2_co.paa",
+			"kobra\k_a_vehicle_44\data\laat\door_1_co.paa",
+			"kobra\k_a_vehicle_44\data\laat\door_2_co.paa",
+			"kobra\k_a_vehicle_44\data\laat\door_3_co.paa",
+			"kobra\k_a_vehicle_44\data\laat\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
 };
