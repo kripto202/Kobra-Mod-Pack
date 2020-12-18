@@ -99,7 +99,7 @@ class cfgvehicles
 ////////////delta/////////////
 	class 442_laat_44_delta: 442_laat_44
 	{
-		displayname = "LAAT (Delta)";
+		displayname = "LAAT/I Gunship (Delta)";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_a_vehicle_44\data\laat\body_1_Delta_co.paa",
@@ -115,7 +115,7 @@ class cfgvehicles
 	};
 	class 442_laat_44_ab_delta: 442_laat_44_ab
 	{
-		displayname = "LAAT AB (Delta)";
+		displayname = "LAAT/I Gunship (Airborne (Delta))";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_a_vehicle_44\data\laat\body_1_Delta_co.paa",
@@ -133,7 +133,7 @@ class cfgvehicles
 ////////////euda//////////////
 	class 442_laat_44_euda: 442_laat_44
 	{
-		displayname = "LAAT (Euda)";
+		displayname = "LAAT/I Gunship (Euda)";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_a_vehicle_44\data\laat\body_1_euda_co.paa",
@@ -149,7 +149,7 @@ class cfgvehicles
 	};
 	class 442_laat_44_ab_euda: 442_laat_44_ab
 	{
-		displayname = "LAAT AB (Euda)";
+		displayname = "LAAT/I Gunship (Airborne (Euda))";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_a_vehicle_44\data\laat\body_1_euda_co.paa",
