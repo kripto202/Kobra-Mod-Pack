@@ -10,7 +10,8 @@ class cfgpatches
 		requiredVersion = 0.1;
 		units[] = 
         {
-            "442_first_shot"
+            "442_first_shot",
+			"442_bottle1"
         };
         weapons[] = {};
     };
@@ -52,6 +53,15 @@ class cfgvehicles
 		hiddenselectionstextures[]=
 		{
 			"kobra\442_misc\bottle\data\firstshot_co.paa"
+		};
+	};
+	class 442_bottle1: 442_first_shot
+	{
+		displayName="Bottle 1";
+		model="kobra\442_misc\bottle\bottle1.p3d";
+		hiddenselectionstextures[]=
+		{
+			"kobra\442_misc\bottle\data\bottle1_co.paa"
 		};
 	};
 };

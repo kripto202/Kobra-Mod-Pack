@@ -489,7 +489,7 @@ class cfgvehicles
 		class transportItems {};
 		class transportMagazines
 		{
-			class	442_762_30rnd_blue_mag
+			class 442_762_30rnd_blue_mag
 			{
 				magazine = "442_762_30rnd_blue_mag";
 				count = 30;
