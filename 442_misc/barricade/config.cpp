@@ -18,6 +18,7 @@ class cfgpatches
 			"442_barricade3",
 			"442_barricade4",
 			"442_barricade5",
+			"442_barricade6",
         };
         weapons[] = {};
     };
@@ -102,6 +103,15 @@ class cfgvehicles
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_misc\barricade\data\barricade5_co.paa"
+		};
+	};
+	class 442_barricade6: 442_barricade1
+	{
+		displayname = "Barricade 6";
+		model="\kobra\442_misc\barricade\barricade6.p3d";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_misc\barricade\data\barricade6_co.paa"
 		};
 	};
 };
