@@ -656,8 +656,7 @@ class cfgweapons
 		hiddenSelections[]=
 		{
 			"camo1",
-			"camo2",
-			"sight"
+			"camo2"
 		};
 		hiddenSelectionsTextures[] = {"\SWLW_clones\rifles\dc15a\data\DC15A_co.paa","\SWLW_clones\rifles\dc15a\data\DC15A_ugl_co.paa"};
 		class 442_MC: Rifle_Base_F

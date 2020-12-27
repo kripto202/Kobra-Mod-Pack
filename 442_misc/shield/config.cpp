@@ -47,7 +47,7 @@ class cfgvehicles
         displayName = "Energy Shield (100x100)";
         model = "kobra\442_misc\shield\100x100.p3d";
         editorcategory = "kobra";
-        editorsubcategory = "442_item";
+        editorsubcategory = "442_energy_shield";
         armor = 100000000000000;
         vehicleClass = "Structures";
         destrtype = "DestructNo";
@@ -99,6 +99,7 @@ class cfgvehicles
     {
         displayName = "Ray Shield (100x100)";
         model = "kobra\442_misc\shield\100x100_r.p3d";
+		editorsubcategory = "442_ray_shield";
         hiddenselectionstextures[] = 
         {
             "kobra\442_misc\shield\data\camo1_red_ca.paa"

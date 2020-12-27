@@ -33,7 +33,7 @@ class cfgvehicles
 		model="\kobra\442_misc\barricade\barricade1.p3d";
 		destrType="DestructNo";
 		editorcategory="kobra";
-		editorsubcategory="442_item";
+		editorsubcategory="442_barricade";
 		scope=2;
 		scopecurator=2;
 		hiddenselections[] = 

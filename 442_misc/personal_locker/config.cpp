@@ -27,7 +27,7 @@ class cfgvehicles
 		displayName="Personal Locker";
 		model="\kobra\442_misc\personal_locker\personal_locker.p3d";
 		editorcategory="kobra";
-		editorsubcategory="442_item";
+		editorsubcategory="442_locker";
 		vehicleClass="Structures";
 		hiddenselections[]=
 		{

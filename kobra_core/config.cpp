@@ -158,6 +158,7 @@ class cfgeditorcategories
 };
 class CfgEditorSubcategories
 {
+////////units////////
 	class 442_trooper
 	{
 		displayname = "Trooper";
@@ -165,62 +166,6 @@ class CfgEditorSubcategories
 	class 442_trooper_custom
 	{
 		displayname = "Trooper (Custom)";
-	};
-	class 442_helmets
-	{
-		displayname = "Helmets";
-	};
-	class 442_droid_head
-	{
-		displayname = "Droid Head";
-	};
-	class 442_weapon
-	{
-		displayname = "Weapons";
-	};
-	class 442_planes
-	{
-		displayname = "Aircraft";
-	};
-	class 442_boat
-	{
-		displayname = "Boat";
-	};
-    class 442_argon
-    {
-        displayname = "Argon-class trucks";
-    };
-	class 442_item
-	{
-		displayname = "Items";
-	};
-	class 442_hallway
-	{
-		displayname = "Hallway";
-	};
-	class 442_item_small
-	{
-		displayname = "Items (Small)";
-	};
-	class 442_holograms
-	{
-		displayname = "Holograms";
-	};
-	class 442_armor
-	{
-		displayname = "Armor";
-	};
-	class 442_g_vehicle
-	{
-		displayname = "Vehicle";
-	};
-	class 442_ships
-	{
-		displayname = "Static Ship";
-	};
-	class 442_ships_parts
-	{
-		displayname = "Static Ship Parts";
 	};
 	class 442_battledroid_inf
 	{
@@ -242,6 +187,62 @@ class CfgEditorSubcategories
 	{
 		displayname = "Battledroid (Geonosis)";
 	};
+////////placeable helmets///////////
+	class 442_helmets
+	{
+		displayname = "Helmets";
+	};
+	class 442_droid_head
+	{
+		displayname = "Droid Head";
+	};
+/////////weapons///////////
+	class 442_weapon
+	{
+		displayname = "Weapons";
+	};
+////////vehicles///////////
+	class 442_planes
+	{
+		displayname = "Aircraft";
+	};
+	class 442_boat
+	{
+		displayname = "Boat";
+	};
+    class 442_argon
+    {
+        displayname = "Argon-class trucks";
+    };
+	class 442_armor
+	{
+		displayname = "Armor";
+	};
+	class 442_g_vehicle
+	{
+		displayname = "Vehicle";
+	};
+//////////misc/////////
+	class 442_item
+	{
+		displayname = "Items";
+	};
+	class 442_hallway
+	{
+		displayname = "Hallway";
+	};
+	class 442_item_small
+	{
+		displayname = "Items (Small)";
+	};
+	class 442_holograms
+	{
+		displayname = "Holograms";
+	};
+	class 442_supplies
+	{
+		displayname = "Supplies";
+	};
 	class 442_wrecks
 	{
 		displayname = "Wrecks";
@@ -254,9 +255,38 @@ class CfgEditorSubcategories
 	{
 		displayname = "Data Pad";
 	};
-	class 442_supplies
+	class 442_barricade
 	{
-		displayname = "Supplies";
+		displayname = "Barricade";
+	};
+	class 442_energy_shield
+	{
+		displayname = "Energy Sields";
+	};
+	class 442_ray_shield
+	{
+		displayname = "Ray Sields";
+	};
+	class 442_locker
+	{
+		Displayname = "Personal Lockers";
+	};
+	class 442_platform
+	{
+		displayname = "Platforms";
+	};
+	class 442_terminal
+	{
+		displayname = "Terminals";
+	};
+/////////star ships///////////
+	class 442_ships
+	{
+		displayname = "Static Ship";
+	};
+	class 442_ships_parts
+	{
+		displayname = "Static Ship Parts";
 	};
 };
 

@@ -32,7 +32,7 @@ class cfgvehicles
 		displayName="Platform (5x5)";
 		model="\kobra\442_structures\platforms\5x5.p3d";
 		editorcategory="kobra";
-		editorsubcategory="442_item";
+		editorsubcategory="442_Platforms";
 		vehicleClass="Structures";
 		hiddenselections[]=
 		{

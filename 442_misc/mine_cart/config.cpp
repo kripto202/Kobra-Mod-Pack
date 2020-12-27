@@ -37,5 +37,13 @@ class cfgvehicles
 		{
 			"kobra\442_misc\mine_cart\data\mining_cart_co.paa"
 		};
+		ace_cargo_size = 1;
+		ace_cargo_canload = 1;
+		ace_dragging_can_drag = 0;
+		ace_dragging_dragPosition[] = {0, 1.2, 0};
+		ace_dragging_dragDirection = 0;
+		ace_dragging_canCarry = 1;
+		ace_dragging_carryPosition[] = {0, 2, 0};
+		ace_dragging_carryDirection = 0;
 	};
 };
