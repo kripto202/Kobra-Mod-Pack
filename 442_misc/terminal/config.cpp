@@ -31,12 +31,57 @@ class cfgvehicles
 		hiddenselections[] = 
 		{
 			"camo1",
-			"screen"
+			"screens"
 		};
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_misc\terminal\data\terminal1_co.paa",
 			"kobra\442_misc\terminal\data\terminal1_screen_co.paa",
+		};
+	};
+	class 442_terminal2: 442_terminal1
+	{
+		displayname = "Terminal 2";
+		model="\kobra\442_misc\terminal\terminal2.p3d";
+		hiddenselections[] = 
+		{
+			"camo1",
+			"screens"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_misc\terminal\data\terminal2_co.paa",
+			"kobra\442_misc\terminal\data\terminal2_screen_co.paa",
+		};
+	};
+	class 442_terminal3: 442_terminal1
+	{
+		displayname = "Terminal 3";
+		model="\kobra\442_misc\terminal\terminal3.p3d";
+		hiddenselections[] = 
+		{
+			"camo1",
+			"screens"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_misc\terminal\data\terminal3_co.paa",
+			"kobra\442_misc\terminal\data\terminal3_screen_co.paa",
+		};
+	};
+	class 442_terminal4: 442_terminal1
+	{
+		displayname = "Terminal 4";
+		model="\kobra\442_misc\terminal\terminal4.p3d";
+		hiddenselections[] = 
+		{
+			"camo1",
+			"lights"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_misc\terminal\data\terminal4_co.paa",
+			"kobra\442_misc\terminal\data\terminal4_lights_co.paa",
 		};
 	};
 };

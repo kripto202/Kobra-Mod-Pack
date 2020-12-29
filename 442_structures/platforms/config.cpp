@@ -31,6 +31,7 @@ class cfgvehicles
 		author = "Kobra Mod Team";
 		displayName="Platform (5x5)";
 		model="\kobra\442_structures\platforms\5x5.p3d";
+		destrType="DestructNo";
 		editorcategory="kobra";
 		editorsubcategory="442_Platforms";
 		vehicleClass="Structures";
