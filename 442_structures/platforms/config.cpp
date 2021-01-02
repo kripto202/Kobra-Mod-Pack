@@ -33,7 +33,7 @@ class cfgvehicles
 		model="\kobra\442_structures\platforms\5x5.p3d";
 		destrType="DestructNo";
 		editorcategory="kobra";
-		editorsubcategory="442_Platforms";
+		editorsubcategory="442_platforms";
 		vehicleClass="Structures";
 		hiddenselections[]=
 		{

@@ -148,7 +148,7 @@ class cfgvehicles
 		author = "KOBRA Mod Team";
 		displayname = "Quasar Hanger Shield";
 		editorcategory = "kobra";
-        editorsubcategory = "442_item";
+        editorsubcategory = "442_energy_shield";
         armor = 100000000000000;
         vehicleClass = "Structures";
         destrtype = "DestructNo";
@@ -190,7 +190,7 @@ class cfgvehicles
 		displayname="quasar shield piece 1";
 		editorpreview="";
 		editorcategory="kobra";
-		editorsubcategory="442_item";
+		editorsubcategory = "442_energy_shield";
 		vehicleClass="Structures_Military";
 		icon="iconObject_1x1";
 		mapsize=70;

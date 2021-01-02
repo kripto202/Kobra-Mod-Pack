@@ -279,6 +279,10 @@ class CfgEditorSubcategories
 	{
 		displayname = "Terminals";
 	};
+	class 442_platforms
+	{
+		displayname = "Platforms";
+	};
 /////////star ships///////////
 	class 442_ships
 	{
