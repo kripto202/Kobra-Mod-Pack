@@ -10,7 +10,8 @@ class cfgpatches
 		requiredVersion = 0.1;
 		units[] = 
         {
-            "k_barracks_unit"
+            "k_barracks_unit",
+			"k_scout_unit"
         };
         weapons[] = 
         {
@@ -29,6 +30,38 @@ class cfgpatches
             "k_tech_helmet_base",
             "k_cadet_helmet_base",
             "k_desert_helmet_base",
+			"k_scout_helmet_dukas",
+			"k_scout_helmet_camo",
+			"k_scout_helmet_artic",
+			"k_scout_helmet_desert",
+			"k_scout_helmet_jungle",
+
+			"k_scout_pouches_base",
+			"k_scout_pouches_light",
+			"k_scout_pouches_medium",
+			"k_scout_pouches_heavy",
+			"k_scout_pouches_light_dukas",
+			"k_scout_pouches_light_camo",
+			"k_scout_pouches_light_artic",
+			"k_scout_pouches_light_jungle",
+			"k_scout_pouches_light_desert",
+			"k_scout_pouches_medium_dukas",
+			"k_scout_pouches_medium_camo",
+			"k_scout_pouches_medium_artic",
+			"k_scout_pouches_medium_jungle",
+			"k_scout_pouches_medium_desert",
+			"k_scout_pouches_heavy_dukas",
+			"k_scout_pouches_heavy_camo",
+			"k_scout_pouches_heavy_artic",
+			"k_scout_pouches_heavy_jungle",
+			"k_scout_pouches_heavy_desert",
+
+			"k_scout_uniform",
+			"k_scout_uniform_dukas",
+			"k_scout_uniform_camo",
+			"k_scout_uniform_artic",
+			"k_scout_uniform_desert",
+			"k_scout_uniform_jungle"
         };
     };
 };
@@ -172,6 +205,7 @@ class cfgweapons
 		scopeCurator=0;
 		scopeArsenal=0;
 		picture = "kobra\kobra_core\kobra.paa";
+		icon = "kobra\kobra_core\kobra.paa";
 		model=""; //model for the ground
 		class ItemInfo: UniformItem
 		{
@@ -206,7 +240,8 @@ class cfgweapons
         scopecurator = 0;
         scopearsenal = 0;
         allowedSlots[] = {901};
-        picture = "";
+        picture = "kobra\kobra_core\kobra.paa";
+		icon = "kobra\kobra_core\kobra.paa";
         class ItemInfo: vestitem
         {
             uniformmodel = "";
@@ -246,6 +281,7 @@ class cfgweapons
 		author = "KOBRA Mod Team";
 		displayname = "helmet base config";
 		picture = "kobra\kobra_core\kobra.paa";
+		icon = "kobra\kobra_core\kobra.paa";
 		scope = 0;
 		scopecurator = 0;
 		scopearsenal = 0;
