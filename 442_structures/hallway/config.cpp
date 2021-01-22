@@ -29,7 +29,8 @@ class cfgpatches
             "442_corner_rep",
             "442_corner_rep_r",
             "442_ramp_rep",
-            "442_ramp_rep_r"
+            "442_ramp_rep_r",
+			"442_10x10floor"
         };
         weapons[] = {};
     };
@@ -683,6 +684,19 @@ class cfgvehicles
 			"kobra\442_structures\hallway\data\ramp_co.paa",
 			"kobra\442_structures\hallway\data\segment_co.paa",
 			"kobra\442_structures\hallway\data\light_2_co.paa"
+		};
+	};
+	class 442_10x10floor: 442_floor
+	{
+		displayname = "10x10 Floor";
+		model = "kobra\442_structures\hallway\10x10_floor.p3d";
+		hiddenselections[] = 
+		{
+			"camo1"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_structures\hallway\data\10x10_floor_co.paa"
 		};
 	};
 };
