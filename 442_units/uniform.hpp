@@ -12,6 +12,20 @@
             uniformclass = "k_scout_unit";
         };
     };
+    class k_clone_uniform: 442_uniform_base
+    {
+        displayname = "[K] Clone Trooper Armor";
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
+        model = "kobra\442_units\clone_uniform.p3d";
+        class ItemInfo: Iteminfo
+        {
+            ContainerClass = "Supply150";
+            mass = 20;
+            uniformclass = "k_clone_unit";
+        };
+    };
 
 /////////designs//////////
     class k_scout_uniform_dukas: k_scout_uniform

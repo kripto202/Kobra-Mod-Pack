@@ -18,6 +18,26 @@
             "kobra\442_units\data\uniform\scout_uniform\undersuit_co.paa"
         };
     };
+    class k_clone_unit: 442_unit_base
+    {
+        displayname = "Clone Trooper";
+        model = "kobra\442_units\clone_uniform.p3d";
+        uniformclass = "k_clone_uniform";
+        faction = "kobra_b";
+        editorSubCategory = "442_trooper";
+        hiddenselections[] = 
+        {
+            "upper",
+            "lower",
+            "undersuit"
+        };
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\uniform\clone_uniform\upper_armor_co.paa",
+            "kobra\442_units\data\uniform\clone_uniform\lower_armor_co.paa",
+            "kobra\442_units\data\uniform\clone_uniform\undersuit_co.paa"
+        };
+    };
 
 ////////////designs/////////////
     class k_scout_unit_dukas: k_scout_unit
