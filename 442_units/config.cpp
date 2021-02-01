@@ -11,6 +11,7 @@ class cfgpatches
 		units[] = 
         {
             "k_barracks_unit",
+			"k_scout_unit",
 			"k_scout_unit"
         };
         weapons[] = 
@@ -57,6 +58,7 @@ class cfgpatches
 			"k_scout_pouches_heavy_desert",
 
 			"k_scout_uniform",
+			"k_clone_uniform",
 			"k_scout_uniform_dukas",
 			"k_scout_uniform_camo",
 			"k_scout_uniform_artic",

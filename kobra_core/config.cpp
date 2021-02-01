@@ -126,30 +126,30 @@ class cfgFactionClasses
 	};
 	class kobra_b
 	{
-		displayname = "[K] Kobra (Blufor)";
+		displayname = "[K] Kobra";
 		priority = 1;
 		side = 1;
 	};
 	class kobra_o
 	{
-		displayname = "[K] Kobra (Opfor)";
+		displayname = "[K] Kobra";
 		priority = 1;
 		side = 0;
 	};
 	class kobra_i
 	{
-		displayname = "[K] Kobra (Independent)";
+		displayname = "[K] Kobra";
 		priority = 1;
 		side = 2;
 	};
 	class kobra_c
 	{
-		displayname = "[K] Kobra (Civilian)";
+		displayname = "[K] Kobra";
 		priority = 1;
 		side = 3;
 	};
 };
-class CfgEditorCategories
+class cfgeditorcategories
 {
 	class kobra
 	{
