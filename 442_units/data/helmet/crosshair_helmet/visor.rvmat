@@ -48,7 +48,7 @@ class Stage3
 };
 class Stage4
 {
-	texture=kobra\442_units\data\helmet\crosshair_helmet\visor_as.paa;
+	texture="kobra\442_units\data\helmet\crosshair_helmet\visor_as.paa";
 	uvSource="tex";
 	class uvTransform
 	{

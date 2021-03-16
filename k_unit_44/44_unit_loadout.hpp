@@ -1,4 +1,4 @@
-	class 44_swla_unit_dc15a: 44_swla_unit
+	class k_ls_44_unit_dc15a: k_ls_44_unit
 	{
 		scope = 2;
 		scopecurator = 2;
@@ -10,7 +10,7 @@
 		canDeactivateMines="false";
 		linkedItems[] = 
 		{
-			"44_p2_helmet",
+			"k_ls_44_p2_helmet",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -19,7 +19,7 @@
 		};
 		respawnlinkedItems[] = 
 		{
-			"44_p2_helmet",
+			"k_ls_44_p2_helmet",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -119,7 +119,7 @@
             "ACE_quikclot",
         };
 	};
-	class 44_swla_unit_dc15s: 44_swla_unit_dc15a
+	class k_ls_44_unit_dc15s: k_ls_44_unit_dc15a
 	{
 		displayname = "Trooper (DC-15S)";
 		weapons[] = 
@@ -169,12 +169,12 @@
 			"smokeShell",
 		};
 	};
-	class 44_swla_unit_medic: 44_swla_unit_dc15s
+	class k_ls_44_unit_medic: k_ls_44_unit_dc15s
 	{
 		displayname = "Trooper (Medic)";
 		attendant = 1;
 	};
-	class 44_swla_unit_engineer: 44_swla_unit_dc15s
+	class k_ls_44_unit_engineer: k_ls_44_unit_dc15s
 	{
 		displayname = "Trooper (Engineer)";
 		engineer = 1;

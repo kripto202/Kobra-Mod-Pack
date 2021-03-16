@@ -1,5 +1,5 @@
 	class VestItem;
-	class 44_swla_vest_base: V_rebreatherB
+	class k_ls_44_vest_base: V_rebreatherB
 	{
 		author = "Kobra Mod Team";
 		displayname = "[44/LS] Clone trooper vest";
@@ -42,7 +42,7 @@
 			};
 		};
 	};
-	class 44_swla_airborne_vest_base: 44_swla_vest_base
+	class k_ls_44_airborne_vest_base: k_ls_44_vest_base
 	{
 		displayname = "[44/LS] Clone trooper airborne vest";
 		picture="kobra\kobra_core\kobra.paa";
@@ -68,7 +68,7 @@
 			};
 		};
 	};
-	class 44_swla_medic_vest_base: 44_swla_vest_base
+	class k_ls_44_medic_vest_base: k_ls_44_vest_base
 	{
 		displayName = "[44/LS] Clone trooper medic vest";
 		picture="kobra\kobra_core\kobra.paa";
@@ -88,7 +88,7 @@
 			};
 		};
 	};
-	class 44_swla_cfr_vest_base: 44_swla_vest_base
+	class k_ls_44_cfr_vest_base: k_ls_44_vest_base
 	{
 		displayname = "[44/LS] Clone trooper CFR vest";
 		picture="kobra\kobra_core\kobra.paa";
@@ -108,7 +108,7 @@
 			mass = 80;
 		};
 	};
-	class 44_swla_recon_vest_base: 44_swla_vest_base
+	class k_ls_44_recon_vest_base: k_ls_44_vest_base
 	{
 		displayname = "[44/LS] Clone trooper Recon vest";
 		picture="kobra\kobra_core\kobra.paa";
@@ -132,7 +132,7 @@
 			};
 		};
 	};
-	class 44_swla_arc_vest_base: 44_swla_vest_base
+	class k_ls_44_arc_vest_base: k_ls_44_vest_base
 	{
 		displayname = "[44/LS] Clone ARC trooper vest";
 		picture="kobra\kobra_core\kobra.paa";
@@ -178,7 +178,7 @@
 			};
 		};
 	};
-	class 44_swla_assault_vest_base: 44_swla_vest_base
+	class k_ls_44_assault_vest_base: k_ls_44_vest_base
 	{
 		displayName = "[44/LS] Clone trooper assault vest";
 		picture="kobra\kobra_core\kobra.paa";
@@ -199,7 +199,7 @@
 			};
 		};
 	};
-	class 44_swla_grenadier_vest_base: 44_swla_vest_base
+	class k_ls_44_grenadier_vest_base: k_ls_44_vest_base
 	{
 		displayName="[44/LS] Clone trooper grenadier vest";
 		picture="kobra\kobra_core\kobra.paa";
@@ -220,7 +220,7 @@
 			};
 		};
 	};
-	class 44_swla_specialist_vest_base: 44_swla_vest_base
+	class k_ls_44_specialist_vest_base: k_ls_44_vest_base
 	{
 		displayName="[44/LS] Clone trooper specialist vest";
 		picture="kobra\kobra_core\kobra.paa";
@@ -241,7 +241,7 @@
 			};
 		};
 	};
-	class 44_swla_kama_vest_base: 44_swla_vest_base
+	class k_ls_44_kama_vest_base: k_ls_44_vest_base
 	{
 		displayName="[44/LS] Clone trooper kama";
 		picture="kobra\kobra_core\kobra.paa";
@@ -261,9 +261,9 @@
 			};
 		};
 	};
-	class 44_swla_officer_vest_base: 44_swla_vest_base
+	class k_ls_44_officer_vest_base: k_ls_44_vest_base
 	{
-		displayName="Clone trooper officer vest";
+		displayName="[44/LS] Clone trooper officer vest";
 		picture="kobra\kobra_core\kobra.paa";
 		model="\SWLB_clones\SWLB_clone_officer_armor.p3d";
 		hiddenSelections[]=
@@ -279,7 +279,7 @@
 			};
 		};
 	};
-	class 44_swla_commander_vest_base: 44_swla_vest_base
+	class k_ls_44_commander_vest_base: k_ls_44_vest_base
 	{
 		displayName="[44/LS] Clone trooper commander vest";
 		picture="kobra\kobra_core\kobra.paa";
@@ -299,7 +299,7 @@
 			};
 		};
 	};
-	class 44_swla_airborne_cfr_vest_base: 44_swla_vest_base
+	class k_ls_44_airborne_cfr_vest_base: k_ls_44_vest_base
 	{
 		displayname = "[44/LS] Clone airborne CFR vest";
 		model="\SWLB_CEE\data\SWLB_CEE_Airborne_CFR.p3d";
@@ -328,7 +328,7 @@
 			};
 		};
 	};
-	class 44_swla_airborne_light_vest_base: 44_swla_vest_base
+	class k_ls_44_airborne_light_vest_base: k_ls_44_vest_base
 	{
 		displayname = "[44/LS] Clone airborne light vest";
 		model="\SWLB_CEE\data\SWLB_CEE_Airborne_Light.p3d";
@@ -353,7 +353,7 @@
 			};
 		};
 	};
-	class 44_swla_airborne_officer_vest_base: 44_swla_vest_base
+	class k_ls_44_airborne_officer_vest_base: k_ls_44_vest_base
 	{
 		displayName="[44/LS] Clone airborne officer vest";
 		model="\SWLB_CEE\data\SWLB_CEE_Airborne_Officer.p3d";
@@ -379,9 +379,9 @@
 			};
 		};
 	};
-	class 44_swla_arf_vest_base: 44_swla_vest_base
+	class k_ls_44_arf_vest_base: k_ls_44_vest_base
 	{
-		displayName="Clone ARF vest";
+		displayName="[44/LS] Clone ARF vest";
 		model="\SWLB_CEE\data\SWLB_CEE_ARF_Vest.p3d";
 		uniformModel="\SWLB_CEE\data\SWLB_CEE_ARF_Vest.p3d";
 		hiddenSelections[]=
@@ -402,9 +402,9 @@
 			};
 		};
 	};
-	class 44_swla_heavy_vest_base: 44_swla_vest_base
+	class k_ls_44_heavy_vest_base: k_ls_44_vest_base
 	{
-		displayName="Clone heavy vest";
+		displayName="[44/LS] Clone heavy vest";
 		model="\SWLB_CEE\data\SWLB_CEE_Heavy_Vest.p3d";
 		hiddenSelections[]=
 		{
@@ -428,9 +428,9 @@
 			};
 		};
 	};
-	class 44_swla_heavy_gunner_vest_base: 44_swla_vest_base
+	class k_ls_44_heavy_gunner_vest_base: k_ls_44_vest_base
 	{
-		displayName="Clone heavy gunner vest";
+		displayName="[44/LS] Clone heavy gunner vest";
 		model="\SWLB_CEE\data\SWLB_CEE_Heavy_Gunner_Vest.p3d";
 		hiddenSelections[]=
 		{
@@ -455,9 +455,9 @@
 			};
 		};
 	};
-	class 44_swla_recon_survival_vest_base: 44_swla_vest_base
+	class k_ls_44_recon_survival_vest_base: k_ls_44_vest_base
 	{
-		displayName="Clone recon survival vest";
+		displayName="[44/LS] Clone recon survival vest";
 		model="\SWLB_CEE\data\SWLB_CEE_Recon_Survival.p3d";
 		hiddenSelections[]=
 		{
@@ -478,9 +478,9 @@
 			};
 		};
 	};
-	class 44_swla_force_recon_vest_base: 44_swla_vest_base
+	class k_ls_44_force_recon_vest_base: k_ls_44_vest_base
 	{
-		displayName="Clone force recon vest";
+		displayName="[44/LS] Clone force recon vest";
 		model="\SWLB_CEE\data\SWLB_CEE_Force_Recon.p3d";
 		hiddenSelections[]=
 		{
@@ -498,9 +498,9 @@
 			};
 		};
 	};
-	class 44_swla_force_recon_nco_vest_base: 44_swla_vest_base
+	class k_ls_44_force_recon_nco_vest_base: k_ls_44_vest_base
 	{
-		displayName="Clone force recon nco vest";
+		displayName="[44/LS] Clone force recon nco vest";
 		model="\SWLB_CEE\data\SWLB_CEE_Recon_Force_Officer.p3d";
 		hiddenSelections[]=
 		{
@@ -519,9 +519,9 @@
 			};
 		};
 	};
-	class 44_swla_force_recon_commander_vest_base: 44_swla_vest_base
+	class k_ls_44_force_recon_commander_vest_base: k_ls_44_vest_base
 	{
-		displayName="Clone force recon Commander vest";
+		displayName="[44/LS] Clone force recon Commander vest";
 		model="\SWLB_CEE\data\SWLB_CEE_Recon_Force_Commander.p3d";
 		hiddenSelections[]=
 		{
@@ -543,14 +543,14 @@
 			};
 		};
 	};
-	class 44_swla_vest: 44_swla_vest_base
+	class k_ls_44_vest: k_ls_44_vest_base
 	{
 		scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;
 	};
 
-	class 44_swla_airborne_vest_1: 44_swla_airborne_vest_base
+	class k_ls_44_airborne_vest_1: k_ls_44_airborne_vest_base
 	{
 		displayname = "[44/LS] Clone trooper airborne vest 1";
 		scope = 2;
@@ -563,7 +563,7 @@
 			"kobra\k_unit_44\data\vests\44_vest_2_1.paa",
 		};
 	};
-	class 44_swla_airborne_vest_2: 44_swla_airborne_vest_1
+	class k_ls_44_airborne_vest_2: k_ls_44_airborne_vest_1
 	{
 		displayname = "[44/LS] Clone trooper airborne vest 2";
 		hiddenselectionstextures[] = 
@@ -573,7 +573,7 @@
 			"kobra\k_unit_44\data\vests\44_vest_2_2.paa",
 		};
 	};
-	class 44_swla_airborne_nco_vest_1: 44_swla_airborne_vest_1
+	class k_ls_44_airborne_nco_vest_1: k_ls_44_airborne_vest_1
 	{
 		displayname = "[44/LS] Clone trooper airborne NCO vest 1";
 		hiddenselectionstextures[] = 
@@ -584,7 +584,7 @@
 			"kobra\k_unit_44\data\vests\44_vest_2_1.paa",
 		};
 	};
-	class 44_swla_airborne_nco_vest_2: 44_swla_airborne_vest_1
+	class k_ls_44_airborne_nco_vest_2: k_ls_44_airborne_vest_1
 	{
 		displayname = "[44/LS] Clone trooper airborne NCO vest 2";
 		hiddenselectionstextures[] = 
@@ -596,7 +596,7 @@
 		};
 	};
 
-	class 44_swla_medic_vest: 44_swla_medic_vest_base
+	class k_ls_44_medic_vest: k_ls_44_medic_vest_base
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -607,7 +607,7 @@
 		};
 	};
 
-	class 44_swla_cfr_vest: 44_swla_cfr_vest_base
+	class k_ls_44_cfr_vest: k_ls_44_cfr_vest_base
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -618,7 +618,7 @@
 		};
 	};
 
-	class 44_swla_recon_vest_1: 44_swla_recon_vest_base
+	class k_ls_44_recon_vest_1: k_ls_44_recon_vest_base
 	{
 		displayname = "[44/LS] Clone trooper Recon vest 1";
 		scope = 2;
@@ -632,7 +632,7 @@
 		};
 	};
 
-	class 44_swla_arc_plate: 44_swla_arc_vest_base
+	class k_ls_44_arc_plate: k_ls_44_arc_vest_base
 	{
 		displayname = "[44/LS] Clone trooper arc plates";
 		scope = 2;
@@ -644,7 +644,7 @@
 		};
 	};
 
-	class 44_swla_assault_vest_1: 44_swla_assault_vest_base
+	class k_ls_44_assault_vest_1: k_ls_44_assault_vest_base
 	{
 		displayname = "[44/LS] Clone trooper assault vest 1";
 		scope = 2;
@@ -657,7 +657,7 @@
 		};
 	};
 
-	class 44_swla_grenadier_vest_1: 44_swla_grenadier_vest_base
+	class k_ls_44_grenadier_vest_1: k_ls_44_grenadier_vest_base
 	{
 		displayname = "[44/LS] Clone trooper grenadier vest 1";
 		scope = 2;
@@ -670,7 +670,7 @@
 		};
 	};
 
-	class 44_swla_specialist_vest_1: 44_swla_specialist_vest_base
+	class k_ls_44_specialist_vest_1: k_ls_44_specialist_vest_base
 	{
 		displayname = "[44/LS] Clone trooper specialist vest 1";
 		scope = 2;
@@ -683,7 +683,7 @@
 		};
 	};
 
-	class 44_swla_airborne_cfr_vest_1: 44_swla_airborne_cfr_vest_base
+	class k_ls_44_airborne_cfr_vest_1: k_ls_44_airborne_cfr_vest_base
 	{
 		displayname = "[44/LS] Clone airborne CFR vest 1";
 		scope = 2;
@@ -697,7 +697,7 @@
 			"kobra\k_unit_44\data\vests\44_vest_2_1.paa",
 		};
 	};
-	class 44_swla_airborne_cfr_vest_2: 44_swla_airborne_cfr_vest_base
+	class k_ls_44_airborne_cfr_vest_2: k_ls_44_airborne_cfr_vest_base
 	{
 		displayname = "[44/LS] Clone airborne CFR vest 2";
 		scope = 2;
@@ -712,7 +712,7 @@
 		};
 	};
 
-	class 44_swla_airborne_light_vest_1: 44_swla_airborne_light_vest_base
+	class k_ls_44_airborne_light_vest_1: k_ls_44_airborne_light_vest_base
 	{
 		displayname = "[44/LS] Clone airborne light vest 1";
 		scope = 2;
@@ -726,7 +726,7 @@
 			"kobra\k_unit_44\data\vests\44_vest_2_1.paa",
 		};
 	};
-	class 44_swla_airborne_light_vest_2: 44_swla_airborne_light_vest_base
+	class k_ls_44_airborne_light_vest_2: k_ls_44_airborne_light_vest_base
 	{
 		displayname = "[44/LS] Clone airborne light vest 2";
 		scope = 2;
@@ -741,7 +741,7 @@
 		};
 	};
 
-	class 44_swla_arf_vest_1: 44_swla_arf_vest_base
+	class k_ls_44_arf_vest_1: k_ls_44_arf_vest_base
 	{
 		displayname = "[44/LS] Clone arf vest 1";
 		scope = 2;
@@ -755,7 +755,7 @@
 		};
 	};
 
-	class 44_swla_heavy_vest_1: 44_swla_heavy_vest_base
+	class k_ls_44_heavy_vest_1: k_ls_44_heavy_vest_base
 	{
 		displayname = "[44/LS] Clone heavy vest 1";
 		scope = 2;
@@ -770,7 +770,7 @@
 			"kobra\k_unit_44\data\vests\44_vest_2_1.paa",
 		};
 	};
-	class 44_swla_heavy_vest_2: 44_swla_heavy_vest_base
+	class k_ls_44_heavy_vest_2: k_ls_44_heavy_vest_base
 	{
 		displayname = "[44/LS] Clone heavy vest 2";
 		scope = 2;
@@ -786,7 +786,7 @@
 		};
 	};
 
-	class 44_swla_heavy_gunner_vest_1: 44_swla_heavy_gunner_vest_base
+	class k_ls_44_heavy_gunner_vest_1: k_ls_44_heavy_gunner_vest_base
 	{
 		displayname = "[44/LS] Clone heavy gunner vest 1";
 		scope = 2;
@@ -802,7 +802,7 @@
 			"kobra\k_unit_44\data\vests\44_vest_2_1.paa",
 		};
 	};
-	class 44_swla_heavy_gunner_vest_2: 44_swla_heavy_gunner_vest_base
+	class k_ls_44_heavy_gunner_vest_2: k_ls_44_heavy_gunner_vest_base
 	{
 		displayname = "[44/LS] Clone heavy gunner vest 2";
 		scope = 2;
@@ -819,7 +819,7 @@
 		};
 	};
 
-	class 44_swla_recon_survival_vest_1: 44_swla_recon_survival_vest_base
+	class k_ls_44_recon_survival_vest_1: k_ls_44_recon_survival_vest_base
 	{
 		displayName="[44/LS] Clone recon survival vest 1";
 		scope = 2;
@@ -835,7 +835,7 @@
 		};
 	};
 
-	class 44_swla_force_recon_vest_1: 44_swla_force_recon_vest_base
+	class k_ls_44_force_recon_vest_1: k_ls_44_force_recon_vest_base
 	{
 		displayName="[44/LS] Clone force recon vest 1";
 		scope = 2;
@@ -847,7 +847,7 @@
 			"SWLB_clones\data\light_accessories_co.paa",
 		};
 	};
-	class 44_swla_force_recon_vest_2: 44_swla_force_recon_vest_base
+	class k_ls_44_force_recon_vest_2: k_ls_44_force_recon_vest_base
 	{
 		displayName="[44/LS] Clone force recon vest 2";
 		scope = 2;
@@ -860,7 +860,7 @@
 		};
 	};
 
-	class 44_swla_force_recon_nco_vest_1: 44_swla_force_recon_nco_vest_base
+	class k_ls_44_force_recon_nco_vest_1: k_ls_44_force_recon_nco_vest_base
 	{
 		displayName="[44/LS] Clone force recon nco vest 1";
 		scope = 2;

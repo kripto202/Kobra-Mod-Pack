@@ -1,4 +1,4 @@
-	class 44_swla_unit: k_swla_unit_base
+	class k_ls_44_unit: k_ls_unit_base
 	{
 		scope = 1;
 		scopeCurator = 1;
@@ -7,7 +7,7 @@
 		identityTypes[] = {"LanguageENG_F", "Head_NATO"};
 		role = "Rifleman";
 		author = "Kobra Mod Team Team";
-		uniformclass = "44_swla_uniform";
+		uniformclass = "k_ls_44_uniform";
 		faction = "44_ab";
 		editorSubCategory = "442_trooper";
 		displayname = "Trooper";
@@ -36,7 +36,7 @@
 		items[] = {};
 		respawnitems[] = {};
 	};
-	class 44_swla_mc_unit: k_swla_unit_mc_base
+	class k_ls_44_mc_unit: k_ls_unit_mc_base
 	{
 		scope = 1;
 		scopeCurator = 1;
@@ -45,7 +45,7 @@
 		identityTypes[] = {"LanguageENG_F", "Head_NATO"};
 		role = "Rifleman";
 		author = "Kobra Mod Team Team";
-		uniformclass = "44_swla_uniform_mc";
+		uniformclass = "k_ls_44_uniform_mc";
 		faction = "44_sod";
 		editorSubCategory = "swla_44_trooper";
 		displayname = "Trooper";
@@ -77,19 +77,19 @@
 	};
 
 ///custom
-	class 44_swla_unit_hollen: 44_swla_unit
+	/*class k_ls_44_unit_hollen: k_ls_44_unit
 	{
-		uniformclass = "44_swla_uniform_hollen";
+		uniformclass = "k_ls_44_uniform_hollen";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\custom\hollen\44_upper_co.paa",
 			"kobra\k_unit_44\data\custom\hollen\44_lower_co.paa",
 			"kobra\k_unit_44\data\armor\undersuit_co.paa",
 		};
-	};
-	class 44_swla_unit_kripto: 44_swla_unit
+	};*/
+	class k_ls_44_unit_kripto: k_ls_44_unit
 	{
-		uniformclass = "44_swla_uniform_kripto";
+		uniformclass = "k_ls_44_uniform_kripto";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\custom\kripto\44_upper_co.paa",
@@ -97,9 +97,9 @@
 			"kobra\k_unit_44\data\armor\undersuit_co.paa",
 		};
 	};
-	class 44_swla_unit_monty: 44_swla_unit
+	class k_ls_44_unit_monty: k_ls_44_unit
 	{
-		uniformclass = "44_swla_uniform_monty";
+		uniformclass = "k_ls_44_uniform_monty";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\custom\monty\44_upper_co.paa",
@@ -107,9 +107,9 @@
 			"kobra\k_unit_44\data\armor\undersuit_co.paa",
 		};
 	};
-	class 44_swla_unit_rex: 44_swla_unit
+	class k_ls_44_unit_rex: k_ls_44_unit
 	{
-		uniformclass = "44_swla_uniform_rex";
+		uniformclass = "k_ls_44_uniform_rex";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\custom\rex\44_upper_co.paa",
@@ -117,9 +117,9 @@
 			"kobra\k_unit_44\data\armor\undersuit_co.paa",
 		};
 	};
-	class 44_swla_unit_delta: 44_swla_unit
+	class k_ls_44_unit_delta: k_ls_44_unit
 	{
-		uniformclass = "44_swla_uniform_delta";
+		uniformclass = "k_ls_44_uniform_delta";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\custom\delta\44_upper_co.paa",
@@ -127,9 +127,9 @@
 			"kobra\k_unit_44\data\armor\undersuit_co.paa",
 		};
 	};
-	class 44_swla_unit_garrus: 44_swla_unit
+	class k_ls_44_unit_garrus: k_ls_44_unit
 	{
-		uniformclass = "44_swla_uniform_garrus";
+		uniformclass = "k_ls_44_uniform_garrus";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\custom\garrus\44_upper_co.paa",
@@ -137,19 +137,19 @@
 			"kobra\k_unit_44\data\armor\undersuit_co.paa",
 		};
 	};
-	class 44_swla_unit_dishonored: 44_swla_unit
+	class k_ls_44_unit_dishonored: k_ls_44_unit
 	{
-		uniformclass = "44_swla_uniform_dishonored";
+		uniformclass = "k_ls_44_uniform_dishonored";
 		hiddenselectionstextures[] = 
 		{
-			"kobra\k_unit_44\data\custom\dishonored\44_swla_upper.paa",
-			"kobra\k_unit_44\data\custom\dishonored\44_swla_lower.paa",
+			"kobra\k_unit_44\data\custom\dishonored\44_upper.paa",
+			"kobra\k_unit_44\data\custom\dishonored\44_lower.paa",
 			"kobra\k_unit_44\data\armor\undersuit_co.paa",
 		};
 	};
-	class 44_swla_unit_azarael: 44_swla_unit
+	class k_ls_44_unit_azarael: k_ls_44_unit
 	{
-		uniformclass = "44_swla_uniform_azarael";
+		uniformclass = "k_ls_44_uniform_azarael";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\custom\azarael\camo1_co.paa",
@@ -157,9 +157,9 @@
 			"kobra\k_unit_44\data\armor\undersuit_co.paa",
 		};
 	};
-	class 44_swla_unit_nico: 44_swla_unit
+	class k_ls_44_unit_nico: k_ls_44_unit
 	{
-		uniformclass = "44_swla_uniform_nico";
+		uniformclass = "k_ls_44_uniform_nico";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\custom\nico\camo1_co.paa",
@@ -167,9 +167,9 @@
 			"kobra\k_unit_44\data\armor\undersuit_co.paa",
 		};
 	};
-	class 44_swla_unit_sexton: 44_swla_unit
+	class k_ls_44_unit_sexton: k_ls_44_unit
 	{
-		uniformclass = "44_swla_uniform_sexton";
+		uniformclass = "k_ls_44_uniform_sexton";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\custom\sexton\camo1_co.paa",
@@ -177,9 +177,9 @@
 			"kobra\k_unit_44\data\armor\undersuit_co.paa",
 		};
 	};
-	class 44_swla_unit_steele: 44_swla_unit
+	class k_ls_44_unit_steele: k_ls_44_unit
 	{
-		uniformclass = "44_swla_uniform_steele";
+		uniformclass = "k_ls_44_uniform_steele";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\custom\steele\camo1_co.paa",
@@ -187,9 +187,9 @@
 			"kobra\k_unit_44\data\armor\undersuit_co.paa",
 		};
 	};
-	class 44_swla_unit_euda: 44_swla_unit
+	class k_ls_44_unit_euda: k_ls_44_unit
 	{
-		uniformclass = "44_swla_uniform_euda";
+		uniformclass = "k_ls_44_uniform_euda";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\custom\euda\camo1_co.paa",

@@ -1,5 +1,5 @@
 ///clones
-	class k_swla_unit_p2_dc15a: k_swla_unit_base
+	class k_ls_unit_p2_dc15a: k_ls_unit_base
 	{
 		scope = 2;
 		scopecurator = 2;
@@ -11,8 +11,8 @@
 		canDeactivateMines="false";
 		linkedItems[] = 
 		{
-			"k_p2_helmet",
-			"k_vest_basic",
+			"k_ls_p2_helmet",
+			"k_ls_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -21,8 +21,8 @@
 		};
 		respawnlinkedItems[] = 
 		{
-			"k_p2_helmet",
-			"k_vest_basic",
+			"k_ls_p2_helmet",
+			"k_ls_vest_basic",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -122,20 +122,20 @@
             "ACE_quikclot",
         };
 	};
-	class k_swla_unit_p2_dc15s: k_swla_unit_p2_dc15a
+	class k_ls_unit_p2_dc15s: k_ls_unit_p2_dc15a
 	{
 		displayname = "Trooper (DC-15S)";
 		weapons[] = 
 		{
 			"442_DC15s",
-			"k_vest_basic",
+			"k_ls_vest_basic",
 			"Throw",
 			"Put"
 		};
 		respawnweapons[] = 
 		{
 			"442_DC15s",
-			"k_vest_basic",
+			"k_ls_vest_basic",
 			"Throw",
 			"Put"
 		};
@@ -174,12 +174,12 @@
 			"smokeShell",
 		};
 	};
-	class k_swla_unit_p2_medic: k_swla_unit_p2_dc15s
+	class k_ls_unit_p2_medic: k_ls_unit_p2_dc15s
 	{
 		displayname = "Trooper (Medic)";
 		attendant = 1;
 	};
-	class k_swla_unit_p2_engineer: k_swla_unit_p2_dc15s
+	class k_ls_unit_p2_engineer: k_ls_unit_p2_dc15s
 	{
 		displayname = "Trooper (Engineer)";
 		engineer = 1;
@@ -187,12 +187,12 @@
 	};
 
 ///b1
-    class k_swla_unit_b1_e5: k_swla_unit_b1_base
+    class k_ls_unit_b1_e5: k_ls_unit_b1_base
     {
         scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
-        backpack = "k_b1_backpack";
+        backpack = "k_ls_b1_backpack";
 		displayname = "B1 Battledroid";
         editorSubCategory="442_battledroid_inf";
 		//icon = "";
@@ -201,7 +201,7 @@
 		canDeactivateMines="false";
         linkedItems[] = 
 		{
-			"k_b1_helmet",
+			"k_ls_b1_helmet",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -210,7 +210,7 @@
 		};
 		respawnlinkedItems[] = 
 		{
-			"k_b1_helmet",
+			"k_ls_b1_helmet",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -306,10 +306,10 @@
             "ACE_quikclot",
         };
     };
-    class k_swla_unit_b1_e5_rps6: k_swla_unit_b1_e5
+    class k_ls_unit_b1_e5_rps6: k_ls_unit_b1_e5
     {
         displayname = "B1 Battledroid (RPS6)";
-        backpack = "k_b1_backpack_rps6_load";
+        backpack = "k_ls_b1_backpack_rps6_load";
         weapons[] = 
 		{
 			"442_E5",
@@ -355,10 +355,10 @@
 			"smokeShell",
 		};
     };
-	class k_swla_unit_b1_dc15x: k_swla_unit_b1_e5
+	class k_ls_unit_b1_dc15x: k_ls_unit_b1_e5
     {
         displayname = "B1 Battledroid (Marksman)";
-        backpack = "k_b1_backpack";
+        backpack = "k_ls_b1_backpack";
         weapons[] = 
 		{
 			"442_DC15X",
@@ -402,13 +402,13 @@
 			"smokeShell",
 		};
     };
-	class k_swla_unit_b1_e5c: k_swla_unit_b1_e5
+	class k_ls_unit_b1_e5c: k_ls_unit_b1_e5
     {
 		displayname = "B1 Battledroid (AutoRifleman)";
-        backpack = "k_b1_backpack";
+        backpack = "k_ls_b1_backpack";
         linkedItems[] = 
 		{
-			"k_b1_helmet",
+			"k_ls_b1_helmet",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -417,7 +417,7 @@
 		};
 		respawnlinkedItems[] = 
 		{
-			"k_b1_helmet",
+			"k_ls_b1_helmet",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -513,13 +513,13 @@
             "ACE_quikclot",
         };
     };
-	class k_swla_unit_b1_e6z: k_swla_unit_b1_e5
+	class k_ls_unit_b1_e6z: k_ls_unit_b1_e5
     {
 		displayname = "B1 Battledroid (Support)";
-        backpack = "k_b1_backpack";
+        backpack = "k_ls_b1_backpack";
         linkedItems[] = 
 		{
-			"k_b1_helmet",
+			"k_ls_b1_helmet",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -528,7 +528,7 @@
 		};
 		respawnlinkedItems[] = 
 		{
-			"k_b1_helmet",
+			"k_ls_b1_helmet",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -624,10 +624,10 @@
             "ACE_quikclot",
         };
     };
-	class k_swla_unit_b1_e5_e60r_at: k_swla_unit_b1_e5
+	class k_ls_unit_b1_e5_e60r_at: k_ls_unit_b1_e5
     {
         displayname = "B1 Battledroid (E60R AT)";
-        backpack = "k_b1_backpack_e60r_at_load";
+        backpack = "k_ls_b1_backpack_e60r_at_load";
         weapons[] = 
 		{
 			"442_E5",
@@ -673,10 +673,10 @@
 			"smokeShell",
 		};
     };
-	class k_swla_unit_b1_e5_e60r_aa: k_swla_unit_b1_e5
+	class k_ls_unit_b1_e5_e60r_aa: k_ls_unit_b1_e5
     {
         displayname = "B1 Battledroid (E60R AA)";
-        backpack = "k_b1_backpack_e60r_aa_load";
+        backpack = "k_ls_b1_backpack_e60r_aa_load";
         weapons[] = 
 		{
 			"442_E5",
@@ -723,20 +723,20 @@
 		};
     };
 
-    class k_swla_unit_b1_security_e5: k_swla_unit_b1_security_base
+    class k_ls_unit_b1_security_e5: k_ls_unit_b1_security_base
     {
         scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
 		displayname = "B1 Battledroid (Security)";
         editorSubCategory="442_battledroid_inf";
-        backpack = "k_b1_backpack";
+        backpack = "k_ls_b1_backpack";
 		attendant = 0;
 		engineer = false;
 		canDeactivateMines="false";
         linkedItems[] = 
 		{
-			"k_b1_helmet",
+			"k_ls_b1_helmet",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -745,7 +745,7 @@
 		};
 		respawnlinkedItems[] = 
 		{
-			"k_b1_helmet",
+			"k_ls_b1_helmet",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -841,10 +841,10 @@
             "ACE_quikclot",
         };
     };
-	class k_swla_unit_b1_security_e5_rps6: k_swla_unit_b1_security_e5
+	class k_ls_unit_b1_security_e5_rps6: k_ls_unit_b1_security_e5
     {
         displayname = "B1 Battledroid [Security(RPS6)]";
-        backpack = "k_b1_backpack_rps6_load";
+        backpack = "k_ls_b1_backpack_rps6_load";
         weapons[] = 
 		{
 			"442_E5",
@@ -890,10 +890,10 @@
 			"smokeShell",
 		};
     };
-	class k_swla_unit_b1_security_dc15x: k_swla_unit_b1_security_e5
+	class k_ls_unit_b1_security_dc15x: k_ls_unit_b1_security_e5
     {
         displayname = "B1 Battledroid [Securty(Marksman)]";
-        backpack = "k_b1_backpack";
+        backpack = "k_ls_b1_backpack";
         weapons[] = 
 		{
 			"442_DC15X",
@@ -937,13 +937,13 @@
 			"smokeShell",
 		};
     };
-	class k_swla_unit_b1_security_e5c: k_swla_unit_b1_security_e5
+	class k_ls_unit_b1_security_e5c: k_ls_unit_b1_security_e5
     {
 		displayname = "B1 Battledroid [Security(AutoRifleman)]";
-        backpack = "k_b1_backpack";
+        backpack = "k_ls_b1_backpack";
         linkedItems[] = 
 		{
-			"k_b1_helmet",
+			"k_ls_b1_helmet",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -952,7 +952,7 @@
 		};
 		respawnlinkedItems[] = 
 		{
-			"k_b1_helmet",
+			"k_ls_b1_helmet",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -1048,13 +1048,13 @@
             "ACE_quikclot",
         };
     };
-	class k_swla_unit_b1_security_e6z: k_swla_unit_b1_security_e5
+	class k_ls_unit_b1_security_e6z: k_ls_unit_b1_security_e5
     {
 		displayname = "B1 Battledroid [Security(Support)]";
-        backpack = "k_b1_backpack";
+        backpack = "k_ls_b1_backpack";
         linkedItems[] = 
 		{
-			"k_b1_helmet",
+			"k_ls_b1_helmet",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -1063,7 +1063,7 @@
 		};
 		respawnlinkedItems[] = 
 		{
-			"k_b1_helmet",
+			"k_ls_b1_helmet",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -1159,10 +1159,10 @@
             "ACE_quikclot",
         };
     };
-	class k_swla_unit_b1_security_e5_e60r_at: k_swla_unit_b1_security_e5
+	class k_ls_unit_b1_security_e5_e60r_at: k_ls_unit_b1_security_e5
     {
         displayname = "B1 Battledroid [Security(E60R AT)]";
-        backpack = "k_b1_backpack_e60r_at_load";
+        backpack = "k_ls_b1_backpack_e60r_at_load";
         weapons[] = 
 		{
 			"442_E5",
@@ -1212,10 +1212,10 @@
 			"smokeShell",
 		};
     };
-	class k_swla_unit_b1_security_e5_e60r_aa: k_swla_unit_b1_security_e5
+	class k_ls_unit_b1_security_e5_e60r_aa: k_ls_unit_b1_security_e5
     {
         displayname = "B1 Battledroid [Security(E60R AA)]";
-        backpack = "k_b1_backpack_e60r_aa_load";
+        backpack = "k_ls_b1_backpack_e60r_aa_load";
         weapons[] = 
 		{
 			"442_E5",
@@ -1262,21 +1262,21 @@
 		};
     };
 
-    class k_swla_unit_b1_pilot_e5: k_swla_unit_b1_pilot_base
+    class k_ls_unit_b1_pilot_e5: k_ls_unit_b1_pilot_base
     {
         scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
 		displayname = "B1 Battledroid (Pilot)";
         editorSubCategory="442_battledroid_inf";
-        backpack = "k_b1_backpack";
+        backpack = "k_ls_b1_backpack";
 		//icon = "";
 		attendant = 0;
 		engineer = false;
 		canDeactivateMines="false";
         linkedItems[] = 
 		{
-			"k_b1_helmet",
+			"k_ls_b1_helmet",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -1285,7 +1285,7 @@
 		};
 		respawnlinkedItems[] = 
 		{
-			"k_b1_helmet",
+			"k_ls_b1_helmet",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -1381,21 +1381,21 @@
             "ACE_quikclot",
         };
     };
-    class k_swla_unit_b1_cmd_e5: k_swla_unit_b1_cmd_base
+    class k_ls_unit_b1_cmd_e5: k_ls_unit_b1_cmd_base
     {
         scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
 		displayname = "B1 Battledroid (Commander)";
         editorSubCategory="442_battledroid_inf";
-        backpack = "k_b1_backpack";
+        backpack = "k_ls_b1_backpack";
 		//icon = "";
 		attendant = 0;
 		engineer = false;
 		canDeactivateMines="false";
         linkedItems[] = 
 		{
-			"k_b1_helmet_cmd",
+			"k_ls_b1_helmet_cmd",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -1404,7 +1404,7 @@
 		};
 		respawnlinkedItems[] = 
 		{
-			"k_b1_helmet_cmd",
+			"k_ls_b1_helmet_cmd",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -1501,21 +1501,21 @@
         };
     };
 
-    class k_swla_unit_b1_geonosis_e5: k_swla_unit_b1_geonosis_base
+    class k_ls_unit_b1_geonosis_e5: k_ls_unit_b1_geonosis_base
     {
         scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
 		displayname = "B1 Battledroid";
         editorSubCategory="442_battledroid_inf_geonosis";
-        backpack = "k_b1_backpack_geonosis";
+        backpack = "k_ls_b1_backpack_geonosis";
 		//icon = "";
 		attendant = 0;
 		engineer = false;
 		canDeactivateMines="false";
         linkedItems[] = 
 		{
-			"k_b1_helmet_geonosis",
+			"k_ls_b1_helmet_geonosis",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -1524,7 +1524,7 @@
 		};
 		respawnlinkedItems[] = 
 		{
-			"k_b1_helmet_geonosis",
+			"k_ls_b1_helmet_geonosis",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -1620,10 +1620,10 @@
             "ACE_quikclot",
         };
     };
-	class k_swla_unit_b1_geonosis_e5_rps6: k_swla_unit_b1_geonosis_e5
+	class k_ls_unit_b1_geonosis_e5_rps6: k_ls_unit_b1_geonosis_e5
     {
         displayname = "B1 Battledroid [Geonosis(RPS6)]";
-        backpack = "k_b1_backpack_geonosis_rps6_load";
+        backpack = "k_ls_b1_backpack_geonosis_rps6_load";
         weapons[] = 
 		{
 			"442_E5",
@@ -1669,10 +1669,10 @@
 			"smokeShell",
 		};
     };
-	class k_swla_unit_b1_geonosis_dc15x: k_swla_unit_b1_geonosis_e5
+	class k_ls_unit_b1_geonosis_dc15x: k_ls_unit_b1_geonosis_e5
     {
         displayname = "B1 Battledroid [Geonosis(Marksman)]";
-        backpack = "k_b1_backpack_geonosis";
+        backpack = "k_ls_b1_backpack_geonosis";
         weapons[] = 
 		{
 			"442_DC15X",
@@ -1716,13 +1716,13 @@
 			"smokeShell",
 		};
     };
-	class k_swla_unit_b1_geonosis_e5c: k_swla_unit_b1_geonosis_e5
+	class k_ls_unit_b1_geonosis_e5c: k_ls_unit_b1_geonosis_e5
     {
 		displayname = "B1 Battledroid [Geonosis(AutoRifleman)]";
-        backpack = "k_b1_backpack_geonosis";
+        backpack = "k_ls_b1_backpack_geonosis";
         linkedItems[] = 
 		{
-			"k_b1_helmet",
+			"k_ls_b1_helmet",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -1731,7 +1731,7 @@
 		};
 		respawnlinkedItems[] = 
 		{
-			"k_b1_helmet",
+			"k_ls_b1_helmet",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -1827,13 +1827,13 @@
             "ACE_quikclot",
         };
     };
-	class k_swla_unit_b1_geonosis_e6z: k_swla_unit_b1_geonosis_e5
+	class k_ls_unit_b1_geonosis_e6z: k_ls_unit_b1_geonosis_e5
     {
 		displayname = "B1 Battledroid [Geonosis(Support)]";
-        backpack = "k_b1_backpack_geonosis";
+        backpack = "k_ls_b1_backpack_geonosis";
         linkedItems[] = 
 		{
-			"k_b1_helmet",
+			"k_ls_b1_helmet",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -1842,7 +1842,7 @@
 		};
 		respawnlinkedItems[] = 
 		{
-			"k_b1_helmet",
+			"k_ls_b1_helmet",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -1938,10 +1938,10 @@
             "ACE_quikclot",
         };
     };
-	class k_swla_unit_b1_geonosis_e5_e60r_at: k_swla_unit_b1_geonosis_e5
+	class k_ls_unit_b1_geonosis_e5_e60r_at: k_ls_unit_b1_geonosis_e5
     {
         displayname = "B1 Battledroid [Geonosis(E60R AT)]";
-        backpack = "k_b1_backpack_geonosis_e60r_at_load";
+        backpack = "k_ls_b1_backpack_geonosis_e60r_at_load";
         weapons[] = 
 		{
 			"442_E5",
@@ -1987,10 +1987,10 @@
 			"smokeShell",
 		};
     };
-	class k_swla_unit_b1_geonosis_e5_e60r_aa: k_swla_unit_b1_geonosis_e5
+	class k_ls_unit_b1_geonosis_e5_e60r_aa: k_ls_unit_b1_geonosis_e5
     {
         displayname = "B1 Battledroid [Geonosis(E60R AA)]";
-        backpack = "k_b1_backpack_geonosis_e60r_aa_load";
+        backpack = "k_ls_b1_backpack_geonosis_e60r_aa_load";
         weapons[] = 
 		{
 			"442_E5",
@@ -2037,13 +2037,13 @@
 		};
     };
 
-    class k_swla_unit_b1_woodland_e5: k_swla_unit_b1_woodland_base
+    class k_ls_unit_b1_woodland_e5: k_ls_unit_b1_woodland_base
     {
         scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
 		displayname = "B1 Battledroid";
-		backpack = "k_b1_backpack_woodland";
+		backpack = "k_ls_b1_backpack_woodland";
         editorSubCategory="442_battledroid_inf_woodland";
 		//icon = "";
 		attendant = 0;
@@ -2051,7 +2051,7 @@
 		canDeactivateMines="false";
         linkedItems[] = 
 		{
-			"k_b1_helmet_woodland",
+			"k_ls_b1_helmet_woodland",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -2060,7 +2060,7 @@
 		};
 		respawnlinkedItems[] = 
 		{
-			"k_b1_helmet_woodland",
+			"k_ls_b1_helmet_woodland",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -2156,10 +2156,10 @@
             "ACE_quikclot",
         };
     };
-	class k_swla_unit_b1_woodland_e5_rps6: k_swla_unit_b1_woodland_e5
+	class k_ls_unit_b1_woodland_e5_rps6: k_ls_unit_b1_woodland_e5
     {
         displayname = "B1 Battledroid [Woodland(RPS6)]";
-        backpack = "k_b1_backpack_woodland_rps6_load";
+        backpack = "k_ls_b1_backpack_woodland_rps6_load";
         weapons[] = 
 		{
 			"442_E5",
@@ -2205,10 +2205,10 @@
 			"smokeShell",
 		};
     };
-	class k_swla_unit_b1_woodland_dc15x: k_swla_unit_b1_woodland_e5
+	class k_ls_unit_b1_woodland_dc15x: k_ls_unit_b1_woodland_e5
     {
         displayname = "B1 Battledroid [Woodland(Marksman)]";
-        backpack = "k_b1_backpack_woodland";
+        backpack = "k_ls_b1_backpack_woodland";
         weapons[] = 
 		{
 			"442_DC15X",
@@ -2252,10 +2252,10 @@
 			"smokeShell",
 		};
     };
-	class k_swla_unit_b1_woodland_e5c: k_swla_unit_b1_woodland_e5
+	class k_ls_unit_b1_woodland_e5c: k_ls_unit_b1_woodland_e5
     {
 		displayname = "B1 Battledroid [Woodland(AutoRifleman)]";
-        backpack = "k_b1_backpack_woodland";
+        backpack = "k_ls_b1_backpack_woodland";
 		weapons[] = 
 		{
 			"442_E5C",
@@ -2345,10 +2345,10 @@
             "ACE_quikclot",
         };
     };
-	class k_swla_unit_b1_woodland_e6z: k_swla_unit_b1_woodland_e5
+	class k_ls_unit_b1_woodland_e6z: k_ls_unit_b1_woodland_e5
     {
 		displayname = "B1 Battledroid [Woodland(Support)]";
-        backpack = "k_b1_backpack_woodland";
+        backpack = "k_ls_b1_backpack_woodland";
 		weapons[] = 
 		{
 			"442_E6Z",
@@ -2438,10 +2438,10 @@
             "ACE_quikclot",
         };
     };
-	class k_swla_unit_b1_woodland_e5_e60r_at: k_swla_unit_b1_woodland_e5
+	class k_ls_unit_b1_woodland_e5_e60r_at: k_ls_unit_b1_woodland_e5
     {
         displayname = "B1 Battledroid [Woodland(E60R AT)]";
-        backpack = "k_b1_backpack_woodland_e60r_at_load";
+        backpack = "k_ls_b1_backpack_woodland_e60r_at_load";
         weapons[] = 
 		{
 			"442_E5",
@@ -2487,10 +2487,10 @@
 			"smokeShell",
 		};
     };
-	class k_swla_unit_b1_woodland_e5_e60r_aa: k_swla_unit_b1_woodland_e5
+	class k_ls_unit_b1_woodland_e5_e60r_aa: k_ls_unit_b1_woodland_e5
     {
         displayname = "B1 Battledroid [Woodland(E60R AA)]";
-        backpack = "k_b1_backpack_woodland_e60r_aa_load";
+        backpack = "k_ls_b1_backpack_woodland_e60r_aa_load";
         weapons[] = 
 		{
 			"442_E5",
@@ -2537,13 +2537,13 @@
 		};
     };
 
-    class k_swla_unit_b1_desert_e5: k_swla_unit_b1_desert_base
+    class k_ls_unit_b1_desert_e5: k_ls_unit_b1_desert_base
     {
         scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
 		displayname = "B1 Battledroid";
-		backpack = "k_b1_backpack_desert";
+		backpack = "k_ls_b1_backpack_desert";
         editorSubCategory="442_battledroid_inf_desert";
 		//icon = "";
 		attendant = 0;
@@ -2551,7 +2551,7 @@
 		canDeactivateMines="false";
         linkedItems[] = 
 		{
-			"k_b1_helmet_desert",
+			"k_ls_b1_helmet_desert",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -2656,10 +2656,10 @@
             "ACE_quikclot",
         };
     };
-	class k_swla_unit_b1_desert_e5_rps6: k_swla_unit_b1_desert_e5
+	class k_ls_unit_b1_desert_e5_rps6: k_ls_unit_b1_desert_e5
     {
         displayname = "B1 Battledroid [Desert(RPS6)]";
-        backpack = "k_b1_backpack_desert_rps6_load";
+        backpack = "k_ls_b1_backpack_desert_rps6_load";
         weapons[] = 
 		{
 			"442_E5",
@@ -2705,7 +2705,7 @@
 			"smokeShell",
 		};
     };
-	class k_swla_unit_b1_desert_dc15x: k_swla_unit_b1_desert_e5
+	class k_ls_unit_b1_desert_dc15x: k_ls_unit_b1_desert_e5
     {
         displayname = "B1 Battledroid [Desert(Marksman)]";
         backpack = "";
@@ -2752,7 +2752,7 @@
 			"smokeShell",
 		};
     };
-	class k_swla_unit_b1_desert_e5c: k_swla_unit_b1_desert_e5
+	class k_ls_unit_b1_desert_e5c: k_ls_unit_b1_desert_e5
     {
 		displayname = "B1 Battledroid [Desert(AutoRifleman)]";
 		weapons[] = 
@@ -2844,7 +2844,7 @@
             "ACE_quikclot",
         };
     };
-	class k_swla_unit_b1_desert_e6z: k_swla_unit_b1_desert_e5
+	class k_ls_unit_b1_desert_e6z: k_ls_unit_b1_desert_e5
     {
 		displayname = "B1 Battledroid [Desert(Support)]";
 		weapons[] = 
@@ -2936,10 +2936,10 @@
             "ACE_quikclot",
         };
     };
-	class k_swla_unit_b1_desert_e5_e60r_at: k_swla_unit_b1_desert_e5
+	class k_ls_unit_b1_desert_e5_e60r_at: k_ls_unit_b1_desert_e5
     {
         displayname = "B1 Battledroid [Desert(E60R AT)]";
-        backpack = "k_b1_backpack_desert_e60r_at_load";
+        backpack = "k_ls_b1_backpack_desert_e60r_at_load";
         weapons[] = 
 		{
 			"442_E5",
@@ -2985,10 +2985,10 @@
 			"smokeShell",
 		};
     };
-	class k_swla_unit_b1_desert_e5_e60r_aa: k_swla_unit_b1_desert_e5
+	class k_ls_unit_b1_desert_e5_e60r_aa: k_ls_unit_b1_desert_e5
     {
         displayname = "B1 Battledroid [Desert(E60R AA)]";
-        backpack = "k_b1_backpack_desert_e60r_aa_load";
+        backpack = "k_ls_b1_backpack_desert_e60r_aa_load";
         weapons[] = 
 		{
 			"442_E5",
@@ -3035,13 +3035,13 @@
 		};
     };
 
-    class k_swla_unit_b1_winter_e5: k_swla_unit_b1_winter_base
+    class k_ls_unit_b1_winter_e5: k_ls_unit_b1_winter_base
     {
         scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
 		displayname = "B1 Battledroid";
-		backapck = "k_b1_backpack_winter";
+		backapck = "k_ls_b1_backpack_winter";
         editorSubCategory="442_battledroid_inf_winter";
 		//icon = "";
 		attendant = 0;
@@ -3049,7 +3049,7 @@
 		canDeactivateMines="false";
         linkedItems[] = 
 		{
-			"k_b1_helmet_winter",
+			"k_ls_b1_helmet_winter",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -3058,7 +3058,7 @@
 		};
 		respawnlinkedItems[] = 
 		{
-			"k_b1_helmet_winter",
+			"k_ls_b1_helmet_winter",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -3154,10 +3154,10 @@
             "ACE_quikclot",
         };
     };
-	class k_swla_unit_b1_winter_e5_rps6: k_swla_unit_b1_winter_e5
+	class k_ls_unit_b1_winter_e5_rps6: k_ls_unit_b1_winter_e5
     {
         displayname = "B1 Battledroid [Winter(RPS6)]";
-        backpack = "k_b1_backpack_winter_rps6_load";
+        backpack = "k_ls_b1_backpack_winter_rps6_load";
         weapons[] = 
 		{
 			"442_E5",
@@ -3203,10 +3203,10 @@
 			"smokeShell",
 		};
     };
-	class k_swla_unit_b1_winter_dc15x: k_swla_unit_b1_winter_e5
+	class k_ls_unit_b1_winter_dc15x: k_ls_unit_b1_winter_e5
     {
         displayname = "B1 Battledroid [Winter(Marksman)]";
-        backapck = "k_b1_backpack_winter";
+        backapck = "k_ls_b1_backpack_winter";
         weapons[] = 
 		{
 			"442_DC15X",
@@ -3250,10 +3250,10 @@
 			"smokeShell",
 		};
     };
-	class k_swla_unit_b1_winter_e5c: k_swla_unit_b1_winter_e5
+	class k_ls_unit_b1_winter_e5c: k_ls_unit_b1_winter_e5
     {
 		displayname = "B1 Battledroid [Winter(AutoRifleman)]";
-		backapck = "k_b1_backpack_winter";
+		backapck = "k_ls_b1_backpack_winter";
 		weapons[] = 
 		{
 			"442_E5C",
@@ -3343,10 +3343,10 @@
             "ACE_quikclot",
         };
     };
-	class k_swla_unit_b1_winter_e6z: k_swla_unit_b1_winter_e5
+	class k_ls_unit_b1_winter_e6z: k_ls_unit_b1_winter_e5
     {
 		displayname = "B1 Battledroid [Winter(Support)]";
-		backapck = "k_b1_backpack_winter";
+		backapck = "k_ls_b1_backpack_winter";
 		weapons[] = 
 		{
 			"442_E6Z",
@@ -3436,10 +3436,10 @@
             "ACE_quikclot",
         };
     };
-	class k_swla_unit_b1_winter_e5_e60r_at: k_swla_unit_b1_winter_e5
+	class k_ls_unit_b1_winter_e5_e60r_at: k_ls_unit_b1_winter_e5
     {
         displayname = "B1 Battledroid [Winter(E60R AT)]";
-        backpack = "k_b1_backpack_winter_e60r_at_load";
+        backpack = "k_ls_b1_backpack_winter_e60r_at_load";
         weapons[] = 
 		{
 			"442_E5",
@@ -3485,10 +3485,10 @@
 			"smokeShell",
 		};
     };
-	class k_swla_unit_b1_winter_e5_e60r_aa: k_swla_unit_b1_winter_e5
+	class k_ls_unit_b1_winter_e5_e60r_aa: k_ls_unit_b1_winter_e5
     {
         displayname = "B1 Battledroid [Winter(E60R AA)]";
-        backpack = "k_b1_backpack_winter_e60r_aa_load";
+        backpack = "k_ls_b1_backpack_winter_e60r_aa_load";
         weapons[] = 
 		{
 			"442_E5",

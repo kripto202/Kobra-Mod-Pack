@@ -1,5 +1,5 @@
     class UniformItem;
-	class 44_swla_uniform: k_swla_uniform
+	class k_ls_44_uniform: k_ls_uniform
 	{
 		displayname = "[44/LS] Clone Trooper Uniform";
 		scope = 2;
@@ -10,10 +10,10 @@
 			containerClass="Supply200";
 			mass=40;
 			uniformType="Neopren";
-			uniformClass="44_swla_unit";
+			uniformClass="k_ls_44_unit";
 		};
 	};
-    class 44_swla_uniform_mc: k_swla_mc_uniform
+    class k_ls_44_uniform_mc: k_ls_mc_uniform
 	{
 		displayname = "[44/LS] Clone Marshall Commander Uniform";
 		scope = 2;
@@ -24,104 +24,104 @@
 			containerClass="Supply200";
 			mass=40;
 			uniformType="Neopren";
-			uniformClass="44_swla_mc_unit";
+			uniformClass="k_ls_44_mc_unit";
 		};
 	};
 
 ///custom armor
-	class 44_swla_uniform_hollen: 44_swla_uniform
+	class k_ls_44_uniform_hollen: k_ls_44_uniform
 	{
 		displayname = "[44/LS] Clone Trooper Uniform (Hollen)";
 		class iteminfo: iteminfo
 		{
-			uniformClass="44_swla_unit_hollen";
+			uniformClass="k_ls_44_unit_hollen";
 		};
 	};
-	class 44_swla_uniform_kripto: 44_swla_uniform
+	class k_ls_44_uniform_kripto: k_ls_44_uniform
 	{
 		displayname = "[44/LS] Clone Trooper Uniform (Kripto)";
 		class iteminfo: iteminfo
 		{
-			uniformClass="44_swla_unit_kripto";
+			uniformClass="k_ls_44_unit_kripto";
 		};
 	};
-	class 44_swla_uniform_monty: 44_swla_uniform
+	class k_ls_44_uniform_monty: k_ls_44_uniform
 	{
 		displayname = "[44/LS] Clone Trooper Uniform (Monty)";
 		class iteminfo: iteminfo
 		{
-			uniformClass="44_swla_unit_monty";
+			uniformClass="k_ls_44_unit_monty";
 		};
 	};
-	class 44_swla_uniform_rex: 44_swla_uniform
+	class k_ls_44_uniform_rex: k_ls_44_uniform
 	{
 		displayname = "[44/LS] Clone Trooper Uniform (Rex)";
 		class iteminfo: iteminfo
 		{
-			uniformClass="44_swla_unit_rex";
+			uniformClass="k_ls_44_unit_rex";
 		};
 	};
-	class 44_swla_uniform_delta: 44_swla_uniform
+	class k_ls_44_uniform_delta: k_ls_44_uniform
 	{
 		displayname = "[44/LS] Clone Trooper Uniform (Delta)";
 		class iteminfo: iteminfo
 		{
-			uniformClass="44_swla_unit_delta";
+			uniformClass="k_ls_44_unit_delta";
 		};
 	};
-	class 44_swla_uniform_garrus: 44_swla_uniform
+	class k_ls_44_uniform_garrus: k_ls_44_uniform
 	{
 		displayname = "[44/LS] Clone Trooper Uniform (Garrus)";
 		class iteminfo: iteminfo
 		{
-			uniformClass="44_swla_unit_garrus";
+			uniformClass="k_ls_44_unit_garrus";
 		};
 	};
-	class 44_swla_uniform_dishonored: 44_swla_uniform
+	class k_ls_44_uniform_dishonored: k_ls_44_uniform
 	{
 		displayname = "[44/LS] Clone Trooper Uniform (Dishonred)";
 		class iteminfo: iteminfo
 		{
-			uniformClass="44_swla_unit_dishonored";
+			uniformClass="k_ls_44_unit_dishonored";
 		};
 	};
-	class 44_swla_uniform_azarael: 44_swla_uniform
+	class k_ls_44_uniform_azarael: k_ls_44_uniform
 	{
 		displayname = "[44/LS] Clone Trooper Uniform (Azarael)";
 		class iteminfo: iteminfo
 		{
-			uniformClass="44_swla_unit_azarael";
+			uniformClass="k_ls_44_unit_azarael";
 		};
 	};
-	class 44_swla_uniform_nico: 44_swla_uniform
+	class k_ls_44_uniform_nico: k_ls_44_uniform
 	{
 		displayname = "[44/LS] Clone Trooper Uniform (Nico)";
 		class iteminfo: iteminfo
 		{
-			uniformClass="44_swla_unit_nico";
+			uniformClass="k_ls_44_unit_nico";
 		};
 	};
-	class 44_swla_uniform_sexton: 44_swla_uniform
+	class k_ls_44_uniform_sexton: k_ls_44_uniform
 	{
 		displayname = "[44/LS] Clone Trooper Uniform (Sexton)";
 		class iteminfo: iteminfo
 		{
-			uniformClass="44_swla_unit_sexton";
+			uniformClass="k_ls_44_unit_sexton";
 		};
 	};
-	class 44_swla_uniform_steele: 44_swla_uniform
+	class k_ls_44_uniform_steele: k_ls_44_uniform
 	{
 		displayname = "[44/LS] Clone Trooper Uniform (Steele)";
 		class iteminfo: iteminfo
 		{
-			uniformClass="44_swla_unit_steele";
+			uniformClass="k_ls_44_unit_steele";
 		};
 	};
-	class 44_swla_uniform_euda: 44_swla_uniform
+	class k_ls_44_uniform_euda: k_ls_44_uniform
 	{
 		displayname = "[44/LS] Clone Trooper Uniform (Euda)";
 		class iteminfo: iteminfo
 		{
-			uniformClass="44_swla_unit_euda";
+			uniformClass="k_ls_44_unit_euda";
 		};
 	};

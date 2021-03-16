@@ -76,6 +76,42 @@
             "kobra\442_units\data\helmet\desert_helmet\visor_co.paa",
         };
     };
+	class k_p2_helmet: k_p2_helmet_base
+	{
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
+		displayname = "[K] P2 Helmet";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\helmet\p2_helmet\p2_helmet_co.paa",
+			"kobra\442_units\data\helmet\p2_helmet\p2_visor_co.paa",
+		};
+	};
+	class k_p1_helmet: k_p1_helmet_base
+	{
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
+		displayname = "[K] P1 Helmet";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\helmet\p1_helmet\p1_helmet_co.paa",
+			"kobra\442_units\data\helmet\p1_helmet\p1_visor_co.paa",
+		};
+	};
+	class k_p1_pilot_helmet: k_p1_pilot_helmet_base
+	{
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
+		displayname = "[K] P1 Pilot Helmet";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\helmet\p1_pilot_helmet\p1_pilot_helmet_co.paa",
+			"kobra\442_units\data\helmet\p1_pilot_helmet\p1_pilot_visor_co.paa",
+		};
+	};
 
 
 ///////////submitted designs//////////

@@ -1,4 +1,4 @@
-class k_vest_basic: k_vest_base
+class k_ls_vest_basic: k_ls_vest_base
 {
     scope = 2;
     scopecurator = 2;
@@ -12,7 +12,7 @@ class k_vest_basic: k_vest_base
         mass = 10;
     };
 };
-class k_vest_arc_1: k_vest_base
+class k_ls_vest_arc_1: k_ls_vest_base
 {
     scope = 2;
     scopecurator = 2;
@@ -67,7 +67,7 @@ class k_vest_arc_1: k_vest_base
         };
     };
 };
-class k_vest_arc_2: k_vest_arc_1
+class k_ls_vest_arc_2: k_ls_vest_arc_1
 {
     scope = 2;
     scopecurator = 2;
@@ -85,7 +85,7 @@ class k_vest_arc_2: k_vest_arc_1
         "kobra\k_unit_ls\data\vest\442_arc_vest.paa"
     };
 };
-class k_vest_arc_plate: k_vest_arc_1
+class k_ls_vest_arc_plate: k_ls_vest_arc_1
 {
     scope = 2;
     scopecurator = 2;
@@ -104,7 +104,7 @@ class k_vest_arc_plate: k_vest_arc_1
     };
 };
 
-class k_vest_airborne_1: k_vest_base
+class k_ls_vest_airborne_1: k_ls_vest_base
 {
     scope = 2;
     scopecurator = 2;
@@ -139,7 +139,7 @@ class k_vest_airborne_1: k_vest_base
         uniformmodel = "kobra\k_unit_ls\clone_airborne_armor.p3d";
     };
 };
-class k_vest_airborne_2: k_vest_airborne_1
+class k_ls_vest_airborne_2: k_ls_vest_airborne_1
 {
     displayname = "[K/LS] Airborne Vest (Grey)";
     hiddenselectionstextures[] = 
@@ -150,7 +150,7 @@ class k_vest_airborne_2: k_vest_airborne_1
         ""
     };
 };
-class k_vest_airborne_medic: k_vest_airborne_1
+class k_ls_vest_airborne_medic: k_ls_vest_airborne_1
 {
     displayname = "[K/LS] Airborne Vest (Medic)";
     hiddenselectionstextures[] = 
@@ -161,7 +161,7 @@ class k_vest_airborne_medic: k_vest_airborne_1
         ""
     };
 };
-class k_vest_airborne_nco_1: k_vest_airborne_1
+class k_ls_vest_airborne_nco_1: k_ls_vest_airborne_1
 {
     displayname = "[K/LS] Airborne NCO Vest (Black)";
     hiddenselectionstextures[] = 
@@ -172,7 +172,7 @@ class k_vest_airborne_nco_1: k_vest_airborne_1
         "kobra\k_unit_ls\data\vest\442_vest_2_b.paa"
     };
 };
-class k_vest_airborne_nco_2: k_vest_airborne_1
+class k_ls_vest_airborne_nco_2: k_ls_vest_airborne_1
 {
     displayname = "[K/LS] Airborne NCO Vest (Grey)";
     hiddenselectionstextures[] = 
@@ -184,7 +184,7 @@ class k_vest_airborne_nco_2: k_vest_airborne_1
     };
 };
 
-class k_vest_assault: k_vest_base
+class k_ls_vest_assault: k_ls_vest_base
 {
     scope = 2;
     scopecurator = 2;
@@ -214,7 +214,7 @@ class k_vest_assault: k_vest_base
     };
 };
 
-class k_vest_cfr: k_vest_base
+class k_ls_vest_cfr: k_ls_vest_base
 {
     scope = 2;
     scopecurator = 2;
@@ -241,7 +241,7 @@ class k_vest_cfr: k_vest_base
     };
 };
 
-class k_vest_commander_armor_1: k_vest_base
+class k_ls_vest_commander_armor_1: k_ls_vest_base
 {
     scope = 2;
     scopecurator = 2;
@@ -270,7 +270,7 @@ class k_vest_commander_armor_1: k_vest_base
         uniformmodel = "kobra\k_unit_ls\clone_commander_armor.p3d";
     };
 };
-class k_vest_commander_armor_2: k_vest_commander_armor_1
+class k_ls_vest_commander_armor_2: k_ls_vest_commander_armor_1
 {
     displayname = "[K/LS] Clone Marshall Commander Vest (Grey)";
     hiddenselectionstextures[] = 
@@ -279,7 +279,7 @@ class k_vest_commander_armor_2: k_vest_commander_armor_1
         "kobra\k_unit_ls\data\vest\rank_co.paa"
     };
 };
-class k_vest_commander_armor_3: k_vest_commander_armor_1
+class k_ls_vest_commander_armor_3: k_ls_vest_commander_armor_1
 {
     displayname = "[K/LS] Clone Commander Vest (Black)";
     hiddenselectionstextures[] = 
@@ -287,7 +287,7 @@ class k_vest_commander_armor_3: k_vest_commander_armor_1
         "kobra\k_unit_ls\data\vest\442_vest_1_b.paa"
     };
 };
-class k_vest_commander_armor_4: k_vest_commander_armor_1
+class k_ls_vest_commander_armor_4: k_ls_vest_commander_armor_1
 {
     displayname = "[K/LS] Clone Commander Vest (Grey)";
     hiddenselectionstextures[] = 
@@ -296,7 +296,7 @@ class k_vest_commander_armor_4: k_vest_commander_armor_1
     };
 };
 
-class k_vest_grenadier: k_vest_base
+class k_ls_vest_grenadier: k_ls_vest_base
 {
     scope = 2;
     scopecurator = 2;
@@ -326,7 +326,7 @@ class k_vest_grenadier: k_vest_base
     };
 };
 
-class k_vest_kama_1: k_vest_base
+class k_ls_vest_kama_1: k_ls_vest_base
 {
     scope = 2;
     scopecurator = 2;
@@ -352,7 +352,7 @@ class k_vest_kama_1: k_vest_base
         uniformmodel = "kobra\k_unit_ls\clone_kama_armor.p3d";
     };
 };
-class k_vest_kama_2: k_vest_kama_1
+class k_ls_vest_kama_2: k_ls_vest_kama_1
 {  
     displayname = "[K/LS] Clone Kama (Grey)";
     hiddenselectionstextures[] = 
@@ -361,7 +361,7 @@ class k_vest_kama_2: k_vest_kama_1
     };
 };
 
-class k_vest_pauldron_1: k_vest_base
+class k_ls_vest_pauldron_1: k_ls_vest_base
 {
     scope = 2;
     scopecurator = 2;
@@ -387,7 +387,7 @@ class k_vest_pauldron_1: k_vest_base
         uniformmodel = "kobra\k_unit_ls\clone_lieutenant_armor.p3d";
     };
 };
-class k_vest_pauldron_2: k_vest_pauldron_1
+class k_ls_vest_pauldron_2: k_ls_vest_pauldron_1
 {
     scope = 2;
     scopecurator = 2;
@@ -399,7 +399,7 @@ class k_vest_pauldron_2: k_vest_pauldron_1
     };
 };
 
-class k_vest_light: k_vest_base
+class k_ls_vest_light: k_ls_vest_base
 {
     scope = 2;
     scopecurator = 2;
@@ -450,7 +450,7 @@ class k_vest_light: k_vest_base
     };
 };
 
-class k_vest_medic: k_vest_base
+class k_ls_vest_medic: k_ls_vest_base
 {
     scope = 2;
     scopecurator = 2;
@@ -477,7 +477,7 @@ class k_vest_medic: k_vest_base
     };
 };
 
-class k_vest_recon_1: k_vest_base
+class k_ls_vest_recon_1: k_ls_vest_base
 {
     scope = 2;
     scopecurator = 2;
@@ -509,7 +509,7 @@ class k_vest_recon_1: k_vest_base
         uniformmodel = "kobra\k_unit_ls\clone_recon_armor.p3d";
     };
 };
-class k_vest_recon_2: k_vest_recon_1
+class k_ls_vest_recon_2: k_ls_vest_recon_1
 {
     displayname = "[K/LS] Clone Recon Vest (Grey)";
     hiddenselectionstextures[] = 
@@ -520,7 +520,7 @@ class k_vest_recon_2: k_vest_recon_1
     };
 };
 
-class k_vest_recon_officer_1: k_vest_base
+class k_ls_vest_recon_officer_1: k_ls_vest_base
 {
     scope = 2;
     scopecurator = 2;
@@ -549,7 +549,7 @@ class k_vest_recon_officer_1: k_vest_base
         uniformmodel = "kobra\k_unit_ls\clone_recon_officer_armor.p3d";
     };
 };
-class k_vest_recon_officer_2: k_vest_recon_officer_1
+class k_ls_vest_recon_officer_2: k_ls_vest_recon_officer_1
 {
     displayname = "[K/LS] Clone Recon Officer Vest (Grey)";
     hiddenselectionstextures[] = 
@@ -559,7 +559,7 @@ class k_vest_recon_officer_2: k_vest_recon_officer_1
     };
 };
 
-class k_vest_specialist: k_vest_base
+class k_ls_vest_specialist: k_ls_vest_base
 {
     scope = 2;
     scopecurator = 2;

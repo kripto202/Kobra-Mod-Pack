@@ -1,9 +1,9 @@
-    class k_headgear_base: headgear_base_f
+    class k_ls_headgear_base: headgear_base_f
     {
         scope = 0;
         scopecurator = 0;
         scopearsenal = 0;
-        displayname = "base headgear";
+        displayname = "[K/LS] base headgear";
         author = "KOBRA Mod Team";
         editorcategory = "kobra";
         editorsubcategory = "442_helmets";
@@ -17,48 +17,48 @@
             };
         };
     };
-    class k_headgear_p2: k_headgear_base
+    class k_ls_headgear_p2: k_ls_headgear_base
     {
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
-        displayname = "P2 Helmet";
+        displayname = "[K/LS] P2 Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "k_p2_helmet";
+                name = "k_ls_p2_helmet";
                 count = 1;
             };
         };
     };
-    class k_headgear_p15: k_headgear_p2
+    class k_ls_headgear_p15: k_ls_headgear_p2
     {
-        displayname = "P1.5 Helmet";
+        displayname = "[K/LS] P1.5 Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "k_p15_helmet";
+                name = "k_ls_p15_helmet";
                 count = 1;
             };
         };
     };
-    class k_headgear_airborne: k_headgear_p2
+    class k_ls_headgear_airborne: k_ls_headgear_p2
     {
-        displayname = "P1.5 Helmet";
+        displayname = "[K/LS] P1.5 Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "k_airborne_helmet";
+                name = "k_ls_airborne_helmet";
                 count = 1;
             };
         };
     };
-    class k_headgear_p2_pilot: k_headgear_p2
+    class k_headgear_p2_pilot: k_ls_headgear_p2
     {
-        displayname = "P2 Pilot Helmet";
+        displayname = "[K/LS] P2 Pilot Helmet";
         class transportItems
         {
             class helmet
@@ -68,241 +68,241 @@
             };
         };
     };
-	class k_headgear_barc: k_headgear_p2
+	class k_ls_headgear_barc: k_ls_headgear_p2
     {
-        displayname = "BARC Helmet";
+        displayname = "[K/LS] BARC Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "k_barc_helmet";
+                name = "k_ls_barc_helmet";
                 count = 1;
             };
         };
     };
-	class k_headgear_p1_arf: k_headgear_p2
+	class k_ls_headgear_p1_arf: k_ls_headgear_p2
     {
-        displayname = "P1 ARF Helmet (No Flaps)";
+        displayname = "[K/LS] P1 ARF Helmet (No Flaps)";
         class transportItems
         {
             class helmet
             {
-                name = "k_p1_arf_helmet";
+                name = "k_ls_p1_arf_helmet";
                 count = 1;
             };
         };
     };
-	class k_headgear_p2_arf: k_headgear_p2
+	class k_ls_headgear_p2_arf: k_ls_headgear_p2
     {
-        displayname = "P1 ARF Helmet (Flaps)";
+        displayname = "[K/LS] P1 ARF Helmet (Flaps)";
         class transportItems
         {
             class helmet
             {
-                name = "k_p2_arf_helmet";
+                name = "k_ls_p2_arf_helmet";
                 count = 1;
             };
         };
     };
-	class k_headgear_eng: k_headgear_p2
+	class k_ls_headgear_eng: k_ls_headgear_p2
     {
-        displayname = "Engineer Helmet";
+        displayname = "[K/LS] Engineer Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "k_eng_helmet";
+                name = "k_ls_eng_helmet";
                 count = 1;
             };
         };
     };
-	class k_headgear_p1: k_headgear_p2
+	class k_ls_headgear_p1: k_ls_headgear_p2
     {
-        displayname = "P1 Helmet";
+        displayname = "[K/LS] P1 Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "k_p1_helmet";
+                name = "k_ls_p1_helmet";
                 count = 1;
             };
         };
     };
-	class k_headgear_p1_pilot: k_headgear_p2
+	class k_ls_headgear_p1_pilot: k_ls_headgear_p2
     {
-        displayname = "P1 Pilot Helmet";
+        displayname = "[K/LS] P1 Pilot Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "k_p1_pilot_helmet";
+                name = "k_ls_p1_pilot_helmet";
                 count = 1;
             };
         };
     };
-	class k_headgear_p1_specops: k_headgear_p2
+	class k_ls_headgear_p1_specops: k_ls_headgear_p2
     {
-        displayname = "P1 Specops Helmet";
+        displayname = "[K/LS] P1 Specops Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "k_p1_specops_helmet";
+                name = "k_ls_p1_specops_helmet";
                 count = 1;
             };
         };
     };
-	class k_headgear_p2_specops: k_headgear_p2
+	class k_ls_headgear_p2_specops: k_ls_headgear_p2
     {
-        displayname = "P2 Specops Helmet";
+        displayname = "[K/LS] P2 Specops Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "k_p2_specops_helmet";
+                name = "k_ls_p2_specops_helmet";
                 count = 1;
             };
         };
     };
-	class k_headgear_rex: k_headgear_p2
+	class k_ls_headgear_rex: k_ls_headgear_p2
     {
-        displayname = "Rex Helmet";
+        displayname = "[K/LS] Rex Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "k_rex_helmet";
+                name = "k_ls_rex_helmet";
                 count = 1;
             };
         };
     };
-	class k_headgear_p1_sgt: k_headgear_p2
+	class k_ls_headgear_p1_sgt: k_ls_headgear_p2
     {
-        displayname = "P1 Sgt Helmet";
+        displayname = "[K/LS] P1 Sgt Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "k_p1_helmet_sgt";
+                name = "k_ls_p1_helmet_sgt";
                 count = 1;
             };
         };
     };
-    class k_headgear_p1_lt: k_headgear_p2
+    class k_ls_headgear_p1_lt: k_ls_headgear_p2
     {
-        displayname = "P1 LT Helmet";
+        displayname = "[K/LS] P1 LT Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "k_p1_helmet_lt";
+                name = "k_ls_p1_helmet_lt";
                 count = 1;
             };
         };
     };
-    class k_headgear_p1_cpt: k_headgear_p2
+    class k_ls_headgear_p1_cpt: k_ls_headgear_p2
     {
-        displayname = "P1 Cpt Helmet";
+        displayname = "[K/LS] P1 Cpt Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "k_p1_helmet_cpt";
+                name = "k_ls_p1_helmet_cpt";
                 count = 1;
             };
         };
     };
-    class k_headgear_p1_cmd: k_headgear_p2
+    class k_ls_headgear_p1_cmd: k_ls_headgear_p2
     {
-        displayname = "P1 Cmd Helmet";
+        displayname = "[K/LS] P1 Cmd Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "k_p1_helmet_cmd";
+                name = "k_ls_p1_helmet_cmd";
                 count = 1;
             };
         };
     };
 
-    class k_headgear_b1: k_headgear_base
+    class k_ls_headgear_b1: k_ls_headgear_base
     {
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
         editorsubcategory = "442_droid_head";
-        displayname = "B1 Droid Head";
+        displayname = "[K/LS] B1 Droid Head";
         
         class transportItems
         {
             class helmet
             {
-                name = "k_b1_helmet";
+                name = "k_ls_b1_helmet";
                 count = 1;
             };
         };
     };
-    class k_headgear_b1_geonosis: k_headgear_b1
+    class k_ls_headgear_b1_geonosis: k_ls_headgear_b1
     {
-        displayname = "B1 Geonosis Droid Head";
+        displayname = "[K/LS] B1 Geonosis Droid Head";
         
         class transportItems
         {
             class helmet
             {
-                name = "k_b1_helmet_geonosis";
+                name = "k_ls_b1_helmet_geonosis";
                 count = 1;
             };
         };
     };
-    class k_headgear_b1_cmd: k_headgear_b1
+    class k_ls_headgear_b1_cmd: k_ls_headgear_b1
     {
-        displayname = "B1 Commander Droid Head";
+        displayname = "[K/LS] B1 Commander Droid Head";
         
         class transportItems
         {
             class helmet
             {
-                name = "k_b1_helmet_cmd";
+                name = "k_ls_b1_helmet_cmd";
                 count = 1;
             };
         };
     };
-    class k_headgear_b1_woodland: k_headgear_b1
+    class k_ls_headgear_b1_woodland: k_ls_headgear_b1
     {
-        displayname = "B1 Woodland Droid Head";
+        displayname = "[K/LS] B1 Woodland Droid Head";
         
         class transportItems
         {
             class helmet
             {
-                name = "k_b1_helmet_woodland";
+                name = "k_ls_b1_helmet_woodland";
                 count = 1;
             };
         };
     };
-    class k_headgear_b1_desert: k_headgear_b1
+    class k_ls_headgear_b1_desert: k_ls_headgear_b1
     {
-        displayname = "B1 Desert Droid Head";
+        displayname = "[K/LS] B1 Desert Droid Head";
         
         class transportItems
         {
             class helmet
             {
-                name = "k_b1_helmet_desert";
+                name = "k_ls_b1_helmet_desert";
                 count = 1;
             };
         };
     };
-    class k_headgear_b1_winter: k_headgear_b1
+    class k_ls_headgear_b1_winter: k_ls_headgear_b1
     {
-        displayname = "B1 Winter Droid Head";
+        displayname = "[K/LS] B1 Winter Droid Head";
         
         class transportItems
         {
             class helmet
             {
-                name = "k_b1_helmet_winter";
+                name = "k_ls_b1_helmet_winter";
                 count = 1;
             };
         };

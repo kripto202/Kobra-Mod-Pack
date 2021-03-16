@@ -1,5 +1,5 @@
     class UniformItem;
-	class 125_swla_uniform: k_swla_uniform
+	class k_ls_125_uniform: k_ls_uniform
 	{
 		displayname = "[125/LS] Clone Trooper Uniform";
 		scope = 2;
@@ -10,87 +10,87 @@
 			containerClass="Supply200";
 			mass=40;
 			uniformType="Neopren";
-			uniformClass="125_swla_unit";
+			uniformClass="k_ls_125_unit";
 		};
 	};
-    class 125_swla_arc_uniform: 125_swla_uniform
+    class k_ls_125_arc_uniform: k_ls_125_uniform
     {
         displayname = "[125/LS] Clone Trooper Arc Uniform";
 		class ItemInfo: ItemInfo
 		{
-			uniformClass="125_swla_arc_unit";
+			uniformClass="k_ls_125_arc_unit";
 		};
     };
-    class 125_swla_medic_uniform: 125_swla_uniform
+    class k_ls_125_medic_uniform: k_ls_125_uniform
     {
         displayname = "[125/LS] Clone Trooper Medic Uniform";
 		class ItemInfo: ItemInfo
 		{
-			uniformClass="125_swla_medic_unit";
+			uniformClass="k_ls_125_medic_unit";
 		};
     };
-    class 125_swla_pilot_uniform: 125_swla_uniform
+    class k_ls_125_pilot_uniform: k_ls_125_uniform
     {
         displayname = "[125/LS] Clone Trooper Pilot Uniform";
 		class ItemInfo: ItemInfo
 		{
-			uniformClass="125_swla_pilot_unit";
+			uniformClass="k_ls_125_pilot_unit";
 		};
     };
 /////////////custom
-    class 125_swla_uniform_dao: 125_swla_uniform
+    class k_ls_125_uniform_dao: k_ls_125_uniform
     {
-        displayname = "[125 - Dao] Clone Trooper Uniform";
+        displayname = "[125/LS] Clone Trooper Uniform (Dao)";
 		class ItemInfo: ItemInfo
 		{
-			uniformClass="125_swla_unit_dao";
+			uniformClass="k_ls_125_unit_dao";
 		};
     };
-    class 125_swla_uniform_ithil: 125_swla_uniform
+    class k_ls_125_uniform_ithil: k_ls_125_uniform
     {
-        displayname = "[125 - Ithil] Clone Trooper Uniform";
+        displayname = "[125/LS] Clone Trooper Uniform (Ithil)";
 		class ItemInfo: ItemInfo
 		{
-			uniformClass="125_swla_unit_dao";
+			uniformClass="k_ls_125_unit_dao";
 		};
     };
-    class 125_swla_uniform_kyrus: 125_swla_uniform
+    class k_ls_125_uniform_kyrus: k_ls_125_uniform
     {
-        displayname = "[125 - Kyrus] Clone Trooper Uniform";
+        displayname = "[125/LS] Clone Trooper Uniform (Kyrus)";
 		class ItemInfo: ItemInfo
 		{
-			uniformClass="125_swla_unit_kyrus";
+			uniformClass="k_ls_125_unit_kyrus";
 		};
     };
-    class 125_swla_uniform_rooche: 125_swla_uniform
+    class k_ls_125_uniform_rooche: k_ls_125_uniform
     {
-        displayname = "[125 - Rooche] Clone Trooper Uniform";
+        displayname = "[125/LS] Clone Trooper Uniform (Rooche)";
 		class ItemInfo: ItemInfo
 		{
-			uniformClass="125_swla_unit_rooche";
+			uniformClass="k_ls_125_unit_rooche";
 		};
     };
-    class 125_swla_uniform_tetre: 125_swla_uniform
+    class k_ls_125_uniform_tetre: k_ls_125_uniform
     {
-        displayname = "[125 - Tetre] Clone Trooper Uniform";
+        displayname = "[125/LS] Clone Trooper Uniform (Tetre)";
 		class ItemInfo: ItemInfo
 		{
-			uniformClass="125_swla_unit_tetre";
+			uniformClass="k_ls_125_unit_tetre";
 		};
     };
-    class 125_swla_uniform_thatcher: 125_swla_uniform
+    class k_ls_125_uniform_thatcher: k_ls_125_uniform
     {
-        displayname = "[125 - Thatcher] Clone Trooper Uniform";
+        displayname = "[125/LS] Clone Trooper Uniform (Thatcher)";
 		class ItemInfo: ItemInfo
 		{
-			uniformClass="125_swla_unit_thatcher";
+			uniformClass="k_ls_125_unit_thatcher";
 		};
     };
-    class 125_swla_uniform_thor: 125_swla_uniform
+    class k_ls_125_uniform_thor: k_ls_125_uniform
     {
-        displayname = "[125 - Thor] Clone Trooper Uniform";
+        displayname = "[125/LS] Clone Trooper Uniform (Thor)";
 		class ItemInfo: ItemInfo
 		{
-			uniformClass="125_swla_unit_thor";
+			uniformClass="k_ls_125_unit_thor";
 		};
     };

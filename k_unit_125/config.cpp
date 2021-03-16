@@ -10,94 +10,94 @@ class cfgpatches
 		requiredVersion = 0.1;
 		units[] = 
         {
-            "k_headgear_125_p15",
-            "k_headgear_125_p1_arf",
-            "k_headgear_125_p2_arf",
-            "k_headgear_125_barc",
-            "k_headgear_125_p2_pilot",
-            "k_headgear_125_p2",
-            "k_headgear_125_p2_bigsean",
-            "k_headgear_125_p2_dao",
-            "k_headgear_125_p2_doomer",
-            "k_headgear_125_p2_ghostly",
-            "k_headgear_125_p2_pilot_ido",
-            "k_headgear_125_p2_ithil",
-            "k_headgear_125_p2_kyrus",
-            "k_headgear_125_p2_lightru",
-            "k_headgear_125_p2_piggy",
-            "k_headgear_125_p2_rooche",
-            "k_headgear_125_p2_tetre",
-            "k_headgear_125_p2_thatcher",
-            "k_headgear_125_p15_thatcher",
-            "k_headgear_125_p2_thor",
-            "k_headgear_125_p2_pilot_tim",
-            "k_headgear_125_p2_vertigo",
-            "125_swla_unit",
-            "125_swla_arc_unit",
-            "125_swla_medic_unit",
-            "125_swla_pilot_unit",
-            "125_swla_unit_dao",
-            "125_swla_unit_ithil",
-            "125_swla_unit_kyrus",
-            "125_swla_unit_rooche",
-            "125_swla_unit_tetre",
-            "125_swla_unit_thatcher",
-            "125_swla_arc_unit_thatcher",
-            "125_swla_unit_thor",
+            "k_ls_headgear_125_p15",
+            "k_ls_headgear_125_p1_arf",
+            "k_ls_headgear_125_p2_arf",
+            "k_ls_headgear_125_barc",
+            "k_ls_headgear_125_p2_pilot",
+            "k_ls_headgear_125_p2",
+            "k_ls_headgear_125_p2_bigsean",
+            "k_ls_headgear_125_p2_dao",
+            "k_ls_headgear_125_p2_doomer",
+            "k_ls_headgear_125_p2_ghostly",
+            "k_ls_headgear_125_p2_pilot_ido",
+            "k_ls_headgear_125_p2_ithil",
+            "k_ls_headgear_125_p2_kyrus",
+            "k_ls_headgear_125_p2_lightru",
+            "k_ls_headgear_125_p2_piggy",
+            "k_ls_headgear_125_p2_rooche",
+            "k_ls_headgear_125_p2_tetre",
+            "k_ls_headgear_125_p2_thatcher",
+            "k_ls_headgear_125_p15_thatcher",
+            "k_ls_headgear_125_p2_thor",
+            "k_ls_headgear_125_p2_pilot_tim",
+            "k_ls_headgear_125_p2_vertigo",
+            "k_ls_125_unit",
+            "k_ls_125_arc_unit",
+            "k_ls_125_medic_unit",
+            "k_ls_125_pilot_unit",
+            "k_ls_125_unit_dao",
+            "k_ls_125_unit_ithil",
+            "k_ls_125_unit_kyrus",
+            "k_ls_125_unit_rooche",
+            "k_ls_125_unit_tetre",
+            "k_ls_125_unit_thatcher",
+            "k_ls_125_arc_unit_thatcher",
+            "k_ls_125_unit_thor",
         };
         weapons[] = 
         {
-            "125_p15_helmet",
-            "125_p1_arf_helmet",
-            "125_p2_arf_helmet",
-            "125_barc_helmet",
-            "125_p2_pilot_helmet",
-            "125_p2_helmet",
-            "125_p2_helmet_bigsean",
-            "125_p2_helmet_dao",
-            "125_p2_helmet_doomer",
-            "125_p2_helmet_ghostly",
-            "125_p2_pilot_helmet_ido",
-            "125_p2_helmet_ithil",
-            "125_p2_helmet_kyrus",
-            "125_p2_helmet_lightru",
-            "125_p2_helmet_piggy",
-            "125_p2_helmet_rooche",
-            "125_p2_helmet_tetre",
-            "125_p2_helmet_thatcher",
-            "125_p15_helmet_thatcher",
-            "125_p2_helmet_thor",
-            "125_p2_pilot_helmet_tim",
-            "125_p2_helmet_vertigo",
-            "125_swla_uniform",
-            "125_swla_arc_uniform",
-            "125_swla_medic_uniform",
-            "125_swla_pilot_uniform",
-            "125_swla_uniform_dao",
-            "125_swla_uniform_ithil",
-            "125_swla_uniform_kyrus",
-            "125_swla_uniform_rooche",
-            "125_swla_uniform_tetre",
-            "125_swla_uniform_thatcher",
-            "125_swla_arc_uniform_thatcher",
-            "125_swla_uniform_thor"
+            "k_ls_125_p15_helmet",
+            "k_ls_125_p1_arf_helmet",
+            "k_ls_125_p2_arf_helmet",
+            "k_ls_125_barc_helmet",
+            "k_ls_125_p2_pilot_helmet",
+            "k_ls_125_p2_helmet",
+            "k_ls_125_p2_helmet_bigsean",
+            "k_ls_125_p2_helmet_dao",
+            "k_ls_125_p2_helmet_doomer",
+            "k_ls_125_p2_helmet_ghostly",
+            "k_ls_125_p2_pilot_helmet_ido",
+            "k_ls_125_p2_helmet_ithil",
+            "k_ls_125_p2_helmet_kyrus",
+            "k_ls_125_p2_helmet_lightru",
+            "k_ls_125_p2_helmet_piggy",
+            "k_ls_125_p2_helmet_rooche",
+            "k_ls_125_p2_helmet_tetre",
+            "k_ls_125_p2_helmet_thatcher",
+            "k_ls_125_p15_helmet_thatcher",
+            "k_ls_125_p2_helmet_thor",
+            "k_ls_125_p2_pilot_helmet_tim",
+            "k_ls_125_p2_helmet_vertigo",
+            "k_ls_125_uniform",
+            "k_ls_125_arc_uniform",
+            "k_ls_125_medic_uniform",
+            "k_ls_125_pilot_uniform",
+            "k_ls_125_uniform_dao",
+            "k_ls_125_uniform_ithil",
+            "k_ls_125_uniform_kyrus",
+            "k_ls_125_uniform_rooche",
+            "k_ls_125_uniform_tetre",
+            "k_ls_125_uniform_thatcher",
+            "k_ls_125_arc_uniform_thatcher",
+            "k_ls_125_uniform_thor"
         };
     };
 };
 
 class cfgvehicles 
 {
-    class k_swla_unit_base;
-    class k_swla_unit_mc_base;
-    class k_clone_backpack;
-    class k_clone_backpack_med;
-    class k_clone_backpack_heavy;
-    class k_clone_backpack_medic;
-    class k_clone_backpack_medic_med;
-    class k_clone_backpack_radio;
-    class k_clone_backpack_radio_med;
-    class k_clone_backpack_rocket;
-    class k_headgear_p2;
+    class k_ls_unit_base;
+    class k_ls_unit_mc_base;
+    class k_ls_clone_backpack;
+    class k_ls_clone_backpack_med;
+    class k_ls_clone_backpack_heavy;
+    class k_ls_clone_backpack_medic;
+    class k_ls_clone_backpack_medic_med;
+    class k_ls_clone_backpack_radio;
+    class k_ls_clone_backpack_radio_med;
+    class k_ls_clone_backpack_rocket;
+    class k_ls_headgear_p2;
     #include "125_unit.hpp"
     #include "125_backpack.hpp"
     #include "placeable_helmet.hpp"
@@ -148,21 +148,21 @@ class cfgweapons
 	class SWLB_mando_og_helmet;
 	class SWLB_mando_rangefinder;
 
-    class k_swla_uniform;
-    class k_swla_mc_uniform;
-    class k_p2_helmet;
-    class k_p15_helmet;
-    class k_airborne_helmet;
-    class k_p2_pilot_helmet;
-    class k_barc_helmet;
-    class k_p1_arf_helmet;
-    class k_p2_arf_helmet;
-    class k_eng_helmet;
-    class k_p1_helmet;
-    class k_p1_pilot_helmet;
-    class k_p1_specops_helmet;
-    class k_p2_specops_helmet;
-    class k_rex_helmet;
+    class k_ls_uniform;
+    class k_ls_mc_uniform;
+    class k_ls_p2_helmet;
+    class k_ls_p15_helmet;
+    class k_ls_airborne_helmet;
+    class k_ls_p2_pilot_helmet;
+    class k_ls_barc_helmet;
+    class k_ls_p1_arf_helmet;
+    class k_ls_p2_arf_helmet;
+    class k_ls_eng_helmet;
+    class k_ls_p1_helmet;
+    class k_ls_p1_pilot_helmet;
+    class k_ls_p1_specops_helmet;
+    class k_ls_p2_specops_helmet;
+    class k_ls_rex_helmet;
     class k_Scout_Helmet;
     class k_hunter_helmet_base;
     class k_crosshair_helmet_base;

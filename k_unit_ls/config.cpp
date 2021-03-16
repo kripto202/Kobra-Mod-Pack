@@ -12,229 +12,230 @@ class CfgPatches
         requiredversion = 0.1;
         units[] = 
         {
-			"k_swla_unit_base",
-			"k_swla_unit_mc_base",
-			"k_swla_unit_b1_base",
-			"k_swla_unit_b1_base",
-			"k_swla_unit_b1_geonosis_base",
-			"k_swla_unit_b1_security_base",
-			"k_swla_unit_b1_cmd_base",
-			"k_swla_unit_b1_pilot_base",
-			"k_swla_unit_b1_woodland_base",
-			"k_swla_unit_b1_desert_base",
-			"k_swla_unit_b1_winter_base",
+			"k_ls_unit_base",
+			"k_ls_unit_mc_base",
+			"k_ls_unit_b1_base",
+			"k_ls_unit_b1_base",
+			"k_ls_unit_b1_geonosis_base",
+			"k_ls_unit_b1_security_base",
+			"k_ls_unit_b1_cmd_base",
+			"k_ls_unit_b1_pilot_base",
+			"k_ls_unit_b1_woodland_base",
+			"k_ls_unit_b1_desert_base",
+			"k_ls_unit_b1_winter_base",
 
 			"k_clone_backpack_base",
 			"k_clone_rto_backpack_base",
 
-			"k_swla_unit_p2_dc15a",
-			"k_swla_unit_p2_medic",
-			"k_swla_unit_p2_engineer",
+			"k_ls_unit_p2_dc15a",
+			"k_ls_unit_p2_medic",
+			"k_ls_unit_p2_engineer",
 
-			"k_swla_unit_b1_e5",
-			"k_swla_unit_b1_e5_rps6",
-			"k_swla_unit_b1_dc15x",
-			"k_swla_unit_b1_e5c",
-			"k_swla_unit_b1_e6z",
-			"k_swla_unit_b1_e5_e60r_at",
-			"k_swla_unit_b1_e5_e60r_aa",
-			"k_swla_unit_b1_security_e5",
-			"k_swla_unit_b1_security_e5_rps6",
-			"k_swla_unit_b1_security_dc15x",
-			"k_swla_unit_b1_security_e5c",
-			"k_swla_unit_b1_security_e6z",
-			"k_swla_unit_b1_security_e5_e60r_at",
-			"k_swla_unit_b1_security_e5_e60r_aa",
-			"k_swla_unit_b1_pilot_e5",
-			"k_swla_unit_b1_cmd_e5",
-			"k_swla_unit_b1_geonosis_e5",
-			"k_swla_unit_b1_geonosis_e5_rps6",
-			"k_swla_unit_b1_geonosis_dc15x",
-			"k_swla_unit_b1_geonosis_e5c",
-			"k_swla_unit_b1_geonosis_e6z",
-			"k_swla_unit_b1_geonosis_e5_e60r_at",
-			"k_swla_unit_b1_geonosis_e5_e60r_aa",
-			"k_swla_unit_b1_woodland_e5",
-			"k_swla_unit_b1_woodland_e5_rps6",
-			"k_swla_unit_b1_woodland_dc15x",
-			"k_swla_unit_b1_woodland_e5c",
-			"k_swla_unit_b1_woodland_e6z",
-			"k_swla_unit_b1_woodland_e5_e60r_at",
-			"k_swla_unit_b1_woodland_e5_e60r_aa",
-			"k_swla_unit_b1_desert_e5",
-			"k_swla_unit_b1_desert_e5_rps6",
-			"k_swla_unit_b1_desert_dc15x",
-			"k_swla_unit_b1_desert_e5c",
-			"k_swla_unit_b1_desert_e6z",
-			"k_swla_unit_b1_desert_e5_e60r_at",
-			"k_swla_unit_b1_desert_e5_e60r_aa",
-			"k_swla_unit_b1_winter_e5",
-			"k_swla_unit_b1_winter_e5_rps6",
-			"k_swla_unit_b1_winter_dc15x",
-			"k_swla_unit_b1_winter_e5c",
-			"k_swla_unit_b1_winter_e6z",
-			"k_swla_unit_b1_winter_e5_e60r_at",
-			"k_swla_unit_b1_winter_e5_e60r_aa",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5_rps6",
+			"k_ls_unit_b1_dc15x",
+			"k_ls_unit_b1_e5c",
+			"k_ls_unit_b1_e6z",
+			"k_ls_unit_b1_e5_e60r_at",
+			"k_ls_unit_b1_e5_e60r_aa",
+			"k_ls_unit_b1_security_e5",
+			"k_ls_unit_b1_security_e5_rps6",
+			"k_ls_unit_b1_security_dc15x",
+			"k_ls_unit_b1_security_e5c",
+			"k_ls_unit_b1_security_e6z",
+			"k_ls_unit_b1_security_e5_e60r_at",
+			"k_ls_unit_b1_security_e5_e60r_aa",
+			"k_ls_unit_b1_pilot_e5",
+			"k_ls_unit_b1_cmd_e5",
+			"k_ls_unit_b1_geonosis_e5",
+			"k_ls_unit_b1_geonosis_e5_rps6",
+			"k_ls_unit_b1_geonosis_dc15x",
+			"k_ls_unit_b1_geonosis_e5c",
+			"k_ls_unit_b1_geonosis_e6z",
+			"k_ls_unit_b1_geonosis_e5_e60r_at",
+			"k_ls_unit_b1_geonosis_e5_e60r_aa",
+			"k_ls_unit_b1_woodland_e5",
+			"k_ls_unit_b1_woodland_e5_rps6",
+			"k_ls_unit_b1_woodland_dc15x",
+			"k_ls_unit_b1_woodland_e5c",
+			"k_ls_unit_b1_woodland_e6z",
+			"k_ls_unit_b1_woodland_e5_e60r_at",
+			"k_ls_unit_b1_woodland_e5_e60r_aa",
+			"k_ls_unit_b1_desert_e5",
+			"k_ls_unit_b1_desert_e5_rps6",
+			"k_ls_unit_b1_desert_dc15x",
+			"k_ls_unit_b1_desert_e5c",
+			"k_ls_unit_b1_desert_e6z",
+			"k_ls_unit_b1_desert_e5_e60r_at",
+			"k_ls_unit_b1_desert_e5_e60r_aa",
+			"k_ls_unit_b1_winter_e5",
+			"k_ls_unit_b1_winter_e5_rps6",
+			"k_ls_unit_b1_winter_dc15x",
+			"k_ls_unit_b1_winter_e5c",
+			"k_ls_unit_b1_winter_e6z",
+			"k_ls_unit_b1_winter_e5_e60r_at",
+			"k_ls_unit_b1_winter_e5_e60r_aa",
 
-			"k_clone_backpack",
-			"k_clone_backpack_med",
-			"k_clone_backpack_heavy",
-			"k_clone_backpack_medic",
-			"k_clone_backpack_medic_med",
-			"k_clone_backpack_radio",
-			"k_clone_backpack_radio_med",
-			"k_clone_backpack_rocket",
+			"k_ls_clone_backpack",
+			"k_ls_clone_backpack_med",
+			"k_ls_clone_backpack_heavy",
+			"k_ls_clone_backpack_medic",
+			"k_ls_clone_backpack_medic_med",
+			"k_ls_clone_backpack_radio",
+			"k_ls_clone_backpack_radio_med",
+			"k_ls_clone_backpack_rocket",
 
-			"k_b1_backpack",
-			"k_b1_backpack_heavy",
-			"k_b1_backpack_rto",
-			"k_b1_backpack_geonosis",
-			"k_b1_backpack_heavy_geonosis",
-			"k_b1_backpack_rto_geonosis",
-			"k_b1_backpack_woodland",
-			"k_b1_backpack_heavy_woodland",
-			"k_b1_backpack_rto_woodland",
-			"k_b1_backpack_desert",
-			"k_b1_backpack_heavy_desert",
-			"k_b1_backpack_rto_desert",
-			"k_b1_backpack_winter",
-			"k_b1_backpack_heavy_winter",
-			"k_b1_backpack_rto_winter",
-			"k_clone_backpack_medic_med_load",
-			"k_b1_backpack_rps6_load",
-			"k_b1_backpack_e60r_at_load",
-			"k_b1_backpack_e60r_aa_load",
-			"k_b1_backpack_geonosis_rps6_load",
-			"k_b1_backpack_geonosis_e60r_at_load",
-			"k_b1_backpack_geonosis_e60r_aa_load",
-			"k_b1_backpack_woodland_rps6_load",
-			"k_b1_backpack_woodland_e60r_at_load",
-			"k_b1_backpack_woodland_e60r_aa_load",
-			"k_b1_backpack_desert_rps6_load",
-			"k_b1_backpack_desert_e60r_at_load",
-			"k_b1_backpack_desert_e60r_aa_load",
-			"k_b1_backpack_winter_rps6_load",
-			"k_b1_backpack_winter_e60r_at_load",
-			"k_b1_backpack_winter_e60r_aa_load",
+			"k_ls_b1_backpack",
+			"k_ls_b1_backpack_heavy",
+			"k_ls_b1_backpack_rto",
+			"k_ls_b1_backpack_geonosis",
+			"k_ls_b1_backpack_heavy_geonosis",
+			"k_ls_b1_backpack_rto_geonosis",
+			"k_ls_b1_backpack_woodland",
+			"k_ls_b1_backpack_heavy_woodland",
+			"k_ls_b1_backpack_rto_woodland",
+			"k_ls_b1_backpack_desert",
+			"k_ls_b1_backpack_heavy_desert",
+			"k_ls_b1_backpack_rto_desert",
+			"k_ls_b1_backpack_winter",
+			"k_ls_b1_backpack_heavy_winter",
+			"k_ls_b1_backpack_rto_winter",
+			"k_ls_clone_backpack_medic_med_load",
+			"k_ls_b1_backpack_rps6_load",
+			"k_ls_b1_backpack_e60r_at_load",
+			"k_ls_b1_backpack_e60r_aa_load",
+			"k_ls_b1_backpack_geonosis_rps6_load",
+			"k_ls_b1_backpack_geonosis_e60r_at_load",
+			"k_ls_b1_backpack_geonosis_e60r_aa_load",
+			"k_ls_b1_backpack_woodland_rps6_load",
+			"k_ls_b1_backpack_woodland_e60r_at_load",
+			"k_ls_b1_backpack_woodland_e60r_aa_load",
+			"k_ls_b1_backpack_desert_rps6_load",
+			"k_ls_b1_backpack_desert_e60r_at_load",
+			"k_ls_b1_backpack_desert_e60r_aa_load",
+			"k_ls_b1_backpack_winter_rps6_load",
+			"k_ls_b1_backpack_winter_e60r_at_load",
+			"k_ls_b1_backpack_winter_e60r_aa_load",
 
-			"k_headgear_p2",
-			"k_headgear_p15",
-			"k_headgear_airborne",
-			"k_headgear_p2_pilot",
-			"k_headgear_barc",
-			"k_headgear_p1_arf",
-			"k_headgear_p2_arf",
-			"k_headgear_eng",
-			"k_headgear_p1",
-			"k_headgear_p1_pilot",
-			"k_headgear_p1_specops",
-			"k_headgear_p2_specops",
-			"k_headgear_rex",
-			"k_headgear_p1_sgt",
-			"k_headgear_p1_lt",
-			"k_headgear_p1_cpt",
-			"k_headgear_p1_cmd",
-			"k_headgear_b1",
-			"k_headgear_b1_geonosis",
-			"k_headgear_b1_cmd",
-			"k_headgear_b1_woodland",
-			"k_headgear_b1_desert",
-			"k_headgear_b1_winter",
+			"k_ls_headgear_p2",
+			"k_ls_headgear_p15",
+			"k_ls_headgear_airborne",
+			"k_ls_headgear_p2_pilot",
+			"k_ls_headgear_barc",
+			"k_ls_headgear_p1_arf",
+			"k_ls_headgear_p2_arf",
+			"k_ls_headgear_eng",
+			"k_ls_headgear_p1",
+			"k_ls_headgear_p1_pilot",
+			"k_ls_headgear_p1_specops",
+			"k_ls_headgear_p2_specops",
+			"k_ls_headgear_rex",
+			"k_ls_headgear_p1_sgt",
+			"k_ls_headgear_p1_lt",
+			"k_ls_headgear_p1_cpt",
+			"k_ls_headgear_p1_cmd",
+			"k_ls_headgear_b1",
+			"k_ls_headgear_b1_geonosis",
+			"k_ls_headgear_b1_cmd",
+			"k_ls_headgear_b1_woodland",
+			"k_ls_headgear_b1_desert",
+			"k_ls_headgear_b1_winter",
         };
         weapons[] = 
         {
-			"k_helmet_base",
-			"k_p2_helmet_base",
-			"k_p15_helmet_base",
-			"k_airborne_helmet_base",
-			"k_p2_pilot_helmet_base",
-			"k_barc_helmet_base",
-			"k_p1_arf_helmet_base",
-			"k_p2_arf_helmet_base",
-			"k_eng_helmet_base",
-			"k_p1_helmet_base",
-			"k_p1_pilot_helmet_base",
-			"k_p1_specops_helmet_base",
-			"k_p2_specops_helmet_base",
-			"k_rex_helmet_base",
-			"k_b1_helmet_base",
-			"k_vest_base",
-			"k_swla_uniform_base",
-			"k_swla_uniform_mc_base",
-			"k_b1_uniform_base",
-			"442_nvg_base",
-			"442_nvg_rangefinder",
-			"442_nvg_clone_visor",
-			"442_nvg_clone_visor_nco",
-			"442_nvg_clone_visor_nco",
-			"442_nvg_clone_visor_command",
-			"442_nvg_clone_visor_cc",
-			"442_nvg_p1_rangefinder",
-			"442_nvg_clone_p1_visor",
-			"442_nvg_clone_p1_visor_cc",
+			"k_ls_helmet_base",
+			"k_ls_p2_helmet_base",
+			"k_ls_p15_helmet_base",
+			"k_ls_airborne_helmet_base",
+			"k_ls_p2_pilot_helmet_base",
+			"k_ls_barc_helmet_base",
+			"k_ls_p1_arf_helmet_base",
+			"k_ls_p2_arf_helmet_base",
+			"k_ls_eng_helmet_base",
+			"k_ls_p1_helmet_base",
+			"k_ls_p1_pilot_helmet_base",
+			"k_ls_p1_specops_helmet_base",
+			"k_ls_p2_specops_helmet_base",
+			"k_ls_rex_helmet_base",
+			"k_ls_b1_helmet_base",
+			"k_ls_vest_base",
+			"k_ls_uniform_base",
+			"k_ls_uniform_mc_base",
+			"k_ls_b1_uniform_base",
 
-			"k_p2_helmet",
-			"k_p15_helmet",
-			"k_airborne_helmet",
-			"k_p2_pilot_helmet",
-			"k_barc_helmet",
-			"k_p1_arf_helmet",
-			"k_p2_arf_helmet",
-			"k_eng_helmet",
-			"k_p1_helmet",
-			"k_p1_pilot_helmet",
-			"k_p1_specops_helmet",
-			"k_p2_specops_helmet",
-			"k_rex_helmet",
-			"k_p1_helmet_sgt",
-			"k_p1_helmet_lt",
-			"k_p1_helmet_cpt",
-			"k_p1_helmet_cmd",
-			"k_b1_helmet",
-			"k_b1_helmet_geonosis",
-			"k_b1_helmet_cmd",
-			"k_b1_helmet_woodland",
-			"k_b1_helmet_desert",
-			"k_b1_helmet_winter",
+			"k_ls_nvg_base",
+			"k_ls_nvg_rangefinder",
+			"k_ls_nvg_clone_visor",
+			"k_ls_nvg_clone_visor_nco",
+			"k_ls_nvg_clone_visor_nco",
+			"k_ls_nvg_clone_visor_command",
+			"k_ls_nvg_clone_visor_cc",
+			"k_ls_nvg_p1_rangefinder",
+			"k_ls_nvg_clone_p1_visor",
+			"k_ls_nvg_clone_p1_visor_cc",
 
-			"k_vest_basic",
-			"k_vest_arc_1",
-			"k_vest_arc_2",
-			"k_vest_arc_plate",
-			"k_vest_airborne_1",
-			"k_vest_airborne_2",
-			"k_vest_airborne_medic",
-			"k_vest_airborne_nco_1",
-			"k_vest_airborne_nco_2",
-			"k_vest_assault",
-			"k_vest_cfr",
-			"k_vest_commander_armor_1",
-			"k_vest_commander_armor_2",
-			"k_vest_commander_armor_3",
-			"k_vest_commander_armor_4",
-			"k_vest_grenadier",
-			"k_vest_kama_1",
-			"k_vest_kama_2",
-			"k_vest_pauldron_1",
-			"k_vest_pauldron_2",
-			"k_vest_light",
-			"k_vest_medic",
-			"k_vest_recon_1",
-			"k_vest_recon_2",
-			"k_vest_recon_officer_1",
-			"k_vest_recon_officer_2",
-			"k_vest_specialist",
+			"k_ls_p2_helmet",
+			"k_ls_p15_helmet",
+			"k_ls_airborne_helmet",
+			"k_ls_p2_pilot_helmet",
+			"k_ls_barc_helmet",
+			"k_ls_p1_arf_helmet",
+			"k_ls_p2_arf_helmet",
+			"k_ls_eng_helmet",
+			"k_ls_p1_helmet",
+			"k_ls_p1_pilot_helmet",
+			"k_ls_p1_specops_helmet",
+			"k_ls_p2_specops_helmet",
+			"k_ls_rex_helmet",
+			"k_ls_p1_helmet_sgt",
+			"k_ls_p1_helmet_lt",
+			"k_ls_p1_helmet_cpt",
+			"k_ls_p1_helmet_cmd",
+			"k_ls_b1_helmet",
+			"k_ls_b1_helmet_geonosis",
+			"k_ls_b1_helmet_cmd",
+			"k_ls_b1_helmet_woodland",
+			"k_ls_b1_helmet_desert",
+			"k_ls_b1_helmet_winter",
 
-			"k_swla_uniform",
-			"k_swla_mc_uniform",
-			"k_swla_b1_uniform",
-			"k_swla_b1_geonosis_uniform",
-			"k_swla_b1_security_uniform",
-			"k_swla_b1_pilot_uniform",
-			"k_swla_b1_cmd_uniform",
-			"k_swla_b1_woodland_uniform",
-			"k_swla_b1_desert_uniform",
-			"k_swla_b1_winter_uniform",
+			"k_ls_vest_basic",
+			"k_ls_vest_arc_1",
+			"k_ls_vest_arc_2",
+			"k_ls_vest_arc_plate",
+			"k_ls_vest_airborne_1",
+			"k_ls_vest_airborne_2",
+			"k_ls_vest_airborne_medic",
+			"k_ls_vest_airborne_nco_1",
+			"k_ls_vest_airborne_nco_2",
+			"k_ls_vest_assault",
+			"k_ls_vest_cfr",
+			"k_ls_vest_commander_armor_1",
+			"k_ls_vest_commander_armor_2",
+			"k_ls_vest_commander_armor_3",
+			"k_ls_vest_commander_armor_4",
+			"k_ls_vest_grenadier",
+			"k_ls_vest_kama_1",
+			"k_ls_vest_kama_2",
+			"k_ls_vest_pauldron_1",
+			"k_ls_vest_pauldron_2",
+			"k_ls_vest_light",
+			"k_ls_vest_medic",
+			"k_ls_vest_recon_1",
+			"k_ls_vest_recon_2",
+			"k_ls_vest_recon_officer_1",
+			"k_ls_vest_recon_officer_2",
+			"k_ls_vest_specialist",
+
+			"k_ls_uniform",
+			"k_ls_mc_uniform",
+			"k_ls_b1_uniform",
+			"k_ls_b1_geonosis_uniform",
+			"k_ls_b1_security_uniform",
+			"k_ls_b1_pilot_uniform",
+			"k_ls_b1_cmd_uniform",
+			"k_ls_b1_woodland_uniform",
+			"k_ls_b1_desert_uniform",
+			"k_ls_b1_winter_uniform",
 
         };
     };
@@ -255,7 +256,7 @@ class cfgweapons
     class ItemCore;
 
 /////////////helmet//////////////////
-    class k_helmet_base: H_HelmetO_ViperSP_hex_F
+    class k_ls_helmet_base: H_HelmetO_ViperSP_hex_F
 	{
 		author = "KOBRA Mod Team";
 		displayname = "helmet base config";
@@ -292,7 +293,7 @@ class cfgweapons
 			};
 		};
 	};
-	class k_p2_helmet_base: k_helmet_base
+	class k_ls_p2_helmet_base: k_ls_helmet_base
 	{
 		displayname = "[K/LS] P2 Helmet";
 		picture = "ls_armor_bluefor\helmet\_ui\icon_gar_phase2_helmet_ca.paa";
@@ -319,7 +320,7 @@ class cfgweapons
 			};
 		};
 	};
-	class k_p15_helmet_base: k_helmet_base
+	class k_ls_p15_helmet_base: k_ls_helmet_base
 	{
 		displayname = "[K/LS] P1.5 Helmet";
 		picture = "kobra\kobra_core\kobra.paa";
@@ -350,7 +351,7 @@ class cfgweapons
 			};
 		};
 	};
-	class k_airborne_helmet_base: k_helmet_base
+	class k_ls_airborne_helmet_base: k_ls_helmet_base
 	{
 		displayname = "[K/LS] Airborne Helmet";
 		picture = "kobra\kobra_core\kobra.paa";
@@ -358,7 +359,7 @@ class cfgweapons
 		{
 			"k_nvg"
 		};
-		model="\ls_armor_bluefor\helmet\gar\airborne\ls_gar_airborne_helmet.p3d";
+		model="\ls_armor_bluefor\helmet\gar\airborne\lsd_gar_airborne_helmet.p3d";
 		hiddenselections[] = 
 		{
 			"camo1",
@@ -371,7 +372,7 @@ class cfgweapons
 		};
 		class ItemInfo: ItemInfo
 		{
-			uniformModel="\ls_armor_bluefor\helmet\gar\airborne\ls_gar_airborne_helmet.p3d";
+			uniformModel="\ls_armor_bluefor\helmet\gar\airborne\lsd_gar_airborne_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"camo1",
@@ -379,7 +380,7 @@ class cfgweapons
 			};
 		};
 	};
-	class k_p2_pilot_helmet_base: k_helmet_base
+	class k_ls_p2_pilot_helmet_base: k_ls_helmet_base
 	{
 		displayname = "[K/LS] P2 Pilot Helmet";
 		ace_hearing_protection = 1;
@@ -412,7 +413,7 @@ class cfgweapons
 			};
 		};
 	};
-	class k_barc_helmet_base: k_helmet_base
+	class k_ls_barc_helmet_base: k_ls_helmet_base
 	{
 		displayname = "[K/LS] Barc Helmet";
 		picture = "kobra\kobra_core\kobra.paa";
@@ -440,7 +441,7 @@ class cfgweapons
 			};
 		};
 	};
-	class k_p1_arf_helmet_base: k_helmet_base
+	class k_ls_p1_arf_helmet_base: k_ls_helmet_base
 	{
 		displayname = "[K/LS] P1 ARF Helmet";
 		picture = "kobra\kobra_core\kobra.paa";
@@ -473,7 +474,7 @@ class cfgweapons
 			};
 		};
 	};
-	class k_p2_arf_helmet_base: k_p1_arf_helmet_base
+	class k_ls_p2_arf_helmet_base: k_ls_p1_arf_helmet_base
 	{
 		displayname = "[K/LS] P2 ARF Helmet";
 		/*hiddenselectionsmaterials[] = 
@@ -483,7 +484,7 @@ class cfgweapons
 			"kobra\k_unit_ls\data\helmet\arf_helmet\visor.rvmat"
 		};*/
 	};
-	class k_eng_helmet_base: k_helmet_base
+	class k_ls_eng_helmet_base: k_ls_helmet_base
 	{
 		displayname = "[K/LS] Engineer Helmet";
 		picture = "kobra\kobra_core\kobra.paa";
@@ -516,7 +517,7 @@ class cfgweapons
 			};
 		};
 	};
-	class k_p1_helmet_base: k_helmet_base
+	class k_ls_p1_helmet_base: k_ls_helmet_base
 	{
 		displayname = "[K/LS] P1 Helmet";
 		picture = "kobra\kobra_core\kobra.paa";
@@ -547,7 +548,7 @@ class cfgweapons
 			};
 		};
 	};
-	class k_p1_pilot_helmet_base: k_helmet_base
+	class k_ls_p1_pilot_helmet_base: k_ls_helmet_base
 	{
 		displayname = "[K/LS] P1 Pilot Helmet";
 		picture = "kobra\kobra_core\kobra.paa";
@@ -580,7 +581,7 @@ class cfgweapons
 			};
 		};
 	};
-	class k_p1_specops_helmet_base: k_helmet_base
+	class k_ls_p1_specops_helmet_base: k_ls_helmet_base
 	{
 		displayname = "[K/LS] P1 Specops Helmet";
 		picture = "kobra\kobra_core\kobra.paa";
@@ -611,7 +612,7 @@ class cfgweapons
 			};
 		};
 	};
-	class k_p2_specops_helmet_base: k_helmet_base
+	class k_ls_p2_specops_helmet_base: k_ls_helmet_base
 	{
 		displayname = "[K/LS] P2 Specops Helmet";
 		picture = "kobra\kobra_core\kobra.paa";
@@ -642,7 +643,7 @@ class cfgweapons
 			};
 		};
 	};
-	class k_rex_helmet_base: k_helmet_base
+	class k_ls_rex_helmet_base: k_ls_helmet_base
 	{
 		displayname = "[K/LS] Rex Helmet";
 		picture = "kobra\kobra_core\kobra.paa";
@@ -671,7 +672,7 @@ class cfgweapons
 		};
 	};
 
-	class k_b1_helmet_base: k_helmet_base
+	class k_ls_b1_helmet_base: k_ls_helmet_base
 	{
 		model = "ls_armor_redfor\helmet\cis\b1\ls_cis_b1_helmet.p3d";
 		subItems[] = {"k_nvg"};
@@ -697,7 +698,7 @@ class cfgweapons
 	};
 	#include "helmet.hpp"
 ////////////////vest//////////////////
-    class k_vest_base: V_rebreatherB
+    class k_ls_vest_base: V_rebreatherB
     {
         author = "Kobra Mod Team, Clock, and Dezi";
         displayname = "vest base";
@@ -742,7 +743,7 @@ class cfgweapons
     };
 	#include "vest.hpp"
 ////////////////uniform//////////////
-	class k_swla_uniform_base: U_I_CombatUniform
+	class k_ls_uniform_base: U_I_CombatUniform
 	{
 		displayname="Clone Trooper Armor";
 		author = "KOBRA Mod Team";
@@ -757,10 +758,10 @@ class cfgweapons
 			containerClass="Supply200";
 			mass=40;
 			uniformType="Neopren";
-			uniformClass="k_swla_unit_base";
+			uniformClass="k_ls_unit_base";
 		};
 	};
-	class k_swla_uniform_mc_base: U_I_CombatUniform
+	class k_ls_uniform_mc_base: U_I_CombatUniform
 	{
 		author = "KOBRA Mod Team";
 		scope=0;
@@ -770,13 +771,13 @@ class cfgweapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="k_swla_mc_unit_base"; //link to unit
+			uniformClass="k_ls_mc_unit_base"; //link to unit
 			containerClass="Supply200";
 			uniformType="Neopren";
 			mass=40;
 		};
 	};
-	class k_b1_uniform_base: ls_cis_b1_uniform
+	class k_ls_b1_uniform_base: ls_cis_b1_uniform
 	{
 		author = "KOBRA Mod Team";
 		scope = 0;
@@ -784,7 +785,7 @@ class cfgweapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="k_swla_mc_unit_base"; //link to unit
+			uniformClass="k_ls_mc_unit_base"; //link to unit
 			containerClass="Supply200";
 			uniformType="Neopren";
 			mass=40;
@@ -792,7 +793,7 @@ class cfgweapons
 	};
 	#include "uniform.hpp"
 //////////attachments/////////
-	class 442_nvg_base: nvgoggles
+	class k_ls_nvg_base: nvgoggles
     {
         scope = 1;
         ace_nightvision_border = "kobra\442_equipment\attachments\data\nvg_mask_sw_4096.paa";
@@ -803,7 +804,7 @@ class cfgweapons
         thermalMode[] = {0};
     };
     class SWLB_clone_rangefinder;
-    class 442_nvg_rangefinder: SWLB_clone_rangefinder
+    class k_ls_nvg_rangefinder: SWLB_clone_rangefinder
     {
         scope = 2;
         displayname = "[K/LS] Clone Rangefinder";
@@ -812,7 +813,7 @@ class cfgweapons
         modeloptics = "";
     };
     class SWLB_clone_nvg;
-    class 442_nvg_clone_visor: SWLB_clone_nvg
+    class k_ls_nvg_clone_visor: SWLB_clone_nvg
     {
         scope = 2;
         displayname = "[K/LS] Clone NVG Visor";
@@ -821,7 +822,7 @@ class cfgweapons
         modeloptics = "";
     };
     class SWLB_clone_nvg_nco;
-    class 442_nvg_clone_visor_nco: SWLB_clone_nvg_nco
+    class k_ls_nvg_clone_visor_nco: SWLB_clone_nvg_nco
     {
         displayname = "[K/LS] Clone NVG Visor NCO";
         visionmode[] = {"Normal", "NVG"};
@@ -829,7 +830,7 @@ class cfgweapons
         modeloptics = "";
     };
     class SWLB_clone_ccVisor;
-    class 442_nvg_clone_visor_command: SWLB_clone_ccVisor
+    class k_ls_nvg_clone_visor_command: SWLB_clone_ccVisor
     {
         scope = 2;
         displayname = "[K/LS] Clone Visor";
@@ -838,7 +839,7 @@ class cfgweapons
         modeloptics = "";
     };
     class SWLB_clone_mcVisor;
-    class 442_nvg_clone_visor_cc: SWLB_clone_mcVisor
+    class k_ls_nvg_clone_visor_cc: SWLB_clone_mcVisor
     {
         displayname = "[K/LS] Clone Visor Commander";
         visionmode[] = {"Normal", "NVG"};
@@ -849,7 +850,7 @@ class cfgweapons
 ///P1 attachments///
 
     class swlb_cee_p1_rangefinder;
-    class 442_nvg_p1_rangefinder: swlb_cee_p1_rangefinder
+    class k_ls_nvg_p1_rangefinder: swlb_cee_p1_rangefinder
     {
         displayname = "[K/LS] Clone P1 Rangefinder";
         visionmode[] = {"Normal", "NVG"};
@@ -857,7 +858,7 @@ class cfgweapons
         modeloptics = "";
     };
     class SWLB_CEE_P1_Visor;
-    class 442_nvg_clone_p1_visor: SWLB_CEE_P1_Visor
+    class k_ls_nvg_clone_p1_visor: SWLB_CEE_P1_Visor
     {
         displayname = "[K/LS] Clone P1 NVG Visor";
         visionmode[] = {"Normal", "NVG"};
@@ -865,7 +866,7 @@ class cfgweapons
         modeloptics = "";
     };
     class SWLB_CEE_P1_MC_Visor;
-    class 442_nvg_clone_p1_visor_cc: SWLB_CEE_P1_MC_Visor
+    class k_ls_nvg_clone_p1_visor_cc: SWLB_CEE_P1_MC_Visor
     {
         displayname = "[K/LS] Clone P1 Visor Commander";
         visionmode[] = {"Normal", "NVG"};
@@ -880,7 +881,7 @@ class cfgvehicles
 	class B_Kitbag_rgr;
 	class headgear_base_f;
 /////////////unit//////////////
-    class k_swla_unit_base: B_Soldier_02_f
+    class k_ls_unit_base: B_Soldier_02_f
 	{
 		scope=1;
 		scopeCurator=1;
@@ -897,7 +898,7 @@ class cfgvehicles
 		role="Rifleman";
 		side = 1;
 		author = "KOBRA Mod Team";
-		uniformclass="k_swla_uniform";
+		uniformclass="k_ls_uniform";
 		faction="kobra_b";
 		editorSubCategory="442_trooper";
 		displayname="Trooper";
@@ -946,7 +947,7 @@ class cfgvehicles
 		minTotalDamageThreshold=0.001;
 		impactDamageMultiplier=0.5;
 	};
-	class k_swla_unit_base_sgt: k_swla_unit_base
+	class k_ls_unit_base_sgt: k_ls_unit_base
 	{
 		hiddenselectionsTextures[]=
 		{
@@ -955,7 +956,7 @@ class cfgvehicles
 			"kobra\k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa",
 		};
 	};
-	class k_swla_unit_base_lt: k_swla_unit_base
+	class k_ls_unit_base_lt: k_ls_unit_base
 	{
 		hiddenselectionsTextures[]=
 		{
@@ -964,7 +965,7 @@ class cfgvehicles
 			"kobra\k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa",
 		};
 	};
-	class k_swla_unit_base_cpt: k_swla_unit_base
+	class k_ls_unit_base_cpt: k_ls_unit_base
 	{
 		hiddenselectionsTextures[]=
 		{
@@ -973,7 +974,7 @@ class cfgvehicles
 			"kobra\k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa",
 		};
 	};
-	class k_swla_unit_base_cmd: k_swla_unit_base
+	class k_ls_unit_base_cmd: k_ls_unit_base
 	{
 		hiddenselectionsTextures[]=
 		{
@@ -982,11 +983,11 @@ class cfgvehicles
 			"kobra\k_unit_ls\data\uniform\mc_uniform\undersuit_co.paa",
 		};
 	};
-	class k_swla_unit_mc_base: k_swla_unit_base
+	class k_ls_unit_mc_base: k_ls_unit_base
 	{
 		model = "ls_armor_bluefor\uniform\gar\marshalCommander\ls_gar_marshalCommander_uniform.p3d";
 		side = 1;
-		uniformclass="k_swla_mc_uniform";
+		uniformclass="k_ls_mc_uniform";
 		//picture = "k_unit_ls\ui\body_mc.paa"; //this needs to be changed
 		hiddenselections[]=
 		{
@@ -1009,7 +1010,7 @@ class cfgvehicles
 		};
 	};
 
-	class k_swla_unit_b1_base: k_swla_unit_base
+	class k_ls_unit_b1_base: k_ls_unit_base
 	{
 		side = 0;
 		hiddenselections[] = 
@@ -1027,7 +1028,7 @@ class cfgvehicles
 			"kobra\k_unit_ls\data\uniform\b1_uniform\camo1.rvmat",
 			"kobra\k_unit_ls\data\uniform\b1_uniform\camo2.rvmat",
 		};
-		uniformclass = "k_swla_b1_uniform";
+		uniformclass = "k_ls_b1_uniform";
 		model = "\ls_armor_redfor\uniform\cis\b1\ls_cis_b1_uniform.p3d";
 		faction="442_CIS";
 		editorSubCategory="442_battledroid_inf";
@@ -1134,71 +1135,71 @@ class cfgvehicles
 			};
 		};
 	};
-	class k_swla_unit_b1_geonosis_base: k_swla_unit_b1_base
+	class k_ls_unit_b1_geonosis_base: k_ls_unit_b1_base
 	{
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_ls\data\uniform\b1_uniform\b1_upper_geonosis_co.paa",
 			"kobra\k_unit_ls\data\uniform\b1_uniform\b1_lower_geonosis_co.paa"
 		};
-		uniformclass = "k_swla_b1_geonosis_uniform";
+		uniformclass = "k_ls_b1_geonosis_uniform";
 		editorsubcategory = "442_battledroid_inf_geonosis";
 	};
-	class k_swla_unit_b1_security_base: k_swla_unit_b1_base
+	class k_ls_unit_b1_security_base: k_ls_unit_b1_base
 	{
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_ls\data\uniform\b1_uniform\b1_upper_security_co.paa",
 			"kobra\k_unit_ls\data\uniform\b1_uniform\b1_lower_co.paa"
 		};
-		uniformclass = "k_swla_b1_security_uniform";
+		uniformclass = "k_ls_b1_security_uniform";
 	};
-	class k_swla_unit_b1_cmd_base: k_swla_unit_b1_base
+	class k_ls_unit_b1_cmd_base: k_ls_unit_b1_base
 	{
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_ls\data\uniform\b1_uniform\b1_upper_cmd_co.paa",
 			"kobra\k_unit_ls\data\uniform\b1_uniform\b1_lower_co.paa"
 		};
-		uniformclass = "k_swla_b1_cmd_uniform";
+		uniformclass = "k_ls_b1_cmd_uniform";
 	};
-	class k_swla_unit_b1_pilot_base: k_swla_unit_b1_base
+	class k_ls_unit_b1_pilot_base: k_ls_unit_b1_base
 	{
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_ls\data\uniform\b1_uniform\b1_upper_pilot_co.paa",
 			"kobra\k_unit_ls\data\uniform\b1_uniform\b1_lower_co.paa"
 		};
-		uniformclass = "k_swla_b1_pilot_uniform";
+		uniformclass = "k_ls_b1_pilot_uniform";
 	};
-	class k_swla_unit_b1_woodland_base: k_swla_unit_b1_base
+	class k_ls_unit_b1_woodland_base: k_ls_unit_b1_base
 	{
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_ls\data\uniform\b1_uniform\b1_upper_woodland_co.paa",
 			"kobra\k_unit_ls\data\uniform\b1_uniform\b1_lower_woodland_co.paa"
 		};
-		uniformclass = "k_swla_b1_woodland_uniform";
+		uniformclass = "k_ls_b1_woodland_uniform";
 		editorsubcategory = "442_battledroid_inf_w";
 	};
-	class k_swla_unit_b1_desert_base: k_swla_unit_b1_base
+	class k_ls_unit_b1_desert_base: k_ls_unit_b1_base
 	{
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_ls\data\uniform\b1_uniform\b1_upper_desert_co.paa",
 			"kobra\k_unit_ls\data\uniform\b1_uniform\b1_lower_desert_co.paa"
 		};
-		uniformclass = "k_swla_b1_desert_uniform";
+		uniformclass = "k_ls_b1_desert_uniform";
 		editorsubcategory = "442_battledroid_inf_d";
 	};
-	class k_swla_unit_b1_winter_base: k_swla_unit_b1_base
+	class k_ls_unit_b1_winter_base: k_ls_unit_b1_base
 	{
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_ls\data\uniform\b1_uniform\b1_upper_winter_co.paa",
 			"kobra\k_unit_ls\data\uniform\b1_uniform\b1_lower_winter_co.paa"
 		};
-		uniformclass = "k_swla_b1_winter_uniform";
+		uniformclass = "k_ls_b1_winter_uniform";
 		editorsubcategory = "442_battledroid_inf_winter";
 	};
 	#include "unit.hpp"
@@ -1212,7 +1213,7 @@ class cfgGroups
 	{
 		name = "OPFOR";
 		side = 0;
-		class k_cis_group
+		class k_ls_cis_group
 		{
 			name = "[K/LS] CIS";
 			#include "cis_standard_group.hpp"

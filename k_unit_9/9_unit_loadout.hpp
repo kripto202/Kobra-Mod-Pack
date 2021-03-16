@@ -1,4 +1,4 @@
-	class 9_swla_trooper_worn_dc15a: 9_swla_trooper_worn
+	class k_ls_9_trooper_worn_dc15a: k_ls_9_trooper_worn
 	{
 		scope = 2;
 		scopecurator = 2;
@@ -10,7 +10,7 @@
 		canDeactivateMines="false";
 		linkedItems[] = 
 		{
-			"9_p2_helmet_dirt",
+			"k_ls_9_p2_helmet_dirt",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -19,7 +19,7 @@
 		};
 		respawnlinkedItems[] = 
 		{
-			"9_p2_helmet_dirt",
+			"k_ls_9_p2_helmet_dirt",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -119,7 +119,7 @@
             "ACE_quikclot",
         };
 	};
-	class 9_swla_trooper_worn_dc15s: 9_swla_trooper_worn_dc15a
+	class k_ls_9_trooper_worn_dc15s: k_ls_9_trooper_worn_dc15a
 	{
 		displayname = "Trooper (DC-15S)";
 		weapons[] = 
@@ -169,12 +169,12 @@
 			"smokeShell",
 		};
 	};
-	class 9_swla_trooper_worn_medic: 9_swla_trooper_worn_dc15s
+	class k_ls_9_trooper_worn_medic: k_ls_9_trooper_worn_dc15s
 	{
 		displayname = "Trooper (Medic)";
 		attendant = 1;
 	};
-	class 9_swla_trooper_worn_engineer: 9_swla_trooper_worn_dc15s
+	class k_ls_9_trooper_worn_engineer: k_ls_9_trooper_worn_dc15s
 	{
 		displayname = "Trooper (Engineer)";
 		engineer = 1;

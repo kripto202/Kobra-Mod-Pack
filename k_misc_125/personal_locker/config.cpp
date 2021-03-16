@@ -64,7 +64,7 @@ class cfgvehicles
         multistructureparts[] = 
         {
             {
-                "k_headgear_125_p2_bigsean",
+                "k_ls_headgear_125_p2_bigsean",
                 "helmet"
             }
         };
@@ -81,7 +81,7 @@ class cfgvehicles
         multistructureparts[] = 
         {
             {
-                "k_headgear_125_p2_dao",
+                "k_ls_headgear_125_p2_dao",
                 "helmet"
             }
         };
@@ -98,7 +98,7 @@ class cfgvehicles
         multistructureparts[] = 
         {
             {
-                "k_headgear_125_p2_doomer",
+                "k_ls_headgear_125_p2_doomer",
                 "helmet"
             }
         };
@@ -115,7 +115,7 @@ class cfgvehicles
         multistructureparts[] = 
         {
             {
-                "k_headgear_125_p2_pilot_ido",
+                "k_ls_headgear_125_p2_pilot_ido",
                 "helmet"
             }
         };
@@ -132,7 +132,7 @@ class cfgvehicles
         multistructureparts[] = 
         {
             {
-                "k_headgear_125_p2_ithil",
+                "k_ls_headgear_125_p2_ithil",
                 "helmet"
             }
         };
@@ -149,7 +149,7 @@ class cfgvehicles
         multistructureparts[] = 
         {
             {
-                "k_headgear_125_p2_kyrus",
+                "k_ls_headgear_125_p2_kyrus",
                 "helmet"
             }
         };
@@ -166,7 +166,7 @@ class cfgvehicles
         multistructureparts[] = 
         {
             {
-                "k_headgear_125_p2_lightru",
+                "k_ls_headgear_125_p2_lightru",
                 "helmet"
             }
         };
@@ -183,7 +183,7 @@ class cfgvehicles
         multistructureparts[] = 
         {
             {
-                "k_headgear_125_p2_piggy",
+                "k_ls_headgear_125_p2_piggy",
                 "helmet"
             }
         };
@@ -200,7 +200,7 @@ class cfgvehicles
         multistructureparts[] = 
         {
             {
-                "k_headgear_125_p2_Rooche",
+                "k_ls_headgear_125_p2_Rooche",
                 "helmet"
             }
         };
@@ -217,7 +217,7 @@ class cfgvehicles
         multistructureparts[] = 
         {
             {
-                "k_headgear_125_p2_tetre",
+                "k_ls_headgear_125_p2_tetre",
                 "helmet"
             }
         };
@@ -234,7 +234,7 @@ class cfgvehicles
         multistructureparts[] = 
         {
             {
-                "k_headgear_125_p2_thatcher",
+                "k_ls_headgear_125_p2_thatcher",
                 "helmet"
             }
         };
@@ -251,7 +251,7 @@ class cfgvehicles
         multistructureparts[] = 
         {
             {
-                "k_headgear_125_p15_thatcher",
+                "k_ls_headgear_125_p15_thatcher",
                 "helmet"
             }
         };
@@ -268,7 +268,7 @@ class cfgvehicles
         multistructureparts[] = 
         {
             {
-                "k_headgear_125_p2_thor",
+                "k_ls_headgear_125_p2_thor",
                 "helmet"
             }
         };
@@ -285,7 +285,7 @@ class cfgvehicles
         multistructureparts[] = 
         {
             {
-                "k_headgear_125_p2_pilot_tim",
+                "k_ls_headgear_125_p2_pilot_tim",
                 "helmet"
             }
         };
@@ -302,7 +302,7 @@ class cfgvehicles
         multistructureparts[] = 
         {
             {
-                "k_headgear_125_p2_vertigo",
+                "k_ls_headgear_125_p2_vertigo",
                 "helmet"
             }
         };

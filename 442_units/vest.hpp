@@ -1,4 +1,4 @@
-    class k_scout_pouches_base: 442_vest_base
+    class k_scout_pouches_base: k_vest_base
     {
         author = "KOBRA Mod Team";
         displayname = "Scout Pouches";

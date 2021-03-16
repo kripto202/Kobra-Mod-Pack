@@ -10,22 +10,22 @@ class cfgpatches
 		requiredVersion = 0.1;
 		units[] = 
 		{
-			"k_weapon_dc15a",
-			"k_weapon_dc15a_ugl",
-			"k_weapon_dc15a_mc",
-			"k_weapon_dc15s",
-			"k_weapon_dc15s_ab",
-			"k_weapon_dc15sa",
-			"k_weapon_dc15x",
-			"k_weapon_dc15y",
-			"k_weapon_dc17",
-			"k_weapon_gl",
-			"k_weapon_rps6",
-			"k_weapon_westar_m5",
-			"k_weapon_z6",
-			"k_weapon_e6z",
-			"k_weapon_e5",
-			"k_weapon_e5c",
+			"k_ls_weapon_dc15a",
+			"k_ls_weapon_dc15a_ugl",
+			"k_ls_weapon_dc15a_mc",
+			"k_ls_weapon_dc15s",
+			"k_ls_weapon_dc15s_ab",
+			"k_ls_weapon_dc15sa",
+			"k_ls_weapon_dc15x",
+			"k_ls_weapon_dc15y",
+			"k_ls_weapon_dc17",
+			"k_ls_weapon_gl",
+			"k_ls_weapon_rps6",
+			"k_ls_weapon_westar_m5",
+			"k_ls_weapon_z6",
+			"k_ls_weapon_e6z",
+			"k_ls_weapon_e5",
+			"k_ls_weapon_e5c",
 		};
         weapons[] = 
         {
@@ -2961,7 +2961,7 @@ class cfgweapons
 class cfgvehicles
 {
 	class Weapon_Base_F;
-	class k_weapon_base: Weapon_Base_F
+	class k_ls_weapon_base: Weapon_Base_F
     {
         scope = 0;
         scopecurator = 0;
@@ -2989,7 +2989,7 @@ class cfgvehicles
         };
     };
 ///clones///
-    class k_weapon_dc15a: k_weapon_base
+    class k_ls_weapon_dc15a: k_ls_weapon_base
     {
         scope = 2;
         scopecurator = 2;
@@ -3011,7 +3011,7 @@ class cfgvehicles
             };
         };
     };
-    class k_weapon_dc15a_ugl: k_weapon_dc15a
+    class k_ls_weapon_dc15a_ugl: k_ls_weapon_dc15a
     {
         displayname = "DC-15A UGL";
         class TransportWeapons
@@ -3031,7 +3031,7 @@ class cfgvehicles
             };
         };
     };
-    class k_weapon_dc15a_mc: k_weapon_dc15a
+    class k_ls_weapon_dc15a_mc: k_ls_weapon_dc15a
     {
         displayname = "DC-15A UBSG";
         class TransportWeapons
@@ -3051,7 +3051,7 @@ class cfgvehicles
             };
         };
     };
-    class k_weapon_dc15s: k_weapon_dc15a
+    class k_ls_weapon_dc15s: k_ls_weapon_dc15a
     {
         displayname = "DC-15s";
         class TransportWeapons
@@ -3071,7 +3071,7 @@ class cfgvehicles
             };
         };
     };
-    class k_weapon_dc15s_ab: k_weapon_dc15a
+    class k_ls_weapon_dc15s_ab: k_ls_weapon_dc15a
     {
         displayname = "DC-15AB";
         class TransportWeapons
@@ -3091,7 +3091,7 @@ class cfgvehicles
             };
         };
     };
-    class k_weapon_dc15sa: k_weapon_dc15a
+    class k_ls_weapon_dc15sa: k_ls_weapon_dc15a
     {
         displayname = "DC-15SA";
         class TransportWeapons
@@ -3111,7 +3111,7 @@ class cfgvehicles
             };
         };
     };
-    class k_weapon_dc15x: k_weapon_dc15a
+    class k_ls_weapon_dc15x: k_ls_weapon_dc15a
     {
         displayname = "DC-15X";
         class TransportWeapons
@@ -3131,7 +3131,7 @@ class cfgvehicles
             };
         };
     };
-    class k_weapon_dc15y: k_weapon_dc15a
+    class k_ls_weapon_dc15y: k_ls_weapon_dc15a
     {
         displayname = "DC-15Y";
         class TransportWeapons
@@ -3151,7 +3151,7 @@ class cfgvehicles
             };
         };
     };
-    class k_weapon_dc17: k_weapon_dc15a
+    class k_ls_weapon_dc17: k_ls_weapon_dc15a
     {
         displayname = "DC-17";
         class TransportWeapons
@@ -3171,7 +3171,7 @@ class cfgvehicles
             };
         };
     };
-    class k_weapon_gl: k_weapon_dc15a
+    class k_ls_weapon_gl: k_ls_weapon_dc15a
     {
         displayname = "Grenade Launcher";
         class TransportWeapons
@@ -3191,7 +3191,7 @@ class cfgvehicles
             };
         };
     };
-    class k_weapon_rps6: k_weapon_dc15a
+    class k_ls_weapon_rps6: k_ls_weapon_dc15a
     {
         displayname = "RPS-6 Rocket Launcher";
         class TransportWeapons
@@ -3211,7 +3211,7 @@ class cfgvehicles
             };
         };
     };
-    class k_weapon_westar_m5: k_weapon_dc15a
+    class k_ls_weapon_westar_m5: k_ls_weapon_dc15a
     {
         displayname = "Westar M5";
         class TransportWeapons
@@ -3231,7 +3231,7 @@ class cfgvehicles
             };
         };
     };
-    class k_weapon_z6: k_weapon_dc15a
+    class k_ls_weapon_z6: k_ls_weapon_dc15a
     {
         displayname = "Z6 Rotary Blaster";
         class TransportWeapons
@@ -3251,7 +3251,7 @@ class cfgvehicles
             };
         };
     };
-    class k_weapon_e6z: k_weapon_dc15a
+    class k_ls_weapon_e6z: k_ls_weapon_dc15a
     {
         displayname = "E6Z Rotary Blaster";
         class TransportWeapons
@@ -3273,7 +3273,7 @@ class cfgvehicles
     };
 
 ////Droids////
-    class k_weapon_e5: k_weapon_dc15a
+    class k_ls_weapon_e5: k_ls_weapon_dc15a
     {
         displayname = "E5 Carbine";
         class TransportWeapons
@@ -3293,7 +3293,7 @@ class cfgvehicles
             };
         };
     };
-    class k_weapon_e5c: k_weapon_dc15a
+    class k_ls_weapon_e5c: k_ls_weapon_dc15a
     {
         displayname = "E5 Carbine";
         class TransportWeapons

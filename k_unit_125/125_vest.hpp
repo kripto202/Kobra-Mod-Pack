@@ -1,4 +1,4 @@
-    class 125_swla_Corps_ARC_Vest_Thatcher: SWLB_clone_arc_armor
+    class k_ls_125_ARC_Vest_Thatcher: SWLB_clone_arc_armor
 	{
 		author="Thatcher";
 		displayName="[125/LS] Clone ARC trooper vest ";
@@ -8,7 +8,7 @@
 			"kobra\k_unit_125\data\custom\thatcher\125th_ARCkama_Thatcher_CO.paa"
 		};
 	};
-	class 125_swla_Corps_ARC_Armored_Vest: SWLB_clone_arc_armor
+	class k_ls_125_ARC_Armored_Vest: SWLB_clone_arc_armor
 	{
 		author="Thatcher";
 		displayName="[125/LS] Clone ARC trooper vest (125th Assault Corps)";
@@ -18,7 +18,7 @@
 			"kobra\k_unit_125\data\Vests\125th_ARCkama_CO.paa"
 		};
 	};
-	class 125_swla_Corps_Kama_Vest: SWLB_clone_kama_armor
+	class k_ls_125_Kama_Vest: SWLB_clone_kama_armor
 	{
 		author="Legion Studios";
 		scopecurator=2;
@@ -28,7 +28,7 @@
 			"kobra\k_unit_125\data\Vests\Officer_CO.paa"
 		};
 	};
-	class 125_swla_Corps_EOD_Vest: SWLB_clone_cfr_armor
+	class k_ls_125_EOD_Vest: SWLB_clone_cfr_armor
 	{
 		author="Legion Studios";
 		scopecurator=2;
@@ -38,7 +38,7 @@
 			"kobra\k_unit_125\data\Vests\STRAPS_Co.paa"
 		};
 	};
-	class 125_swla_Corps_Medic_Vest: SWLB_clone_medic_armor
+	class k_ls_125_Medic_Vest: SWLB_clone_medic_armor
 	{
 		author="Legion Studios";
 		scopecurator=2;
@@ -48,7 +48,7 @@
 			"kobra\k_unit_125\data\Vests\Medical_CO.paa"
 		};
 	};
-	class 125_swla_Corps_Medic_NCO_Vest: SWLB_clone_airborne_nco_armor
+	class k_ls_125_Medic_NCO_Vest: SWLB_clone_airborne_nco_armor
 	{
 		author="Legion Studios";
 		scopecurator=2;
@@ -61,7 +61,7 @@
 			"kobra\k_unit_125\data\Vests\Medical_CO.paa"
 		};
 	};
-	class 125_swla_Corps_Officer_Vest: SWLB_clone_officer_armor
+	class k_ls_125_Officer_Vest: SWLB_clone_officer_armor
 	{
 		author="Legion Studios";
 		scopecurator=2;
@@ -71,7 +71,7 @@
 			"kobra\k_unit_125\data\Vests\Officer_CO.paa"
 		};
 	};
-	class 125_swla_Corps_Officer_Vest_Kyrus: SWLB_clone_officer_armor
+	class k_ls_125_Officer_Vest_Kyrus: SWLB_clone_officer_armor
 	{
 		author="Thatcher";
 		scopecurator=2;
@@ -81,7 +81,7 @@
 			"kobra\k_unit_125\data\custom\kyrus\125th_Kama_Kyrus_co.paa"
 		};
 	};
-	class 125_swla_Corps_Commander_Vest: SWLB_clone_commander_armor
+	class k_ls_125_Commander_Vest: SWLB_clone_commander_armor
 	{
 		author="Legion Studios";
 		scopecurator=2;
@@ -91,7 +91,7 @@
 			"kobra\k_unit_125\data\Vests\Officer_CO.paa"
 		};
 	};
-	class 125_swla_Corps_Commander_Rank_Vest: SWLB_clone_commander_armor_rank
+	class k_ls_125_Commander_Rank_Vest: SWLB_clone_commander_armor_rank
 	{
 		author="Legion Studios";
 		scopecurator=2;

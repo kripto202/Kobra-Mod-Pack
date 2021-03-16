@@ -1,264 +1,264 @@
-    class k_headgear_125_p15: k_headgear_p2
+    class k_ls_headgear_125_p15: k_ls_headgear_p2
     {
-        displayname = "[125] P1.5 Helmet";
+        displayname = "[125/LS] P1.5 Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "125_p15_helmet";
+                name = "k_ls_125_p15_helmet";
                 count = 1;
             };
         };
     };
-    class k_headgear_125_p1_arf: k_headgear_p2
+    class k_ls_headgear_125_p1_arf: k_ls_headgear_p2
     {
-        displayname = "[125] P1 Arf Helmet";
+        displayname = "[125/LS] P1 Arf Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "125_p1_arf_helmet";
+                name = "k_ls_125_p1_arf_helmet";
                 count = 1;
             };
         };
     };
-    class k_headgear_125_p2_arf: k_headgear_p2
+    class k_ls_headgear_125_p2_arf: k_ls_headgear_p2
     {
-        displayname = "[125] P2 Arf Helmet";
+        displayname = "[125/LS] P2 Arf Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "125_p2_arf_helmet";
+                name = "k_ls_125_p2_arf_helmet";
                 count = 1;
             };
         };
     };
-    class k_headgear_125_barc: k_headgear_p2
+    class k_ls_headgear_125_barc: k_ls_headgear_p2
     {
-        displayname = "[125] Barc Helmet";
+        displayname = "[125/LS] Barc Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "125_barc_helmet";
+                name = "k_ls_125_barc_helmet";
                 count = 1;
             };
         };
     };
-    class k_headgear_125_p2_pilot: k_headgear_p2
+    class k_ls_headgear_125_p2_pilot: k_ls_headgear_p2
     {
-        displayname = "[125] P2 Pilot Helmet";
+        displayname = "[125/LS] P2 Pilot Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "125_p2_pilot_helmet";
+                name = "k_ls_125_p2_pilot_helmet";
                 count = 1;
             };
         };
     };
-    class k_headgear_125_p2: k_headgear_p2
+    class k_ls_headgear_125_p2: k_ls_headgear_p2
     {
-        displayname = "[125] P2 Helmet";
+        displayname = "[125/LS] P2 Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "125_p2_helmet";
+                name = "k_ls_125_p2_helmet";
                 count = 1;
             };
         };
     };
 /////////custom
-    class k_headgear_125_p2_bigsean: k_headgear_p2
+    class k_ls_headgear_125_p2_bigsean: k_ls_headgear_p2
     {
-        displayname = "[125 - BigSean] P2 Helmet";
+        displayname = "[125/LS] P2 Helmet (Bigsean)";
         class transportItems
         {
             class helmet
             {
-                name = "125_p2_helmet_bigsean";
+                name = "k_ls_125_p2_helmet_bigsean";
                 count = 1;
             };
         };
     };
-    class k_headgear_125_p2_dao: k_headgear_p2
+    class k_ls_headgear_125_p2_dao: k_ls_headgear_p2
     {
-        displayname = "[125 - Dao] P2 Helmet";
+        displayname = "[125/LS] P2 Helmet (Dao)";
         class transportItems
         {
             class helmet
             {
-                name = "125_p2_helmet_dao";
+                name = "k_ls_125_p2_helmet_dao";
                 count = 1;
             };
         };
     };
-    class k_headgear_125_p2_doomer: k_headgear_p2
+    class k_ls_headgear_125_p2_doomer: k_ls_headgear_p2
     {
-        displayname = "[125 - Doomer] P2 Helmet";
+        displayname = "[125/LS] P2 Helmet (Doomer)";
         class transportItems
         {
             class helmet
             {
-                name = "125_p2_helmet_doomer";
+                name = "k_ls_125_p2_helmet_doomer";
                 count = 1;
             };
         };
     };
-    class k_headgear_125_p2_ghostly: k_headgear_p2
+    class k_ls_headgear_125_p2_ghostly: k_ls_headgear_p2
     {
-        displayname = "[125 - Ghostly] P2 Helmet";
+        displayname = "[125/LS] P2 Helmet (Ghostly)";
         class transportItems
         {
             class helmet
             {
-                name = "125_p2_helmet_ghostly";
+                name = "k_ls_125_p2_helmet_ghostly";
                 count = 1;
             };
         };
     };
-    class k_headgear_125_p2_pilot_ido: k_headgear_p2
+    class k_ls_headgear_125_p2_pilot_ido: k_ls_headgear_p2
     {
-        displayname = "[125 - Ido] P2 Helmet";
+        displayname = "[125/LS] P2 Helmet (Ido)";
         class transportItems
         {
             class helmet
             {
-                name = "125_p2_pilot_helmet_ido";
+                name = "k_ls_125_p2_pilot_helmet_ido";
                 count = 1;
             };
         };
     };
-    class k_headgear_125_p2_ithil: k_headgear_p2
+    class k_ls_headgear_125_p2_ithil: k_ls_headgear_p2
     {
-        displayname = "[125 - Ithil] P2 Helmet";
+        displayname = "[125/LS] P2 Helmet (Ithil)";
         class transportItems
         {
             class helmet
             {
-                name = "125_p2_helmet_ithil";
+                name = "k_ls_125_p2_helmet_ithil";
                 count = 1;
             };
         };
     };
-    class k_headgear_125_p2_kyrus: k_headgear_p2
+    class k_ls_headgear_125_p2_kyrus: k_ls_headgear_p2
     {
-        displayname = "[125 - Kyrus] P2 Helmet";
+        displayname = "[125/LS] P2 Helmet (Kyrus)";
         class transportItems
         {
             class helmet
             {
-                name = "125_p2_helmet_kyrus";
+                name = "k_ls_125_p2_helmet_kyrus";
                 count = 1;
             };
         };
     };
-    class k_headgear_125_p2_lightru: k_headgear_p2
+    class k_ls_headgear_125_p2_lightru: k_ls_headgear_p2
     {
-        displayname = "[125 - Lightru] P2 Helmet";
+        displayname = "[125/LS] P2 Helmet (Lightru)";
         class transportItems
         {
             class helmet
             {
-                name = "125_p2_helmet_lightru";
+                name = "k_ls_125_p2_helmet_lightru";
                 count = 1;
             };
         };
     };
-    class k_headgear_125_p2_piggy: k_headgear_p2
+    class k_ls_headgear_125_p2_piggy: k_ls_headgear_p2
     {
-        displayname = "[125 - Piggy] P2 Helmet";
+        displayname = "[125/LS] P2 Helmet (Piggy)";
         class transportItems
         {
             class helmet
             {
-                name = "125_p2_helmet_piggy";
+                name = "k_ls_125_p2_helmet_piggy";
                 count = 1;
             };
         };
     };
-    class k_headgear_125_p2_rooche: k_headgear_p2
+    class k_ls_headgear_125_p2_rooche: k_ls_headgear_p2
     {
-        displayname = "[125 - Rooche] P2 Helmet";
+        displayname = "[125/LS] P2 Helmet (Rooche)";
         class transportItems
         {
             class helmet
             {
-                name = "125_p2_helmet_rooche";
+                name = "k_ls_125_p2_helmet_rooche";
                 count = 1;
             };
         };
     };
-    class k_headgear_125_p2_tetre: k_headgear_p2
+    class k_ls_headgear_125_p2_tetre: k_ls_headgear_p2
     {
-        displayname = "[125 - Tetre] P2 Helmet";
+        displayname = "[125/LS] P2 Helmet (Tetre)";
         class transportItems
         {
             class helmet
             {
-                name = "125_p2_helmet_tetre";
+                name = "k_ls_125_p2_helmet_tetre";
                 count = 1;
             };
         };
     };
-    class k_headgear_125_p2_thatcher: k_headgear_p2
+    class k_ls_headgear_125_p2_thatcher: k_ls_headgear_p2
     {
-        displayname = "[125 - Thatcher] P2 Helmet";
+        displayname = "[125/LS] P2 Helmet (Thatcher)";
         class transportItems
         {
             class helmet
             {
-                name = "125_p2_helmet_thatcher";
+                name = "k_ls_125_p2_helmet_thatcher";
                 count = 1;
             };
         };
     };
-    class k_headgear_125_p15_thatcher: k_headgear_p2
+    class k_ls_headgear_125_p15_thatcher: k_ls_headgear_p2
     {
-        displayname = "[125 - Thatcher] P1.5 Helmet";
+        displayname = "[125/LS] P1.5 Helmet (Thatcher)";
         class transportItems
         {
             class helmet
             {
-                name = "125_p15_helmet_thatcher";
+                name = "k_ls_125_p15_helmet_thatcher";
                 count = 1;
             };
         };
     };
-    class k_headgear_125_p2_thor: k_headgear_p2
+    class k_ls_headgear_125_p2_thor: k_ls_headgear_p2
     {
-        displayname = "[125 - Thor] P2 Helmet";
+        displayname = "[125/LS] P2 Helmet (Thor)";
         class transportItems
         {
             class helmet
             {
-                name = "125_p2_helmet_thor";
+                name = "k_ls_125_p2_helmet_thor";
                 count = 1;
             };
         };
     };
-    class k_headgear_125_p2_pilot_tim: k_headgear_p2
+    class k_ls_headgear_125_p2_pilot_tim: k_ls_headgear_p2
     {
-        displayname = "[125 - Tim] P2 Pilot Helmet";
+        displayname = "[125/LS] P2 Pilot Helmet (Tim)";
         class transportItems
         {
             class helmet
             {
-                name = "125_p2_pilot_helmet_tim";
+                name = "k_ls_125_p2_pilot_helmet_tim";
                 count = 1;
             };
         };
     };
-    class k_headgear_125_p2_vertigo: k_headgear_p2
+    class k_ls_headgear_125_p2_vertigo: k_ls_headgear_p2
     {
-        displayname = "[125 - Vertigo] P2 Helmet";
+        displayname = "[125/LS] P2 Helmet (Vertigo)";
         class transportItems
         {
             class helmet
             {
-                name = "125_p2_helmet_vertigo";
+                name = "k_ls_125_p2_helmet_vertigo";
                 count = 1;
             };
         };

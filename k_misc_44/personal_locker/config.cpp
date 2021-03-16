@@ -59,7 +59,7 @@ class cfgvehicles
         multistructureparts[] = 
         {
             {
-                "k_headgear_44_kripto",
+                "k_ls_headgear_44_kripto",
                 "helmet"
             }
         };
@@ -76,7 +76,7 @@ class cfgvehicles
         multistructureparts[] = 
         {
             {
-                "k_headgear_44_azarael",
+                "k_ls_headgear_44_azarael",
                 "helmet"
             }
         };
@@ -93,7 +93,7 @@ class cfgvehicles
         multistructureparts[] = 
         {
             {
-                "k_headgear_44_delta",
+                "k_ls_headgear_44_delta",
                 "helmet"
             }
         };
@@ -110,12 +110,12 @@ class cfgvehicles
         multistructureparts[] = 
         {
             {
-                "k_headgear_44_dishonored",
+                "k_ls_headgear_44_dishonored",
                 "helmet"
             }
         };
     };
-    class 44_personal_locker_hollen: k_personal_locker
+    /*class 44_personal_locker_hollen: k_personal_locker
     {
         displayname = "Personal Locker (Hollen)";
         hiddenselectionstextures[]=
@@ -127,11 +127,11 @@ class cfgvehicles
         multistructureparts[] = 
         {
             {
-                "k_headgear_44_hollen",
+                "k_ls_headgear_44_hollen",
                 "helmet"
             }
         };
-    };
+    };*/
     class 44_personal_locker_monty: k_personal_locker
     {
         displayname = "Personal Locker (Monty)";
@@ -144,7 +144,7 @@ class cfgvehicles
         multistructureparts[] = 
         {
             {
-                "k_headgear_44_monty",
+                "k_ls_headgear_44_monty",
                 "helmet"
             }
         };
@@ -161,7 +161,7 @@ class cfgvehicles
         multistructureparts[] = 
         {
             {
-                "k_headgear_44_nico",
+                "k_ls_headgear_44_nico",
                 "helmet"
             }
         };
@@ -178,7 +178,7 @@ class cfgvehicles
         multistructureparts[] = 
         {
             {
-                "k_headgear_44_sexton",
+                "k_ls_headgear_44_sexton",
                 "helmet"
             }
         };
@@ -195,7 +195,7 @@ class cfgvehicles
         multistructureparts[] = 
         {
             {
-                "k_headgear_44_steele",
+                "k_ls_headgear_44_steele",
                 "helmet"
             }
         };
@@ -212,7 +212,7 @@ class cfgvehicles
         multistructureparts[] = 
         {
             {
-                "k_headgear_44_euda",
+                "k_ls_headgear_44_euda",
                 "helmet"
             }
         };

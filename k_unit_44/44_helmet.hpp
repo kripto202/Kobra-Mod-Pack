@@ -1,4 +1,4 @@
-    class 44_p2_helmet: k_p2_helmet
+    class k_ls_44_p2_helmet: k_ls_p2_helmet
 	{
 		displayname = "[44/LS] P2 Helmet";
 		picture = "kobra\k_unit_44\data\ui\44_p2_helmet.paa";
@@ -13,7 +13,7 @@
 			"kobra\k_unit_ls\data\helmet\p2_helmet\visor_co.paa"
 		};
 	};
-	class 44_p15_helmet: k_p15_helmet
+	class k_ls_44_p15_helmet: k_ls_p15_helmet
 	{
 		displayname = "[44/LS] P1.5 Helmet";
 		scope = 2;
@@ -33,7 +33,7 @@
 			"kobra\k_unit_ls\data\helmet\p15_helmet\illum_co.paa"
 		};
 	};
-	class 44_airborne_helmet: k_airborne_helmet
+	class k_ls_44_airborne_helmet: k_ls_airborne_helmet
 	{
 		displayname = "[44/LS] Airborne Helmet";
 		scope = 2;
@@ -51,7 +51,7 @@
 			"kobra\k_unit_44\data\helmets\ab_helmet_visor.rvmat"
 		};
 	};
-	class 44_p2_pilot_helmet: k_p2_pilot_helmet
+	class k_ls_44_p2_pilot_helmet: k_ls_p2_pilot_helmet
 	{
 		displayname = "[44/LS] P2 Pilot Helmet";
 		scope = 2;
@@ -69,7 +69,7 @@
 			"kobra\k_unit_ls\data\helmet\p2_pilot_helmet\visor_co.paa"
 		};
 	};
-	class 44_barc_helmet: k_barc_helmet
+	class k_ls_44_barc_helmet: k_ls_barc_helmet
 	{
 		displayname = "[44/LS] BARC Helmet";
 		scope = 2;
@@ -87,7 +87,7 @@
 			"kobra\k_unit_44\data\helmets\barc_helmet_visor.rvmat"
 		};
 	};
-	class 44_p1_arf_helmet: k_p1_arf_helmet
+	class k_ls_44_p1_arf_helmet: k_ls_p1_arf_helmet
 	{
 		displayname = "[44/LS] P1 ARF Helmet";
 		scope = 2;
@@ -107,7 +107,7 @@
 			"kobra\k_unit_44\data\helmets\arf_helmet_visor.rvmat"
 		};*/
 	};
-	class 44_p2_arf_helmet: k_p2_arf_helmet
+	class k_ls_44_p2_arf_helmet: k_ls_p2_arf_helmet
 	{
 		displayname = "[44/LS] P1 ARF Helmet (Flaps)";
 		scope = 2;
@@ -127,7 +127,7 @@
 			"kobra\k_unit_44\data\helmets\arf_helmet_visor.rvmat"
 		};*/
 	};
-	class 44_eng_helmet: k_eng_helmet
+	class k_ls_44_eng_helmet: k_ls_eng_helmet
 	{
 		displayname = "[44/LS] Engineer Helmet";
 		scope = 2;
@@ -147,7 +147,7 @@
 			"kobra\k_unit_44\data\helmets\eng_helmet_visor.rvmat"
 		};
 	};
-	class 44_p1_helmet: k_p1_helmet
+	class k_ls_44_p1_helmet: k_ls_p1_helmet
 	{
 		displayname = "[44/LS] P1 Helmet";
 		scope = 2;
@@ -167,7 +167,7 @@
 			"kobra\k_unit_ls\data\helmet\p1_helmet\illum.rvmat"
 		};
 	};
-	class 44_p1_pilot_helmet: k_p1_pilot_helmet
+	class k_ls_44_p1_pilot_helmet: k_ls_p1_pilot_helmet
 	{
 		displayname = "[44/LS] P1 Pilot Helmet";
 		scope = 2;
@@ -187,7 +187,7 @@
 			"kobra\k_unit_44\data\helmets\p1_pilot_helmet_visor.rvmat"
 		};
 	};
-	class 44_p1_specop_helmet: k_p1_specops_helmet
+	class k_ls_44_p1_specop_helmet: k_ls_p1_specops_helmet
 	{
 		displayname = "[44/LS] P1 SpecOp Helmet";
 		scope = 2;
@@ -205,7 +205,7 @@
 			"kobra\k_unit_44\data\helmets\p1_spec_helmet_visor.rvmat"
 		};
 	};
-	class 44_p2_specop_helmet: k_p2_specops_helmet
+	class k_ls_44_p2_specop_helmet: k_ls_p2_specops_helmet
 	{
 		displayname = "[44/LS] P2 SpecOp Helmet";
 		scope = 2;
@@ -223,7 +223,7 @@
 			"kobra\k_unit_44\data\helmets\p2_spec_helmet_visor.rvmat"
 		};
 	};
-	class 44_rex_helmet: k_rex_helmet
+	class k_ls_44_rex_helmet: k_ls_rex_helmet
 	{
 		displayname = "[44/LS] P2 Rex Helmet";
 		scope = 2;
@@ -241,7 +241,7 @@
 			"kobra\k_unit_44\data\helmets\rex_helmet_visor.rvmat"
 		};
 	};
-	class 44_scout_helmet: k_Scout_Helmet
+	class k_44_scout_helmet: k_Scout_Helmet
 	{
 		displayname = "[44] Scout Helmet";
 		scope = 2;
@@ -259,7 +259,7 @@
 			"kobra\k_unit_44\data\helmets\scout_helmet_visor.rvmat"
 		};
 	};
-	class 44_hunter_helmet: k_hunter_helmet_base
+	class k_44_hunter_helmet: k_hunter_helmet_base
 	{
 		displayname = "[44] Hunter Helmet";
 		scope = 2;
@@ -276,7 +276,7 @@
 			"kobra\k_unit_44\data\helmets\hunter_helmet_visor.rvmat"
 		};
 	};
-	class 44_crosshair_helmet: k_crosshair_helmet_base
+	class k_44_crosshair_helmet: k_crosshair_helmet_base
 	{
 		displayname = "[44] Crosshair Helmet";
 		scope = 2;
@@ -293,7 +293,7 @@
 			"kobra\k_unit_44\data\helmets\crosshair_helmet_visor.rvmat"
 		};
 	};
-	class 44_wrecker_helmet: k_wrecker_helmet_base
+	class k_44_wrecker_helmet: k_wrecker_helmet_base
 	{
 		displayname = "[44] Wrecker Helmet";
 		scope = 2;
@@ -310,7 +310,7 @@
 			"kobra\k_unit_44\data\helmets\wrecker_helmet_visor.rvmat"
 		};
 	};
-	class 44_tech_helmet: k_tech_helmet_base
+	class k_44_tech_helmet: k_tech_helmet_base
 	{
 		displayname = "[44] Tech Helmet";
 		scope = 2;
@@ -323,7 +323,7 @@
 	};
 
 ///custom
-	class 44_p2_helmet_Hollen: 44_p2_helmet
+	/*class k_ls_44_p2_helmet_Hollen: k_ls_44_p2_helmet
 	{
 		displayname = "[44/LS] P2 Helmet (Hollen)";
 		hiddenselectionstextures[] =
@@ -331,8 +331,8 @@
 			"kobra\k_unit_44\data\custom\hollen\44_p2_helmet_co.paa",
 			"kobra\k_unit_ls\data\helmet\p2_helmet\visor_co.paa",
 		};
-	};
-	class 44_barc_helmet_kripto: 44_barc_helmet
+	};*/
+	class k_ls_44_barc_helmet_kripto: k_ls_44_barc_helmet
 	{
 		displayname = "[44/LS] Barc Helmet (Kripto)";
 		hiddenselectionstextures[] =
@@ -341,7 +341,7 @@
 			"kobra\k_unit_ls\data\helmet\barc_helmet\visor_co.paa",
 		};
 	};
-	class 44_p1_arf_helmet_monty: 44_p1_arf_helmet
+	class k_ls_44_p1_arf_helmet_monty: k_ls_44_p1_arf_helmet
 	{
 		displayname = "[44/LS] P1 ARF Helmet (Monty)";
 		hiddenselectionstextures[] =
@@ -351,7 +351,7 @@
 			"kobra\k_unit_ls\data\helmet\arf_helmet\visor_co.paa",
 		};
 	};
-	class 44_p2_pilot_helmet_delta: 44_p2_pilot_helmet
+	class k_ls_44_p2_pilot_helmet_delta: k_ls_44_p2_pilot_helmet
 	{
 		displayname = "[44/LS] P2 Pilot Helmet (Delta)";
 		hiddenselectionstextures[]=
@@ -360,7 +360,7 @@
 			"kobra\k_unit_ls\data\helmet\p2_pilot_helmet\visor_co.paa"
 		};
 	};
-	class 44_p1_specop_helmet_garrus: 44_p1_specop_helmet
+	class k_ls_44_p1_specop_helmet_garrus: k_ls_44_p1_specop_helmet
 	{
 		displayname = "[44/LS] P1 SpecOp Helmet (Garrus)";
 		hiddenselectionstextures[] = 
@@ -369,7 +369,7 @@
 			"kobra\k_unit_ls\data\helmet\p1_spec_helmet\visor_co.paa"
 		};
 	};
-	class 44_p15_helmet_dishonored: 44_p15_helmet
+	class k_ls_44_p15_helmet_dishonored: k_ls_44_p15_helmet
 	{
 		displayname = "[44/LS] P1.5 Helmet (Dishonored)";
 		hiddenselectionstextures[] = 
@@ -379,7 +379,7 @@
 			"kobra\k_unit_ls\data\helmet\p15_helmet\illum_co.paa"
 		};
 	};
-	class 44_p1_arf_helmet_azarael: 44_p1_arf_helmet
+	class k_ls_44_p1_arf_helmet_azarael: k_ls_44_p1_arf_helmet
 	{
 		displayname = "[44/LS] Arf Helmet (Azarael)";
 		hiddenselectionstextures[] = 
@@ -389,7 +389,7 @@
 			"kobra\k_unit_ls\data\helmet\arf_helmet\visor_co.paa"
 		};
 	};
-	class 44_airborne_helmet_nico: 44_airborne_helmet
+	class k_ls_44_airborne_helmet_nico: k_ls_44_airborne_helmet
 	{
 		displayname = "[44/LS] Arf Helmet (Nico)";
 		hiddenselectionstextures[] = 
@@ -398,7 +398,7 @@
 			"kobra\k_unit_ls\data\helmet\ab_helmet\visor_co.paa"
 		};
 	};
-	class 44_eng_helmet_sexton: 44_eng_helmet
+	class k_ls_44_eng_helmet_sexton: k_ls_44_eng_helmet
 	{
 		displayname = "[44/LS] Arf Helmet (Sexton)";
 		hiddenselectionstextures[] = 
@@ -408,7 +408,7 @@
 			"kobra\k_unit_ls\data\helmet\eng_helmet\visor_co.paa"
 		};
 	};
-	class 44_p1_helmet_steele: 44_p1_helmet
+	class k_ls_44_p1_helmet_steele: k_ls_44_p1_helmet
 	{
 		displayname = "[44/LS] P1 Helmet (Steele)";
 		hiddenselectionstextures[] = 
@@ -418,7 +418,7 @@
 			"kobra\k_unit_ls\data\helmet\p1_helmet\illum_co.paa"
 		};
 	};
-	class 44_p1_pilot_helmet_euda: 44_p1_pilot_helmet
+	class k_ls_44_p1_pilot_helmet_euda: k_ls_44_p1_pilot_helmet
 	{
 		displayname = "[44/LS] P1 Pilot Helmet (Euda)";
 		hiddenselectionstextures[] = 

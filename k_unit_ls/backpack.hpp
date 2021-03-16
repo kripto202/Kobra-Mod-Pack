@@ -1,6 +1,6 @@
-class k_clone_backpack_base;
-class k_clone_rto_backpack_base;
-class k_clone_backpack: k_clone_backpack_base
+class k_ls_clone_backpack_base;
+class k_ls_clone_rto_backpack_base;
+class k_ls_clone_backpack: k_ls_clone_backpack_base
 {
 	displayname = "[K/LS] Clone Trooper Backpack";
 	scope = 2;
@@ -23,7 +23,7 @@ class k_clone_backpack: k_clone_backpack_base
 		"kobra\k_unit_ls\data\backpack\clone\cover_co.paa",
 	};
 };
-class k_clone_backpack_med: k_clone_backpack_base
+class k_ls_clone_backpack_med: k_ls_clone_backpack_base
 {
 	displayname = "[K/LS] Clone Trooper Medium Backpack";
 	scope = 2;
@@ -49,7 +49,7 @@ class k_clone_backpack_med: k_clone_backpack_base
 		"kobra\k_unit_ls\data\backpack\clone\pouches_co.paa",
 	};
 };
-class k_clone_backpack_heavy: k_clone_backpack_base
+class k_ls_clone_backpack_heavy: k_ls_clone_backpack_base
 {
 	displayname = "[K/LS] Clone Trooper Heavy Backpack";
 	scope = 2;
@@ -78,7 +78,7 @@ class k_clone_backpack_heavy: k_clone_backpack_base
 		"kobra\k_unit_ls\data\backpack\clone\tube_co.paa",
 	};
 };
-class k_clone_backpack_medic: k_clone_backpack_base
+class k_ls_clone_backpack_medic: k_ls_clone_backpack_base
 {
 	displayname = "[K/LS] Clone Trooper Medic Backpack";
 	scope = 2;
@@ -107,7 +107,7 @@ class k_clone_backpack_medic: k_clone_backpack_base
 		"kobra\k_unit_ls\data\backpack\clone\medic_co.paa",
 	};
 };
-class k_clone_backpack_medic_med: k_clone_backpack_base
+class k_ls_clone_backpack_medic_med: k_ls_clone_backpack_base
 {
 	displayname = "[K/LS] Clone Trooper Medic Medium Backpack";
 	scope = 2;
@@ -139,7 +139,7 @@ class k_clone_backpack_medic_med: k_clone_backpack_base
 		"kobra\k_unit_ls\data\backpack\clone\medic_co.paa",
 	};
 };
-class k_clone_backpack_radio: k_clone_rto_backpack_base
+class k_ls_clone_backpack_radio: k_ls_clone_rto_backpack_base
 {
 	displayname = "[K/LS] Clone Trooper Radio Backpack";
 	scope = 2;
@@ -164,7 +164,7 @@ class k_clone_backpack_radio: k_clone_rto_backpack_base
 		"kobra\k_unit_ls\data\backpack\clone\screen_co.paa",
 	};
 };
-class k_clone_backpack_radio_med: k_clone_rto_backpack_base
+class k_ls_clone_backpack_radio_med: k_ls_clone_rto_backpack_base
 {
 	displayname = "[K/LS] Clone Trooper Radio Medium Backpack";
 	scope = 2;
@@ -193,7 +193,7 @@ class k_clone_backpack_radio_med: k_clone_rto_backpack_base
 		"kobra\k_unit_ls\data\backpack\clone\pouches_co.paa",
 	};
 };
-class k_clone_backpack_rocket: k_clone_backpack_base
+class k_ls_clone_backpack_rocket: k_ls_clone_backpack_base
 {
 	displayname = "[K/LS] Clone Trooper Rocket Backpack";
 	scope = 2;
@@ -227,7 +227,7 @@ class k_clone_backpack_rocket: k_clone_backpack_base
 };
 
 
-class k_b1_backpack: k_clone_backpack_base
+class k_ls_b1_backpack: k_ls_clone_backpack_base
 {
 	displayname = "[K/LS] B1 Backpack";
 	scope = 2;
@@ -247,12 +247,12 @@ class k_b1_backpack: k_clone_backpack_base
 		"kobra\k_unit_ls\data\backpack\b1\b1_backpack_co.paa"
 	};
 };
-class k_b1_backpack_heavy: k_b1_backpack
+class k_ls_b1_backpack_heavy: k_ls_b1_backpack
 {
 	displayname = "[K/LS] B1 Heavy Backpack";
 	maximumload = 250;
 };
-class k_b1_backpack_rto: k_b1_backpack
+class k_ls_b1_backpack_rto: k_ls_b1_backpack
 {
 	displayname = "[K/LS] B1 RTO Backpack";
 	maximumload = 100;
@@ -264,7 +264,7 @@ class k_b1_backpack_rto: k_b1_backpack
 	tf_subtype="digital_lr";
 };
 
-class k_b1_backpack_geonosis: k_b1_backpack
+class k_ls_b1_backpack_geonosis: k_ls_b1_backpack
 {
 	displayname = "[K/LS] B1 Backpack Geonosis";
 	hiddenselectionstextures[] = 
@@ -272,7 +272,7 @@ class k_b1_backpack_geonosis: k_b1_backpack
 		"kobra\k_unit_ls\data\backpack\b1\b1_backpack_geonosis_co.paa"
 	};
 };
-class k_b1_backpack_heavy_geonosis: k_b1_backpack_heavy
+class k_ls_b1_backpack_heavy_geonosis: k_ls_b1_backpack_heavy
 {
 	displayname = "[K/LS] B1 Heavy Backpack Geonosis";
 	hiddenselectionstextures[] = 
@@ -280,7 +280,7 @@ class k_b1_backpack_heavy_geonosis: k_b1_backpack_heavy
 		"kobra\k_unit_ls\data\backpack\b1\b1_backpack_geonosis_co.paa"
 	};
 };
-class k_b1_backpack_rto_geonosis: k_b1_backpack_rto
+class k_ls_b1_backpack_rto_geonosis: k_ls_b1_backpack_rto
 {
 	displayname = "[K/LS] B1 RTO Backpack Geonosis";
 	hiddenselectionstextures[] = 
@@ -289,7 +289,7 @@ class k_b1_backpack_rto_geonosis: k_b1_backpack_rto
 	};
 };
 
-class k_b1_backpack_woodland: k_b1_backpack
+class k_ls_b1_backpack_woodland: k_ls_b1_backpack
 {
 	displayname = "[K/LS] B1 Backpack Woodland";
 	hiddenselectionstextures[] = 
@@ -297,7 +297,7 @@ class k_b1_backpack_woodland: k_b1_backpack
 		"kobra\k_unit_ls\data\backpack\b1\b1_backpack_woodland_co.paa"
 	};
 };
-class k_b1_backpack_heavy_woodland: k_b1_backpack_heavy
+class k_ls_b1_backpack_heavy_woodland: k_ls_b1_backpack_heavy
 {
 	displayname = "[K/LS] B1 Heavy Backpack Woodland";
 	hiddenselectionstextures[] = 
@@ -305,7 +305,7 @@ class k_b1_backpack_heavy_woodland: k_b1_backpack_heavy
 		"kobra\k_unit_ls\data\backpack\b1\b1_backpack_woodland_co.paa"
 	};
 };
-class k_b1_backpack_rto_woodland: k_b1_backpack_rto
+class k_ls_b1_backpack_rto_woodland: k_ls_b1_backpack_rto
 {
 	displayname = "[K/LS] B1 RTO Backpack Woodland";
 	hiddenselectionstextures[] = 
@@ -314,7 +314,7 @@ class k_b1_backpack_rto_woodland: k_b1_backpack_rto
 	};
 };
 
-class k_b1_backpack_desert: k_b1_backpack
+class k_ls_b1_backpack_desert: k_ls_b1_backpack
 {
 	displayname = "[K/LS] B1 Backpack Desert";
 	hiddenselectionstextures[] = 
@@ -322,7 +322,7 @@ class k_b1_backpack_desert: k_b1_backpack
 		"kobra\k_unit_ls\data\backpack\b1\b1_backpack_desert_co.paa"
 	};
 };
-class k_b1_backpack_heavy_desert: k_b1_backpack_heavy
+class k_ls_b1_backpack_heavy_desert: k_ls_b1_backpack_heavy
 {
 	displayname = "[K/LS] B1 Heavy Backpack Desert";
 	hiddenselectionstextures[] = 
@@ -330,7 +330,7 @@ class k_b1_backpack_heavy_desert: k_b1_backpack_heavy
 		"kobra\k_unit_ls\data\backpack\b1\b1_backpack_desert_co.paa"
 	};
 };
-class k_b1_backpack_rto_desert: k_b1_backpack_rto
+class k_ls_b1_backpack_rto_desert: k_ls_b1_backpack_rto
 {
 	displayname = "[K/LS] B1 RTO Backpack Desert";
 	hiddenselectionstextures[] = 
@@ -339,7 +339,7 @@ class k_b1_backpack_rto_desert: k_b1_backpack_rto
 	};
 };
 
-class k_b1_backpack_winter: k_b1_backpack
+class k_ls_b1_backpack_winter: k_ls_b1_backpack
 {
 	displayname = "[K/LS] B1 Backpack Winter";
 	hiddenselectionstextures[] = 
@@ -347,7 +347,7 @@ class k_b1_backpack_winter: k_b1_backpack
 		"kobra\k_unit_ls\data\backpack\b1\b1_backpack_winter_co.paa"
 	};
 };
-class k_b1_backpack_heavy_winter: k_b1_backpack_heavy
+class k_ls_b1_backpack_heavy_winter: k_ls_b1_backpack_heavy
 {
 	displayname = "[K/LS] B1 Heavy Backpack Winter";
 	hiddenselectionstextures[] = 
@@ -355,7 +355,7 @@ class k_b1_backpack_heavy_winter: k_b1_backpack_heavy
 		"kobra\k_unit_ls\data\backpack\b1\b1_backpack_winter_co.paa"
 	};
 };
-class k_b1_backpack_rto_winter: k_b1_backpack_rto
+class k_ls_b1_backpack_rto_winter: k_ls_b1_backpack_rto
 {
 	displayname = "[K/LS] B1 RTO Backpack Winter";
 	hiddenselectionstextures[] = 
@@ -366,7 +366,7 @@ class k_b1_backpack_rto_winter: k_b1_backpack_rto
 
 ///backpacks with loadouts
 ///clones
-class k_clone_backpack_medic_med_load: k_clone_backpack_medic_med
+class k_ls_clone_backpack_medic_med_load: k_ls_clone_backpack_medic_med
 {
 	scope = 1;
 	scopearsenal = 1;
@@ -434,7 +434,7 @@ class k_clone_backpack_medic_med_load: k_clone_backpack_medic_med
 };
 
 ///droids
-class k_b1_backpack_rps6_load: k_b1_backpack_heavy
+class k_ls_b1_backpack_rps6_load: k_ls_b1_backpack_heavy
 {
 	scope = 1;
 	scopecurator = 1;
@@ -448,7 +448,7 @@ class k_b1_backpack_rps6_load: k_b1_backpack_heavy
 		};
 	};
 };
-class k_b1_backpack_e60r_at_load: k_b1_backpack_heavy
+class k_ls_b1_backpack_e60r_at_load: k_ls_b1_backpack_heavy
 {
 	scope = 1;
 	scopecurator = 1;
@@ -462,7 +462,7 @@ class k_b1_backpack_e60r_at_load: k_b1_backpack_heavy
 		};
 	};
 };
-class k_b1_backpack_e60r_aa_load: k_b1_backpack_heavy
+class k_ls_b1_backpack_e60r_aa_load: k_ls_b1_backpack_heavy
 {
 	scope = 1;
 	scopecurator = 1;
@@ -477,7 +477,7 @@ class k_b1_backpack_e60r_aa_load: k_b1_backpack_heavy
 	};
 };
 
-class k_b1_backpack_geonosis_rps6_load: k_b1_backpack_heavy_geonosis
+class k_ls_b1_backpack_geonosis_rps6_load: k_ls_b1_backpack_heavy_geonosis
 {
 	scope = 1;
 	scopecurator = 1;
@@ -491,7 +491,7 @@ class k_b1_backpack_geonosis_rps6_load: k_b1_backpack_heavy_geonosis
 		};
 	};
 };
-class k_b1_backpack_geonosis_e60r_at_load: k_b1_backpack_heavy_geonosis
+class k_ls_b1_backpack_geonosis_e60r_at_load: k_ls_b1_backpack_heavy_geonosis
 {
 	scope = 1;
 	scopecurator = 1;
@@ -505,7 +505,7 @@ class k_b1_backpack_geonosis_e60r_at_load: k_b1_backpack_heavy_geonosis
 		};
 	};
 };
-class k_b1_backpack_geonosis_e60r_aa_load: k_b1_backpack_heavy_geonosis
+class k_ls_b1_backpack_geonosis_e60r_aa_load: k_ls_b1_backpack_heavy_geonosis
 {
 	scope = 1;
 	scopecurator = 1;
@@ -520,7 +520,7 @@ class k_b1_backpack_geonosis_e60r_aa_load: k_b1_backpack_heavy_geonosis
 	};
 };
 
-class k_b1_backpack_woodland_rps6_load: k_b1_backpack_heavy_woodland
+class k_ls_b1_backpack_woodland_rps6_load: k_ls_b1_backpack_heavy_woodland
 {
 	scope = 1;
 	scopecurator = 1;
@@ -534,7 +534,7 @@ class k_b1_backpack_woodland_rps6_load: k_b1_backpack_heavy_woodland
 		};
 	};
 };
-class k_b1_backpack_woodland_e60r_at_load: k_b1_backpack_heavy_woodland
+class k_ls_b1_backpack_woodland_e60r_at_load: k_ls_b1_backpack_heavy_woodland
 {
 	scope = 1;
 	scopecurator = 1;
@@ -548,7 +548,7 @@ class k_b1_backpack_woodland_e60r_at_load: k_b1_backpack_heavy_woodland
 		};
 	};
 };
-class k_b1_backpack_woodland_e60r_aa_load: k_b1_backpack_heavy_woodland
+class k_ls_b1_backpack_woodland_e60r_aa_load: k_ls_b1_backpack_heavy_woodland
 {
 	scope = 1;
 	scopecurator = 1;
@@ -563,7 +563,7 @@ class k_b1_backpack_woodland_e60r_aa_load: k_b1_backpack_heavy_woodland
 	};
 };
 
-class k_b1_backpack_desert_rps6_load: k_b1_backpack_heavy_desert
+class k_ls_b1_backpack_desert_rps6_load: k_ls_b1_backpack_heavy_desert
 {
 	scope = 1;
 	scopecurator = 1;
@@ -577,7 +577,7 @@ class k_b1_backpack_desert_rps6_load: k_b1_backpack_heavy_desert
 		};
 	};
 };
-class k_b1_backpack_desert_e60r_at_load: k_b1_backpack_heavy_desert
+class k_ls_b1_backpack_desert_e60r_at_load: k_ls_b1_backpack_heavy_desert
 {
 	scope = 1;
 	scopecurator = 1;
@@ -591,7 +591,7 @@ class k_b1_backpack_desert_e60r_at_load: k_b1_backpack_heavy_desert
 		};
 	};
 };
-class k_b1_backpack_desert_e60r_aa_load: k_b1_backpack_heavy_desert
+class k_ls_b1_backpack_desert_e60r_aa_load: k_ls_b1_backpack_heavy_desert
 {
 	scope = 1;
 	scopecurator = 1;
@@ -606,7 +606,7 @@ class k_b1_backpack_desert_e60r_aa_load: k_b1_backpack_heavy_desert
 	};
 };
 
-class k_b1_backpack_winter_rps6_load: k_b1_backpack_heavy_winter
+class k_ls_b1_backpack_winter_rps6_load: k_ls_b1_backpack_heavy_winter
 {
 	scope = 1;
 	scopecurator = 1;
@@ -620,7 +620,7 @@ class k_b1_backpack_winter_rps6_load: k_b1_backpack_heavy_winter
 		};
 	};
 };
-class k_b1_backpack_winter_e60r_at_load: k_b1_backpack_heavy_winter
+class k_ls_b1_backpack_winter_e60r_at_load: k_ls_b1_backpack_heavy_winter
 {
 	scope = 1;
 	scopecurator = 1;
@@ -634,7 +634,7 @@ class k_b1_backpack_winter_e60r_at_load: k_b1_backpack_heavy_winter
 		};
 	};
 };
-class k_b1_backpack_winter_e60r_aa_load: k_b1_backpack_heavy_winter
+class k_ls_b1_backpack_winter_e60r_aa_load: k_ls_b1_backpack_heavy_winter
 {
 	scope = 1;
 	scopecurator = 1;

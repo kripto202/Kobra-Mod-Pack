@@ -1,148 +1,148 @@
-	class k_headgear_44_p2: k_headgear_p2
+	class k_ls_headgear_44_p2: k_ls_headgear_p2
     {
         displayname = "[44/LS] P2 Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "44_p2_helmet";
+                name = "k_ls_44_p2_helmet";
                 count = 1;
             };
         };
     };
-	class k_headgear_44_p15: k_headgear_p2
+	class k_ls_headgear_44_p15: k_ls_headgear_p2
     {
         displayname = "[44/LS] P1.5 Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "44_p15_helmet";
+                name = "k_ls_44_p15_helmet";
                 count = 1;
             };
         };
     };
-	class k_headgear_44_ab: k_headgear_p2
+	class k_ls_headgear_44_ab: k_ls_headgear_p2
     {
         displayname = "[44/LS] Airborne Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "44_airborne_helmet";
+                name = "k_ls_44_airborne_helmet";
                 count = 1;
             };
         };
     };
-	class k_headgear_44_p2_pilot: k_headgear_p2
+	class k_ls_headgear_44_p2_pilot: k_ls_headgear_p2
     {
         displayname = "[44/LS] P2 Pilot Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "44_p2_pilot_helmet";
+                name = "k_ls_44_p2_pilot_helmet";
                 count = 1;
             };
         };
     };
-	class k_headgear_44_barc: k_headgear_p2
+	class k_ls_headgear_44_barc: k_ls_headgear_p2
     {
         displayname = "[44/LS] BARC Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "44_barc_helmet";
+                name = "k_ls_44_barc_helmet";
                 count = 1;
             };
         };
     };
-	class k_headgear_44_p1_arf: k_headgear_p2
+	class k_ls_headgear_44_p1_arf: k_ls_headgear_p2
     {
         displayname = "[44/LS] P1 ARF Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "44_p1_arf_helmet";
+                name = "k_ls_44_p1_arf_helmet";
                 count = 1;
             };
         };
     };
-	class k_headgear_44_p2_arf: k_headgear_p2
+	class k_ls_headgear_44_p2_arf: k_ls_headgear_p2
     {
         displayname = "[44/LS] P1 ARF Helmet (Flaps)";
         class transportItems
         {
             class helmet
             {
-                name = "44_p2_arf_helmet";
+                name = "k_ls_44_p2_arf_helmet";
                 count = 1;
             };
         };
     };
-	class k_headgear_44_eng: k_headgear_p2
+	class k_ls_headgear_44_eng: k_ls_headgear_p2
     {
         displayname = "[44/LS] Engineer Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "44_eng_helmet";
+                name = "k_ls_44_eng_helmet";
                 count = 1;
             };
         };
     };
-	class k_headgear_44_p1: k_headgear_p2
+	class k_ls_headgear_44_p1: k_ls_headgear_p2
     {
         displayname = "[44/LS] P1 Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "44_p1_helmet";
+                name = "k_ls_44_p1_helmet";
                 count = 1;
             };
         };
     };
-	class k_headgear_44_p1_pilot: k_headgear_p2
+	class k_ls_headgear_44_p1_pilot: k_ls_headgear_p2
     {
         displayname = "[44/LS] P1 Pilot Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "44_p1_pilot_helmet";
+                name = "k_ls_44_p1_pilot_helmet";
                 count = 1;
             };
         };
     };
-	class k_headgear_44_p1_specops: k_headgear_p2
+	class k_ls_headgear_44_p1_specops: k_ls_headgear_p2
     {
         displayname = "[44/LS] P1 Specops Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "44_p1_specops_helmet";
+                name = "k_ls_44_p1_specops_helmet";
                 count = 1;
             };
         };
     };
-	class k_headgear_44_p2_specops: k_headgear_p2
+	class k_ls_headgear_44_p2_specops: k_ls_headgear_p2
     {
         displayname = "[44/LS] P2 Specops Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "44_p2_specops_helmet";
+                name = "k_ls_44_p2_specops_helmet";
                 count = 1;
             };
         };
     };
-    class k_headgear_44_hunter: k_headgear_p2
+    class k_headgear_44_hunter: k_ls_headgear_p2
     {
         displayname = "[44/LS] Hunter Helmet";
         class transportItems
@@ -154,7 +154,7 @@
             };
         };
     };
-    class k_headgear_44_crosshair: k_headgear_p2
+    class k_headgear_44_crosshair: k_ls_headgear_p2
     {
         displayname = "[44/LS] Crosshair Helmet";
         class transportItems
@@ -166,7 +166,7 @@
             };
         };
     };
-    class k_headgear_44_wrecker: k_headgear_p2
+    class k_headgear_44_wrecker: k_ls_headgear_p2
     {
         displayname = "[44/LS] Wrecker Helmet";
         class transportItems
@@ -178,7 +178,7 @@
             };
         };
     };
-    class k_headgear_44_tech: k_headgear_p2
+    class k_headgear_44_tech: k_ls_headgear_p2
     {
         displayname = "[44/LS] Tech Helmet";
         class transportItems
@@ -190,19 +190,19 @@
             };
         };
     };
-	class k_headgear_44_rex: k_headgear_p2
+	class k_ls_headgear_44_rex: k_ls_headgear_p2
     {
         displayname = "[44/LS] Rex Helmet";
         class transportItems
         {
             class helmet
             {
-                name = "44_rex_helmet";
+                name = "k_ls_44_rex_helmet";
                 count = 1;
             };
         };
     };
-	class k_headgear_44_scout: k_headgear_p2
+	class k_headgear_44_scout: k_ls_headgear_p2
     {
         displayname = "[44/LS] Scout Helmet";
         class transportItems
@@ -214,134 +214,122 @@
             };
         };
     };
-	class k_headgear_44_dukas: k_headgear_p2
-    {
-        displayname = "[44/LS] Scout Helmet (Dukas)";
-        class transportItems
-        {
-            class helmet
-            {
-                name = "44_scout_dukas_helmet";
-                count = 1;
-            };
-        };
-    };
-	class k_headgear_44_hollen: k_headgear_p2
+	/*class k_ls_headgear_44_hollen: k_ls_headgear_p2
     {
         displayname = "[44/LS] P2 Helmet (Hollen)";
         class transportItems
         {
             class helmet
             {
-                name = "44_p2_helmet_hollen";
+                name = "k_ls_44_p2_helmet_hollen";
                 count = 1;
             };
         };
-    };
-	class k_headgear_44_kripto: k_headgear_p2
+    };*/
+	class k_ls_headgear_44_kripto: k_ls_headgear_p2
     {
         displayname = "[44/LS] BARC Helmet (Kripto)";
         class transportItems
         {
             class helmet
             {
-                name = "44_barc_helmet_kripto";
+                name = "k_ls_44_barc_helmet_kripto";
                 count = 1;
             };
         };
     };
-	class k_headgear_44_monty: k_headgear_p2
+	class k_ls_headgear_44_monty: k_ls_headgear_p2
     {
         displayname = "[44/LS] P1 ARF Helmet (Monty)";
         class transportItems
         {
             class helmet
             {
-                name = "44_p1_arf_helmet_monty";
+                name = "k_ls_44_p1_arf_helmet_monty";
                 count = 1;
             };
         };
     };
-    class k_headgear_44_dishonored: k_headgear_p2
+    class k_ls_headgear_44_dishonored: k_ls_headgear_p2
     {
         displayname = "[44/LS] P1.5 Helmet (Dishonored)";
         class transportItems
         {
             class helmet
             {
-                name = "44_p15_helmet_dishonored";
+                name = "k_ls_44_p15_helmet_dishonored";
                 count = 1;
             };
         };
     };
-    class k_headgear_44_azarael: k_headgear_p2
+    class k_ls_headgear_44_azarael: k_ls_headgear_p2
     {
         displayname = "[44/LS] P1 Arf Helmet (Azarael)";
         class transportItems
         {
             class helmet
             {
-                name = "44_p1_arf_helmet_azarael";
+                name = "k_ls_44_p1_arf_helmet_azarael";
                 count = 1;
             };
         };
     };
-    class k_headgear_44_nico: k_headgear_p2
+    class k_ls_headgear_44_nico: k_ls_headgear_p2
     {
         displayname = "[44/LS] Airborne Helmet (Nico)";
         class transportItems
         {
             class helmet
             {
-                name = "44_airborne_helmet_nico";
+                name = "k_ls_44_airborne_helmet_nico";
                 count = 1;
             };
         };
     };
-    class k_headgear_44_sexton: k_headgear_p2
+    class k_ls_headgear_44_sexton: k_ls_headgear_p2
     {
         displayname = "[44/LS] Engineer Helmet (Sexton)";
         class transportItems
         {
             class helmet
             {
-                name = "44_eng_helmet_sexton";
+                name = "k_ls_44_eng_helmet_sexton";
                 count = 1;
             };
         };
     };
-    class k_headgear_44_steele: k_headgear_p2
+    class k_ls_headgear_44_steele: k_ls_headgear_p2
     {
         displayname = "[44/LS] P1 Helmet (Steele)";
         class transportItems
         {
             class helmet
             {
-                name = "44_p1_helmet_steele";
+                name = "k_ls_44_p1_helmet_steele";
                 count = 1;
             };
         };
     };
-    class k_headgear_44_delta: k_headgear_p2
+    class k_ls_headgear_44_delta: k_ls_headgear_p2
     {
         displayname = "[44/LS] P2 Pilot Helmet (Delta)";
         class transportItems
         {
             class helmet
             {
-                name = "44_p2_pilot_helmet_delta";
+                name = "k_ls_44_p2_pilot_helmet_delta";
                 count = 1;
             };
         };
     };
-    class k_headgear_44_euda: k_headgear_p2
+    class k_ls_headgear_44_euda: k_ls_headgear_p2
     {
         displayname = "[44/LS] P1 Pilot Helmet (Euda)";
         class transportItems
         {
             class helmet
             {
-                name = "44_p1_pilot_helmet_euda";
+                name = "k_ls_44_p1_pilot_helmet_euda";
                 count = 1;
             };
         };

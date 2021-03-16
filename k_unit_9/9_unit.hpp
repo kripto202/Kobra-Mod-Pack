@@ -1,4 +1,4 @@
-	class 9_swla_trooper_clean: k_swla_unit_base
+	class k_ls_9_trooper_clean: k_ls_unit_base
 	{
 		scope = 1;
 		scopeCurator = 1;
@@ -7,7 +7,7 @@
 		identityTypes[] = {"LanguageENG_F", "Head_NATO"};
 		role = "Rifleman";
 		author = "Kobra Mod Team Team";
-		uniformclass = "9_swla_uniform_clean";
+		uniformclass = "k_ls_9_uniform_clean";
 		faction = "9_ac";
 		editorSubCategory = "442_trooper";
 		displayname = "Trooper";
@@ -36,9 +36,9 @@
 		items[] = {};
 		respawnitems[] = {};
 	};
-	class 9_swla_trooper_worn: 9_swla_trooper_clean
+	class k_ls_9_trooper_worn: k_ls_9_trooper_clean
 	{
-		uniformclass = "9_swla_uniform_worn";
+		uniformclass = "k_ls_9_uniform_worn";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_9\data\armor\9_armor_upper_worn_co.paa",
@@ -46,9 +46,9 @@
 			"kobra\k_unit_9\data\armor\undersuit_co.paa",
 		};
 	};
-	class 9_swla_trooper_nco: 9_swla_trooper_clean
+	class k_ls_9_trooper_nco: k_ls_9_trooper_clean
 	{
-		uniformclass = "9_swla_uniform_nco";
+		uniformclass = "k_ls_9_uniform_nco";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_9\data\armor\9_armor_upper_nco_co.paa",
@@ -56,9 +56,9 @@
 			"kobra\k_unit_9\data\armor\undersuit_co.paa",
 		};
 	};
-	class 9_swla_trooper_lt: 9_swla_trooper_clean
+	class k_ls_9_trooper_lt: k_ls_9_trooper_clean
 	{
-		uniformclass = "9_swla_uniform_lt";
+		uniformclass = "k_ls_9_uniform_lt";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_9\data\armor\9_armor_upper_lt_co.paa",
@@ -66,9 +66,9 @@
 			"kobra\k_unit_9\data\armor\undersuit_co.paa",
 		};
 	};
-	class 9_swla_trooper_cpt: 9_swla_trooper_clean
+	class k_ls_9_trooper_cpt: k_ls_9_trooper_clean
 	{
-		uniformclass = "9_swla_uniform_cpt";
+		uniformclass = "k_ls_9_uniform_cpt";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_9\data\armor\9_armor_upper_cpt_co.paa",
@@ -76,9 +76,9 @@
 			"kobra\k_unit_9\data\armor\undersuit_co.paa",
 		};
 	};
-	class 9_swla_trooper_cmd: 9_swla_trooper_clean
+	class k_ls_9_trooper_cmd: k_ls_9_trooper_clean
 	{
-		uniformclass = "9_swla_uniform_cmd";
+		uniformclass = "k_ls_9_uniform_cmd";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_9\data\armor\9_armor_upper_cmd_co.paa",

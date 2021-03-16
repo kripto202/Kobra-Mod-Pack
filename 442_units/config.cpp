@@ -36,6 +36,9 @@ class cfgpatches
 			"k_scout_helmet_artic",
 			"k_scout_helmet_desert",
 			"k_scout_helmet_jungle",
+			"k_p1_pilot_helmet",
+			"k_p1_helmet",
+			"k_p2_helmet",
 
 			"k_scout_pouches_base",
 			"k_scout_pouches_light",
@@ -234,7 +237,7 @@ class cfgweapons
 			uniformclass = "k_barracks_unit";
 		};
 	};
-    class 442_vest_base: V_rebreatherB
+    class k_vest_base: V_rebreatherB
     {
         author = "Kobra Mod Team";
         displayname = "vest base";
@@ -472,6 +475,63 @@ class cfgweapons
 			hiddenSelections[]=
 			{
 				"Camo1",
+				"visor"
+			};
+		};
+	};
+	class k_p2_helmet_base: k_helmet_base
+	{
+		displayname = "[K] P2 Helmet";
+		model = "kobra\442_units\p2_helmet.p3d";
+		hiddenselections[] = 
+		{
+			"camo1",
+			"visor"
+		};
+		class iteminfo: Iteminfo
+		{
+			uniformmodel = "kobra\442_units\p2_helmet.p3d";
+			hiddenselections[] = 
+			{
+				"camo1",
+				"visor"
+			};
+		};
+	};
+	class k_p1_helmet_base: k_helmet_base
+	{
+		displayname = "[K] P1 Helmet";
+		model = "kobra\442_units\p1_helmet.p3d";
+		hiddenselections[] = 
+		{
+			"camo1",
+			"visor"
+		};
+		class iteminfo: Iteminfo
+		{
+			uniformmodel = "kobra\442_units\p1_helmet.p3d";
+			hiddenselections[] = 
+			{
+				"camo1",
+				"visor"
+			};
+		};
+	};
+	class k_p1_pilot_helmet_base: k_helmet_base
+	{
+		displayname = "[K] P1 Pilot Helmet";
+		model = "kobra\442_units\p1_pilot_helmet.p3d";
+		hiddenselections[] = 
+		{
+			"camo1",
+			"visor"
+		};
+		class iteminfo: Iteminfo
+		{
+			uniformmodel = "kobra\442_units\p1_pilot_helmet.p3d";
+			hiddenselections[] = 
+			{
+				"camo1",
 				"visor"
 			};
 		};
