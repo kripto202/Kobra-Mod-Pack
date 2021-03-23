@@ -124,6 +124,12 @@ class cfgFactionClasses
 		priority = 1;
 		side = 1;
 	};
+	class 198_ab
+	{
+		displayname = "[K] 198th Attack Battalion";
+		priority = 1;
+		side = 1;
+	};
 	class kobra_b
 	{
 		displayname = "[K] Kobra";

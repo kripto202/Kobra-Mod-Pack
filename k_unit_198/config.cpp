@@ -8,8 +8,48 @@ class cfgpatches
             "kobra_core"
         };
         requiredversion = 0.1;
-        units[] = {};
-        weapons[] = {};
+        units[] = 
+        {
+            "k_ls_198_ct_unit",
+            "k_ls_198_clc_unit",
+            "k_ls_198_sct_unit",
+            "k_ls_198_vct_unit",
+            "k_ls_198_medic_unit",
+            "k_ls_198_pilot_unit",
+            "k_ls_198_arf_unit",
+            "k_ls_198_kermit_unit",
+            "k_ls_198_mickey_unit",
+            "k_ls_198_murk_unit"
+        };
+        weapons[] = 
+        {
+            "k_ls_198_ct_uniform",
+            "k_ls_198_clc_uniform",
+            "k_ls_198_sct_uniform",
+            "k_ls_198_vct_uniform",
+            "k_ls_198_medic_uniform",
+            "k_ls_198_pilot_uniform",
+            "k_ls_198_arf_uniform",
+            "k_ls_198_kermit_uniform",
+            "k_ls_198_mickey_uniform",
+            "k_ls_198_murk_uniform",
+            
+            "k_ls_198_p2_helmet",
+            "k_ls_198_p2_helmet_m",
+            "k_ls_198_p1_pilot_helmet1",
+            "k_ls_198_p1_pilot_helmet2",
+            "k_ls_198_p2_pilot_helmet",
+            "k_ls_198_eng_helmet",
+            "k_ls_198_p1_arf_helmet",
+            "k_ls_198_p2_arf_helmet",
+            "k_ls_198_frost_p2_helmet",
+            "k_ls_198_meatball_p2_pilot_helmet",
+            "k_ls_198_mickey_p2_helmet",
+            "k_ls_198_murk_p2_helmet",
+            "k_ls_198_o_p2_helmet",
+            "k_ls_198_salamander_p2_helmet",
+            "k_ls_198_snowy_p2_helmet"
+        };
     };
 };
 
@@ -26,6 +66,7 @@ class cfgvehicles
     class k_ls_clone_backpack_radio_med;
     class k_ls_clone_backpack_rocket;
     class k_ls_headgear_p2;
+    #include "198_unit.hpp"
 };
 
 class cfgweapons
@@ -95,4 +136,6 @@ class cfgweapons
     class k_wrecker_helmet_base;
     class k_tech_helmet_base;
     class V_rebreatherB;
+    #include "198_helmet.hpp"
+    #include "198_uniform.hpp"
 };
