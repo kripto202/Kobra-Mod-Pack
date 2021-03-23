@@ -173,6 +173,9 @@ class cfgvehicles
 		cargoCanEject=0;
 		mainBladeRadius=0;
 		liftForceCoef=3;
+		
+		allowTabLock=1;
+		
 		bodyFrictionCoef=11;
 		cyclicAsideForceCoef=5;
 		cyclicForwardForceCoef=3;

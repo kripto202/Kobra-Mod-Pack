@@ -140,6 +140,7 @@ class cfgVehicles
 		maxFordingDepth = 5;
 		incomingMissileDetectionSystem = "1 + 2 + 4 + 8 + 16 + 32";
 		LockDetectionSystem = "1 + 2 + 4 + 8 + 16 + 32";
+		allowTabLock=1;
 		getInRadius = 5;
 		hideWeaponsCargo = 1;
 		cargoCanEject = 0;
