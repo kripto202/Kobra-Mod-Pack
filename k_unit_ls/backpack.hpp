@@ -1,6 +1,6 @@
-class k_ls_clone_backpack_base;
-class k_ls_clone_rto_backpack_base;
-class k_ls_clone_backpack: k_ls_clone_backpack_base
+class ls_gar_standard_backpack;
+class ls_gar_radio_backpack;
+class k_ls_clone_backpack: ls_gar_standard_backpack
 {
 	displayname = "[K/LS] Clone Trooper Backpack";
 	scope = 2;
@@ -23,7 +23,7 @@ class k_ls_clone_backpack: k_ls_clone_backpack_base
 		"kobra\k_unit_ls\data\backpack\clone\cover_co.paa",
 	};
 };
-class k_ls_clone_backpack_med: k_ls_clone_backpack_base
+class k_ls_clone_backpack_med: ls_gar_standard_backpack
 {
 	displayname = "[K/LS] Clone Trooper Medium Backpack";
 	scope = 2;
@@ -49,7 +49,7 @@ class k_ls_clone_backpack_med: k_ls_clone_backpack_base
 		"kobra\k_unit_ls\data\backpack\clone\pouches_co.paa",
 	};
 };
-class k_ls_clone_backpack_heavy: k_ls_clone_backpack_base
+class k_ls_clone_backpack_heavy: ls_gar_standard_backpack
 {
 	displayname = "[K/LS] Clone Trooper Heavy Backpack";
 	scope = 2;
@@ -78,7 +78,7 @@ class k_ls_clone_backpack_heavy: k_ls_clone_backpack_base
 		"kobra\k_unit_ls\data\backpack\clone\tube_co.paa",
 	};
 };
-class k_ls_clone_backpack_medic: k_ls_clone_backpack_base
+class k_ls_clone_backpack_medic: ls_gar_standard_backpack
 {
 	displayname = "[K/LS] Clone Trooper Medic Backpack";
 	scope = 2;
@@ -107,7 +107,7 @@ class k_ls_clone_backpack_medic: k_ls_clone_backpack_base
 		"kobra\k_unit_ls\data\backpack\clone\medic_co.paa",
 	};
 };
-class k_ls_clone_backpack_medic_med: k_ls_clone_backpack_base
+class k_ls_clone_backpack_medic_med: ls_gar_standard_backpack
 {
 	displayname = "[K/LS] Clone Trooper Medic Medium Backpack";
 	scope = 2;
@@ -139,7 +139,7 @@ class k_ls_clone_backpack_medic_med: k_ls_clone_backpack_base
 		"kobra\k_unit_ls\data\backpack\clone\medic_co.paa",
 	};
 };
-class k_ls_clone_backpack_radio: k_ls_clone_rto_backpack_base
+class k_ls_clone_backpack_radio: ls_gar_radio_backpack
 {
 	displayname = "[K/LS] Clone Trooper Radio Backpack";
 	scope = 2;
@@ -164,7 +164,7 @@ class k_ls_clone_backpack_radio: k_ls_clone_rto_backpack_base
 		"kobra\k_unit_ls\data\backpack\clone\screen_co.paa",
 	};
 };
-class k_ls_clone_backpack_radio_med: k_ls_clone_rto_backpack_base
+class k_ls_clone_backpack_radio_med: ls_gar_radio_backpack
 {
 	displayname = "[K/LS] Clone Trooper Radio Medium Backpack";
 	scope = 2;
@@ -193,7 +193,7 @@ class k_ls_clone_backpack_radio_med: k_ls_clone_rto_backpack_base
 		"kobra\k_unit_ls\data\backpack\clone\pouches_co.paa",
 	};
 };
-class k_ls_clone_backpack_rocket: k_ls_clone_backpack_base
+class k_ls_clone_backpack_rocket: ls_gar_standard_backpack
 {
 	displayname = "[K/LS] Clone Trooper Rocket Backpack";
 	scope = 2;
@@ -227,7 +227,7 @@ class k_ls_clone_backpack_rocket: k_ls_clone_backpack_base
 };
 
 
-class k_ls_b1_backpack: k_ls_clone_backpack_base
+class k_ls_b1_backpack: ls_gar_standard_backpack
 {
 	displayname = "[K/LS] B1 Backpack";
 	scope = 2;
