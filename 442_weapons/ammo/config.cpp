@@ -1443,42 +1443,42 @@ class cfgammo
 		};
 		soundHit1[]=
 		{
-			"kobra\kobra_core\sounds\blaster_fire1.wss",
+			"kobra\442_weapons\sounds\hit\hit7.wss",
 			1.9952624,
 			1,
 			120
 		};
 		soundHit2[]=
 		{
-			"kobra\kobra_core\sounds\blaster_fire1.wss",
+			"kobra\442_weapons\sounds\hit\hit7.wss",
 			1.9952624,
 			1,
 			120
 		};
 		soundHit3[]=
 		{
-			"kobra\kobra_core\sounds\blaster_fire1.wss",
+			"kobra\442_weapons\sounds\hit\hit7.wss",
 			1.9952624,
 			1,
 			120
 		};
 		soundHit4[]=
 		{
-			"kobra\kobra_core\sounds\blaster_fire1.wss",
+			"kobra\442_weapons\sounds\hit\hit7.wss",
 			1.9952624,
 			1,
 			120
 		};
 		soundHit5[]=
 		{
-			"kobra\kobra_core\sounds\blaster_fire1.wss",
+			"kobra\442_weapons\sounds\hit\hit7.wss",
 			1.9952624,
 			1,
 			120
 		};
 		soundHit6[]=
 		{
-			"kobra\kobra_core\sounds\blaster_fire1.wss",
+			"kobra\442_weapons\sounds\hit\hit7.wss",
 			1.9952624,
 			1,
 			120
