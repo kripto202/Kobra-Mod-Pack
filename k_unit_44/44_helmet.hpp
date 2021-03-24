@@ -428,3 +428,13 @@
 			"kobra\k_unit_ls\data\helmet\p1_pilot_helmet\visor_co.paa"
 		};
 	};
+	class k_ls_44_p1_arf_helmet_piercer: k_ls_44_p1_arf_helmet
+	{
+		displayname = "[44/LS] P1 ARF Helmet (Piercer)";
+		hiddenselectionstextures[] =
+		{
+			"kobra\k_unit_44\data\custom\piercer\44_arf_helmet_co.paa",
+			"",
+			"kobra\k_unit_ls\data\helmet\arf_helmet\visor_co.paa",
+		};
+	};

@@ -38,6 +38,7 @@ class cfgpatches
             "k_ls_headgear_44_steele",
             "k_ls_headgear_44_delta",
             "k_ls_headgear_44_euda",
+            "k_ls_headgear_44_piercer",
 
             "k_ls_44_unit",
             "k_ls_44_mc_unit",
@@ -53,6 +54,8 @@ class cfgpatches
             "k_ls_44_unit_sexton",
             "k_ls_44_unit_steele",
             "k_ls_44_unit_euda",
+            "k_ls_44_unit_piercer",
+			
             "k_ls_44_unit_dc15a",
             "k_ls_44_unit_dc15s",
             "k_ls_44_unit_medic",
@@ -91,6 +94,7 @@ class cfgpatches
             "k_ls_44_eng_helmet_sexton",
             "k_ls_44_p1_helmet_steele",
             "k_ls_44_p1_pilot_helmet_euda",
+            "k_ls_44_p1_arf_helmet_piercer",
 
             "k_ls_44_uniform",
             "k_ls_44_uniform_mc",
@@ -106,6 +110,7 @@ class cfgpatches
             "k_ls_44_uniform_sexton",
             "k_ls_44_uniform_steele",
             "k_ls_44_uniform_euda",
+            "k_ls_44_uniform_piercer",
             "",
             "",
             "",

@@ -29,14 +29,6 @@
 	};
 
 ///custom armor
-	class k_ls_44_uniform_hollen: k_ls_44_uniform
-	{
-		displayname = "[44/LS] Clone Trooper Uniform (Hollen)";
-		class iteminfo: iteminfo
-		{
-			uniformClass="k_ls_44_unit_hollen";
-		};
-	};
 	class k_ls_44_uniform_kripto: k_ls_44_uniform
 	{
 		displayname = "[44/LS] Clone Trooper Uniform (Kripto)";
@@ -123,5 +115,13 @@
 		class iteminfo: iteminfo
 		{
 			uniformClass="k_ls_44_unit_euda";
+		};
+	};
+	class k_ls_44_uniform_piercer: k_ls_44_uniform
+	{
+		displayname = "[44/LS] Clone Trooper Uniform (Piercer)";
+		class iteminfo: iteminfo
+		{
+			uniformClass="k_ls_44_unit_piercer";
 		};
 	};

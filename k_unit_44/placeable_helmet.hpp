@@ -334,3 +334,15 @@
             };
         };
     };
+	class k_ls_headgear_44_piercer: k_ls_headgear_p2
+    {
+        displayname = "[44/LS] P1 Arf Helmet (Piercer)";
+        class transportItems
+        {
+            class helmet
+            {
+                name = "k_ls_44_p1_pilot_helmet_piercer";
+                count = 1;
+            };
+        };
+    };
