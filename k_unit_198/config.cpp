@@ -19,7 +19,24 @@ class cfgpatches
             "k_ls_198_arf_unit",
             "k_ls_198_kermit_unit",
             "k_ls_198_mickey_unit",
-            "k_ls_198_murk_unit"
+            "k_ls_198_murk_unit",
+
+            "k_ls_headgear_198_p2",
+            "k_ls_headgear_198_p2_m",
+            "k_ls_headgear_198_p1_pilot1",
+            "k_ls_headgear_198_p1_pilot2",
+            "k_ls_headgear_198_p2_pilot",
+            "k_ls_headgear_198_eng",
+            "k_ls_headgear_198_arf_p1",
+            "k_ls_headgear_198_arf_p2",
+            "k_ls_headgear_198_p2_frost",
+            "k_ls_headgear_198_p2_kermit",
+            "k_ls_headgear_198_p2_pilot_meatball",
+            "k_ls_headgear_198_p2_mickey",
+            "k_ls_headgear_198_p2_murk",
+            "k_ls_headgear_198_p2_o",
+            "k_ls_headgear_198_p2_salamander",
+            "k_ls_headgear_198_p2_snowy",
         };
         weapons[] = 
         {
@@ -67,6 +84,7 @@ class cfgvehicles
     class k_ls_clone_backpack_rocket;
     class k_ls_headgear_p2;
     #include "198_unit.hpp"
+    #include "placeable_helmet.hpp"
 };
 
 class cfgweapons
