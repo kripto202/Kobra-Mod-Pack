@@ -146,7 +146,7 @@ class cfgvehicles
 		fuelConsumptionRate=0.138;
 		side=1;
 		faction="kobra_b";
-		crew = "k_swla_unit_p2_dc15a";
+		crew = "k_ls_unit_p2_dc15a";
 		typicalCargo[]=
 		{
 			"k_swla_unit_p2_dc15a"
@@ -175,6 +175,48 @@ class cfgvehicles
 		liftForceCoef=3;
 		
 		allowTabLock=1;
+		
+		gearretracting = 1;
+		geardowntime = 2;
+		gearuptime = 2;
+		gearsupfrictioncoef = 0.5;
+		
+		class damage
+		{
+			tex[] = {};
+			mat[] = 
+			{
+				/*"body",
+				"body_2",
+				"door_1",
+				"door_2",
+				"door_3",
+				"wings",*/
+				"kobra\442_a_vehicle\laat\data\body.rvmat",
+				"kobra\442_a_vehicle\laat\data\body_damage.rvmat",
+				"kobra\442_a_vehicle\laat\data\body_destruction.rvmat",
+				
+				"kobra\442_a_vehicle\laat\data\body2.rvmat",
+				"kobra\442_a_vehicle\laat\data\body2_damage.rvmat",
+				"kobra\442_a_vehicle\laat\data\body2_destruction.rvmat",
+				
+				"kobra\442_a_vehicle\laat\data\door1.rvmat",
+				"kobra\442_a_vehicle\laat\data\door1_damage.rvmat",
+				"kobra\442_a_vehicle\laat\data\door1_destruction.rvmat",
+				
+				"kobra\442_a_vehicle\laat\data\door2.rvmat",
+				"kobra\442_a_vehicle\laat\data\door2_damage.rvmat",
+				"kobra\442_a_vehicle\laat\data\door2_destruction.rvmat",
+				
+				"kobra\442_a_vehicle\laat\data\door3.rvmat",
+				"kobra\442_a_vehicle\laat\data\door3_damage.rvmat",
+				"kobra\442_a_vehicle\laat\data\door3_destruction.rvmat",
+				
+				"kobra\442_a_vehicle\laat\data\wings.rvmat",
+				"kobra\442_a_vehicle\laat\data\wings_damage.rvmat",
+				"kobra\442_a_vehicle\laat\data\wings_destruction.rvmat",
+			};
+		};
 		
 		bodyFrictionCoef=11;
 		cyclicAsideForceCoef=5;
@@ -234,7 +276,7 @@ class cfgvehicles
 		memorypointLRocket="rocketl";
 		memorypointRRocket="rocketr";
 		memorypointLmissile="rocketl";
-		memorypointRmissile="rocketR";
+		memorypointRmissile="rocketr";
 		memorypointcm[]=
 		{
 			"flare_launcher1",
@@ -780,12 +822,12 @@ class cfgvehicles
 		};
 		class animationsources
 		{
-			class laat_ramp_open
+			/*class laat_ramp_open
 			{
 				source="user";
 				animPeriod=2;
 				initphase=0;
-			};
+			};*/
 			class hidedoor1
 			{
 				displayname="Show Front Left Door";
@@ -812,7 +854,7 @@ class cfgvehicles
 			{
 				displayname="Show Back Right Door";
 			};
-			class laat_door_l
+			/*class laat_door_l
 			{
 				source="user";
 				animPeriod=2;
@@ -823,7 +865,7 @@ class cfgvehicles
 				source="user";
 				animPeriod=2;
 				initphase=0;
-			};
+			};*/
 		};
 		class Attributes
 		{
@@ -856,26 +898,10 @@ class cfgvehicles
 				property="hidedoor5";
 			};
 		};
-		animationlist[]=
-		{
-			"laat_ramp_open",
-			0,
-			"laat_door_l_close",
-			0,
-			"laat_door_l_open",
-			0,
-			"laat_door_r_close",
-			0,
-			"laat_door_r_open",
-			0,
-			"laat_door_open",
-			0,
-			"laat_door_close",
-			0
-		};
+		animationlist[]={};
 		class useractions
 		{
-			class laat_ramp_open
+			/*class laat_ramp_open
 			{
 				displayname="Open Ramp";
 				position="pilotview";
@@ -933,7 +959,7 @@ class cfgvehicles
 				priority="106";
 				condition="(player == driver this OR !(player in crew this) ) AND this animationsourcephase ""laat_door_l"" == 1;";
 				statement="this animatesource [""laat_door_l"",0]; [this, ""laat_door_open""] remoteExec [""say3d"",0,false];";
-			};
+			};*/
 			class impulse
 			{
 				displayName="Impulse";

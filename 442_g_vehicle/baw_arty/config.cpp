@@ -193,6 +193,22 @@ class cfgvehicles
 				{"damagehide", 0}
 			};
 		};
+		class damage
+		{
+			tex[] = {};
+			mat[] = 
+			{
+				"kobra\442_g_vehicle\baw_arty\data\body.rvmat",
+				"kobra\442_g_vehicle\baw_arty\data\body_damage.rvmat",
+				"kobra\442_g_vehicle\baw_arty\data\body_destruction.rvmat",
+				"kobra\442_g_vehicle\baw_arty\data\eyes.rvmat",
+				"kobra\442_g_vehicle\baw_arty\data\eyes.rvmat",
+				"kobra\442_g_vehicle\baw_arty\data\eyes.rvmat",
+				"kobra\442_g_vehicle\baw_arty\data\gun.rvmat",
+				"kobra\442_g_vehicle\baw_arty\data\gun_damage.rvmat",
+				"kobra\442_g_vehicle\baw_arty\data\gun_destruction.rvmat",
+			};
+		};
 	};
 
 	class 442_baw_arty: 442_baw_arty_base

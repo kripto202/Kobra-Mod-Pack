@@ -144,8 +144,8 @@ class cfgvehicles
 			"442_40_50rnd_he_red_mag"
 		};
 		#include "aat_memorypoints.hpp"
-		driver="k_swla_unit_b1_pilot_e5";
-		crew = "k_swla_unit_b1_e5";
+		driver="k_ls_unit_b1_pilot_e5";
+		crew = "k_ls_unit_b1_e5";
 		typicalCargo[]=
 		{
 			"k_swla_unit_b1_e5"
@@ -165,6 +165,22 @@ class cfgvehicles
 		memorypointRRocket="rocketr";
 		memorypointLmissile="rocketl";
 		memorypointRmissile="rocketr";
+		class damage
+		{
+			tex[] = {};
+			mat[] = 
+			{
+				"kobra\442_g_vehicle\aat\data\body1.rvmat",
+				"kobra\442_g_vehicle\aat\data\body1_damage.rvmat",
+				"kobra\442_g_vehicle\aat\data\body1_destruction.rvmat",
+				"kobra\442_g_vehicle\aat\data\body2.rvmat",
+				"kobra\442_g_vehicle\aat\data\body2_damage.rvmat",
+				"kobra\442_g_vehicle\aat\data\body2_destruction.rvmat",
+				"kobra\442_g_vehicle\aat\data\gun.rvmat",
+				"kobra\442_g_vehicle\aat\data\gun_damage.rvmat",
+				"kobra\442_g_vehicle\aat\data\gun_destruction.rvmat"
+			};
+		};
 	};
 	class 442_aat: 442_aat_base
 	{

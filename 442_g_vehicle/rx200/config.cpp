@@ -153,10 +153,10 @@ class cfgvehicles
 		insideSoundCoef=0.89999998;
 		threat[]={0.80000001,1,0.30000001};
 		canFloat=1;
-		crew = "k_swla_unit_p2_dc15a";
+		crew = "k_ls_unit_p2_dc15a";
 		typicalCargo[]=
 		{
-			"k_swla_unit_p2_dc15a"
+			"k_ls_unit_p2_dc15a"
 		};
 		waterLeakiness=2.5;
 		waterAngularDampingCoef=4;
@@ -217,6 +217,25 @@ class cfgvehicles
 			"kobra\442_g_vehicle\rx200\data\body2_co.paa",
 			"kobra\442_g_vehicle\rx200\data\turret_co.paa",
 			"kobra\442_g_vehicle\rx200\data\gun_co.paa"
+		};
+		class damage
+		{
+			tex[] = {};
+			mat[] = 
+			{
+				"kobra\442_g_vehicle\rx200\data\body1.rvmat",
+				"kobra\442_g_vehicle\rx200\data\body1_damage.rvmat",
+				"kobra\442_g_vehicle\rx200\data\body1_destruction.rvmat",
+				"kobra\442_g_vehicle\rx200\data\body2.rvmat",
+				"kobra\442_g_vehicle\rx200\data\body2_damage.rvmat",
+				"kobra\442_g_vehicle\rx200\data\body2_destruction.rvmat",
+				"kobra\442_g_vehicle\rx200\data\turret.rvmat",
+				"kobra\442_g_vehicle\rx200\data\turret_damage.rvmat",
+				"kobra\442_g_vehicle\rx200\data\turret_destruction.rvmat",
+				"kobra\442_g_vehicle\rx200\data\gun.rvmat",
+				"kobra\442_g_vehicle\rx200\data\gun_damage.rvmat",
+				"kobra\442_g_vehicle\rx200\data\gun_destruction.rvmat",
+			};
 		};
 
 		class simpleobject

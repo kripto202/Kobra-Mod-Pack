@@ -351,10 +351,11 @@ class CfgRecoils
 	class recoil_default;
 	class 442_recoil: recoil_default
 	{
-		kickBack[]={0.02,0.01};
-		muzzleOuter[]={0.30000001,0.40000001,0.30000001,0.2};
-		permanent=0.01;
-		temporary=0.0020000001;
+		kickBack[]={0.02,0.039999999};
+		muzzleinner[] = {0,0,0.1,0.1};
+		muzzleOuter[]={0.30000001,0.6,0.30000001,0.2};
+		permanent=0.1;
+		temporary=0.0099999998;
 	};
 	class 442_scatter_recoil
 	{

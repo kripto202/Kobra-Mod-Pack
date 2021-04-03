@@ -177,6 +177,49 @@ class cfgVehicles
 		radarType=8;
 		extCameraPosition[]={0,3,-23};
 		driverforceoptics = 1;
+
+		class damage
+		{
+			tex[] = {};
+			mat[] = 
+			{
+				/*"body",
+				"engine",
+				"eyes",
+				"head",
+				"rockets",
+				"seats",
+				"wings"*/
+				"kobra\442_a_vehicle\hmp\data\body.rvmat",
+				"kobra\442_a_vehicle\hmp\data\body_damage.rvmat",
+				"kobra\442_a_vehicle\hmp\data\body_destruction.rvmat",
+
+				"kobra\442_a_vehicle\hmp\data\engine.rvmat",
+				"kobra\442_a_vehicle\hmp\data\engine.rvmat",
+				"kobra\442_a_vehicle\hmp\data\engine.rvmat",
+
+				"kobra\442_a_vehicle\hmp\data\eyes.rvmat",
+				"kobra\442_a_vehicle\hmp\data\eyes.rvmat",
+				"kobra\442_a_vehicle\hmp\data\eyes.rvmat",
+
+				"kobra\442_a_vehicle\hmp\data\head.rvmat",
+				"kobra\442_a_vehicle\hmp\data\head_damage.rvmat",
+				"kobra\442_a_vehicle\hmp\data\head_destruction.rvmat",
+
+				"kobra\442_a_vehicle\hmp\data\rockets.rvmat",
+				"kobra\442_a_vehicle\hmp\data\rockets.rvmat",
+				"kobra\442_a_vehicle\hmp\data\rockets.rvmat",
+
+				"kobra\442_a_vehicle\hmp\data\seats.rvmat",
+				"kobra\442_a_vehicle\hmp\data\seats.rvmat",
+				"kobra\442_a_vehicle\hmp\data\seats.rvmat",
+
+				"kobra\442_a_vehicle\hmp\data\wings.rvmat",
+				"kobra\442_a_vehicle\hmp\data\wings_damage.rvmat",
+				"kobra\442_a_vehicle\hmp\data\wings_destruction.rvmat",
+			};
+		};
+
 		class Exhausts
 		{
 			class Exhaust_1
@@ -317,14 +360,8 @@ class cfgVehicles
 			// };
 		};
 		
-		class attributes
-		{
-			
-		};
-		animationlist[] = 
-		{
-			
-		};
+		class attributes{};
+		animationlist[] = {};
 		
 		class HitPoints: HitPoints
 		{
