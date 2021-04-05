@@ -42,6 +42,9 @@ class cfgvehicles
 	{
 		#include "equip-common.hpp"
 		side = 1;
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
 		author = "Kobra Mod Team";
 		faction = "kobra_b";
 		editorSubcategory = "442_argon";
@@ -68,7 +71,10 @@ class cfgvehicles
 	{
 		#include "equip-common.hpp"
 		side = 1;
-		author = "Kobra Mod Team202 + 'Airstrike' Ivanov";
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
+		author = "Kobra Mod Team + 'Airstrike' Ivanov";
 		faction = "kobra_b";
 		editorSubcategory = "442_argon";
 		crew = "k_ls_unit_p2_dc15a";
@@ -95,7 +101,10 @@ class cfgvehicles
 	{
 		#include "equip-ammo.hpp"
 		side = 1;
-		author = "Kobra Mod Team202 + 'Airstrike' Ivanov";
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
+		author = "Kobra Mod Team + 'Airstrike' Ivanov";
 		faction = "kobra_b";
 		editorSubcategory = "442_argon";
 		crew = "k_ls_unit_p2_dc15a";
@@ -122,7 +131,10 @@ class cfgvehicles
 	{
 		#include "equip-common.hpp"
 		side = 1;
-		author = "Kobra Mod Team202 + 'Airstrike' Ivanov";
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
+		author = "Kobra Mod Team + 'Airstrike' Ivanov";
 		faction = "kobra_b";
 		editorSubcategory = "442_argon";
 		crew = "k_ls_unit_p2_dc15a";
@@ -150,7 +162,10 @@ class cfgvehicles
 	{
 		#include "equip-common.hpp"
 		side = 1;
-		author = "Kobra Mod Team202 + 'Airstrike' Ivanov";
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
+		author = "Kobra Mod Team + 'Airstrike' Ivanov";
 		faction = "kobra_b";
 		editorSubcategory = "442_argon";
 		crew = "k_ls_unit_p2_dc15a";
@@ -176,7 +191,10 @@ class cfgvehicles
 	{
 		#include "equip-engineer.hpp"
 		side = 1;
-		author = "Kobra Mod Team202 + 'Airstrike' Ivanov";
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
+		author = "Kobra Mod Team + 'Airstrike' Ivanov";
 		faction = "kobra_b";
 		editorSubcategory = "442_argon";
 		crew = "k_ls_unit_p2_dc15a";
@@ -202,7 +220,10 @@ class cfgvehicles
 	{
 		#include "equip-medical.hpp"
 		side = 1;
-		author = "Kobra Mod Team202 + 'Airstrike' Ivanov";
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
+		author = "Kobra Mod Team + 'Airstrike' Ivanov";
 		faction = "kobra_b";
 		editorSubcategory = "442_argon";
 		crew = "k_ls_unit_p2_dc15a";
@@ -231,6 +252,9 @@ class cfgvehicles
 	{
 		#include "cis_equip_common.hpp"
 		side = 0;
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
 		author = "mjr121";
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
@@ -256,6 +280,9 @@ class cfgvehicles
 	{
 		#include "cis_equip_common.hpp"
 		side = 0;
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
 		author = "mjr121";
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
@@ -282,6 +309,9 @@ class cfgvehicles
 	{
 		#include "cis_equip_ammo.hpp"
 		side = 0;
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
 		author = "mjr121";
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
@@ -308,6 +338,9 @@ class cfgvehicles
 	{
 		#include "cis_equip_common.hpp"
 		side = 0;
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
 		author = "mjr121";
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
@@ -335,6 +368,9 @@ class cfgvehicles
 	{
 		#include "cis_equip_common.hpp"
 		side = 0;
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
 		author = "mjr121";
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
@@ -360,6 +396,9 @@ class cfgvehicles
 	{
 		#include "cis_equip_engineer.hpp"
 		side = 0;
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
 		author = "mjr121";
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
@@ -385,6 +424,9 @@ class cfgvehicles
 	{
 		#include "cis_equip_medical.hpp"
 		side = 0;
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
 		author = "mjr121";
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";

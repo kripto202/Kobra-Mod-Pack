@@ -8,7 +8,10 @@ class cfgpatches
             "kobra_core"
         };
         requiredversion = 0.1;
-        units[] = {};
+        units[] = 
+        {
+            "k_porg"
+        };
         weapons[] = {};
     };
 };
