@@ -289,6 +289,10 @@ class CfgEditorSubcategories
 	{
 		displayname = "Platforms";
 	};
+	class 442_ray_fence
+	{
+		displayname = "Ray Fence";
+	};
 /////////star ships///////////
 	class 442_ships
 	{
