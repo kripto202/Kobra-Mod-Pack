@@ -231,9 +231,9 @@ class k_ls_b1_backpack: ls_gar_standard_backpack
 {
 	displayname = "[K/LS] B1 Backpack";
 	scope = 2;
-	model = "ls_equipment_redfor\backpack\cis\standard\ls_cis_standard_backpack.p3d";
+	model = "lsd_equipment_redfor\backpack\cis\standard\lsd_cis_standard_backpack.p3d";
 	maximumload = 150;
-	picture = "ls_equipment_redfor\backpack\cis\ui\icon_b1_backpack_ca.paa";
+	picture = "lsd_equipment_redfor\backpack\cis\_ui\icon_b1_backpack_ca.paa";
 	hiddenselectionsmaterials[] = 
     {
         "kobra\k_unit_ls\data\backpack\b1\backpack.rvmat"

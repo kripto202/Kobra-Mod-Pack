@@ -42,7 +42,7 @@ class CfgSounds
 
 };
 
-class CfgFunctions 
+/*class CfgFunctions 
 {
 	class kobra_Vehicle
 	{
@@ -68,7 +68,7 @@ class CfgFunctions
 
 		};
 	};
-};
+};*/
 
 class cfgFactionClasses
 {

@@ -16,7 +16,7 @@ class useractions
 		condition = "this animationsourcephase ""hmp_wing_rotate"" == 1";
 		statement = "this animatesource [""hmp_wing_rotate"",0]";
 	}; */
-	class impulse
+	/*class impulse
 	{
 		displayName = "";
 		position = "pilotview";
@@ -31,5 +31,5 @@ class useractions
 		shortcut = "User20";
 		condition = "isEngineOn this and player == driver this;";
 		statement = "this call LAAT_fnc_RepulseJoystick";
-	};
+	};*/
 };

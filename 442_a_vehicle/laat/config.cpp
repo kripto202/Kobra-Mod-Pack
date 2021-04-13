@@ -92,6 +92,7 @@ class cfgvehicles
         class Viewoptics;	// External class reference
         class ViewPilot;	// External class reference
         class RotorLibHelicopterProperties;	// External class reference
+		class Components;
 
         class HitPoints: HitPoints {
             class HitHull;	// External class reference
@@ -374,7 +375,7 @@ class cfgvehicles
 		};
 		class EventHandlers: Eventhandlers
 		{
-			init="(_this) spawn kobra_Vehicle_fnc_ImpulsorMonitor;";
+			//init="(_this) spawn kobra_Vehicle_fnc_ImpulsorMonitor;";
 		};
 		cargoAction[]=
 		{
@@ -822,12 +823,12 @@ class cfgvehicles
 		};
 		class animationsources
 		{
-			/*class laat_ramp_open
+			class laat_ramp_open
 			{
 				source="user";
 				animPeriod=2;
 				initphase=0;
-			};*/
+			};
 			class hidedoor1
 			{
 				displayname="Show Front Left Door";
@@ -901,7 +902,7 @@ class cfgvehicles
 		animationlist[]={};
 		class useractions
 		{
-			/*class laat_ramp_open
+			class laat_ramp_open
 			{
 				displayname="Open Ramp";
 				position="pilotview";
@@ -918,7 +919,7 @@ class cfgvehicles
 				condition="(player == driver this OR !(player in crew this) ) AND this animationsourcephase ""laat_ramp_open"" == 1;";
 				statement="this animatesource[""laat_ramp_open"",0]; [this, ""laat_ramp""] remoteExec [""say3d"",0,false];";
 			};
-			class laat_door_close: laat_ramp_open
+			/*class laat_door_close: laat_ramp_open
 			{
 				displayname="Close Doors";
 				priority="101";
@@ -960,7 +961,7 @@ class cfgvehicles
 				condition="(player == driver this OR !(player in crew this) ) AND this animationsourcephase ""laat_door_l"" == 1;";
 				statement="this animatesource [""laat_door_l"",0]; [this, ""laat_door_open""] remoteExec [""say3d"",0,false];";
 			};*/
-			class impulse
+			/*class impulse
 			{
 				displayName="Impulse";
 				position="pilotview";
@@ -976,7 +977,7 @@ class cfgvehicles
 				shortcut="User20";
 				condition="isEngineOn this and player == driver this;";
 				statement="this call kobra_Vehicle_fnc_RepulseJoystick";
-			};
+			};*/
 		};
 		class MarkerLights
 		{
@@ -1026,7 +1027,7 @@ class cfgvehicles
 				name="positionlight_white_2_pos";
 			};
 		};
-		class Components
+		class Components: Components
 		{
 			class SensorsManagerComponent
 			{
@@ -1466,7 +1467,7 @@ class cfgvehicles
 					};
 				};
 			};
-			class TransportCounterMeasuresComponent;
+			//class TransportCounterMeasuresComponent;
 		};
 		class MFD
 		{

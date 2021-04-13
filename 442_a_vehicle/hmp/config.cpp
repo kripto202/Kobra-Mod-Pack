@@ -79,6 +79,7 @@ class cfgVehicles
         class Viewoptics;	// External class reference
         class ViewPilot;	// External class reference
         class RotorLibHelicopterProperties;	// External class reference
+		class Components;
 
         class HitPoints: HitPoints {
             class HitHull;	// External class reference
@@ -116,7 +117,7 @@ class cfgVehicles
 		
 		class EventHandlers: EventHandlers
 		{
-			init="(_this) spawn kobra_Vehicle_fnc_ImpulsorMonitor;";
+			//init="(_this) spawn kobra_Vehicle_fnc_ImpulsorMonitor;";
 		};
 		
 		fuelCapacity = 2500;
@@ -486,7 +487,7 @@ class cfgVehicles
 			};
 		};
 		
-		class Components
+		class Components: Components
 		{
 			class SensorsManagerComponent
 			{
@@ -799,7 +800,7 @@ class cfgVehicles
 					};
 				};
 			};
-			class TransportCounterMeasuresComponent;
+			//class TransportCounterMeasuresComponent;
 		};
 		
 		#include "hmp_sounds.hpp"

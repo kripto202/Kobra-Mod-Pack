@@ -13,6 +13,7 @@ class cfgpatches
             "442_box",
             "442_box1",
             "442_box2",
+            "442_box3",
             "442_box4",
             "442_box5_1",
             "442_box5_2",
@@ -244,6 +245,16 @@ class cfgvehicles
 				magazine = "democharge_remote_mag";
 				count = 2;
 			};
+		};
+	};
+	class 442_box3: 442_box
+	{
+		displayname = "Box 3";
+		model = "kobra\442_misc\box\box3.p3d";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_misc\box\data\box3_co.paa",
+			"kobra\442_misc\box\data\box3_co.paa"
 		};
 	};
 	class 442_box4: 442_box2
