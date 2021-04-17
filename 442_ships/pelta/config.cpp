@@ -25,7 +25,7 @@ class cfgvehicles
 		scope=2;
 		scopecurator=2;
 		author = "Kobra Mod Team";
-		displayName="Pelta Class Friget";
+		displayName="Pelta Class Frigate";
 		model="\kobra\442_ships\pelta\pelta_zeus.p3d";
 		editorcategory="kobra";
 		editorsubcategory="442_ships";
@@ -55,7 +55,7 @@ class cfgvehicles
 	};
 	class 442_pelta_zeus_landed: 442_pelta_zeus
 	{
-		displayName="Pelta Class Friget (Landed)";
+		displayName="Pelta Class Frigate (Landed)";
 		hiddenselectionstextures[]=
 		{
 			"kobra\442_ships\pelta\data\body1_co.paa",
