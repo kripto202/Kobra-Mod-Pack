@@ -278,10 +278,10 @@ class cfgvehicles
 			"usti hlavne 1",
 			"usti hlavne 2"
 		};
-		memorypointLRocket="rocketl";
-		memorypointRRocket="rocketr";
-		memorypointLmissile="rocketl";
-		memorypointRmissile="rocketr";
+		memorypointLRocket = "rocketl";
+		memorypointRRocket = "rocketr";
+		memorypointLmissile = "rocketl";
+		memorypointRmissile = "rocketR";
 		memorypointcm[]=
 		{
 			"flare_launcher1",
