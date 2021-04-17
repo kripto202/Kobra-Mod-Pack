@@ -121,6 +121,7 @@ class cfgvehicles
 		ace_interaction_bodyWidth=3;
 		ace_cargo_hasCargo=1;
 		ace_cargo_space=16;
+
 		weapons[]=
 		{
 			"442_laat_gun",
@@ -138,9 +139,12 @@ class cfgvehicles
 			"12rnd_missiles",
 			"12rnd_missiles",
 			"12rnd_missiles",
+			/*"240Rnd_CMFlare_Chaff_Magazine",
 			"240Rnd_CMFlare_Chaff_Magazine",
-			"240Rnd_CMFlare_Chaff_Magazine",
-			"240Rnd_CMFlare_Chaff_Magazine",
+			"240Rnd_CMFlare_Chaff_Magazine",*/
+			"240Rnd_CMFlareMagazine",
+			"240Rnd_CMFlareMagazine",
+			"240Rnd_CMFlareMagazine",
 			"Laserbatteries"
 		};
 		fuelCapacity=2500;

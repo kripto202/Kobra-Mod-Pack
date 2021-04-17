@@ -110,9 +110,12 @@ class cfgVehicles
 			"442_50_200rnd_he_red_mag",
 			"12rnd_missiles",
 			"12rnd_missiles",
+			/*"240Rnd_CMFlare_Chaff_Magazine",
 			"240Rnd_CMFlare_Chaff_Magazine",
-			"240Rnd_CMFlare_Chaff_Magazine",
-			"240Rnd_CMFlare_Chaff_Magazine"
+			"240Rnd_CMFlare_Chaff_Magazine",*/
+			"240Rnd_CMFlareMagazine",
+			"240Rnd_CMFlareMagazine",
+			"240Rnd_CMFlareMagazine",
 		};
 		
 		class EventHandlers: EventHandlers

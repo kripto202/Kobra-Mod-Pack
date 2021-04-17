@@ -887,6 +887,7 @@ class cfgvehicles
 		scopeCurator=1;
 		scopeArsenal=1;
 		model = "ls_armor_bluefor\uniform\gar\phase2\ls_gar_phase2_uniform.p3d";
+		//model = "lsd_armor_bluefor\uniform\gar\phase2\lsd_gar_phase2_uniform.p3d";
 		editorPreview="";
 		//picture = "k_unit_ls\ui\body.paa"; //this needs to be changed
 		icon = "kobra\kobra_core\icons\data\icon_rifleman.paa";
