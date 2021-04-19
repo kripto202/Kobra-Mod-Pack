@@ -122,6 +122,12 @@ class cfgvehicles
 		ace_cargo_hasCargo=1;
 		ace_cargo_space=16;
 
+		ls_impulsor_fuelDrain_1 = 0.0001;
+		ls_impulsor_fuelDrain_2 = 0.0003;
+		ls_impulsor_boostSpeed_1 = 400;
+		ls_impulsor_boostSpeed_2 = 600;
+		ls_hasImpulse = 1;
+
 		weapons[]=
 		{
 			"442_laat_gun",
@@ -965,23 +971,23 @@ class cfgvehicles
 				condition="(player == driver this OR !(player in crew this) ) AND this animationsourcephase ""laat_door_l"" == 1;";
 				statement="this animatesource [""laat_door_l"",0]; [this, ""laat_door_open""] remoteExec [""say3d"",0,false];";
 			};*/
-			/*class impulse
+			class impulse
 			{
-				displayName="Impulse";
-				position="pilotview";
-				radius=5;
-				onlyforplayer=0;
-				shortcut="User19";
-				condition="isEngineOn this and player == driver this;";
-				statement="this call kobra_Vehicle_fnc_ImpulseJoystick";
+				displayName = "Impulse";
+				position = "pilotview";
+				radius = 5;
+				onlyforplayer = 0;
+				shortcut = "User19";
+				condition = "isClass (configFile >> ""CfgPatches"" >> ""ls_functions""); isEngineOn this and ace_player == currentPilot this;";
+				statement = "this call ls_vehicle_fnc_ImpulseJoystick;";
 			};
 			class repulse: impulse
 			{
-				displayName="Repulse";
-				shortcut="User20";
-				condition="isEngineOn this and player == driver this;";
-				statement="this call kobra_Vehicle_fnc_RepulseJoystick";
-			};*/
+				displayName = "Repulse";
+				shortcut = "User20";
+				condition = "isClass (configFile >> ""CfgPatches"" >> ""ls_functions""); isEngineOn this and ace_player == currentPilot this;";
+				statement = "this call ls_vehicle_fnc_RepulseJoystick;";
+			};
 		};
 		class MarkerLights
 		{

@@ -30,7 +30,7 @@ class cfgvehicles
 		scopecurator=2;
 		author = "Kobra Mod Team";
 		displayName="Platform (5x5)";
-		model="\kobra\442_structures\platforms\5x5.p3d";
+		model="\kobra\442_structures\platforms\k_5x5.p3d";
 		destrType="DestructNo";
 		editorcategory="kobra";
 		editorsubcategory="442_platforms";
@@ -47,7 +47,7 @@ class cfgvehicles
 	class 442_10x10: 442_5x5
 	{
 		displayName="Platform (10x10)";
-		model="\kobra\442_structures\platforms\10x10.p3d";
+		model="\kobra\442_structures\platforms\k_10x10.p3d";
 		hiddenselectionstextures[]=
 		{
 			"kobra\442_structures\platforms\data\10x10_co.paa"
@@ -56,7 +56,7 @@ class cfgvehicles
 	class 442_10x25: 442_5x5
 	{
 		displayName="Platform (10x25)";
-		model="\kobra\442_structures\platforms\10x25.p3d";
+		model="\kobra\442_structures\platforms\k_10x25.p3d";
 		hiddenselectionstextures[]=
 		{
 			"kobra\442_structures\platforms\data\10x25_co.paa"
@@ -65,7 +65,7 @@ class cfgvehicles
 	class 442_25x25: 442_5x5
 	{
 		displayName="Platform (25x25)";
-		model="\kobra\442_structures\platforms\25x25.p3d";
+		model="\kobra\442_structures\platforms\k_25x25.p3d";
 		hiddenselectionstextures[]=
 		{
 			"kobra\442_structures\platforms\data\25x25_co.paa"
@@ -74,7 +74,7 @@ class cfgvehicles
 	class 442_50x25: 442_5x5
 	{
 		displayName="Platform (50x25)";
-		model="\kobra\442_structures\platforms\50x25.p3d";
+		model="\kobra\442_structures\platforms\k_50x25.p3d";
 		hiddenselectionstextures[]=
 		{
 			"kobra\442_structures\platforms\data\50x25_co.paa"
@@ -83,7 +83,7 @@ class cfgvehicles
 	class 442_50x50: 442_5x5
 	{
 		displayName="Platform (50x50)";
-		model="\kobra\442_structures\platforms\50x50.p3d";
+		model="\kobra\442_structures\platforms\k_50x50.p3d";
 		hiddenselectionstextures[]=
 		{
 			"kobra\442_structures\platforms\data\50x50_co.paa"

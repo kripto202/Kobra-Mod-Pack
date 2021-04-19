@@ -296,7 +296,7 @@ class cfgweapons
 	class k_ls_p2_helmet_base: k_ls_helmet_base
 	{
 		displayname = "[K/LS] P2 Helmet";
-		picture = "ls_armor_bluefor\helmet\_ui\icon_gar_phase2_helmet_ca.paa";
+		picture = "\ls_armor_bluefor\helmet\_ui\icon_gar_phase2_helmet_ca.paa";
 		hiddenselections[] = 
 		{
 			"camo1",
@@ -323,7 +323,7 @@ class cfgweapons
 	class k_ls_p15_helmet_base: k_ls_helmet_base
 	{
 		displayname = "[K/LS] P1.5 Helmet";
-		picture = "kobra\kobra_core\kobra.paa";
+		picture = "\kobra\kobra_core\kobra.paa";
 		subItems[] = {};
 		model="\ls_armor_bluefor\helmet\gar\arc\ls_gar_arc_helmet.p3d";
 		hiddenselections[] = 
@@ -354,7 +354,7 @@ class cfgweapons
 	class k_ls_airborne_helmet_base: k_ls_helmet_base
 	{
 		displayname = "[K/LS] Airborne Helmet";
-		picture = "kobra\kobra_core\kobra.paa";
+		picture = "\kobra\kobra_core\kobra.paa";
 		subItems[] = 
 		{
 			"k_nvg"
@@ -389,7 +389,7 @@ class cfgweapons
 		{
 			"k_nvg"
 		};
-		picture = "kobra\kobra_core\kobra.paa";
+		picture = "\kobra\kobra_core\kobra.paa";
 		model="ls_armor_bluefor\helmet\gar\phase2Pilot\ls_gar_phase2Pilot_helmet.p3d";
 		hiddenselections[] = 
 		{
@@ -416,7 +416,7 @@ class cfgweapons
 	class k_ls_barc_helmet_base: k_ls_helmet_base
 	{
 		displayname = "[K/LS] Barc Helmet";
-		picture = "kobra\kobra_core\kobra.paa";
+		picture = "\kobra\kobra_core\kobra.paa";
 		subItems[] = {};
 		model="\ls_armor_bluefor\helmet\gar\barc\ls_gar_barc_helmet.p3d";
 		hiddenselections[] = 
@@ -444,7 +444,7 @@ class cfgweapons
 	class k_ls_p1_arf_helmet_base: k_ls_helmet_base
 	{
 		displayname = "[K/LS] P1 ARF Helmet";
-		picture = "kobra\kobra_core\kobra.paa";
+		picture = "\kobra\kobra_core\kobra.paa";
 		subitems[] = {
 			"k_nvg_ti"
 		};
@@ -487,7 +487,7 @@ class cfgweapons
 	class k_ls_eng_helmet_base: k_ls_helmet_base
 	{
 		displayname = "[K/LS] Engineer Helmet";
-		picture = "kobra\kobra_core\kobra.paa";
+		picture = "\kobra\kobra_core\kobra.paa";
 		subItems[] = {
 			"k_nvg"
 		};
@@ -520,7 +520,7 @@ class cfgweapons
 	class k_ls_p1_helmet_base: k_ls_helmet_base
 	{
 		displayname = "[K/LS] P1 Helmet";
-		picture = "kobra\kobra_core\kobra.paa";
+		picture = "\kobra\kobra_core\kobra.paa";
 		subItems[] = {};
 		model="\ls_armor_bluefor\helmet\gar\phase1\ls_gar_phase1_helmet.p3d";
 		hiddenselections[] = 
@@ -551,7 +551,7 @@ class cfgweapons
 	class k_ls_p1_pilot_helmet_base: k_ls_helmet_base
 	{
 		displayname = "[K/LS] P1 Pilot Helmet";
-		picture = "kobra\kobra_core\kobra.paa";
+		picture = "\kobra\kobra_core\kobra.paa";
 		subItems[] = 
 		{
 			"k_nvg"
@@ -584,7 +584,7 @@ class cfgweapons
 	class k_ls_p1_specops_helmet_base: k_ls_helmet_base
 	{
 		displayname = "[K/LS] P1 Specops Helmet";
-		picture = "kobra\kobra_core\kobra.paa";
+		picture = "\kobra\kobra_core\kobra.paa";
 		subItems[] = 
 		{
 			"k_nvg"
@@ -615,7 +615,7 @@ class cfgweapons
 	class k_ls_p2_specops_helmet_base: k_ls_helmet_base
 	{
 		displayname = "[K/LS] P2 Specops Helmet";
-		picture = "kobra\kobra_core\kobra.paa";
+		picture = "\kobra\kobra_core\kobra.paa";
 		subItems[] = 
 		{
 			"k_nvg"
@@ -646,7 +646,7 @@ class cfgweapons
 	class k_ls_rex_helmet_base: k_ls_helmet_base
 	{
 		displayname = "[K/LS] Rex Helmet";
-		picture = "kobra\kobra_core\kobra.paa";
+		picture = "\kobra\kobra_core\kobra.paa";
 		subItems[] = {};
 		model="\ls_armor_bluefor\helmet\gar\rex\ls_gar_rex_helmet.p3d";
 		hiddenselections[] = 
@@ -706,7 +706,7 @@ class cfgweapons
         scopecurator = 0;
         scopearsenal = 0;
         allowedSlots[] = {901};
-        picture = "kobra\kobra_core\kobra.paa";
+        picture = "\kobra\kobra_core\kobra.paa";
         class ItemInfo: vestitem
         {
             uniformmodel = "";
@@ -750,7 +750,7 @@ class cfgweapons
 		scope=0;
 		scopeCurator=0;
 		scopeArsenal=0;
-		picture = "kobra\kobra_core\kobra.paa";
+		picture = "\kobra\kobra_core\kobra.paa";
 		model="ls_armor_bluefor\uniform\gar\phase2\ls_gar_phase2_uniform_groundholder.p3d"; //model for the ground
 		class ItemInfo: UniformItem
 		{
@@ -766,7 +766,7 @@ class cfgweapons
 		author = "KOBRA Mod Team";
 		scope=0;
 		displayName="Clone marshal commander armor";
-		picture = "kobra\kobra_core\kobra.paa";
+		picture = "\kobra\kobra_core\kobra.paa";
 		model="ls_armor_bluefor\uniform\gar\phase2\ls_gar_phase2_uniform_groundholder.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -889,7 +889,7 @@ class cfgvehicles
 		model = "ls_armor_bluefor\uniform\gar\phase2\ls_gar_phase2_uniform.p3d";
 		//model = "lsd_armor_bluefor\uniform\gar\phase2\lsd_gar_phase2_uniform.p3d";
 		editorPreview="";
-		//picture = "k_unit_ls\ui\body.paa"; //this needs to be changed
+		//picture = "\k_unit_ls\ui\body.paa"; //this needs to be changed
 		icon = "kobra\kobra_core\icons\data\icon_rifleman.paa";
 		identityTypes[]=
 		{

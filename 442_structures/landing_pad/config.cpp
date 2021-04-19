@@ -29,7 +29,7 @@ class cfgvehicles
 		editorcategory="kobra";
 		editorsubcategory="442_item";
 		armor=5000;
-		model = "kobra\442_structures\landing_pad\wide_landing_pad.p3d";
+		model = "kobra\442_structures\landing_pad\k_wide_landing_pad.p3d";
 		hiddenselections[] = 
 		{
 			"body1"

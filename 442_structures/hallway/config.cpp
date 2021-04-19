@@ -45,7 +45,7 @@ class cfgvehicles
 		scopecurator=2;
 		author = "Kobra Mod Team";
 		displayName="Floor";
-		model="\kobra\442_structures\hallway\floor.p3d";
+		model="\kobra\442_structures\hallway\k_floor.p3d";
 		editorcategory="kobra";
 		editorsubcategory="442_hallway";
 		vehicleClass="Structures";
@@ -64,7 +64,7 @@ class cfgvehicles
 	class 442_roof: 442_floor
 	{
 		displayName="Roof Light";
-		model="\kobra\442_structures\hallway\rooflight.p3d";
+		model="\kobra\442_structures\hallway\k_rooflight.p3d";
 		hiddenselections[]=
 		{
 			"roof",
@@ -186,7 +186,7 @@ class cfgvehicles
 	class 442_wall: 442_floor
 	{
 		displayName="Wall";
-		model="\kobra\442_structures\hallway\wall.p3d";
+		model="\kobra\442_structures\hallway\k_wall.p3d";
 		hiddenselections[]=
 		{
 			"wall_2"
@@ -199,7 +199,7 @@ class cfgvehicles
 	class 442_wall_light: 442_floor
 	{
 		displayName="Wall Light";
-		model="\kobra\442_structures\hallway\walllight.p3d";
+		model="\kobra\442_structures\hallway\k_walllight.p3d";
 		/* class MarkerLights
 		{
 			class Light_1
@@ -275,7 +275,7 @@ class cfgvehicles
 	class 442_segment: 442_floor
 	{
 		displayName="Segment";
-		model="\kobra\442_structures\hallway\segment.p3d";
+		model="\kobra\442_structures\hallway\k_segment.p3d";
 		hiddenselections[]=
 		{
 			"segment",
@@ -351,7 +351,7 @@ class cfgvehicles
 	class 442_door: 442_floor
 	{
 		displayname="Door";
-		model="\kobra\442_structures\hallway\door.p3d";
+		model="\kobra\442_structures\hallway\k_door.p3d";
 		hiddenselections[]=
 		{
 			"door1",
@@ -406,7 +406,7 @@ class cfgvehicles
 	class 442_2way_rep: 442_floor
 	{
 		displayName="2-way Hallway";
-		model="\kobra\442_structures\hallway\2way.p3d";
+		model="\kobra\442_structures\hallway\k_2way.p3d";
 		hiddenselections[]=
 		{
 			"tile",
@@ -497,7 +497,7 @@ class cfgvehicles
 	class 442_3way_rep: 442_2way_rep
 	{
 		displayName="3-way Hallway";
-		model="\kobra\442_structures\hallway\3way.p3d";
+		model="\kobra\442_structures\hallway\k_3way.p3d";
 		hiddenselectionstextures[]=
 		{
 			"kobra\442_structures\hallway\data\tile_co.paa",
@@ -552,7 +552,7 @@ class cfgvehicles
 	class 442_4way_rep: 442_2way_rep
 	{
 		displayName="4-way Hallway";
-		model="\kobra\442_structures\hallway\4way.p3d";
+		model="\kobra\442_structures\hallway\k_4way.p3d";
 		hiddenselectionstextures[]=
 		{
 			"kobra\442_structures\hallway\data\tile_co.paa",
@@ -607,7 +607,7 @@ class cfgvehicles
 	class 442_corner_rep: 442_2way_rep
 	{
 		displayName="Corner Hallway";
-		model="\kobra\442_structures\hallway\corner.p3d";
+		model="\kobra\442_structures\hallway\k_corner.p3d";
 		hiddenselectionstextures[]=
 		{
 			"kobra\442_structures\hallway\data\tile_co.paa",
@@ -662,7 +662,7 @@ class cfgvehicles
 	class 442_ramp_rep: 442_floor
 	{
 		displayname = "Ramp";
-		model = "kobra\442_structures\hallway\ramp.p3d";
+		model = "kobra\442_structures\hallway\k_ramp.p3d";
 		hiddenselections[] = 
 		{
 			"ramp",
@@ -689,7 +689,7 @@ class cfgvehicles
 	class 442_10x10floor: 442_floor
 	{
 		displayname = "10x10 Floor";
-		model = "kobra\442_structures\hallway\10x10_floor.p3d";
+		model = "kobra\442_structures\hallway\k_10x10_floor.p3d";
 		hiddenselections[] = 
 		{
 			"camo1"

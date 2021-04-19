@@ -1,6 +1,6 @@
 class cfgpatches
 {
-    class 442_structures_
+    class 442_structures_turbotank
     {
         author = "KOBRA Mod Team";
         requiredAddons[]=
@@ -26,7 +26,7 @@ class cfgvehicles
 		scopecurator = 2;
 		author = "Kobra Mod Team";
 		displayName = "Turbo Tank";
-		model = "\kobra\442_structures\turbo_tank\turbotank.p3d";
+		model = "\kobra\442_structures\turbo_tank\k_turbotank.p3d";
 		editorcategory = "kobra";
 		editorsubcategory = "442_item";
 		vehicleClass = Structures;

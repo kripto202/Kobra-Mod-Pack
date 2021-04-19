@@ -21,27 +21,6 @@ class CfgPatches
 		};
 	};
 };
-
-class CfgSounds 
-{
-	class kobra_Vic_ImpulseOn 
-	{
-		titles[] = {"kobra_Vic_ImpulseOn"};
-		sound[] = {"kobra\kobra_core\sounds\Impulsor_On.wss", 15, 1, 1500};
-		name = "kobra_Vic_ImpulseOn";
-		duration = 3;
-	};
-
-	class kobra_Vic_ImpulseOff 
-	{
-		titles[] = {"kobra_Vic_ImpulseOff"};
-		sound[] = {"kobra\kobra_core\sounds\Impulsor_Off.wss", 15, 1, 1500};
-		name = "kobra_Vic_ImpulseOff";
-		duration = 3;
-	};
-
-};
-
 /*class CfgFunctions 
 {
 	class kobra_Vehicle
@@ -292,6 +271,10 @@ class CfgEditorSubcategories
 	class 442_ray_fence
 	{
 		displayname = "Ray Fence";
+	};
+	class 442_fob
+	{
+		displayname = "Fob Parts";
 	};
 /////////star ships///////////
 	class 442_ships
