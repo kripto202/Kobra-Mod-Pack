@@ -64,18 +64,6 @@
             "kobra\442_units\data\helmet\cadet_helmet\visor_co.paa",
         };
     };
-    class k_desert_Helmet: k_desert_helmet_base
-    {
-        scope = 2;
-        scopecurator = 2;
-        scopearsenal = 2;
-        displayname = "[K] Desert Helmet";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_units\data\helmet\desert_helmet\camo1_co.paa",
-            "kobra\442_units\data\helmet\desert_helmet\visor_co.paa",
-        };
-    };
 	class k_p2_helmet: k_p2_helmet_base
 	{
 		scope = 2;
