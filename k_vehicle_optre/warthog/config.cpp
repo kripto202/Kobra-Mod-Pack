@@ -669,10 +669,10 @@ class cfgvehicles
 		displayname = "Warthog (MG)";
 		scope = 2;
 		side = 0;
-		crew = "k_swla_unit_b1_e5";
+		crew = "k_ls_unit_b1_e5";
 		typicalCargo[]=
 		{
-			"k_swla_unit_b1_e5"
+			"k_ls_unit_b1_e5"
 		};
 		faction = "442_CIS";
 		editorsubcategory = "442_g_vehicle";

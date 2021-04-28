@@ -127,7 +127,7 @@ class cfgVehicles
 		fuelConsumptionRate = 0.138;
 		side = 0;
 		faction = "442_CIS";
-		crew = "k_swla_unit_b1_e5";
+		crew = "k_ls_unit_b1_e5";
 		typicalCargo[]=
 		{
 			"k_swla_unit_b1_e5"

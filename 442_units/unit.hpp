@@ -28,7 +28,9 @@
             "upper",
             "lower",
             "undersuit",
-            "gloves"
+            "gloves",
+            "clan",
+			"insignia"
         };
         hiddenselectionstextures[] = 
         {

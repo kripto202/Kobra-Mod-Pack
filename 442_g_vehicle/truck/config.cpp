@@ -258,10 +258,10 @@ class cfgvehicles
 		author = "mjr121";
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
-		crew = "k_swla_unit_b1_e5";
+		crew = "k_ls_unit_b1_e5";
 		typicalCargo[]=
 		{
-			"k_swla_unit_b1_e5"
+			"k_ls_unit_b1_e5"
 		};
 		displayName = "Argon Transport";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
@@ -286,10 +286,10 @@ class cfgvehicles
 		author = "mjr121";
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
-		crew = "k_swla_unit_b1_e5";
+		crew = "k_ls_unit_b1_e5";
 		typicalCargo[]=
 		{
-			"k_swla_unit_b1_e5"
+			"k_ls_unit_b1_e5"
 		};
 		displayName = "Argon Covered Transport";
 		textureList[] = {};
@@ -315,10 +315,10 @@ class cfgvehicles
 		author = "mjr121";
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
-		crew = "k_swla_unit_b1_e5";
+		crew = "k_ls_unit_b1_e5";
 		typicalCargo[]=
 		{
-			"k_swla_unit_b1_e5"
+			"k_ls_unit_b1_e5"
 		};
 		displayName = "Argon Ammo Truck";
 		textureList[] = {};
@@ -344,10 +344,10 @@ class cfgvehicles
 		author = "mjr121";
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
-		crew = "k_swla_unit_b1_e5";
+		crew = "k_ls_unit_b1_e5";
 		typicalCargo[]=
 		{
-			"k_swla_unit_b1_e5"
+			"k_ls_unit_b1_e5"
 		};
 		displayName = "Argon Device Carrier";
 		textureList[] = {};
@@ -374,10 +374,10 @@ class cfgvehicles
 		author = "mjr121";
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
-		crew = "k_swla_unit_b1_e5";
+		crew = "k_ls_unit_b1_e5";
 		typicalCargo[]=
 		{
-			"k_swla_unit_b1_e5"
+			"k_ls_unit_b1_e5"
 		};
 		displayName = "Argon Fuel Truck";
 		textureList[] = {};
@@ -402,10 +402,10 @@ class cfgvehicles
 		author = "mjr121";
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
-		crew = "k_swla_unit_b1_e5";
+		crew = "k_ls_unit_b1_e5";
 		typicalCargo[]=
 		{
-			"k_swla_unit_b1_e5"
+			"k_ls_unit_b1_e5"
 		};
 		displayName = "Argon Repair Truck";
 		textureList[] = {};
@@ -430,10 +430,10 @@ class cfgvehicles
 		author = "mjr121";
 		faction = "442_CIS";
 		editorSubcategory = "442_argon";
-		crew = "k_swla_unit_b1_e5";
+		crew = "k_ls_unit_b1_e5";
 		typicalCargo[]=
 		{
-			"k_swla_unit_b1_e5"
+			"k_ls_unit_b1_e5"
 		};
 		displayName = "Argon Medical Truck";
 		attendant = 1;

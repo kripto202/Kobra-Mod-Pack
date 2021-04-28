@@ -31,6 +31,17 @@ class cfgpatches
     };
 };
 
+class Extended_init_EventHandlers
+{
+	class ls_laat_base
+	{
+		class laat_init_eh
+		{
+			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle; }; (_this select 0) setVariable [""lockState"", 0, true]; (_this select 0) setVariable [""ls_ls_traumaState"", 0, true]; (_this) spawn ls_vehicle_fnc_ImpulsorMonitor;";
+		};
+	};
+};
+
 class SensorTemplatePassiveRadar;
 class DefaultVehicleSystemsDisplayManagerLeft
 {
@@ -978,14 +989,14 @@ class cfgvehicles
 				radius = 5;
 				onlyforplayer = 0;
 				shortcut = "User19";
-				condition = "isClass (configFile >> ""CfgPatches"" >> ""ls_functions""); isEngineOn this and ace_player == currentPilot this;";
+				condition = "isClass (configFile >> ""CfgPatches"" >> ""ls_functions"") and isEngineOn this and ace_player == currentPilot this;";
 				statement = "this call ls_vehicle_fnc_ImpulseJoystick;";
 			};
 			class repulse: impulse
 			{
 				displayName = "Repulse";
 				shortcut = "User20";
-				condition = "isClass (configFile >> ""CfgPatches"" >> ""ls_functions""); isEngineOn this and ace_player == currentPilot this;";
+				condition = "isClass (configFile >> ""CfgPatches"" >> ""ls_functions"") and isEngineOn this and ace_player == currentPilot this;";
 				statement = "this call ls_vehicle_fnc_RepulseJoystick;";
 			};
 		};

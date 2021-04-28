@@ -180,11 +180,11 @@ class cfgvehicles
 		forcehideDriver=1;
 		DriverForceOptics=1;
 		#include "mtt_memorypoints.hpp"
-		driver="k_swla_unit_b1_pilot_e5";
-		crew="k_swla_unit_b1_pilot_e5";
+		driver="k_ls_unit_b1_e5";
+		crew="k_ls_unit_b1_e5";
 		typicalCargo[]=
 		{
-			"k_swla_unit_b1_pilot_e5"
+			"k_ls_unit_b1_e5"
 		};
 		class Reflectors
 		{

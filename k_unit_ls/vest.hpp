@@ -28,8 +28,8 @@
         };
         hiddenselectionstextures[] = 
         {
+            "kobra\k_unit_ls\data\vest\442_arc_vest.paa",
             "kobra\k_unit_ls\data\vest\442_vest_1_b.paa",
-            "kobra\k_unit_ls\data\vest\442_arc_vest.paa"
         };
         class ItemInfo: ItemInfo
         {
@@ -83,8 +83,8 @@
         };
         hiddenselectionstextures[] = 
         {
+            "kobra\k_unit_ls\data\vest\442_arc_vest.paa",
             "kobra\k_unit_ls\data\vest\442_vest_1_g.paa",
-            "kobra\k_unit_ls\data\vest\442_arc_vest.paa"
         };
     };
     class k_ls_vest_arc_plate: k_ls_vest_arc_1
@@ -101,8 +101,8 @@
         };
         hiddenselectionstextures[] = 
         {
-            "",
-            "kobra\k_unit_ls\data\vest\442_arc_vest.paa"
+            "kobra\k_unit_ls\data\vest\442_arc_vest.paa",
+            ""
         };
     };
 
