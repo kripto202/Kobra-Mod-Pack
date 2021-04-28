@@ -456,29 +456,6 @@ class cfgweapons
 			};
 		};
 	};
-	class k_desert_helmet_base: k_helmet_base
-	{
-		displayName="[K] Desert Helmet";
-		model="kobra\442_units\desert_helmet.p3d";
-		subItems[]=
-		{
-			"k_nvg"
-		};
-		hiddenSelections[]=
-		{
-			"Camo1",
-			"visor"
-		};
-		class ItemInfo: ItemInfo
-		{
-			uniformModel="kobra\442_units\desert_helmet.p3d";
-			hiddenSelections[]=
-			{
-				"Camo1",
-				"visor"
-			};
-		};
-	};
 	class k_p2_helmet_base: k_helmet_base
 	{
 		displayname = "[K] P2 Helmet";
