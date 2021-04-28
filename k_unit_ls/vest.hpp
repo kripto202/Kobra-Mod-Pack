@@ -508,8 +508,8 @@
         {
             hiddenselections[] = 
             {
-                "kama",
-                "strap"
+                "camo1",
+                "camo2"
             };
             containerclass = "Supply150";
             mass = 60;
