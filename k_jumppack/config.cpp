@@ -1,6 +1,6 @@
 class cfgpatches
 {
-    class 442_equipment_jumppack
+    class k_jumppack
     {
         author = "KOBRA Mod Team";
         requiredAddons[]=
@@ -31,7 +31,7 @@ class cfgvehicles
 		scope = 2;
 		picture = "kobra\kobra_core\kobra.paa";
 		displayname = "[K] Jumppack";
-		model = "kobra\442_equipment\jumppack\jumppack.p3d";
+		model = "kobra\k_jumppack\jumppack.p3d";
 		maximumload = 150;
 		hiddenselections[] = 
 		{
@@ -39,7 +39,7 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\jumppack\data\jumppack_co.paa"
+			"kobra\k_jumppack\data\jumppack_co.paa"
 		};
 		NSM_jumppack_is_jumppack=1;
 		NSM_jumppack_spam_delay=1;
@@ -82,14 +82,14 @@ class cfgvehicles
 		maximumload=150;
 		picture = "kobra\kobra_core\kobra.paa";
 		displayName="[K] JT-12 Jumppack";
-		model = "kobra\442_equipment\jumppack\jt12.p3d";
+		model = "kobra\k_jumppack\jt12.p3d";
 		hiddenselections[] = 
 		{
 			"camo1"
 		};
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\jumppack\data\jt12_body_co.paa"
+			"kobra\k_jumppack\data\jt12_body_co.paa"
 		};
 		NSM_jumppack_is_jumppack=1;
 		NSM_jumppack_spam_delay=1;
@@ -186,7 +186,7 @@ class cfgvehicles
 	};
 	class 442_jt12_radio: 442_jt12
 	{
-		model = "kobra\442_equipment\jumppack\jt12_radio.p3d";
+		model = "kobra\k_jumppack\jt12_radio.p3d";
 		scope = 2;
 		NSM_jumppack_is_jumppack=1;
 		NSM_jumppack_spam_delay=1;
@@ -230,8 +230,8 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\jumppack\data\jt12_body_co.paa",
-			"kobra\442_equipment\jumppack\data\radio_co.paa"
+			"kobra\k_jumppack\data\jt12_body_co.paa",
+			"kobra\k_jumppack\data\radio_co.paa"
 		};
 		maximumload=150;
 		picture = "kobra\kobra_core\kobra.paa";
