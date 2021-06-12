@@ -20,7 +20,12 @@ class cfgpatches
             "44_personal_locker_nico",
             "44_personal_locker_sexton",
             "44_personal_locker_steele",
-            "44_personal_locker_euda"
+            "44_personal_locker_euda",
+            "44_personal_locker_piercer",
+            "44_personal_locker_ivanov",
+            "44_personal_locker_kyram",
+            "44_personal_locker_rex",
+            "44_personal_locker_wumbo"
         };
         weapons[] = {};
     };
@@ -213,6 +218,91 @@ class cfgvehicles
         {
             {
                 "k_ls_headgear_44_euda",
+                "helmet"
+            }
+        };
+    };
+    class 44_personal_locker_piercer: k_personal_locker
+    {
+        displayname = "Personal Locker (Piercer)";
+        hiddenselectionstextures[]=
+		{
+			"kobra\k_misc_44\personal_locker\data\44_body_co.paa",
+			"kobra\442_misc\personal_locker\data\screen_co.paa",
+			"kobra\442_misc\personal_locker\data\picture1_co.paa"
+		};
+        multistructureparts[] = 
+        {
+            {
+                "k_ls_headgear_44_piercer",
+                "helmet"
+            }
+        };
+    };
+    class 44_personal_locker_ivanov: k_personal_locker
+    {
+        displayname = "Personal Locker (Ivanov)";
+        hiddenselectionstextures[]=
+		{
+			"kobra\k_misc_44\personal_locker\data\44_body_co.paa",
+			"kobra\442_misc\personal_locker\data\screen_co.paa",
+			"kobra\442_misc\personal_locker\data\picture1_co.paa"
+		};
+        multistructureparts[] = 
+        {
+            {
+                "k_ls_headgear_44_ivanov",
+                "helmet"
+            }
+        };
+    };
+    class 44_personal_locker_kyram: k_personal_locker
+    {
+        displayname = "Personal Locker (Kyram)";
+        hiddenselectionstextures[]=
+		{
+			"kobra\k_misc_44\personal_locker\data\44_body_co.paa",
+			"kobra\442_misc\personal_locker\data\screen_co.paa",
+			"kobra\442_misc\personal_locker\data\picture1_co.paa"
+		};
+        multistructureparts[] = 
+        {
+            {
+                "k_ls_headgear_44_kyram",
+                "helmet"
+            }
+        };
+    };
+    class 44_personal_locker_rex: k_personal_locker
+    {
+        displayname = "Personal Locker (Rex)";
+        hiddenselectionstextures[]=
+		{
+			"kobra\k_misc_44\personal_locker\data\44_body_co.paa",
+			"kobra\442_misc\personal_locker\data\screen_co.paa",
+			"kobra\442_misc\personal_locker\data\picture1_co.paa"
+		};
+        multistructureparts[] = 
+        {
+            {
+                "k_ls_headgear_44_rex_rex",
+                "helmet"
+            }
+        };
+    };
+    class 44_personal_locker_wumbo: k_personal_locker
+    {
+        displayname = "Personal Locker (Wumbo)";
+        hiddenselectionstextures[]=
+		{
+			"kobra\k_misc_44\personal_locker\data\44_body_co.paa",
+			"kobra\442_misc\personal_locker\data\screen_co.paa",
+			"kobra\442_misc\personal_locker\data\picture1_co.paa"
+		};
+        multistructureparts[] = 
+        {
+            {
+                "k_ls_headgear_44_wumbo",
                 "helmet"
             }
         };

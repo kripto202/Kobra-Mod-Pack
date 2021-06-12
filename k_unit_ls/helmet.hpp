@@ -67,12 +67,12 @@
         scopearsenal = 2;
         displayname = "[K] ARF Helmet";
         picture = "\kobra\k_unit_ls\data\ui\arf_p1_helmet.paa";
-        /*hiddenselectionsmaterials[] = 
+        hiddenselectionsmaterials[] = 
         {
             "kobra\k_unit_ls\data\helmet\arf_helmet\camo1.rvmat",
             "",
             "kobra\k_unit_ls\data\helmet\arf_helmet\visor.rvmat"
-        };*/
+        };
         hiddenselectionstextures[] =
         {
             "kobra\k_unit_ls\data\helmet\arf_helmet\camo1_co.paa",
@@ -88,12 +88,12 @@
         displayname = "[K] ARF Helmet w/ Flaps";
         //model = "442_units\arf_p2_helmet.p3d";
         picture = "\kobra\k_unit_ls\data\ui\arf_p2_helmet.paa";
-        /*hiddenselectionsmaterials[] = 
+        hiddenselectionsmaterials[] = 
         {
             "kobra\k_unit_ls\data\helmet\arf_helmet\camo1.rvmat",
             "kobra\k_unit_ls\data\helmet\arf_helmet\camo2.rvmat",
             "kobra\k_unit_ls\data\helmet\arf_helmet\visor.rvmat"
-        };*/
+        };
         hiddenselectionstextures[] = 
         {
             "kobra\k_unit_ls\data\helmet\arf_helmet\camo1_co.paa",

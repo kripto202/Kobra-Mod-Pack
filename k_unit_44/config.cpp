@@ -55,6 +55,13 @@ class cfgpatches
             "k_ls_44_unit_steele",
             "k_ls_44_unit_euda",
             "k_ls_44_unit_piercer",
+            "k_ls_headgear_44_ivanov",
+            "k_ls_headgear_44_kyram",
+            "k_ls_headgear_44_rex_rex",
+            "k_ls_headgear_44_wumbo",
+            "k_ls_44_unit_ivanov",
+            "k_ls_44_unit_kyram",
+            "k_ls_44_unit_wumbo",
 			
             "k_ls_44_unit_dc15a",
             "k_ls_44_unit_dc15s",
@@ -95,6 +102,9 @@ class cfgpatches
             "k_ls_44_p1_helmet_steele",
             "k_ls_44_p1_pilot_helmet_euda",
             "k_ls_44_p1_arf_helmet_piercer",
+            "k_ls_44_rex_helmet_rex",
+            "k_ls_44_p1_helmet_kyram",
+            "k_ls_44_barc_helmet_ivanov",
 
             "k_ls_44_uniform",
             "k_ls_44_uniform_mc",
@@ -111,10 +121,10 @@ class cfgpatches
             "k_ls_44_uniform_steele",
             "k_ls_44_uniform_euda",
             "k_ls_44_uniform_piercer",
-            "",
-            "",
-            "",
-            "",
+            "k_ls_44_uniform_ivanov",
+            "k_ls_44_uniform_kyram",
+            "k_ls_44_ab_helmet_wumbo",
+            "k_ls_44_uniform_wumbo",
         };
     };
 };

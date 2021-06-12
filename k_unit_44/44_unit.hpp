@@ -207,4 +207,35 @@
 			"kobra\k_unit_44\data\armor\undersuit_co.paa",
 		};
 	};
+	class k_ls_44_unit_ivanov: k_ls_44_unit
+	{
+		uniformclass = "k_ls_44_uniform_ivanov";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\k_unit_44\data\custom\ivanov\44_upper_co.paa",
+			"kobra\k_unit_44\data\custom\ivanov\44_lower_co.paa",
+			"kobra\k_unit_44\data\armor\undersuit_co.paa",
+		};
+	};
+	class k_ls_44_unit_kyram: k_ls_44_unit
+	{
+		uniformclass = "k_ls_44_uniform_kyram";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\k_unit_44\data\custom\kyram\44_upper_co.paa",
+			"kobra\k_unit_44\data\custom\kyram\44_lower_co.paa",
+			"kobra\k_unit_44\data\armor\undersuit_co.paa",
+		};
+	};
+	class k_ls_44_unit_wumbo: k_ls_44_unit
+	{
+		uniformclass = "k_ls_44_uniform_kyram";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\k_unit_44\data\custom\wumbo\44_upper_co.paa",
+			"kobra\k_unit_44\data\custom\wumbo\44_lower_co.paa",
+			"kobra\k_unit_44\data\armor\undersuit_co.paa",
+		};
+	};
+	
 	#include "44_unit_loadout.hpp"

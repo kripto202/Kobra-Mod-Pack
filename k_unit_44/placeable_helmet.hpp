@@ -346,3 +346,51 @@
             };
         };
     };
+    class k_ls_headgear_44_ivanov: k_ls_headgear_p2
+    {
+        displayname = "[44/LS] Barc Helmet (Ivanov)";
+        class transportItems
+        {
+            class helmet
+            {
+                name = "k_ls_44_barc_helmet_ivanov";
+                count = 1;
+            };
+        };
+    };
+    class k_ls_headgear_44_kyram: k_ls_headgear_p2
+    {
+        displayname = "[44/LS] P1 Helmet (Kyram)";
+        class transportItems
+        {
+            class helmet
+            {
+                name = "k_ls_44_p1_helmet_kyram";
+                count = 1;
+            };
+        };
+    };
+    class k_ls_headgear_44_rex_rex: k_ls_headgear_p2
+    {
+        displayname = "[44/LS] Rex Helmet (Rex)";
+        class transportItems
+        {
+            class helmet
+            {
+                name = "k_ls_44_rex_helmet_rex";
+                count = 1;
+            };
+        };
+    };
+    class k_ls_headgear_44_wumbo: k_ls_headgear_p2
+    {
+        displayname = "[44/LS] Airborne Helmet (Wumbo)";
+        class transportItems
+        {
+            class helmet
+            {
+                name = "k_ls_44_ab_helmet_wumbo";
+                count = 1;
+            };
+        };
+    };

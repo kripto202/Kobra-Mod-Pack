@@ -125,3 +125,27 @@
 			uniformClass="k_ls_44_unit_piercer";
 		};
 	};
+	class k_ls_44_uniform_ivanov: k_ls_44_uniform
+	{
+		displayname = "[44/LS] Clone Trooper Uniform (Ivanov)";
+		class iteminfo: iteminfo
+		{
+			uniformClass="k_ls_44_unit_ivanov";
+		};
+	};
+	class k_ls_44_uniform_kyram: k_ls_44_uniform
+	{
+		displayname = "[44/LS] Clone Trooper Uniform (Kyram)";
+		class iteminfo: iteminfo
+		{
+			uniformClass="k_ls_44_unit_kyram";
+		};
+	};
+	class k_ls_44_uniform_wumbo: k_ls_44_uniform
+	{
+		displayname = "[44/LS] Clone Trooper Uniform (Wumbo)";
+		class iteminfo: iteminfo
+		{
+			uniformClass="k_ls_44_unit_wumbo";
+		};
+	};

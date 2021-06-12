@@ -134,11 +134,11 @@ class cfgFactionClasses
 		side = 3;
 	};
 };
-class cfgeditorcategories
+class CfgEditorCategories
 {
 	class kobra
 	{
-		displayname = "[K] Kobra";
+		displayname = "Kobra Props";
 	};
 };
 class CfgEditorSubcategories

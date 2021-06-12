@@ -22,9 +22,9 @@
 		picture = "kobra\k_unit_44\data\ui\44_p15_helmet.paa";
 		/*hiddenselectionsmaterials[] = 
 		{
-			"kobra\k_unit_ls\data\helmet\p15_helmet\camo1.rvmat",
-			"kobra\k_unit_44\data\helmets\p15_helmet_visor.rvmat",
-			"kobra\k_unit_ls\data\helmet\p15_helmet\illum.rvmat"
+			"\kobra\k_unit_ls\data\helmet\p15_helmet\camo1.rvmat",
+			"\kobra\k_unit_44\data\helmets\p15_helmet_visor.rvmat",
+			"\kobra\k_unit_ls\data\helmet\p15_helmet\illum.rvmat"
 		};*/
 		hiddenselectionstextures[]=
 		{
@@ -100,12 +100,12 @@
 			"",
 			"kobra\k_unit_ls\data\helmet\arf_helmet\visor_co.paa"
 		};
-		/*hiddenselectionsmaterials[] = 
+		hiddenselectionsmaterials[] = 
 		{
 			"kobra\k_unit_ls\data\helmet\arf_helmet\camo1.rvmat",
 			"",
 			"kobra\k_unit_44\data\helmets\arf_helmet_visor.rvmat"
-		};*/
+		};
 	};
 	class k_ls_44_p2_arf_helmet: k_ls_p2_arf_helmet
 	{
@@ -120,12 +120,12 @@
 			"kobra\k_unit_ls\data\helmet\arf_helmet\camo2_co.paa",
 			"kobra\k_unit_ls\data\helmet\arf_helmet\visor_co.paa"
 		};
-		/*hiddenselectionsmaterials[] = 
+		hiddenselectionsmaterials[] = 
 		{
 			"kobra\k_unit_ls\data\helmet\arf_helmet\camo1.rvmat",
 			"kobra\k_unit_ls\data\helmet\arf_helmet\camo2.rvmat",
 			"kobra\k_unit_44\data\helmets\arf_helmet_visor.rvmat"
-		};*/
+		};
 	};
 	class k_ls_44_eng_helmet: k_ls_eng_helmet
 	{
@@ -436,5 +436,42 @@
 			"kobra\k_unit_44\data\custom\piercer\44_arf_helmet_co.paa",
 			"",
 			"kobra\k_unit_ls\data\helmet\arf_helmet\visor_co.paa",
+		};
+	};
+	class k_ls_44_barc_helmet_ivanov: k_ls_44_barc_helmet
+	{
+		displayname = "[44/LS] Barc Helmet (Ivanov)";
+		hiddenselectionstextures[] =
+		{
+			"kobra\k_unit_44\data\custom\ivanov\44_barc_helmet_co.paa",
+			"kobra\k_unit_ls\data\helmet\barc_helmet\visor_co.paa",
+		};
+	};
+	class k_ls_44_p1_helmet_kyram: k_ls_44_p1_helmet
+	{
+		displayname = "[44/LS] P1 Helmet (kyram)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\k_unit_44\data\custom\kyram\44_p1_helmet_co.paa",
+			"kobra\k_unit_ls\data\helmet\p1_helmet\visor_co.paa",
+			"kobra\k_unit_ls\data\helmet\p1_helmet\illum_co.paa"
+		};
+	};
+	class k_ls_44_rex_helmet_rex: k_ls_44_rex_helmet
+	{
+		displayname = "[44/LS] Rex Helmet (Rex)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\k_unit_44\data\custom\rex\44_rex_helmet_co.paa",
+			"kobra\k_unit_ls\data\helmet\rex_helmet\visor_co.paa"
+		};
+	};
+	class k_ls_44_ab_helmet_wumbo: k_ls_44_rex_helmet
+	{
+		displayname = "[44/LS] Airborne Helmet (Wumbo)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\k_unit_44\data\custom\wumbo\44_ab_helmet_co.paa",
+			"kobra\k_unit_ls\data\helmet\ab_helmet\visor_co.paa"
 		};
 	};
