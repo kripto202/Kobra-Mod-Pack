@@ -466,7 +466,7 @@
 			"kobra\k_unit_ls\data\helmet\rex_helmet\visor_co.paa"
 		};
 	};
-	class k_ls_44_ab_helmet_wumbo: k_ls_44_rex_helmet
+	class k_ls_44_ab_helmet_wumbo: k_ls_44_airborne_helmet
 	{
 		displayname = "[44/LS] Airborne Helmet (Wumbo)";
 		hiddenselectionstextures[] = 
