@@ -184,7 +184,42 @@ class cfgvehicles
 		crew="k_ls_unit_b1_e5";
 		typicalCargo[]=
 		{
-			"k_ls_unit_b1_e5"
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
+			"k_ls_unit_b1_e5",
 		};
 		class Reflectors
 		{
