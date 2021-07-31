@@ -5,7 +5,7 @@ class StageTI
 ambient[] = {1,1,1,1};
 diffuse[] = {1,1,1,1};
 forcedDiffuse[]={0,0,0,0};
-emmisive[]={0,0,0,1};
+emmisive[]={100,100,100,1};
 specular[]={0.3,0.3,0.3,0.1};
 specularPower=100;
 PixelShaderID="super";

@@ -10,7 +10,8 @@ class cfgpatches
 		requiredVersion = 0.1;
 		units[] = 
         {
-            "k_acclamator2_zeus"          
+            "k_acclamator2_zeus",
+			"k_acclamator2_engine"
         };
         weapons[] = {};
     };
@@ -69,5 +70,13 @@ class cfgvehicles
 			"kobra\442_ships\acclamator2\data\grills_co.paa",
 			"kobra\442_ships\acclamator2\data\torpedo_tube_co.paa",
 		};
+	};
+	class k_acclamator2_engine: k_acclamator2_zeus
+	{
+		displayName="Acclamator Engine (Zeus)(WIP)";
+		model="\kobra\442_ships\acclamator2\k_acclamator_engine.p3d";
+		editorsubcategory="442_ships_parts";
+		hiddenselections[] = {};
+		hiddenselectionstextures[] = {};
 	};
 };
