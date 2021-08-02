@@ -1,0 +1,21 @@
+surfaceInfo="kobra\kobra_core\penetration.bisurf";
+ambient[]=
+{
+	"0.32*(5.5/sqrt(250))",
+	"0.345*(5.5/sqrt(250))",
+	"0.55*(5.5/sqrt(250))",
+	1
+};
+diffuse[]=
+{
+	"0.32*(5.5/sqrt(250))",
+	"0.345*(5.5/sqrt(250))",
+	"0.55*(5.5/sqrt(250))",
+	1
+};
+forcedDiffuse[]={0,0,0,0};
+emmisive[]={0,0,0,1};
+specular[]={0,0,0,1};
+specularPower=1;
+PixelShaderID="Normal";
+VertexShaderID="Basic";
