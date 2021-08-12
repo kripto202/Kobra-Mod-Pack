@@ -33,11 +33,25 @@ class cfgpatches
 
 class Extended_init_EventHandlers
 {
-	class ls_laat_base
+	class lsd_laat_base
 	{
 		class laat_init_eh
 		{
-			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle; }; (_this select 0) setVariable [""lockState"", 0, true]; (_this select 0) setVariable [""ls_ls_traumaState"", 0, true]; (_this) spawn ls_vehicle_fnc_ImpulsorMonitor;";
+			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle; }; (_this select 0) setVariable [""lockState"", 0, true]; (_this select 0) setVariable [""ls_traumaState"", 0, true]; (_this) spawn ls_vehicle_fnc_ImpulsorMonitor; [_this select 0,"""",[15,16,17,18,19,20]] call ls_vehicle_fnc_laatCargoTurretPhase;";
+		};
+	};
+	class lsd_heli_laati_transport
+	{
+		class laat_init_eh
+		{
+			init = "if (local (_this select 0)) then {[(_this select 0), """", [""hidedoor1"", 0, ""hidedoor4"",0], false] call bis_fnc_initVehicle; }; (_this select 0) setVariable [""lockState"", 0, true]; (_this select 0) setVariable [""ls_traumaState"", 0, true]; (_this) spawn ls_vehicle_fnc_ImpulsorMonitor; ";
+		};
+	};
+	class lsd_laatc_base
+	{
+		class laat_init_eh
+		{
+			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle; }; (_this) spawn ls_vehicle_fnc_ImpulsorMonitor;";
 		};
 	};
 };
@@ -339,6 +353,7 @@ class cfgvehicles
 			class HitEngine
 			{
 				armor=0.25;
+				//armor=999;
 				convexComponent="engine_hit";
 				explosionShielding=2;
 				material=51;
@@ -397,6 +412,7 @@ class cfgvehicles
 		class EventHandlers: Eventhandlers
 		{
 			//init="(_this) spawn kobra_Vehicle_fnc_ImpulsorMonitor;";
+			init = "(_this) spawn ls_vehicle_fnc_ImpulsorMonitor;";
 		};
 		cargoAction[]=
 		{
@@ -989,14 +1005,14 @@ class cfgvehicles
 				radius = 5;
 				onlyforplayer = 0;
 				shortcut = "User19";
-				condition = "isClass (configFile >> ""CfgPatches"" >> ""ls_functions"") and isEngineOn this and ace_player == currentPilot this;";
+				condition = "isEngineOn this and ace_player == currentPilot this;";
 				statement = "this call ls_vehicle_fnc_ImpulseJoystick;";
 			};
 			class repulse: impulse
 			{
 				displayName = "Repulse";
 				shortcut = "User20";
-				condition = "isClass (configFile >> ""CfgPatches"" >> ""ls_functions"") and isEngineOn this and ace_player == currentPilot this;";
+				condition = "isEngineOn this and ace_player == currentPilot this;";
 				statement = "this call ls_vehicle_fnc_RepulseJoystick;";
 			};
 		};
