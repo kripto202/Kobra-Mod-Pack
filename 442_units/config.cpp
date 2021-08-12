@@ -59,6 +59,7 @@ class cfgpatches
 			"k_scout_pouches_heavy_artic",
 			"k_scout_pouches_heavy_jungle",
 			"k_scout_pouches_heavy_desert",
+			"k_arf_helmet",
 
 			"k_scout_uniform",
 			"k_clone_uniform",
@@ -353,7 +354,7 @@ class cfgweapons
 		};
 		hiddenSelections[]=
 		{
-			"Camo1",
+			"helmet",
 			"visor"
 		};
 		class ItemInfo: ItemInfo
@@ -361,7 +362,7 @@ class cfgweapons
 			uniformModel="kobra\442_units\hunter_helmet.p3d";
 			hiddenSelections[]=
 			{
-				"Camo1",
+				"helmet",
 				"visor"
 			};
 		};
@@ -376,7 +377,7 @@ class cfgweapons
 		};
 		hiddenSelections[]=
 		{
-			"Camo1",
+			"helmet",
 			"visor"
 		};
 		class ItemInfo: ItemInfo
@@ -384,7 +385,7 @@ class cfgweapons
 			uniformModel="kobra\442_units\crosshair_helmet.p3d";
 			hiddenSelections[]=
 			{
-				"Camo1",
+				"helmet",
 				"visor"
 			};
 		};
@@ -399,7 +400,7 @@ class cfgweapons
 		};
 		hiddenSelections[]=
 		{
-			"Camo1",
+			"helmet",
 			"visor"
 		};
 		class ItemInfo: ItemInfo
@@ -407,7 +408,7 @@ class cfgweapons
 			uniformModel="kobra\442_units\wrecker_helmet.p3d";
 			hiddenSelections[]=
 			{
-				"Camo1",
+				"helmet",
 				"visor"
 			};
 		};
@@ -422,15 +423,23 @@ class cfgweapons
 		};
 		hiddenSelections[]=
 		{
-			"Camo1"
+			"helmet"
 		};
 		class ItemInfo: ItemInfo
 		{
 			uniformModel="kobra\442_units\tech_helmet.p3d";
 			hiddenSelections[]=
 			{
-				"Camo1"
+				"helmet"
 			};
+		};
+	};
+	class k_tech_helmet1_base: k_tech_helmet_base
+	{
+		model="kobra\442_units\tech_helmet1.p3d";
+		class ItemInfo: ItemInfo
+		{
+			uniformModel="kobra\442_units\tech_helmet1.p3d";
 		};
 	};
 	class k_cadet_helmet_base: k_helmet_base
@@ -443,16 +452,14 @@ class cfgweapons
 		};
 		hiddenSelections[]=
 		{
-			"Camo1",
-			"visor"
+			"helmet"
 		};		
 		class ItemInfo: ItemInfo
 		{
 			uniformModel="kobra\442_units\cadet_helmet.p3d";
 			hiddenSelections[]=
 			{
-				"Camo1",
-				"visor"
+				"helmet"
 			};
 		};
 	};
@@ -462,7 +469,7 @@ class cfgweapons
 		model = "kobra\442_units\p2_helmet.p3d";
 		hiddenselections[] = 
 		{
-			"camo1",
+			"helmet",
 			"visor"
 		};
 		class iteminfo: Iteminfo
@@ -470,7 +477,7 @@ class cfgweapons
 			uniformmodel = "kobra\442_units\p2_helmet.p3d";
 			hiddenselections[] = 
 			{
-				"camo1",
+				"helmet",
 				"visor"
 			};
 		};
@@ -481,16 +488,18 @@ class cfgweapons
 		model = "kobra\442_units\p1_helmet.p3d";
 		hiddenselections[] = 
 		{
-			"camo1",
-			"visor"
+			"helmet",
+			"visor",
+			"light"
 		};
 		class iteminfo: Iteminfo
 		{
 			uniformmodel = "kobra\442_units\p1_helmet.p3d";
 			hiddenselections[] = 
 			{
-				"camo1",
-				"visor"
+				"helmet",
+				"visor",
+				"light"
 			};
 		};
 	};
@@ -500,7 +509,7 @@ class cfgweapons
 		model = "kobra\442_units\p1_pilot_helmet.p3d";
 		hiddenselections[] = 
 		{
-			"camo1",
+			"helmet",
 			"visor"
 		};
 		class iteminfo: Iteminfo
@@ -508,7 +517,45 @@ class cfgweapons
 			uniformmodel = "kobra\442_units\p1_pilot_helmet.p3d";
 			hiddenselections[] = 
 			{
-				"camo1",
+				"helmet",
+				"visor"
+			};
+		};
+	};
+	class k_p1_airborne_helmet_base: k_helmet_base
+	{
+		displayname = "[K] P1 Airborne Helmet";
+		model = "kobra\442_units\p1_airborne_helmet.p3d";
+		hiddenselections[] = 
+		{
+			"helmet",
+			"visor"
+		};
+		class iteminfo: Iteminfo
+		{
+			uniformmodel = "kobra\442_units\p1_airborne_helmet.p3d";
+			hiddenselections[] = 
+			{
+				"helmet",
+				"visor"
+			};
+		};
+	};
+	class k_arf_helmet_base: k_helmet_base
+	{
+		displayname = "[K] Arf Helmet";
+		model = "kobra\442_units\arf_helmet.p3d";
+		hiddenselections[] = 
+		{
+			"helmet",
+			"visor"
+		};
+		class iteminfo: Iteminfo
+		{
+			uniformmodel = "kobra\442_units\arf_helmet.p3d";
+			hiddenselections[] = 
+			{
+				"helmet",
 				"visor"
 			};
 		};

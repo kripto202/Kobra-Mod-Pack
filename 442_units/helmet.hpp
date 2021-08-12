@@ -6,7 +6,7 @@
         picture = "\kobra\442_units\data\ui\scout_helmet.paa";
         hiddenselectionstextures[] = 
         {
-            "kobra\442_units\data\helmet\scout_helmet\camo1_co.paa",
+            "kobra\442_units\data\helmet\scout_helmet\helmet_co.paa",
             "kobra\442_units\data\helmet\scout_helmet\visor_co.paa",
         };
     };
@@ -17,7 +17,7 @@
         scopearsenal = 2;
         hiddenselectionstextures[] = 
         {
-            "kobra\442_units\data\helmet\hunter_helmet\camo1_co.paa",
+            "kobra\442_units\data\helmet\hunter_helmet\helmet_co.paa",
             "kobra\442_units\data\helmet\hunter_helmet\visor_co.paa",
         };
     };
@@ -28,7 +28,7 @@
         scopearsenal = 2;
         hiddenselectionstextures[] = 
         {
-            "kobra\442_units\data\helmet\crosshair_helmet\camo1_co.paa",
+            "kobra\442_units\data\helmet\crosshair_helmet\helmet_co.paa",
             "kobra\442_units\data\helmet\crosshair_helmet\visor_co.paa",
         };
     };
@@ -39,7 +39,7 @@
         scopearsenal = 2;
         hiddenselectionstextures[] = 
         {
-            "kobra\442_units\data\helmet\wrecker_helmet\camo1_co.paa",
+            "kobra\442_units\data\helmet\wrecker_helmet\helmet_co.paa",
             "kobra\442_units\data\helmet\wrecker_helmet\visor_co.paa",
         };
     };
@@ -50,7 +50,17 @@
         scopearsenal = 2;
         hiddenselectionstextures[] = 
         {
-            "kobra\442_units\data\helmet\tech_helmet\camo1_co.paa"
+            "kobra\442_units\data\helmet\tech_helmet\tech_helmet_co.paa"
+        };
+    };
+    class k_tech_Helmet_down: k_tech_helmet1_base
+    {
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\helmet\tech_helmet\tech_helmet_co.paa"
         };
     };
     class k_cadet_Helmet: k_cadet_helmet_base
@@ -60,8 +70,7 @@
         scopearsenal = 2;
         hiddenselectionstextures[] = 
         {
-            "kobra\442_units\data\helmet\cadet_helmet\camo1_co.paa",
-            "kobra\442_units\data\helmet\cadet_helmet\visor_co.paa",
+            "kobra\442_units\data\helmet\cadet_helmet\cadet_helmet_co.paa"
         };
     };
 	class k_p2_helmet: k_p2_helmet_base
@@ -73,7 +82,7 @@
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_units\data\helmet\p2_helmet\p2_helmet_co.paa",
-			"kobra\442_units\data\helmet\p2_helmet\p2_visor_co.paa",
+			"kobra\442_units\data\helmet\p2_helmet\p2_helmet_co.paa",
 		};
 	};
 	class k_p1_helmet: k_p1_helmet_base
@@ -85,7 +94,7 @@
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_units\data\helmet\p1_helmet\p1_helmet_co.paa",
-			"kobra\442_units\data\helmet\p1_helmet\p1_visor_co.paa",
+			"kobra\442_units\data\helmet\p1_helmet\p1_helmet_co.paa",
 		};
 	};
 	class k_p1_pilot_helmet: k_p1_pilot_helmet_base
@@ -97,13 +106,25 @@
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_units\data\helmet\p1_pilot_helmet\p1_pilot_helmet_co.paa",
-			"kobra\442_units\data\helmet\p1_pilot_helmet\p1_pilot_visor_co.paa",
+			"kobra\442_units\data\helmet\p1_pilot_helmet\p1_pilot_helmet_co.paa",
+		};
+	};
+    class k_arf_helmet: k_arf_helmet_base
+	{
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
+		displayname = "[K] Arf Helmet";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\helmet\arf_helmet\arf_helmet_co.paa",
+			"kobra\442_units\data\helmet\arf_helmet\arf_helmet_co.paa",
 		};
 	};
 
 
 ///////////submitted designs//////////
-    class k_scout_helmet_dukas: k_Scout_Helmet
+   /* class k_scout_helmet_dukas: k_Scout_Helmet
     {
         displayName="[K] Scout Helmet (Dukas)";
         hiddenselectionstextures[] = 
@@ -147,4 +168,4 @@
             "kobra\442_units\data\helmet\scout_helmet\camo1_jungle_co.paa",
             "kobra\442_units\data\helmet\scout_helmet\visor_co.paa",
         };
-    };
+    };*/

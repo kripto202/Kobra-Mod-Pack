@@ -27,22 +27,18 @@
         {
             "upper",
             "lower",
-            "undersuit",
-            "gloves",
             "clan",
 			"insignia"
         };
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\uniform\clone_uniform\upper_armor_co.paa",
-            "kobra\442_units\data\uniform\clone_uniform\lower_armor_co.paa",
-            "kobra\442_units\data\uniform\clone_uniform\undersuit_co.paa",
-            "kobra\442_units\data\uniform\clone_uniform\gloves_co.paa"
+            "kobra\442_units\data\uniform\clone_uniform\lower_armor_co.paa"
         };
     };
 
 ////////////designs/////////////
-    class k_scout_unit_dukas: k_scout_unit
+    /*class k_scout_unit_dukas: k_scout_unit
     {
         displayname = "Scout Trooper (Dukas)";
         uniformclass = "k_scout_uniform_dukas";
@@ -96,4 +92,4 @@
             "kobra\442_units\data\uniform\scout_uniform\gloves_co.paa",
             "kobra\442_units\data\uniform\scout_uniform\undersuit_camo_co.paa"
         };
-    };
+    };*/

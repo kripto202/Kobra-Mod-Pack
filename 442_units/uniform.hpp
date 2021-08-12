@@ -23,7 +23,7 @@
         };
     };
 /////////designs//////////
-    class k_scout_uniform_dukas: k_scout_uniform
+    /*class k_scout_uniform_dukas: k_scout_uniform
     {
         displayname = "[K] Scout Trooper Armor (Dukas)";
         class ItemInfo: Iteminfo
@@ -62,4 +62,4 @@
         {
             uniformclass = "k_scout_unit_jungle";
         };
-    };
+    };*/
