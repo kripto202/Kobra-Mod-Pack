@@ -159,7 +159,7 @@
 		ammo = "442_ammo_762_Pink";
         picture="\kobra\442_weapons\ammo\data\ui\DC15a_mag_ui_pink_ca.paa";
     };
-		class 442_762_200rnd_pink_mag: 442_762_200rnd_blue_mag
+	class 442_762_200rnd_pink_mag: 442_762_200rnd_blue_mag
     {
         displayname = "7.62mm Plasma Cell (150rnd Pink)";
 		ammo = "442_ammo_762_Pink";

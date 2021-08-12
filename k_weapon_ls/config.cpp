@@ -122,85 +122,15 @@ class cfgweapons
 		//model="442_weapons\clones\dc15a\dc15a.p3d";
 		magazines[] =
 		{
-			"442_762_30rnd_blue_mag",
-			"442_762_20rnd_blue_mag",
-			"442_762_60rnd_blue_mag",
-			"442_762_100rnd_blue_mag",
-
-			"442_762_20rnd_red_mag",
-			"442_762_30rnd_red_mag",
-			"442_762_60rnd_red_mag",
-			"442_762_100rnd_red_mag",
-
-			"442_762_20rnd_orange_mag",
-			"442_762_30rnd_orange_mag",
-			"442_762_60rnd_orange_mag",
-			"442_762_100rnd_orange_mag",
-
-			"442_762_20rnd_green_mag",
-			"442_762_30rnd_green_mag",
-			"442_762_60rnd_green_mag",
-			"442_762_100rnd_green_mag",
-
-			"442_762_20rnd_pink_mag",
-			"442_762_30rnd_pink_mag",
-			"442_762_60rnd_pink_mag",
-			"442_762_100rnd_pink_mag",
-
-			"442_762_20rnd_purple_mag",
-			"442_762_30rnd_purple_mag",
-			"442_762_60rnd_purple_mag",
-			"442_762_100rnd_purple_mag",
-
-			"442_762_20rnd_black_mag",
-			"442_762_30rnd_black_mag",
-			"442_762_60rnd_black_mag",
-			"442_762_100rnd_black_mag",
-
-			"442_762_20rnd_yellow_mag",
-			"442_762_30rnd_yellow_mag",
-			"442_762_60rnd_yellow_mag",
-			"442_762_100rnd_yellow_mag",
-
-			"442_762_20rnd_blue_b_mag",
-			"442_762_30rnd_blue_b_mag",
-			"442_762_60rnd_blue_b_mag",
-			"442_762_100rnd_blue_b_mag",
-
-			"442_762_20rnd_red_b_mag",
-			"442_762_30rnd_red_b_mag",
-			"442_762_60rnd_red_b_mag",
-			"442_762_100rnd_red_b_mag",
-
-			"442_762_20rnd_orange_b_mag",
-			"442_762_30rnd_orange_b_mag",
-			"442_762_60rnd_orange_b_mag",
-			"442_762_100rnd_orange_b_mag",
-
-			"442_762_20rnd_green_b_mag",
-			"442_762_30rnd_green_b_mag",
-			"442_762_60rnd_green_b_mag",
-			"442_762_100rnd_green_b_mag",
-
-			"442_762_20rnd_pink_b_mag",
-			"442_762_30rnd_pink_b_mag",
-			"442_762_60rnd_pink_b_mag",
-			"442_762_100rnd_pink_b_mag",
-
-			"442_762_20rnd_purple_b_mag",
-			"442_762_30rnd_purple_b_mag",
-			"442_762_60rnd_purple_b_mag",
-			"442_762_100rnd_purple_b_mag",
-
-			"442_762_20rnd_white_b_mag",
-			"442_762_30rnd_white_b_mag",
-			"442_762_60rnd_white_b_mag",
-			"442_762_100rnd_white_b_mag",
-
-			"442_762_20rnd_yellow_b_mag",
-			"442_762_30rnd_yellow_b_mag",
-			"442_762_60rnd_yellow_b_mag",
-			"442_762_100rnd_yellow_b_mag",
+			"442_762_30rnd_blue_mag"
+		};
+		magazinewell[] = 
+		{
+			"dc15a_magazines",
+			"k_762_30rnd_magazines",
+			"k_762_60rnd_magazines",
+			"k_762_100rnd_magazines",
+			"k_762_150rnd_magazines"
 		};
 		displayname="DC-15A rifle";
 		modes[]=
@@ -248,14 +178,16 @@ class cfgweapons
 			};
 			reloadTime=0.096001;
 			dispersion=0.00030149999;
-			minRange=5;
-			minRangeProbab=0.30000001;
-			midRange=25;
-			midRangeProbab=0.60000002;
-			maxRange=50;
-			maxRangeProbab=0.1;
+			minRange = 2;
+			minRangeProbab = 0.01;
+			midRange = 200;
+			midRangeProbab = 0.01;
+			maxRange = 400;
+			maxRangeProbab = 0.01;
 			aiRateOfFire=2;
 			aiRateOfFireDistance=25;
+			recoil = "recoil_single_ebr";
+			recoilProne = "recoil_single_prone_ebr";
 		};
 		class FullAuto: Mode_FullAuto
 		{
@@ -294,157 +226,75 @@ class cfgweapons
 			};
 			reloadTime=0.104347;
 			dispersion=0.00014545;
-			minRange=5;
-			minRangeProbab=0.30000001;
-			midRange=25;
-			midRangeProbab=0.60000002;
-			maxRange=50;
-			maxRangeProbab=0.1;
-			aiRateOfFire=2;
-			aiRateOfFireDistance=25;
+			recoil = "recoil_single_ebr";
+			recoilProne = "recoil_single_prone_ebr";
+			minRange = 2;
+			minRangeProbab = 0.01;
+			midRange = 200;
+			midRangeProbab = 0.01;
+			maxRange = 400;
+			maxRangeProbab = 0.01;
 		};
 		class close: FullAuto
 		{
 			burst = 10;
 			showToPlayer=0;
-			aiRateOfFire=0.25;
-			aiRateOfFireDistance=50;
+			aiRateOfFire = 0.5;
+			aiRateOfFireDistance = 50;
 			minRange=0;
 			minRangeProbab=0.050000001;
 			midRange=30;
 			midRangeProbab=0.69999999;
 			maxRange=50;
-			maxRangeProbab=0.2;
+			maxRangeProbab=0.02;
 		};
 		class short: close
 		{
 			burst = 8;
-			aiRateOfFire=1;
+			aiRateOfFire=2;
 			aiRateOfFireDistance=300;
-			minRange=50;
-			minRangeProbab=0.2;
-			midRange=150;
-			midRangeProbab=0.69999999;
-			maxRange=300;
-			maxRangeProbab=0.2;
+			minRange = 50;
+			minRangeProbab = 0.05;
+			midRange = 150;
+			midRangeProbab = 0.7;
+			maxRange = 300;
+			maxRangeProbab = 0.04;
 		};
 		class medium: close
 		{
 			burst = 5;
-			aiRateOfFire=2;
-			aiRateOfFireDistance=600;
-			minRange=300;
-			minRangeProbab=0.2;
-			midRange=450;
-			midRangeProbab=0.69999999;
-			maxRange=600;
-			maxRangeProbab=0.2;
+			aiRateOfFire = 4;
+			aiRateOfFireDistance = 600;
+			minRange = 200;
+			minRangeProbab = 0.05;
+			midRange = 400;
+			midRangeProbab = 0.6;
+			maxRange = 600;
+			maxRangeProbab = 0.1;
 		};
 		class far: close
 		{
 			burst = 3;
-			aiRateOfFire=4;
-			aiRateOfFireDistance=700;
-			minRange=600;
-			minRangeProbab=0.2;
-			midRange=650;
-			midRangeProbab=0.69999999;
-			maxRange=700;
-			maxRangeProbab=0.2;
+			aiRateOfFire = 6;
+			aiRateOfFireDistance = 700;
+			minRange = 350;
+			minRangeProbab = 0.04;
+			midRange = 550;
+			midRangeProbab = 0.5;
+			maxRange = 700;
+			maxRangeProbab = 0.01;
 		};
 		aiDispersionCoefY=2.5;
 		aiDispersionCoefX=2.5;
 		maxRecoilSway=0.0125;
-		recoil="442_recoil";
 		swayDecaySpeed=1.25;
 		dexterity=1.7;
 		initspeed=800;
 		inertia=0.5;
+		recoil = "recoil_ebr";
 	};
     class 442_DC15A_ugl: 442_DC15A
 	{
-		magazines[] =
-		{
-			"442_762_30rnd_blue_mag",
-			"442_762_20rnd_blue_mag",
-			"442_762_60rnd_blue_mag",
-			"442_762_100rnd_blue_mag",
-
-			"442_762_20rnd_red_mag",
-			"442_762_30rnd_red_mag",
-			"442_762_60rnd_red_mag",
-			"442_762_100rnd_red_mag",
-
-			"442_762_20rnd_orange_mag",
-			"442_762_30rnd_orange_mag",
-			"442_762_60rnd_orange_mag",
-			"442_762_100rnd_orange_mag",
-
-			"442_762_20rnd_green_mag",
-			"442_762_30rnd_green_mag",
-			"442_762_60rnd_green_mag",
-			"442_762_100rnd_green_mag",
-
-			"442_762_20rnd_pink_mag",
-			"442_762_30rnd_pink_mag",
-			"442_762_60rnd_pink_mag",
-			"442_762_100rnd_pink_mag",
-
-			"442_762_20rnd_purple_mag",
-			"442_762_30rnd_purple_mag",
-			"442_762_60rnd_purple_mag",
-			"442_762_100rnd_purple_mag",
-
-			"442_762_20rnd_black_mag",
-			"442_762_30rnd_black_mag",
-			"442_762_60rnd_black_mag",
-			"442_762_100rnd_black_mag",
-
-			"442_762_20rnd_yellow_mag",
-			"442_762_30rnd_yellow_mag",
-			"442_762_60rnd_yellow_mag",
-			"442_762_100rnd_yellow_mag",
-
-			"442_762_20rnd_blue_b_mag",
-			"442_762_30rnd_blue_b_mag",
-			"442_762_60rnd_blue_b_mag",
-			"442_762_100rnd_blue_b_mag",
-
-			"442_762_20rnd_red_b_mag",
-			"442_762_30rnd_red_b_mag",
-			"442_762_60rnd_red_b_mag",
-			"442_762_100rnd_red_b_mag",
-
-			"442_762_20rnd_orange_b_mag",
-			"442_762_30rnd_orange_b_mag",
-			"442_762_60rnd_orange_b_mag",
-			"442_762_100rnd_orange_b_mag",
-
-			"442_762_20rnd_green_b_mag",
-			"442_762_30rnd_green_b_mag",
-			"442_762_60rnd_green_b_mag",
-			"442_762_100rnd_green_b_mag",
-
-			"442_762_20rnd_pink_b_mag",
-			"442_762_30rnd_pink_b_mag",
-			"442_762_60rnd_pink_b_mag",
-			"442_762_100rnd_pink_b_mag",
-
-			"442_762_20rnd_purple_b_mag",
-			"442_762_30rnd_purple_b_mag",
-			"442_762_60rnd_purple_b_mag",
-			"442_762_100rnd_purple_b_mag",
-
-			"442_762_20rnd_white_b_mag",
-			"442_762_30rnd_white_b_mag",
-			"442_762_60rnd_white_b_mag",
-			"442_762_100rnd_white_b_mag",
-
-			"442_762_20rnd_yellow_b_mag",
-			"442_762_30rnd_yellow_b_mag",
-			"442_762_60rnd_yellow_b_mag",
-			"442_762_100rnd_yellow_b_mag",
-		};
 		muzzles[]=
 		{
 			"this",
@@ -475,152 +325,6 @@ class cfgweapons
 			"short",
 			"medium"
 		};
-		class Single: Mode_SemiAuto
-		{
-			sounds[]=
-			{
-				"StandardSound"
-			};
-			class BaseSoundModeType
-			{
-				weaponSoundEffect="";
-				closure1[]={};
-				closure2[]={};
-				soundClosure[]={};
-			};
-			class StandardSound: BaseSoundModeType
-			{
-				weaponSoundEffect="";
-				begin1[]= {
-					"SWLW_clones\smgs\dc15s\sounds\DC15S_1", 1, 1, 1800
-				};
-				begin2[]= {
-					"SWLW_clones\smgs\dc15s\sounds\DC15S_2", 1, 1, 1800
-				};
-				begin3[]= {
-					"SWLW_clones\smgs\dc15s\sounds\DC15S_3", 1, 1, 1800
-				};
-				soundBegin[]=
-				{
-					"begin1",
-					0.33000001,
-					"begin2",
-					0.33000001,
-					"begin3",
-					0.33000001
-				};
-			};
-			reloadTime=0.096001;
-			dispersion=0.00030149999;
-			minRange=5;
-			minRangeProbab=0.30000001;
-			midRange=25;
-			midRangeProbab=0.60000002;
-			maxRange=50;
-			maxRangeProbab=0.1;
-			aiRateOfFire=2;
-			aiRateOfFireDistance=25;
-		};
-		class FullAuto: Mode_FullAuto
-		{
-			sounds[]=
-			{
-				"StandardSound"
-			};
-			class BaseSoundModeType
-			{
-				weaponSoundEffect="";
-				closure1[]={};
-				closure2[]={};
-				soundClosure[]={};
-			};
-			class StandardSound: BaseSoundModeType
-			{
-				weaponSoundEffect="";
-				begin1[]= {
-					"SWLW_clones\smgs\dc15s\sounds\DC15S_1", 1, 1, 1800
-				};
-				begin2[]= {
-					"SWLW_clones\smgs\dc15s\sounds\DC15S_2", 1, 1, 1800
-				};
-				begin3[]= {
-					"SWLW_clones\smgs\dc15s\sounds\DC15S_3", 1, 1, 1800
-				};
-				soundBegin[]=
-				{
-					"begin1",
-					0.33000001,
-					"begin2",
-					0.33000001,
-					"begin3",
-					0.33000001
-				};
-			};
-			reloadTime=0.104347;
-			dispersion=0.00014545;
-			minRange=5;
-			minRangeProbab=0.30000001;
-			midRange=25;
-			midRangeProbab=0.60000002;
-			maxRange=50;
-			maxRangeProbab=0.1;
-			aiRateOfFire=2;
-			aiRateOfFireDistance=25;
-		};
-		class close: FullAuto
-		{
-			burst = 10;
-			showToPlayer=0;
-			aiRateOfFire=0.25;
-			aiRateOfFireDistance=50;
-			minRange=0;
-			minRangeProbab=0.050000001;
-			midRange=30;
-			midRangeProbab=0.69999999;
-			maxRange=50;
-			maxRangeProbab=0.2;
-		};
-		class short: close
-		{
-			burst = 8;
-			aiRateOfFire=1;
-			aiRateOfFireDistance=300;
-			minRange=50;
-			minRangeProbab=0.2;
-			midRange=150;
-			midRangeProbab=0.69999999;
-			maxRange=300;
-			maxRangeProbab=0.2;
-		};
-		class medium: close
-		{
-			burst = 5;
-			aiRateOfFire=2;
-			aiRateOfFireDistance=600;
-			minRange=300;
-			minRangeProbab=0.2;
-			midRange=450;
-			midRangeProbab=0.69999999;
-			maxRange=600;
-			maxRangeProbab=0.2;
-		};
-		class far: close
-		{
-			burst = 3;
-			aiRateOfFire=4;
-			aiRateOfFireDistance=700;
-			minRange=600;
-			minRangeProbab=0.2;
-			midRange=650;
-			midRangeProbab=0.69999999;
-			maxRange=700;
-			maxRangeProbab=0.2;
-		};
-		aiDispersionCoefY=2.5;
-		aiDispersionCoefX=2.5;
-		maxRecoilSway=0.0125;
-		recoil="442_recoil";
-		swayDecaySpeed=1.25;
 		dexterity=1.7;
 		initspeed=800;
 		inertia=0.5;
@@ -630,7 +334,6 @@ class cfgweapons
 			descriptionShort="UGL";
 			useModelOptics=0;
 			useExternalOptic=0;
-			magazineWell[]={};
 			cameraDir="OP_look";
 			discreteDistance[]={100,200,300,400};
 			discreteDistanceCameraPoint[]=
@@ -641,6 +344,7 @@ class cfgweapons
 				"OP_eye4"
 			};
 			discreteDistanceInitIndex=1;
+			magazinewell[] = {"dc15a_grenades"};
 		};
 	};
     class 442_DC15A_MC: 442_DC15A
@@ -709,85 +413,15 @@ class cfgweapons
 		//model="442_weapons\clones\dc15s\dc15s.p3d";
 		magazines[]=
 		{
-			"442_556_30rnd_blue_mag",
-			"442_556_20rnd_blue_mag",
-			"442_556_60rnd_blue_mag",
-			"442_556_100rnd_blue_mag",
-
-			"442_556_20rnd_red_mag",
-			"442_556_30rnd_red_mag",
-			"442_556_60rnd_red_mag",
-			"442_556_100rnd_red_mag",
-
-			"442_556_20rnd_orange_mag",
-			"442_556_30rnd_orange_mag",
-			"442_556_60rnd_orange_mag",
-			"442_556_100rnd_orange_mag",
-
-			"442_556_20rnd_green_mag",
-			"442_556_30rnd_green_mag",
-			"442_556_60rnd_green_mag",
-			"442_556_100rnd_green_mag",
-
-			"442_556_20rnd_pink_mag",
-			"442_556_30rnd_pink_mag",
-			"442_556_60rnd_pink_mag",
-			"442_556_100rnd_pink_mag",
-
-			"442_556_20rnd_purple_mag",
-			"442_556_30rnd_purple_mag",
-			"442_556_60rnd_purple_mag",
-			"442_556_100rnd_purple_mag",
-
-			"442_556_20rnd_black_mag",
-			"442_556_30rnd_black_mag",
-			"442_556_60rnd_black_mag",
-			"442_556_100rnd_black_mag",
-
-			"442_556_20rnd_yellow_mag",
-			"442_556_30rnd_yellow_mag",
-			"442_556_60rnd_yellow_mag",
-			"442_556_100rnd_yellow_mag",
-
-			"442_556_20rnd_blue_b_mag",
-			"442_556_30rnd_blue_b_mag",
-			"442_556_60rnd_blue_b_mag",
-			"442_556_100rnd_blue_b_mag",
-
-			"442_556_20rnd_red_b_mag",
-			"442_556_30rnd_red_b_mag",
-			"442_556_60rnd_red_b_mag",
-			"442_556_100rnd_red_b_mag",
-
-			"442_556_20rnd_orange_b_mag",
-			"442_556_30rnd_orange_b_mag",
-			"442_556_60rnd_orange_b_mag",
-			"442_556_100rnd_orange_b_mag",
-
-			"442_556_20rnd_green_b_mag",
-			"442_556_30rnd_green_b_mag",
-			"442_556_60rnd_green_b_mag",
-			"442_556_100rnd_green_b_mag",
-
-			"442_556_20rnd_pink_b_mag",
-			"442_556_30rnd_pink_b_mag",
-			"442_556_60rnd_pink_b_mag",
-			"442_556_100rnd_pink_b_mag",
-
-			"442_556_20rnd_purple_b_mag",
-			"442_556_30rnd_purple_b_mag",
-			"442_556_60rnd_purple_b_mag",
-			"442_556_100rnd_purple_b_mag",
-
-			"442_556_20rnd_white_b_mag",
-			"442_556_30rnd_white_b_mag",
-			"442_556_60rnd_white_b_mag",
-			"442_556_100rnd_white_b_mag",
-
-			"442_556_20rnd_yellow_b_mag",
-			"442_556_30rnd_yellow_b_mag",
-			"442_556_60rnd_yellow_b_mag",
-			"442_556_100rnd_yellow_b_mag"
+			"442_556_30rnd_blue_mag"
+		};
+		magazinewell[] = 
+		{
+			"dc15s_magazines",
+			"k_556_20rnd_magazine",
+			"k_556_30rnd_magazine",
+			"k_556_60rnd_magazine",
+			"k_556_100rnd_magazine",
 		};
 		displayname="DC-15s carbine";
 
@@ -840,14 +474,14 @@ class cfgweapons
 			};
 			reloadTime=0.096001;
 			dispersion=0.0008;
-			minRange=5;
-			minRangeProbab=0.30000001;
-			midRange=25;
-			midRangeProbab=0.60000002;
-			maxRange=50;
-			maxRangeProbab=0.1;
-			aiRateOfFire=2;
-			aiRateOfFireDistance=25;
+			recoil = "recoil_single_trg";
+			recoilProne = "recoil_single_prone_trg";
+			minRange = 2;
+			minRangeProbab = 0.01;
+			midRange = 200;
+			midRangeProbab = 0.01;
+			maxRange = 400;
+			maxRangeProbab = 0.01;
 		};
 		class FullAuto: Mode_FullAuto
 		{
@@ -886,70 +520,68 @@ class cfgweapons
 			};
 			reloadTime=0.070011;
 			dispersion=0.0008;
-			minRange=5;
-			minRangeProbab=0.30000001;
-			midRange=25;
-			midRangeProbab=0.60000002;
-			maxRange=50;
-			maxRangeProbab=0.1;
-			aiRateOfFire=2;
-			aiRateOfFireDistance=25;
+			minRange = 2;
+			minRangeProbab = 0.01;
+			midRange = 200;
+			midRangeProbab = 0.01;
+			maxRange = 400;
+			maxRangeProbab = 0.01;
 		};
 		class close: FullAuto
 		{
 			burst = 10;
 			showToPlayer=0;
-			aiRateOfFire=0.25;
+			aiRateOfFire=0.5;
 			aiRateOfFireDistance=50;
 			minRange=0;
 			minRangeProbab=0.050000001;
 			midRange=30;
 			midRangeProbab=0.69999999;
 			maxRange=50;
-			maxRangeProbab=0.2;
+			maxRangeProbab = 0.04;
 		};
 		class short: close
 		{
 			burst = 8;
-			aiRateOfFire=1;
+			aiRateOfFire = 2;
 			aiRateOfFireDistance=300;
 			minRange=50;
-			minRangeProbab=0.2;
-			midRange=125;
+			minRangeProbab = 0.05;
+			midRange = 150;
 			midRangeProbab=0.69999999;
-			maxRange=200;
-			maxRangeProbab=0.2;
+			maxRange = 300;
+			maxRangeProbab = 0.04;
 		};
 		class medium: close
 		{
 			burst = 5;
-			aiRateOfFire=2;
+			aiRateOfFire=4;
 			aiRateOfFireDistance=600;
-			minRange=300;
-			minRangeProbab=0.2;
-			midRange=500;
-			midRangeProbab=0.69999999;
-			maxRange=600;
-			maxRangeProbab=0.2;
+			minRange = 200;
+			minRangeProbab = 0.05;
+			midRange = 400;
+			midRangeProbab = 0.6;
+			maxRange = 600;
+			maxRangeProbab = 0.1;
 		};
 		class far: close
 		{
 			burst = 3;
-			aiRateOfFire=4;
-			aiRateOfFireDistance=700;
-			minRange=600;
-			minRangeProbab=0.2;
-			midRange=650;
-			midRangeProbab=0.69999999;
-			maxRange=700;
-			maxRangeProbab=0.2;
+			aiRateOfFire = 6;
+			aiRateOfFireDistance = 700;
+			minRange = 350;
+			minRangeProbab = 0.04;
+			midRange = 550;
+			midRangeProbab = 0.5;
+			maxRange = 700;
+			maxRangeProbab = 0.01;
 		};
-		aiDispersionCoefY=2.5;
-		aiDispersionCoefX=2.5;
+		aiDispersionCoefY=10;
+		aiDispersionCoefX=10;
 		inertia=1;
 		dexterity=1.7;
 		initSpeed=-1;
-		recoil="442_recoil";
+		recoil = "recoil_trg21";
 		maxRecoilSway=0.015;
 		swayDecaySpeed=1.25;
 	};
@@ -1088,45 +720,12 @@ class cfgweapons
 		};
 		magazines[] = 
 		{
-			"442_45_45rnd_blue_mag",
-            "442_45_100rnd_blue_mag",
-            "442_45_45rnd_blue_b_mag",
-            "442_45_100rnd_blue_b_mag",
-
-			"442_45_45rnd_red_mag",
-            "442_45_100rnd_red_mag",
-            "442_45_45rnd_red_b_mag",
-            "442_45_100rnd_red_b_mag",
-
-			"442_45_45rnd_orange_mag",
-            "442_45_100rnd_orange_mag",
-            "442_45_45rnd_orange_b_mag",
-            "442_45_100rnd_orange_b_mag",
-
-			"442_45_45rnd_green_mag",
-            "442_45_100rnd_green_mag",
-            "442_45_45rnd_green_b_mag",
-            "442_45_100rnd_green_b_mag",
-
-			"442_45_45rnd_pink_mag",
-            "442_45_100rnd_pink_mag",
-            "442_45_45rnd_pink_b_mag",
-            "442_45_100rnd_pink_b_mag",
-
-			"442_45_45rnd_purple_mag",
-            "442_45_100rnd_purple_mag",
-            "442_45_45rnd_purple_b_mag",
-            "442_45_100rnd_purple_b_mag",
-
-			"442_45_45rnd_black_mag",
-            "442_45_100rnd_black_mag",
-            "442_45_45rnd_white_b_mag",
-            "442_45_100rnd_white_b_mag",
-
-			"442_45_45rnd_yellow_mag",
-            "442_45_100rnd_yellow_mag",
-            "442_45_45rnd_yellow_b_mag",
-            "442_45_100rnd_yellow_b_mag"
+			"442_45_45rnd_blue_mag"
+		};
+		magazinewell[] = 
+		{
+			"k_45_45rnd_magazine",
+			"k_45_100rnd_magazine",
 		};
 	};
 ///dc15sa
@@ -1140,29 +739,12 @@ class cfgweapons
 		};
 		magazines[]=
 		{
-			"442_127x33_10rnd_blue_mag",
-			"442_127x33_10rnd_blue_b_mag",
-
-			"442_127x33_10rnd_red_mag",
-			"442_127x33_10rnd_red_b_mag",
-
-			"442_127x33_10rnd_orange_mag",
-			"442_127x33_10rnd_orange_b_mag",
-
-			"442_127x33_10rnd_green_mag",
-			"442_127x33_10rnd_green_b_mag",
-
-			"442_127x33_10rnd_pink_mag",
-			"442_127x33_10rnd_pink_b_mag",
-
-			"442_127x33_10rnd_purple_mag",
-			"442_127x33_10rnd_purple_b_mag",
-
-			"442_127x33_10rnd_black_mag",
-			"442_127x33_10rnd_white_b_mag",
-
-			"442_127x33_10rnd_yellow_mag",
-			"442_127x33_10rnd_yellow_b_mag"
+			"442_127x33_10rnd_blue_mag"
+		};
+		magazinewell[] = 
+		{
+			"k_127x33_10rnd_magazine",
+			"dc15sa_magazines"
 		};
 		displayName="DC-15SA";
 		modes[]=
@@ -1254,29 +836,12 @@ class cfgweapons
 		scope=2;
 		magazines[]=
 		{
-			"442_408_10rnd_blue_mag",
-			"442_408_10rnd_blue_b_mag",
-
-			"442_408_10rnd_red_mag",
-			"442_408_10rnd_red_b_mag",
-
-			"442_408_10rnd_orange_mag",
-			"442_408_10rnd_orange_b_mag",
-
-			"442_408_10rnd_green_mag",
-			"442_408_10rnd_green_b_mag",
-
-			"442_408_10rnd_pink_mag",
-			"442_408_10rnd_pink_b_mag",
-
-			"442_408_10rnd_purple_mag",
-			"442_408_10rnd_purple_b_mag",
-
-			"442_408_10rnd_black_mag",
-			"442_408_10rnd_white_b_mag",
-
-			"442_408_10rnd_yellow_mag",
-			"442_408_10rnd_yellow_b_mag"
+			"442_408_10rnd_blue_mag"
+		};
+		magazinewell[] = 
+		{
+			"k_408_10rnd_magazine",
+			"dc15x_magazines"
 		};
 		displayname="DC-15X";
 		maxZeroing=1200;
@@ -1454,29 +1019,11 @@ class cfgweapons
 		initSpeed = -1;
 		magazines[]=
 		{
-			"442_127x108_5rnd_blue_mag",
-			"442_127x108_5rnd_blue_b_mag",
-
-			"442_127x108_5rnd_red_mag",
-			"442_127x108_5rnd_red_b_mag",
-
-			"442_127x108_5rnd_orange_mag",
-			"442_127x108_5rnd_orange_b_mag",
-
-			"442_127x108_5rnd_green_mag",
-			"442_127x108_5rnd_green_b_mag",
-
-			"442_127x108_5rnd_pink_mag",
-			"442_127x108_5rnd_pink_b_mag",
-
-			"442_127x108_5rnd_purple_mag",
-			"442_127x108_5rnd_purple_b_mag",
-
-			"442_127x108_5rnd_black_mag",
-			"442_127x108_5rnd_white_b_mag",
-
-			"442_127x108_5rnd_yellow_mag",
-			"442_127x108_5rnd_yellow_b_mag"
+			"442_127x108_5rnd_blue_mag"
+		};
+		magazinewell[] = 
+		{
+			"k_127x108_5rnd_magazine"
 		};
 		class Single: Mode_SemiAuto
 		{
@@ -1550,29 +1097,12 @@ class cfgweapons
 		};
 		magazines[]=
 		{
-			"442_9_20rnd_blue_mag",
-			"442_9_20rnd_blue_b_mag",
-
-			"442_9_20rnd_red_mag",
-			"442_9_20rnd_red_b_mag",
-
-			"442_9_20rnd_orange_mag",
-			"442_9_20rnd_orange_b_mag",
-
-			"442_9_20rnd_green_mag",
-			"442_9_20rnd_green_b_mag",
-
-			"442_9_20rnd_pink_mag",
-			"442_9_20rnd_pink_b_mag",
-
-			"442_9_20rnd_purple_mag",
-			"442_9_20rnd_purple_b_mag",
-
-			"442_9_20rnd_black_mag",
-			"442_9_20rnd_white_b_mag",
-
-			"442_9_20rnd_yellow_mag",
-			"442_9_20rnd_yellow_b_mag"
+			"442_9_20rnd_blue_mag"
+		};
+		magazinewell[] = 
+		{
+			"k_9_20Rnd_magazines",
+			"dc17_magazines"
 		};
 		displayName="DC-17";
 		modes[]=
@@ -1698,7 +1228,10 @@ class cfgweapons
 				"SWLW_flareRed_mag",
 				"SWLW_smokeRed_mag"
 			};
-			magazineWell[]={};
+			magazineWell[]=
+			{
+				"dc17_grenades"
+			};
 			cameraDir="OP_look";
 			discreteDistance[]={100};
 			discreteDistanceCameraPoint[]=
@@ -1720,6 +1253,10 @@ class cfgweapons
 		magazines[]=
 		{
 			"442_40_6rnd_he_blue_mag"
+		};
+		magazinewell[] = 
+		{
+			"gl_magazines"
 		};
 		displayname="Grenade launcher";
 		modes[]=
@@ -1989,61 +1526,13 @@ class cfgweapons
 		//model="\SWLW_clones\smgs\westar_m5\WestarM5.p3d";
 		magazines[]=
 		{
-			"442_65_30rnd_blue_mag",
-			"442_65_60rnd_blue_mag",
-			"442_65_100rnd_blue_mag",
-			"442_65_30rnd_blue_b_mag",
-			"442_65_60rnd_blue_b_mag",
-			"442_65_100rnd_blue_b_mag",
-
-			"442_65_30rnd_red_mag",
-			"442_65_60rnd_red_mag",
-			"442_65_100rnd_red_mag",
-			"442_65_30rnd_red_b_mag",
-			"442_65_60rnd_red_b_mag",
-			"442_65_100rnd_red_b_mag",
-
-			"442_65_30rnd_orange_mag",
-			"442_65_60rnd_orange_mag",
-			"442_65_100rnd_orange_mag",
-			"442_65_30rnd_orange_b_mag",
-			"442_65_60rnd_orange_b_mag",
-			"442_65_100rnd_orange_b_mag",
-
-			"442_65_30rnd_green_mag",
-			"442_65_60rnd_green_mag",
-			"442_65_100rnd_green_mag",
-			"442_65_30rnd_green_b_mag",
-			"442_65_60rnd_green_b_mag",
-			"442_65_100rnd_green_b_mag",
-
-			"442_65_30rnd_pink_mag",
-			"442_65_60rnd_pink_mag",
-			"442_65_100rnd_pink_mag",
-			"442_65_30rnd_pink_b_mag",
-			"442_65_60rnd_pink_b_mag",
-			"442_65_100rnd_pink_b_mag",
-
-			"442_65_30rnd_purple_mag",
-			"442_65_60rnd_purple_mag",
-			"442_65_100rnd_purple_mag",
-			"442_65_30rnd_purple_b_mag",
-			"442_65_60rnd_purple_b_mag",
-			"442_65_100rnd_purple_b_mag",
-
-			"442_65_30rnd_black_mag",
-			"442_65_60rnd_black_mag",
-			"442_65_100rnd_black_mag",
-			"442_65_30rnd_white_b_mag",
-			"442_65_60rnd_white_b_mag",
-			"442_65_100rnd_white_b_mag",
-
-			"442_65_30rnd_yellow_mag",
-			"442_65_60rnd_yellow_mag",
-			"442_65_100rnd_yellow_mag",
-			"442_65_30rnd_yellow_b_mag",
-			"442_65_60rnd_yellow_b_mag",
-			"442_65_100rnd_yellow_b_mag"
+			"442_65_30rnd_blue_mag"
+		};
+		magazinewell[] = 
+		{
+			"k_65_30rnd_magazine",
+			"k_65_60rnd_magazine",
+			"k_65_100rnd_magazine"
 		};
 		displayname="Westar M5";
 		modes[]=
@@ -2308,132 +1797,16 @@ class cfgweapons
 		magazines[]=
 		{
 			"442_556_200rnd_blue_mag",
-			"442_556_20rnd_blue_mag",
-			"442_556_30rnd_blue_mag",
-			"442_556_60rnd_blue_mag",
-			"442_556_100rnd_blue_mag",
-			"442_556_150rnd_blue_mag",
-			"442_556_500rnd_blue_mag",
-
-			"442_556_20rnd_red_mag",
-			"442_556_30rnd_red_mag",
-			"442_556_60rnd_red_mag",
-			"442_556_100rnd_red_mag",
-			"442_556_150rnd_red_mag",
-			"442_556_200rnd_red_mag",
-			"442_556_500rnd_red_mag",
-
-			"442_556_20rnd_orange_mag",
-			"442_556_30rnd_orange_mag",
-			"442_556_60rnd_orange_mag",
-			"442_556_100rnd_orange_mag",
-			"442_556_150rnd_orange_mag",
-			"442_556_200rnd_orange_mag",
-			"442_556_500rnd_orange_mag",
-
-			"442_556_20rnd_green_mag",
-			"442_556_30rnd_green_mag",
-			"442_556_60rnd_green_mag",
-			"442_556_100rnd_green_mag",
-			"442_556_150rnd_green_mag",
-			"442_556_200rnd_green_mag",
-			"442_556_500rnd_green_mag",
-
-			"442_556_20rnd_pink_mag",
-			"442_556_30rnd_pink_mag",
-			"442_556_60rnd_pink_mag",
-			"442_556_100rnd_pink_mag",
-			"442_556_150rnd_pink_mag",
-			"442_556_200rnd_pink_mag",
-			"442_556_500rnd_pink_mag",
-
-			"442_556_20rnd_purple_mag",
-			"442_556_30rnd_purple_mag",
-			"442_556_60rnd_purple_mag",
-			"442_556_100rnd_purple_mag",
-			"442_556_150rnd_purple_mag",
-			"442_556_200rnd_purple_mag",
-			"442_556_500rnd_purple_mag",
-
-			"442_556_20rnd_black_mag",
-			"442_556_30rnd_black_mag",
-			"442_556_60rnd_black_mag",
-			"442_556_100rnd_black_mag",
-			"442_556_150rnd_black_mag",
-			"442_556_200rnd_black_mag",
-			"442_556_500rnd_black_mag",
-
-			"442_556_20rnd_yellow_mag",
-			"442_556_30rnd_yellow_mag",
-			"442_556_60rnd_yellow_mag",
-			"442_556_100rnd_yellow_mag",
-			"442_556_150rnd_yellow_mag",
-			"442_556_200rnd_yellow_mag",
-			"442_556_500rnd_yellow_mag",
-
-			"442_556_20rnd_blue_b_mag",
-			"442_556_30rnd_blue_b_mag",
-			"442_556_60rnd_blue_b_mag",
-			"442_556_100rnd_blue_b_mag",
-			"442_556_150rnd_blue_b_mag",
-			"442_556_200rnd_blue_b_mag",
-			"442_556_500rnd_blue_b_mag",
-
-			"442_556_20rnd_red_b_mag",
-			"442_556_30rnd_red_b_mag",
-			"442_556_60rnd_red_b_mag",
-			"442_556_100rnd_red_b_mag",
-			"442_556_150rnd_red_b_mag",
-			"442_556_200rnd_red_b_mag",
-			"442_556_500rnd_red_b_mag",
-
-			"442_556_20rnd_orange_b_mag",
-			"442_556_30rnd_orange_b_mag",
-			"442_556_60rnd_orange_b_mag",
-			"442_556_100rnd_orange_b_mag",
-			"442_556_150rnd_orange_b_mag",
-			"442_556_200rnd_orange_b_mag",
-			"442_556_500rnd_orange_b_mag",
-
-			"442_556_20rnd_green_b_mag",
-			"442_556_30rnd_green_b_mag",
-			"442_556_60rnd_green_b_mag",
-			"442_556_100rnd_green_b_mag",
-			"442_556_150rnd_green_b_mag",
-			"442_556_150rnd_green_b_mag",
-			"442_556_500rnd_green_b_mag",
-
-			"442_556_20rnd_pink_b_mag",
-			"442_556_30rnd_pink_b_mag",
-			"442_556_60rnd_pink_b_mag",
-			"442_556_100rnd_pink_b_mag",
-			"442_556_150rnd_pink_b_mag",
-			"442_556_200rnd_pink_b_mag",
-			"442_556_500rnd_pink_b_mag",
-
-			"442_556_20rnd_purple_b_mag",
-			"442_556_30rnd_purple_b_mag",
-			"442_556_60rnd_purple_b_mag",
-			"442_556_100rnd_purple_b_mag",
-			"442_556_150rnd_purple_b_mag",
-			"442_556_200rnd_purple_b_mag",
-			"442_556_5000rnd_purple_b_mag",
-
-			"442_556_20rnd_white_b_mag",
-			"442_556_30rnd_white_b_mag",
-			"442_556_60rnd_white_b_mag",
-			"442_556_100rnd_white_b_mag",
-			"442_556_150rnd_white_b_mag",
-			"442_556_200rnd_white_b_mag",
-			"442_556_500rnd_white_b_mag",
-
-			"442_556_20rnd_yellow_b_mag",
-			"442_556_30rnd_yellow_b_mag",
-			"442_556_60rnd_yellow_b_mag",
-			"442_556_100rnd_yellow_b_mag",
-			"442_556_150rnd_yellow_b_mag",
-			"442_556_200rnd_yellow_b_mag",
-			"442_556_500rnd_yellow_b_mag"
+		};
+		magazinewell[] =
+		{
+			"z6_magazines",
+			"k_556_20rnd_magazine",
+			"k_556_30rnd_magazine",
+			"k_556_100rnd_magazine",
+			"k_556_150rnd_magazine",
+			"k_556_200rnd_magazine",
+			"k_556_500rnd_magazine"
 		};
 		muzzles[]=
 		{
@@ -2606,38 +1979,16 @@ class cfgweapons
 		//model="\442_weapons\droids\e5\e5.p3d";
 		magazines[]=
 		{
-			"442_65_30rnd_blue_mag",
-			"442_65_60rnd_blue_mag",
-			"442_65_30rnd_red_mag",
-			"442_65_60rnd_red_mag",
-			"442_65_30rnd_orange_mag",
-			"442_65_60rnd_orange_mag",
-			"442_65_30rnd_green_mag",
-			"442_65_60rnd_green_mag",
-			"442_65_30rnd_pink_mag",
-			"442_65_60rnd_pink_mag",
-			"442_65_30rnd_purple_mag",
-			"442_65_60rnd_purple_mag",
-			"442_65_30rnd_black_mag",
-			"442_65_60rnd_black_mag",
-			"442_65_30rnd_yellow_mag",
-			"442_65_60rnd_yellow_mag",
-			"442_65_30rnd_blue_b_mag",
-			"442_65_60rnd_blue_b_mag",
-			"442_65_30rnd_red_b_mag",
-			"442_65_60rnd_red_b_mag",
-			"442_65_30rnd_orange_b_mag",
-			"442_65_60rnd_orange_b_mag",
-			"442_65_30rnd_green_b_mag",
-			"442_65_60rnd_green_b_mag",
-			"442_65_30rnd_pink_b_mag",
-			"442_65_60rnd_pink_b_mag",
-			"442_65_30rnd_purple_b_mag",
-			"442_65_60rnd_purple_b_mag",
-			"442_65_30rnd_white_b_mag",
-			"442_65_60rnd_white_b_mag",
-			"442_65_30rnd_yellow_b_mag",
-			"442_65_60rnd_yellow_b_mag"
+			"442_65_30rnd_blue_mag"
+		};
+		magazinewell[] = 
+		{
+			"k_65_30rnd_magazine",
+			"k_65_60rnd_magazine",
+			"k_65_100rnd_magazine",
+			"k_65_150rnd_magazine",
+			"k_65_200rnd_magazine",
+			"e5_magazines"
 		};
 		displayname="E-5 carbine";
 		modes[]=
@@ -2689,12 +2040,12 @@ class cfgweapons
 			};
 			reloadTime=0.2;
 			dispersion=0.0049999999;
-			minRange=5;
-			minRangeProbab=0.30000001;
-			midRange=25;
-			midRangeProbab=0.60000002;
-			maxRange=50;
-			maxRangeProbab=0.1;
+			minRange = 2;
+			minRangeProbab = 0.01;
+			midRange = 200;
+			midRangeProbab = 0.01;
+			maxRange = 400;
+			maxRangeProbab = 0.01;
 			aiRateOfFire=2;
 			aiRateOfFireDistance=25;
 		};
@@ -2735,63 +2086,61 @@ class cfgweapons
 			};
 			reloadTime=0.19;
 			dispersion=0.0049999999;
-			minRange=5;
-			minRangeProbab=0.30000001;
-			midRange=25;
-			midRangeProbab=0.60000002;
-			maxRange=50;
-			maxRangeProbab=0.1;
-			aiRateOfFire=2;
-			aiRateOfFireDistance=25;
+			minRange = 2;
+			minRangeProbab = 0.01;
+			midRange = 200;
+			midRangeProbab = 0.01;
+			maxRange = 400;
+			maxRangeProbab = 0.01;
 		};
 		class close: FullAuto
 		{
 			burst = 10;
 			showToPlayer=0;
-			aiRateOfFire=0.25;
-			aiRateOfFireDistance=50;
+			aiRateOfFire = 0.5;
+			aiRateOfFireDistance = 50;
 			minRange=0;
 			minRangeProbab=0.050000001;
-			midRange=25;
+			midRange=30;
 			midRangeProbab=0.69999999;
 			maxRange=50;
-			maxRangeProbab=0.2;
+			maxRangeProbab=0.02;
 		};
 		class short: close
 		{
 			burst = 8;
-			aiRateOfFire=1;
+			aiRateOfFire=2;
 			aiRateOfFireDistance=300;
-			minRange=50;
-			minRangeProbab=0.2;
-			midRange=125;
-			midRangeProbab=0.69999999;
-			maxRange=200;
-			maxRangeProbab=0.2;
+			minRange = 50;
+			minRangeProbab = 0.05;
+			midRange = 150;
+			midRangeProbab = 0.7;
+			maxRange = 300;
+			maxRangeProbab = 0.04;
 		};
 		class medium: close
 		{
 			burst = 5;
-			aiRateOfFire=2;
-			aiRateOfFireDistance=600;
-			minRange=200;
-			minRangeProbab=0.2;
-			midRange=300;
-			midRangeProbab=0.69999999;
-			maxRange=400;
-			maxRangeProbab=0.2;
+			aiRateOfFire = 4;
+			aiRateOfFireDistance = 600;
+			minRange = 200;
+			minRangeProbab = 0.05;
+			midRange = 400;
+			midRangeProbab = 0.6;
+			maxRange = 600;
+			maxRangeProbab = 0.1;
 		};
 		class far: close
 		{
 			burst = 3;
-			aiRateOfFire=4;
-			aiRateOfFireDistance=700;
-			minRange=400;
-			minRangeProbab=0.2;
-			midRange=500;
-			midRangeProbab=0.69999999;
-			maxRange=600;
-			maxRangeProbab=0.2;
+			aiRateOfFire = 6;
+			aiRateOfFireDistance = 700;
+			minRange = 350;
+			minRangeProbab = 0.04;
+			midRange = 550;
+			midRangeProbab = 0.5;
+			maxRange = 700;
+			maxRangeProbab = 0.01;
 		};
 	};
 ///e5c
@@ -2802,54 +2151,14 @@ class cfgweapons
 		scope=2;
 		magazines[]=
 		{
-			"442_65_30rnd_blue_mag",
-			"442_65_60rnd_blue_mag",
-			"442_65_100rnd_blue_mag",
-			"442_65_30rnd_red_mag",
-			"442_65_60rnd_red_mag",
-			"442_65_100rnd_red_mag",
-			"442_65_30rnd_orange_mag",
-			"442_65_60rnd_orange_mag",
-			"442_65_100rnd_orange_mag",
-			"442_65_30rnd_green_mag",
-			"442_65_60rnd_green_mag",
-			"442_65_100rnd_green_mag",
-			"442_65_30rnd_pink_mag",
-			"442_65_60rnd_pink_mag",
-			"442_65_100rnd_pink_mag",
-			"442_65_30rnd_purple_mag",
-			"442_65_60rnd_purple_mag",
-			"442_65_100rnd_purple_mag",
-			"442_65_30rnd_black_mag",
-			"442_65_60rnd_black_mag",
-			"442_65_100rnd_black_mag",
-			"442_65_30rnd_yellow_mag",
-			"442_65_60rnd_yellow_mag",
-			"442_65_100rnd_yellow_mag",
-			"442_65_30rnd_blue_b_mag",
-			"442_65_60rnd_blue_b_mag",
-			"442_65_100rnd_blue_b_mag",
-			"442_65_30rnd_red_b_mag",
-			"442_65_60rnd_red_b_mag",
-			"442_65_100rnd_red_b_mag",
-			"442_65_30rnd_orange_b_mag",
-			"442_65_60rnd_orange_b_mag",
-			"442_65_100rnd_orange_b_mag",
-			"442_65_30rnd_green_b_mag",
-			"442_65_60rnd_green_b_mag",
-			"442_65_100rnd_green_b_mag",
-			"442_65_30rnd_pink_b_mag",
-			"442_65_60rnd_pink_b_mag",
-			"442_65_100rnd_pink_b_mag",
-			"442_65_30rnd_purple_b_mag",
-			"442_65_60rnd_purple_b_mag",
-			"442_65_100rnd_purple_b_mag",
-			"442_65_30rnd_white_b_mag",
-			"442_65_60rnd_white_b_mag",
-			"442_65_100rnd_white_b_mag",
-			"442_65_30rnd_yellow_b_mag",
-			"442_65_60rnd_yellow_b_mag",
-			"442_65_100rnd_yellow_b_mag"
+			"442_65_60rnd_red_mag"
+		};
+		magazinewell[] = 
+		{
+			"k_65_30rnd_magazine",
+			"k_65_60rnd_magazine",
+			"k_65_100rnd_magazine",
+			"e5c_magazines"
 		};
 		ace_overheating_allowSwapBarrel=1;
 		muzzles[]=
@@ -2895,65 +2204,65 @@ class cfgweapons
 			};
 			reloadTime=0.15000001;
 			dispersion=0.0070000002;
-			minRange=0;
-			minRangeProbab=0.89999998;
-			midRange=15;
-			midRangeProbab=0.69999999;
-			maxRange=30;
-			maxRangeProbab=0.1;
+			minRange = 2;
+			minRangeProbab = 0.01;
+			midRange = 200;
+			midRangeProbab = 0.01;
+			maxRange = 400;
+			maxRangeProbab = 0.01;
 		};
 		class close: FullAuto
 		{
-			burst = 20;
+			burst = 10;
 			showToPlayer=0;
-			aiRateOfFire=0.25;
-			aiRateOfFireDistance=50;
+			aiRateOfFire = 0.5;
+			aiRateOfFireDistance = 50;
 			minRange=0;
 			minRangeProbab=0.050000001;
-			midRange=25;
+			midRange=30;
 			midRangeProbab=0.69999999;
 			maxRange=50;
-			maxRangeProbab=0.2;
+			maxRangeProbab=0.02;
 		};
 		class short: close
 		{
-			burst = 16;
-			aiRateOfFire=1;
+			burst = 8;
+			aiRateOfFire=2;
 			aiRateOfFireDistance=300;
-			minRange=50;
-			minRangeProbab=0.2;
-			midRange=150;
-			midRangeProbab=0.69999999;
-			maxRange=250;
-			maxRangeProbab=0.2;
+			minRange = 50;
+			minRangeProbab = 0.05;
+			midRange = 150;
+			midRangeProbab = 0.7;
+			maxRange = 300;
+			maxRangeProbab = 0.04;
 		};
 		class medium: close
 		{
-			burst = 10;
-			aiRateOfFire=2;
-			aiRateOfFireDistance=600;
-			minRange=250;
-			minRangeProbab=0.2;
-			midRange=375;
-			midRangeProbab=0.69999999;
-			maxRange=500;
-			maxRangeProbab=0.2;
+			burst = 5;
+			aiRateOfFire = 4;
+			aiRateOfFireDistance = 600;
+			minRange = 200;
+			minRangeProbab = 0.05;
+			midRange = 400;
+			midRangeProbab = 0.6;
+			maxRange = 600;
+			maxRangeProbab = 0.1;
 		};
 		class far: close
 		{
-			burst = 6;
-			aiRateOfFire=4;
-			aiRateOfFireDistance=700;
-			minRange=500;
-			minRangeProbab=0.2;
-			midRange=625;
-			midRangeProbab=0.69999999;
-			maxRange=750;
-			maxRangeProbab=0.2;
+			burst = 3;
+			aiRateOfFire = 6;
+			aiRateOfFireDistance = 700;
+			minRange = 350;
+			minRangeProbab = 0.04;
+			midRange = 550;
+			midRangeProbab = 0.5;
+			maxRange = 700;
+			maxRangeProbab = 0.01;
 		};
 		recoil="SWLW_Z6_recoil";
-		aiDispersionCoefY=6;
-		aiDispersionCoefX=4;
+		aiDispersionCoefY=10;
+		aiDispersionCoefX=10;
 	};
 
 };
@@ -3313,4 +2622,765 @@ class cfgvehicles
             };
         };
     };
+};
+
+class cfgmagazinewells
+{
+///other mods
+	class dc15a_magazines
+	{
+		ls_magazines[] = 
+		{
+			"SWLW_DC15A_Mag"
+		};
+		ls_stun_magazines[] = 
+		{
+			"ls_mag_stunLow_2rnd"
+		};
+		ls_ion_magazines[] = 
+		{
+			"ls_mag_ionLow_1rnd"
+		};
+		jlts_magazines[] = 
+		{
+			"JLTS_DC15A_mag"
+		};
+		3as_magazines[] =
+		{
+			"3as_45rnd_ec50_mag"
+		};
+	};
+	class dc15a_grenades
+	{
+		ls_magazines[] = 
+		{
+			"SWLW_DC15A_UGL_Mag",
+			"SWLW_DC15A_UGL_huntir_Mag",
+			"SWLW_DC15A_UGL_flare_white_Mag",
+			"SWLW_DC15A_UGL_flare_red_Mag",
+			"SWLW_DC15A_UGL_flare_gree_Mag",
+			"SWLW_DC15A_UGL_smoke_white_Mag",
+			"SWLW_DC15A_UGL_smoke_red_Mag",
+			"SWLW_DC15A_UGL_smoke_purple_Mag",
+			"SWLW_DC15A_UGL_smoke_blue_Mag",
+			"SWLW_DC15A_UGL_smoke_green_Mag"
+		};
+		jlts_stun[] = 
+		{
+			"jlts_stun_mag_long",
+			"jlts_stun_mag_short",
+		};
+	};
+	class dc15s_magazines 
+	{
+		ls_magazines[] = 
+		{
+			"SWLW_DC15s_Mag"
+		};
+		jlts_magazines[] =
+		{
+			"JLTS_DC15A_mag",
+			"JLTS_DC15S_mag"
+		};
+		3a_magazines[] =
+		{
+			"3as_60rnd_ec30_mag"
+		};
+	};
+	class dc15s_grenades
+	{
+		jlts_stun[] = 
+		{
+			"jlts_stun_mag_long",
+			"jlts_stun_mag_short",
+		};
+	};
+	class dc15sa_magazines 
+	{
+		ls_magazines[] = 
+		{
+			"SWLW_DC15SA_Mag"
+		};
+		3as_magazines[] =
+		{
+			"3as_15rnd_ec30_mag"
+		};
+	};
+	class dc15x_magazines 
+	{
+		ls_magazines[] = 
+		{
+			"SWLW_DC15X_Mag"
+		};
+		jlts_magazine[] =
+		{
+			"jlts_dc15x_mag",
+		};
+	};
+	class dc17_magazines 
+	{
+		ls_magazines[] = 
+		{
+			"SWLW_DC17_Mag"
+		};
+		jlts_magazines[] =
+		{
+			"jlts_dc17sa_mag"	
+		};
+		3as_magazines[] =
+		{
+			"3as_16rnd_ec20_mag"
+		};
+	};
+	class dc17_grenades
+	{
+		ls_magazines[] = 
+		{
+			"SWLW_flareRed_mag",
+			"SWLW_smokeRed_mag"
+		};
+		jlts_stun[] = 
+		{
+			"jlts_stun_mag_long",
+			"jlts_stun_mag_short",
+		};
+	};
+	class z6_magazines 
+	{
+		ls_magazines[] = 
+		{
+			"SWLW_Z6_mag"
+		};
+		jlts_magazines[] =
+		{
+			"jlts_z6_mag",
+		};
+		3as_magazines[] =
+		{
+			"3as_200rnd_ec40_mag"
+		};
+	};
+	class e5_magazines 
+	{
+		ls_magazines[] = 
+		{
+			"SWLW_E5_Mag"
+		};
+		jlts_magzines[] =
+		{
+			"jlts_e5_mag"
+		};
+		3as_magazines[] =
+		{
+			"3as_60rnd_em50_redplasma"
+		};
+	};
+	class e5c_magazines 
+	{
+		ls_magazines[] = 
+		{
+			"SWLW_E5C_mag"
+		};
+		jlts_magzines[] =
+		{
+			"jlts_e5c_mag"
+		};
+		3as_magazines[] =
+		{
+			"3as_130rnd_em50_redplasma"
+		};
+	};
+	class gl_magazines
+	{
+		gl_magazines[] = 
+		{
+			"SWLW_mag_40mm_3rnd"
+		};
+	};
+///kobra
+
+	class k_9_20Rnd_magazines
+	{
+		k_9_20Rnd_magazine[] = 
+		{
+			"442_762_20rnd_blue_mag",
+			"442_9_20rnd_red_mag",
+			"442_9_20rnd_green_mag",
+			"442_9_20rnd_pink_mag",
+			"442_9_20rnd_purple_mag",
+			"442_9_20rnd_orange_mag",
+			"442_9_20rnd_black_mag",
+			"442_9_20rnd_yellow_mag",
+		};
+		k_9_20Rnd_b_magazine[] = 
+		{
+			"442_9_20rnd_blue_b_mag",
+			"442_9_20rnd_red_b_mag",
+			"442_9_20rnd_green_b_mag",
+			"442_9_20rnd_pink_b_mag",
+			"442_9_20rnd_purple_b_mag",
+			"442_9_20rnd_orange_b_mag",
+			"442_9_20rnd_white_b_mag",
+			"442_9_20rnd_yellow_b_mag"
+		};
+	};
+
+	class k_45_45rnd_magazine
+	{
+		k_45_45rnd_magazine[] =
+		{
+			"442_45_45rnd_blue_mag",
+			"442_45_45rnd_red_mag",
+			"442_45_45rnd_orange_mag".
+			"442_45_45rnd_green_mag",
+			"442_45_45rnd_pink_mag",
+			"442_45_45rnd_purple_mag",
+			"442_45_45rnd_black_mag",
+			"442_45_45rnd_yellow_mag"
+		};
+		k_45_45rnd_b_magazine[] =
+		{
+			"442_45_45rnd_blue_b_mag",
+			"442_45_45rnd_red_b_mag",
+			"442_45_45rnd_orange_b_mag",
+			"442_45_45rnd_green_b_mag",
+			"442_45_45rnd_pink_b_mag",
+			"442_45_45rnd_purple_b_mag",
+			"442_45_45rnd_white_b_mag",
+			"442_45_45rnd_yellow_b_mag"
+		};
+	};
+	class k_45_100rnd_magazine
+	{
+		k_45_100rnd_magazine[] =
+		{
+			"442_45_100rnd_blue_mag",
+			"442_45_100rnd_red_mag",
+			"442_45_100rnd_orange_mag",
+			"442_45_100rnd_green_mag",
+			"442_45_100rnd_pink_mag",
+			"442_45_100rnd_purple_mag",
+			"442_45_100rnd_black_mag",
+			"442_45_100rnd_yellow_mag"
+		};
+		k_45_100rnd_b_magazine[] = 
+		{
+			"442_45_100rnd_blue_b_mag",
+			"442_45_100rnd_red_b_mag",
+			"442_45_100rnd_orange_b_mag",
+			"442_45_100rnd_green_b_mag",
+			"442_45_100rnd_pink_b_mag",
+			"442_45_100rnd_purple_b_mag",
+			"442_45_100rnd_white_b_mag",
+			"442_45_100rnd_yellow_b_mag"
+		};
+	};
+
+	class k_65_30rnd_magazine
+	{
+		k_65_30rnd_magazine[] =
+		{
+			"442_65_30rnd_blue_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_orange_mag",
+			"442_65_30rnd_green_mag",
+			"442_65_30rnd_pink_mag",
+			"442_65_30rnd_purple_mag",
+			"442_65_30rnd_black_mag",
+			"442_65_30rnd_yellow_mag"	
+		};
+		k_65_30rnd_b_magazine[] =
+		{
+			"442_65_30rnd_blue_b_mag",
+			"442_65_30rnd_red_b_mag",
+			"442_65_30rnd_orange_b_mag",
+			"442_65_30rnd_green_b_mag",
+			"442_65_30rnd_pink_b_mag",
+			"442_65_30rnd_purple_b_mag",
+			"442_65_30rnd_white_b_mag",
+			"442_65_30rnd_yellow_b_mag"
+		};
+	};
+	class k_65_60rnd_magazine
+	{
+		k_65_60rnd_magazine[] =
+		{
+			"442_65_60rnd_blue_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_orange_mag",
+			"442_65_60rnd_green_mag",
+			"442_65_60rnd_pink_mag",
+			"442_65_60rnd_purple_mag",
+			"442_65_60rnd_black_mag",
+			"442_65_60rnd_yellow_mag"
+		};
+		k_65_60rnd_b_magazine[] =
+		{
+			"442_65_60rnd_blue_b_mag",
+			"442_65_60rnd_red_b_mag",
+			"442_65_60rnd_orange_b_mag",
+			"442_65_60rnd_green_b_mag",
+			"442_65_60rnd_pink_b_mag",
+			"442_65_60rnd_purple_b_mag",
+			"442_65_60rnd_white_b_mag",
+			"442_65_60rnd_yellow_b_mag"
+		};
+	};
+	class k_65_100rnd_magazine 
+	{	
+		k_65_100rnd_magazine[] =
+		{
+			"442_65_100rnd_blue_mag",
+			"442_65_100rnd_red_mag",
+			"442_65_100rnd_orange_mag",
+			"442_65_100rnd_green_mag",
+			"442_65_100rnd_pink_mag",
+			"442_65_100rnd_purple_mag",
+			"442_65_100rnd_black_mag",
+			"442_65_100rnd_yellow_mag"
+		};
+		k_65_100rnd_b_magazine[] =
+		{
+			"442_65_100rnd_blue_b_mag",
+			"442_65_100rnd_red_b_mag",
+			"442_65_100rnd_orange_b_mag",
+			"442_65_100rnd_green_b_mag",
+			"442_65_100rnd_pink_b_mag",
+			"442_65_100rnd_purple_b_mag",
+			"442_65_100rnd_white_b_mag",
+			"442_65_100rnd_yellow_b_mag"
+		};
+	};
+	class k_65_150rnd_magazine 
+	{
+		k_65_150rnd_magazine[] =
+		{
+			"442_65_150rnd_blue_mag",
+			"442_65_150rnd_red_mag",
+			"442_65_150rnd_orange_mag",
+			"442_65_150rnd_green_mag",
+			"442_65_150rnd_pink_mag",
+			"442_65_150rnd_purple_mag",
+			"442_65_150rnd_black_mag",
+			"442_65_150rnd_yellow_mag"
+		};
+		k_65_150rnd_b_magazine[] =
+		{
+			"442_65_150rnd_blue_b_mag",
+			"442_65_150rnd_red_b_mag",
+			"442_65_150rnd_orange_b_mag",
+			"442_65_150rnd_green_b_mag",
+			"442_65_150rnd_pink_b_mag",
+			"442_65_150rnd_purple_b_mag",
+			"442_65_150rnd_white_b_mag",
+			"442_65_150rnd_yellow_b_mag"
+		};
+	};
+	class k_65_200rnd_magazine
+	{
+		k_65_200rnd_magazine[] =
+		{
+			"442_65_200rnd_blue_mag",
+			"442_65_200rnd_red_mag",
+			"442_65_200rnd_orange_mag",
+			"442_65_200rnd_green_mag",
+			"442_65_200rnd_pink_mag",
+			"442_65_200rnd_purple_mag",
+			"442_65_200rnd_black_mag",
+			"442_65_200rnd_yellow_mag"
+		};
+		k_65_100rnd_b_magazine[] =
+		{
+			"442_65_200rnd_blue_b_mag",
+			"442_65_200rnd_red_b_mag",
+			"442_65_200rnd_orange_b_mag",
+			"442_65_200rnd_green_b_mag",
+			"442_65_200rnd_pink_b_mag",
+			"442_65_200rnd_purple_b_mag",
+			"442_65_200rnd_white_b_mag",
+			"442_65_200rnd_yellow_b_mag"
+		};
+	};
+
+	class k_127x33_10rnd_magazine
+	{
+		k_127x33_10rnd_magazine[] = 
+		{
+			"442_127x33_10rnd_blue_mag",
+			"442_127x33_10rnd_red_mag",
+			"442_127x33_10rnd_orange_mag",
+			"442_127x33_10rnd_green_mag",
+			"442_127x33_10rnd_pink_mag",
+			"442_127x33_10rnd_purple_mag",
+			"442_127x33_10rnd_black_mag",
+			"442_127x33_10rnd_yellow_mag"
+		};
+		k_127x33_10rnd_b_magazine[] = 
+		{
+			"442_127x33_10rnd_blue_b_mag",
+			"442_127x33_10rnd_red_b_mag",
+			"442_127x33_10rnd_orange_b_mag",
+			"442_127x33_10rnd_green_b_mag",
+			"442_127x33_10rnd_pink_b_mag",
+			"442_127x33_10rnd_purple_b_mag",
+			"442_127x33_10rnd_white_b_mag",
+			"442_127x33_10rnd_yellow_b_mag"
+		};
+	};
+
+	class k_127x108_5rnd_magazine
+	{
+		k_127x108_5rnd_magazine[] = 
+		{
+			"442_127x108_5rnd_blue_mag",
+			"442_127x108_5rnd_red_mag",
+			"442_127x108_5rnd_orange_mag",
+			"442_127x108_5rnd_green_mag",
+			"442_127x108_5rnd_pink_mag",
+			"442_127x108_5rnd_purple_mag",
+			"442_127x108_5rnd_black_mag",
+			"442_127x108_5rnd_yellow_mag"
+		};
+		k_127x108_5rnd_b_magazine[] = 
+		{
+			"442_127x108_5rnd_blue_b_mag",
+			"442_127x108_5rnd_red_b_mag",
+			"442_127x108_5rnd_orange_b_mag",
+			"442_127x108_5rnd_green_b_mag",
+			"442_127x108_5rnd_pink_b_mag",
+			"442_127x108_5rnd_purple_b_mag",
+			"442_127x108_5rnd_white_b_mag",
+			"442_127x108_5rnd_yellow_b_mag"
+		};
+	};
+
+	class k_338_10rnd_magazine
+	{
+		k_338_10rnd_magazine[] = 
+		{
+			"442_338_10rnd_blue_mag",
+			"442_338_10rnd_red_mag",
+			"442_338_10rnd_green_mag",
+			"442_338_10rnd_pink_mag",
+			"442_338_10rnd_purple_mag",
+			"442_338_10rnd_orange_mag",
+			"442_338_10rnd_black_mag",
+			"442_338_10rnd_yellow_mag"
+		};
+		k_338_10rnd_b_magazine[] = 
+		{
+			"442_338_10rnd_blue_b_mag",
+			"442_338_10rnd_red_b_mag",
+			"442_338_10rnd_green_b_mag",
+			"442_338_10rnd_pink_b_mag",
+			"442_338_10rnd_purple_b_mag",
+			"442_338_10rnd_orange_b_mag",
+			"442_338_10rnd_black_b_mag",
+			"442_338_10rnd_yellow_b_mag"
+		};
+	};
+
+	class k_408_10rnd_magazine
+	{
+		k_408_10rnd_magazine[] = 
+		{
+			"442_408_10rnd_blue_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_orange_mag",
+			"442_408_10rnd_green_mag",
+			"442_408_10rnd_pink_mag",
+			"442_408_10rnd_purple_mag",
+			"442_408_10rnd_black_mag",
+			"442_408_10rnd_yellow_mag"
+		};
+		k_408_10rnd_b_magazine[] = 
+		{
+			"442_408_10rnd_blue_b_mag",
+			"442_408_10rnd_red_b_mag",
+			"442_408_10rnd_orange_b_mag",
+			"442_408_10rnd_green_b_mag",
+			"442_408_10rnd_pink_b_mag",
+			"442_408_10rnd_purple_b_mag",
+			"442_408_10rnd_black_b_mag",
+			"442_408_10rnd_yellow_b_mag"
+		};
+	};
+
+	class k_556_20rnd_magazine
+	{
+		k_556_20rnd_magazine[] = 
+		{
+			"442_556_20rnd_blue_mag",
+			"442_556_20rnd_red_mag",
+			"442_556_20rnd_orange_mag",
+			"442_556_20rnd_green_mag",
+			"442_556_20rnd_pink_mag",
+			"442_556_20rnd_purple_mag",
+			"442_556_20rnd_black_mag",
+			"442_556_20rnd_yellow_mag"
+		};
+		k_556_20rnd_b_magazine[] = 
+		{
+			"442_556_20rnd_blue_b_mag",
+			"442_556_20rnd_red_b_mag",
+			"442_556_20rnd_orange_b_mag",
+			"442_556_20rnd_green_b_mag",
+			"442_556_20rnd_pink_b_mag",
+			"442_556_20rnd_purple_b_mag",
+			"442_556_20rnd_white_b_mag",
+			"442_556_20rnd_yellow_b_mag"
+		};
+	};
+	class k_556_30rnd_magazine
+	{
+		k_556_30rnd_magazine[] = 
+		{
+			"442_556_30rnd_blue_mag",
+			"442_556_30rnd_red_mag",
+			"442_556_30rnd_orange_mag",
+			"442_556_30rnd_green_mag",
+			"442_556_30rnd_pink_mag",
+			"442_556_30rnd_purple_mag",
+			"442_556_30rnd_black_mag",
+			"442_556_30rnd_yellow_mag"
+		};
+		k_556_30rnd_b_magazine[] = 
+		{
+			"442_556_30rnd_blue_b_mag",
+			"442_556_30rnd_red_b_mag",
+			"442_556_30rnd_orange_b_mag",
+			"442_556_30rnd_green_b_mag",
+			"442_556_30rnd_pink_b_mag",
+			"442_556_30rnd_purple_b_mag",
+			"442_556_30rnd_white_b_mag",
+			"442_556_30rnd_yellow_b_mag"
+		};
+	};
+	class k_556_60rnd_magazine
+	{
+		k_556_60rnd_magazine[] = 
+		{
+			"442_556_60rnd_blue_mag",
+			"442_556_60rnd_red_mag",
+			"442_556_60rnd_orange_mag",
+			"442_556_60rnd_green_mag",
+			"442_556_60rnd_pink_mag",
+			"442_556_60rnd_purple_mag",
+			"442_556_60rnd_black_mag",
+			"442_556_60rnd_yellow_mag"
+		};
+		k_556_60rnd_b_magazine[] = 
+		{
+			"442_556_60rnd_blue_b_mag",
+			"442_556_60rnd_red_b_mag",
+			"442_556_60rnd_orange_b_mag",
+			"442_556_60rnd_green_b_mag",
+			"442_556_60rnd_pink_b_mag",
+			"442_556_60rnd_purple_b_mag",
+			"442_556_60rnd_white_b_mag",
+			"442_556_60rnd_yellow_b_mag"
+		};
+	};
+	class k_556_100rnd_magazine
+	{
+		k_556_100rnd_magazine[] = 
+		{
+			"442_556_100rnd_blue_mag",
+			"442_556_100rnd_red_mag",
+			"442_556_100rnd_orange_mag",
+			"442_556_100rnd_green_mag",
+			"442_556_100rnd_pink_mag",
+			"442_556_100rnd_purple_mag",
+			"442_556_100rnd_black_mag",
+			"442_556_100rnd_yellow_mag"
+		};
+		k_556_100rnd_b_magazine[] = 
+		{
+			"442_556_100rnd_blue_b_mag",
+			"442_556_100rnd_red_b_mag",
+			"442_556_100rnd_orange_b_mag",
+			"442_556_100rnd_green_b_mag",
+			"442_556_100rnd_pink_b_mag",
+			"442_556_100rnd_purple_b_mag",
+			"442_556_100rnd_white_b_mag",
+			"442_556_100rnd_yellow_b_mag"
+		};
+	};
+	class k_556_150rnd_magazine
+	{
+		k_556_150rnd_magazine[] = 
+		{
+			"442_556_150rnd_blue_mag",
+			"442_556_150rnd_red_mag",
+			"442_556_150rnd_orange_mag",
+			"442_556_150rnd_green_mag",
+			"442_556_150rnd_pink_mag",
+			"442_556_150rnd_purple_mag",
+			"442_556_150rnd_black_mag",
+			"442_556_150rnd_yellow_mag"
+		};
+		k_556_150rnd_b_magazine[] = 
+		{
+			"442_556_150rnd_blue_b_mag",
+			"442_556_150rnd_red_b_mag",
+			"442_556_150rnd_orange_b_mag",
+			"442_556_150rnd_green_b_mag",
+			"442_556_150rnd_pink_b_mag",
+			"442_556_150rnd_purple_b_mag",
+			"442_556_150rnd_white_b_mag",
+			"442_556_150rnd_yellow_b_mag"
+		};
+	};
+	class k_556_200rnd_magazine
+	{
+		k_556_200rnd_magazine[] = 
+		{
+			"442_556_200rnd_blue_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_orange_mag",
+			"442_556_200rnd_green_mag",
+			"442_556_200rnd_pink_mag",
+			"442_556_200rnd_purple_mag",
+			"442_556_200rnd_black_mag",
+			"442_556_200rnd_yellow_mag"
+		};
+		k_556_200rnd_b_magazine[] = 
+		{
+			"442_556_200rnd_blue_b_mag",
+			"442_556_200rnd_red_b_mag",
+			"442_556_200rnd_orange_b_mag",
+			"442_556_200rnd_green_b_mag",
+			"442_556_200rnd_pink_b_mag",
+			"442_556_200rnd_purple_b_mag",
+			"442_556_200rnd_white_b_mag",
+			"442_556_200rnd_yellow_b_mag"
+		};
+	};
+	class k_556_500rnd_magazine
+	{
+		k_556_500rnd_magazine[] = 
+		{
+			"442_556_500rnd_blue_mag",
+			"442_556_500rnd_red_mag",
+			"442_556_500rnd_orange_mag",
+			"442_556_500rnd_green_mag",
+			"442_556_500rnd_pink_mag",
+			"442_556_500rnd_purple_mag",
+			"442_556_500rnd_black_mag",
+			"442_556_500rnd_yellow_mag"
+		};
+		k_556_500rnd_b_magazine[] = 
+		{
+			"442_556_500rnd_blue_b_mag",
+			"442_556_500rnd_red_b_mag",
+			"442_556_500rnd_orange_b_mag",
+			"442_556_500rnd_green_b_mag",
+			"442_556_500rnd_pink_b_mag",
+			"442_556_500rnd_purple_b_mag",
+			"442_556_500rnd_white_b_mag",
+			"442_556_500rnd_yellow_b_mag"
+		};
+	};
+
+	class k_762_30rnd_magazines
+	{
+		k_762_30rnd_magazines[] = 
+		{
+			"442_762_30rnd_blue_mag",
+			"442_762_30rnd_red_mag",
+			"442_762_30rnd_orange_mag",
+			"442_762_30rnd_green_mag",
+			"442_762_30rnd_pink_mag",
+			"442_762_30rnd_purple_mag",
+			"442_762_30rnd_black_mag",
+			"442_762_30rnd_yellow_mag"
+		};
+		k_762_30rnd_b_magazines[] = 
+		{
+			"442_762_30rnd_blue_b_mag",
+			"442_762_30rnd_red_b_mag",
+			"442_762_30rnd_orange_b_mag",
+			"442_762_30rnd_green_b_mag",
+			"442_762_30rnd_pink_b_mag",
+			"442_762_30rnd_purple_b_mag",
+			"442_762_30rnd_white_b_mag",
+			"442_762_30rnd_yellow_b_mag"
+		};
+	};
+	class k_762_60rnd_magazines
+	{
+		k_762_60rnd_magazines[] = 
+		{
+			"442_762_60rnd_blue_mag",
+			"442_762_60rnd_red_mag",
+			"442_762_60rnd_orange_mag",
+			"442_762_60rnd_green_mag",
+			"442_762_60rnd_pink_mag",
+			"442_762_60rnd_purple_mag",
+			"442_762_60rnd_black_mag",
+			"442_762_60rnd_yellow_mag"
+		};
+		k_762_60rnd_b_magazines[] = 
+		{
+			"442_762_60rnd_blue_b_mag",
+			"442_762_60rnd_red_b_mag",
+			"442_762_60rnd_orange_b_mag",
+			"442_762_60rnd_green_b_mag",
+			"442_762_60rnd_pink_b_mag",
+			"442_762_60rnd_purple_b_mag",
+			"442_762_60rnd_white_b_mag",
+			"442_762_60rnd_yellow_b_mag"
+		};
+	};
+	class k_762_100rnd_magazines
+	{
+		k_762_100rnd_magazines[] = 
+		{
+			"442_762_100rnd_blue_mag",
+			"442_762_100rnd_red_mag",
+			"442_762_100rnd_orange_mag",
+			"442_762_100rnd_green_mag",
+			"442_762_100rnd_pink_mag",
+			"442_762_100rnd_purple_mag",
+			"442_762_100rnd_black_mag",
+			"442_762_100rnd_yellow_mag"
+		};
+		k_762_100rnd_b_magazines[] = 
+		{
+			"442_762_100rnd_blue_b_mag",
+			"442_762_100rnd_red_b_mag",
+			"442_762_100rnd_orange_b_mag",
+			"442_762_100rnd_green_b_mag",
+			"442_762_100rnd_pink_b_mag",
+			"442_762_100rnd_purple_b_mag",
+			"442_762_100rnd_white_b_mag",
+			"442_762_100rnd_yellow_b_mag"
+		};
+	};
+	class k_762_150rnd_magazines
+	{
+		k_762_150rnd_magazines[] = 
+		{
+			"442_762_150rnd_blue_mag",
+			"442_762_150rnd_red_mag",
+			"442_762_150rnd_orange_mag",
+			"442_762_150rnd_green_mag",
+			"442_762_150rnd_pink_mag",
+			"442_762_150rnd_purple_mag",
+			"442_762_150rnd_black_mag",
+			"442_762_150rnd_yellow_mag"
+		};
+		k_762_150rnd_b_magazines[] = 
+		{
+			"442_762_150rnd_blue_b_mag",
+			"442_762_150rnd_red_b_mag",
+			"442_762_150rnd_orange_b_mag",
+			"442_762_150rnd_green_b_mag",
+			"442_762_150rnd_pink_b_mag",
+			"442_762_150rnd_purple_b_mag",
+			"442_762_150rnd_white_b_mag",
+			"442_762_150rnd_yellow_b_mag"
+		};
+	};
+	
 };
