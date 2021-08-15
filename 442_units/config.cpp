@@ -560,6 +560,25 @@ class cfgweapons
 			};
 		};
 	};
+	class k_p1_airborne_base: k_helmet_base
+	{
+		displayname = "[K] Arf Helmet";
+		model = "kobra\442_units\p1_airborne_helmet.p3d";
+		hiddenselections[] = 
+		{
+			"helmet",
+			"visor"
+		};
+		class iteminfo: Iteminfo
+		{
+			uniformmodel = "kobra\442_units\p1_airborne_helmet.p3d";
+			hiddenselections[] = 
+			{
+				"helmet",
+				"visor"
+			};
+		};
+	};
     #include "helmet.hpp"
 	#include "uniform.hpp"
 	#include "vest.hpp"

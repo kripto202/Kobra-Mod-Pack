@@ -121,6 +121,18 @@
 			"kobra\442_units\data\helmet\arf_helmet\arf_helmet_co.paa",
 		};
 	};
+    class k_p1_airborne_helmet: k_arf_helmet_base
+	{
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
+		displayname = "[K] Arf Helmet";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\helmet\p1_airborne_helmet\p1_airborne_helmet_co.paa",
+			"kobra\442_units\data\helmet\p1_airborne_helmet\p1_airborne_helmet_co.paa",
+		};
+	};
 
 
 ///////////submitted designs//////////
