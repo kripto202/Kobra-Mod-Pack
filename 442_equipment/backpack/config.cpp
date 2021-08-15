@@ -13,16 +13,21 @@ class cfgpatches
             "k_clone_backpack_base",
             "k_clone_rto_backpack_base",
             "k_clone_small_backpack_base",
+			"k_clone_medium_backpack_base",
             "k_clone_large_backpack_base",
+			"k_clone_huge_backpack_base",
             "k_clone_small_backpack",
             "k_clone_small_backpack_pouches",
-            "k_clone_small_backpack_radio",
-            "k_clone_small_backpack_radio_pouches",
             "k_clone_large_backpack",
             "k_clone_large_backpack_pouch",
             "k_clone_large_backpack_medic",
             "k_clone_large_backpack_medic_pouch",
-            "k_clone_large_backpack_eod_pouch"
+            "k_clone_large_backpack_eod_pouch",
+			"k_clone_medium_backpack",
+			"k_clone_medium_backpack_rocket",
+			"k_clone_huge_backpack",
+			"k_clone_huge_backpack_pouches",
+			"k_clone_huge_backpack_rocket"
         };
         weapons[] = {};
     };
@@ -44,7 +49,6 @@ class cfgvehicles
 	class k_clone_rto_backpack_base: k_clone_backpack_base
 	{
 		maximumload=100;
-		picture="kobra\kobra_core\kobra.paa";
 		displayName="";
 		tf_dialog="SWLB_clone_rto_radio_dialog";
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
@@ -70,11 +74,39 @@ class cfgvehicles
         };
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\backpack\data\small_backpack_co.paa",
-            "kobra\442_equipment\backpack\data\cover1_co.paa",
-            "kobra\442_equipment\backpack\data\pouches_co.paa",
-            "kobra\442_equipment\backpack\data\radio_co.paa",
-            "kobra\442_equipment\backpack\data\screen_co.paa",
+            "kobra\442_equipment\backpack\data\small\small_backpack_co.paa",
+            "kobra\442_equipment\backpack\data\small\cover1_co.paa",
+            "kobra\442_equipment\backpack\data\small\pouches_co.paa",
+            "kobra\442_equipment\backpack\data\small\radio_co.paa",
+            "kobra\442_equipment\backpack\data\small\screen_co.paa",
+        };
+    };
+	class k_clone_medium_backpack_base: k_clone_backpack_base
+    {
+        displayname = "[K] Clone Trooper Backpack";
+        scope = 1;
+        model = "kobra\442_equipment\backpack\medium_backpack.p3d";
+        maximumload = 150;
+        picture = "kobra\kobra_core\kobra.paa";
+        hiddenselections[] = 
+        {
+            "backpack",
+			"radio",
+			"tube",
+			"cover",
+			"rocket",
+			"thermal_det",
+			"thermal_det_lights"
+        };
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\backpack\data\medium\medium_backpack_co.paa", //backpack
+			"kobra\442_equipment\backpack\data\medium\medium_backpack_co.paa", //radio
+			"kobra\442_equipment\backpack\data\medium\medium_backpack_co.paa", //tube
+			"kobra\442_equipment\backpack\data\medium\medium_backpack_co.paa", //cover
+			"kobra\442_equipment\backpack\data\huge\huge_backpack_co.paa", //rocket
+			"kobra\442_weapons\explosive\data\thermal_det\camo1_co.paa", //thermal_det
+			"kobra\442_weapons\explosive\data\thermal_det\lights_co.paa" //thermal_det_lights
         };
     };
     class k_clone_large_backpack_base: k_clone_small_backpack_base
@@ -90,20 +122,39 @@ class cfgvehicles
         };
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\backpack\data\large_backpack_co.paa",
-            "kobra\442_equipment\backpack\data\cover2_co.paa",
-            "kobra\442_equipment\backpack\data\pouches2_co.paa",
+            "kobra\442_equipment\backpack\data\large\large_backpack_co.paa",
+            "kobra\442_equipment\backpack\data\large\cover2_co.paa",
+            "kobra\442_equipment\backpack\data\large\pouches2_co.paa",
+        };
+    };
+	class k_clone_huge_backpack_base: k_clone_backpack_base
+    {
+        displayname = "[K] Clone Trooper Large Backpack";
+        model = "kobra\442_equipment\backpack\large_backpack.p3d";
+        maximumload = 250;
+        hiddenselections[] = 
+        {
+            "backpack",
+            "rocket",
+            "pouches"
+        };
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\backpack\data\huge\huge_backpack_co.paa", ///backpack
+            "kobra\442_equipment\backpack\data\huge\huge_backpack_co.paa", ///rocket
+            "kobra\442_equipment\backpack\data\huge\huge_backpack_co.paa", ///pouches
         };
     };
 
+///small backpack///
     class k_clone_small_backpack: k_clone_small_backpack_base
     {
         displayname = "[K] Clone Trooper Small Backpack";
         scope = 2;
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\backpack\data\small_backpack_co.paa",
-            "kobra\442_equipment\backpack\data\cover1_co.paa",
+            "kobra\442_equipment\backpack\data\small\small_backpack_co.paa",
+            "kobra\442_equipment\backpack\data\small\cover1_co.paa",
             "",
             "",
             "",
@@ -116,62 +167,56 @@ class cfgvehicles
         maximumload = 200;
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\backpack\data\small_backpack_co.paa",
-            "kobra\442_equipment\backpack\data\cover1_co.paa",
-            "kobra\442_equipment\backpack\data\pouches_co.paa",
+            "kobra\442_equipment\backpack\data\small\small_backpack_co.paa",
+            "kobra\442_equipment\backpack\data\small\cover1_co.paa",
+            "kobra\442_equipment\backpack\data\small\pouches_co.paa",
             "",
             "",
-        };
-    };
-    class k_clone_small_backpack_radio: k_clone_small_backpack_base
-    {
-        displayname = "[K] Clone Trooper Small Radio Backpack";
-        scope = 2;
-        maximumload = 100;
-        tf_dialog="SWLB_clone_rto_radio_dialog";
-        tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
-        tf_encryptionCode="tf_west_radio_code";
-        tf_hasLRradio=1;
-        tf_range=25000;
-        tf_subtype="digital_lr";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\backpack\data\small_backpack_co.paa",
-            "",
-            "",
-            "kobra\442_equipment\backpack\data\radio_co.paa",
-            "kobra\442_equipment\backpack\data\screen_co.paa",
-        };
-    };
-    class k_clone_small_backpack_radio_pouches: k_clone_small_backpack_base
-    {
-        displayname = "[K] Clone Trooper Small Radio Backpack w/ Pouches";
-        scope = 2;
-        maximumload = 150;
-        tf_dialog="SWLB_clone_rto_radio_dialog";
-        tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
-        tf_encryptionCode="tf_west_radio_code";
-        tf_hasLRradio=1;
-        tf_range=25000;
-        tf_subtype="digital_lr";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\backpack\data\small_backpack_co.paa",
-            "",
-            "kobra\442_equipment\backpack\data\pouches_co.paa",
-            "kobra\442_equipment\backpack\data\radio_co.paa",
-            "kobra\442_equipment\backpack\data\screen_co.paa",
         };
     };
 
+///medium backpack
+	class k_clone_medium_backpack: k_clone_medium_backpack_base
+	{
+		displayname = "[K] Clone Trooper Medium Backpack";
+		scope = 2;
+		maximumload = 150;
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\medium\medium_backpack_co.paa", //backpack
+			"", //radio
+			"kobra\442_equipment\backpack\data\medium\medium_backpack_co.paa", //tube
+			"kobra\442_equipment\backpack\data\medium\medium_backpack_co.paa", //cover
+			"", //rocket
+			"", //thermal_det
+			"" //thermal_det_lights
+		};
+	};
+	class k_clone_medium_backpack_rocket: k_clone_medium_backpack
+	{
+		displayname = "[K] Clone Trooper Medium Rocket Backpack";
+		maximumload = 150;
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\medium\medium_backpack_co.paa", //backpack
+			"", //radio
+			"kobra\442_equipment\backpack\data\medium\medium_backpack_co.paa", //tube
+			"", //cover
+			"kobra\442_equipment\backpack\data\huge\huge_backpack_co.paa", //rocket
+			"kobra\442_weapons\explosive\data\thermal_det\camo1_co.paa", //thermal_det
+			"kobra\442_weapons\explosive\data\thermal_det\lights_co.paa" //thermal_det_lights
+		};
+	};
+
+///large backpack///
     class k_clone_large_backpack: k_clone_large_backpack_base
     {
         displayname = "[K] Clone Trooper Large Backpack";
         scope = 2;
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\backpack\data\large_backpack_co.paa",
-            "kobra\442_equipment\backpack\data\cover2_co.paa",
+            "kobra\442_equipment\backpack\data\large\large_backpack_co.paa",
+            "kobra\442_equipment\backpack\data\large\cover2_co.paa",
             ""
         };
     };
@@ -181,9 +226,9 @@ class cfgvehicles
         scope = 2;
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\backpack\data\large_backpack_co.paa",
-            "kobra\442_equipment\backpack\data\cover2_co.paa",
-            "kobra\442_equipment\backpack\data\pouches2_co.paa",
+            "kobra\442_equipment\backpack\data\large\large_backpack_co.paa",
+            "kobra\442_equipment\backpack\data\large\cover2_co.paa",
+            "kobra\442_equipment\backpack\data\large\pouches2_co.paa",
         };
     };
     class k_clone_large_backpack_medic: k_clone_large_backpack_base
@@ -192,8 +237,8 @@ class cfgvehicles
         scope = 2;
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\backpack\data\large_backpack_medic_co.paa",
-            "kobra\442_equipment\backpack\data\cover2_co.paa",
+            "kobra\442_equipment\backpack\data\large\large_backpack_medic_co.paa",
+            "kobra\442_equipment\backpack\data\large\cover2_co.paa",
             "",
         };
     };
@@ -203,9 +248,9 @@ class cfgvehicles
         scope = 2;
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\backpack\data\large_backpack_eod_co.paa",
-            "kobra\442_equipment\backpack\data\cover2_co.paa",
-            "kobra\442_equipment\backpack\data\pouches2_co.paa",
+            "kobra\442_equipment\backpack\data\large\large_backpack_eod_co.paa",
+            "kobra\442_equipment\backpack\data\large\cover2_co.paa",
+            "kobra\442_equipment\backpack\data\large\pouches2_co.paa",
         };
     };
     class k_clone_large_backpack_eod_pouch: k_clone_large_backpack_base
@@ -214,9 +259,47 @@ class cfgvehicles
         scope = 2;
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\backpack\data\large_backpack_eod_co.paa",
-            "kobra\442_equipment\backpack\data\cover2_co.paa",
-            "kobra\442_equipment\backpack\data\pouches2_co.paa",
+            "kobra\442_equipment\backpack\data\large\large_backpack_eod_co.paa",
+            "kobra\442_equipment\backpack\data\large\cover2_co.paa",
+            "kobra\442_equipment\backpack\data\large\pouches2_co.paa",
         };
     };
+
+///huge backpack///
+	class k_clone_huge_backpack: k_clone_huge_backpack_base
+	{
+		dispalyname = "[K] Clone Trooper Huge Backpack";
+		scope = 2;
+		maximumload = 150;
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\huge\huge_backpack_co.paa", ///backpack
+            "", ///rocket
+            "", ///pouches
+		};
+	};
+	class k_clone_huge_backpack_pouches: k_clone_huge_backpack_base
+	{
+		dispalyname = "[K] Clone Trooper Huge Backpack w/ Pouches";
+		scope = 2;
+		maximumload = 150;
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\huge\huge_backpack_co.paa", ///backpack
+            "", ///rocket
+            "kobra\442_equipment\backpack\data\huge\huge_backpack_co.paa", ///pouches
+		};
+	};
+	class k_clone_huge_backpack_rocket: k_clone_huge_backpack_base
+	{
+		dispalyname = "[K] Clone Trooper Huge Backpack w/ Rockets";
+		scope = 2;
+		maximumload = 150;
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\huge\huge_backpack_co.paa", ///backpack
+            "kobra\442_equipment\backpack\data\huge\huge_backpack_co.paa", ///rocket
+            "", ///pouches
+		};
+	};
 };
