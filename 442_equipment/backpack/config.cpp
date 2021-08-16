@@ -43,7 +43,7 @@ class cfgvehicles
 		picture = "kobra\kobra_core\kobra.paa";
 		displayname = "";
 		model = "";
-		maximumload = 200;
+		maximumload = 250;
 		hiddenselections[] = {};
 	};
 	class k_clone_rto_backpack_base: k_clone_backpack_base
@@ -62,7 +62,7 @@ class cfgvehicles
         displayname = "[K] Clone Trooper Backpack";
         scope = 1;
         model = "kobra\442_equipment\backpack\small_backpack.p3d";
-        maximumload = 150;
+        maximumload = 100; //100 base | +50 pouches | -50 radio
         picture = "kobra\kobra_core\kobra.paa";
         hiddenselections[] = 
         {
@@ -86,7 +86,7 @@ class cfgvehicles
         displayname = "[K] Clone Trooper Backpack";
         scope = 1;
         model = "kobra\442_equipment\backpack\medium_backpack.p3d";
-        maximumload = 150;
+        maximumload = 150; //150 base | +50 pouches | -75 radio | +25 rockets
         picture = "kobra\kobra_core\kobra.paa";
         hiddenselections[] = 
         {
@@ -113,7 +113,8 @@ class cfgvehicles
     {
         displayname = "[K] Clone Trooper Large Backpack";
         model = "kobra\442_equipment\backpack\large_backpack.p3d";
-        maximumload = 250;
+        picture = "kobra\kobra_core\kobra.paa";
+        maximumload = 225; //225 base | +50 pouches | -75 radio
         hiddenselections[] = 
         {
             "backpack",
@@ -129,9 +130,10 @@ class cfgvehicles
     };
 	class k_clone_huge_backpack_base: k_clone_backpack_base
     {
-        displayname = "[K] Clone Trooper Large Backpack";
-        model = "kobra\442_equipment\backpack\large_backpack.p3d";
-        maximumload = 250;
+        displayname = "[K] Clone Trooper Huge Backpack";
+        model = "kobra\442_equipment\backpack\huge_backpack.p3d";
+        picture = "kobra\kobra_core\kobra.paa";
+        maximumload = 325; //400 base | +75 pouches | +240 rockets
         hiddenselections[] = 
         {
             "backpack",
@@ -151,6 +153,7 @@ class cfgvehicles
     {
         displayname = "[K] Clone Trooper Small Backpack";
         scope = 2;
+        maximumload = 100;
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\backpack\data\small\small_backpack_co.paa",
@@ -164,7 +167,7 @@ class cfgvehicles
     {
         displayname = "[K] Clone Trooper Small Backpack w/ Pouches";
         scope = 2;
-        maximumload = 200;
+        maximumload = 150;
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\backpack\data\small\small_backpack_co.paa",
@@ -195,7 +198,7 @@ class cfgvehicles
 	class k_clone_medium_backpack_rocket: k_clone_medium_backpack
 	{
 		displayname = "[K] Clone Trooper Medium Rocket Backpack";
-		maximumload = 150;
+		maximumload = 175;
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_equipment\backpack\data\medium\medium_backpack_co.paa", //backpack
@@ -213,6 +216,7 @@ class cfgvehicles
     {
         displayname = "[K] Clone Trooper Large Backpack";
         scope = 2;
+        maximumload = 225;
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\backpack\data\large\large_backpack_co.paa",
@@ -224,6 +228,7 @@ class cfgvehicles
     {
         displayname = "[K] Clone Trooper Large Backpack w/ Pouches";
         scope = 2;
+        maximumload = 275;
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\backpack\data\large\large_backpack_co.paa",
@@ -235,6 +240,7 @@ class cfgvehicles
     {
         displayname = "[K] Clone Trooper Large Medic Backpack";
         scope = 2;
+        maximumload = 225;
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\backpack\data\large\large_backpack_medic_co.paa",
@@ -246,17 +252,19 @@ class cfgvehicles
     {
         displayname = "[K] Clone Trooper Large Medic Backpack w/ Pouches";
         scope = 2;
+        maximumload = 275;
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\backpack\data\large\large_backpack_eod_co.paa",
+            "kobra\442_equipment\backpack\data\large\large_backpack_medic_co.paa",
             "kobra\442_equipment\backpack\data\large\cover2_co.paa",
             "kobra\442_equipment\backpack\data\large\pouches2_co.paa",
         };
     };
     class k_clone_large_backpack_eod_pouch: k_clone_large_backpack_base
     {
-        displayname = "[K] Clone Trooper Large Medic Backpack w/ Pouches";
+        displayname = "[K] Clone Trooper Large EOD Backpack w/ Pouches";
         scope = 2;
+        maximumload = 275;
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\backpack\data\large\large_backpack_eod_co.paa",
@@ -268,9 +276,9 @@ class cfgvehicles
 ///huge backpack///
 	class k_clone_huge_backpack: k_clone_huge_backpack_base
 	{
-		dispalyname = "[K] Clone Trooper Huge Backpack";
+		displayname = "[K] Clone Trooper Huge Backpack";
 		scope = 2;
-		maximumload = 150;
+		maximumload = 325;
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_equipment\backpack\data\huge\huge_backpack_co.paa", ///backpack
@@ -280,9 +288,9 @@ class cfgvehicles
 	};
 	class k_clone_huge_backpack_pouches: k_clone_huge_backpack_base
 	{
-		dispalyname = "[K] Clone Trooper Huge Backpack w/ Pouches";
+		displayname = "[K] Clone Trooper Huge Backpack w/ Pouches";
 		scope = 2;
-		maximumload = 150;
+		maximumload = 400;
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_equipment\backpack\data\huge\huge_backpack_co.paa", ///backpack
@@ -292,9 +300,9 @@ class cfgvehicles
 	};
 	class k_clone_huge_backpack_rocket: k_clone_huge_backpack_base
 	{
-		dispalyname = "[K] Clone Trooper Huge Backpack w/ Rockets";
+		displayname = "[K] Clone Trooper Huge Backpack w/ Rockets";
 		scope = 2;
-		maximumload = 150;
+		maximumload = 565;
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_equipment\backpack\data\huge\huge_backpack_co.paa", ///backpack

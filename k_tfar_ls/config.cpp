@@ -29,6 +29,7 @@ class cfgvehicles
 		scope = 2;
 		model = "ls_equipment_bluefor\backpack\gar\backpack\ls_gar_radio_backpack.p3d";
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
+		maximumload=150;
 		hiddenselections[] = 
 		{
 			"backpack",
@@ -54,7 +55,7 @@ class cfgvehicles
 		scope = 2;
 		model = "ls_equipment_bluefor\backpack\gar\mediumBackpack\ls_gar_mediumRadio_backpack.p3d";
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
-		maximumload = 150;
+		maximumload = 200;
 		hiddenselections[] = 
 		{
 			"backpack",

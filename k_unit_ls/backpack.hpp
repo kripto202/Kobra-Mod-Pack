@@ -5,7 +5,7 @@
 		displayname = "[K/LS] Clone Trooper Backpack";
 		scope = 2;
 		model = "ls_equipment_bluefor\backpack\gar\backpack\ls_gar_standard_backpack.p3d";
-		maximumload = 150;
+		maximumload = 225;
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselections[] = 
 		{
@@ -28,7 +28,7 @@
 		displayname = "[K/LS] Clone Trooper Medium Backpack";
 		scope = 2;
 		model = "ls_equipment_bluefor\backpack\gar\mediumBackpack\ls_gar_medium_backpack.p3d";
-		maximumload = 200;
+		maximumload = 275;
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselections[] = 
 		{
@@ -54,7 +54,7 @@
 		displayname = "[K/LS] Clone Trooper Heavy Backpack";
 		scope = 2;
 		model = "ls_equipment_bluefor\backpack\gar\heavyBackpack\ls_gar_heavy_backpack.p3d";
-		maximumload = 250;
+		maximumload = 290;
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselections[] = 
 		{
@@ -83,7 +83,7 @@
 		displayname = "[K/LS] Clone Trooper Medic Backpack";
 		scope = 2;
 		model = "ls_equipment_bluefor\backpack\gar\backpack\ls_gar_medic_backpack.p3d";
-		maximumload = 200;
+		maximumload = 240;
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselections[] = 
 		{
@@ -112,7 +112,7 @@
 		displayname = "[K/LS] Clone Trooper Medic Medium Backpack";
 		scope = 2;
 		model = "ls_equipment_bluefor\backpack\gar\heavyBackpack\ls_gar_heavyMedic_backpack.p3d";
-		maximumload = 250;
+		maximumload = 290;
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselections[] = 
 		{
@@ -145,7 +145,7 @@
 		displayname = "[K/LS] Clone Trooper Rocket Backpack";
 		scope = 2;
 		model = "ls_equipment_bluefor\backpack\gar\backpack\ls_gar_rocket_backpack.p3d";
-		maximumload = 300;
+		maximumload = 265;
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
 		hiddenselections[] = 
 		{

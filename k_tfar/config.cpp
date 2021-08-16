@@ -40,7 +40,7 @@ class cfgvehicles
     {
         displayname = "[K] Clone Trooper Small Radio Backpack";
         scope = 2;
-        maximumload = 100;
+        maximumload = 50;
         tf_dialog="SWLB_clone_rto_radio_dialog";
         tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
         tf_encryptionCode="tf_west_radio_code";
@@ -60,7 +60,7 @@ class cfgvehicles
     {
         displayname = "[K] Clone Trooper Small Radio Backpack w/ Pouches";
         scope = 2;
-        maximumload = 150;
+        maximumload = 100;
         tf_dialog="SWLB_clone_rto_radio_dialog";
         tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
         tf_encryptionCode="tf_west_radio_code";
@@ -79,7 +79,7 @@ class cfgvehicles
 	class k_clone_medium_backpack_radio: k_clone_medium_backpack
 	{
 		displayname = "[K] Clone Trooper Medium Radio Backpack";
-		maximumload = 150;
+		maximumload = 75;
 		tf_dialog="SWLB_clone_rto_radio_dialog";
         tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
         tf_encryptionCode="tf_west_radio_code";
