@@ -67,7 +67,34 @@ class cfgpatches
 			"k_scout_uniform_camo",
 			"k_scout_uniform_artic",
 			"k_scout_uniform_desert",
-			"k_scout_uniform_jungle"
+			"k_scout_uniform_jungle",
+
+			"k_p1_helmet_41_green",
+			"k_p1_helmet_41_grey",
+			"k_p1_helmet_91",
+			"k_p1_helmet_104_grey",
+			"k_p1_helmet_104_red",
+			"k_p1_helmet_187",
+			"k_p1_helmet_212",
+			"k_p1_helmet_327",
+			"k_p1_helmet_442",
+			"k_p1_helmet_501",
+			"k_p1_helmet_cg",
+			"k_p1_helmet_fill",
+			"k_p1_helmet_hc",
+			"k_p1_helmet_kc",
+			"k_p1_helmet_sc",
+			"k_p1_helmet_cody",
+			"k_p1_helmet_fill",
+			"k_p1_helmet_fox",
+			"k_p1_helmet_gree",
+			"k_p1_helmet_keeli",
+			"k_p1_helmet_lock",
+			"k_p1_helmet_rex",
+			"k_p1_helmet_stone",
+			"k_p1_helmet_thire",
+			"k_p1_helmet_wolfe_grey",
+			"k_p1_helmet_wolfe_red",
         };
     };
 };
@@ -580,6 +607,7 @@ class cfgweapons
 		};
 	};
     #include "helmet.hpp"
+	#include "helmet_custom.hpp"
 	#include "uniform.hpp"
 	#include "vest.hpp"
 };
