@@ -310,4 +310,20 @@ class cfgvehicles
             "", ///pouches
 		};
 	};
+	
+///arc backpack
+	class k_clone_arc_backpack: k_clone_medium_backpack
+	{
+		displayname = "[K] Clone Trooper Arc Backpack";
+		scope = 2;
+		model = "kobra\442_equipment\backpack\arc_backpack.p3d";
+		hiddenselections[] = 
+		{
+			"backpack"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\arc\arc_backpack_co.paa"
+		};
+	};
 };
