@@ -47,6 +47,10 @@
 			"442_762_30rnd_blue_mag",
 			"442_762_30rnd_blue_mag",
 			"442_762_30rnd_blue_mag",
+			"442_762_30rnd_blue_mag",
+			"442_762_30rnd_blue_mag",
+			"442_762_30rnd_blue_mag",
+			"442_762_30rnd_blue_mag",
 			"442_thermal_det_mag",
 			"442_thermal_det_mag",
 			"442_thermal_det_mag",
@@ -60,6 +64,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_762_30rnd_blue_mag",
+			"442_762_30rnd_blue_mag",
+			"442_762_30rnd_blue_mag",
+			"442_762_30rnd_blue_mag",
 			"442_762_30rnd_blue_mag",
 			"442_762_30rnd_blue_mag",
 			"442_762_30rnd_blue_mag",
@@ -145,6 +153,10 @@
 			"442_556_30rnd_blue_mag",
 			"442_556_30rnd_blue_mag",
 			"442_556_30rnd_blue_mag",
+			"442_556_30rnd_blue_mag",
+			"442_556_30rnd_blue_mag",
+			"442_556_30rnd_blue_mag",
+			"442_556_30rnd_blue_mag",
 			"442_thermal_det_mag",
 			"442_thermal_det_mag",
 			"442_thermal_det_mag",
@@ -158,6 +170,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_556_30rnd_blue_mag",
+			"442_556_30rnd_blue_mag",
+			"442_556_30rnd_blue_mag",
+			"442_556_30rnd_blue_mag",
 			"442_556_30rnd_blue_mag",
 			"442_556_30rnd_blue_mag",
 			"442_556_30rnd_blue_mag",
@@ -235,6 +251,10 @@
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -246,6 +266,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
@@ -330,6 +354,10 @@
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -341,6 +369,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
@@ -377,6 +409,10 @@
 			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -388,6 +424,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
@@ -442,6 +482,10 @@
 			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -453,6 +497,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
@@ -553,6 +601,10 @@
 			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -564,6 +616,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
@@ -648,6 +704,10 @@
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -659,6 +719,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
@@ -697,6 +761,10 @@
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -708,6 +776,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
@@ -770,6 +842,10 @@
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -781,6 +857,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
@@ -865,6 +945,10 @@
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -876,6 +960,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
@@ -912,6 +1000,10 @@
 			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -923,6 +1015,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
@@ -977,6 +1073,10 @@
 			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -988,6 +1088,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
@@ -1088,6 +1192,10 @@
 			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -1099,6 +1207,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
@@ -1183,6 +1295,10 @@
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_thermal_det_mag",
 			"442_thermal_det_mag",
 			"442_thermal_det_mag",
@@ -1196,6 +1312,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
@@ -1236,6 +1356,10 @@
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -1247,6 +1371,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
@@ -1310,6 +1438,10 @@
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -1321,6 +1453,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
@@ -1429,6 +1565,10 @@
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -1440,6 +1580,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
@@ -1549,6 +1693,10 @@
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -1560,6 +1708,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
@@ -1644,6 +1796,10 @@
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -1655,6 +1811,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
@@ -1691,6 +1851,10 @@
 			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -1702,6 +1866,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
@@ -1756,6 +1924,10 @@
 			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -1767,6 +1939,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
@@ -1867,6 +2043,10 @@
 			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -1878,6 +2058,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
@@ -1962,6 +2146,10 @@
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -1973,6 +2161,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
@@ -2011,6 +2203,10 @@
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -2022,6 +2218,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
@@ -2085,6 +2285,10 @@
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -2096,6 +2300,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
@@ -2180,6 +2388,10 @@
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -2191,6 +2403,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
@@ -2227,6 +2443,10 @@
 			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -2238,6 +2458,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
@@ -2274,6 +2498,10 @@
 			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -2285,6 +2513,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
@@ -2367,6 +2599,10 @@
 			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -2378,6 +2614,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
@@ -2462,6 +2702,10 @@
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -2473,6 +2717,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
@@ -2511,6 +2759,10 @@
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -2522,6 +2774,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
@@ -2585,6 +2841,10 @@
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -2596,6 +2856,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
@@ -2680,6 +2944,10 @@
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -2691,6 +2959,9 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
@@ -2728,6 +2999,10 @@
 			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
 			"smokeShellRed",
@@ -2738,6 +3013,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
@@ -2773,6 +3052,10 @@
 			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -2784,6 +3067,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
@@ -2865,6 +3152,10 @@
 			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -2876,6 +3167,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
@@ -2960,6 +3255,10 @@
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -2971,6 +3270,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
@@ -3009,6 +3312,10 @@
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -3020,6 +3327,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
@@ -3083,6 +3394,10 @@
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -3094,6 +3409,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
@@ -3178,6 +3497,10 @@
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -3189,6 +3512,11 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
@@ -3225,6 +3553,10 @@
 			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -3236,6 +3568,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
+			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
 			"442_408_10rnd_red_mag",
@@ -3272,6 +3608,10 @@
 			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -3283,6 +3623,11 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
+			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
 			"442_65_60rnd_red_mag",
@@ -3365,6 +3710,10 @@
 			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -3376,6 +3725,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
+			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
 			"442_556_200rnd_red_mag",
@@ -3460,6 +3813,10 @@
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -3471,6 +3828,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
@@ -3509,6 +3870,10 @@
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_thermal_det_mag",
 			"smokeShellBlue",
 			"smokeShellBlue",
@@ -3520,6 +3885,10 @@
 		};
 		respawnmagazines[] = 
 		{
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
+			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
 			"442_65_30rnd_red_mag",
