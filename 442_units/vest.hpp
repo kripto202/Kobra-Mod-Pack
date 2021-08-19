@@ -371,9 +371,9 @@
         };
 	};
 
-    class k_clone_vest_basic: k_clone_vest_base
+    class k_clone_vest_basic1: k_clone_vest_base
 	{
-		displayname = "[K] Basic Clone Vest";
+		displayname = "[K] Basic Clone Vest 1";
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
@@ -432,7 +432,60 @@
 			mass = 10;
         };
 	};
-    class k_clone_vest_medium: k_clone_vest_basic
+    class k_clone_vest_basic2: k_clone_vest_basic1
+    {
+        displayname = "[K] Basic Clone Vest 2";
+        hiddenselectionstextures[] = 
+		{
+			"",
+			"",
+            //pouch1
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //Left front
+            "", //left center
+            "", //left back
+
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //right front
+            "", //right center
+            "", //right back
+
+            //pouch2
+            "", //left front
+            "", //left center
+            "", //left back
+
+            "", //right front
+            "", //right center
+            "", //right back
+
+            //pouch3
+            "", //left front
+            "", //left center
+            "", //left back
+
+            "", //right front
+            "", //right center
+            "", //right back
+
+            //pouch4
+            "", //left front
+            "", //left center
+            "", //left back
+
+            "", //right front
+            "", //right center
+            "", //right back
+
+            //pouch5
+            "", //left front
+            "", //left center
+            "", //left back
+
+            "", //right front
+            "", //right center
+            "", //right back
+		};
+    };
+    class k_clone_vest_medium: k_clone_vest_basic1
 	{
 		displayname = "[K] Medium Clone Vest";
 		hiddenselectionstextures[] = 
@@ -491,7 +544,7 @@
 			mass = 15;
         };
 	};
-    class k_clone_vest_heavy: k_clone_vest_basic
+    class k_clone_vest_heavy: k_clone_vest_basic1
 	{
 		displayname = "[K] Heavy Clone Vest";
 		hiddenselectionstextures[] = 
@@ -551,7 +604,7 @@
         };
 	};
 
-    class k_clone_vest_medic: k_clone_vest_basic
+    class k_clone_vest_heavy_medic: k_clone_vest_basic1
 	{
 		displayname = "[K] Medic Clone Vest";
 		hiddenselectionstextures[] = 
@@ -610,6 +663,60 @@
 			mass = 20;
         };
 	};
+
+    class k_clone_vest_display: k_clone_vest_basic1
+    {
+        displayname = "[K] Basic Clone Vest display";
+        hiddenselectionstextures[] = 
+		{
+			"",
+			"",
+            //pouch1
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //Left front
+            "", //left center
+            "", //left back
+
+            "", //right front
+            "", //right center
+            "", //right back
+
+            //pouch2
+            "", //left front
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //left center
+            "", //left back
+
+            "", //right front
+            "", //right center
+            "", //right back
+
+            //pouch3
+            "", //left front
+            "", //left center
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //left back
+
+            "", //right front
+            "", //right center
+            "", //right back
+
+            //pouch4
+            "", //left front
+            "", //left center
+            "", //left back
+
+            "", //right front
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //right center
+            "", //right back
+
+            //pouch5
+            "", //left front
+            "", //left center
+            "", //left back
+
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //right front
+            "", //right center
+            "", //right back
+		};
+    };
 
 ////////////designs///////////
     /*class k_scout_pouches_light_dukas: k_scout_pouches_light
