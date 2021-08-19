@@ -126,7 +126,8 @@
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
-		displayname = "[K] Arf Helmet";
+		displayname = "[K] P1 Airborne Helmet";
+        model = "kobra\442_units\p1_airborne_helmet.p3d";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_units\data\helmet\p1_airborne_helmet\p1_airborne_helmet_co.paa",

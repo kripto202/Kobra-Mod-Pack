@@ -44,21 +44,16 @@ class cfgpatches
 			"k_scout_pouches_light",
 			"k_scout_pouches_medium",
 			"k_scout_pouches_heavy",
-			"k_scout_pouches_light_dukas",
-			"k_scout_pouches_light_camo",
-			"k_scout_pouches_light_artic",
-			"k_scout_pouches_light_jungle",
-			"k_scout_pouches_light_desert",
-			"k_scout_pouches_medium_dukas",
-			"k_scout_pouches_medium_camo",
-			"k_scout_pouches_medium_artic",
-			"k_scout_pouches_medium_jungle",
-			"k_scout_pouches_medium_desert",
-			"k_scout_pouches_heavy_dukas",
-			"k_scout_pouches_heavy_camo",
-			"k_scout_pouches_heavy_artic",
-			"k_scout_pouches_heavy_jungle",
-			"k_scout_pouches_heavy_desert",
+			"k_clone_vest_medic",
+
+			"k_clone_vest_base",
+			"k_kama_full",
+			"k_kama_L",
+			"k_kama_R",
+			"k_clone_vest_basic",
+			"k_clone_vest_medium",
+			"k_clone_vest_heavy"
+
 			"k_arf_helmet",
 
 			"k_scout_uniform",
@@ -611,3 +606,4 @@ class cfgweapons
 	#include "uniform.hpp"
 	#include "vest.hpp"
 };
+

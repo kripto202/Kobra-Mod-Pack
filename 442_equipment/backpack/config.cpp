@@ -166,7 +166,6 @@ class cfgvehicles
     class k_clone_small_backpack_pouches: k_clone_small_backpack_base
     {
         displayname = "[K] Clone Trooper Small Backpack w/ Pouches";
-        scope = 2;
         maximumload = 150;
         hiddenselectionstextures[] = 
         {
