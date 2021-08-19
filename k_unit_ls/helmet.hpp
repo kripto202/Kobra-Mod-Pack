@@ -65,7 +65,7 @@
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
-        displayname = "[K] ARF Helmet";
+        displayname = "[K/LS] ARF Helmet";
         picture = "\kobra\k_unit_ls\data\ui\arf_p1_helmet.paa";
         hiddenselectionsmaterials[] = 
         {
@@ -85,7 +85,7 @@
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
-        displayname = "[K] ARF Helmet w/ Flaps";
+        displayname = "[K/LS] ARF Helmet w/ Flaps";
         //model = "442_units\arf_p2_helmet.p3d";
         picture = "\kobra\k_unit_ls\data\ui\arf_p2_helmet.paa";
         hiddenselectionsmaterials[] = 
