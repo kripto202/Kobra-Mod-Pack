@@ -5,7 +5,9 @@ class cfgpatches
         author = "KOBRA Mod Team";
         requiredAddons[]=
         {
-            "kobra_core"
+            "kobra_core",
+			"442_equipment_nvg",
+			"442_equipment",
         };
 		requiredVersion = 0.1;
 		units[] = 
@@ -13,7 +15,12 @@ class cfgpatches
             "k_clone_rto_backpack_base",
             "k_clone_small_backpack_radio",
             "k_clone_small_backpack_radio_pouches",
-			"k_clone_medium_backpack_radio"
+			"k_clone_medium_backpack_radio",
+			"k_clone_arf_comms",
+			"k_clone_wrist_comms",
+			"k_clone_p1_comms",
+			"k_clone_p2_comms",
+			"k_clone_scout_comms"
         };
         weapons[] = {};
     };
@@ -95,6 +102,60 @@ class cfgvehicles
 			"", //rocket
 			"", //thermal_det
 			"" //thermal_det_lights
+		};
+	};
+    class k_clone_arf_comms: k_clone_medium_backpack_radio
+    {
+        displayname = "[K] Arf Communicator";
+		picture="kobra\kobra_core\kobra.paa";
+        maximumload = 0;
+		scope = 2;
+        model = "kobra\k_tfar\arf_comms.p3d";
+        hiddenselections[] = 
+        {
+            "comms"
+        };
+        hiddenselectionstextures[] = 
+        {
+            "Kobra\442_equipment\attachments\data\arf_brim\arf_brim_co.paa"
+        };
+    };
+	class k_clone_wrist_comms: k_clone_arf_comms
+	{
+		displayname = "[K] Wrist Communicator";
+		scope = 1;
+		model = "kobra\k_tfar\wrist_comm.p3d";
+		hiddenselections[] = {};
+		hiddenselectionstextures[] = {};
+		tf_range=10000;
+	};
+	class k_clone_p1_comms: k_clone_wrist_comms
+	{
+		displayname = "[K] P1 Helmet Communicator";
+		scope = 2;
+		model = "kobra\k_tfar\p1_comms.p3d";
+		tf_range=15000;
+	};
+	class k_clone_p2_comms: k_clone_wrist_comms
+	{
+		displayname = "[K] P2 Helmet Communicator";
+		scope = 2;
+		model = "kobra\k_tfar\p2_comms.p3d";
+		tf_range=15000;
+	};
+	class k_clone_scout_comms: k_clone_wrist_comms
+	{
+		displayname = "[K] P2 Helmet w/ Wrist Communicator";
+		scope = 2;
+		model = "kobra\k_tfar\scout_comms.p3d";
+		tf_range=20000;
+		hiddenselections[] = 
+		{
+			"backpack"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"kobra\k_tfar\data\scout_comms\scout_comms_co.paa"
 		};
 	};
 };

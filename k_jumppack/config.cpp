@@ -43,8 +43,8 @@ class cfgvehicles
 		};
 		NSM_jumppack_is_jumppack=1;
 		NSM_jumppack_spam_delay=1;
-		NSM_jumppack_energy_capacity=200;
-		NSM_jumppack_recharge=5;
+		NSM_jumppack_energy_capacity=500;
+		NSM_jumppack_recharge=10;
 		NSM_jumppack_jump_effect_script="NSM_jumppack_effect_fnc_jt_21";
 		NSM_jumppack_effect_points[] = 
 		{
@@ -72,9 +72,13 @@ class cfgvehicles
 		NSM_jumppack_jump_types[]=
 		{
 			{
-				"Forward Jump",
-				{12,20,50,0,0,0}
-			}
+				"Short Jump",
+				{25,7,25,0,1,1}
+			},
+			{
+				"High Jump",
+				{50,14,50,0,1,1}
+			},
 		};
 	};
 	class 442_jt12: 442_jumppack
@@ -188,41 +192,6 @@ class cfgvehicles
 	{
 		model = "kobra\k_jumppack\jt12_radio.p3d";
 		scope = 2;
-		NSM_jumppack_is_jumppack=1;
-		NSM_jumppack_spam_delay=1;
-		NSM_jumppack_energy_capacity=200;
-		NSM_jumppack_recharge=5;
-		NSM_jumppack_jump_effect_script="NSM_jumppack_effect_fnc_jt_21";
-		NSM_jumppack_effect_points[] = 
-		{
-			{
-				"effect1",
-				{0,0,0} // {side to side , forward, verticle}
-			},
-			{
-				"effect2",
-				{0,0,0}
-			}
-		};
-		NSM_jumppack_sound_ignite[]=
-		{
-			"NSM_Main\sounds\cdv21Start.ogg"
-		};
-		NSM_jumppack_sound_land[]=
-		{
-			"NSM_Main\sounds\cdv21End.ogg"
-		};
-		NSM_jumppack_sound_idle[]=
-		{
-			"NSM_Main\sounds\cdv21Idle.ogg"
-		};
-		NSM_jumppack_jump_types[]=
-		{
-			{
-				"Short Jump",
-				{25,7,50,0,1,1}
-			}
-		};
 		hiddenselections[] = 
 		{
 			"camo1",
@@ -234,8 +203,30 @@ class cfgvehicles
 			"kobra\k_jumppack\data\radio_co.paa"
 		};
 		maximumload=150;
-		picture = "kobra\kobra_core\kobra.paa";
 		displayName="[K] JT-12 Jumppack (Radio)";
+		tf_dialog="SWLB_clone_rto_radio_dialog";
+		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
+		tf_encryptionCode="tf_west_radio_code";
+		tf_hasLRradio=1;
+		tf_range=25000;
+		tf_subtype="digital_lr";
+	};
+	class 442_cdv_19: 442_jt12
+	{
+		displayname = "[K] CDV-19";
+		model = "kobra\k_jumppack\cdv_19.p3d";
+		hiddenselections[] = 
+		{
+			"backpack"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"kobra\k_jumppack\data\cdv_19_co.paa"
+		};
+	};
+	class 442_cdv_19_radio: 442_cdv_19
+	{
+		displayname = "[K] CDV-19 (Radio)";
 		tf_dialog="SWLB_clone_rto_radio_dialog";
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
 		tf_encryptionCode="tf_west_radio_code";
