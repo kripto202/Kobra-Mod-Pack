@@ -29,6 +29,13 @@ class cfgpatches
             "k_clone_p2_visor_command_clear",
             "k_clone_p2_visor_mc",
             "k_clone_p2_visor_mc_clear",
+
+            "k_44ab_clone_arf_brim",
+            "k_44ab_clone_arf_brim_clear",
+            "k_44ab_clone_arf_brim_plates",
+            "k_44ab_clone_arf_brim_plates_clear",
+            "k_44ab_clone_arf_brim_visor",
+            "k_44ab_clone_arf_brim_visor_clear",
         };
     };
 };
@@ -173,6 +180,7 @@ class cfgweapons
         displayname = "[K] Arf Specialist Visor (Clear NVG)";
         ace_nightvision_border = "";
     };
+    #include "arf_brim.hpp"
 ///p1 visor
     class k_clone_p1_visor: k_clone_p1_visor_base
     {

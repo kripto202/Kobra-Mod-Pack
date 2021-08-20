@@ -235,3 +235,111 @@
 			"kobra\442_units\data\helmet\p1_helmet\p1_helmet_co.paa",
 		};
     };
+
+///unit custom
+ ///44th attack battalion
+    class k_44ab_p1_helmet: k_p1_helmet
+    {
+        displayname = "[K/44] P1 Helmet";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\unit_designs\44_attack_battalion\p1_helmet_co.paa",
+            "kobra\442_units\data\unit_designs\44_attack_battalion\p1_helmet_co.paa",
+        };
+    };
+    class k_44ab_p2_helmet: k_p2_helmet
+    {
+        displayname = "[K/44] P2 Helmet";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\unit_designs\44_attack_battalion\p2_helmet_co.paa",
+            "kobra\442_units\data\unit_designs\44_attack_battalion\p2_helmet_co.paa",
+        };
+    };
+    class k_44ab_Scout_Helmet: k_Scout_Helmet
+    {
+        displayname = "[K/44] Scout Helmet";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\unit_designs\44_attack_battalion\scout_helmet_co.paa",
+            "kobra\442_units\data\unit_designs\44_attack_battalion\scout_visor_co.paa",
+        };
+    };
+    class k_44ab_hunter_Helmet: k_hunter_Helmet
+    {
+        displayname = "[K/44] Hunter Helmet";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\unit_designs\44_attack_battalion\hunter_helmet_co.paa",
+            "kobra\442_units\data\unit_designs\44_attack_battalion\hunter_visor_co.paa",
+        };
+    };
+    class k_44ab_crosshair_Helmet: k_crosshair_Helmet
+    {
+        displayname = "[K/44] Crosshair Helmet";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\unit_designs\44_attack_battalion\crosshair_helmet_co.paa",
+            "kobra\442_units\data\unit_designs\44_attack_battalion\crosshair_visor_co.paa",
+        };
+    };
+    class k_44ab_wrecker_Helmet: k_wrecker_Helmet
+    {
+        displayname = "[K/44] Wrecker Helmet";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\unit_designs\44_attack_battalion\wrecker_helmet_co.paa",
+            "kobra\442_units\data\unit_designs\44_attack_battalion\wrecker_visor_co.paa",
+        };
+    };
+    class k_44ab_tech_Helmet: k_tech_Helmet
+    {
+        displayname = "[K/44] Tech Helmet";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\unit_designs\44_attack_battalion\tech_helmet_co.paa",
+        };
+    };
+    class k_44ab_tech_Helmet_down: k_tech_Helmet_down
+    {
+        displayname = "[K/44] Tech Helmet";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\unit_designs\44_attack_battalion\tech_helmet_co.paa",
+        };
+    };
+    class k_44ab_cadet_Helmet: k_cadet_helmet
+    {
+        displayname = "[K/44] Cadet Helmet";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\unit_designs\44_attack_battalion\cadet_helmet_co.paa",
+        };
+    };
+    class k_44ab_p1_pilot_helmet: k_p1_pilot_helmet
+    {
+        displayname = "[K/44] P1 Pilot Helmet";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\unit_designs\44_attack_battalion\p1_pilot_helmet_co.paa",
+            "kobra\442_units\data\unit_designs\44_attack_battalion\p1_pilot_helmet_co.paa",
+        };
+    };
+    class k_44ab_arf_helmet: k_arf_helmet
+    {
+        displayname = "[K/44] Arf Helmet";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\unit_designs\44_attack_battalion\arf_helmet_co.paa",
+            "kobra\442_units\data\unit_designs\44_attack_battalion\arf_helmet_co.paa",
+        };
+    };
+    class k_44ab_p1_airborne_helmet: k_p1_airborne_helmet
+    {
+        displayname = "[K/44] P1 Airborne Helmet";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\unit_designs\44_attack_battalion\p1_airborne_helmet_co.paa",
+            "kobra\442_units\data\unit_designs\44_attack_battalion\p1_airborne_helmet_co.paa",
+        };
+    };

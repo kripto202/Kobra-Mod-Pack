@@ -121,64 +121,15 @@
 			"kobra\442_units\data\helmet\arf_helmet\arf_helmet_co.paa",
 		};
 	};
-    class k_p1_airborne_helmet: k_arf_helmet_base
+    class k_p1_airborne_helmet: k_p1_airborne_base
 	{
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
 		displayname = "[K] P1 Airborne Helmet";
-        model = "kobra\442_units\p1_airborne_helmet.p3d";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_units\data\helmet\p1_airborne_helmet\p1_airborne_helmet_co.paa",
 			"kobra\442_units\data\helmet\p1_airborne_helmet\p1_airborne_helmet_co.paa",
 		};
 	};
-
-
-///////////submitted designs//////////
-   /* class k_scout_helmet_dukas: k_Scout_Helmet
-    {
-        displayName="[K] Scout Helmet (Dukas)";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_units\data\helmet\scout_helmet\camo1_dukas_co.paa",
-            "kobra\442_units\data\helmet\scout_helmet\visor_co.paa",
-        };
-    };
-    class k_scout_helmet_camo: k_Scout_Helmet
-    {
-        displayName="[K] Scout Helmet [Camo]";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_units\data\helmet\scout_helmet\camo1_camo_co.paa",
-            "kobra\442_units\data\helmet\scout_helmet\visor_co.paa",
-        };
-    };
-    class k_scout_helmet_arctic: k_Scout_Helmet
-    {
-        displayName="[K] Scout Helmet [Arctic]";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_units\data\helmet\scout_helmet\camo1_arctic_co.paa",
-            "kobra\442_units\data\helmet\scout_helmet\visor_co.paa",
-        };
-    };
-    class k_scout_helmet_desert: k_Scout_Helmet
-    {
-        displayName="[K] Scout Helmet [Desert]";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_units\data\helmet\scout_helmet\camo1_desert_co.paa",
-            "kobra\442_units\data\helmet\scout_helmet\visor_co.paa",
-        };
-    };
-    class k_scout_helmet_jungle: k_Scout_Helmet
-    {
-        displayName="[K] Scout Helmet [Jungle]";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_units\data\helmet\scout_helmet\camo1_jungle_co.paa",
-            "kobra\442_units\data\helmet\scout_helmet\visor_co.paa",
-        };
-    };*/

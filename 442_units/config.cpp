@@ -90,6 +90,22 @@ class cfgpatches
 			"k_p1_helmet_thire",
 			"k_p1_helmet_wolfe_grey",
 			"k_p1_helmet_wolfe_red",
+
+			"k_44ab_p1_helmet",
+			"k_44ab_p2_helmet",
+			"k_44ab_Scout_Helmet",
+			"k_44ab_hunter_Helmet",
+			"k_44ab_crosshair_Helmet",
+			"k_44ab_wrecker_Helmet",
+			"k_44ab_tech_Helmet",
+			"k_44ab_tech_Helmet_down",
+			"k_44ab_cadet_Helmet",
+			"k_44ab_p1_pilot_helmet",
+			"k_44ab_arf_helmet",
+			"k_44ab_p1_airborne_helmet",
+			"k_44ab_scout_pouches_light",
+			"k_44ab_scout_pouches_medium",
+			"k_44ab_scout_pouches_heavy"
         };
     };
 };
@@ -215,6 +231,7 @@ class cfgvehicles
 		};
 	};
 	#include "unit.hpp"
+	#include "unit_custom.hpp"
 };
 class cfgweapons 
 {
@@ -604,6 +621,8 @@ class cfgweapons
     #include "helmet.hpp"
 	#include "helmet_custom.hpp"
 	#include "uniform.hpp"
+	#include "uniform_custom.hpp"
 	#include "vest.hpp"
+	//#include "vest_custom.hpp"
 };
 
