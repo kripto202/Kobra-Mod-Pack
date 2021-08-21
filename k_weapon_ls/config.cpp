@@ -2803,7 +2803,7 @@ class cfgmagazinewells
 	{
 		k_9_20Rnd_magazine[] = 
 		{
-			"442_762_20rnd_blue_mag",
+			"442_9_20rnd_blue_mag",
 			"442_9_20rnd_red_mag",
 			"442_9_20rnd_green_mag",
 			"442_9_20rnd_pink_mag",

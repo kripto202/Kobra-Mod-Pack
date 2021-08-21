@@ -36,6 +36,11 @@ class cfgpatches
             "k_44ab_clone_arf_brim_plates_clear",
             "k_44ab_clone_arf_brim_visor",
             "k_44ab_clone_arf_brim_visor_clear",
+
+            "k_clone_p1_macro_nvg",
+            "k_clone_p1_macro_nvg_base",
+            "k_clone_p2_macro_nvg_base",
+            "k_clone_p2_macro_nvg",
         };
     };
 };
@@ -119,6 +124,50 @@ class cfgweapons
                 "plates",
                 "antenna",
                 "sensor"
+            };
+        };
+    };
+    class k_clone_p1_macro_nvg_base: k_clone_arf_brim_base
+    {
+        model = "kobra\442_equipment\attachments\p1_macro_visor.p3d";
+        hiddenselections[] = 
+        {
+            "visor"
+        };
+        visionMode[]=
+		{
+			"Normal",
+			"NVG"
+		};
+        class ItemInfo: ItemInfo
+        {
+            uniformModel = "kobra\442_equipment\attachments\p1_macro_visor.p3d";
+            modeloff = "kobra\442_equipment\attachments\p1_macro_visor.p3d";
+            hiddenselections[] = 
+            {
+                "visor"
+            };
+        };
+    };
+    class k_clone_p2_macro_nvg_base: k_clone_arf_brim_base
+    {
+        model = "kobra\442_equipment\attachments\p2_macro_visor.p3d";
+        hiddenselections[] = 
+        {
+            "visor"
+        };
+        visionMode[]=
+		{
+			"Normal",
+			"NVG"
+		};
+        class ItemInfo: ItemInfo
+        {
+            uniformModel = "kobra\442_equipment\attachments\p2_macro_visor.p3d";
+            modeloff = "kobra\442_equipment\attachments\p2_macro_visor.p3d";
+            hiddenselections[] = 
+            {
+                "visor"
             };
         };
     };
@@ -278,5 +327,24 @@ class cfgweapons
     {
         displayname = "[K] P2 Marshal Commander Visor (Clear NVG)";
         ace_nightvision_border = "";
+    };
+///macro visor
+    class k_clone_p1_macro_nvg: k_clone_p1_macro_nvg_base
+    {
+        displayname = "[K] P1 Macro Visor";
+        scope = 2;
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\attachments\data\p1_macro_visor\p1_macro_visor_co.paa"
+        };
+    };
+    class k_clone_p2_macro_nvg: k_clone_p2_macro_nvg_base
+    {
+        displayname = "[K] P2 Macro Visor";
+        scope = 2;
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\attachments\data\p2_macro_visor\p2_macro_visor_co.paa"
+        };
     };
 };

@@ -20,3 +20,36 @@
             "kobra\442_units\data\uniform\scout_uniform\undersuit_co.paa"
         };
     };
+    class k_scout_unit_arid: k_scout_unit
+    {
+        displayname = "Scout Trooper";
+        uniformclass = "k_scout_uniform_arid";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\unit_designs\arid_scout\scout_armor_co.paa",
+            "kobra\442_units\data\uniform\scout_uniform\gloves_co.paa",
+            "kobra\442_units\data\unit_designs\arid_scout\scout_undersuit_co.paa"
+        };
+    };
+    class k_scout_unit_desert: k_scout_unit
+    {
+        displayname = "Scout Trooper";
+        uniformclass = "k_scout_uniform_desert";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\unit_designs\desert_scout\scout_armor_co.paa",
+            "kobra\442_units\data\uniform\scout_uniform\gloves_co.paa",
+            "kobra\442_units\data\unit_designs\desert_scout\scout_undersuit_co.paa"
+        };
+    };
+    class k_scout_unit_woodland: k_scout_unit
+    {
+        displayname = "Scout Trooper";
+        uniformclass = "k_scout_uniform_woodland";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\unit_designs\woodland_scout\scout_armor_co.paa",
+            "kobra\442_units\data\uniform\scout_uniform\gloves_co.paa",
+            "kobra\442_units\data\unit_designs\woodland_scout\scout_undersuit_co.paa"
+        };
+    };

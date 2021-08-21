@@ -1,5 +1,5 @@
-///p1 helmet
-    ///lore units
+/*///p1 helmet
+ ///lore units
     class k_p1_helmet_41_green: k_p1_helmet
     {
         displayname = "[K] P1 41st Helmet (Green)";
@@ -135,7 +135,7 @@
 			"kobra\442_units\data\helmet\p1_helmet\custom\lore_units\p1_helmet_sc_co.paa",
 		};
     };
-    ///lore characters
+ ///lore characters
     class k_p1_helmet_cody: k_p1_helmet
     {
         displayname = "[K] P1 212th Cody's Helmet";
@@ -235,7 +235,145 @@
 			"kobra\442_units\data\helmet\p1_helmet\p1_helmet_co.paa",
 		};
     };
+///p2 helmet
+    class k_p2_helmet_41: k_p2_helmet
+    {
+        displayname = "[K] P2 41st Helmet";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\helmet\p2_helmet\custom\lore_units\p2_helmet_41_co.paa",
+			"kobra\442_units\data\helmet\p2_helmet\custom\lore_units\p2_helmet_41_co.paa",
+		};
+    };
+    class k_p2_helmet_91: k_p2_helmet
+    {
+        displayname = "[K] P2 91st Helmet";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\helmet\p2_helmet\custom\lore_units\p2_helmet_91_co.paa",
+			"kobra\442_units\data\helmet\p2_helmet\custom\lore_units\p2_helmet_91_co.paa",
+		};
+    };
+    class k_p2_helmet_104: k_p2_helmet
+    {
+        displayname = "[K] P2 104th Helmet";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\helmet\p2_helmet\custom\lore_units\p2_helmet_104_co.paa",
+			"kobra\442_units\data\helmet\p2_helmet\custom\lore_units\p2_helmet_104_co.paa",
+		};
+    };
+    class k_p2_helmet_187: k_p2_helmet
+    {
+        displayname = "[K] P2 187th Helmet";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\helmet\p2_helmet\custom\lore_units\p2_helmet_187_co.paa",
+			"kobra\442_units\data\helmet\p2_helmet\custom\lore_units\p2_helmet_187_co.paa",
+		};
+    };
+    class k_p2_helmet_212: k_p2_helmet
+    {
+        displayname = "[K] P2 212th Helmet";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\helmet\p2_helmet\custom\lore_units\p2_helmet_212_co.paa",
+			"kobra\442_units\data\helmet\p2_helmet\custom\lore_units\p2_helmet_212_co.paa",
+		};
+    };
+    class k_p2_helmet_327: k_p2_helmet
+    {
+        displayname = "[K] P2 327th Helmet";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\helmet\p2_helmet\custom\lore_units\p2_helmet_327_co.paa",
+			"kobra\442_units\data\helmet\p2_helmet\custom\lore_units\p2_helmet_327_co.paa",
+		};
+    };
+    class k_p2_helmet_332: k_p2_helmet
+    {
+        displayname = "[K] P2 332nd Helmet";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\helmet\p2_helmet\custom\lore_units\p2_helmet_332_co.paa",
+			"kobra\442_units\data\helmet\p2_helmet\custom\lore_units\p2_helmet_332_co.paa",
+		};
+    };
+    class k_p2_helmet_442: k_p2_helmet
+    {
+        displayname = "[K] P2 442nd Helmet";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\helmet\p2_helmet\custom\lore_units\p2_helmet_442_co.paa",
+			"kobra\442_units\data\helmet\p2_helmet\custom\lore_units\p2_helmet_442_co.paa",
+		};
+    };
+    class k_p2_helmet_501: k_p2_helmet
+    {
+        displayname = "[K] P2 501st Helmet";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\helmet\p2_helmet\custom\lore_units\p2_helmet_501_co.paa",
+			"kobra\442_units\data\helmet\p2_helmet\custom\lore_units\p2_helmet_501_co.paa",
+		};
+    };
+    class k_p2_helmet_cg: k_p2_helmet
+    {
+        displayname = "[K] P2 Coruscant Guard Helmet";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\helmet\p2_helmet\custom\lore_units\p2_helmet_cg_co.paa",
+			"kobra\442_units\data\helmet\p2_helmet\custom\lore_units\p2_helmet_cg_co.paa",
+		};
+    };
+    class k_p2_helmet_ks: k_p2_helmet
+    {
+        displayname = "[K] P2 Kamino Security Helmet";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\helmet\p2_helmet\custom\lore_units\p2_helmet_ks_co.paa",
+			"kobra\442_units\data\helmet\p2_helmet\custom\lore_units\p2_helmet_ks_co.paa",
+		};
+    };
 
+    class k_p2_helmet_fox: k_p2_helmet
+    {
+        displayname = "[K] P2 Fox's Helmet";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\helmet\p2_helmet\custom\lore_characters\p2_helmet_fox_co.paa",
+			"kobra\442_units\data\helmet\p2_helmet\custom\lore_characters\p2_helmet_fox_co.paa",
+		};
+    };*/
+
+///scout helmet
+    class k_Scout_arid_Helmet: k_Scout_Helmet
+    {
+        displayname = "[K] Scout Helmet (Arid)";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\unit_designs\arid_scout\scout_helmet_co.paa",
+            "kobra\442_units\data\helmet\scout_helmet\visor_co.paa",
+        };
+    };
+    class k_Scout_desert_Helmet: k_Scout_Helmet
+    {
+        displayname = "[K] Scout Helmet (Desert)";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\unit_designs\desert_scout\scout_helmet_co.paa",
+            "kobra\442_units\data\helmet\scout_helmet\visor_co.paa",
+        };
+    };
+    class k_Scout_woodland_Helmet: k_Scout_Helmet
+    {
+        displayname = "[K] Scout Helmet (Woodland)";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\unit_designs\woodland_scout\scout_helmet_co.paa",
+            "kobra\442_units\data\helmet\scout_helmet\visor_co.paa",
+        };
+    };
 ///unit custom
  ///44th attack battalion
     class k_44ab_p1_helmet: k_p1_helmet

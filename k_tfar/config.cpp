@@ -145,7 +145,7 @@ class cfgvehicles
 	};
 	class k_clone_scout_comms: k_clone_wrist_comms
 	{
-		displayname = "[K] P2 Helmet w/ Wrist Communicator";
+		displayname = "[K] Scout Communicator";
 		scope = 2;
 		model = "kobra\k_tfar\scout_comms.p3d";
 		tf_range=20000;

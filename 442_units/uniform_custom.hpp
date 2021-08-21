@@ -16,3 +16,29 @@
             uniformclass = "k_44ab_scout_unit";
         };
     };
+
+ ///dukas
+    class k_scout_uniform_arid: k_scout_uniform
+    {
+        displayname = "[K] Scout Trooper Armor (Arid)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_scout_unit_arid";
+        };
+    };
+    class k_scout_uniform_desert: k_scout_uniform
+    {
+        displayname = "[K] Scout Trooper Armor (Desert)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_scout_unit_desert";
+        };
+    };
+    class k_scout_uniform_woodland: k_scout_uniform
+    {
+        displayname = "[K] Scout Trooper Armor (Woodland)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_scout_unit_woodland";
+        };
+    };

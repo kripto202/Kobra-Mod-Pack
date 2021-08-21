@@ -720,7 +720,7 @@
 	
 	class k_kama_dirt: k_kama_full
 	{
-		displayname = "Kama Dirty";
+		displayname = "[K] Kama Dirty";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_units\data\vests\clone_vest\kama_dirt_co.paa",
@@ -764,7 +764,7 @@
 	};
 	class k_kama_dirtL: k_kama_full
 	{
-		displayname = "Left Kama Dirty";
+		displayname = "[K] Left Kama Dirty";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_units\data\vests\clone_vest\kama_dirt_co.paa",
@@ -808,7 +808,7 @@
 	};
 	class k_kama_dirtR: k_kama_full
 	{
-		displayname = "Right Kama Dirty";
+		displayname = "[K] Right Kama Dirty";
 		hiddenselectionstextures[] = 
 		{
 			"",
@@ -853,7 +853,7 @@
 	
 	class k_kama_1: k_kama_full
 	{
-		displayname = "Kama 1";
+		displayname = "[K] Kama 1";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_units\data\vests\clone_vest\kama1_co.paa",
@@ -897,7 +897,7 @@
 	};
 	class k_kama_1L: k_kama_full
 	{
-		displayname = "Left Kama 1";
+		displayname = "[K] Left Kama 1";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_units\data\vests\clone_vest\kama1_co.paa",
@@ -941,7 +941,7 @@
 	};
 	class k_kama_1R: k_kama_full
 	{
-		displayname = "Right Kama 1";
+		displayname = "[K] Right Kama 1";
 		hiddenselectionstextures[] = 
 		{
 			"",
@@ -986,7 +986,7 @@
 	
 	class k_kama_2: k_kama_full
 	{
-		displayname = "Kama 2";
+		displayname = "[K] Kama 2";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_units\data\vests\clone_vest\kama2_co.paa",
@@ -1030,7 +1030,7 @@
 	};
 	class k_kama_2L: k_kama_full
 	{
-		displayname = "Left Kama 2";
+		displayname = "[K] Left Kama 2";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_units\data\vests\clone_vest\kama2_co.paa",
@@ -1074,7 +1074,7 @@
 	};
 	class k_kama_2R: k_kama_full
 	{
-		displayname = "Right Kama 2";
+		displayname = "[K] Right Kama 2";
 		hiddenselectionstextures[] = 
 		{
 			"",
@@ -1119,7 +1119,7 @@
 	
 	class k_kama_5: k_kama_full
 	{
-		displayname = "Kama 5";
+		displayname = "[K] Kama 5";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_units\data\vests\clone_vest\kama5_co.paa",
@@ -1163,7 +1163,7 @@
 	};
 	class k_kama_5L: k_kama_full
 	{
-		displayname = "Left Kama 5";
+		displayname = "[K] Left Kama 5";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_units\data\vests\clone_vest\kama5_co.paa",
@@ -1207,7 +1207,7 @@
 	};
 	class k_kama_5R: k_kama_full
 	{
-		displayname = "Right Kama 5";
+		displayname = "[K] Right Kama 5";
 		hiddenselectionstextures[] = 
 		{
 			"",
@@ -1252,7 +1252,7 @@
 	
 	class k_kama_6: k_kama_full
 	{
-		displayname = "Kama 6";
+		displayname = "[K] Kama 6";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_units\data\vests\clone_vest\kama6_co.paa",
@@ -1296,7 +1296,7 @@
 	};
 	class k_kama_6L: k_kama_full
 	{
-		displayname = "Left Kama 6";
+		displayname = "[K] Left Kama 6";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_units\data\vests\clone_vest\kama6_co.paa",
@@ -1340,7 +1340,7 @@
 	};
 	class k_kama_6R: k_kama_full
 	{
-		displayname = "Right Kama 6";
+		displayname = "[K] Right Kama 6";
 		hiddenselectionstextures[] = 
 		{
 			"",
@@ -1385,7 +1385,7 @@
 	
 	class k_kama_7: k_kama_full
 	{
-		displayname = "Kama 7";
+		displayname = "[K] Kama 7";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_units\data\vests\clone_vest\kama7_co.paa",
@@ -1429,7 +1429,7 @@
 	};
 	class k_kama_7L: k_kama_full
 	{
-		displayname = "Left Kama 7";
+		displayname = "[K] Left Kama 7";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_units\data\vests\clone_vest\kama7_co.paa",
@@ -1473,7 +1473,7 @@
 	};
 	class k_kama_7R: k_kama_full
 	{
-		displayname = "Right Kama 7";
+		displayname = "[K] Right Kama 7";
 		hiddenselectionstextures[] = 
 		{
 			"",

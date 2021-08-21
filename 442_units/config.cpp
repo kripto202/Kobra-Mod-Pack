@@ -12,7 +12,13 @@ class cfgpatches
         {
             "k_barracks_unit",
 			"k_scout_unit",
-			"k_scout_unit"
+			"k_scout_unit",
+
+			"k_44ab_clone_unit",
+			"k_44ab_scout_unit",
+			"k_scout_unit_arid",
+			"k_scout_unit_desert",
+			"k_scout_unit_woodland",
         };
         weapons[] = 
         {
@@ -105,7 +111,35 @@ class cfgpatches
 			"k_44ab_p1_airborne_helmet",
 			"k_44ab_scout_pouches_light",
 			"k_44ab_scout_pouches_medium",
-			"k_44ab_scout_pouches_heavy"
+			"k_44ab_scout_pouches_heavy",
+			"k_scout_pouches_light_arid",
+			"k_scout_pouches_medium_arid",
+			"k_scout_pouches_heavy_arid",
+			"k_scout_pouches_light_desert",
+			"k_scout_pouches_medium_desert",
+			"k_scout_pouches_heavy_desert",
+			"k_scout_pouches_light_woodland",
+			"k_scout_pouches_medium_woodland",
+			"k_scout_pouches_heavy_woodland",
+			"k_scout_uniform_arid",
+			"k_scout_uniform_desert",
+			"k_scout_uniform_woodland",
+			"k_Scout_arid_Helmet",
+			"k_Scout_desert_Helmet",
+			"k_Scout_woodland_Helmet",
+
+			"k_p2_helmet_41",
+			"k_p2_helmet_91",
+			"k_p2_helmet_104",
+			"k_p2_helmet_187",
+			"k_p2_helmet_212",
+			"k_p2_helmet_327",
+			"k_p2_helmet_332",
+			"k_p2_helmet_442",
+			"k_p2_helmet_501",
+			"k_p2_helmet_cg",
+			"k_p2_helmet_ks",
+			"k_p2_helmet_fox",
         };
     };
 };
