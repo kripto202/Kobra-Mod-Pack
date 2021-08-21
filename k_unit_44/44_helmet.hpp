@@ -255,7 +255,7 @@
 		};
 		hiddenselectionsmaterials[] = 
 		{
-			"kobra\442_units\data\helmet\scout_helmet\camo1.rvmat",
+			"kobra\442_units\data\helmet\scout_helmet\helmet.rvmat",
 			"kobra\k_unit_44\data\helmets\scout_helmet_visor.rvmat"
 		};
 	};
@@ -272,7 +272,7 @@
 		};
 		hiddenselectionsmaterials[] = 
 		{
-			"kobra\442_units\data\helmet\hunter_helmet\camo1.rvmat",
+			"kobra\442_units\data\helmet\hunter_helmet\helmet.rvmat",
 			"kobra\k_unit_44\data\helmets\hunter_helmet_visor.rvmat"
 		};
 	};
@@ -289,7 +289,7 @@
 		};
 		hiddenselectionsmaterials[] = 
 		{
-			"kobra\442_units\data\helmet\crosshair_helmet\camo1.rvmat",
+			"kobra\442_units\data\helmet\crosshair_helmet\helmet.rvmat",
 			"kobra\k_unit_44\data\helmets\crosshair_helmet_visor.rvmat"
 		};
 	};
@@ -306,7 +306,7 @@
 		};
 		hiddenselectionsmaterials[] = 
 		{
-			"kobra\442_units\data\helmet\wrecker_helmet\camo1.rvmat",
+			"kobra\442_units\data\helmet\wrecker_helmet\helmet.rvmat",
 			"kobra\k_unit_44\data\helmets\wrecker_helmet_visor.rvmat"
 		};
 	};
@@ -473,5 +473,14 @@
 		{
 			"kobra\k_unit_44\data\custom\wumbo\44_ab_helmet_co.paa",
 			"kobra\k_unit_ls\data\helmet\ab_helmet\visor_co.paa"
+		};
+	};
+	class k_ls_44_p2_pilot_helmet_daily: k_ls_44_p2_pilot_helmet
+	{
+		displayname = "[44/LS] P2 Pilot Helmet (Daily)";
+		hiddenselectionstextures[]=
+		{
+			"kobra\k_unit_44\data\custom\daily\p2_pilot_camo1_co.paa",
+			"kobra\k_unit_ls\data\helmet\p2_pilot_helmet\visor_co.paa"
 		};
 	};

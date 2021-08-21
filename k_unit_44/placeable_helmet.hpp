@@ -394,3 +394,15 @@
             };
         };
     };
+    class k_ls_headgear_44_daily: k_ls_headgear_p2
+    {
+        displayname = "[44/LS] Airborne Helmet (Daily)";
+        class transportItems
+        {
+            class helmet
+            {
+                name = "k_ls_44_p2_pilot_helmet_daily";
+                count = 1;
+            };
+        };
+    };

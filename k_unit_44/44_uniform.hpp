@@ -149,3 +149,11 @@
 			uniformClass="k_ls_44_unit_wumbo";
 		};
 	};
+	class k_ls_44_uniform_daily: k_ls_44_uniform
+	{
+		displayname = "[44/LS] Clone Trooper Uniform (Daily)";
+		class iteminfo: iteminfo
+		{
+			uniformClass="k_ls_44_unit_daily";
+		};
+	};

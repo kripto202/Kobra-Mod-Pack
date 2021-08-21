@@ -105,6 +105,7 @@ class cfgpatches
             "k_ls_44_rex_helmet_rex",
             "k_ls_44_p1_helmet_kyram",
             "k_ls_44_barc_helmet_ivanov",
+            "k_ls_44_p2_pilot_helmet_daily",
 
             "k_ls_44_uniform",
             "k_ls_44_uniform_mc",
@@ -125,6 +126,8 @@ class cfgpatches
             "k_ls_44_uniform_kyram",
             "k_ls_44_ab_helmet_wumbo",
             "k_ls_44_uniform_wumbo",
+            "k_ls_44_uniform_daily",
+            
         };
     };
 };
