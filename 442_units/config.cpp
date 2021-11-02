@@ -45,6 +45,8 @@ class cfgpatches
 			"k_p1_pilot_helmet",
 			"k_p1_helmet",
 			"k_p2_helmet",
+			"k_barc_helmet",
+			"k_p15_helmet",
 
 			"k_scout_pouches_base",
 			"k_scout_pouches_light",
@@ -635,7 +637,7 @@ class cfgweapons
 	};
 	class k_p1_airborne_base: k_helmet_base
 	{
-		displayname = "[K] Arf Helmet";
+		displayname = "[K] P1 Airborne Helmet";
 		model = "kobra\442_units\p1_airborne_helmet.p3d";
 		hiddenselections[] = 
 		{
@@ -645,6 +647,44 @@ class cfgweapons
 		class iteminfo: Iteminfo
 		{
 			uniformmodel = "kobra\442_units\p1_airborne_helmet.p3d";
+			hiddenselections[] = 
+			{
+				"helmet",
+				"visor"
+			};
+		};
+	};
+	class k_barc_helmet_base: k_helmet_base
+	{
+		displayname = "[K] Barc Helmet";
+		model = "kobra\442_units\barc_helmet.p3d";
+		hiddenselections[] = 
+		{
+			"helmet",
+			"visor"
+		};
+		class itemInfo: ItemInfo
+		{
+			uniformmodel = "kobra\442_units\barc_helmet.p3d";
+			hiddenselections[] = 
+			{
+				"helmet",
+				"visor"
+			};
+		};
+	};
+	class k_p15_helmet_base: k_helmet_base
+	{
+		displayname = "[K] P1.5 Helmet";
+		model = "kobra\442_units\p15_helmet.p3d";
+		hiddenselections[] = 
+		{
+			"helmet",
+			"visor"
+		};
+		class itemInfo: ItemInfo
+		{
+			uniformmodel = "kobra\442_units\p15_helmet.p3d";
 			hiddenselections[] = 
 			{
 				"helmet",

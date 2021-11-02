@@ -133,3 +133,27 @@
 			"kobra\442_units\data\helmet\p1_airborne_helmet\p1_airborne_helmet_co.paa",
 		};
 	};
+	class k_barc_helmet: k_barc_helmet_base
+	{
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
+		displayname = "[K] Barc Helmet";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\helmet\barc_helmet\barc_helmet_co.paa",
+			"kobra\442_units\data\helmet\barc_helmet\barc_helmet_co.paa",
+		};
+	};
+	class k_p15_helmet: k_p15_helmet_base
+	{
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
+		displayname = "[K] P1.5 Helmet";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\helmet\p15_helmet\p15_helmet_co.paa",
+			"kobra\442_units\data\helmet\p15_helmet\p15_helmet_co.paa",
+		};
+	};

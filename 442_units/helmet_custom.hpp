@@ -481,3 +481,12 @@
             "kobra\442_units\data\unit_designs\44_attack_battalion\p1_airborne_helmet_co.paa",
         };
     };
+	class k_44ab_barc_helmet: k_barc_helmet
+	{
+		displayname = "[K/44] Barc Helmet";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\unit_designs\44_attack_battalion\barc_helmet_co.paa",
+            "kobra\442_units\data\unit_designs\44_attack_battalion\barc_helmet_co.paa",
+		};
+	};

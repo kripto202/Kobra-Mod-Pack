@@ -241,6 +241,7 @@
 			"kobra\k_unit_44\data\helmets\rex_helmet_visor.rvmat"
 		};
 	};
+	
 	class k_44_scout_helmet: k_Scout_Helmet
 	{
 		displayname = "[44] Scout Helmet";
