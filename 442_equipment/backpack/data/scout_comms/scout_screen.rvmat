@@ -2,17 +2,17 @@ class StageTI
 {
 	texture="#(argb,8,8,3)color(1,1,1,1,TI)";
 };
-ambient[] = {0.5,0.5,0.5,1};
+ambient[] = {100,100,100,1};
 diffuse[] = {0.5,0.5,0.5,0.5};
 forcedDiffuse[]={0,0,0,0};
 emmisive[]={0,0,0,1};
 specular[]={1,1,1,1};
-specularPower=10;
+specularPower=125;
 PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="kobra\k_tfar\data\helmet_comms\helmet_comms_nohq.paa";
+	texture="kobra\k_equipment\backpack\data\scout_comms\scout_comms_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -48,7 +48,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="kobra\k_tfar\data\helmet_comms\helmet_comms_as.paa";
+	texture="kobra\k_equipment\backpack\data\scout_comms\scout_comms_as.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -60,7 +60,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="kobra\k_tfar\data\helmet_comms\helmet_comms_smdi.paa";
+	texture="kobra\k_equipment\backpack\data\scout_comms\scout_comms_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{
