@@ -379,8 +379,8 @@
 		scopearsenal = 2;
 		hiddenselectionstextures[] = 
 		{
-			"",
-			"",
+			"", //kama left
+			"", //kama right
             //pouch1
             "", //Left front
             "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //left center
