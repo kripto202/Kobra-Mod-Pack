@@ -375,7 +375,7 @@
         };
     };
 ///unit custom
- ///44th attack battalion
+///44th attack battalion
     class k_44ab_p1_helmet: k_p1_helmet
     {
         displayname = "[K/44] P1 Helmet";
@@ -383,6 +383,10 @@
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\p1_helmet_co.paa",
             "kobra\442_units\data\unit_designs\44_attack_battalion\p1_helmet_co.paa",
+            "",
+            "",
+            "",
+            ""
         };
     };
     class k_44ab_p2_helmet: k_p2_helmet
@@ -392,6 +396,11 @@
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\p2_helmet_co.paa",
             "kobra\442_units\data\unit_designs\44_attack_battalion\p2_helmet_co.paa",
+            "",
+            "",
+            "",
+            "",
+            "",
         };
     };
     class k_44ab_Scout_Helmet: k_Scout_Helmet
@@ -470,6 +479,10 @@
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\arf_helmet_co.paa",
             "kobra\442_units\data\unit_designs\44_attack_battalion\arf_helmet_co.paa",
+            "kobra\442_units\data\unit_designs\44_attack_battalion\arf_brim_co.paa",
+            "",
+            "",
+            "",
         };
     };
     class k_44ab_p1_airborne_helmet: k_p1_airborne_helmet
@@ -488,5 +501,23 @@
 		{
 			"kobra\442_units\data\unit_designs\44_attack_battalion\barc_helmet_co.paa",
             "kobra\442_units\data\unit_designs\44_attack_battalion\barc_helmet_co.paa",
+            "",
+            "",
+            "",
+            "",
 		};
 	};
+///custom
+    class k_44ab_arf_piercer_helmet: k_arf_helmet
+    {
+        displayname = "[K/44] Arf Helmet (Piercer)";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\unit_designs\44_attack_battalion\piercer\arf_helmet_co.paa",
+            "kobra\442_units\data\unit_designs\44_attack_battalion\piercer\arf_helmet_co.paa",
+            "kobra\442_units\data\unit_designs\44_attack_battalion\piercer\arf_brim_co.paa",
+            "kobra\442_units\data\unit_designs\44_attack_battalion\piercer\arf_brim_co.paa",
+            "",
+            "",
+        };
+    };

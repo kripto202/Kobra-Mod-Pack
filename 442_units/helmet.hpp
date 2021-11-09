@@ -3,7 +3,7 @@
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
-        picture = "\kobra\442_units\data\ui\scout_helmet.paa";
+        //picture = "\kobra\442_units\data\ui\scout_helmet.paa";
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\helmet\scout_helmet\helmet_co.paa",

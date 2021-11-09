@@ -20,6 +20,18 @@
             "kobra\442_units\data\uniform\scout_uniform\undersuit_co.paa"
         };
     };
+///custom
+    class k_44ab_clone_piercer_unit: k_44ab_clone_unit
+    {
+        displayname = "Clone Trooper (Piercer)";
+        uniformclass = "k_44ab_clone_piercer_uniform";
+        hiddenselectionstexuters[] = 
+        {
+            "Kobra\442_units\data\unit_designs\44_attack_battalion\piercer\upper_armor_co.paa",
+            "Kobra\442_units\data\unit_designs\44_attack_battalion\piercer\lower_armor_co.paa",
+        };
+    };
+///dukas
     class k_scout_unit_arid: k_scout_unit
     {
         displayname = "Scout Trooper";

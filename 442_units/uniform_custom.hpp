@@ -16,6 +16,15 @@
             uniformclass = "k_44ab_scout_unit";
         };
     };
+///custom
+    class k_44ab_clone_piercer_uniform: k_44ab_clone_uniform
+    {
+        displayname = "[K/44] Clone Trooper Armor (Piercer)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_44ab_clone_piercer_unit";
+        };
+    };
 
  ///dukas
     class k_scout_uniform_arid: k_scout_uniform

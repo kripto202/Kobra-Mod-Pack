@@ -394,21 +394,21 @@ class cfgvehicles
 		picture="kobra\kobra_core\kobra.paa";
         maximumload = 0;
 		scope = 2;
-        model = "kobra\k_equipment\backpack\arf_comms.p3d";
+        model = "kobra\442_equipment\backpack\arf_comms.p3d";
         hiddenselections[] = 
         {
             "comms"
         };
         hiddenselectionstextures[] = 
         {
-            "Kobra\442_equipment\attachments\data\arf_brim\arf_brim_co.paa"
+            "Kobra\442_units\data\helmet\arf_helmet\arf_brim_co.paa"
         };
     };
 	class k_clone_wrist_comms: k_clone_arf_comms
 	{
 		displayname = "[K] Wrist Communicator";
 		scope = 1;
-		model = "kobra\k_equipment\backpack\wrist_comm.p3d";
+		model = "kobra\442_equipment\backpack\wrist_comm.p3d";
 		hiddenselections[] = {};
 		hiddenselectionstextures[] = {};
 		tf_range=10000;
@@ -417,21 +417,21 @@ class cfgvehicles
 	{
 		displayname = "[K] P1 Helmet Communicator";
 		scope = 2;
-		model = "kobra\k_equipment\backpack\p1_comms.p3d";
+		model = "kobra\442_equipment\backpack\p1_comms.p3d";
 		tf_range=15000;
 	};
 	class k_clone_p2_comms: k_clone_wrist_comms
 	{
 		displayname = "[K] P2 Helmet Communicator";
 		scope = 2;
-		model = "kobra\k_equipment\backpack\p2_comms.p3d";
+		model = "kobra\442_equipment\backpack\p2_comms.p3d";
 		tf_range=15000;
 	};
 	class k_clone_scout_comms: k_clone_wrist_comms
 	{
 		displayname = "[K] Scout Communicator";
 		scope = 2;
-		model = "kobra\k_equipment\backpack\scout_comms.p3d";
+		model = "kobra\442_equipment\backpack\scout_comms.p3d";
 		tf_range=20000;
 		hiddenselections[] = 
 		{
@@ -439,7 +439,7 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[] = 
 		{
-			"kobra\k_equipment\backpack\data\scout_comms\scout_comms_co.paa"
+			"kobra\442_equipment\backpack\data\scout_comms\scout_comms_co.paa"
 		};
 	};
 };

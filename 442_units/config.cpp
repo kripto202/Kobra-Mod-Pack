@@ -142,6 +142,10 @@ class cfgpatches
 			"k_p2_helmet_cg",
 			"k_p2_helmet_ks",
 			"k_p2_helmet_fox",
+
+			"k_clone_arc_vest",
+			"k_clone_arc_vest2",
+			"k_clone_arc_vest3"
         };
     };
 };
@@ -199,6 +203,145 @@ class cfgvehicles
 		explosionShielding=0.5;
 		minTotalDamageThreshold=0.001;
 		impactDamageMultiplier=0.5;
+		class HitPoints
+		{
+			class HitFace
+			{
+				armor=1;
+				material=-1;
+				name="face_hub";
+				passThrough=0.80000001;
+				radius=0.079999998;
+				explosionShielding=0.1;
+				minimalHit=0.0099999998;
+			};
+			class HitNeck: HitFace
+			{
+				armor=6;
+				material=-1;
+				name="neck";
+				passThrough=0.80000001;
+				radius=0.1;
+				explosionShielding=0.5;
+				minimalHit=0.0099999998;
+			};
+			class HitHead: HitNeck
+			{
+				armor=1;
+				material=-1;
+				name="head";
+				passThrough=0.80000001;
+				radius=0.2;
+				explosionShielding=0.5;
+				minimalHit=0.0099999998;
+				depends="HitFace max HitNeck";
+			};
+			class HitPelvis: HitHead
+			{
+				armor=8;
+				material=-1;
+				name="pelvis";
+				passThrough=0.33000001;
+				radius=0.23999999;
+				explosionShielding=1;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+				depends="0";
+			};
+			class HitAbdomen: HitPelvis
+			{
+				armor=8;
+				material=-1;
+				name="spine1";
+				passThrough=0.33000001;
+				radius=0.16;
+				explosionShielding=1;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+			};
+			class HitDiaphragm: HitAbdomen
+			{
+				armor=8;
+				material=-1;
+				name="spine2";
+				passThrough=0.33000001;
+				radius=0.18000001;
+				explosionShielding=1.5;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+			};
+			class HitChest: HitDiaphragm
+			{
+				armor=8;
+				material=-1;
+				name="spine3";
+				passThrough=0.33000001;
+				radius=0.18000001;
+				explosionShielding=1.5;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+			};
+			class HitBody: HitChest
+			{
+				armor=1000;
+				material=-1;
+				name="body";
+				passThrough=1;
+				radius=0;
+				explosionShielding=1.5;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+				depends="HitPelvis max HitAbdomen max HitDiaphragm max HitChest";
+			};
+			class HitArms: HitBody
+			{
+				armor=8;
+				material=-1;
+				name="arms";
+				passThrough=0.69999999;
+				radius=0.1;
+				explosionShielding=0.1;
+				visual="injury_hands";
+				minimalHit=0.0099999998;
+				depends="0";
+			};
+			class HitHands: HitArms
+			{
+				armor=8;
+				material=-1;
+				name="hands";
+				passThrough=0.69999999;
+				radius=0.1;
+				explosionShielding=0.1;
+				visual="injury_hands";
+				minimalHit=0.0099999998;
+				depends="HitArms";
+			};
+			class HitLegs: HitHands
+			{
+				armor=8;
+				material=-1;
+				name="legs";
+				passThrough=0.69999999;
+				radius=0.14;
+				explosionShielding=0.1;
+				visual="injury_legs";
+				minimalHit=0.0099999998;
+				depends="0";
+			};
+			class Incapacitated: HitLegs
+			{
+				armor=1000;
+				material=-1;
+				name="body";
+				passThrough=1;
+				radius=0;
+				explosionShielding=1;
+				visual="";
+				minimalHit=0;
+				depends="(((Total - 0.25) max 0) + ((HitHead - 0.25) max 0) + ((HitBody - 0.25) max 0)) * 1.45";
+			};
+		};
 	};
     class k_clone_backpack_base: B_Kitbag_rgr
 	{
@@ -349,11 +492,6 @@ class cfgweapons
                     armor = 12;
                     passThrough = 0.3;
                 };
-                class Body
-                {
-                    hitpointName = "HitBody";
-                    passThrough = 0.3;
-                };
             };
         };
     };
@@ -396,6 +534,7 @@ class cfgweapons
 			};
 		};
 	};
+
 	class k_Scout_Helmet_base: k_helmet_base
 	{
 		displayName="[K] Scout Helmet";
@@ -538,6 +677,7 @@ class cfgweapons
 			};
 		};
 	};
+
 	class k_p2_helmet_base: k_helmet_base
 	{
 		displayname = "[K] P2 Helmet";
@@ -545,7 +685,12 @@ class cfgweapons
 		hiddenselections[] = 
 		{
 			"helmet",
-			"visor"
+			"visor",
+            "helmet_visor",
+            "plates",
+            "sensor",
+            "antenna",
+            "micro_visor"
 		};
 		class iteminfo: Iteminfo
 		{
@@ -553,7 +698,12 @@ class cfgweapons
 			hiddenselections[] = 
 			{
 				"helmet",
-				"visor"
+				"visor",
+				"helmet_visor",
+				"plates",
+				"sensor",
+				"antenna",
+				"micro_visor"
 			};
 		};
 	};
@@ -565,7 +715,10 @@ class cfgweapons
 		{
 			"helmet",
 			"visor",
-			"light"
+            "helmet_visor",
+            "sensor",
+            "antenna",
+            "macro_visor"
 		};
 		class iteminfo: Iteminfo
 		{
@@ -574,7 +727,10 @@ class cfgweapons
 			{
 				"helmet",
 				"visor",
-				"light"
+				"helmet_visor",
+				"sensor",
+				"antenna",
+				"macro_visor"
 			};
 		};
 	};
@@ -623,7 +779,11 @@ class cfgweapons
 		hiddenselections[] = 
 		{
 			"helmet",
-			"visor"
+            "visor",
+            "brim",
+            "plates",
+            "visor",
+            "mask"
 		};
 		class iteminfo: Iteminfo
 		{
@@ -631,7 +791,11 @@ class cfgweapons
 			hiddenselections[] = 
 			{
 				"helmet",
-				"visor"
+				"visor",
+				"brim",
+				"plates",
+				"visor",
+				"mask"
 			};
 		};
 	};
@@ -661,7 +825,11 @@ class cfgweapons
 		hiddenselections[] = 
 		{
 			"helmet",
-			"visor"
+			"visor",
+            "helmet_visor",
+            "plates",
+            "sensor",
+            "antenna"
 		};
 		class itemInfo: ItemInfo
 		{
@@ -669,7 +837,11 @@ class cfgweapons
 			hiddenselections[] = 
 			{
 				"helmet",
-				"visor"
+				"visor",
+				"helmet_visor",
+				"plates",
+				"sensor",
+				"antenna"
 			};
 		};
 	};
@@ -680,7 +852,12 @@ class cfgweapons
 		hiddenselections[] = 
 		{
 			"helmet",
-			"visor"
+			"visor",
+            "helmet_visor",
+            "plates",
+            "sensor",
+            "antenna",
+            "macro_visor"
 		};
 		class itemInfo: ItemInfo
 		{
@@ -688,7 +865,12 @@ class cfgweapons
 			hiddenselections[] = 
 			{
 				"helmet",
-				"visor"
+				"visor",
+				"helmet_visor",
+				"plates",
+				"sensor",
+				"antenna",
+				"macro_visor"
 			};
 		};
 	};
@@ -696,7 +878,7 @@ class cfgweapons
 	#include "helmet_custom.hpp"
 	#include "uniform.hpp"
 	#include "uniform_custom.hpp"
-	#include "vest.hpp"
-	//#include "vest_custom.hpp"
+	#include "vest_clone.hpp"
+	#include "vest_scout.hpp"
 };
 
