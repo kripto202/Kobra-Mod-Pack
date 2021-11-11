@@ -47,9 +47,11 @@
             "leg_pouchL",
             "leg_pouchR",
             
-            "pauldon_arcC",
+            "pauldron_arcC",
             "pauldron_arcL",
             "pauldron_arcR",
+            "pauldron_ncoL",
+            "pauldron_ncoR",
             "arc_chest",
             "arc_legs",
             "arc_pouchL",
@@ -104,6 +106,8 @@
                 "pauldon_arcC",
                 "pauldron_arcL",
                 "pauldron_arcR",
+                "pauldron_ncoL",
+                "pauldron_ncoR",
                 "arc_chest",
                 "arc_legs",
                 "arc_pouchL",
@@ -178,6 +182,8 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
@@ -248,6 +254,8 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
@@ -314,6 +322,8 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
@@ -385,6 +395,8 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
@@ -457,6 +469,8 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
@@ -528,6 +542,8 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
@@ -536,7 +552,7 @@
     };
 	
 //base kama
-    class k_kama_full: k_clone_vest_base
+    class k_clone_kama_full_vest: k_clone_vest_base
 	{
 		displayname = "[K] Kama (Full)";
 		scope = 2;
@@ -599,6 +615,8 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
@@ -610,7 +628,7 @@
 			mass = 20;
         };
 	};
-	class k_kama_L: k_kama_full
+	class k_clone_kamaL_vest: k_clone_kama_full_vest
 	{
 		displayname = "[K] Left Kama";
 		hiddenselectionstextures[] = 
@@ -669,6 +687,8 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
@@ -680,7 +700,7 @@
 			mass = 15;
         };
 	};
-	class k_kama_R: k_kama_full
+	class k_clone_kamaR_vest: k_clone_kama_full_vest
 	{
 		displayname = "[K] Right Kama";
 		hiddenselectionstextures[] = 
@@ -739,6 +759,8 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
@@ -751,7 +773,7 @@
         };
 	};
 //dirty kama
-    class k_kama_dirt: k_kama_full
+    class k_clone_kama_dirt_vest: k_clone_kama_full_vest
 	{
 		displayname = "[K] Kama Dirty";
 		hiddenselectionstextures[] = 
@@ -801,13 +823,15 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
             "", //arc_pouchR
 		};
 	};
-	class k_kama_dirtL: k_kama_full
+	class k_clone_kama_dirtL_vest: k_clone_kama_full_vest
 	{
 		displayname = "[K] Left Kama Dirty";
 		hiddenselectionstextures[] = 
@@ -857,13 +881,15 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
             "", //arc_pouchR
 		};
 	};
-	class k_kama_dirtR: k_kama_full
+	class k_clone_kama_dirtR_vest: k_clone_kama_full_vest
 	{
 		displayname = "[K] Right Kama Dirty";
 		hiddenselectionstextures[] = 
@@ -913,6 +939,8 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
@@ -920,7 +948,7 @@
 		};
 	};
 //kama design 1	
-	class k_kama_1: k_kama_full
+	class k_clone_kama_1_vest: k_clone_kama_full_vest
 	{
 		displayname = "[K] Kama 1";
 		hiddenselectionstextures[] = 
@@ -970,13 +998,15 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
             "", //arc_pouchR
 		};
 	};
-	class k_kama_1L: k_kama_full
+	class k_clone_kama_1L_vest: k_clone_kama_full_vest
 	{
 		displayname = "[K] Left Kama 1";
 		hiddenselectionstextures[] = 
@@ -1026,13 +1056,15 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
             "", //arc_pouchR
 		};
 	};
-	class k_kama_1R: k_kama_full
+	class k_clone_kama_1R_vest: k_clone_kama_full_vest
 	{
 		displayname = "[K] Right Kama 1";
 		hiddenselectionstextures[] = 
@@ -1082,6 +1114,8 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
@@ -1089,7 +1123,7 @@
 		};
 	};
 //kama design 2	
-	class k_kama_2: k_kama_full
+	class k_clone_kama_2_vest: k_clone_kama_full_vest
 	{
 		displayname = "[K] Kama 2";
 		hiddenselectionstextures[] = 
@@ -1139,13 +1173,15 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
             "", //arc_pouchR
 		};
 	};
-	class k_kama_2L: k_kama_full
+	class k_clone_kama_2L_vest: k_clone_kama_full_vest
 	{
 		displayname = "[K] Left Kama 2";
 		hiddenselectionstextures[] = 
@@ -1195,13 +1231,15 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
             "", //arc_pouchR
 		};
 	};
-	class k_kama_2R: k_kama_full
+	class k_clone_kama_2R_vest: k_clone_kama_full_vest
 	{
 		displayname = "[K] Right Kama 2";
 		hiddenselectionstextures[] = 
@@ -1251,6 +1289,8 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
@@ -1258,7 +1298,7 @@
 		};
 	};
 //kama design 5	
-	class k_kama_5: k_kama_full
+	class k_clone_kama_5_vest: k_clone_kama_full_vest
 	{
 		displayname = "[K] Kama 5";
 		hiddenselectionstextures[] = 
@@ -1308,13 +1348,15 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
             "", //arc_pouchR
 		};
 	};
-	class k_kama_5L: k_kama_full
+	class k_clone_kama_5L_vest: k_clone_kama_full_vest
 	{
 		displayname = "[K] Left Kama 5";
 		hiddenselectionstextures[] = 
@@ -1364,13 +1406,15 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
             "", //arc_pouchR
 		};
 	};
-	class k_kama_5R: k_kama_full
+	class k_clone_kama_5R_vest: k_clone_kama_full_vest
 	{
 		displayname = "[K] Right Kama 5";
 		hiddenselectionstextures[] = 
@@ -1420,6 +1464,8 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
@@ -1427,7 +1473,7 @@
 		};
 	};
 //kama design 6
-	class k_kama_6: k_kama_full
+	class k_clone_kama_6_vest: k_clone_kama_full_vest
 	{
 		displayname = "[K] Kama 6";
 		hiddenselectionstextures[] = 
@@ -1477,13 +1523,15 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
             "", //arc_pouchR
 		};
 	};
-	class k_kama_6L: k_kama_full
+	class k_clone_kama_6L_vest: k_clone_kama_full_vest
 	{
 		displayname = "[K] Left Kama 6";
 		hiddenselectionstextures[] = 
@@ -1533,13 +1581,15 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
             "", //arc_pouchR
 		};
 	};
-	class k_kama_6R: k_kama_full
+	class k_clone_kama_6R_vest: k_clone_kama_full_vest
 	{
 		displayname = "[K] Right Kama 6";
 		hiddenselectionstextures[] = 
@@ -1589,6 +1639,8 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
@@ -1596,7 +1648,7 @@
 		};
 	};
 //kama design 7
-	class k_kama_7: k_kama_full
+	class k_clone_kama_7_vest: k_clone_kama_full_vest
 	{
 		displayname = "[K] Kama 7";
 		hiddenselectionstextures[] = 
@@ -1646,13 +1698,15 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
             "", //arc_pouchR
 		};
 	};
-	class k_kama_7L: k_kama_full
+	class k_clone_kama_7L_vest: k_clone_kama_full_vest
 	{
 		displayname = "[K] Left Kama 7";
 		hiddenselectionstextures[] = 
@@ -1702,13 +1756,15 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
             "", //arc_pouchR
 		};
 	};
-	class k_kama_7R: k_kama_full
+	class k_clone_kama_7R_vest: k_clone_kama_full_vest
 	{
 		displayname = "[K] Right Kama 7";
 		hiddenselectionstextures[] = 
@@ -1758,6 +1814,8 @@
             "", //pauldron_arcC
             "", //pauldron_arcL
             "", //pauldron_arcR
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
             "", //arc_pouchL
@@ -1825,6 +1883,9 @@
             "kobra\442_units\data\vests\clone_vest\arc_pauldron_co.paa", //pauldron_arcC
             "kobra\442_units\data\vests\clone_vest\arc_pauldron_co.paa", //pauldron_arcL
             "kobra\442_units\data\vests\clone_vest\arc_pauldron_co.paa", //pauldron_arcR
+
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
 
             "kobra\442_units\data\vests\clone_vest\arc_plates_co.paa", //arc_chest
             "kobra\442_units\data\vests\clone_vest\arc_plates_co.paa", //arc_legs
@@ -1926,6 +1987,9 @@
             "kobra\442_units\data\vests\clone_vest\arc_pauldron_co.paa", //pauldron_arcL
             "kobra\442_units\data\vests\clone_vest\arc_pauldron_co.paa", //pauldron_arcR
 
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
+
             "kobra\442_units\data\vests\clone_vest\arc_plates_co.paa", //arc_chest
             "kobra\442_units\data\vests\clone_vest\arc_plates_co.paa", //arc_legs
 
@@ -1936,7 +2000,7 @@
 
     class k_clone_arc_vest3: k_clone_arc_vest
     {
-        displayname = "[K] ARC Clone Vest 2";
+        displayname = "[K] ARC Clone Vest 3";
         hiddenselectionstextures[] = 
 		{
 			"kobra\442_units\data\vests\clone_vest\kama_co.paa",
@@ -1994,10 +2058,72 @@
             "kobra\442_units\data\vests\clone_vest\arc_pauldron_co.paa", //pauldron_arcL
             "kobra\442_units\data\vests\clone_vest\arc_pauldron_co.paa", //pauldron_arcR
 
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
+
             "kobra\442_units\data\vests\clone_vest\arc_plates_co.paa", //arc_chest
             "kobra\442_units\data\vests\clone_vest\arc_plates_co.paa", //arc_legs
 
             "kobra\442_units\data\vests\clone_vest\arc_pouch_co.paa", //arc_pouchL
-            "", //arc_pouchR
+            "kobra\442_units\data\vests\clone_vest\arc_pouch_co.paa", //arc_pouchR
 		};
     };
+//commander vests
+	class k_clone_commander_vest: k_clone_kama_full_vest
+	{
+		displayname = "[K] Commander Vest";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\vests\clone_vest\kama_co.paa",
+			"kobra\442_units\data\vests\clone_vest\kama_co.paa",
+            
+            "", //pouch1
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa",
+            "",
+            "",
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa",
+            "",
+
+            "", //pouch2
+            "",
+            "",
+            "",
+            "",
+            "",
+
+            "", //pouch3
+            "",
+            "",
+            "",
+            "",
+            "",
+
+            "", //pouch4
+            "",
+            "",
+            "",
+            "",
+            "",
+
+            "", //pouch5
+            "",
+            "",
+            "",
+            "",
+            "",
+
+            "", //holster
+            "", //leg_pouchL
+            "", //leg_pouchR
+
+            "kobra\442_units\data\vests\clone_vest\arc_pauldron_co.paa", //pauldron_arcC
+            "", //pauldron_arcL
+            "kobra\442_units\data\vests\clone_vest\arc_pauldron_co.paa", //pauldron_arcR
+            "kobra\442_units\data\vests\clone_vest\arc_pauldron_co.paa", //pauldron_ncoL
+            "", //pauldron_ncoR
+            "", //arc_chest
+            "", //arc_legs
+            "", //arc_pouchL
+            "", //arc_pouchR
+		};
+	};

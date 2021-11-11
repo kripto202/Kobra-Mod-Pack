@@ -48,12 +48,6 @@ class cfgpatches
 			"k_barc_helmet",
 			"k_p15_helmet",
 
-			"k_scout_pouches_base",
-			"k_scout_pouches_light",
-			"k_scout_pouches_medium",
-			"k_scout_pouches_heavy",
-			"k_clone_vest_medic",
-
 			"k_clone_vest_base",
 			"k_kama_full",
 			"k_kama_L",
@@ -143,9 +137,38 @@ class cfgpatches
 			"k_p2_helmet_ks",
 			"k_p2_helmet_fox",
 
+			"k_clone_vest_base",
+			"k_clone_vest_basic1",
+			"k_clone_vest_basic2",
+			"k_clone_vest_medium",
+			"k_clone_vest_heavy",
+			"k_clone_vest_heavy_medic",
+			"k_clone_vest_display",
+			"k_clone_kama_full_vest",
+			"k_clone_kamaL_vest",
+			"k_clone_kamaR_vest",
+			"k_clone_kama_dirt_vest",
+			"k_clone_kama_dirtL_vest",
+			"k_clone_kama_dirtR_vest",
+			"k_clone_kama_1_vest",
+			"k_clone_kama_1L_vest",
+			"k_clone_kama_1R_vest",
+			"k_clone_kama_2_vest",
+			"k_clone_kama_2L_vest",
+			"k_clone_kama_2R_vest",
+			"k_clone_kama_5_vest",
+			"k_clone_kama_5L_vest",
+			"k_clone_kama_5R_vest",
+			"k_clone_kama_6_vest",
+			"k_clone_kama_6L_vest",
+			"k_clone_kama_6R_vest",
+			"k_clone_kama_7_vest",
+			"k_clone_kama_7L_vest",
+			"k_clone_kama_7R_vest",
 			"k_clone_arc_vest",
 			"k_clone_arc_vest2",
-			"k_clone_arc_vest3"
+			"k_clone_arc_vest3",
+			"k_clone_commander_vest"
         };
     };
 };
@@ -690,7 +713,7 @@ class cfgweapons
             "plates",
             "sensor",
             "antenna",
-            "micro_visor"
+            "macro_visor"
 		};
 		class iteminfo: Iteminfo
 		{
@@ -703,7 +726,7 @@ class cfgweapons
 				"plates",
 				"sensor",
 				"antenna",
-				"micro_visor"
+				"macro_visor"
 			};
 		};
 	};
@@ -782,7 +805,7 @@ class cfgweapons
             "visor",
             "brim",
             "plates",
-            "visor",
+            "macro_visor",
             "mask"
 		};
 		class iteminfo: Iteminfo
@@ -794,7 +817,7 @@ class cfgweapons
 				"visor",
 				"brim",
 				"plates",
-				"visor",
+				"macro_visor",
 				"mask"
 			};
 		};
