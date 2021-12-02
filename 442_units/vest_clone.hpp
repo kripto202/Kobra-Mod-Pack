@@ -103,7 +103,7 @@
                 "leg_pouchL",
                 "leg_pouchR",
                 
-                "pauldon_arcC",
+                "pauldron_arcC",
                 "pauldron_arcL",
                 "pauldron_arcR",
                 "pauldron_ncoL",
@@ -340,8 +340,8 @@
 		displayname = "[K] Heavy Clone Vest";
 		hiddenselectionstextures[] = 
 		{
-			"",
-			"",
+			"", //kama left
+			"", //kama right
             
             //pouch1
             "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //left front

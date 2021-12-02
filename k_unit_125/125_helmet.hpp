@@ -4,7 +4,7 @@
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
-		picture = "kobra\442_units\data\ui\p15_helmet.paa";
+		//picture = "kobra\442_units\data\ui\p15_helmet.paa";
 		hiddenselectionstextures[]=
 		{
 			"kobra\k_unit_125\data\helmets\125th_ARC_Helmet_co.paa",
@@ -18,7 +18,7 @@
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
-		picture = "kobra\442_units\data\ui\arf_p1_helmet.paa";
+		//picture = "kobra\442_units\data\ui\arf_p1_helmet.paa";
 		hiddenselectionstextures[]=
 		{
 			"kobra\k_unit_125\data\helmets\125th_arf_helmet_co.paa",
@@ -32,7 +32,7 @@
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
-		picture = "kobra\442_units\data\ui\arf_p2_helmet.paa";
+		//picture = "kobra\442_units\data\ui\arf_p2_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_125\data\helmets\125th_arf_helmet_co.paa",
@@ -46,7 +46,7 @@
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
-		picture = "kobra\442_units\data\ui\barc_helmet.paa";
+		//picture = "kobra\442_units\data\ui\barc_helmet.paa";
 		hiddenselectionstextures[]=
 		{
 			"kobra\k_unit_125\data\helmets\125th_barc_helmet_co.paa",
@@ -59,7 +59,7 @@
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
-		picture = "kobra\442_units\data\ui\pilot_p2_helmet.paa";
+		//picture = "kobra\442_units\data\ui\pilot_p2_helmet.paa";
 		hiddenselectionstextures[]=
 		{
 			"kobra\k_unit_125\data\helmets\125th_pilot_helmet_co.paa",
@@ -69,7 +69,7 @@
     class k_ls_125_p2_helmet: k_ls_p2_helmet
 	{
 		displayname = "[125/LS] P2 Helmet";
-		picture = "kobra\442_units\data\ui\p2_helmet.paa";
+		//picture = "kobra\442_units\data\ui\p2_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_125\data\helmets\p2_helmet_co.paa",

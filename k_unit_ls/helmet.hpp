@@ -172,7 +172,7 @@
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
-        picture = "\kobra\k_unit_ls\data\ui\pilot_p1_helmet.paa";
+        //picture = "\kobra\k_unit_ls\data\ui\pilot_p1_helmet.paa";
         hiddenselectionstextures[] = 
         {
             "kobra\k_unit_ls\data\helmet\p1_pilot_helmet\camo1_co.paa",
@@ -185,7 +185,7 @@
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
-        picture = "\kobra\k_unit_ls\data\ui\spec_p1_helmet.paa";
+        //picture = "\kobra\k_unit_ls\data\ui\spec_p1_helmet.paa";
         hiddenselectionstextures[] = 
         {
             "kobra\k_unit_ls\data\helmet\p1_spec_helmet\camo1_co.paa",
@@ -197,7 +197,7 @@
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
-        picture = "\kobra\k_unit_ls\data\ui\spec_p2_helmet.paa";
+        //picture = "\kobra\k_unit_ls\data\ui\spec_p2_helmet.paa";
         hiddenselectionstextures[] = 
         {
             "kobra\k_unit_ls\data\helmet\p2_spec_helmet\camo1_co.paa",
@@ -209,7 +209,7 @@
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
-        picture = "\kobra\k_unit_ls\data\ui\rex_helmet.paa";
+        //picture = "\kobra\k_unit_ls\data\ui\rex_helmet.paa";
         hiddenselectionstextures[] =
         {
             "kobra\k_unit_ls\data\helmet\rex_helmet\camo1_co.paa",

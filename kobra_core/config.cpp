@@ -366,7 +366,7 @@ class cfgweapons
 			"NVG"
 		};
 		modelOptics="";
-		ace_nightvision_border = "kobra\442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+		ace_nightvision_border = "";
 	};
 	class k_nvg_ti: Integrated_NVG_F
 	{
@@ -379,7 +379,7 @@ class cfgweapons
 		};
 		thermalMode[]={0};
 		modelOptics="";
-		ace_nightvision_border = "kobra\442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+		ace_nightvision_border = "";
 	};
 	class k_ti: Integrated_NVG_F
 	{
@@ -391,6 +391,6 @@ class cfgweapons
 		};
 		thermalMode[]={0};
 		modelOptics="";
-		ace_nightvision_border = "kobra\442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+		ace_nightvision_border = "";
 	};
 };

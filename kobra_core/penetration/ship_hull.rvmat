@@ -1,4 +1,4 @@
-surfaceInfo="kobra\kobra_core\penetration.bisurf";
+surfaceInfo="kobra\kobra_core\penetration\ship_hull.bisurf";
 ambient[]=
 {
 	"0.32*(5.5/sqrt(250))",

@@ -796,7 +796,7 @@ class cfgweapons
 	class k_ls_nvg_base: nvgoggles
     {
         scope = 1;
-        ace_nightvision_border = "kobra\442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+        ace_nightvision_border = "kobra\442_equipment\nvg_mask_sw_4096.paa";
         displayname = "nvg_visor_base";
         model = "";
         modeloptics = "";
@@ -809,7 +809,7 @@ class cfgweapons
         scope = 2;
         displayname = "[K/LS] Clone Rangefinder";
         visionmode[] = {"Normal", "NVG"};
-        ace_nightvision_border = "kobra\442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+        ace_nightvision_border = "kobra\442_equipment\nvg_mask_sw_4096.paa";
         modeloptics = "";
     };
     class SWLB_clone_nvg;
@@ -818,7 +818,7 @@ class cfgweapons
         scope = 2;
         displayname = "[K/LS] Clone NVG Visor";
         visionmode[] = {"Normal", "NVG"};
-        ace_nightvision_border = "kobra\442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+        ace_nightvision_border = "kobra\442_equipment\nvg_mask_sw_4096.paa";
         modeloptics = "";
     };
     class SWLB_clone_nvg_nco;
@@ -826,7 +826,7 @@ class cfgweapons
     {
         displayname = "[K/LS] Clone NVG Visor NCO";
         visionmode[] = {"Normal", "NVG"};
-        ace_nightvision_border = "kobra\442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+        ace_nightvision_border = "kobra\442_equipment\nvg_mask_sw_4096.paa";
         modeloptics = "";
     };
     class SWLB_clone_ccVisor;
@@ -835,7 +835,7 @@ class cfgweapons
         scope = 2;
         displayname = "[K/LS] Clone Visor";
         visionmode[] = {"Normal", "NVG"};
-        ace_nightvision_border = "kobra\442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+        ace_nightvision_border = "kobra\442_equipment\nvg_mask_sw_4096.paa";
         modeloptics = "";
     };
     class SWLB_clone_mcVisor;
@@ -843,7 +843,7 @@ class cfgweapons
     {
         displayname = "[K/LS] Clone Visor Commander";
         visionmode[] = {"Normal", "NVG"};
-        ace_nightvision_border = "kobra\442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+        ace_nightvision_border = "kobra\442_equipment\nvg_mask_sw_4096.paa";
         modeloptics = "";
     };
 
@@ -854,7 +854,7 @@ class cfgweapons
     {
         displayname = "[K/LS] Clone P1 Rangefinder";
         visionmode[] = {"Normal", "NVG"};
-        ace_nightvision_border = "kobra\442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+        ace_nightvision_border = "kobra\442_equipment\nvg_mask_sw_4096.paa";
         modeloptics = "";
     };
     class SWLB_CEE_P1_Visor;
@@ -862,7 +862,7 @@ class cfgweapons
     {
         displayname = "[K/LS] Clone P1 NVG Visor";
         visionmode[] = {"Normal", "NVG"};
-        ace_nightvision_border = "kobra\442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+        ace_nightvision_border = "kobra\442_equipment\nvg_mask_sw_4096.paa";
         modeloptics = "";
     };
     class SWLB_CEE_P1_MC_Visor;
@@ -870,7 +870,7 @@ class cfgweapons
     {
         displayname = "[K/LS] Clone P1 Visor Commander";
         visionmode[] = {"Normal", "NVG"};
-        ace_nightvision_border = "kobra\442_equipment\attachments\data\nvg_mask_sw_4096.paa";
+        ace_nightvision_border = "kobra\442_equipment\nvg_mask_sw_4096.paa";
         modeloptics = "";
     };
 };

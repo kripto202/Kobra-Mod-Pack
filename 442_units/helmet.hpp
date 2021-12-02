@@ -10,6 +10,7 @@
             "kobra\442_units\data\helmet\scout_helmet\helmet_co.paa",
             "kobra\442_units\data\helmet\scout_helmet\visor_co.paa",
         };
+		subItems[] = {"k_nvg_ti"};
     };
 ///hunter helmet
     class k_hunter_Helmet: k_hunter_Helmet_base
@@ -94,7 +95,7 @@
 			"", //plates
 			"", //sensor
 			"", //antenna
-			"", //micro visor
+			"", //macro visor
 		};
 	};
 	class k_p2_helmet1: k_p2_helmet
@@ -152,6 +153,7 @@
 			"kobra\442_units\data\helmet\p2_attachments\p2_visor_co.paa", //antenna
 			"", //micro visor
 		};
+		subItems[] = {"k_nvg_ti"};
 	};
 	class k_p2_helmet5: k_p2_helmet
 	{
@@ -166,6 +168,7 @@
 			"", //antenna
 			"kobra\442_units\data\helmet\p2_attachments\p2_macro_visor_co.paa", //micro visor
 		};
+		subItems[] = {"k_nvg_ti"};
 	};
 	class k_p2_helmet6: k_p2_helmet
 	{
@@ -180,6 +183,7 @@
 			"kobra\442_units\data\helmet\p2_attachments\p2_visor_co.paa", //antenna
 			"kobra\442_units\data\helmet\p2_attachments\p2_macro_visor_co.paa", //micro visor
 		};
+		subItems[] = {"k_nvg_ti"};
 	};
 	class k_p2_helmet7: k_p2_helmet
 	{
@@ -237,6 +241,7 @@
 			"kobra\442_units\data\helmet\p1_attachments\p1_visor_co.paa", //antenna
 			"", //macro visor
 		};
+		subItems[] = {"k_nvg_ti"};
 	};
 	class k_p1_helmet3: k_p1_helmet
 	{
@@ -263,6 +268,7 @@
 			"", //antenna
 			"kobra\442_units\data\helmet\p1_attachments\p1_macro_visor_co.paa", //macro visor
 		};
+		subItems[] = {"k_nvg_ti"};
 	};
 	class k_p1_helmet5: k_p1_helmet
 	{
@@ -276,6 +282,7 @@
 			"kobra\442_units\data\helmet\p1_attachments\p1_visor_co.paa", //antenna
 			"kobra\442_units\data\helmet\p1_attachments\p1_macro_visor_co.paa", //macro visor
 		};
+		subItems[] = {"k_nvg_ti"};
 	};
 ///p1 pilot helmeet
 	class k_p1_pilot_helmet: k_p1_pilot_helmet_base
@@ -307,7 +314,7 @@
 			"", //mask
 		};
 	};
-	class k_arf_helmet1: k_arf_helmet_base
+	class k_arf_helmet1: k_arf_helmet
 	{
 		displayname = "[K] Arf Helmet w/ Plates";
 		hiddenselectionstextures[] = 
@@ -320,7 +327,7 @@
 			"", //mask
 		};
 	};
-	class k_arf_helmet2: k_arf_helmet_base
+	class k_arf_helmet2: k_arf_helmet
 	{
 		displayname = "[K] Arf Helmet w/ Specialist Visor";
 		hiddenselectionstextures[] = 
@@ -332,8 +339,9 @@
 			"kobra\442_units\data\helmet\arf_helmet\arf_brim_co.paa", //macro_visor
 			"", //mask
 		};
+		subItems[] = {"k_nvg_ti"};
 	};
-	class k_arf_helmet3: k_arf_helmet_base
+	class k_arf_helmet3: k_arf_helmet
 	{
 		displayname = "[K] Arf Helmet w/ Specialist Visor, Plates";
 		hiddenselectionstextures[] = 
@@ -345,8 +353,9 @@
 			"kobra\442_units\data\helmet\arf_helmet\arf_brim_co.paa", //macro_visor
 			"", //mask
 		};
+		subItems[] = {"k_nvg_ti"};
 	};
-	class k_arf_helmet4: k_arf_helmet_base
+	class k_arf_helmet4: k_arf_helmet
 	{
 		displayname = "[K] Arf Helmet w/ Flaps";
 		hiddenselectionstextures[] = 
@@ -359,7 +368,7 @@
 			"kobra\442_units\data\helmet\arf_helmet\arf_mask_co.paa", //mask
 		};
 	};
-	class k_arf_helmet5: k_arf_helmet_base
+	class k_arf_helmet5: k_arf_helmet
 	{
 		displayname = "[K] Arf Helmet w/ Flaps, Plates";
 		hiddenselectionstextures[] = 
@@ -372,9 +381,9 @@
 			"kobra\442_units\data\helmet\arf_helmet\arf_mask_co.paa", //mask
 		};
 	};
-	class k_arf_helmet6: k_arf_helmet_base
+	class k_arf_helmet6: k_arf_helmet
 	{
-		displayname = "[K] Arf Helmet w/ Flaps, Specialist Visor";
+		displayname = "[K] Arf Helmet w/ Flaps, Specialist Visor, Flaps";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_units\data\helmet\arf_helmet\arf_helmet_co.paa", //helmet
@@ -384,10 +393,11 @@
 			"kobra\442_units\data\helmet\arf_helmet\arf_brim_co.paa", //macro_visor
 			"kobra\442_units\data\helmet\arf_helmet\arf_mask_co.paa", //mask
 		};
+		subItems[] = {"k_nvg_ti"};
 	};
-	class k_arf_helmet7: k_arf_helmet_base
+	class k_arf_helmet7: k_arf_helmet
 	{
-		displayname = "[K] Arf Helmet w/ Flaps, Specialist Visor, Plates";
+		displayname = "[K] Arf Helmet w/ Flaps, Specialist Visor, Plates, Flaps";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_units\data\helmet\arf_helmet\arf_helmet_co.paa", //helmet
@@ -397,6 +407,7 @@
 			"kobra\442_units\data\helmet\arf_helmet\arf_brim_co.paa", //macro_visor
 			"kobra\442_units\data\helmet\arf_helmet\arf_mask_co.paa", //mask
 		};
+		subItems[] = {"k_nvg_ti"};
 	};
 ///p1 airborne helmet
     class k_p1_airborne_helmet: k_p1_airborne_base
@@ -539,6 +550,7 @@
 			"kobra\442_units\data\helmet\p2_attachments\p2_visor_co.paa", //antenna
 			"", //macro_visor
 		};
+		subItems[] = {"k_nvg_ti"};
 	};
 	class k_p15_helmet4: k_p15_helmet
 	{
@@ -567,6 +579,7 @@
 			"", //antenna
 			"kobra\442_units\data\helmet\p2_attachments\p2_macro_visor_co.paa", //macro_visor
 		};
+		subItems[] = {"k_nvg_ti"};
 	};
 	class k_p15_helmet6: k_p15_helmet
 	{
@@ -580,5 +593,32 @@
 			"", //sensor
 			"kobra\442_units\data\helmet\p2_attachments\p2_visor_co.paa", //antenna
 			"kobra\442_units\data\helmet\p2_attachments\p2_macro_visor_co.paa", //macro_visor
+		};
+		subItems[] = {"k_nvg_ti"};
+	};
+//airborne helmet
+	class k_p2_ab_helmet: k_p2_ab_helmet_base
+	{
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
+		displayname = "[K] P2 Airborne Helmet";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\helmet\p2_ab_helmet\ab_helmet_co.paa", //helmet
+			"kobra\442_units\data\helmet\p2_ab_helmet\ab_helmet_co.paa", //visor
+		};
+	};
+//p2 pilot helmet
+	class k_p2_pilot_helmet: k_p2_pilot_helmet_base
+	{
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
+		displayname = "[K] P2 Pilot Helmet";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\helmet\p2_pilot_helmet\p2_pilot_helmet_co.paa", //helmet
+			"kobra\442_units\data\helmet\p2_pilot_helmet\p2_pilot_helmet_co.paa", //visor
 		};
 	};

@@ -84,3 +84,15 @@
             mass = 20;
         };
     };
+
+///custom
+    class k_44ab_scout_pouches_delta: k_scout_pouches_heavy
+    {
+        displayname = "[K/44] Heavy Scout Pouches (Delta)";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\unit_designs\44_attack_battalion\delta\scout_pouches_co.paa",
+            "kobra\442_units\data\unit_designs\44_attack_battalion\delta\scout_pouches_co.paa",
+            "kobra\442_units\data\unit_designs\44_attack_battalion\delta\scout_pouches_co.paa",
+        };
+    };

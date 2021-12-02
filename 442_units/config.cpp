@@ -19,6 +19,30 @@ class cfgpatches
 			"k_scout_unit_arid",
 			"k_scout_unit_desert",
 			"k_scout_unit_woodland",
+
+			"k_44ab_clone_unit",
+			"k_44ab_scout_unit",
+			"k_44ab_clone_piercer_unit",
+			"k_44ab_clone_azarael_unit",
+			"k_44ab_clone_canada_unit",
+			"k_44ab_clone_kripto_unit",
+			"k_44ab_clone_monty_unit",
+			"k_44ab_clone_smith_unit",
+			"k_44ab_clone_ivanov_unit",
+			"k_44ab_clone_lore_unit",
+			"k_44ab_clone_rex_unit",
+			"k_44ab_clone_wolfie_unit",
+			"k_44ab_clone_zepher_unit",
+			"k_44ab_clone_wumbo_unit",
+			"k_44ab_clone_zeressin_unit",
+			"k_44ab_clone_barker_unit",
+			"k_44ab_scout_delta_unit",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
         };
         weapons[] = 
         {
@@ -105,6 +129,10 @@ class cfgpatches
 			"k_44ab_p1_pilot_helmet",
 			"k_44ab_arf_helmet",
 			"k_44ab_p1_airborne_helmet",
+			"k_44ab_barc_helmet",
+			"k_44ab_p2_ab_helmet",
+			"k_44ab_p2_pilot_helmet",
+
 			"k_44ab_scout_pouches_light",
 			"k_44ab_scout_pouches_medium",
 			"k_44ab_scout_pouches_heavy",
@@ -117,6 +145,7 @@ class cfgpatches
 			"k_scout_pouches_light_woodland",
 			"k_scout_pouches_medium_woodland",
 			"k_scout_pouches_heavy_woodland",
+
 			"k_scout_uniform_arid",
 			"k_scout_uniform_desert",
 			"k_scout_uniform_woodland",
@@ -168,7 +197,40 @@ class cfgpatches
 			"k_clone_arc_vest",
 			"k_clone_arc_vest2",
 			"k_clone_arc_vest3",
-			"k_clone_commander_vest"
+			"k_clone_commander_vest",
+			
+			"k_44ab_arf_piercer_helmet",
+			"k_44ab_arf_azarael_helmet",
+			"k_44ab_hunter_canada_Helmet",
+			"k_44ab_arf_monty_helmet",
+			"k_44ab_hunter_smith_Helmet",
+			"k_44ab_barc_kripto_helmet",
+			"k_44ab_barc_ivanov_helmet",
+			"k_44ab_p1_rex_helmet",
+			"k_44ab_p15_lore_helmet",
+			"k_44ab_p2_wolfie_helmet",
+			"k_44ab_barc_zepher_helmet",
+			"k_44ab_p15_wumbo_helmet",
+			"k_44ab_barc_zeressin_helmet",
+			"k_44ab_p2_barker_helmet",
+			"k_Scout_delta_Helmet",
+
+			"k_44ab_clone_kripto_vest",
+			"k_44ab_clone_smith_vest",
+			"k_44ab_clone_monty_vest",
+			"k_44ab_clone_canada_vest",
+			"k_44ab_clone_ivanov_vest",
+			"k_44ab_clone_wumbo_vest",
+			"k_44ab_clone_zepher_vest",
+			"k_44ab_clone_zeressin_vest",
+			"k_44ab_clone_barker_vest",
+			"k_44ab_scout_pouches_delta",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
         };
     };
 };
@@ -177,7 +239,32 @@ class cfgvehicles
 {
     class B_Kitbag_rgr;
     class O_officer_F;
-    class B_Soldier_02_f;
+	class land;
+	class Man: Land
+	{
+		class EventHandlers;
+	};
+	class CAManBase: Man
+	{
+		class Hitpoints;
+	};
+    class B_Soldier_02_f: CAManBase
+	{
+		class HitPoints: HitPoints
+		{
+			class HitFace;
+			class HitNeck;
+			class HitHead;
+			class HitPelvis;
+			class HitAbdomen;
+			class HitDiaphragm;
+			class HitChest;
+			class HitBody;
+			class HitArms;
+			class HitHands;
+			class HitLegs;
+		};
+	};
     class 442_unit_base: B_Soldier_02_f
 	{
 		scope=1;
@@ -226,9 +313,9 @@ class cfgvehicles
 		explosionShielding=0.5;
 		minTotalDamageThreshold=0.001;
 		impactDamageMultiplier=0.5;
-		class HitPoints
+		class HitPoints: HitPoints
 		{
-			class HitFace
+			class HitFace: HitFace
 			{
 				armor=1;
 				material=-1;
@@ -238,7 +325,7 @@ class cfgvehicles
 				explosionShielding=0.1;
 				minimalHit=0.0099999998;
 			};
-			class HitNeck: HitFace
+			class HitNeck: HitNeck
 			{
 				armor=6;
 				material=-1;
@@ -248,7 +335,7 @@ class cfgvehicles
 				explosionShielding=0.5;
 				minimalHit=0.0099999998;
 			};
-			class HitHead: HitNeck
+			class HitHead: HitHead
 			{
 				armor=1;
 				material=-1;
@@ -259,9 +346,9 @@ class cfgvehicles
 				minimalHit=0.0099999998;
 				depends="HitFace max HitNeck";
 			};
-			class HitPelvis: HitHead
+			class HitPelvis: HitPelvis
 			{
-				armor=8;
+				armor=14;
 				material=-1;
 				name="pelvis";
 				passThrough=0.33000001;
@@ -271,9 +358,9 @@ class cfgvehicles
 				minimalHit=0.0099999998;
 				depends="0";
 			};
-			class HitAbdomen: HitPelvis
+			class HitAbdomen: HitAbdomen
 			{
-				armor=8;
+				armor=14;
 				material=-1;
 				name="spine1";
 				passThrough=0.33000001;
@@ -282,9 +369,9 @@ class cfgvehicles
 				visual="injury_body";
 				minimalHit=0.0099999998;
 			};
-			class HitDiaphragm: HitAbdomen
+			class HitDiaphragm: HitDiaphragm
 			{
-				armor=8;
+				armor=14;
 				material=-1;
 				name="spine2";
 				passThrough=0.33000001;
@@ -293,9 +380,9 @@ class cfgvehicles
 				visual="injury_body";
 				minimalHit=0.0099999998;
 			};
-			class HitChest: HitDiaphragm
+			class HitChest: HitChest
 			{
-				armor=8;
+				armor=16;
 				material=-1;
 				name="spine3";
 				passThrough=0.33000001;
@@ -304,7 +391,7 @@ class cfgvehicles
 				visual="injury_body";
 				minimalHit=0.0099999998;
 			};
-			class HitBody: HitChest
+			class HitBody: HitBody
 			{
 				armor=1000;
 				material=-1;
@@ -316,7 +403,7 @@ class cfgvehicles
 				minimalHit=0.0099999998;
 				depends="HitPelvis max HitAbdomen max HitDiaphragm max HitChest";
 			};
-			class HitArms: HitBody
+			class HitArms: HitArms
 			{
 				armor=8;
 				material=-1;
@@ -328,7 +415,7 @@ class cfgvehicles
 				minimalHit=0.0099999998;
 				depends="0";
 			};
-			class HitHands: HitArms
+			class HitHands: HitHands
 			{
 				armor=8;
 				material=-1;
@@ -340,7 +427,7 @@ class cfgvehicles
 				minimalHit=0.0099999998;
 				depends="HitArms";
 			};
-			class HitLegs: HitHands
+			class HitLegs: HitLegs
 			{
 				armor=8;
 				material=-1;
@@ -532,7 +619,7 @@ class cfgweapons
 		//picture="\SWLB_clones\data\ui\icon_SWLB_clone_helmet_ca.paa";
 		hiddenselections[] = {};
 		//model = "swlb_clones\swlb_clone_p2_helmet.p3d";
-		subItems[] = {};
+		subItems[] = {"k_nvg"};
 		class Iteminfo: HeadgearItem
 		{
 			mass = 10;
@@ -766,6 +853,7 @@ class cfgweapons
 			"helmet",
 			"visor"
 		};
+		subItems[] = {"k_nvg_ti"};
 		class iteminfo: Iteminfo
 		{
 			uniformmodel = "kobra\442_units\p1_pilot_helmet.p3d";
@@ -897,11 +985,50 @@ class cfgweapons
 			};
 		};
 	};
+	class k_p2_pilot_helmet_base: k_helmet_base
+	{
+		displayname = "[K] P2 Pilot Helmet";
+		model = "kobra\442_units\p2_pilot_helmet.p3d";
+		hiddenselections[] = 
+		{
+			"helmet",
+			"visor"
+		};
+		class itemInfo: ItemInfo
+		{
+			uniformmodel = "kobra\442_units\p2_pilot_helmet.p3d";
+			hiddenselections[] = 
+			{
+				"helmet",
+				"visor"
+			};
+		};
+	};
+	class k_p2_ab_helmet_base: k_helmet_base
+	{
+		displayname = "[K] P2 Airborne Helmet";
+		model = "kobra\442_units\p2_ab_helmet.p3d";
+		hiddenselections[] = 
+		{
+			"helmet",
+			"visor"
+		};
+		class itemInfo: ItemInfo
+		{
+			uniformmodel = "kobra\442_units\p2_ab_helmet.p3d";
+			hiddenselections[] = 
+			{
+				"helmet",
+				"visor"
+			};
+		};
+	};
     #include "helmet.hpp"
 	#include "helmet_custom.hpp"
 	#include "uniform.hpp"
 	#include "uniform_custom.hpp"
 	#include "vest_clone.hpp"
+	#include "vest_clone_custom.hpp"
 	#include "vest_scout.hpp"
 };
 

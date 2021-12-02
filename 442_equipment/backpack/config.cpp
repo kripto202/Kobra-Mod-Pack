@@ -27,7 +27,14 @@ class cfgpatches
 			"k_clone_medium_backpack_rocket",
 			"k_clone_huge_backpack",
 			"k_clone_huge_backpack_pouches",
-			"k_clone_huge_backpack_rocket"
+			"k_clone_huge_backpack_rocket",
+
+            "442_jumppack",
+            "442_jt12",
+            "442_jt12_single",
+            "442_jt12_pj",
+            "442_jt12_pj_radio",
+            "442_jt12_radio"
         };
         weapons[] = {};
     };
@@ -441,5 +448,215 @@ class cfgvehicles
 		{
 			"kobra\442_equipment\backpack\data\scout_comms\scout_comms_co.paa"
 		};
+	};
+
+    class 442_jumppack: B_Kitbag_rgr
+	{
+		author = "Kobra Dev Team";
+		scope = 2;
+		picture = "kobra\kobra_core\kobra.paa";
+		displayname = "[K] Jumppack";
+		model = "kobra\442_equipment\backpack\jumppack.p3d";
+		maximumload = 150;
+		hiddenselections[] = 
+		{
+			"camo1"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\jumppack\jumppack_co.paa"
+		};
+		NSM_jumppack_is_jumppack=1;
+		NSM_jumppack_spam_delay=1;
+		NSM_jumppack_energy_capacity=500;
+		NSM_jumppack_recharge=10;
+		NSM_jumppack_jump_effect_script="NSM_jumppack_effect_fnc_jt_21";
+		NSM_jumppack_effect_points[] = 
+		{
+			{
+				"effect1",
+				{0,.6,1} // {side to side , forward, verticle}
+			},
+			{
+				"effect2",
+				{0,.6,1}
+			}
+		};
+		NSM_jumppack_sound_ignite[]=
+		{
+			"NSM_Main\sounds\cdv21Start.ogg"
+		};
+		NSM_jumppack_sound_land[]=
+		{
+			"NSM_Main\sounds\cdv21End.ogg"
+		};
+		NSM_jumppack_sound_idle[]=
+		{
+			"NSM_Main\sounds\cdv21Idle.ogg"
+		};
+		NSM_jumppack_jump_types[]=
+		{
+			{
+				"Short Jump",
+				{25,7,25,0,1,1}
+			},
+			{
+				"High Jump",
+				{50,14,50,0,1,1}
+			},
+		};
+	};
+	class 442_jt12: 442_jumppack
+	{
+		maximumload=150;
+		picture = "kobra\kobra_core\kobra.paa";
+		displayName="[K] JT-12 Jumppack";
+		model = "kobra\442_equipment\backpack\jt12.p3d";
+		hiddenselections[] = 
+		{
+			"camo1"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\jt12\jt12_body_co.paa"
+		};
+		NSM_jumppack_is_jumppack=1;
+		NSM_jumppack_spam_delay=1;
+		NSM_jumppack_energy_capacity=200;
+		NSM_jumppack_recharge=5;
+		NSM_jumppack_jump_effect_script="NSM_jumppack_effect_fnc_jt_21";
+		NSM_jumppack_effect_points[] = 
+		{
+			{
+				"effect1",
+				{0,.6,1} // {side to side , forward, verticle}
+			},
+			{
+				"effect2",
+				{0,.6,1}
+			}
+		};
+		NSM_jumppack_sound_ignite[]=
+		{
+			"NSM_Main\sounds\cdv21Start.ogg"
+		};
+		NSM_jumppack_sound_land[]=
+		{
+			"NSM_Main\sounds\cdv21End.ogg"
+		};
+		NSM_jumppack_sound_idle[]=
+		{
+			"NSM_Main\sounds\cdv21Idle.ogg"
+		};
+		NSM_jumppack_jump_types[]=
+		{	
+			{
+				"Short Jump",
+				{25,7,50,0,1,1}
+			}
+		};
+	};
+	class 442_jt12_single: 442_jt12
+	{
+		scope = 2;
+		maximumload=0;
+		displayname = "[K] JT12 Paradrop (Single, Slow Charge)";
+		NSM_jumppack_is_jumppack=1;
+		NSM_jumppack_spam_delay=1;
+		NSM_jumppack_energy_capacity=100;
+		NSM_jumppack_recharge=2;
+		NSM_jumppack_jump_effect_script="NSM_jumppack_effect_fnc_jt_21";
+		NSM_jumppack_effect_points[] = 
+		{
+			{
+				"effect1",
+				{0,0,0} // {side to side , forward, verticle}
+			},
+			{
+				"effect2",
+				{0,0,0}
+			}
+		};
+		NSM_jumppack_sound_ignite[]=
+		{
+			"NSM_Main\sounds\cdv21Start.ogg"
+		};
+		NSM_jumppack_sound_land[]=
+		{
+			"NSM_Main\sounds\cdv21End.ogg"
+		};
+		NSM_jumppack_sound_idle[]=
+		{
+			"NSM_Main\sounds\cdv21Idle.ogg"
+		};
+		NSM_jumppack_jump_types[]=
+		{
+			{
+				"Short Jump",
+				{25,7,100,0,1,1}
+			}
+		};
+	};
+	class 442_jt12_pj: 442_jt12
+	{
+		displayname = "[K] JT12 Parajumper";
+		maximumload=350;
+	};
+	class 442_jt12_pj_radio: 442_jt12
+	{
+		displayname = "[K] JT12 Parajumper (Radio)";
+		maximumload = 350;
+		tf_dialog="SWLB_clone_rto_radio_dialog";
+		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
+		tf_encryptionCode="tf_west_radio_code";
+		tf_hasLRradio=1;
+		tf_range=25000;
+		tf_subtype="digital_lr";
+	};
+	class 442_jt12_radio: 442_jt12
+	{
+		model = "kobra\442_equipment\backpack\jt12_radio.p3d";
+		scope = 2;
+		hiddenselections[] = 
+		{
+			"camo1",
+			"camo2"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\jt12\jt12_body_co.paa",
+			"kobra\442_equipment\backpack\data\jt12\radio_co.paa"
+		};
+		maximumload=150;
+		displayName="[K] JT-12 Jumppack (Radio)";
+		tf_dialog="SWLB_clone_rto_radio_dialog";
+		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
+		tf_encryptionCode="tf_west_radio_code";
+		tf_hasLRradio=1;
+		tf_range=25000;
+		tf_subtype="digital_lr";
+	};
+	class 442_cdv_19: 442_jt12
+	{
+		displayname = "[K] CDV-19";
+		model = "kobra\442_equipment\backpack\cdv_19.p3d";
+		hiddenselections[] = 
+		{
+			"backpack"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\cdv19\cdv_19_co.paa"
+		};
+	};
+	class 442_cdv_19_radio: 442_cdv_19
+	{
+		displayname = "[K] CDV-19 (Radio)";
+		tf_dialog="SWLB_clone_rto_radio_dialog";
+		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
+		tf_encryptionCode="tf_west_radio_code";
+		tf_hasLRradio=1;
+		tf_range=25000;
+		tf_subtype="digital_lr";
 	};
 };
