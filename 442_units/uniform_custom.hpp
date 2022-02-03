@@ -129,7 +129,15 @@
             uniformclass = "k_44ab_clone_barker_unit";
         };
     };
-     class k_44ab_scout_delta_uniform: k_scout_uniform
+    class k_44ab_clone_litch_uniform: k_44ab_clone_uniform
+    {
+        displayname = "[K/44] Clone Trooper Armor (Litch)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_44ab_clone_litch_unit";
+        };
+    };
+    class k_44ab_scout_delta_uniform: k_scout_uniform
     {
         displayname = "[K/44] Scout Trooper Armor (Delta)";
         class ItemInfo: ItemInfo

@@ -244,7 +244,7 @@
 	
 	class k_44_scout_helmet: k_Scout_Helmet
 	{
-		displayname = "[44] Scout Helmet";
+		displayname = "[K/44] Scout Helmet";
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
@@ -262,7 +262,7 @@
 	};
 	class k_44_hunter_helmet: k_hunter_helmet_base
 	{
-		displayname = "[44] Hunter Helmet";
+		displayname = "[K/44] Hunter Helmet";
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
@@ -279,7 +279,7 @@
 	};
 	class k_44_crosshair_helmet: k_crosshair_helmet_base
 	{
-		displayname = "[44] Crosshair Helmet";
+		displayname = "[K/44] Crosshair Helmet";
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
@@ -296,7 +296,7 @@
 	};
 	class k_44_wrecker_helmet: k_wrecker_helmet_base
 	{
-		displayname = "[44] Wrecker Helmet";
+		displayname = "[K/44] Wrecker Helmet";
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;
@@ -313,7 +313,7 @@
 	};
 	class k_44_tech_helmet: k_tech_helmet_base
 	{
-		displayname = "[44] Tech Helmet";
+		displayname = "[K/44] Tech Helmet";
 		scope = 2;
 		scopecurator = 2;
 		scopearsenal = 2;

@@ -203,6 +203,7 @@
             "",
             "",
         };
+        subItems[] = {"k_nvg_ti"};
     };
     class k_44ab_hunter_canada_Helmet: k_hunter_Helmet
     {
@@ -365,6 +366,15 @@
             "",
             "",
             "",
+        };
+    };
+    class k_44ab_p2_ab_litch_helmet: k_p2_ab_helmet
+    {
+        displayname = "[K/44] P2 Helmet (Litch)";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\unit_designs\44_attack_battalion\litch\ab_helmet_co.paa",
+            "kobra\442_units\data\unit_designs\44_attack_battalion\litch\ab_helmet_co.paa"
         };
     };
     class k_Scout_delta_Helmet: k_Scout_Helmet

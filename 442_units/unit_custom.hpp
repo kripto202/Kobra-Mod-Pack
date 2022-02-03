@@ -162,6 +162,16 @@
             "Kobra\442_units\data\unit_designs\44_attack_battalion\barker\lower_armor_co.paa",
         };
     };
+    class k_44ab_clone_litch_unit: k_44ab_clone_unit
+    {
+        displayname = "Clone Trooper (Litch)";
+        uniformclass = "k_44ab_clone_litch_uniform";
+        hiddenselectionstextures[] = 
+        {
+            "Kobra\442_units\data\unit_designs\44_attack_battalion\litch\upper_armor_co.paa",
+            "Kobra\442_units\data\unit_designs\44_attack_battalion\litch\lower_armor_co.paa",
+        };
+    };
     class k_44ab_scout_delta_unit: k_scout_unit
     {
         displayname = "[K/44] Scout Trooper (Delta";

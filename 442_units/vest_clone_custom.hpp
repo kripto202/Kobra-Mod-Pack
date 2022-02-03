@@ -1026,3 +1026,209 @@
             };
         };
     };
+    class k_44ab_clone_litch_vest: k_clone_vest_heavy
+    {
+        displayname = "[K/44] Clone Vest (Litch)";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\unit_designs\44_attack_battalion\litch\kama_co.paa", //kama left
+			"kobra\442_units\data\unit_designs\44_attack_battalion\litch\kama_co.paa", //kama right
+            
+            //pouch1
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //left front
+            "", //left center
+            "", //left back
+
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //right front
+            "", //right center
+            "", //right back
+
+            //pouch2
+            "", //left front
+            "", //left center
+            "", //left back
+
+            "", //right front
+            "", //right center
+            "", //right back
+
+            //pouch3
+            "", //left front
+            "", //left center
+            "", //left back
+
+            "", //right front
+            "", //right center
+            "", //right back
+
+            //pouch4
+            "", //left front
+            "", //left center
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //left back
+
+            "", //right front
+            "", //right center
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //right back
+
+            //pouch5
+            "", //left front
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //left center
+            "", //left back
+
+            "", //right front
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //right center
+            "", //right back
+
+            "", //holster
+            "kobra\442_units\data\vests\clone_vest\leg_pouch_co.paa", //leg_pouchL
+            "kobra\442_units\data\vests\clone_vest\leg_pouch_co.paa", //leg_pouchR
+
+            "kobra\442_units\data\vests\clone_vest\arc_pauldron_co.paa", //pauldron_arcC
+            "kobra\442_units\data\unit_designs\44_attack_battalion\litch\arc_pauldron_co.paa", //pauldron_arcL
+            "", //pauldron_arcR
+
+            "", //pauldron_ncoL
+            "kobra\442_units\data\unit_designs\44_attack_battalion\litch\arc_pauldron_co.paa", //pauldron_ncoR
+
+            "", //arc_chest
+            "kobra\442_units\data\vests\clone_vest\arc_plates_co.paa", //arc_legs
+
+            "", //arc_pouchL
+            "kobra\442_units\data\vests\clone_vest\arc_pouch_co.paa", //arc_pouchR
+        };
+        class itemInfo: ItemInfo
+        {
+            containerclass = "supply200";
+            mass = 50;
+            class HitpointsProtectionInfo
+            {
+                class Chest
+                {
+                    HitpointName = "HitChest";
+                    armor = 25;
+                    PassThrough = 0.1;
+                };
+                class Diaphragm
+                {
+                    HitpointName = "HitDiaphragm";
+                    armor = 20;
+                    PassThrough = 0.3;
+                };
+                class Abdomen
+                {
+                    hitpointName = "HitAbdomen";
+                    armor = 20;
+                    passThrough = 0.3;
+                };
+                class legs
+                {
+                    hitpointName = "HitLegs";
+                    armor = 20;
+                    passthrough = 0.3;
+                };
+            };
+        };
+    };
+    class k_44ab_clone_azarael_vest: k_clone_vest_heavy
+    {
+        displayname = "[K/44] Clone Vest (Azarael)";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\unit_designs\44_attack_battalion\litch\kama_co.paa", //kama left
+			"kobra\442_units\data\unit_designs\44_attack_battalion\litch\kama_co.paa", //kama right
+            
+            //pouch1
+            "", //left front
+            "", //left center
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //left back
+
+            "", //right front
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //right center
+            "", //right back
+
+            //pouch2
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //left front
+            "", //left center
+            "", //left back
+
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //right front
+            "", //right center
+            "", //right back
+
+            //pouch3
+            "", //left front
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //left center
+            "", //left back
+
+            "", //right front
+            "", //right center
+            "", //right back
+
+            //pouch4
+            "", //left front
+            "", //left center
+            "", //left back
+
+            "", //right front
+            "", //right center
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //right back
+
+            //pouch5
+            "", //left front
+            "", //left center
+            "", //left back
+
+            "", //right front
+            "", //right center
+            "", //right back
+
+            "", //holster
+            "", //leg_pouchL
+            "", //leg_pouchR
+
+            "kobra\442_units\data\vests\clone_vest\arc_pauldron_co.paa", //pauldron_arcC
+            "kobra\442_units\data\unit_designs\44_attack_battalion\azarael\arc_pauldron_co.paa", //pauldron_arcL
+            "kobra\442_units\data\unit_designs\44_attack_battalion\azarael\arc_pauldron_co.paa", //pauldron_arcR
+
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
+
+            "kobra\442_units\data\vests\clone_vest\arc_plates_co.paa", //arc_chest
+            "kobra\442_units\data\vests\clone_vest\arc_plates_co.paa", //arc_legs
+
+            "", //arc_pouchL
+            "", //arc_pouchR
+        };
+        class itemInfo: ItemInfo
+        {
+            containerclass = "supply200";
+            mass = 50;
+            class HitpointsProtectionInfo
+            {
+                class Chest
+                {
+                    HitpointName = "HitChest";
+                    armor = 25;
+                    PassThrough = 0.1;
+                };
+                class Diaphragm
+                {
+                    HitpointName = "HitDiaphragm";
+                    armor = 20;
+                    PassThrough = 0.3;
+                };
+                class Abdomen
+                {
+                    hitpointName = "HitAbdomen";
+                    armor = 20;
+                    passThrough = 0.3;
+                };
+                class legs
+                {
+                    hitpointName = "HitLegs";
+                    armor = 20;
+                    passthrough = 0.3;
+                };
+            };
+        };
+    };
