@@ -879,14 +879,6 @@ class cfgpatches
             ammo = "442_smoke_black";
             displaynameshort = "[K] Black Smoke";
             model = "kobra\442_weapons\explosive\basic_smoke.p3d";
-            hiddenselections[] = 
-            {
-                "camo1"
-            };
-            hiddenselectionstextures[] = 
-            {
-                "kobra\442_weapons\explosive\data\smoke\smoke_co.paa"
-            };
         };
         class 442_SmokeShellBlack_belt_5: 442_SmokeShellBlack
         {
@@ -996,8 +988,28 @@ class cfgpatches
             muzzles[] += 
             {
                 "442_thermal_det_muzzle",
+                "442_thermal_det_5_muzzle",
+                "442_thermal_det_10_muzzle",
                 "442_impact_muzzle",
-                "442_smoke_muzzle"
+                "442_impact_5_muzzle",
+                "442_impact_10_muzzle",
+                "442_smoke_black_muzzle",
+                "442_smoke_black_5_muzzle",
+                "442_smoke_white_muzzle",
+                "442_smoke_white_5_muzzle",
+                "442_smoke_red_muzzle",
+                "442_smoke_red_5_muzzle",
+                "442_smoke_green_muzzle",
+                "442_smoke_green_5_muzzle",
+                "442_smoke_yellow_muzzle",
+                "442_smoke_yellow_5_muzzle",
+                "442_smoke_purple_muzzle",
+                "442_smoke_purple_5_muzzle",
+                "442_smoke_blue_muzzle",
+                "442_smoke_blue_5_muzzle",
+                "442_smoke_orange_muzzle",
+                "442_smoke_orange_5_muzzle",
+
             };
             class 442_thermal_det_muzzle: GrenadeLauncher
             {
@@ -1011,7 +1023,7 @@ class cfgpatches
                 cursoraim = "throw";
                 enableattack = 0;
                 keepininventory = 1;
-                magazinereloadtime = 0.5;
+                magazinereloadtime = 2.5;
                 maxrange = 60;
                 maxrangeprobab = 0.03;
                 midrange = 45;
@@ -1020,18 +1032,94 @@ class cfgpatches
                 minrangeprobab = 0.2;
                 modeloptics = "";
                 reloadsound[] = {"",0.000316228,1};
-                reloadtime = 3;
+                reloadtime = 0;
                 showempty = 0;
                 sound[] = {"",0.000316228,1};
-                magazines[] = {"442_thermal_det_mag","442_thermal_det_belt_10_mag","442_thermal_det_belt_5_mag"};
+                magazines[] = {"442_thermal_det_mag"};
+            };
+            class 442_thermal_det_5_muzzle: 442_thermal_det_muzzle
+            {
+                magazines[] = {"442_thermal_det_belt_5_mag"};
+            };
+            class 442_thermal_det_10_muzzle: 442_thermal_det_muzzle
+            {
+                magazines[] = {"442_thermal_det_belt_10_mag"};
             };
             class 442_impact_muzzle: 442_thermal_det_muzzle
             {
-                magazines[] = {"442_impact_mag","442_impact_belt_10_mag","442_impact_belt_5_mag"};
+                magazines[] = {"442_impact_mag"};
             };
-            class 442_smoke_muzzle: 442_thermal_det_muzzle
+            class 442_impact_5_muzzle: 442_impact_muzzle
             {
-                magazines[] = {"442_SmokeShellBlack","442_SmokeShellwhite","442_SmokeShellred","442_SmokeShellgreen","442_SmokeShellyellow","442_SmokeShellpurple","442_SmokeShellblue","442_SmokeShellorange","442_SmokeShellBlack_belt_5","442_SmokeShellWhite_belt_5","442_SmokeShellRed_belt_5","442_SmokeShellGreen_belt_5","442_SmokeShellYellow_belt_5","442_SmokeShellPurple_belt_5","442_SmokeShellBlue_belt_5","442_SmokeShellOrange_belt_5"};
+                magazines[] = {"442_impact_belt_5_mag"};
+            };
+            class 442_impact_10_muzzle: 442_impact_muzzle
+            {
+                magazines[] = {"442_impact_belt_10_mag"};
+            };
+            class 442_smoke_black_muzzle: 442_thermal_det_muzzle
+            {
+                magazines[] = {"442_SmokeShellBlack"};
+            };
+            class 442_smoke_black_5_muzzle: 442_smoke_black_muzzle
+            {
+                magazines[] = {"442_SmokeShellBlack_belt_5"};
+            };
+            class 442_smoke_white_muzzle: 442_smoke_black_muzzle
+            {
+                magazines[] = {"442_SmokeShellwhite"};
+            };
+            class 442_smoke_white_5_muzzle: 442_smoke_black_muzzle
+            {
+                magazines[] = {"442_SmokeShellWhite_belt_5"};
+            };
+            class 442_smoke_red_muzzle: 442_smoke_black_muzzle
+            {
+                magazines[] = {"442_SmokeShellred"};
+            };
+            class 442_smoke_red_5_muzzle: 442_smoke_black_muzzle
+            {
+                magazines[] = {"442_SmokeShellRed_belt_5"};
+            };
+            class 442_smoke_green_muzzle: 442_smoke_black_muzzle
+            {
+                magazines[] = {"442_SmokeShellgreen"};
+            };
+            class 442_smoke_green_5_muzzle: 442_smoke_black_muzzle
+            {
+                magazines[] = {"442_SmokeShellGreen_belt_5"};
+            };
+            class 442_smoke_yellow_muzzle: 442_smoke_black_muzzle
+            {
+                magazines[] = {"442_SmokeShellyellow"};
+            };
+            class 442_smoke_yellow_5_muzzle: 442_smoke_black_muzzle
+            {
+                magazines[] = {"442_SmokeShellYellow_belt_5"};
+            };
+            class 442_smoke_purple_muzzle: 442_smoke_black_muzzle
+            {
+                magazines[] = {"442_SmokeShellpurple"};
+            };
+            class 442_smoke_purple_5_muzzle: 442_smoke_black_muzzle
+            {
+                magazines[] = {"442_SmokeShellPurple_belt_5"};
+            };
+            class 442_smoke_blue_muzzle: 442_smoke_black_muzzle
+            {
+                magazines[] = {"442_SmokeShellblue"};
+            };
+            class 442_smoke_blue_5_muzzle: 442_smoke_black_muzzle
+            {
+                magazines[] = {"442_SmokeShellBlue_belt_5"};
+            };
+            class 442_smoke_orange_muzzle: 442_smoke_black_muzzle
+            {
+                magazines[] = {"442_SmokeShellorange"};
+            };
+            class 442_smoke_orange_5_muzzle: 442_smoke_black_muzzle
+            {
+                magazines[] = {"442_SmokeShellOrange_belt_5"};
             };
         };
     };
