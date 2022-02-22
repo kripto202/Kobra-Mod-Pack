@@ -157,7 +157,8 @@ class cfgweapons
 			1,
 			10
 		};
-        reloadAction = "k_773_reload";
+        reloadAction = "gestureReload773";
+        reloadtime = 2.5;
 		maxZeroing=1000;
 		discreteDistanceInitIndex=0;
 		maxRecoilSway=0.0125;
