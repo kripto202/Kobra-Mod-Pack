@@ -386,3 +386,12 @@
             "kobra\442_units\data\helmet\scout_helmet\visor_co.paa",
         };
     };
+    class k_wrecker_neko_helmet: k_wrecker_Helmet
+    {
+        displayname = "[K/44] Wrecker Helmet (Neko)";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\unit_designs\44_attack_battalion\neko\wrecker_helmet_co.paa",
+            "kobra\442_units\data\unit_designs\44_attack_battalion\neko\wrecker_visor_co.paa",
+        };
+    };

@@ -183,6 +183,16 @@
             "kobra\442_units\data\unit_designs\44_attack_battalion\delta\scout_undersuit_co.paa"
         };
     };
+    class k_44ab_clone_neko_unit: k_44ab_clone_unit
+    {
+        displayname = "Clone Trooper (Neko)";
+        uniformclass = "k_44ab_clone_neko_uniform";
+        hiddenselectionstextures[] = 
+        {
+            "Kobra\442_units\data\unit_designs\44_attack_battalion\neko\upper_armor_co.paa",
+            "Kobra\442_units\data\unit_designs\44_attack_battalion\neko\lower_armor_co.paa",
+        };
+    };
 ///dukas
     class k_scout_unit_arid: k_scout_unit
     {

@@ -1232,3 +1232,106 @@
             };
         };
     };
+    class k_44ab_clone_neko_vest: k_clone_vest_heavy
+    {
+        displayname = "[K/44] Clone Vest (Neko)";
+        hiddenselectionstextures[] = 
+        {
+            "", //kama left
+			"kobra\442_units\data\unit_designs\44_attack_battalion\neko\kama_co.paa", //kama right
+            
+            //pouch1
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //left front
+            "", //left center
+            "", //left back
+
+            "", //right front
+            "", //right center
+            "", //right back
+
+            //pouch2
+            "", //left front
+            "", //left center
+            "", //left back
+
+            "", //right front
+            "", //right center
+            "", //right back
+
+            //pouch3
+            "", //left front
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //left center
+            "", //left back
+
+            "", //right front
+            "", //right center
+            "", //right back
+
+            //pouch4
+            "", //left front
+            "", //left center
+            "", //left back
+
+            "", //right front
+            "", //right center
+            "", //right back
+
+            //pouch5
+            "", //left front
+            "", //left center
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //left back
+
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //right front
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //right center
+            "kobra\442_units\data\vests\clone_vest\clone_belt_co.paa", //right back
+
+            "", //holster
+            "", //leg_pouchL
+            "", //leg_pouchR
+
+            "", //pauldron_arcC
+            "", //pauldron_arcL
+            "", //pauldron_arcR
+
+            "", //pauldron_ncoL
+            "", //pauldron_ncoR
+
+            "", //arc_chest
+            "", //arc_legs
+
+            "", //arc_pouchL
+            "", //arc_pouchR
+        };
+        class itemInfo: ItemInfo
+        {
+            containerclass = "supply200";
+            mass = 50;
+            class HitpointsProtectionInfo
+            {
+                class Chest
+                {
+                    HitpointName = "HitChest";
+                    armor = 25;
+                    PassThrough = 0.1;
+                };
+                class Diaphragm
+                {
+                    HitpointName = "HitDiaphragm";
+                    armor = 20;
+                    PassThrough = 0.3;
+                };
+                class Abdomen
+                {
+                    hitpointName = "HitAbdomen";
+                    armor = 20;
+                    passThrough = 0.3;
+                };
+                class legs
+                {
+                    hitpointName = "HitLegs";
+                    armor = 20;
+                    passthrough = 0.3;
+                };
+            };
+        };
+    };

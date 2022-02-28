@@ -145,7 +145,14 @@
             uniformclass = "k_44ab_scout_delta_unit";
         };
     };
-
+    class k_44ab_clone_neko_uniform: k_44ab_clone_uniform
+    {
+        displayname = "[K/44] Clone Trooper Armor (Neko)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_44ab_clone_neko_unit";
+        };
+    };
  ///dukas
     class k_scout_uniform_arid: k_scout_uniform
     {
