@@ -166,10 +166,85 @@ class cfgpatches
 			"k_acclamator_torp_hullL1",
 			"k_acclamator_torp_hullL2",
 			"k_acclamator_torp_hullR1",
-			"k_acclamator_torp_hullR2"
+			"k_acclamator_torp_hullR2",
+
+			"k_acclamator_h_floor1",
+			"k_acclamator_h_floor2",
+			"k_acclamator_h_floor3",
+			"k_acclamator_h_floor4",
+			"k_acclamator_h_floor5",
+			"k_acclamator_h_floor6",
+			"k_acclamator_h_floor7",
+			"k_acclamator_h_floor8",
+			"k_acclamator_h_floor9",
+			"k_acclamator_h_floor10",
+			"k_acclamator_h_floor11",
+			"k_acclamator_h_floor12",
+			"k_acclamator_h_floor13",
+			"k_acclamator_h_floor14",
+			"k_acclamator_h_floor15",
+			"k_acclamator_h_floor16",
+			"k_acclamator_h_floor17",
+			"k_acclamator_h_floor18",
+			"k_acclamator_h_floor19",
+			"k_acclamator_h_floor20",
+			"k_acclamator_h_floor21",
+			"k_acclamator_h_floor22",
+			"k_acclamator_h_floor23",
+			"k_acclamator_h_floor24",
+			"k_acclamator_h_floor25",
+			"k_acclamator_h_floor26",
+			"k_acclamator_h_floor27",
+			"k_acclamator_h_floor28",
+			"k_acclamator_h_floor29",
+			"k_acclamator_h_floor30",
+			"k_acclamator_h_floor31",
+			"k_acclamator_h_floor32",
+			"k_acclamator_h_floor33",
+
+			"k_acclamator_h_wall1",
+			"k_acclamator_h_wall2",
+			"k_acclamator_h_wall3",
+			"k_acclamator_h_wall4",
+			"k_acclamator_h_wall5",
         };
         weapons[] = {};
     };
+};
+
+class cfganimationsourcesounds
+{
+	class GenericDoorsSound;
+	///heavy 10 seconds
+	class k_acc_hydraulic_door1: GenericDoorsSound 
+	{
+		class DoorMovement
+		{
+			loop = 0;
+			terminate = 1;
+			trigger = "(phase factor[0.01,0.02]) * (phase factor[0.99,0.98])";
+			sound0[] = {"kobra\442_ships\acclamator2\sounds\Hydraulicdoor1.wss",10,1,50};
+			sound[] = {"sound0",1};
+		};
+		class OpenTheDoor {};
+		class SlamtheDoor {};
+	};
+	///medium 6 seconds
+	class k_acc_hydraulic_door2: k_acc_hydraulic_door1
+	{
+		class DoorMovement: DoorMovement
+		{
+			sound0[] = {"kobra\442_ships\acclamator2\sounds\Hydraulicdoor2.wss",10,1,10};
+		};
+	};
+	///light 3 seconds
+	class k_acc_hydraulic_door3: k_acc_hydraulic_door1
+	{
+		class DoorMovement: DoorMovement
+		{
+			sound0[] = {"kobra\442_ships\acclamator2\sounds\Hydraulicdoor3.wss",10,1,10};
+		};
+	};
 };
 
 class cfgvehicles
@@ -831,7 +906,428 @@ class cfgvehicles
 				"k_acclamator_torp_hullR2", //clasname
 				"torp_hullR2" //memory point
 			},
-			
+		///hanger floor
+			{
+				"k_acclamator_h_floor1", //clasname
+				"h_floor1" //memory point
+			},
+			{
+				"k_acclamator_h_floor2", //clasname
+				"h_floor2" //memory point
+			},
+			{
+				"k_acclamator_h_floor3", //clasname
+				"h_floor3" //memory point
+			},
+			{
+				"k_acclamator_h_floor4", //clasname
+				"h_floor4" //memory point
+			},
+			{
+				"k_acclamator_h_floor5", //clasname
+				"h_floor5" //memory point
+			},
+			{
+				"k_acclamator_h_floor6", //clasname
+				"h_floor6" //memory point
+			},
+			{
+				"k_acclamator_h_floor7", //clasname
+				"h_floor7" //memory point
+			},
+			{
+				"k_acclamator_h_floor8", //clasname
+				"h_floor8" //memory point
+			},
+			{
+				"k_acclamator_h_floor9", //clasname
+				"h_floor9" //memory point
+			},
+			{
+				"k_acclamator_h_floor10", //clasname
+				"h_floor10" //memory point
+			},
+			{
+				"k_acclamator_h_floor11", //clasname
+				"h_floor11" //memory point
+			},
+			{
+				"k_acclamator_h_floor12", //clasname
+				"h_floor12" //memory point
+			},
+			{
+				"k_acclamator_h_floor13", //clasname
+				"h_floor13" //memory point
+			},
+			{
+				"k_acclamator_h_floor14", //clasname
+				"h_floor14" //memory point
+			},
+			{
+				"k_acclamator_h_floor15", //clasname
+				"h_floor15" //memory point
+			},
+			{
+				"k_acclamator_h_floor16", //clasname
+				"h_floor16" //memory point
+			},
+			{
+				"k_acclamator_h_floor17", //clasname
+				"h_floor17" //memory point
+			},
+			{
+				"k_acclamator_h_floor18", //clasname
+				"h_floor18" //memory point
+			},
+			{
+				"k_acclamator_h_floor19", //clasname
+				"h_floor19" //memory point
+			},
+			{
+				"k_acclamator_h_floor20", //clasname
+				"h_floor20" //memory point
+			},
+			{
+				"k_acclamator_h_floor21", //clasname
+				"h_floor21" //memory point
+			},
+			{
+				"k_acclamator_h_floor22", //clasname
+				"h_floor22" //memory point
+			},
+			{
+				"k_acclamator_h_floor23", //clasname
+				"h_floor23" //memory point
+			},
+			{
+				"k_acclamator_h_floor24", //clasname
+				"h_floor24" //memory point
+			},
+			{
+				"k_acclamator_h_floor25", //clasname
+				"h_floor25" //memory point
+			},
+			{
+				"k_acclamator_h_floor26", //clasname
+				"h_floor26" //memory point
+			},
+			{
+				"k_acclamator_h_floor27", //clasname
+				"h_floor27" //memory point
+			},
+			{
+				"k_acclamator_h_floor28", //clasname
+				"h_floor28" //memory point
+			},
+			{
+				"k_acclamator_h_floor29", //clasname
+				"h_floor29" //memory point
+			},
+			{
+				"k_acclamator_h_floor30", //clasname
+				"h_floor30" //memory point
+			},
+			{
+				"k_acclamator_h_floor31", //clasname
+				"h_floor31" //memory point
+			},
+			{
+				"k_acclamator_h_floor32", //clasname
+				"h_floor32" //memory point
+			},
+			{
+				"k_acclamator_h_floor33", //clasname
+				"h_floor33" //memory point
+			},
+		///hanger walls
+			{
+				"k_acclamator_h_wall1", //clasname
+				"h_wall1" //memory point
+			},
+			{
+				"k_acclamator_h_wall2", //clasname
+				"h_wall2" //memory point
+			},
+			{
+				"k_acclamator_h_wall3", //clasname
+				"h_wall3" //memory point
+			},
+			{
+				"k_acclamator_h_wall4", //clasname
+				"h_wall4" //memory point
+			},
+			{
+				"k_acclamator_h_wall5", //clasname
+				"h_wall5" //memory point
+			},
+			{
+				"k_acclamator_h_wall6", //clasname
+				"h_wall6" //memory point
+			},
+			{
+				"k_acclamator_h_wall6_1", //clasname
+				"h_wall6_1" //memory point
+			},
+			{
+				"k_acclamator_h_wall7", //clasname
+				"h_wall7" //memory point
+			},
+			{
+				"k_acclamator_h_wall7_1", //clasname
+				"h_wall7_1" //memory point
+			},
+			{
+				"k_acclamator_h_wall8", //clasname
+				"h_wall8" //memory point
+			},
+			{
+				"k_acclamator_h_wall8_1", //clasname
+				"h_wall8_1" //memory point
+			},
+			{
+				"k_acclamator_h_wall8_2", //clasname
+				"h_wall8_2" //memory point
+			},
+			{
+				"k_acclamator_h_wall8_3", //clasname
+				"h_wall8_3" //memory point
+			},
+			{
+				"k_acclamator_h_wall9", //clasname
+				"h_wall9" //memory point
+			},
+			{
+				"k_acclamator_h_wall10", //clasname
+				"h_wall10" //memory point
+			},
+			{
+				"k_acclamator_h_wall11", //clasname
+				"h_wall11" //memory point
+			},
+			{
+				"k_acclamator_h_wall12", //clasname
+				"h_wall12" //memory point
+			},
+			{
+				"k_acclamator_h_wall13", //clasname
+				"h_wall13" //memory point
+			},
+			{
+				"k_acclamator_h_wall14", //clasname
+				"h_wall14" //memory point
+			},
+			{
+				"k_acclamator_h_wall15", //clasname
+				"h_wall15" //memory point
+			},
+			{
+				"k_acclamator_h_wall16", //clasname
+				"h_wall16" //memory point
+			},
+			{
+				"k_acclamator_h_wall17", //clasname
+				"h_wall17" //memory point
+			},
+			{
+				"k_acclamator_h_wall18", //clasname
+				"h_wall18" //memory point
+			},
+			{
+				"k_acclamator_h_wall19", //clasname
+				"h_wall19" //memory point
+			},
+			{
+				"k_acclamator_h_wall20", //clasname
+				"h_wall20" //memory point
+			},
+			{
+				"k_acclamator_h_wall21", //clasname
+				"h_wall21" //memory point
+			},
+			{
+				"k_acclamator_h_wall22", //clasname
+				"h_wall22" //memory point
+			},
+			{
+				"k_acclamator_h_wall23", //clasname
+				"h_wall23" //memory point
+			},
+			{
+				"k_acclamator_h_wall24", //clasname
+				"h_wall24" //memory point
+			},
+			{
+				"k_acclamator_h_wall25", //clasname
+				"h_wall25" //memory point
+			},
+			{
+				"k_acclamator_h_wall26", //clasname
+				"h_wall26" //memory point
+			},
+			{
+				"k_acclamator_h_wall27", //clasname
+				"h_wall27" //memory point
+			},
+			{
+				"k_acclamator_h_wall28", //clasname
+				"h_wall28" //memory point
+			},
+			{
+				"k_acclamator_h_wall29", //clasname
+				"h_wall29" //memory point
+			},
+			{
+				"k_acclamator_h_wall30", //clasname
+				"h_wall30" //memory point
+			},
+			{
+				"k_acclamator_h_wall31", //clasname
+				"h_wall31" //memory point
+			},
+			{
+				"k_acclamator_h_wall32", //clasname
+				"h_wall32" //memory point
+			},
+			{
+				"k_acclamator_crane_1", //clasname
+				"crane_1" //memory point
+			},
+			{
+				"k_acclamator_crane_2", //clasname
+				"crane_2" //memory point
+			},
+			{
+				"k_acclamator_crane_3", //clasname
+				"crane_3" //memory point
+			},
+			{
+				"k_acclamator_h_door", //clasname
+				"h_door" //memory point
+			},
+			{
+				"k_acclamator_h_cargo1", //clasname
+				"h_cargo1" //memory point
+			},
+			{
+				"k_acclamator_h_cargo2", //clasname
+				"h_cargo2" //memory point
+			},
+			{
+				"k_acclamator_h_cargo3", //clasname
+				"h_cargo3" //memory point
+			},
+			{
+				"k_acclamator_h_cargo4", //clasname
+				"h_cargo4" //memory point
+			},
+			{
+				"k_acclamator_catwalk1", //clasname
+				"catwalk1" //memory point
+			},
+			{
+				"k_acclamator_catwalk2", //clasname
+				"catwalk2" //memory point
+			},
+			{
+				"k_acclamator_catwalk3", //clasname
+				"catwalk3" //memory point
+			},
+			{
+				"k_acclamator_catwalk4", //clasname
+				"catwalk4" //memory point
+			},
+			{
+				"k_acclamator_catwalk5", //clasname
+				"catwalk5" //memory point
+			},
+			{
+				"k_acclamator_catwalk6", //clasname
+				"catwalk6" //memory point
+			},
+			{
+				"k_acclamator_munitionL", //clasname
+				"munitionL" //memory point
+			},
+			{
+				"k_acclamator_munitionR", //clasname
+				"munitionR" //memory point
+			},
+			{
+				"k_acclamator_hull_doorL", //clasname
+				"hull_doorL" //memory point
+			},
+			{
+				"k_acclamator_hull_doorR", //clasname
+				"hull_doorR" //memory point
+			},
+			{
+				"k_acclamator_control_room",
+				"control_room"
+			},
+			{
+				"k_acclamator_hallwayC", //clasname
+				"hallwayC" //memory point
+			},
+			{
+				"k_acclamator_hallwayL1", //clasname
+				"hallwayL1" //memory point
+			},
+			{
+				"k_acclamator_hallwayL2", //clasname
+				"hallwayL2" //memory point
+			},
+			{
+				"k_acclamator_hallwayL3", //clasname
+				"hallwayL3" //memory point
+			},
+			{
+				"k_acclamator_hallwayL6", //clasname
+				"hallwayL6" //memory point
+			},
+			{
+				"k_acclamator_hallwayL7", //clasname
+				"hallwayL7" //memory point
+			},
+			{
+				"k_acclamator_hallwayL57", //clasname
+				"hallwayL57" //memory point
+			},
+			{
+				"k_acclamator_hallwayR1", //clasname
+				"hallwayR1" //memory point
+			},
+			{
+				"k_acclamator_hallwayR2", //clasname
+				"hallwayR2" //memory point
+			},
+			{
+				"k_acclamator_hallwayR3", //clasname
+				"hallwayR3" //memory point
+			},
+			{
+				"k_acclamator_hallwayR6", //clasname
+				"hallwayR6" //memory point
+			},
+			{
+				"k_acclamator_hallwayR7", //clasname
+				"hallwayR7" //memory point
+			},
+			{
+				"k_acclamator_hallwayR57", //clasname
+				"hallwayR57" //memory point
+			},
+			{
+				"k_acclamator_obsL", //clasname
+				"obsL" //memory point
+			},
+			{
+				"k_acclamator_obsR", //clasname
+				"obsR" //memory point
+			},
+			{
+				"k_acclamator_obsC", //clasname
+				"obsC" //memory point
+			},
 		};
 		class Eventhandlers
 		{
@@ -2520,5 +3016,771 @@ class cfgvehicles
 	{
 		displayname = "Acclamator torp hullR2";
 		model="\kobra\442_ships\acclamator2\k_acclamator_torp_hullR2.p3d";
+	};
+///hanger floor
+	class k_acclamator_h_floor1: k_acclamator_hullL1
+	{
+		displayname = "Acclamator hanger floor 1";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor1.p3d";
+		hiddenselections[] = {};
+		hiddenselectionstextures[]={};
+	};
+	class k_acclamator_h_floor2: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 2";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor2.p3d";
+	};
+	class k_acclamator_h_floor3: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 3";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor3.p3d";
+	};
+	class k_acclamator_h_floor4: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 4";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor4.p3d";
+	};
+	class k_acclamator_h_floor5: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 5";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor5.p3d";
+	};
+	class k_acclamator_h_floor6: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 6";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor6.p3d";
+	};
+	class k_acclamator_h_floor7: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 7";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor7.p3d";
+	};
+	class k_acclamator_h_floor8: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 8";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor8.p3d";
+	};
+	class k_acclamator_h_floor9: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 9";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor9.p3d";
+	};
+	class k_acclamator_h_floor10: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 10";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor10.p3d";
+	};
+	class k_acclamator_h_floor11: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 11";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor11.p3d";
+	};
+	class k_acclamator_h_floor12: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 12";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor12.p3d";
+	};
+	class k_acclamator_h_floor13: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 13";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor13.p3d";
+	};
+	class k_acclamator_h_floor14: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 14";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor14.p3d";
+	};
+	class k_acclamator_h_floor15: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 15";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor15.p3d";
+	};
+	class k_acclamator_h_floor16: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 16";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor16.p3d";
+	};
+	class k_acclamator_h_floor17: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 17";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor17.p3d";
+	};
+	class k_acclamator_h_floor18: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 18";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor18.p3d";
+	};
+	class k_acclamator_h_floor19: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 19";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor19.p3d";
+	};
+	class k_acclamator_h_floor20: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 20";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor20.p3d";
+	};
+	class k_acclamator_h_floor21: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 21";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor21.p3d";
+	};
+	class k_acclamator_h_floor22: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 22";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor22.p3d";
+	};
+	class k_acclamator_h_floor23: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 23";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor23.p3d";
+	};
+	class k_acclamator_h_floor24: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 24";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor24.p3d";
+	};
+	class k_acclamator_h_floor25: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 25";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor25.p3d";
+	};
+	class k_acclamator_h_floor26: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 26";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor26.p3d";
+	};
+	class k_acclamator_h_floor27: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 27";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor27.p3d";
+	};
+	class k_acclamator_h_floor28: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 28";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor28.p3d";
+	};
+	class k_acclamator_h_floor29: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 29";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor29.p3d";
+	};
+	class k_acclamator_h_floor30: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 30";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor30.p3d";
+	};
+	class k_acclamator_h_floor31: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 31";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor31.p3d";
+	};
+	class k_acclamator_h_floor32: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 32";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor32.p3d";
+	};
+	class k_acclamator_h_floor33: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger floor 33";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_floor33.p3d";
+	};
+///hanger walls
+	class k_acclamator_h_wall1: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 1";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall1.p3d";
+	};
+	class k_acclamator_h_wall2: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 2";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall2.p3d";
+	};
+	class k_acclamator_h_wall3: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 3";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall3.p3d";
+	};
+	class k_acclamator_h_wall4: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 4";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall4.p3d";
+	};
+	class k_acclamator_h_wall5: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 5";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall5.p3d";
+		class animationsources
+		{
+			class k_acc_open_doorL_1
+			{
+				source = "user";
+				animperiod = 3;
+				initphase = 0;
+				sound = "k_acc_hydraulic_door3";
+				soundposition = "doorL_pos";
+			};
+			class k_acc_open_doorL_2: k_acc_open_doorL_1 {};
+			class k_acc_open_doorR_1: k_acc_open_doorL_1 
+			{
+				soundposition = "doorR_pos";
+			};
+			class k_acc_open_doorR_2: k_acc_open_doorL_1 {};
+		};
+		class useractions
+		{
+			class k_acc_open_doorL
+			{
+				displayname = "Open Door";
+				position = "doorL_pos";
+				radius = 5;
+				onlyforplayer = 0;
+				priority = 101;
+				condition = "this animationsourcephase ""k_acc_open_doorL_1"" == 0";
+				statement = "this animatesource [""k_acc_open_doorL_1"",1] AND this animatesource [""k_acc_open_doorL_2"",1];";
+			};
+			class k_acc_close_doorL: k_acc_open_doorL
+			{
+				displayname = "Close Door";
+				condition = "this animationsourcephase ""k_acc_open_doorL_1"" == 1";
+				statement = "this animatesource [""k_acc_open_doorL_1"",0] AND this animatesource [""k_acc_open_doorL_2"",0];";
+			};
+			class k_acc_open_doorR: k_acc_open_doorL
+			{
+				position = "doorR_pos";
+				condition = "this animationsourcephase ""k_acc_open_doorR_1"" == 0";
+				statement = "this animatesource [""k_acc_open_doorR_1"",1];";
+			};
+			class k_acc_close_doorR: k_acc_open_doorR
+			{
+				displayname = "Close Door";
+				condition = "this animationsourcephase ""k_acc_open_doorR_1"" == 1";
+				statement = "this animatesource [""k_acc_open_doorR_1"",0];";
+			};
+		};
+	};
+	class k_acclamator_h_wall6: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 6";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall6.p3d";
+	};
+	class k_acclamator_h_wall6_1: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 6-1";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall6_1.p3d";
+	};
+	class k_acclamator_h_wall7: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 7";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall7.p3d";
+	};
+	class k_acclamator_h_wall7_1: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 7-1";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall7_1.p3d";
+	};
+	class k_acclamator_h_wall8: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 8";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall8.p3d";
+	};
+	class k_acclamator_h_wall8_1: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 8-1";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall8_1.p3d";
+	};
+	class k_acclamator_h_wall8_2: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 8-2";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall8_2.p3d";
+	};
+	class k_acclamator_h_wall8_3: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 8-3";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall8_3.p3d";
+	};
+	class k_acclamator_h_wall9: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 9";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall9.p3d";
+	};
+	class k_acclamator_h_wall10: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 10";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall10.p3d";
+	};
+	class k_acclamator_h_wall11: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 11";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall11.p3d";
+	};
+	class k_acclamator_h_wall12: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 12";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall12.p3d";
+	};
+	class k_acclamator_h_wall13: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 13";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall13.p3d";
+	};
+	class k_acclamator_h_wall14: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 14";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall14.p3d";
+	};
+	class k_acclamator_h_wall15: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 15";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall15.p3d";
+	};
+	class k_acclamator_h_wall16: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 16";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall16.p3d";
+	};
+	class k_acclamator_h_wall17: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 17";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall17.p3d";
+	};
+	class k_acclamator_h_wall18: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 18";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall18.p3d";
+	};
+	class k_acclamator_h_wall19: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 19";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall19.p3d";
+	};
+	class k_acclamator_h_wall20: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 20";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall20.p3d";
+	};
+	class k_acclamator_h_wall21: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 21";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall21.p3d";
+	};
+	class k_acclamator_h_wall22: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 22";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall22.p3d";
+	};
+	class k_acclamator_h_wall23: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 23";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall23.p3d";
+	};
+	class k_acclamator_h_wall24: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 24";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall24.p3d";
+	};
+	class k_acclamator_h_wall25: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 25";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall25.p3d";
+	};
+	class k_acclamator_h_wall26: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 26";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall26.p3d";
+	};
+	class k_acclamator_h_wall27: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 27";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall27.p3d";
+	};
+	class k_acclamator_h_wall28: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 28";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall28.p3d";
+	};
+	class k_acclamator_h_wall29: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 29";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall29.p3d";
+	};
+	class k_acclamator_h_wall30: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 30";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall30.p3d";
+	};
+	class k_acclamator_h_wall31: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger wall 31";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall31.p3d";
+		class animationsources
+		{
+			class k_acc_open_door_1
+			{
+				source = "user";
+				animperiod = 3;
+				initphase = 0;
+				sound = "k_acc_hydraulic_door3";
+				soundposition = "door_pos";
+			};
+		};
+		class useractions
+		{
+			class k_acc_open_door
+			{
+				displayname = "Open Door";
+				position = "door_pos";
+				radius = 5;
+				onlyforplayer = 0;
+				priority = 101;
+				condition = "this animationsourcephase ""k_acc_open_door_1"" == 0";
+				statement = "this animatesource [""k_acc_open_door_1"",1];";
+			};
+			class k_acc_close_door: k_acc_open_door
+			{
+				displayname = "Close Door";
+				condition = "this animationsourcephase ""k_acc_open_door_1"" == 1";
+				statement = "this animatesource [""k_acc_open_door_1"",0];";
+			};
+		};
+	};
+	class k_acclamator_h_wall32: k_acclamator_h_wall31
+	{
+		displayname = "Acclamator hanger wall 32";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall32.p3d";
+	};
+///crane
+	class k_acclamator_crane_1: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator crane 1";
+		model="\kobra\442_ships\acclamator2\k_acclamator_crane_1.p3d";
+	};
+	class k_acclamator_crane_2: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator crane 2";
+		model="\kobra\442_ships\acclamator2\k_acclamator_crane_2.p3d";
+	};
+	class k_acclamator_crane_3: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator crane 3";
+		model="\kobra\442_ships\acclamator2\k_acclamator_crane_3.p3d";
+	};
+///cargo room
+	class k_acclamator_h_door: k_acclamator_h_wall31
+	{
+		displayname = "Acclamator hanger door";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_door.p3d";
+		class animationsources
+		{
+			class k_acc_open_door_1
+			{
+				source = "user";
+				animperiod = 6;
+				initphase = 0;
+				sound = "k_acc_hydraulic_door2";
+				soundposition = "sound_pos";
+			};
+		};
+		class useractions
+		{
+			class k_acc_open_door1
+			{
+				displayname = "Open Door";
+				position = "door_action1";
+				radius = 2;
+				onlyforplayer = 0;
+				priority = 101;
+				condition = "this animationsourcephase ""k_acc_open_door_1"" == 0";
+				statement = "this animatesource [""k_acc_open_door_1"",1];";
+			};
+			class k_acc_close_door1: k_acc_open_door1
+			{
+				displayname = "Close Door";
+				condition = "this animationsourcephase ""k_acc_open_door_1"" == 1";
+				statement = "this animatesource [""k_acc_open_door_1"",0];";
+			};
+			class k_acc_open_door2: k_acc_open_door1
+			{
+				position = "door_action2";
+			};
+			class k_acc_close_door2: k_acc_close_door1
+			{
+				position = "door_action2";
+			};
+		};
+	};
+	class k_acclamator_h_cargo1: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger cargo 1";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_cargo1.p3d";
+	};
+	class k_acclamator_h_cargo2: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger cargo 2";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_cargo2.p3d";
+	};
+	class k_acclamator_h_cargo3: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger cargo 3";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_cargo3.p3d";
+	};
+	class k_acclamator_h_cargo4: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger cargo 4";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_cargo4.p3d";
+	};
+///catwalk
+	class k_acclamator_catwalk1: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger catwalk 1";
+		model="\kobra\442_ships\acclamator2\k_acclamator_catwalk1.p3d";
+		ladders[] = {{"start1","end1",2.5,"ladder_1_action"}};
+	};
+	class k_acclamator_catwalk2: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger catwalk 2";
+		model="\kobra\442_ships\acclamator2\k_acclamator_catwalk2.p3d";
+	};
+	class k_acclamator_catwalk3: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger catwalk 3";
+		model="\kobra\442_ships\acclamator2\k_acclamator_catwalk3.p3d";
+		ladders[] = {{"start1","end1",2.5,"ladder_1_action"}};
+	};
+	class k_acclamator_catwalk4: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger catwalk 4";
+		model="\kobra\442_ships\acclamator2\k_acclamator_catwalk4.p3d";
+	};
+	class k_acclamator_catwalk5: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger catwalk 5";
+		model="\kobra\442_ships\acclamator2\k_acclamator_catwalk5.p3d";
+	};
+	class k_acclamator_catwalk6: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator hanger catwalk 6";
+		model="\kobra\442_ships\acclamator2\k_acclamator_catwalk6.p3d";
+	};
+///munition room
+	class k_acclamator_munitionL: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator Munition Room L";
+		model="\kobra\442_ships\acclamator2\k_acclamator_munitionL.p3d";
+		class animationsources
+		{
+			class k_acc_open_door
+			{
+				source = "user";
+				animperiod = 10;
+				initphase = 0;
+				sound = "k_acc_hydraulic_door1";
+				soundposition = "sound_pos";
+			};
+		};
+		class useractions
+		{
+			class k_acc_open_door1
+			{
+				displayname = "Open Door";
+				position = "door_pos1";
+				radius = 2;
+				onlyforplayer = 0;
+				priority = 101;
+				condition = "this animationsourcephase ""k_acc_open_door"" == 0";
+				statement = "this animatesource [""k_acc_open_door"",1];";
+			};
+			class k_acc_close_door1: k_acc_open_door1
+			{
+				displayname = "Close Door";
+				condition = "this animationsourcephase ""k_acc_open_door"" == 1";
+				statement = "this animatesource [""k_acc_open_door"",0];";
+			};
+			class k_acc_open_door2: k_acc_open_door1
+			{
+				position = "door_pos2";
+			};
+			class k_acc_close_door2: k_acc_close_door1
+			{
+				position = "door_pos2";
+			};
+		};
+	};
+	class k_acclamator_munitionR: k_acclamator_munitionL
+	{
+		displayname = "Acclamator Munition Room R";
+		model="\kobra\442_ships\acclamator2\k_acclamator_munitionR.p3d";
+	};
+///hull doors
+	class k_acclamator_hull_doorL: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator Hull Door L";
+		model="\kobra\442_ships\acclamator2\k_acclamator_hull_doorL.p3d";
+		class animationsources
+		{
+			class k_acc_open_door
+			{
+				source = "user";
+				animperiod = 10;
+				initphase = 0;
+				sound = "k_acc_hydraulic_door1";
+				soundposition = "sound_pos";
+			};
+		};
+		class useractions
+		{
+			class k_acc_open_door
+			{
+				displayname = "Open Left Door";
+				position = "door_pos";
+				radius = 2;
+				onlyforplayer = 0;
+				priority = 101;
+				condition = "this animationsourcephase ""k_acc_open_door"" == 0";
+				statement = "this animatesource [""k_acc_open_door"",1];";
+			};
+			class k_acc_close_door: k_acc_open_door
+			{
+				displayname = "Close Left Door";
+				condition = "this animationsourcephase ""k_acc_open_door"" == 1";
+				statement = "this animatesource [""k_acc_open_door"",0];";
+			};
+		};
+	};
+	class k_acclamator_hull_doorR: k_acclamator_hull_doorL
+	{
+		displayname = "Acclamator Hull Door R";
+		model="\kobra\442_ships\acclamator2\k_acclamator_hull_doorR.p3d";
+		class useractions: useractions
+		{
+			class k_acc_open_door: k_acc_open_door
+			{
+				displayname = "Open Right Door";
+			};
+			class k_acc_close_door: k_acc_close_door
+			{
+				displayname = "Close Right Door";
+			};
+		};
+	};
+	class k_acclamator_control_room: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator Control Room";
+		model="\kobra\442_ships\acclamator2\k_acclamator_control_room.p3d";
+		class animationsources
+		{
+			class k_acc_open_door_1
+			{
+				source = "user";
+				animperiod = 10;
+				initphase = 0;
+				sound = "k_acc_hydraulic_door1";
+				soundposition = "sound_pos";
+			};
+		};
+		class useractions
+		{
+			class k_acc_open_door1
+			{
+				displayname = "Open Top Door";
+				position = "door_pos";
+				radius = 2;
+				onlyforplayer = 0;
+				priority = 101;
+				condition = "this animationsourcephase ""k_acc_open_door_1"" == 0";
+				statement = "this animatesource [""k_acc_open_door_1"",1];";
+			};
+			class k_acc_close_door1: k_acc_open_door1
+			{
+				displayname = "Close Top Door";
+				condition = "this animationsourcephase ""k_acc_open_door_1"" == 1";
+				statement = "this animatesource [""k_acc_open_door_1"",0];";
+			};
+		};
+	};
+
+///hallway
+	class k_acclamator_hallwayC: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator HallwayC";
+		model="\kobra\442_ships\acclamator2\k_acclamator_hallwayC.p3d";
+	};
+///left hallways
+	class k_acclamator_hallwayL1: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator HallwayL1";
+		model="\kobra\442_ships\acclamator2\k_acclamator_hallwayL1.p3d";
+	};
+	class k_acclamator_hallwayL2: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator HallwayL2";
+		model="\kobra\442_ships\acclamator2\k_acclamator_hallwayL2.p3d";
+	};
+	class k_acclamator_hallwayL3: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator HallwayL3";
+		model="\kobra\442_ships\acclamator2\k_acclamator_hallwayL3.p3d";
+	};
+	class k_acclamator_hallwayL6: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator HallwayL6";
+		model="\kobra\442_ships\acclamator2\k_acclamator_hallwayL6.p3d";
+	};
+	class k_acclamator_hallwayL7: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator HallwayL7";
+		model="\kobra\442_ships\acclamator2\k_acclamator_hallwayL7.p3d";
+	};
+	class k_acclamator_hallwayL57: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator HallwayL57";
+		model="\kobra\442_ships\acclamator2\k_acclamator_hallwayL57.p3d";
+	};
+///right hallways
+	class k_acclamator_hallwayR1: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator HallwayR1";
+		model="\kobra\442_ships\acclamator2\k_acclamator_hallwayR1.p3d";
+	};
+	class k_acclamator_hallwayR2: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator HallwayR2";
+		model="\kobra\442_ships\acclamator2\k_acclamator_hallwayR2.p3d";
+	};
+	class k_acclamator_hallwayR3: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator HallwayR3";
+		model="\kobra\442_ships\acclamator2\k_acclamator_hallwayR3.p3d";
+	};
+	class k_acclamator_hallwayR6: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator HallwayR6";
+		model="\kobra\442_ships\acclamator2\k_acclamator_hallwayR6.p3d";
+	};
+	class k_acclamator_hallwayR7: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator HallwayR7";
+		model="\kobra\442_ships\acclamator2\k_acclamator_hallwayR7.p3d";
+	};
+	class k_acclamator_hallwayR57: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator HallwayR57";
+		model="\kobra\442_ships\acclamator2\k_acclamator_hallwayR57.p3d";
+	};
+///obs room
+	class k_acclamator_obsL: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator obsL";
+		model="\kobra\442_ships\acclamator2\k_acclamator_obsL.p3d";
+	};
+	class k_acclamator_obsC: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator obsC";
+		model="\kobra\442_ships\acclamator2\k_acclamator_obsC.p3d";
+	};
+	class k_acclamator_obsR: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator obsR";
+		model="\kobra\442_ships\acclamator2\k_acclamator_obsR.p3d";
 	};
 };
