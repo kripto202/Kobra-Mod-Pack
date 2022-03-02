@@ -207,42 +207,99 @@ class cfgpatches
 			"k_acclamator_h_wall3",
 			"k_acclamator_h_wall4",
 			"k_acclamator_h_wall5",
+
+			"k_acclamator_door1",
+			"k_acclamator_door1_90",
+			"k_acclamator_door2"
         };
         weapons[] = {};
     };
 };
 
-class cfganimationsourcesounds
+class CfgAnimationSourceSounds
 {
-	class GenericDoorsSound;
 	///heavy 10 seconds
-	class k_acc_hydraulic_door1: GenericDoorsSound 
+	class k_acc_hydraulic_door1 
 	{
 		class DoorMovement
 		{
 			loop = 0;
 			terminate = 1;
 			trigger = "(phase factor[0.01,0.02]) * (phase factor[0.99,0.98])";
-			sound0[] = {"kobra\442_ships\acclamator2\sounds\Hydraulicdoor1.wss",10,1,50};
+			sound0[] = {"kobra\442_ships\acclamator2\sounds\large_hydraulicdoor_10_move.wss",20,1,50};
 			sound[] = {"sound0",1};
 		};
-		class OpenTheDoor {};
-		class SlamtheDoor {};
+		class OpenTheDoor 
+		{
+			loop = 0;
+			terminate = 0;
+			trigger="direction * (phase factor[0.01,0.02])";
+			sound0[] = {"kobra\442_ships\acclamator2\sounds\large_hydraulicdoor_10_end.wss",20,1,50};
+			sound[] = {"sound0",1};
+		};
+		class SlamtheDoor 
+		{
+			loop = 0;
+			terminate = 0;
+			trigger="(1 - direction) * (phase factor[0.1,0.09])";
+			sound0[] = {"kobra\442_ships\acclamator2\sounds\large_hydraulicdoor_10_end.wss",20,1,50};
+			sound[] = {"sound0",1};
+		};
 	};
 	///medium 6 seconds
 	class k_acc_hydraulic_door2: k_acc_hydraulic_door1
 	{
-		class DoorMovement: DoorMovement
+		class DoorMovement
 		{
-			sound0[] = {"kobra\442_ships\acclamator2\sounds\Hydraulicdoor2.wss",10,1,10};
+			loop = 0;
+			terminate = 1;
+			trigger = "(phase factor[0.01,0.02]) * (phase factor[0.99,0.98])";
+			sound0[] = {"kobra\442_ships\acclamator2\sounds\small_hydraulicdoor_6_move.wss",1,1,20};
+			sound[] = {"sound0",1};
+		};
+		class OpenTheDoor 
+		{
+			loop = 0;
+			terminate = 0;
+			trigger="direction * (phase factor[0.01,0.02])";
+			sound0[] = {"kobra\442_ships\acclamator2\sounds\small_hydraulicdoor_6_end.wss",1,1,20};
+			sound[] = {"sound0",1};
+		};
+		class SlamtheDoor 
+		{
+			loop = 0;
+			terminate = 0;
+			trigger="(1 - direction) * (phase factor[0.1,0.09])";
+			sound0[] = {"kobra\442_ships\acclamator2\sounds\small_hydraulicdoor_6_end.wss",1,1,20};
+			sound[] = {"sound0",1};
 		};
 	};
 	///light 3 seconds
 	class k_acc_hydraulic_door3: k_acc_hydraulic_door1
 	{
-		class DoorMovement: DoorMovement
+		class DoorMovement
 		{
-			sound0[] = {"kobra\442_ships\acclamator2\sounds\Hydraulicdoor3.wss",10,1,10};
+			loop = 0;
+			terminate = 1;
+			trigger = "(phase factor[0.01,0.02]) * (phase factor[0.99,0.98])";
+			sound0[] = {"kobra\442_ships\acclamator2\sounds\small_hydraulicdoor_3_move.wss",1,1,10};
+			sound[] = {"sound0",1};
+		};
+		class OpenTheDoor 
+		{
+			loop = 0;
+			terminate = 0;
+			trigger="direction * (phase factor[0.01,0.02])";
+			sound0[] = {"kobra\442_ships\acclamator2\sounds\small_hydraulicdoor_3_end.wss",1,1,10};
+			sound[] = {"sound0",1};
+		};
+		class SlamtheDoor 
+		{
+			loop = 0;
+			terminate = 0;
+			trigger="(1 - direction) * (phase factor[0.1,0.09])";
+			sound0[] = {"kobra\442_ships\acclamator2\sounds\small_hydraulicdoor_3_end.wss",1,1,10};
+			sound[] = {"sound0",1};
 		};
 	};
 };
@@ -1201,10 +1258,6 @@ class cfgvehicles
 				"crane_3" //memory point
 			},
 			{
-				"k_acclamator_h_door", //clasname
-				"h_door" //memory point
-			},
-			{
 				"k_acclamator_h_cargo1", //clasname
 				"h_cargo1" //memory point
 			},
@@ -1328,610 +1381,35 @@ class cfgvehicles
 				"k_acclamator_obsC", //clasname
 				"obsC" //memory point
 			},
-		};
-		class Eventhandlers
-		{
-			init="_this call BIS_fnc_Destroyer01Init;";
-			attributesChanged3DEN="_this call BIS_fnc_Destroyer01PosUpdate;";
-			dragged3DEN="_this call BIS_fnc_Destroyer01PosUpdate;";
-			registeredToWorld3DEN="_this call BIS_fnc_Destroyer01EdenInit;";
-			unregisteredFromWorld3DEN="_this call BIS_fnc_Destroyer01EdenDelete;";
-		};
-	};
-	class k_acclamator2_lite: house_F
-	{
-		scope=2;
-		scopecurator=1;
-		author ="Kobra Mod Team";
-		displayName="Acclamator (Lite)";
-		model="\kobra\442_ships\acclamator2\k_acclamator.p3d";
-		editorcategory="kobra";
-		editorsubcategory="442_ships";
-		vehicleClass="Structures";
-		multistructureparts[] = 
-		{
-		///engine
+		///doors
 			{
-				"k_acclamator_engineL1", //clasname
-				"engineL1" //memory point
+				"k_acclamator_h_door", //clasname
+				"h_door" //memory point
 			},
 			{
-				"k_acclamator_engineL2", //clasname
-				"engineL2" //memory point
+				"k_acclamator_door1", //clasname
+				"h_wall5_door1" //memory point
 			},
 			{
-				"k_acclamator_engineL3", //clasname
-				"engineL3" //memory point
+				"k_acclamator_door1", //clasname
+				"h_wall5_door2" //memory point
 			},
 			{
-				"k_acclamator_engineR1", //clasname
-				"engineR1" //memory point
+				"k_acclamator_door1", //clasname
+				"h_wall31_door" //memory point
 			},
 			{
-				"k_acclamator_engineR2", //clasname
-				"engineR2" //memory point
+				"k_acclamator_door1", //clasname
+				"h_wall32_door" //memory point
 			},
 			{
-				"k_acclamator_engineR3", //clasname
-				"engineR3" //memory point
+				"k_acclamator_door2", //clasname
+				"munitionL_door" //memory point
 			},
-		/*///center greeble
 			{
-				"k_acclamator_greeble1", //clasname
-				"greeble1" //memory point
+				"k_acclamator_door2", //clasname
+				"munitionR_door" //memory point
 			},
-			{
-				"k_acclamator_greeble2", //clasname
-				"greeble2" //memory point
-			},
-			{
-				"k_acclamator_greeble3", //clasname
-				"greeble3" //memory point
-			},
-			{
-				"k_acclamator_greeble4", //clasname
-				"greeble4" //memory point
-			},
-			{
-				"k_acclamator_greeble5", //clasname
-				"greeble5" //memory point
-			},
-			{
-				"k_acclamator_greeble6", //clasname
-				"greeble6" //memory point
-			},
-		///left greebles
-			{
-				"k_acclamator_greebleL1", //clasname
-				"greebleL1" //memory point
-			},
-			{
-				"k_acclamator_greebleL2", //clasname
-				"greebleL2" //memory point
-			},
-			{
-				"k_acclamator_greebleL3", //clasname
-				"greebleL3" //memory point
-			},
-			{
-				"k_acclamator_greebleL4", //clasname
-				"greebleL4" //memory point
-			},
-			{
-				"k_acclamator_greebleL5", //clasname
-				"greebleL5" //memory point
-			},
-			{
-				"k_acclamator_greebleL6", //clasname
-				"greebleL6" //memory point
-			},
-			{
-				"k_acclamator_greebleL7", //clasname
-				"greebleL7" //memory point
-			},
-			{
-				"k_acclamator_greebleL8", //clasname
-				"greebleL8" //memory point
-			},
-		///right greebles
-			{
-				"k_acclamator_greebleR1", //clasname
-				"greebleR1" //memory point
-			},
-			{
-				"k_acclamator_greebleR2", //clasname
-				"greebleR2" //memory point
-			},
-			{
-				"k_acclamator_greebleR3", //clasname
-				"greebleR3" //memory point
-			},
-			{
-				"k_acclamator_greebleR4", //clasname
-				"greebleR4" //memory point
-			},
-			{
-				"k_acclamator_greebleR5", //clasname
-				"greebleR5" //memory point
-			},
-			{
-				"k_acclamator_greebleR6", //clasname
-				"greebleR6" //memory point
-			},
-			{
-				"k_acclamator_greebleR7", //clasname
-				"greebleR7" //memory point
-			},
-			{
-				"k_acclamator_greebleR8", //clasname
-				"greebleR8" //memory point
-			},
-		*/
-		///hull center
-			{
-				"k_acclamator_hull1", //clasname
-				"hull1" //memory point
-			},
-			{
-				"k_acclamator_hull2", //clasname
-				"hull2" //memory point
-			},
-			{
-				"k_acclamator_hull3", //clasname
-				"hull3" //memory point
-			},
-			{
-				"k_acclamator_hull4", //clasname
-				"hull4" //memory point
-			},
-			{
-				"k_acclamator_hull5", //clasname
-				"hull5" //memory point
-			},
-			{
-				"k_acclamator_hull6", //clasname
-				"hull6" //memory point
-			},
-			{
-				"k_acclamator_hull7", //clasname
-				"hull7" //memory point
-			},
-			{
-				"k_acclamator_hull8", //clasname
-				"hull8" //memory point
-			},
-			{
-				"k_acclamator_hull9", //clasname
-				"hull9" //memory point
-			},
-			{
-				"k_acclamator_hull10", //clasname
-				"hull10" //memory point
-			},
-			{
-				"k_acclamator_hull11", //clasname
-				"hull11" //memory point
-			},
-			{
-				"k_acclamator_hull12", //clasname
-				"hull12" //memory point
-			},
-			{
-				"k_acclamator_hull13", //clasname
-				"hull13" //memory point
-			},
-			{
-				"k_acclamator_hull14", //clasname
-				"hull14" //memory point
-			},
-			{
-				"k_acclamator_hull15", //clasname
-				"hull15" //memory point
-			},
-			{
-				"k_acclamator_hull16", //clasname
-				"hull16" //memory point
-			},
-			{
-				"k_acclamator_hull17", //clasname
-				"hull17" //memory point
-			},
-			{
-				"k_acclamator_hull18", //clasname
-				"hull18" //memory point
-			},
-			{
-				"k_acclamator_hull19", //clasname
-				"hull19" //memory point
-			},
-		///left hull
-			{
-				"k_acclamator_hullL1", //clasname
-				"hullL1" //memory point
-			},
-			{
-				"k_acclamator_hullL2", //clasname
-				"hullL2" //memory point
-			},
-			{
-				"k_acclamator_hullL3", //clasname
-				"hullL3" //memory point
-			},
-			{
-				"k_acclamator_hullL4", //clasname
-				"hullL4" //memory point
-			},
-			{
-				"k_acclamator_hullL5", //clasname
-				"hullL5" //memory point
-			},
-			{
-				"k_acclamator_hullL6", //clasname
-				"hullL6" //memory point
-			},
-			{
-				"k_acclamator_hullL7", //clasname
-				"hullL7" //memory point
-			},
-			{
-				"k_acclamator_hullL8", //clasname
-				"hullL8" //memory point
-			},
-			{
-				"k_acclamator_hullL9", //clasname
-				"hullL9" //memory point
-			},
-			{
-				"k_acclamator_hullL10", //clasname
-				"hullL10" //memory point
-			},
-			{
-				"k_acclamator_hullL11", //clasname
-				"hullL11" //memory point
-			},
-			{
-				"k_acclamator_hullL12", //clasname
-				"hullL12" //memory point
-			},
-			{
-				"k_acclamator_hullL13", //clasname
-				"hullL13" //memory point
-			},
-			{
-				"k_acclamator_hullL14", //clasname
-				"hullL14" //memory point
-			},
-			{
-				"k_acclamator_hullL15", //clasname
-				"hullL15" //memory point
-			},
-			{
-				"k_acclamator_hullL16", //clasname
-				"hullL16" //memory point
-			},
-			{
-				"k_acclamator_hullL17", //clasname
-				"hullL17" //memory point
-			},
-			{
-				"k_acclamator_hullL18", //clasname
-				"hullL18" //memory point
-			},
-			{
-				"k_acclamator_hullL19", //clasname
-				"hullL19" //memory point
-			},
-			{
-				"k_acclamator_hullL20", //clasname
-				"hullL20" //memory point
-			},
-			{
-				"k_acclamator_hullL21", //clasname
-				"hullL21" //memory point
-			},
-			{
-				"k_acclamator_hullL22", //clasname
-				"hullL22" //memory point
-			},
-			{
-				"k_acclamator_hullL23", //clasname
-				"hullL23" //memory point
-			},
-			{
-				"k_acclamator_hullL24", //clasname
-				"hullL24" //memory point
-			},
-			{
-				"k_acclamator_hullL25", //clasname
-				"hullL25" //memory point
-			},
-			{
-				"k_acclamator_hullL26", //clasname
-				"hullL26" //memory point
-			},
-			{
-				"k_acclamator_hullL27", //clasname
-				"hullL27" //memory point
-			},
-			{
-				"k_acclamator_hullL28", //clasname
-				"hullL28" //memory point
-			},
-			{
-				"k_acclamator_hullL29", //clasname
-				"hullL29" //memory point
-			},
-			{
-				"k_acclamator_hullL30", //clasname
-				"hullL30" //memory point
-			},
-			{
-				"k_acclamator_hullL31", //clasname
-				"hullL31" //memory point
-			},
-			{
-				"k_acclamator_hullL32", //clasname
-				"hullL32" //memory point
-			},
-			{
-				"k_acclamator_hullL33", //clasname
-				"hullL33" //memory point
-			},
-			{
-				"k_acclamator_hullL34", //clasname
-				"hullL34" //memory point
-			},
-			{
-				"k_acclamator_hullL35", //clasname
-				"hullL35" //memory point
-			},
-			{
-				"k_acclamator_hullL36", //clasname
-				"hullL36" //memory point
-			},
-			{
-				"k_acclamator_hullL37", //clasname
-				"hullL37" //memory point
-			},
-			{
-				"k_acclamator_hullL38", //clasname
-				"hullL38" //memory point
-			},
-			{
-				"k_acclamator_hullL39", //clasname
-				"hullL39" //memory point
-			},
-			{
-				"k_acclamator_hullL40", //clasname
-				"hullL40" //memory point
-			},
-			{
-				"k_acclamator_hullL41", //clasname
-				"hullL41" //memory point
-			},
-			{
-				"k_acclamator_hullL42", //clasname
-				"hullL42" //memory point
-			},
-			{
-				"k_acclamator_hullL43", //clasname
-				"hullL43" //memory point
-			},
-			{
-				"k_acclamator_hullL44", //clasname
-				"hullL44" //memory point
-			},
-			{
-				"k_acclamator_hullL45", //clasname
-				"hullL45" //memory point
-			},
-			{
-				"k_acclamator_hullL46", //clasname
-				"hullL46" //memory point
-			},
-		///hull right
-			{
-				"k_acclamator_hullR1", //clasname
-				"hullR1" //memory point
-			},
-			{
-				"k_acclamator_hullR2", //clasname
-				"hullR2" //memory point
-			},
-			{
-				"k_acclamator_hullR3", //clasname
-				"hullR3" //memory point
-			},
-			{
-				"k_acclamator_hullR4", //clasname
-				"hullR4" //memory point
-			},
-			{
-				"k_acclamator_hullR5", //clasname
-				"hullR5" //memory point
-			},
-			{
-				"k_acclamator_hullR6", //clasname
-				"hullR6" //memory point
-			},
-			{
-				"k_acclamator_hullR7", //clasname
-				"hullR7" //memory point
-			},
-			{
-				"k_acclamator_hullR8", //clasname
-				"hullR8" //memory point
-			},
-			{
-				"k_acclamator_hullR9", //clasname
-				"hullR9" //memory point
-			},
-			{
-				"k_acclamator_hullR10", //clasname
-				"hullR10" //memory point
-			},
-			{
-				"k_acclamator_hullR11", //clasname
-				"hullR11" //memory point
-			},
-			{
-				"k_acclamator_hullR12", //clasname
-				"hullR12" //memory point
-			},
-			{
-				"k_acclamator_hullR13", //clasname
-				"hullR13" //memory point
-			},
-			{
-				"k_acclamator_hullR14", //clasname
-				"hullR14" //memory point
-			},
-			{
-				"k_acclamator_hullR15", //clasname
-				"hullR15" //memory point
-			},
-			{
-				"k_acclamator_hullR16", //clasname
-				"hullR16" //memory point
-			},
-			{
-				"k_acclamator_hullR17", //clasname
-				"hullR17" //memory point
-			},
-			{
-				"k_acclamator_hullR18", //clasname
-				"hullR18" //memory point
-			},
-			{
-				"k_acclamator_hullR19", //clasname
-				"hullR19" //memory point
-			},
-			{
-				"k_acclamator_hullR20", //clasname
-				"hullR20" //memory point
-			},
-			{
-				"k_acclamator_hullR21", //clasname
-				"hullR21" //memory point
-			},
-			{
-				"k_acclamator_hullR22", //clasname
-				"hullR22" //memory point
-			},
-			{
-				"k_acclamator_hullR23", //clasname
-				"hullR23" //memory point
-			},
-			{
-				"k_acclamator_hullR24", //clasname
-				"hullR24" //memory point
-			},
-			{
-				"k_acclamator_hullR25", //clasname
-				"hullR25" //memory point
-			},
-			{
-				"k_acclamator_hullR26", //clasname
-				"hullR26" //memory point
-			},
-			{
-				"k_acclamator_hullR27", //clasname
-				"hullR27" //memory point
-			},
-			{
-				"k_acclamator_hullR28", //clasname
-				"hullR28" //memory point
-			},
-			{
-				"k_acclamator_hullR29", //clasname
-				"hullR29" //memory point
-			},
-			{
-				"k_acclamator_hullR30", //clasname
-				"hullR30" //memory point
-			},
-			{
-				"k_acclamator_hullR31", //clasname
-				"hullR31" //memory point
-			},
-			{
-				"k_acclamator_hullR32", //clasname
-				"hullR32" //memory point
-			},
-			{
-				"k_acclamator_hullR33", //clasname
-				"hullR33" //memory point
-			},
-			{
-				"k_acclamator_hullR34", //clasname
-				"hullR34" //memory point
-			},
-			{
-				"k_acclamator_hullR35", //clasname
-				"hullR35" //memory point
-			},
-			{
-				"k_acclamator_hullR36", //clasname
-				"hullR36" //memory point
-			},
-			{
-				"k_acclamator_hullR37", //clasname
-				"hullR37" //memory point
-			},
-			{
-				"k_acclamator_hullR38", //clasname
-				"hullR38" //memory point
-			},
-			{
-				"k_acclamator_hullR39", //clasname
-				"hullR39" //memory point
-			},
-			{
-				"k_acclamator_hullR40", //clasname
-				"hullR40" //memory point
-			},
-			{
-				"k_acclamator_hullR41", //clasname
-				"hullR41" //memory point
-			},
-			{
-				"k_acclamator_hullR42", //clasname
-				"hullR42" //memory point
-			},
-			{
-				"k_acclamator_hullR43", //clasname
-				"hullR43" //memory point
-			},
-			{
-				"k_acclamator_hullR44", //clasname
-				"hullR44" //memory point
-			},
-			{
-				"k_acclamator_hullR45", //clasname
-				"hullR45" //memory point
-			},
-			{
-				"k_acclamator_hullR46", //clasname
-				"hullR46" //memory point
-			},
-		///torp hull
-			{
-				"k_acclamator_torp_hullL1", //clasname
-				"torp_hullL1" //memory point
-			},
-			{
-				"k_acclamator_torp_hullL2", //clasname
-				"torp_hullL2" //memory point
-			},
-			{
-				"k_acclamator_torp_hullR1", //clasname
-				"torp_hullR1" //memory point
-			},
-			{
-				"k_acclamator_torp_hullR2", //clasname
-				"torp_hullR2" //memory point
-			},
-			
 		};
 		class Eventhandlers
 		{
@@ -3210,54 +2688,6 @@ class cfgvehicles
 	{
 		displayname = "Acclamator hanger wall 5";
 		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall5.p3d";
-		class animationsources
-		{
-			class k_acc_open_doorL_1
-			{
-				source = "user";
-				animperiod = 3;
-				initphase = 0;
-				sound = "k_acc_hydraulic_door3";
-				soundposition = "doorL_pos";
-			};
-			class k_acc_open_doorL_2: k_acc_open_doorL_1 {};
-			class k_acc_open_doorR_1: k_acc_open_doorL_1 
-			{
-				soundposition = "doorR_pos";
-			};
-			class k_acc_open_doorR_2: k_acc_open_doorL_1 {};
-		};
-		class useractions
-		{
-			class k_acc_open_doorL
-			{
-				displayname = "Open Door";
-				position = "doorL_pos";
-				radius = 5;
-				onlyforplayer = 0;
-				priority = 101;
-				condition = "this animationsourcephase ""k_acc_open_doorL_1"" == 0";
-				statement = "this animatesource [""k_acc_open_doorL_1"",1] AND this animatesource [""k_acc_open_doorL_2"",1];";
-			};
-			class k_acc_close_doorL: k_acc_open_doorL
-			{
-				displayname = "Close Door";
-				condition = "this animationsourcephase ""k_acc_open_doorL_1"" == 1";
-				statement = "this animatesource [""k_acc_open_doorL_1"",0] AND this animatesource [""k_acc_open_doorL_2"",0];";
-			};
-			class k_acc_open_doorR: k_acc_open_doorL
-			{
-				position = "doorR_pos";
-				condition = "this animationsourcephase ""k_acc_open_doorR_1"" == 0";
-				statement = "this animatesource [""k_acc_open_doorR_1"",1];";
-			};
-			class k_acc_close_doorR: k_acc_open_doorR
-			{
-				displayname = "Close Door";
-				condition = "this animationsourcephase ""k_acc_open_doorR_1"" == 1";
-				statement = "this animatesource [""k_acc_open_doorR_1"",0];";
-			};
-		};
 	};
 	class k_acclamator_h_wall6: k_acclamator_h_floor1
 	{
@@ -3413,36 +2843,6 @@ class cfgvehicles
 	{
 		displayname = "Acclamator hanger wall 31";
 		model="\kobra\442_ships\acclamator2\k_acclamator_h_wall31.p3d";
-		class animationsources
-		{
-			class k_acc_open_door_1
-			{
-				source = "user";
-				animperiod = 3;
-				initphase = 0;
-				sound = "k_acc_hydraulic_door3";
-				soundposition = "door_pos";
-			};
-		};
-		class useractions
-		{
-			class k_acc_open_door
-			{
-				displayname = "Open Door";
-				position = "door_pos";
-				radius = 5;
-				onlyforplayer = 0;
-				priority = 101;
-				condition = "this animationsourcephase ""k_acc_open_door_1"" == 0";
-				statement = "this animatesource [""k_acc_open_door_1"",1];";
-			};
-			class k_acc_close_door: k_acc_open_door
-			{
-				displayname = "Close Door";
-				condition = "this animationsourcephase ""k_acc_open_door_1"" == 1";
-				statement = "this animatesource [""k_acc_open_door_1"",0];";
-			};
-		};
 	};
 	class k_acclamator_h_wall32: k_acclamator_h_wall31
 	{
@@ -3466,49 +2866,6 @@ class cfgvehicles
 		model="\kobra\442_ships\acclamator2\k_acclamator_crane_3.p3d";
 	};
 ///cargo room
-	class k_acclamator_h_door: k_acclamator_h_wall31
-	{
-		displayname = "Acclamator hanger door";
-		model="\kobra\442_ships\acclamator2\k_acclamator_h_door.p3d";
-		class animationsources
-		{
-			class k_acc_open_door_1
-			{
-				source = "user";
-				animperiod = 6;
-				initphase = 0;
-				sound = "k_acc_hydraulic_door2";
-				soundposition = "sound_pos";
-			};
-		};
-		class useractions
-		{
-			class k_acc_open_door1
-			{
-				displayname = "Open Door";
-				position = "door_action1";
-				radius = 2;
-				onlyforplayer = 0;
-				priority = 101;
-				condition = "this animationsourcephase ""k_acc_open_door_1"" == 0";
-				statement = "this animatesource [""k_acc_open_door_1"",1];";
-			};
-			class k_acc_close_door1: k_acc_open_door1
-			{
-				displayname = "Close Door";
-				condition = "this animationsourcephase ""k_acc_open_door_1"" == 1";
-				statement = "this animatesource [""k_acc_open_door_1"",0];";
-			};
-			class k_acc_open_door2: k_acc_open_door1
-			{
-				position = "door_action2";
-			};
-			class k_acc_close_door2: k_acc_close_door1
-			{
-				position = "door_action2";
-			};
-		};
-	};
 	class k_acclamator_h_cargo1: k_acclamator_h_floor1
 	{
 		displayname = "Acclamator hanger cargo 1";
@@ -3567,51 +2924,14 @@ class cfgvehicles
 	{
 		displayname = "Acclamator Munition Room L";
 		model="\kobra\442_ships\acclamator2\k_acclamator_munitionL.p3d";
-		class animationsources
-		{
-			class k_acc_open_door
-			{
-				source = "user";
-				animperiod = 10;
-				initphase = 0;
-				sound = "k_acc_hydraulic_door1";
-				soundposition = "sound_pos";
-			};
-		};
-		class useractions
-		{
-			class k_acc_open_door1
-			{
-				displayname = "Open Door";
-				position = "door_pos1";
-				radius = 2;
-				onlyforplayer = 0;
-				priority = 101;
-				condition = "this animationsourcephase ""k_acc_open_door"" == 0";
-				statement = "this animatesource [""k_acc_open_door"",1];";
-			};
-			class k_acc_close_door1: k_acc_open_door1
-			{
-				displayname = "Close Door";
-				condition = "this animationsourcephase ""k_acc_open_door"" == 1";
-				statement = "this animatesource [""k_acc_open_door"",0];";
-			};
-			class k_acc_open_door2: k_acc_open_door1
-			{
-				position = "door_pos2";
-			};
-			class k_acc_close_door2: k_acc_close_door1
-			{
-				position = "door_pos2";
-			};
-		};
+		ladders[] = {{"start1","end1",2.5}};
 	};
 	class k_acclamator_munitionR: k_acclamator_munitionL
 	{
 		displayname = "Acclamator Munition Room R";
 		model="\kobra\442_ships\acclamator2\k_acclamator_munitionR.p3d";
 	};
-///hull doors
+///doors
 	class k_acclamator_hull_doorL: k_acclamator_h_floor1
 	{
 		displayname = "Acclamator Hull Door L";
@@ -3623,7 +2943,7 @@ class cfgvehicles
 				source = "user";
 				animperiod = 10;
 				initphase = 0;
-				sound = "k_acc_hydraulic_door1";
+				sound = "";
 				soundposition = "sound_pos";
 			};
 		};
@@ -3637,13 +2957,13 @@ class cfgvehicles
 				onlyforplayer = 0;
 				priority = 101;
 				condition = "this animationsourcephase ""k_acc_open_door"" == 0";
-				statement = "this animatesource [""k_acc_open_door"",1];";
+				statement = "this animatesource [""k_acc_open_door"",1];playSound3D [""kobra\442_ships\acclamator2\sounds\Hydraulicdoor_10.wss"", this, false, getPosASL this, 10, 1, 50, 0];";
 			};
 			class k_acc_close_door: k_acc_open_door
 			{
 				displayname = "Close Left Door";
 				condition = "this animationsourcephase ""k_acc_open_door"" == 1";
-				statement = "this animatesource [""k_acc_open_door"",0];";
+				statement = "this animatesource [""k_acc_open_door"",0];playSound3D [""kobra\442_ships\acclamator2\sounds\Hydraulicdoor_10.wss"", this, false, getPosASL this, 10, 1, 50, 0];";
 			};
 		};
 	};
@@ -3669,12 +2989,12 @@ class cfgvehicles
 		model="\kobra\442_ships\acclamator2\k_acclamator_control_room.p3d";
 		class animationsources
 		{
-			class k_acc_open_door_1
+			class k_acc_open_door
 			{
 				source = "user";
 				animperiod = 10;
 				initphase = 0;
-				sound = "k_acc_hydraulic_door1";
+				sound = "";
 				soundposition = "sound_pos";
 			};
 		};
@@ -3687,14 +3007,139 @@ class cfgvehicles
 				radius = 2;
 				onlyforplayer = 0;
 				priority = 101;
-				condition = "this animationsourcephase ""k_acc_open_door_1"" == 0";
-				statement = "this animatesource [""k_acc_open_door_1"",1];";
+				condition = "this animationsourcephase ""k_acc_open_door"" == 0";
+				statement = "this animatesource [""k_acc_open_door"",1];playSound3D [""kobra\442_ships\acclamator2\sounds\Hydraulicdoor_10.wss"", this, false, getPosASL this, 10, 1, 20, 0];";
 			};
 			class k_acc_close_door1: k_acc_open_door1
 			{
 				displayname = "Close Top Door";
+				condition = "this animationsourcephase ""k_acc_open_door"" == 1";
+				statement = "this animatesource [""k_acc_open_door"",0];playSound3D [""kobra\442_ships\acclamator2\sounds\Hydraulicdoor_10.wss"", this, false, getPosASL this, 10, 1, 20, 0];";
+			};
+		};
+	};
+	class k_acclamator_door1: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator Door";
+		model="\kobra\442_ships\acclamator2\k_acclamator_door1.p3d";
+		class animationsources
+		{
+			class k_acc_open_door_1
+			{
+				source = "user";
+				animperiod = 3;
+				initphase = 0;
+				sound = "";
+				soundposition = "door_pos";
+			};
+		};
+		class useractions
+		{
+			class k_acc_open_door
+			{
+				displayname = "Open Door";
+				position = "door_pos";
+				radius = 5;
+				onlyforplayer = 0;
+				priority = 101;
+				condition = "this animationsourcephase ""k_acc_open_door_1"" == 0";
+				statement = "this animatesource [""k_acc_open_door_1"",1];playSound3D [""kobra\442_ships\acclamator2\sounds\Hydraulicdoor_3.wss"", this, false, getPosASL this, 10, 1, 5, 0];";
+			};
+			class k_acc_close_door: k_acc_open_door
+			{
+				displayname = "Close Door";
 				condition = "this animationsourcephase ""k_acc_open_door_1"" == 1";
-				statement = "this animatesource [""k_acc_open_door_1"",0];";
+				statement = "this animatesource [""k_acc_open_door_1"",0];playSound3D [""kobra\442_ships\acclamator2\sounds\Hydraulicdoor_3.wss"", this, false, getPosASL this, 10, 1, 5, 0];";
+			};
+		};
+	};
+	class k_acclamator_door1_90: k_acclamator_door1
+	{
+		model="\kobra\442_ships\acclamator2\k_acclamator_door1_90.p3d";
+	};
+	class k_acclamator_h_door: k_acclamator_h_wall31
+	{
+		displayname = "Acclamator hanger door";
+		model="\kobra\442_ships\acclamator2\k_acclamator_h_door.p3d";
+		class animationsources
+		{
+			class k_acc_open_door_1
+			{
+				source = "user";
+				animperiod = 6;
+				initphase = 0;
+				sound = "";
+				soundposition = "sound_pos";
+			};
+		};
+		class useractions
+		{
+			class k_acc_open_door1
+			{
+				displayname = "Open Door";
+				position = "door_action1";
+				radius = 2;
+				onlyforplayer = 0;
+				priority = 101;
+				condition = "this animationsourcephase ""k_acc_open_door_1"" == 0";
+				statement = "this animatesource [""k_acc_open_door_1"",1];playSound3D [""kobra\442_ships\acclamator2\sounds\Hydraulicdoor_6.wss"", this, false, getPosASL this, 10, 1, 10, 0];";
+			};
+			class k_acc_close_door1: k_acc_open_door1
+			{
+				displayname = "Close Door";
+				condition = "this animationsourcephase ""k_acc_open_door_1"" == 1";
+				statement = "this animatesource [""k_acc_open_door_1"",0];playSound3D [""kobra\442_ships\acclamator2\sounds\Hydraulicdoor_6.wss"", this, false, getPosASL this, 10, 1, 10, 0];";
+			};
+			class k_acc_open_door2: k_acc_open_door1
+			{
+				position = "door_action2";
+			};
+			class k_acc_close_door2: k_acc_close_door1
+			{
+				position = "door_action2";
+			};
+		};
+	};
+	class k_acclamator_door2: k_acclamator_h_floor1
+	{
+		displayname = "Acclamator Door";
+		model = "kobra\442_ships\acclamator2\k_acclamator_door2.p3d";
+		class animationsources
+		{
+			class k_acc_open_door
+			{
+				source = "user";
+				animperiod = 10;
+				initphase = 0;
+				sound = "";
+				soundposition = "sound_pos";
+			};
+		};
+		class useractions
+		{
+			class k_acc_open_door1
+			{
+				displayname = "Open Door";
+				position = "door_pos1";
+				radius = 2;
+				onlyforplayer = 0;
+				priority = 101;
+				condition = "this animationsourcephase ""k_acc_open_door"" == 0";
+				statement = "this animatesource [""k_acc_open_door"",1];playSound3D [""kobra\442_ships\acclamator2\sounds\Hydraulicdoor_10.wss"", this, false, getPosASL this, 5, 1, 20, 0];";
+			};
+			class k_acc_close_door1: k_acc_open_door1
+			{
+				displayname = "Close Door";
+				condition = "this animationsourcephase ""k_acc_open_door"" == 1";
+				statement = "this animatesource [""k_acc_open_door"",0];playSound3D [""kobra\442_ships\acclamator2\sounds\Hydraulicdoor_10.wss"", this, false, getPosASL this, 5, 1, 20, 0];";
+			};
+			class k_acc_open_door2: k_acc_open_door1
+			{
+				position = "door_pos2";
+			};
+			class k_acc_close_door2: k_acc_close_door1
+			{
+				position = "door_pos2";
 			};
 		};
 	};

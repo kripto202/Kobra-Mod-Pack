@@ -394,3 +394,24 @@ class cfgweapons
 		ace_nightvision_border = "";
 	};
 };
+
+class cfgMarkerClasses
+{
+	class kobra_marker
+	{
+		displayname = "Kobra";
+	};
+};
+
+class cfgMarkers
+{
+	class flag_AAF;
+	class k_acclamator: flag_AAF
+	{
+		name = "Acclamator";
+		markerclass = "kobra_marker";
+		icon = "kobra\kobra_core\icons\data\acclamator.paa";
+		texture = "kobra\kobra_core\icons\data\acclamator.paa";
+		size = 128;
+	};
+};
