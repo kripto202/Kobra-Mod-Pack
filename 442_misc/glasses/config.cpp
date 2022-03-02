@@ -5,7 +5,8 @@ class cfgpatches
         author = "KOBRA Mod Team";
         requiredAddons[]=
         {
-            "kobra_core"
+            "kobra_core",
+			"442_units"
         };
 		requiredVersion = 0.1;
 		units[] = {};
@@ -28,7 +29,7 @@ class cfgglasses
 		ACE_TintAmount=0;
 		displayname = "[K] P1 Hud";
 		identityTypes[]={};
-		mass=2;
+		mass=1;
 		model="\A3\Weapons_f\DummyNVG";
 		hiddenSelections[]={};
 		hiddenSelectionsTextures[]={};
@@ -56,5 +57,80 @@ class cfgglasses
 		ace_Overlay="\kobra\442_misc\glasses\data\442_arf_hud_ca.paa";
 		ace_overlaycracked="\kobra\442_misc\glasses\data\442_arf_hud_damage_ca.paa";
 		ACE_OverlayDirt="A3\Ui_f\data\igui\rsctitles\HealthTextures\dust_upper_ca.paa";
+	};
+	class 442_n_sensor: 442_clone_p1_glasses
+	{
+		ace_Overlay = "";
+		ACE_OverlayDirt="A3\Ui_f\data\igui\rsctitles\HealthTextures\dust_upper_ca.paa";
+		ace_overlaycracked = "";
+		ACE_DustPath="\z\ace\addons\goggles\textures\fx\dust\%1.paa";
+		displayname = "[K] N-Type Sensor";
+		mass = 1;
+		model="kobra\442_misc\glasses\k_n_type_sensor.p3d";
+		hiddenselections[] = 
+		{
+			"camo1"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_misc\glasses\data\sensor_co.paa"
+		};
+	};
+	class 442_arf_brim: 442_n_sensor
+	{
+		displayname = "[K] Arf Brim";
+		model="kobra\442_misc\glasses\k_arf_brim.p3d";
+		hiddenselections[] = 
+		{
+			"brim",
+			"plates",
+			"macro_visor"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\helmet\arf_helmet\arf_brim_co.paa",
+			"",
+			""
+		};
+	};
+	class 442_arf_brim_plate: 442_arf_brim
+	{
+		displayname = "[K] Arf Brim w/ Plates";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\helmet\arf_helmet\arf_brim_co.paa",
+			"kobra\442_units\data\helmet\arf_helmet\arf_brim_co.paa",
+			""
+		};
+	};
+	class 442_arf_brim_macro: 442_arf_brim
+	{
+		displayname = "[K] Arf Brim w/ Macro Visor";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\helmet\arf_helmet\arf_brim_co.paa",
+			"",
+			"kobra\442_units\data\helmet\arf_helmet\arf_brim_co.paa"
+		};
+	};
+	class 442_arf_brim_plate_macro: 442_arf_brim
+	{
+		displayname = "[K] Arf Brim w/ Plates, Macro Visor";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_units\data\helmet\arf_helmet\arf_brim_co.paa",
+			"kobra\442_units\data\helmet\arf_helmet\arf_brim_co.paa",
+			"kobra\442_units\data\helmet\arf_helmet\arf_brim_co.paa"
+		};
+	};
+
+	///custom
+	class 442_n_sensor_44: 442_n_sensor
+	{
+		displayname = "[K/44] N-Type Sensor";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_misc\glasses\data\44_sensor_co.paa"
+		};
 	};
 };
