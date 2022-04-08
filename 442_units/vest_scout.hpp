@@ -96,3 +96,64 @@
             "kobra\442_units\data\unit_designs\44_attack_battalion\delta\scout_pouches_co.paa",
         };
     };
+
+    class k_scout_pouches_light_woodland2: k_scout_pouches_light
+    {
+        displayname = "[K] Light Scout Pouches (Woodland)";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\vests\scout_pouches\pouches_woodland_co.paa",
+            "",
+            ""
+        };
+    };
+    class k_scout_pouches_medium_woodland2: k_scout_pouches_medium
+    {
+        displayname = "[K] Medium Scout Pouches (Woodland)";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\vests\scout_pouches\pouches_woodland_co.paa",
+            "kobra\442_units\data\vests\scout_pouches\pouches_woodland_co.paa",
+            ""
+        };
+    };
+    class k_scout_pouches_heavy_woodland2: k_scout_pouches_heavy
+    {
+        displayname = "[K] Heavy Scout Pouches (Woodland)";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\vests\scout_pouches\pouches_woodland_co.paa",
+            "kobra\442_units\data\vests\scout_pouches\pouches_woodland_co.paa",
+            "kobra\442_units\data\vests\scout_pouches\pouches_woodland_co.paa"
+        };
+    };
+    class k_scout_pouches_light_desert2: k_scout_pouches_light
+    {
+        displayname = "[K] Light Scout Pouches (Desert)";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\vests\scout_pouches\pouches_desert_co.paa",
+            "",
+            ""
+        };
+    };
+    class k_scout_pouches_medium_desert2: k_scout_pouches_medium
+    {
+        displayname = "[K] Medium Scout Pouches (Desert)";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\vests\scout_pouches\pouches_desert_co.paa",
+            "kobra\442_units\data\vests\scout_pouches\pouches_desert_co.paa",
+            ""
+        };
+    };
+    class k_scout_pouches_heavy_desert2: k_scout_pouches_heavy
+    {
+        displayname = "[K] Heavy Scout Pouches (Desert)";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\vests\scout_pouches\pouches_desert_co.paa",
+            "kobra\442_units\data\vests\scout_pouches\pouches_desert_co.paa",
+            "kobra\442_units\data\vests\scout_pouches\pouches_desert_co.paa"
+        };
+    };

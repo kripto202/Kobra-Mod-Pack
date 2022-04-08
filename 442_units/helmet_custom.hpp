@@ -26,6 +26,29 @@
             "kobra\442_units\data\helmet\scout_helmet\visor_co.paa",
         };
     };
+    class k_Scout_woodland_Helmet2: k_Scout_Helmet
+    {
+        displayname = "[K] Scout Helmet (Woodland)";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\helmet\scout_helmet\helmet_woodland_co.paa",
+            "kobra\442_units\data\helmet\scout_helmet\visor_woodland_co.paa",
+        };
+        hiddenselectionsmaterials[] = 
+        {
+            "kobra\442_units\data\helmet\scout_helmet\helmet.rvmat",
+            "kobra\442_units\data\helmet\scout_helmet\visor2.rvmat",
+        };
+    };
+    class k_scout_desert_helmet2: k_scout_woodland_helmet2
+    {
+        displayname = "[K] Scout Helmet (Desert)";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\helmet\scout_helmet\helmet_desert_co.paa",
+            "kobra\442_units\data\helmet\scout_helmet\visor_desert_co.paa",
+        };
+    };
 ///unit custom
 ///44th attack battalion
     class k_44ab_p1_helmet: k_p1_helmet

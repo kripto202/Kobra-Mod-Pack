@@ -2,7 +2,7 @@ class cfgPatches
 {
 	class 442_weapons_773
 	{
-		author="Stahl";
+		author="Kobra Mod Team";
 		requiredaddons[]=
         {
             "kobra_core"
@@ -189,10 +189,10 @@ class cfgweapons
 			{
 				iconPosition[]={0.5,0.34999999};
 				iconScale=0.2;
-				class compatibleItems
+				compatibleItems[] = 
 				{
-					k_773_scope1 = 1;
-					k_773_scope2 = 1;
+					"k_773_scope1",
+					"k_773_scope2"
 				};
 			};
 			class UnderBarrelSlot
@@ -203,9 +203,9 @@ class cfgweapons
 				iconScale = 0.2;
 				linkProxy = "\a3\data_f_mark\Proxies\Weapon_Slots\UNDERBARREL";
 				scope = 0;
-				class compatibleItems
+				compatibleItems[] = 
 				{
-					bipod_01_F_blk = 1;
+					"bipod_01_F_blk"
 				};
 			};
 			class PointerSlot
@@ -217,15 +217,15 @@ class cfgweapons
 				iconScale = 0.25;
 				linkProxy = "\a3\data_f\proxies\weapon_slots\SIDE";
 				scope = 0;
-				class compatibleItems
+				compatibleItems[] = 
 				{
-					acc_flashlight = 1;
-					acc_flashlight_broken = 1;
-					acc_pointer_IR = 1;
-					acc_pointer_IR_broken = 1;
-					ACE_acc_pointer_green = 1;
-					ACE_acc_pointer_green_IR = 1;
-					ACE_acc_pointer_red = 1;
+					"acc_flashlight",
+					"acc_flashlight_broken",
+					"acc_pointer_IR",
+					"acc_pointer_IR_broken",
+					"ACE_acc_pointer_green",
+					"ACE_acc_pointer_green_IR",
+					"ACE_acc_pointer_red"
 				};
 			};
 			class MuzzleSlot
@@ -264,6 +264,7 @@ class cfgweapons
 		scope = 2;
 		displayname = "[K] 773 Variable Scope";
 		picture = "kobra\kobra_core\kobra.paa";
+		icon = "kobra\kobra_core\kobra.paa";
 		model = "kobra\442_weapons\weapons\773\k_773_scope1.p3d";
 		MRT_SwitchItemNextClass = "k_773_scope2";
 		MRT_SwitchItemPrevClass = "k_773_scope2";
@@ -316,18 +317,33 @@ class cfgweapons
 		MRT_SwitchItemNextClass = "k_773_scope1";
 		MRT_SwitchItemPrevClass = "k_773_scope1";
 		MRT_switchItemHintText = "Long Range";
-		class ItemInfo: ItemInfo
+		class ItemInfo: InventoryOpticsItem_Base_F
 		{
-			class opticsModes: opticsModes
+			class opticsModes
 			{
-				class 773scope: 773scope
+				class 773scope
 				{
-					discreteDistance[] = {300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500};
+					opticsID=1;
+					useModelOptics = 1;
+					discreteDistance[] = {100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500};
 					discreteDistanceInitIndex = 0;
-					discreteInitIndex = 0;
+					opticsPPEffects[]=
+					{
+						"OpticsCHAbera2",
+						"OpticsBlur3"
+					};
+					opticsFlare = 1;
+					modelOptics[] = {"\kobra\442_weapons\weapons\773\773_retical.p3d"};
+					opticsDisablePeripherialVision=1;
+					visionMode[]=
+					{
+						"Normal",
+						"NVG",
+						"TI"
+					};
 					discretefov[] = {0.011};
 					distanceZoomMin = 300;
-					distanceZoomMax = 2400;
+					distanceZoomMax = 1500;
 					opticsZoomMin = 0.011;
 					opticsZoomMax=0.011;
 					opticsZoomInit=0.011;
@@ -342,6 +358,7 @@ class cfgweapons
 		scope = 2;
 		displayname = "773 Suppressor";
 		picture = "kobra\kobra_core\kobra.paa";
+		icon = "kobra\kobra_core\kobra.paa";
 		model = "kobra\442_weapons\weapons\773\k_773_snds.p3d";
 
 	};

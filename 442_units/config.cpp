@@ -19,6 +19,8 @@ class cfgpatches
 			"k_scout_unit_arid",
 			"k_scout_unit_desert",
 			"k_scout_unit_woodland",
+			"k_scout_unit_woodland2",
+			"k_scout_unit_desert2"
 
 			"k_44ab_clone_unit",
 			"k_44ab_scout_unit",
@@ -66,6 +68,8 @@ class cfgpatches
 			"k_scout_helmet_artic",
 			"k_scout_helmet_desert",
 			"k_scout_helmet_jungle",
+			"k_Scout_woodland_Helmet2",
+			"k_scout_desert_helmet2",
 			"k_p1_pilot_helmet",
 			"k_p1_helmet",
 			"k_p2_helmet",
@@ -145,6 +149,12 @@ class cfgpatches
 			"k_scout_pouches_light_woodland",
 			"k_scout_pouches_medium_woodland",
 			"k_scout_pouches_heavy_woodland",
+			"k_scout_pouches_light_woodland2",
+			"k_scout_pouches_medium_woodland2",
+			"k_scout_pouches_heavy_woodland2",
+			"k_scout_pouches_light_desert2",
+			"k_scout_pouches_medium_desert2",
+			"k_scout_pouches_heavy_desert2",
 
 			"k_scout_uniform_arid",
 			"k_scout_uniform_desert",
@@ -152,6 +162,8 @@ class cfgpatches
 			"k_Scout_arid_Helmet",
 			"k_Scout_desert_Helmet",
 			"k_Scout_woodland_Helmet",
+			"k_scout_uniform_desert2",
+			"k_scout_uniform_woodland2",
 
 			"k_p2_helmet_41",
 			"k_p2_helmet_91",

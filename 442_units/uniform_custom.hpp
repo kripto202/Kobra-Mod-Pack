@@ -153,7 +153,7 @@
             uniformclass = "k_44ab_clone_neko_unit";
         };
     };
- ///dukas
+///dukas
     class k_scout_uniform_arid: k_scout_uniform
     {
         displayname = "[K] Scout Trooper Armor (Arid)";
@@ -176,5 +176,21 @@
         class ItemInfo: ItemInfo
         {
             uniformclass = "k_scout_unit_woodland";
+        };
+    };
+    class k_scout_uniform_woodland2: k_scout_uniform
+    {
+        displayname = "[K] Scout Trooper Armor (Woodland)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_scout_unit_woodland2";
+        };
+    };
+    class k_scout_uniform_desert2: k_scout_uniform
+    {
+        displayname = "[K] Scout Trooper Armor (Desert)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_scout_unit_desert2";
         };
     };

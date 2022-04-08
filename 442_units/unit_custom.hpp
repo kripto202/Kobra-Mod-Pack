@@ -227,3 +227,23 @@
             "kobra\442_units\data\unit_designs\woodland_scout\scout_undersuit_co.paa"
         };
     };
+    class k_scout_unit_woodland2: k_scout_unit
+    {
+        uniformclass = "k_scout_uniform_woodland2";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\uniform\scout_uniform\armor_woodland_co.paa",
+            "kobra\442_units\data\uniform\scout_uniform\gloves_co.paa",
+            "kobra\442_units\data\uniform\scout_uniform\undersuit_woodland_co.paa"
+        };
+    };
+    class k_scout_unit_desert2: k_scout_unit
+    {
+        uniformclass = "k_scout_uniform_desert2";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\uniform\scout_uniform\armor_desert_co.paa",
+            "kobra\442_units\data\uniform\scout_uniform\gloves_co.paa",
+            "kobra\442_units\data\uniform\scout_uniform\undersuit_desert_co.paa"
+        };
+    };
