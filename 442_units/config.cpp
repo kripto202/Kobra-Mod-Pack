@@ -41,7 +41,7 @@ class cfgpatches
 			"k_44ab_scout_delta_unit",
 			"k_44ab_clone_litch_unit",
 			"k_44ab_clone_neko_unit",
-			"",
+			"k_44ab_clone_ditch_unit",
 			"",
 			"",
 			"",
@@ -228,6 +228,7 @@ class cfgpatches
 			"k_Scout_delta_Helmet",
 			"k_44ab_p2_ab_litch_helmet",
 			"k_wrecker_neko_helmet",
+			"k_44ab_p2_ditch_helmet",
 
 			"k_44ab_clone_kripto_vest",
 			"k_44ab_clone_smith_vest",
@@ -242,8 +243,8 @@ class cfgpatches
 			"k_44ab_clone_litch_vest",
 			"k_44ab_clone_neko_vest",
 			"k_44ab_clone_azarael_vest",
-			"",
-			"",
+			"k_44ab_clone_piercer_vest",
+			"k_44ab_clone_ditch_vest",
 			"",
         };
     };

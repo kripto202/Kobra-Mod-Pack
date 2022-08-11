@@ -201,18 +201,19 @@
         };
     };
 ///custom
-    class k_44ab_arf_piercer_helmet: k_arf_helmet
+    class k_barc_piercer_helmet: k_barc_helmet
     {
-        displayname = "[K/44] Arf Helmet (Piercer)";
+        displayname = "[K/44] Barc Helmet (Piercer)";
         hiddenselectionstextures[] = 
         {
-            "kobra\442_units\data\unit_designs\44_attack_battalion\piercer\arf_helmet_co.paa",
-            "kobra\442_units\data\unit_designs\44_attack_battalion\piercer\arf_helmet_co.paa",
-            "kobra\442_units\data\unit_designs\44_attack_battalion\piercer\arf_brim_co.paa",
-            "kobra\442_units\data\unit_designs\44_attack_battalion\piercer\arf_brim_co.paa",
-            "",
-            "",
+            "kobra\442_units\data\unit_designs\44_attack_battalion\piercer\barc_helmet_co.paa", //helmet
+			"kobra\442_units\data\unit_designs\44_attack_battalion\piercer\barc_helmet_co.paa", //visor
+			"kobra\442_units\data\helmet\p2_attachments\p2_visor_co.paa", //helmet_visor
+			"kobra\442_units\data\helmet\p2_attachments\p2_visor_co.paa", //plates
+			"kobra\442_units\data\helmet\p2_attachments\p2_visor_co.paa", //sensor
+			"kobra\442_units\data\helmet\p2_attachments\p2_visor_co.paa", //antenna
         };
+        subItems[] = {"k_nvg_ti"};
     };
     class k_44ab_arf_azarael_helmet: k_arf_helmet
     {
@@ -416,5 +417,19 @@
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\neko\wrecker_helmet_co.paa",
             "kobra\442_units\data\unit_designs\44_attack_battalion\neko\wrecker_visor_co.paa",
+        };
+    };
+     class k_44ab_p2_ditch_helmet: k_p2_helmet
+    {
+        displayname = "[K/44] P2 Helmet (Ditch)";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\unit_designs\44_attack_battalion\ditch\p2_helmet_co.paa",
+            "kobra\442_units\data\unit_designs\44_attack_battalion\ditch\p2_helmet_co.paa",
+            "",
+            "",
+            "",
+            "kobra\442_units\data\helmet\p2_attachments\p2_visor_co.paa",
+            "",
         };
     };

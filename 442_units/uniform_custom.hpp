@@ -153,6 +153,14 @@
             uniformclass = "k_44ab_clone_neko_unit";
         };
     };
+    class k_44ab_clone_ditch_uniform: k_44ab_clone_uniform
+    {
+        displayname = "[K/44] Clone Trooper Armor (Ditch)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_44ab_clone_ditch_unit";
+        };
+    };
 ///dukas
     class k_scout_uniform_arid: k_scout_uniform
     {

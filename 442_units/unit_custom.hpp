@@ -193,6 +193,16 @@
             "Kobra\442_units\data\unit_designs\44_attack_battalion\neko\lower_armor_co.paa",
         };
     };
+    class k_44ab_clone_ditch_unit: k_44ab_clone_unit
+    {
+        displayname = "Clone Trooper (Ditch)";
+        uniformclass = "k_44ab_clone_ditch_uniform";
+        hiddenselectionstextures[] = 
+        {
+            "Kobra\442_units\data\unit_designs\44_attack_battalion\ditch\upper_armor_co.paa",
+            "Kobra\442_units\data\unit_designs\44_attack_battalion\ditch\lower_armor_co.paa",
+        };
+    };
 ///dukas
     class k_scout_unit_arid: k_scout_unit
     {
