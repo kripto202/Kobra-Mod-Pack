@@ -306,7 +306,51 @@ class cfgvehicles
 		hiddenselections[]={};
 		hiddenselectionsTextures[]={};
 		hiddenselectionsMaterials[]={};
+		class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"kobra\442_units\data\uniform\clone_uniform\upper_armor.rvmat",
+				"A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat",
+				"A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat",
 
+				"kobra\442_units\data\uniform\clone_uniform\lower_armor.rvmat",
+				"A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat",
+				"A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat",
+
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"a3\characters_f\heads\data\hl_white.rvmat",
+				"a3\characters_f\heads\data\hl_white_injury.rvmat",
+				"a3\characters_f\heads\data\hl_white_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_02_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular.rvmat",
+				"A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat",
+				"A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat",
+				"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular.rvmat",
+				"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat",
+				"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"
+			};
+		};
 		linkedItems[]={};
 		RespawnlinkedItems[]={};
 		weapons[]=
@@ -323,8 +367,8 @@ class cfgvehicles
 		respawnMagazines[]={};
 		items[]={};
 		respawnitems[]={};
-		armor=5;
-		armorStructural=8;
+		armor=3;
+		armorStructural=4;
 		explosionShielding=0.5;
 		minTotalDamageThreshold=0.001;
 		impactDamageMultiplier=0.5;
@@ -553,8 +597,8 @@ class cfgweapons
 		scope=0;
 		scopeCurator=0;
 		scopeArsenal=0;
-		picture = "kobra\kobra_core\kobra.paa";
-		icon = "kobra\kobra_core\kobra.paa";
+		picture = "\kobra\kobra_core\kobra.paa";
+		icon = "\kobra\kobra_core\kobra.paa";
 		model=""; //model for the ground
 		class ItemInfo: UniformItem
 		{
@@ -589,8 +633,8 @@ class cfgweapons
         scopecurator = 0;
         scopearsenal = 0;
         allowedSlots[] = {901};
-        picture = "kobra\kobra_core\kobra.paa";
-		icon = "kobra\kobra_core\kobra.paa";
+        picture = "\kobra\kobra_core\kobra.paa";
+		icon = "\kobra\kobra_core\kobra.paa";
         class ItemInfo: vestitem
         {
             uniformmodel = "";
@@ -602,20 +646,20 @@ class cfgweapons
                 class Chest
                 {
                     HitpointName = "HitChest";
-                    armor = 12;
-                    PassThrough = 0.3;
+                    armor = 1;
+                    PassThrough = 1;
                 };
                 class Diaphragm
                 {
                     HitpointName = "HitDiaphragm";
-                    armor = 12;
-                    PassThrough = 0.3;
+                    armor = 0;
+                    PassThrough = 1;
                 };
                 class Abdomen
                 {
                     hitpointName = "HitAbdomen";
-                    armor = 12;
-                    passThrough = 0.3;
+                    armor = 0;
+                    passThrough = 1;
                 };
             };
         };
@@ -624,8 +668,8 @@ class cfgweapons
 	{
 		author = "KOBRA Mod Team";
 		displayname = "helmet base config";
-		picture = "kobra\kobra_core\kobra.paa";
-		icon = "kobra\kobra_core\kobra.paa";
+		picture = "\kobra\kobra_core\kobra.paa";
+		icon = "\kobra\kobra_core\kobra.paa";
 		scope = 0;
 		scopecurator = 0;
 		scopearsenal = 0;

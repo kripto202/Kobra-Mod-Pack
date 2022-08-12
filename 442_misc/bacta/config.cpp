@@ -10,8 +10,8 @@ class cfgpatches
 		requiredVersion = 0.1;
 		units[] = 
         {
-            "442_bacta_tank",
-            "442_bacta_tank_w"
+            "land_442_bacta_tank",
+            "land_442_bacta_tank_w"
         };
         weapons[] = {};
     };
@@ -20,7 +20,7 @@ class cfgpatches
 class cfgvehicles
 {
     class House_F;
-    class 442_bacta_tank: house_f
+    class land_442_bacta_tank: house_f
 	{
 		scope=2;
 		scopecurator=2;
@@ -44,21 +44,13 @@ class cfgvehicles
 		};
 		hiddenselections[]=
 		{
-			"body1",
-			"body2",
-			"body3",
-			"clear_glass",
-			"blue_glass",
-			"screens"
+			"body",
+			"emmision"
 		};
 		hiddenselectionstextures[]=
 		{
-			"kobra\442_misc\bacta\data\body1_co.paa",
-			"kobra\442_misc\bacta\data\body2_co.paa",
-			"kobra\442_misc\bacta\data\body3_co.paa",
-			"kobra\442_misc\bacta\data\clear_glass_ca.paa",
-			"kobra\442_misc\bacta\data\blue_glass_ca.paa",
-			"kobra\442_misc\bacta\data\screens_co.paa",
+			"kobra\442_misc\bacta\data\body_co.paa",
+			"kobra\442_misc\bacta\data\body_co.paa",
 		};
 		class useractions
         {
@@ -137,7 +129,7 @@ class cfgvehicles
 		};
 	};
 	class ruins_f;
-	class 442_bacta_tank_w: ruins_f
+	class land_442_bacta_tank_w: ruins_f
 	{
 		author = "KOBRA Mod Team";
 		mapsize = 20;
@@ -149,5 +141,15 @@ class cfgvehicles
 		model = "kobra\442_misc\bacta\bacta_tank_w.p3d";
 		editorCategory = "kobra";
 		editorSubcategory = "442_item";
+		hiddenselections[]=
+		{
+			"body",
+			"emmision"
+		};
+		hiddenselectionstextures[]=
+		{
+			"kobra\442_misc\bacta\data\body_co.paa",
+			"kobra\442_misc\bacta\data\body_co.paa",
+		};
 	};
 };

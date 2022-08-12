@@ -128,7 +128,7 @@
 	};
 	class k_p2_helmet3: k_p2_helmet
 	{
-		displayname = "[K] P2 Helmet w/ Plated Visor";
+		displayname="[K] P2 Helmet w/ Plated Visor, Antenna";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_units\data\helmet\p2_helmet\p2_helmet_co.paa", //helmet
@@ -136,7 +136,7 @@
 			"kobra\442_units\data\helmet\p2_attachments\p2_visor_co.paa", //helmet visor
 			"kobra\442_units\data\helmet\p2_attachments\p2_visor_co.paa", //plates
 			"", //sensor
-			"", //antenna
+			"kobra\442_units\data\helmet\p2_attachments\p2_visor_co.paa", //antenna
 			"", //micro visor
 		};
 	};

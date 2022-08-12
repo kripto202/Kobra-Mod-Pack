@@ -102,6 +102,8 @@ class VehicleSystemsTemplateRightGunner: DefaultVehicleSystemsDisplayManagerRigh
 class cfgvehicles
 {
     class Helicopter;
+	class ACE_SelfActions;
+
     class Helicopter_Base_F : Helicopter {
         class Turrets;
 		class Hitpoints;
@@ -469,7 +471,12 @@ class cfgvehicles
 					minFov = "(30 / 120)";
 					maxFov = "(30 / 120)";
 					directionStabilized = 1;
-					visionMode[] = {"Normal", "Ti"};
+					visionMode[]=
+					{
+						"Normal",
+						"NVG",
+						"Ti"
+					};
 					thermalMode[] = {0, 1};
 					gunnerOpticsModel = "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_wide_F.p3d";
 					opticsPPEffects[] = {"OpticsCHAbera2", "OpticsBlur2"};
@@ -1014,6 +1021,16 @@ class cfgvehicles
 				shortcut = "User20";
 				condition = "isEngineOn this and ace_player == currentPilot this;";
 				statement = "this call ls_vehicle_fnc_RepulseJoystick;";
+			};
+		};
+		class ACE_SelfActions: ACE_SelfActions
+		{
+			class ACE_Passengers
+			{
+				condition="alive _target";
+				displayName="Passengers";
+				insertChildren="_this call ace_interaction_fnc_addPassengersActions";
+				statement="";
 			};
 		};
 		class MarkerLights
@@ -5466,6 +5483,159 @@ class cfgvehicles
                     "kobra\442_a_vehicle\laat\data\796\glass_ca.paa"
                 };
             };
+
+			class Bantha_pinup: base
+			{
+				displayname="Bantha Pinup";
+				textures[]=
+				{
+					"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_bantha_co.paa",
+					"kobra\442_a_vehicle\laat\data\body_2_co.paa",
+					"kobra\442_a_vehicle\laat\data\door_1_co.paa",
+					"kobra\442_a_vehicle\laat\data\door_2_co.paa",
+					"kobra\442_a_vehicle\laat\data\door_3_co.paa",
+					"kobra\442_a_vehicle\laat\data\wings_co.paa",
+					"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+					"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+					"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+				};
+			}; 
+
+			class Crosshair_pinup: base
+			{
+				displayname="Crosshair Pinup";
+				textures[]=
+				{
+					"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_crosshair_co.paa",
+					"kobra\442_a_vehicle\laat\data\body_2_co.paa",
+					"kobra\442_a_vehicle\laat\data\door_1_co.paa",
+					"kobra\442_a_vehicle\laat\data\door_2_co.paa",
+					"kobra\442_a_vehicle\laat\data\door_3_co.paa",
+					"kobra\442_a_vehicle\laat\data\wings_co.paa",
+					"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+					"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+					"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+				};
+			}; 
+
+			class Droidhead_pinup: base
+			{
+				displayname="Droidhead Pinup";
+				textures[]=
+				{
+					"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_droidhead_co.paa",
+					"kobra\442_a_vehicle\laat\data\body_2_co.paa",
+					"kobra\442_a_vehicle\laat\data\door_1_co.paa",
+					"kobra\442_a_vehicle\laat\data\door_2_co.paa",
+					"kobra\442_a_vehicle\laat\data\door_3_co.paa",
+					"kobra\442_a_vehicle\laat\data\wings_co.paa",
+					"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+					"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+					"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+				};
+			}; 
+
+			class Empire_Twilek_pinup: base
+			{
+				displayname="Empire (Twi'lek Pinup)";
+				textures[]=
+				{
+					"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_pinup1_co.paa",
+					"kobra\442_a_vehicle\laat\data\empire\body_2_co.paa",
+					"kobra\442_a_vehicle\laat\data\empire\door_1_co.paa",
+					"kobra\442_a_vehicle\laat\data\empire\door_2_co.paa",
+					"kobra\442_a_vehicle\laat\data\empire\door_3_co.paa",
+					"kobra\442_a_vehicle\laat\data\empire\wings_co.paa",
+					"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+					"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+					"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+				};
+			}; 
+
+			class Bombsaway_pinup: base
+			{
+				displayname="Bombs Away Pinup";
+				textures[]=
+				{
+					"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_pinup2_co.paa",
+					"kobra\442_a_vehicle\laat\data\body_2_co.paa",
+					"kobra\442_a_vehicle\laat\data\door_1_co.paa",
+					"kobra\442_a_vehicle\laat\data\door_2_co.paa",
+					"kobra\442_a_vehicle\laat\data\door_3_co.paa",
+					"kobra\442_a_vehicle\laat\data\wings_co.paa",
+					"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+					"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+					"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+				};
+			}; 
+
+			class Naboo_pinup: base
+			{
+				displayname="Naboo Pinup";
+				textures[]=
+				{
+					"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_pinup4_co.paa",
+					"kobra\442_a_vehicle\laat\data\body_2_co.paa",
+					"kobra\442_a_vehicle\laat\data\door_1_co.paa",
+					"kobra\442_a_vehicle\laat\data\door_2_co.paa",
+					"kobra\442_a_vehicle\laat\data\door_3_co.paa",
+					"kobra\442_a_vehicle\laat\data\wings_co.paa",
+					"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+					"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+					"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+				};
+			}; 
+
+			class Reaper_pinup: base
+			{
+				displayname="Reaper Pinup";
+				textures[]=
+				{
+					"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_pinup5_co.paa",
+					"kobra\442_a_vehicle\laat\data\body_2_co.paa",
+					"kobra\442_a_vehicle\laat\data\door_1_co.paa",
+					"kobra\442_a_vehicle\laat\data\door_2_co.paa",
+					"kobra\442_a_vehicle\laat\data\door_3_co.paa",
+					"kobra\442_a_vehicle\laat\data\wings_co.paa",
+					"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+					"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+					"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+				};
+			}; 
+
+			class Trooper_TwiLek_pinup: base
+			{
+				displayname="Trooper Twi'lek Pinup";
+				textures[]=
+				{
+					"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_pinup6_co.paa",
+					"kobra\442_a_vehicle\laat\data\body_2_co.paa",
+					"kobra\442_a_vehicle\laat\data\door_1_co.paa",
+					"kobra\442_a_vehicle\laat\data\door_2_co.paa",
+					"kobra\442_a_vehicle\laat\data\door_3_co.paa",
+					"kobra\442_a_vehicle\laat\data\wings_co.paa",
+					"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+					"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+					"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+				};
+			}; 
+
+			class TwiLek_pinup: base
+			{
+				displayname="Twi'lek Pinup";
+				textures[]=
+				{
+					"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_pinup7_co.paa",
+					"kobra\442_a_vehicle\laat\data\body_2_co.paa",
+					"kobra\442_a_vehicle\laat\data\door_1_co.paa",
+					"kobra\442_a_vehicle\laat\data\door_2_co.paa",
+					"kobra\442_a_vehicle\laat\data\door_3_co.paa",
+					"kobra\442_a_vehicle\laat\data\wings_co.paa",
+					"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+					"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+					"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+				};
+			};
         };
         textureList[] =
         {
@@ -5995,6 +6165,313 @@ class cfgvehicles
 			"kobra\442_a_vehicle\laat\data\796\glass_ca.paa"
 		};
 	};
+
+	class 442_laat_Pinup_Bantha: 442_laat_2
+	{
+		displayname="LAAT/I Gunship (Bantha Pinup)";
+		hiddenselectionstextures[]=
+		{
+			"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_bantha_co.paa",
+			"kobra\442_a_vehicle\laat\data\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+
+	class 442_laat_Pinup_Bantha_ab: 442_laat_2_ab
+	{
+		displayname="LAAT/IA Gunship (Bantha Pinup)";
+		hiddenselectionstextures[]=
+		{
+			"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_bantha_co.paa",
+			"kobra\442_a_vehicle\laat\data\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+
+	class 442_laat_Pinup_Crosshair: 442_laat_2
+	{
+		displayname="LAAT/I Gunship (Crosshair Pinup)";
+		hiddenselectionstextures[]=
+		{
+			"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_crosshair_co.paa",
+			"kobra\442_a_vehicle\laat\data\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+
+	class 442_laat_Pinup_Crosshair_ab: 442_laat_2_ab
+	{
+		displayname="LAAT/IA Gunship (Crosshair Pinup)";
+		hiddenselectionstextures[]=
+		{
+			"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_crosshair_co.paa",
+			"kobra\442_a_vehicle\laat\data\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+
+	class 442_laat_Pinup_Droidhead: 442_laat_2
+	{
+		displayname="LAAT/I Gunship (Droidhead Pinup)";
+		hiddenselectionstextures[]=
+		{
+			"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_droidhead_co.paa",
+			"kobra\442_a_vehicle\laat\data\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+
+	class 442_laat_Pinup_Droidhead_ab: 442_laat_2_ab
+	{
+		displayname="LAAT/IA Gunship (Droidhead Pinup)";
+		hiddenselectionstextures[]=
+		{
+			"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_droidhead_co.paa",
+			"kobra\442_a_vehicle\laat\data\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+
+	class 442_laat_Empire_Pinup_TwiLek: 442_laat_2
+	{
+		displayname="LAAT/I Gunship (Empire Twi'Lek Pinup)";
+		hiddenselectionstextures[]=
+		{
+			"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_pinup1_co.paa",
+			"kobra\442_a_vehicle\laat\data\empire\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\empire\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\empire\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\empire\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\empire\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+
+	class 442_laat_Empire_Pinup_TwiLek_ab: 442_laat_2_ab
+	{
+		displayname="LAAT/IA Gunship (Empire Twi'Lek Pinup)";
+		hiddenselectionstextures[]=
+		{
+			"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_pinup1_co.paa",
+			"kobra\442_a_vehicle\laat\data\empire\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\empire\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\empire\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\empire\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\empire\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+
+	class 442_laat_Pinup_BombsAway: 442_laat_2
+	{
+		displayname="LAAT/I Gunship (Bombs Away Pinup)";
+		hiddenselectionstextures[]=
+		{
+			"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_pinup2_co.paa",
+			"kobra\442_a_vehicle\laat\data\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+
+	class 442_laat_Pinup_BombsAway_ab: 442_laat_2_ab
+	{
+		displayname="LAAT/IA Gunship (Bombs Away Pinup)";
+		hiddenselectionstextures[]=
+		{
+			"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_pinup2_co.paa",
+			"kobra\442_a_vehicle\laat\data\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+
+	class 442_laat_Pinup_Naboo: 442_laat_2
+	{
+		displayname="LAAT/I Gunship (Naboo Pinup)";
+		hiddenselectionstextures[]=
+		{
+			"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_pinup4_co.paa",
+			"kobra\442_a_vehicle\laat\data\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+
+	class 442_laat_Pinup_Naboo_ab: 442_laat_2_ab
+	{
+		displayname="LAAT/IA Gunship (Naboo Pinup)";
+		hiddenselectionstextures[]=
+		{
+			"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_pinup4_co.paa",
+			"kobra\442_a_vehicle\laat\data\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+
+	class 442_laat_Pinup_Reaper: 442_laat_2
+	{
+		displayname="LAAT/I Gunship (Reaper Pinup)";
+		hiddenselectionstextures[]=
+		{
+			"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_pinup5_co.paa",
+			"kobra\442_a_vehicle\laat\data\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+
+	class 442_laat_Pinup_Reaper_ab: 442_laat_2_ab
+	{
+		displayname="LAAT/IA Gunship (Reaper Pinup)";
+		hiddenselectionstextures[]=
+		{
+			"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_pinup5_co.paa",
+			"kobra\442_a_vehicle\laat\data\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+
+	class 442_laat_Pinup_Trooper_TwiLek: 442_laat_2
+	{
+		displayname="LAAT/I Gunship (Trooper Twi'Lek Pinup)";
+		hiddenselectionstextures[]=
+		{
+			"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_pinup6_co.paa",
+			"kobra\442_a_vehicle\laat\data\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+
+	class 442_laat_Pinup_Trooper_TwiLek_ab: 442_laat_2_ab
+	{
+		displayname="LAAT/IA Gunship (Trooper Twi'Lek Pinup)";
+		hiddenselectionstextures[]=
+		{
+			"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_pinup6_co.paa",
+			"kobra\442_a_vehicle\laat\data\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+
+	class 442_laat_Pinup_TwiLek: 442_laat_2
+	{
+		displayname="LAAT/I Gunship (Twi'Lek Pinup)";
+		hiddenselectionstextures[]=
+		{
+			"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_pinup7_co.paa",
+			"kobra\442_a_vehicle\laat\data\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+
+	class 442_laat_Pinup_TwiLek_ab: 442_laat_2_ab
+	{
+		displayname="LAAT/IA Gunship (Twi'Lek Pinup)";
+		hiddenselectionstextures[]=
+		{
+			"kobra\442_a_vehicle\laat\data\LAAT_Nose_Art\body_1_pinup7_co.paa",
+			"kobra\442_a_vehicle\laat\data\body_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_1_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_2_co.paa",
+			"kobra\442_a_vehicle\laat\data\door_3_co.paa",
+			"kobra\442_a_vehicle\laat\data\wings_co.paa",
+			"kobra\442_a_vehicle\laat\data\missiles_co.paa",
+			"kobra\442_a_vehicle\laat\data\cockpits_co.paa",
+			"kobra\442_a_vehicle\laat\data\glass_ca.paa"
+		};
+	};
+
 	class Wreck_base_F;
 	class 442_laat_wreck: Wreck_base_F
 	{

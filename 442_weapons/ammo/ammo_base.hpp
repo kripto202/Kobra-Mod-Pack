@@ -13,12 +13,11 @@ class 442_ammo_556_base: 442_ammo_base
 	waterFriction=-0.30000001;
 	caliber = 0.869565;
 	tracerScale = 0.5;
-	timetolive=6;
+	timetolive=5;
 	// effectfly="442_plasma_blue";
 	// ExplosionEffects="442_plasma_impact";
 	// cratereffects = "442_plasma_impact";
 	explosive=0;
-	airFriction = -0.00130094;
 	ACE_caliber=5.6900001;
 	ACE_bulletLength=23.011999;
 	ACE_bulletMass=4.0176001;
@@ -46,7 +45,6 @@ class 442_ammo_65_base: 442_ammo_base
 	//ExplosionEffects="442_plasma_impact";
 	//cratereffects = "442_plasma_impact";
 	explosive=0;
-	airFriction = -0.00130094;
 	tracerScale = 0.5;
 	ACE_caliber = 6.706;
 	ACE_bulletLength = 32.893;
@@ -76,7 +74,6 @@ class 442_ammo_762_base: 442_ammo_base
 	typicalSpeed = 835;
 	tracerScale = 0.5;
 	caliber = 1.8;
-	airFriction = -0.00101071;
 	ACE_caliber = 7.823;
 	ACE_bulletLength = 28.956;
 	ACE_bulletMass = 9.4608;
@@ -90,7 +87,9 @@ class 442_ammo_762_base: 442_ammo_base
 };
 class 442_ammo_9_base: 442_ammo_base
 {
-	hit = 5;
+	hit=11;
+	caliber=2;
+	timetolive=3;
 	model="";
 	//effectfly="442_plasma_blue";
 	//ExplosionEffects="442_plasma_impact";
@@ -100,7 +99,6 @@ class 442_ammo_9_base: 442_ammo_base
 	dangerRadiusHit = 8;
 	suppressionRadiusBulletClose = 2;
 	suppressionRadiusHit = 4;
-	airFriction = -0.00211064;
 	tracerScale = 0.25;
 	ACE_caliber = 9.042;
 	ACE_bulletLength = 15.494;
@@ -117,6 +115,7 @@ class 442_ammo_9_base: 442_ammo_base
 class 442_ammo_45_base: 442_ammo_base
 {
 	hit = 5;
+	timetolive=3;
 	audibleFire = 50;
 	dangerRadiusBulletClose = 4;
 	dangerRadiusHit = 8;
@@ -126,7 +125,6 @@ class 442_ammo_45_base: 442_ammo_base
 	typicalSpeed = 280;
 	tracerStartTime = 0.075;
 	tracerEndTime = 1; 
-	airFriction = -0.00082143;
 	tracerScale = 0.25;
 	model="";
 	//effectfly="442_plasma_blue";
@@ -147,6 +145,7 @@ class 442_ammo_45_base: 442_ammo_base
 class 442_ammo_127x99_base: 442_ammo_base
 {
 	hit = 30;
+	timetolive=7;
 	visibleFire = 8;
 	audibleFire = 120;
 	dangerRadiusBulletClose = 12;
@@ -155,7 +154,6 @@ class 442_ammo_127x99_base: 442_ammo_base
 	suppressionRadiusHit = 12;
 	caliber = 2.6;
 	typicalSpeed = 880;
-	airFriction = -0.00058679;
 	tracerScale = 0.5;
 	ACE_caliber = 12.954;
 	ACE_bulletLength = 58.674;
@@ -177,12 +175,12 @@ class 442_ammo_127x99_base: 442_ammo_base
 class 442_ammo_408_base: 442_ammo_base
 {
 	hit = 24;
+	timetolive=7;
 	visibleFire = 5;
 	audibleFire = 120;
 	visibleFireTime = 3;
 	caliber = 2.4;
 	typicalSpeed = 910;
-	airFriction = -0.00046249;
 	tracerScale = 0.5;
 	ACE_caliber = 10.363;
 	ACE_bulletLength = 55.1942;
@@ -206,7 +204,6 @@ class 442_ammo_shotgun_base: 442_shotgun_base
 {
 	hit = 2;
 	typicalSpeed = 400;
-	airFriction = -0.008;
 	caliber = 1;
 	deflecting = 30;
 	indirectHit = 2;
@@ -336,7 +333,9 @@ class 442_ammo_40mm_base: GrenadeBase
 };
 class 442_ammo_127x33_base: 442_ammo_base
 {
-	hit = 7.5;
+	hit=17;
+    caliber=2;
+	timetolive=3;
 	indirectHit = 0;
 	indirectHitRange = 0;
 	audibleFire = 50;
@@ -348,18 +347,17 @@ class 442_ammo_127x33_base: 442_ammo_base
 	cost = 50;
 	tracerScale = 0.5;
 	airLock = 1;
-	caliber = 1;
 	typicalSpeed = 420;
 	model="";
 	//effectfly="442_plasma_blue";
 	//ExplosionEffects="442_plasma_impact";
 	//cratereffects = "442_plasma_impact";
 	explosive=0;
-	airFriction = -0.002;
 };
 class 442_ammo_127x108_base: 442_ammo_base
 {
 	hit = 35;
+	timetolive=7;
 	indirectHit = 0;
 	indirectHitRange = 0;
 	visibleFire = 5;
@@ -382,6 +380,7 @@ class 442_ammo_127x108_base: 442_ammo_base
 class 442_ammo_338_base: 442_ammo_base
 {
 	hit = 16;
+	timetolive=7;
 	indirectHit = 0;
 	indirectHitRange = 0;
 	audibleFire = 80;
@@ -393,7 +392,6 @@ class 442_ammo_338_base: 442_ammo_base
 	caliber = 2;
 	typicalSpeed = 890;
 	tracerScale = .5;
-	airFriction = -0.00060841;
 	ACE_caliber = 8.585;
 	ACE_bulletLength = 39.573;
 	ACE_bulletMass = 16.2;
@@ -798,4 +796,65 @@ class Droideka_ammo: BulletBase
 		frequency = "((speed factor [330, 930]) * 0.1) + 1.05";
 		trigger = "houses max interior";
 	};
+};
+
+//Grav Ammo Section
+class 442_ammo_556_Grav_base: 442_ammo_556_base
+{
+	coefgravity=1;
+	airFriction=-0.0013009401;
+};
+
+class 442_ammo_65_Grav_base: 442_ammo_65_base
+{
+	coefgravity=1;
+	airFriction=-0.0013009401;
+};
+
+class 442_ammo_762_Grav_base: 442_ammo_762_base
+{
+	coefgravity=1;
+	airFriction=-0.00101071;
+};
+
+class 442_ammo_9_Grav_base: 442_ammo_9_base
+{
+	coefgravity=1;
+	airFriction=-0.0021106401;
+};
+
+class 442_ammo_45_Grav_base: 442_ammo_45_base
+{
+	coefgravity=1;
+	airFriction=-0.00082143;
+};
+
+class 442_ammo_127x99_Grav_base: 442_ammo_127x99_base
+{
+	coefgravity=1;
+	airFriction=-0.00058678997;
+};
+
+class 442_ammo_408_Grav_base: 442_ammo_408_base
+{
+	coefgravity=1;
+	airFriction=-0.00046248999;
+};
+
+class 442_ammo_127x33_Grav_base: 442_ammo_127x33_base
+{
+	coefgravity=1;
+	airFriction=-0.0020000001;
+};
+
+class 442_ammo_127x108_Grav_base: 442_ammo_127x108_base
+{
+	coefgravity=1;
+	airfriction=-0.0012000001;
+};
+
+class 442_ammo_338_Grav_base: 442_ammo_338_base
+{
+	coefgravity=1;
+	airFriction=-0.00060840999;
 };

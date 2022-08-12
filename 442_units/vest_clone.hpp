@@ -404,7 +404,7 @@
 		};
         class ItemInfo: ItemInfo
         {
-            containerclass = "Supply150";
+            containerclass = "Supply200";
 			mass = 20;
         };
 	};
@@ -1902,25 +1902,25 @@
                 class Chest
                 {
                     HitpointName = "HitChest";
-                    armor = 25;
-                    PassThrough = 0.1;
+                    armor = 12;
+                    PassThrough = 0.3;
                 };
                 class Diaphragm
                 {
                     HitpointName = "HitDiaphragm";
-                    armor = 20;
+                    armor = 12;
                     PassThrough = 0.3;
                 };
                 class Abdomen
                 {
                     hitpointName = "HitAbdomen";
-                    armor = 20;
+                    armor = 12;
                     passThrough = 0.3;
                 };
                 class legs
                 {
                     hitpointName = "HitLegs";
-                    armor = 20;
+                    armor = 12;
                     passthrough = 0.3;
                 };
             };

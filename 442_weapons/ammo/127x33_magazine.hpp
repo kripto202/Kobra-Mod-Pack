@@ -59,60 +59,9 @@ class 442_127x33_10rnd_yellow_mag: 442_127x33_10rnd_blue_mag
     picture="\kobra\442_weapons\ammo\data\ui\DC15a_mag_ui_yellow_ca.paa";
 };
 
-///Black-Core///
-
-class 442_127x33_10rnd_blue_b_mag: 442_127x33_10rnd_blue_mag
+//Grav Mag Section
+class 442_127x33_10rnd_Grav_blue_mag: 442_127x33_10rnd_blue_mag
 {
-    displayname = "12.7x33mm Plasma Cell (10rnd Blue/B)";
-    ammo = "442_ammo_127x33_blue_b";
-    picture="\kobra\442_weapons\ammo\data\ui\DC15a_mag_ui_blue_ca.paa";
-};
-
-class 442_127x33_10rnd_red_b_mag: 442_127x33_10rnd_blue_mag
-{
-    displayname = "12.7x33mm Plasma Cell (10rnd Red/B)";
-    ammo = "442_ammo_127x33_red_b";
-    picture="\kobra\442_weapons\ammo\data\ui\DC15a_mag_ui_red_ca.paa";
-};
-
-class 442_127x33_10rnd_orange_b_mag: 442_127x33_10rnd_blue_mag
-{
-    displayname = "12.7x33mm Plasma Cell (10rnd Orange/B)";
-    ammo = "442_ammo_127x33_orange_b";
-    picture="\kobra\442_weapons\ammo\data\ui\DC15a_mag_ui_orange_ca.paa";
-};
-
-class 442_127x33_10rnd_green_b_mag: 442_127x33_10rnd_blue_mag
-{
-    displayname = "12.7x33mm Plasma Cell (10rnd Green/B)";
-    ammo = "442_ammo_127x33_green_b";
-    picture="\kobra\442_weapons\ammo\data\ui\DC15a_mag_ui_green_ca.paa";
-};
-
-class 442_127x33_10rnd_pink_b_mag: 442_127x33_10rnd_blue_mag
-{
-    displayname = "12.7x33mm Plasma Cell (10rnd Pink/B)";
-    ammo = "442_ammo_127x33_pink_b";
-    picture="\kobra\442_weapons\ammo\data\ui\DC15a_mag_ui_pink_ca.paa";
-};
-
-class 442_127x33_10rnd_purple_b_mag: 442_127x33_10rnd_blue_mag
-{
-    displayname = "12.7x33mm Plasma Cell (10rnd Purple/B)";
-    ammo = "442_ammo_127x33_purple_b";
-    picture="\kobra\442_weapons\ammo\data\ui\DC15a_mag_ui_purple_ca.paa";
-};
-
-class 442_127x33_10rnd_white_b_mag: 442_127x33_10rnd_blue_mag
-{
-    displayname = "12.7x33mm Plasma Cell (10rnd White/B)";
-    ammo = "442_ammo_127x33_white_b";
-    picture="\kobra\442_weapons\ammo\data\ui\DC15a_mag_ui_white_ca.paa";
-};  
-
-class 442_127x33_10rnd_yellow_b_mag: 442_127x33_10rnd_blue_mag
-{
-    displayname = "12.7x33mm Plasma Cell (10rnd Yellow/B)";
-    ammo = "442_ammo_127x33_yellow_b";
-    picture="\kobra\442_weapons\ammo\data\ui\DC15a_mag_ui_yellow_ca.paa";
+    displayname="12.7x33mm Plasma Cell Grav Assisted (10rnd Blue)";
+    ammo="442_ammo_127x33_Grav_base";
 };

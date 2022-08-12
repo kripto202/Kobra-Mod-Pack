@@ -1,7 +1,7 @@
 //44th attack battalion
     class k_44ab_clone_kripto_vest: k_clone_vest_heavy
     {
-        displayname = "[K/44] Clone Vest (Kripto)";
+        displayname = "[K/44/C] Clone Vest (Kripto)";
         hiddenselectionstextures[] = 
 		{
 			"", //kama left
@@ -70,38 +70,11 @@
         {
             containerclass = "supply200";
             mass = 50;
-            class HitpointsProtectionInfo
-            {
-                class Chest
-                {
-                    HitpointName = "HitChest";
-                    armor = 25;
-                    PassThrough = 0.1;
-                };
-                class Diaphragm
-                {
-                    HitpointName = "HitDiaphragm";
-                    armor = 20;
-                    PassThrough = 0.3;
-                };
-                class Abdomen
-                {
-                    hitpointName = "HitAbdomen";
-                    armor = 20;
-                    passThrough = 0.3;
-                };
-                class legs
-                {
-                    hitpointName = "HitLegs";
-                    armor = 20;
-                    passthrough = 0.3;
-                };
-            };
         };
     };
     class k_44ab_clone_smith_vest: k_clone_vest_heavy
     {
-        displayname = "[K/44] Clone Vest (Smith)";
+        displayname = "[K/44/C] Clone Vest (Smith)";
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\smith\kama_co.paa", //kama left
@@ -178,25 +151,25 @@
                 class Chest
                 {
                     HitpointName = "HitChest";
-                    armor = 25;
-                    PassThrough = 0.1;
+                    armor = 12;
+                    PassThrough = 0.3;
                 };
                 class Diaphragm
                 {
                     HitpointName = "HitDiaphragm";
-                    armor = 20;
+                    armor = 12;
                     PassThrough = 0.3;
                 };
                 class Abdomen
                 {
                     hitpointName = "HitAbdomen";
-                    armor = 20;
+                    armor = 12;
                     passThrough = 0.3;
                 };
                 class legs
                 {
                     hitpointName = "HitLegs";
-                    armor = 20;
+                    armor = 12;
                     passthrough = 0.3;
                 };
             };
@@ -204,7 +177,7 @@
     };
     class k_44ab_clone_monty_vest: k_clone_vest_heavy
     {
-        displayname = "[K/44] Clone Vest (Monty)";
+        displayname = "[K/44/C] Clone Vest (Monty)";
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\monty\kama_co.paa", //kama left
@@ -281,25 +254,25 @@
                 class Chest
                 {
                     HitpointName = "HitChest";
-                    armor = 25;
-                    PassThrough = 0.1;
+                    armor = 12;
+                    PassThrough = 0.3;
                 };
                 class Diaphragm
                 {
                     HitpointName = "HitDiaphragm";
-                    armor = 20;
+                    armor = 12;
                     PassThrough = 0.3;
                 };
                 class Abdomen
                 {
                     hitpointName = "HitAbdomen";
-                    armor = 20;
+                    armor = 12;
                     passThrough = 0.3;
                 };
                 class legs
                 {
                     hitpointName = "HitLegs";
-                    armor = 20;
+                    armor = 12;
                     passthrough = 0.3;
                 };
             };
@@ -307,7 +280,7 @@
     };
     class k_44ab_clone_canada_vest: k_clone_vest_heavy
     {
-        displayname = "[K/44] Clone Vest (Canada)";
+        displayname = "[K/44/C] Clone Vest (Canada) [Retired]";
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\canada\kama_co.paa", //kama left
@@ -384,25 +357,25 @@
                 class Chest
                 {
                     HitpointName = "HitChest";
-                    armor = 25;
-                    PassThrough = 0.1;
+                    armor = 12;
+                    PassThrough = 0.3;
                 };
                 class Diaphragm
                 {
                     HitpointName = "HitDiaphragm";
-                    armor = 20;
+                    armor = 12;
                     PassThrough = 0.3;
                 };
                 class Abdomen
                 {
                     hitpointName = "HitAbdomen";
-                    armor = 20;
+                    armor = 12;
                     passThrough = 0.3;
                 };
                 class legs
                 {
                     hitpointName = "HitLegs";
-                    armor = 20;
+                    armor = 12;
                     passthrough = 0.3;
                 };
             };
@@ -410,7 +383,7 @@
     };
     class k_44ab_clone_ivanov_vest: k_clone_vest_heavy
     {
-        displayname = "[K/44] Clone Vest (Ivanov)";
+        displayname = "[K/44/C] Clone Vest (Ivanov)";
         hiddenselectionstextures[] = 
         {
             "", //kama left
@@ -482,38 +455,11 @@
         {
             containerclass = "supply200";
             mass = 50;
-            class HitpointsProtectionInfo
-            {
-                class Chest
-                {
-                    HitpointName = "HitChest";
-                    armor = 25;
-                    PassThrough = 0.1;
-                };
-                class Diaphragm
-                {
-                    HitpointName = "HitDiaphragm";
-                    armor = 20;
-                    PassThrough = 0.3;
-                };
-                class Abdomen
-                {
-                    hitpointName = "HitAbdomen";
-                    armor = 20;
-                    passThrough = 0.3;
-                };
-                class legs
-                {
-                    hitpointName = "HitLegs";
-                    armor = 20;
-                    passthrough = 0.3;
-                };
-            };
         };
     };
     class k_44ab_clone_wumbo_vest: k_clone_vest_heavy
     {
-        displayname = "[K/44] Clone Vest (Wumbo)";
+        displayname = "[K/44/C] Clone Vest (Wumbo)";
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\vests\clone_vest\kama_co.paa", //kama left
@@ -585,38 +531,11 @@
         {
             containerclass = "supply200";
             mass = 50;
-            class HitpointsProtectionInfo
-            {
-                class Chest
-                {
-                    HitpointName = "HitChest";
-                    armor = 25;
-                    PassThrough = 0.1;
-                };
-                class Diaphragm
-                {
-                    HitpointName = "HitDiaphragm";
-                    armor = 20;
-                    PassThrough = 0.3;
-                };
-                class Abdomen
-                {
-                    hitpointName = "HitAbdomen";
-                    armor = 20;
-                    passThrough = 0.3;
-                };
-                class legs
-                {
-                    hitpointName = "HitLegs";
-                    armor = 20;
-                    passthrough = 0.3;
-                };
-            };
         };
     };
     class k_44ab_clone_zepher_vest: k_clone_vest_heavy
     {
-        displayname = "[K/44] Clone Vest (Zepher)";
+        displayname = "[K/44/C] Clone Vest (Zepher) [Retired]";
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\zepher\kama_co.paa", //kama left
@@ -693,25 +612,25 @@
                 class Chest
                 {
                     HitpointName = "HitChest";
-                    armor = 25;
-                    PassThrough = 0.1;
+                    armor = 12;
+                    PassThrough = 0.3;
                 };
                 class Diaphragm
                 {
                     HitpointName = "HitDiaphragm";
-                    armor = 20;
+                    armor = 12;
                     PassThrough = 0.3;
                 };
                 class Abdomen
                 {
                     hitpointName = "HitAbdomen";
-                    armor = 20;
+                    armor = 12;
                     passThrough = 0.3;
                 };
                 class legs
                 {
                     hitpointName = "HitLegs";
-                    armor = 20;
+                    armor = 12;
                     passthrough = 0.3;
                 };
             };
@@ -719,7 +638,7 @@
     };
     class k_44ab_clone_zeressin_vest: k_clone_vest_heavy
     {
-        displayname = "[K/44] Clone Vest (Zeressin)";
+        displayname = "[K/44/C] Clone Vest (Zeressin)";
         hiddenselectionstextures[] = 
         {
             "", //kama left
@@ -791,38 +710,11 @@
         {
             containerclass = "supply200";
             mass = 50;
-            class HitpointsProtectionInfo
-            {
-                class Chest
-                {
-                    HitpointName = "HitChest";
-                    armor = 25;
-                    PassThrough = 0.1;
-                };
-                class Diaphragm
-                {
-                    HitpointName = "HitDiaphragm";
-                    armor = 20;
-                    PassThrough = 0.3;
-                };
-                class Abdomen
-                {
-                    hitpointName = "HitAbdomen";
-                    armor = 20;
-                    passThrough = 0.3;
-                };
-                class legs
-                {
-                    hitpointName = "HitLegs";
-                    armor = 20;
-                    passthrough = 0.3;
-                };
-            };
         };
     };
     class k_44ab_clone_barker_vest: k_clone_vest_heavy
     {
-        displayname = "[K/44] Clone Vest (Barker)";
+        displayname = "[K/44/C] Clone Vest (Barker)";
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\barker\kama_co.paa", //kama left
@@ -894,38 +786,11 @@
         {
             containerclass = "supply200";
             mass = 50;
-            class HitpointsProtectionInfo
-            {
-                class Chest
-                {
-                    HitpointName = "HitChest";
-                    armor = 25;
-                    PassThrough = 0.1;
-                };
-                class Diaphragm
-                {
-                    HitpointName = "HitDiaphragm";
-                    armor = 20;
-                    PassThrough = 0.3;
-                };
-                class Abdomen
-                {
-                    hitpointName = "HitAbdomen";
-                    armor = 20;
-                    passThrough = 0.3;
-                };
-                class legs
-                {
-                    hitpointName = "HitLegs";
-                    armor = 20;
-                    passthrough = 0.3;
-                };
-            };
         };
     };
     class k_44ab_clone_rex_vest: k_clone_vest_heavy
     {
-        displayname = "[K/44] Clone Vest (Rex)";
+        displayname = "[K/44/C] Clone Vest (Rex)";
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\rex\kama_co.paa", //kama left
@@ -1002,25 +867,25 @@
                 class Chest
                 {
                     HitpointName = "HitChest";
-                    armor = 25;
-                    PassThrough = 0.1;
+                    armor = 12;
+                    PassThrough = 0.3;
                 };
                 class Diaphragm
                 {
                     HitpointName = "HitDiaphragm";
-                    armor = 20;
+                    armor = 12;
                     PassThrough = 0.3;
                 };
                 class Abdomen
                 {
                     hitpointName = "HitAbdomen";
-                    armor = 20;
+                    armor = 12;
                     passThrough = 0.3;
                 };
                 class legs
                 {
                     hitpointName = "HitLegs";
-                    armor = 20;
+                    armor = 12;
                     passthrough = 0.3;
                 };
             };
@@ -1028,7 +893,7 @@
     };
     class k_44ab_clone_litch_vest: k_clone_vest_heavy
     {
-        displayname = "[K/44] Clone Vest (Litch)";
+        displayname = "[K/44/C] Clone Vest (Litch)";
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\litch\kama_co.paa", //kama left
@@ -1100,38 +965,11 @@
         {
             containerclass = "supply200";
             mass = 50;
-            class HitpointsProtectionInfo
-            {
-                class Chest
-                {
-                    HitpointName = "HitChest";
-                    armor = 25;
-                    PassThrough = 0.1;
-                };
-                class Diaphragm
-                {
-                    HitpointName = "HitDiaphragm";
-                    armor = 20;
-                    PassThrough = 0.3;
-                };
-                class Abdomen
-                {
-                    hitpointName = "HitAbdomen";
-                    armor = 20;
-                    passThrough = 0.3;
-                };
-                class legs
-                {
-                    hitpointName = "HitLegs";
-                    armor = 20;
-                    passthrough = 0.3;
-                };
-            };
         };
     };
     class k_44ab_clone_azarael_vest: k_clone_vest_heavy
     {
-        displayname = "[K/44] Clone Vest (Azarael)";
+        displayname = "[K/44/C] Clone Vest (Azarael)";
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\azarael\kama_co.paa", //kama left
@@ -1208,25 +1046,25 @@
                 class Chest
                 {
                     HitpointName = "HitChest";
-                    armor = 25;
-                    PassThrough = 0.1;
+                    armor = 12;
+                    PassThrough = 0.3;
                 };
                 class Diaphragm
                 {
                     HitpointName = "HitDiaphragm";
-                    armor = 20;
+                    armor = 12;
                     PassThrough = 0.3;
                 };
                 class Abdomen
                 {
                     hitpointName = "HitAbdomen";
-                    armor = 20;
+                    armor = 12;
                     passThrough = 0.3;
                 };
                 class legs
                 {
                     hitpointName = "HitLegs";
-                    armor = 20;
+                    armor = 12;
                     passthrough = 0.3;
                 };
             };
@@ -1234,7 +1072,7 @@
     };
     class k_44ab_clone_neko_vest: k_clone_vest_heavy
     {
-        displayname = "[K/44] Clone Vest (Neko)";
+        displayname = "[K/44/C] Clone Vest (Neko)";
         hiddenselectionstextures[] = 
         {
             "", //kama left
@@ -1306,38 +1144,11 @@
         {
             containerclass = "supply200";
             mass = 50;
-            class HitpointsProtectionInfo
-            {
-                class Chest
-                {
-                    HitpointName = "HitChest";
-                    armor = 25;
-                    PassThrough = 0.1;
-                };
-                class Diaphragm
-                {
-                    HitpointName = "HitDiaphragm";
-                    armor = 20;
-                    PassThrough = 0.3;
-                };
-                class Abdomen
-                {
-                    hitpointName = "HitAbdomen";
-                    armor = 20;
-                    passThrough = 0.3;
-                };
-                class legs
-                {
-                    hitpointName = "HitLegs";
-                    armor = 20;
-                    passthrough = 0.3;
-                };
-            };
         };
     };
     class k_44ab_clone_piercer_vest: k_clone_vest_heavy
     {
-        displayname = "[K/44] Clone Vest (Piercer)";
+        displayname = "[K/44/C] Clone Vest (Piercer) [Retired]";
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\vests\clone_vest\kama_co.paa", //kama left
@@ -1414,25 +1225,25 @@
                 class Chest
                 {
                     HitpointName = "HitChest";
-                    armor = 25;
-                    PassThrough = 0.1;
+                    armor = 12;
+                    PassThrough = 0.3;
                 };
                 class Diaphragm
                 {
                     HitpointName = "HitDiaphragm";
-                    armor = 20;
+                    armor = 12;
                     PassThrough = 0.3;
                 };
                 class Abdomen
                 {
                     hitpointName = "HitAbdomen";
-                    armor = 20;
+                    armor = 12;
                     passThrough = 0.3;
                 };
                 class legs
                 {
                     hitpointName = "HitLegs";
-                    armor = 20;
+                    armor = 12;
                     passthrough = 0.3;
                 };
             };
@@ -1440,7 +1251,7 @@
     };
     class k_44ab_clone_ditch_vest: k_clone_vest_heavy
     {
-        displayname = "[K/44] Clone Vest (Ditch)";
+        displayname = "[K/44/C] Clone Vest (Ditch)";
         hiddenselectionstextures[] = 
         {
             "", //kama left
@@ -1512,32 +1323,5 @@
         {
             containerclass = "supply200";
             mass = 50;
-            class HitpointsProtectionInfo
-            {
-                class Chest
-                {
-                    HitpointName = "HitChest";
-                    armor = 25;
-                    PassThrough = 0.1;
-                };
-                class Diaphragm
-                {
-                    HitpointName = "HitDiaphragm";
-                    armor = 20;
-                    PassThrough = 0.3;
-                };
-                class Abdomen
-                {
-                    hitpointName = "HitAbdomen";
-                    armor = 20;
-                    passThrough = 0.3;
-                };
-                class legs
-                {
-                    hitpointName = "HitLegs";
-                    armor = 20;
-                    passthrough = 0.3;
-                };
-            };
         };
     };

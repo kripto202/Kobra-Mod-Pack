@@ -166,7 +166,7 @@ class cfgvehicles
 		{
 			"kobra\k_vehicle_optre\warthog\data\extupper_rep_co.paa",
 			"\OPTRE_Vehicles\Warthog\data\snow\M12HogMaav_extunder_snow_co.paa",
-			"\OPTRE_Vehicles\Warthog\data\turrets\m12_turret_co.paa"
+			"\OPTRE_Vehicles\Warthog\data\snow\m12_turret_snow_co.paa"
 		};
 		class texturesources
 		{
@@ -274,7 +274,8 @@ class cfgvehicles
 		hiddenSelectionsTextures[] = 
 		{
 			"kobra\k_vehicle_optre\warthog\data\extupper_rep_co.paa",
-			"\OPTRE_Vehicles\Warthog\data\snow\M12HogMaav_extunder_snow_co.paa"
+			"\OPTRE_Vehicles\Warthog\data\snow\M12HogMaav_extunder_snow_co.paa",
+			"\OPTRE_Vehicles\Warthog\data\snow\m12_turret_snow_co.paa"
 		};
 		class texturesources
 		{
@@ -599,7 +600,9 @@ class cfgvehicles
 		hiddenSelectionsTextures[] = 
 		{
 			"kobra\k_vehicle_optre\warthog\data\extupper_rep_co.paa",
-			"\OPTRE_Vehicles\Warthog\data\snow\M12HogMaav_extunder_snow_co.paa"
+			"\OPTRE_Vehicles\Warthog\data\snow\M12HogMaav_extunder_snow_co.paa",
+			"\OPTRE_Vehicles\Warthog\data\snow\m68_turret_snow_co.paa",
+			"\OPTRE_Vehicles\Warthog\data\snow\m12_turret_snow_co.paa"
 		};
 		class texturesources
 		{
@@ -705,7 +708,8 @@ class cfgvehicles
 		hiddenSelectionsTextures[] = 
 		{
 			"kobra\k_vehicle_optre\warthog\data\extupper_rep_co.paa",
-			"\OPTRE_Vehicles\Warthog\data\snow\M12HogMaav_extunder_snow_co.paa"
+			"\OPTRE_Vehicles\Warthog\data\snow\M12HogMaav_extunder_snow_co.paa",
+			"\OPTRE_Vehicles\Warthog\data\snow\m79_turret_snow_co.paa"
 		};
 		class texturesources
 		{

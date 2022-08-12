@@ -203,7 +203,9 @@
 ///custom
     class k_barc_piercer_helmet: k_barc_helmet
     {
-        displayname = "[K/44] Barc Helmet (Piercer)";
+        displayname = "[K/44/C] Barc Helmet (Piercer) [Retired]";
+        ace_hearing_protection=1;
+		ace_hearing_lowervolume=0;
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\piercer\barc_helmet_co.paa", //helmet
@@ -217,7 +219,9 @@
     };
     class k_44ab_arf_azarael_helmet: k_arf_helmet
     {
-        displayname = "[K/44] Arf Helmet (Azarael)";
+        displayname = "[K/44/C] Arf Helmet (Azarael)";
+        ace_hearing_protection=1;
+		ace_hearing_lowervolume=0;
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\azarael\arf_helmet_co.paa",
@@ -231,7 +235,9 @@
     };
     class k_44ab_hunter_canada_Helmet: k_hunter_Helmet
     {
-        displayname = "[k/44] Hunter Helmet (Canada)";
+        displayname = "[K/44/C] Hunter Helmet (Canada) [Retired]";
+        ace_hearing_protection=1;
+		ace_hearing_lowervolume=0;
         hiddenselectionsmaterials[] = 
         {
             "kobra\442_units\data\helmet\hunter_helmet\helmet.rvmat"
@@ -245,7 +251,9 @@
     };
     class k_44ab_arf_monty_helmet: k_arf_helmet
     {
-        displayname = "[K/44] Arf Helmet (Monty)";
+        displayname = "[K/44/C] Arf Helmet (Monty)";
+        ace_hearing_protection=1;
+		ace_hearing_lowervolume=0;
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\monty\arf_helmet_co.paa",
@@ -258,7 +266,9 @@
     };
     class k_44ab_hunter_smith_Helmet: k_hunter_Helmet
     {
-        displayname = "[k/44] Hunter Helmet (Smith)";
+        displayname = "[K/44/C] Hunter Helmet (Smith)";
+        ace_hearing_protection=1;
+		ace_hearing_lowervolume=0;
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\smith\hunter_helmet_co.paa",
@@ -267,7 +277,7 @@
     };
     class k_44ab_barc_kripto_helmet: k_barc_helmet
     {
-        displayname = "[K/44] Barc Helmet (Kripto)";
+        displayname = "[K/44/C] Barc Helmet (Kripto)";
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\kripto\barc_helmet_co.paa", //helmet
@@ -280,7 +290,9 @@
     };
     class k_44ab_barc_ivanov_helmet: k_barc_helmet
     {
-        displayname = "[K/44] Barc Helmet (Ivanov)";
+        displayname = "[K/44/C] Barc Helmet (Ivanov)";
+        ace_hearing_protection=1;
+		ace_hearing_lowervolume=0;
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\ivanov\barc_helmet_co.paa", //helmet
@@ -294,7 +306,7 @@
     };
     class k_44ab_p1_rex_helmet: k_p1_helmet
     {
-        displayname = "[K/44] P1 Helmet (Rex)";
+        displayname = "[K/44/C] P1 Helmet (Rex)";
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\rex\p1_helmet_co.paa", //helmet
@@ -308,7 +320,9 @@
     };
     class k_44ab_p15_lore_helmet: k_p15_helmet
     {
-        displayname = "[K/44] P1.5 Helmet (Lore)";
+        displayname = "[K/44/C] P1.5 Helmet (Lore)";
+        ace_hearing_protection=1;
+		ace_hearing_lowervolume=0;
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\lore\p15_helmet_co.paa",
@@ -323,7 +337,8 @@
     };
     class k_44ab_p2_wolfie_helmet: k_p2_helmet
     {
-        displayname = "[K/44] P2 Helmet (Wolfie)";
+        displayname = "[K/44/C] P2 Helmet (Wolfie)";
+        ace_hearing_protection=1;
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\wolfie\p2_helmet_co.paa",
@@ -337,7 +352,9 @@
     };
     class k_44ab_barc_zepher_helmet: k_barc_helmet
     {
-        displayname = "[K/44] Barc Helmet (Zepher)";
+        displayname = "[K/44/C] Barc Helmet (Zepher) [Retired]";
+        ace_hearing_protection=1;
+		ace_hearing_lowervolume=0;
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\zepher\barc_helmet_co.paa", //helmet
@@ -351,7 +368,9 @@
     };
     class k_44ab_p15_wumbo_helmet: k_p15_helmet
     {
-        displayname = "[K/44] P1.5 Helmet (Wumbo)";
+        displayname = "[K/44/C] P1.5 Helmet (Wumbo)";
+        ace_hearing_protection=1;
+		ace_hearing_lowervolume=0;
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\wumbo\p15_helmet_co.paa", //helmet
@@ -366,7 +385,9 @@
     };
     class k_44ab_barc_zeressin_helmet: k_barc_helmet
     {
-        displayname = "[K/44] Barc Helmet (Zeressin)";
+        displayname = "[K/44/C] Barc Helmet (Zeressin)";
+        ace_hearing_protection=1;
+		ace_hearing_lowervolume=0;
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\zeressin\barc_helmet_co.paa", //helmet
@@ -380,7 +401,8 @@
     };
     class k_44ab_p2_barker_helmet: k_p2_helmet
     {
-        displayname = "[K/44] P2 Helmet (Barker)";
+        displayname = "[K/44/C] P2 Helmet (Barker)";
+        ace_hearing_protection=1;
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\barker\p2_helmet_co.paa",
@@ -394,7 +416,9 @@
     };
     class k_44ab_p2_ab_litch_helmet: k_p2_ab_helmet
     {
-        displayname = "[K/44] P2 Helmet (Litch)";
+        displayname = "[K/44/C] P2 Helmet (Litch)";
+        ace_hearing_protection=1;
+		ace_hearing_lowervolume=0;
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\litch\ab_helmet_co.paa",
@@ -403,7 +427,9 @@
     };
     class k_Scout_delta_Helmet: k_Scout_Helmet
     {
-        displayname = "[K/44] Scout Helmet (Delta)";
+        displayname = "[K/44/C] Scout Helmet (Delta) [Retired]";
+        ace_hearing_protection=1;
+		ace_hearing_lowervolume=0;
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\delta\scout_helmet_co.paa",
@@ -412,7 +438,9 @@
     };
     class k_wrecker_neko_helmet: k_wrecker_Helmet
     {
-        displayname = "[K/44] Wrecker Helmet (Neko)";
+        displayname = "[K/44/C] Wrecker Helmet (Neko)";
+        ace_hearing_protection=1;
+		ace_hearing_lowervolume=0;
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\neko\wrecker_helmet_co.paa",
@@ -421,7 +449,8 @@
     };
      class k_44ab_p2_ditch_helmet: k_p2_helmet
     {
-        displayname = "[K/44] P2 Helmet (Ditch)";
+        displayname = "[K/44/C] P2 Helmet (Ditch)";
+        ace_hearing_protection=1;
         hiddenselectionstextures[] = 
         {
             "kobra\442_units\data\unit_designs\44_attack_battalion\ditch\p2_helmet_co.paa",
