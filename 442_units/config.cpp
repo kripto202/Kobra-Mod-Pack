@@ -657,6 +657,7 @@ class cfgvehicles
 		tf_range=25000;
 		tf_subtype="digital_lr";
 	};
+///units
     class k_barracks_unit: O_officer_F
 	{
 		scope = 2;
@@ -1056,7 +1057,7 @@ class CfgWeapons
 {
 	class U_I_CombatUniform;
 	class U_O_OfficerUniform_ocamo;
-
+///uniform
 	class 442_uniform_base: U_I_CombatUniform
 	{
 		displayname="Clone Trooper Armor";
@@ -1092,7 +1093,39 @@ class CfgWeapons
 			uniformclass = "k_barracks_unit";
 		};
 	};
+    class k_scout_uniform: 442_uniform_base
+    {
+        displayname = "[K] Scout Trooper Armor";
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
+        model = "kobra\442_units\model\scout_uniform.p3d";
+        class ItemInfo: Iteminfo
+        {
+            ContainerClass = "Supply150";
+            mass = 20;
+            uniformclass = "k_scout_unit";
+        };
+    };
 
-	#include "uniform.hpp"
+    class k_clone_uniform: k_scout_uniform
+    {
+        displayname = "[K] Clone Trooper Armor";
+        model = "kobra\442_units\model\clone_uniform.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_clone_unit";
+        };
+    };
+
+    class k_commando_uniform: k_scout_uniform
+    {
+        displayname = "[K] Commando Armor";
+        model = "kobra\442_units\model\commando_uniform.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_commando_unit";
+        };
+    };
 	#include "uniform_custom.hpp"
 };

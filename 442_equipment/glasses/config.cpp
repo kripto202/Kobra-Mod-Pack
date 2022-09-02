@@ -1,6 +1,6 @@
 class cfgpatches
 {
-    class 442_misc_glasses
+    class 442_equipment_glasses
     {
         author = "KOBRA Mod Team";
         requiredAddons[]=
