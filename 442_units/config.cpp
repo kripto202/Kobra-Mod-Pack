@@ -23,29 +23,8 @@ class cfgpatches
 			"k_scout_unit_desert2"
 
 			"k_44ab_clone_unit",
-			"k_44ab_scout_unit",
-			"k_44ab_clone_piercer_unit",
-			"k_44ab_clone_azarael_unit",
-			"k_44ab_clone_canada_unit",
-			"k_44ab_clone_kripto_unit",
-			"k_44ab_clone_monty_unit",
-			"k_44ab_clone_smith_unit",
-			"k_44ab_clone_ivanov_unit",
-			"k_44ab_clone_lore_unit",
-			"k_44ab_clone_rex_unit",
-			"k_44ab_clone_wolfie_unit",
-			"k_44ab_clone_zepher_unit",
-			"k_44ab_clone_wumbo_unit",
-			"k_44ab_clone_zeressin_unit",
-			"k_44ab_clone_barker_unit",
-			"k_44ab_scout_delta_unit",
-			"k_44ab_clone_litch_unit",
-			"k_44ab_clone_neko_unit",
-			"k_44ab_clone_ditch_unit",
-			"",
-			"",
-			"",
-        };
+			"k_44ab_scout_unit"
+		};
         weapons[] = 
         {
             "k_Scout_Helmet",
@@ -254,7 +233,8 @@ class cfgvehicles
 {
     class B_Kitbag_rgr;
     class O_officer_F;
-	class land;
+
+	/*class land;
 	class Man: Land
 	{
 		class EventHandlers;
@@ -265,6 +245,9 @@ class cfgvehicles
 	};
     class B_Soldier_02_f: CAManBase
 	{
+		scope = 2;
+		scopecurator = 2;
+		scopearsenal = 2;
 		class HitPoints: HitPoints
 		{
 			class HitFace;
@@ -279,7 +262,8 @@ class cfgvehicles
 			class HitHands;
 			class HitLegs;
 		};
-	};
+	};*/
+	class B_Soldier_02_f;
     class 442_unit_base: B_Soldier_02_f
 	{
 		scope=1;
@@ -372,7 +356,146 @@ class cfgvehicles
 		explosionShielding=0.5;
 		minTotalDamageThreshold=0.001;
 		impactDamageMultiplier=0.5;
-		class HitPoints: HitPoints
+		class HitPoints
+		{
+			class HitFace
+			{
+				armor=1;
+				material=-1;
+				name="face_hub";
+				passThrough=0.80000001;
+				radius=0.079999998;
+				explosionShielding=0.1;
+				minimalHit=0.0099999998;
+			};
+			class HitNeck
+			{
+				armor=6;
+				material=-1;
+				name="neck";
+				passThrough=0.80000001;
+				radius=0.1;
+				explosionShielding=0.5;
+				minimalHit=0.0099999998;
+			};
+			class HitHead
+			{
+				armor=1;
+				material=-1;
+				name="head";
+				passThrough=0.80000001;
+				radius=0.2;
+				explosionShielding=0.5;
+				minimalHit=0.0099999998;
+				depends="HitFace max HitNeck";
+			};
+			class HitPelvis
+			{
+				armor=14;
+				material=-1;
+				name="pelvis";
+				passThrough=0.33000001;
+				radius=0.23999999;
+				explosionShielding=1;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+				depends="0";
+			};
+			class HitAbdomen
+			{
+				armor=14;
+				material=-1;
+				name="spine1";
+				passThrough=0.33000001;
+				radius=0.16;
+				explosionShielding=1;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+			};
+			class HitDiaphragm
+			{
+				armor=14;
+				material=-1;
+				name="spine2";
+				passThrough=0.33000001;
+				radius=0.18000001;
+				explosionShielding=1.5;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+			};
+			class HitChest
+			{
+				armor=16;
+				material=-1;
+				name="spine3";
+				passThrough=0.33000001;
+				radius=0.18000001;
+				explosionShielding=1.5;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+			};
+			class HitBody
+			{
+				armor=1000;
+				material=-1;
+				name="body";
+				passThrough=1;
+				radius=0;
+				explosionShielding=1.5;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+				depends="HitPelvis max HitAbdomen max HitDiaphragm max HitChest";
+			};
+			class HitArms
+			{
+				armor=8;
+				material=-1;
+				name="arms";
+				passThrough=0.69999999;
+				radius=0.1;
+				explosionShielding=0.1;
+				visual="injury_hands";
+				minimalHit=0.0099999998;
+				depends="0";
+			};
+			class HitHands
+			{
+				armor=8;
+				material=-1;
+				name="hands";
+				passThrough=0.69999999;
+				radius=0.1;
+				explosionShielding=0.1;
+				visual="injury_hands";
+				minimalHit=0.0099999998;
+				depends="HitArms";
+			};
+			class HitLegs
+			{
+				armor=8;
+				material=-1;
+				name="legs";
+				passThrough=0.69999999;
+				radius=0.14;
+				explosionShielding=0.1;
+				visual="injury_legs";
+				minimalHit=0.0099999998;
+				depends="0";
+			};
+			class Incapacitated: HitLegs
+			{
+				armor=1000;
+				material=-1;
+				name="body";
+				passThrough=1;
+				radius=0;
+				explosionShielding=1;
+				visual="";
+				minimalHit=0;
+				depends="(((Total - 0.25) max 0) + ((HitHead - 0.25) max 0) + ((HitBody - 0.25) max 0)) * 1.45";
+			};
+		};
+		/*class HitPoints: HitPoints
 		{
 			class HitFace: HitFace
 			{
@@ -510,7 +633,7 @@ class cfgvehicles
 				minimalHit=0;
 				depends="(((Total - 0.25) max 0) + ((HitHead - 0.25) max 0) + ((HitBody - 0.25) max 0)) * 1.45";
 			};
-		};
+		};*/
 	};
     class k_clone_backpack_base: B_Kitbag_rgr
 	{
@@ -578,19 +701,362 @@ class cfgvehicles
 			"ItemWatch"
 		};
 	};
-	#include "unit.hpp"
+	class k_scout_unit: 442_unit_base
+    {
+        displayname = "Scout Trooper";
+        model = "kobra\442_units\scout_uniform.p3d";
+        uniformclass = "k_scout_uniform";
+        faction = "kobra_b";
+        editorSubCategory = "442_trooper";
+        hiddenselections[] = 
+        {
+            "armor",
+            "gloves",
+            "undersuit"
+        };
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\uniform\scout_uniform\armor_co.paa",
+            "kobra\442_units\data\uniform\scout_uniform\gloves_co.paa",
+            "kobra\442_units\data\uniform\scout_uniform\undersuit_co.paa"
+        };
+        class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"kobra\442_units\data\uniform\scout_uniform\armor.rvmat",
+				"kobra\442_units\data\uniform\scout_uniform\armor_injury.rvmat",
+				"kobra\442_units\data\uniform\scout_uniform\armor_injury.rvmat",
+
+				"kobra\442_units\data\uniform\scout_uniform\gloves.rvmat",
+				"kobra\442_units\data\uniform\scout_uniform\gloves_injury.rvmat",
+				"kobra\442_units\data\uniform\scout_uniform\gloves_injury.rvmat",
+
+                "kobra\442_units\data\uniform\scout_uniform\undersuit.rvmat",
+				"kobra\442_units\data\uniform\scout_uniform\undersuit_injury.rvmat",
+				"kobra\442_units\data\uniform\scout_uniform\undersuit_injury.rvmat",
+
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"a3\characters_f\heads\data\hl_white.rvmat",
+				"a3\characters_f\heads\data\hl_white_injury.rvmat",
+				"a3\characters_f\heads\data\hl_white_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_02_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular.rvmat",
+				"A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat",
+				"A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat",
+				"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular.rvmat",
+				"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat",
+				"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"
+			};
+		};
+    };
+    class k_clone_unit: k_scout_unit
+    {
+        displayname = "Clone Trooper";
+        model = "kobra\442_units\clone_uniform.p3d";
+        uniformclass = "k_clone_uniform";
+        hiddenselections[] = 
+        {
+            "upper",
+            "lower",
+            "clan",
+			"insignia"
+        };
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_units\data\uniform\clone_uniform\upper_armor_co.paa",
+            "kobra\442_units\data\uniform\clone_uniform\lower_armor_co.paa"
+        };
+        class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"kobra\442_units\data\uniform\clone_uniform\upper_armor.rvmat",
+				"kobra\442_units\data\uniform\clone_uniform\upper_armor_injury.rvmat",
+				"kobra\442_units\data\uniform\clone_uniform\upper_armor_injury.rvmat",
+
+				"kobra\442_units\data\uniform\clone_uniform\lower_armor.rvmat",
+				"kobra\442_units\data\uniform\clone_uniform\lower_armor_injury.rvmat",
+				"kobra\442_units\data\uniform\clone_uniform\lower_armor_injury.rvmat",
+
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"a3\characters_f\heads\data\hl_white.rvmat",
+				"a3\characters_f\heads\data\hl_white_injury.rvmat",
+				"a3\characters_f\heads\data\hl_white_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_02_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular.rvmat",
+				"A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat",
+				"A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat",
+				"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular.rvmat",
+				"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat",
+				"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"
+			};
+		};
+    };
+	class k_commando_unit: k_scout_unit
+    {
+        displayname = "Clone Commando";
+        model = "kobra\442_units\commando_uniform.p3d";
+        uniformclass = "k_clone_uniform";
+		cost=101000;
+        hiddenselections[]=
+        {
+            "chest",
+            "arms",
+			"legs",
+			"undersuit"
+        };
+        hiddenselectionstextures[]=
+        {
+            "kobra\442_units\data\uniform\commando_uniform\chest_co.paa",
+            "kobra\442_units\data\uniform\commando_uniform\arm_co.paa",
+            "kobra\442_units\data\uniform\commando_uniform\leg_co.paa",
+            "kobra\442_units\data\uniform\commando_uniform\undersuit_co.paa",
+        };
+        class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"kobra\442_units\data\uniform\commando_uniform\chest.rvmat",
+				"kobra\442_units\data\uniform\commando_uniform\chest_injury.rvmat",
+				"kobra\442_units\data\uniform\commando_uniform\chest_injury.rvmat",
+
+				"kobra\442_units\data\uniform\commando_uniform\arm.rvmat",
+				"kobra\442_units\data\uniform\commando_uniform\arm_injury.rvmat",
+				"kobra\442_units\data\uniform\commando_uniform\arm_injury.rvmat",
+
+				"kobra\442_units\data\uniform\commando_uniform\leg.rvmat",
+				"kobra\442_units\data\uniform\commando_uniform\leg_injury.rvmat",
+				"kobra\442_units\data\uniform\commando_uniform\leg_injury.rvmat",
+
+				"kobra\442_units\data\uniform\commando_uniform\undersuit.rvmat",
+				"kobra\442_units\data\uniform\commando_uniform\undersuit_injury.rvmat",
+				"kobra\442_units\data\uniform\commando_uniform\undersuit_injury.rvmat",
+
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"a3\characters_f\heads\data\hl_white.rvmat",
+				"a3\characters_f\heads\data\hl_white_injury.rvmat",
+				"a3\characters_f\heads\data\hl_white_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_02_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular.rvmat",
+				"A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat",
+				"A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat",
+				"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular.rvmat",
+				"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat",
+				"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"
+			};
+		};
+		class HitPoints
+		{
+			class HitFace
+			{
+				armor=1;
+				material=-1;
+				name="face_hub";
+				passThrough=0.80000001;
+				radius=0.079999998;
+				explosionShielding=0.1;
+				minimalHit=0.0099999998;
+			};
+			class HitNeck
+			{
+				armor=6;
+				material=-1;
+				name="neck";
+				passThrough=0.80000001;
+				radius=0.1;
+				explosionShielding=0.5;
+				minimalHit=0.0099999998;
+			};
+			class HitHead
+			{
+				armor=1;
+				material=-1;
+				name="head";
+				passThrough=0.80000001;
+				radius=0.2;
+				explosionShielding=0.5;
+				minimalHit=0.0099999998;
+				depends="HitFace max HitNeck";
+			};
+			class HitPelvis
+			{
+				armor=14;
+				material=-1;
+				name="pelvis";
+				passThrough=0.33000001;
+				radius=0.23999999;
+				explosionShielding=1;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+				depends="0";
+			};
+			class HitAbdomen
+			{
+				armor=14;
+				material=-1;
+				name="spine1";
+				passThrough=0.33000001;
+				radius=0.16;
+				explosionShielding=1;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+			};
+			class HitDiaphragm
+			{
+				armor=14;
+				material=-1;
+				name="spine2";
+				passThrough=0.33000001;
+				radius=0.18000001;
+				explosionShielding=1.5;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+			};
+			class HitChest
+			{
+				armor=16;
+				material=-1;
+				name="spine3";
+				passThrough=0.33000001;
+				radius=0.18000001;
+				explosionShielding=1.5;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+			};
+			class HitBody
+			{
+				armor=1000;
+				material=-1;
+				name="body";
+				passThrough=1;
+				radius=0;
+				explosionShielding=1.5;
+				visual="injury_body";
+				minimalHit=0.0099999998;
+				depends="HitPelvis max HitAbdomen max HitDiaphragm max HitChest";
+			};
+			class HitArms
+			{
+				armor=8;
+				material=-1;
+				name="arms";
+				passThrough=0.69999999;
+				radius=0.1;
+				explosionShielding=0.1;
+				visual="injury_hands";
+				minimalHit=0.0099999998;
+				depends="0";
+			};
+			class HitHands
+			{
+				armor=8;
+				material=-1;
+				name="hands";
+				passThrough=0.69999999;
+				radius=0.1;
+				explosionShielding=0.1;
+				visual="injury_hands";
+				minimalHit=0.0099999998;
+				depends="HitArms";
+			};
+			class HitLegs
+			{
+				armor=8;
+				material=-1;
+				name="legs";
+				passThrough=0.69999999;
+				radius=0.14;
+				explosionShielding=0.1;
+				visual="injury_legs";
+				minimalHit=0.0099999998;
+				depends="0";
+			};
+			class Incapacitated
+			{
+				armor=1000;
+				material=-1;
+				name="body";
+				passThrough=1;
+				radius=0;
+				explosionShielding=1;
+				visual="";
+				minimalHit=0;
+				depends="(((Total - 0.25) max 0) + ((HitHead - 0.25) max 0) + ((HitBody - 0.25) max 0)) * 1.45";
+			};
+		};
+    };
 	#include "unit_custom.hpp"
 };
-class cfgweapons 
+
+class UniformItem;
+
+class CfgWeapons
 {
-    class HeadgearItem;
-    class H_HelmetO_ViperSP_hex_F;
-    class UniformItem;
-    class U_I_CombatUniform;
-    class vestitem;
-	class V_rebreatherB;
+	class U_I_CombatUniform;
 	class U_O_OfficerUniform_ocamo;
-    class 442_uniform_base: U_I_CombatUniform
+
+	class 442_uniform_base: U_I_CombatUniform
 	{
 		displayname="Clone Trooper Armor";
 		author = "KOBRA Mod Team";
@@ -625,469 +1091,7 @@ class cfgweapons
 			uniformclass = "k_barracks_unit";
 		};
 	};
-    class k_vest_base: V_rebreatherB
-    {
-        author = "Kobra Mod Team";
-        displayname = "vest base";
-        scope = 0;
-        scopecurator = 0;
-        scopearsenal = 0;
-        allowedSlots[] = {901};
-        picture = "\kobra\kobra_core\kobra.paa";
-		icon = "\kobra\kobra_core\kobra.paa";
-        class ItemInfo: vestitem
-        {
-            uniformmodel = "";
-            containerclass = "Supply200";
-            mass = 80;
-            vesttype = "Rebreather";
-            class HitpointsProtectionInfo
-            {
-                class Chest
-                {
-                    HitpointName = "HitChest";
-                    armor = 1;
-                    PassThrough = 1;
-                };
-                class Diaphragm
-                {
-                    HitpointName = "HitDiaphragm";
-                    armor = 0;
-                    PassThrough = 1;
-                };
-                class Abdomen
-                {
-                    hitpointName = "HitAbdomen";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
-        };
-    };
-    class k_helmet_base: H_HelmetO_ViperSP_hex_F
-	{
-		author = "KOBRA Mod Team";
-		displayname = "helmet base config";
-		picture = "\kobra\kobra_core\kobra.paa";
-		icon = "\kobra\kobra_core\kobra.paa";
-		scope = 0;
-		scopecurator = 0;
-		scopearsenal = 0;
-		ace_hearing_protection = 0.8500002;
-		ace_hearing_lowervolume = 0.2;
-		//picture="\SWLB_clones\data\ui\icon_SWLB_clone_helmet_ca.paa";
-		hiddenselections[] = {};
-		//model = "swlb_clones\swlb_clone_p2_helmet.p3d";
-		subItems[] = {"k_nvg"};
-		class Iteminfo: HeadgearItem
-		{
-			mass = 10;
-			//uniformModel = "\swlb_clones\swlb_clone_p2_helmet.p3d";
-			hiddenselections[] = {};
-			allowedSlots[] = {801,901,701,605};
-			modelsides[] = {0,1,2,3};
-			class HitpointsProtectionInfo
-			{
-				class Head
-				{
-					hitpointname = "HitHead";
-					armor = 12;
-					passThrough = 0.5;
-				};
-				class Face
-				{
-					hitpointName = "HitFace";
-					armor = 8;
-					passThrough = 0.5;
-				};
-			};
-		};
-	};
 
-	class k_Scout_Helmet_base: k_helmet_base
-	{
-		displayName="[K] Scout Helmet";
-		model="kobra\442_units\scout_helmet.p3d";
-		subItems[]=
-		{
-			"k_nvg_ti"
-		};
-		hiddenSelections[]=
-		{
-			"Camo1",
-			"visor"
-		};
-		class ItemInfo: ItemInfo
-		{
-			uniformModel="kobra\442_units\scout_helmet.p3d";
-			hiddenSelections[]=
-			{
-				"Camo1",
-				"visor"
-			};
-		};
-	};
-	class k_hunter_helmet_base: k_helmet_base
-	{
-		displayName="[K] Hunter Helmet";
-		model="kobra\442_units\hunter_helmet.p3d";
-		subItems[]=
-		{
-			"k_nvg"
-		};
-		hiddenSelections[]=
-		{
-			"helmet",
-			"visor"
-		};
-		class ItemInfo: ItemInfo
-		{
-			uniformModel="kobra\442_units\hunter_helmet.p3d";
-			hiddenSelections[]=
-			{
-				"helmet",
-				"visor"
-			};
-		};
-	};
-	class k_crosshair_helmet_base: k_helmet_base
-	{
-		displayName="[K] Crosshair Helmet";
-		model="kobra\442_units\crosshair_helmet.p3d";
-		subItems[]=
-		{
-			"k_nvg"
-		};
-		hiddenSelections[]=
-		{
-			"helmet",
-			"visor"
-		};
-		class ItemInfo: ItemInfo
-		{
-			uniformModel="kobra\442_units\crosshair_helmet.p3d";
-			hiddenSelections[]=
-			{
-				"helmet",
-				"visor"
-			};
-		};
-	};
-	class k_wrecker_helmet_base: k_helmet_base
-	{
-		displayName="[K] Wrecker Helmet";
-		model="kobra\442_units\wrecker_helmet.p3d";
-		subItems[]=
-		{
-			"k_nvg"
-		};
-		hiddenSelections[]=
-		{
-			"helmet",
-			"visor"
-		};
-		class ItemInfo: ItemInfo
-		{
-			uniformModel="kobra\442_units\wrecker_helmet.p3d";
-			hiddenSelections[]=
-			{
-				"helmet",
-				"visor"
-			};
-		};
-	};
-	class k_tech_helmet_base: k_helmet_base
-	{
-		displayName="[K] Tech Helmet";
-		model="kobra\442_units\tech_helmet.p3d";
-		subItems[]=
-		{
-			"k_nvg"
-		};
-		hiddenSelections[]=
-		{
-			"helmet"
-		};
-		class ItemInfo: ItemInfo
-		{
-			uniformModel="kobra\442_units\tech_helmet.p3d";
-			hiddenSelections[]=
-			{
-				"helmet"
-			};
-		};
-	};
-	class k_tech_helmet1_base: k_tech_helmet_base
-	{
-		model="kobra\442_units\tech_helmet1.p3d";
-		class ItemInfo: ItemInfo
-		{
-			uniformModel="kobra\442_units\tech_helmet1.p3d";
-		};
-	};
-	class k_cadet_helmet_base: k_helmet_base
-	{
-		displayName="[K] Cadet Helmet";
-		model="kobra\442_units\cadet_helmet.p3d";
-		subItems[]=
-		{
-			"k_nvg"
-		};
-		hiddenSelections[]=
-		{
-			"helmet"
-		};		
-		class ItemInfo: ItemInfo
-		{
-			uniformModel="kobra\442_units\cadet_helmet.p3d";
-			hiddenSelections[]=
-			{
-				"helmet"
-			};
-		};
-	};
-
-	class k_p2_helmet_base: k_helmet_base
-	{
-		displayname = "[K] P2 Helmet";
-		model = "kobra\442_units\p2_helmet.p3d";
-		hiddenselections[] = 
-		{
-			"helmet",
-			"visor",
-            "helmet_visor",
-            "plates",
-            "sensor",
-            "antenna",
-            "macro_visor"
-		};
-		class iteminfo: Iteminfo
-		{
-			uniformmodel = "kobra\442_units\p2_helmet.p3d";
-			hiddenselections[] = 
-			{
-				"helmet",
-				"visor",
-				"helmet_visor",
-				"plates",
-				"sensor",
-				"antenna",
-				"macro_visor"
-			};
-		};
-	};
-	class k_p1_helmet_base: k_helmet_base
-	{
-		displayname = "[K] P1 Helmet";
-		model = "kobra\442_units\p1_helmet.p3d";
-		hiddenselections[] = 
-		{
-			"helmet",
-			"visor",
-            "helmet_visor",
-            "sensor",
-            "antenna",
-            "macro_visor"
-		};
-		class iteminfo: Iteminfo
-		{
-			uniformmodel = "kobra\442_units\p1_helmet.p3d";
-			hiddenselections[] = 
-			{
-				"helmet",
-				"visor",
-				"helmet_visor",
-				"sensor",
-				"antenna",
-				"macro_visor"
-			};
-		};
-	};
-	class k_p1_pilot_helmet_base: k_helmet_base
-	{
-		displayname = "[K] P1 Pilot Helmet";
-		model = "kobra\442_units\p1_pilot_helmet.p3d";
-		hiddenselections[] = 
-		{
-			"helmet",
-			"visor"
-		};
-		subItems[] = {"k_nvg_ti"};
-		class iteminfo: Iteminfo
-		{
-			uniformmodel = "kobra\442_units\p1_pilot_helmet.p3d";
-			hiddenselections[] = 
-			{
-				"helmet",
-				"visor"
-			};
-		};
-	};
-	class k_p1_airborne_helmet_base: k_helmet_base
-	{
-		displayname = "[K] P1 Airborne Helmet";
-		model = "kobra\442_units\p1_airborne_helmet.p3d";
-		hiddenselections[] = 
-		{
-			"helmet",
-			"visor"
-		};
-		class iteminfo: Iteminfo
-		{
-			uniformmodel = "kobra\442_units\p1_airborne_helmet.p3d";
-			hiddenselections[] = 
-			{
-				"helmet",
-				"visor"
-			};
-		};
-	};
-	class k_arf_helmet_base: k_helmet_base
-	{
-		displayname = "[K] Arf Helmet";
-		model = "kobra\442_units\arf_helmet.p3d";
-		hiddenselections[] = 
-		{
-			"helmet",
-            "visor",
-            "brim",
-            "plates",
-            "macro_visor",
-            "mask"
-		};
-		class iteminfo: Iteminfo
-		{
-			uniformmodel = "kobra\442_units\arf_helmet.p3d";
-			hiddenselections[] = 
-			{
-				"helmet",
-				"visor",
-				"brim",
-				"plates",
-				"macro_visor",
-				"mask"
-			};
-		};
-	};
-	class k_p1_airborne_base: k_helmet_base
-	{
-		displayname = "[K] P1 Airborne Helmet";
-		model = "kobra\442_units\p1_airborne_helmet.p3d";
-		hiddenselections[] = 
-		{
-			"helmet",
-			"visor"
-		};
-		class iteminfo: Iteminfo
-		{
-			uniformmodel = "kobra\442_units\p1_airborne_helmet.p3d";
-			hiddenselections[] = 
-			{
-				"helmet",
-				"visor"
-			};
-		};
-	};
-	class k_barc_helmet_base: k_helmet_base
-	{
-		displayname = "[K] Barc Helmet";
-		model = "kobra\442_units\barc_helmet.p3d";
-		hiddenselections[] = 
-		{
-			"helmet",
-			"visor",
-            "helmet_visor",
-            "plates",
-            "sensor",
-            "antenna"
-		};
-		class itemInfo: ItemInfo
-		{
-			uniformmodel = "kobra\442_units\barc_helmet.p3d";
-			hiddenselections[] = 
-			{
-				"helmet",
-				"visor",
-				"helmet_visor",
-				"plates",
-				"sensor",
-				"antenna"
-			};
-		};
-	};
-	class k_p15_helmet_base: k_helmet_base
-	{
-		displayname = "[K] P1.5 Helmet";
-		model = "kobra\442_units\p15_helmet.p3d";
-		hiddenselections[] = 
-		{
-			"helmet",
-			"visor",
-            "helmet_visor",
-            "plates",
-            "sensor",
-            "antenna",
-            "macro_visor"
-		};
-		class itemInfo: ItemInfo
-		{
-			uniformmodel = "kobra\442_units\p15_helmet.p3d";
-			hiddenselections[] = 
-			{
-				"helmet",
-				"visor",
-				"helmet_visor",
-				"plates",
-				"sensor",
-				"antenna",
-				"macro_visor"
-			};
-		};
-	};
-	class k_p2_pilot_helmet_base: k_helmet_base
-	{
-		displayname = "[K] P2 Pilot Helmet";
-		model = "kobra\442_units\p2_pilot_helmet.p3d";
-		hiddenselections[] = 
-		{
-			"helmet",
-			"visor"
-		};
-		class itemInfo: ItemInfo
-		{
-			uniformmodel = "kobra\442_units\p2_pilot_helmet.p3d";
-			hiddenselections[] = 
-			{
-				"helmet",
-				"visor"
-			};
-		};
-	};
-	class k_p2_ab_helmet_base: k_helmet_base
-	{
-		displayname = "[K] P2 Airborne Helmet";
-		model = "kobra\442_units\p2_ab_helmet.p3d";
-		hiddenselections[] = 
-		{
-			"helmet",
-			"visor"
-		};
-		class itemInfo: ItemInfo
-		{
-			uniformmodel = "kobra\442_units\p2_ab_helmet.p3d";
-			hiddenselections[] = 
-			{
-				"helmet",
-				"visor"
-			};
-		};
-	};
-    #include "helmet.hpp"
-	#include "helmet_custom.hpp"
 	#include "uniform.hpp"
 	#include "uniform_custom.hpp"
-	#include "vest_clone.hpp"
-	#include "vest_clone_custom.hpp"
-	#include "vest_scout.hpp"
 };
-

@@ -12,3 +12,9 @@ class cfgpatches
         weapons[] = {};
     };
 };
+
+class CfgWeapons
+{
+    #include "vest_clone_custom.hpp"
+    #include "helmet_custom.hpp"
+};

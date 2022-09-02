@@ -116,9 +116,8 @@ class 442_45_45rnd_Grav_blue_mag: 442_45_45rnd_blue_mag
     ammo="442_ammo_45_Grav_base";
 };
 
-class 442_45_100rnd_Grav_blue_mag: 442_45_45rnd_Grav_blue_mag
+class 442_45_100rnd_Grav_blue_mag: 442_45_100rnd_blue_mag
 {
     displayname=".45 ACP Plasma Cell Grav Assisted (100rnd Blue)";
-    mass=14;
-    count=100;
+    ammo="442_ammo_45_Grav_base";
 };

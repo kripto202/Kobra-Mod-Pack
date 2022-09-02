@@ -1,6 +1,6 @@
 class 442_ammo_556_base: 442_ammo_base
 {
-	hit=8;
+	hit=9;
 	model="";
 	typicalspeed = 920;
 	dangerRadiusBulletClose=8;
@@ -40,7 +40,7 @@ class 442_ammo_65_base: 442_ammo_base
 	suppressionRadiusBulletClose = 6;
 	suppressionRadiusHit = 8;
 	typicalSpeed = 820;
-	caliber = 1;
+	caliber = 1.2;
 	//effectfly="442_plasma_blue";
 	//ExplosionEffects="442_plasma_impact";
 	//cratereffects = "442_plasma_impact";

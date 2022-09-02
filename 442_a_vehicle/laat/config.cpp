@@ -31,7 +31,7 @@ class cfgpatches
     };
 };
 
-class Extended_init_EventHandlers
+/*class Extended_init_EventHandlers
 {
 	class lsd_laat_base
 	{
@@ -54,7 +54,7 @@ class Extended_init_EventHandlers
 			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle; }; (_this) spawn ls_vehicle_fnc_ImpulsorMonitor;";
 		};
 	};
-};
+};*/
 
 class SensorTemplatePassiveRadar;
 class DefaultVehicleSystemsDisplayManagerLeft
@@ -104,13 +104,16 @@ class cfgvehicles
     class Helicopter;
 	class ACE_SelfActions;
 
-    class Helicopter_Base_F : Helicopter {
+    class Helicopter_Base_F: Helicopter 
+	{
         class Turrets;
 		class Hitpoints;
     };
 
-    class Helicopter_Base_H: Helicopter_Base_F {
-		class Turrets: Turrets {
+    class Helicopter_Base_H: Helicopter_Base_F 
+	{
+		class Turrets: Turrets 
+		{
 			class MainTurret;	// External class reference
 		};
 
@@ -121,7 +124,8 @@ class cfgvehicles
         class RotorLibHelicopterProperties;	// External class reference
 		class Components;
 
-        class HitPoints: HitPoints {
+        class HitPoints: HitPoints 
+		{
             class HitHull;	// External class reference
             class HitFuel;	// External class reference
             class HitEngine;	// External class reference
@@ -130,7 +134,8 @@ class cfgvehicles
             class HitAvionics;	// External class reference
         };
 
-		class Reflectors {
+		class Reflectors 
+		{
             class Right;	// External class reference
         };
 	};

@@ -64,13 +64,16 @@ class VehicleSystemsTemplateRightGunner: DefaultVehicleSystemsDisplayManagerRigh
 class cfgVehicles
 {
     class Helicopter;
-    class Helicopter_Base_F : Helicopter {
+    class Helicopter_Base_F: Helicopter 
+	{
         class Turrets;
 		class Hitpoints;
     };
 
-    class Helicopter_Base_H: Helicopter_Base_F {
-		class Turrets: Turrets {
+    class Helicopter_Base_H: Helicopter_Base_F 
+	{
+		class Turrets: Turrets 
+		{
 			class MainTurret;	// External class reference
 		};
 

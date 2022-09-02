@@ -321,12 +321,12 @@ class cfgpatches
                 "colorB",
                 "colorA"
             };
-            sizeCoef=10;
+/**         sizeCoef=10;
             particleFSNtieth=16;
             lifeTime=60;
             rubbing=0.01;
             size[]={0.1,3,10};
-            randomDirectionIntensity=0.1;
+            randomDirectionIntensity=0.1;*/
             blockAIVisibility = 1;
             color[]=
             {
@@ -334,7 +334,10 @@ class cfgpatches
                 {0,0,0,0.050000001},
                 {0,0,0,0}
             };
-            MoveVelocityVar[]={1,1,1};
+//            MoveVelocityVar[] = {0.3,0.3,0.3};
+            moveVelocity[] = {0.2,0.5,0.1};
+		    size[] = {0.46,4.5,18};
+		    MoveVelocityVar[] = {0.7,0.4,0.7};
         };
         class k_SmokeShellWhite: k_SmokeShellBlack
         {

@@ -57,7 +57,7 @@ class cfgvehicles
 	{
 		maximumload=100;
 		displayName="";
-		tf_dialog="SWLB_clone_rto_radio_dialog";
+		tf_dialog = "mr6000l_radio_dialog";
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
 		tf_encryptionCode="tf_west_radio_code";
 		tf_hasLRradio=1;
@@ -339,7 +339,7 @@ class cfgvehicles
         displayname = "[K] Clone Trooper Small Radio Backpack";
         scope = 2;
         maximumload = 50;
-        tf_dialog="SWLB_clone_rto_radio_dialog";
+        tf_dialog = "mr6000l_radio_dialog";
         tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
         tf_encryptionCode="tf_west_radio_code";
         tf_hasLRradio=1;
@@ -359,7 +359,7 @@ class cfgvehicles
         displayname = "[K] Clone Trooper Small Radio Backpack w/ Pouches";
         scope = 2;
         maximumload = 100;
-        tf_dialog="SWLB_clone_rto_radio_dialog";
+        tf_dialog = "mr6000l_radio_dialog";
         tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
         tf_encryptionCode="tf_west_radio_code";
         tf_hasLRradio=1;
@@ -378,7 +378,7 @@ class cfgvehicles
 	{
 		displayname = "[K] Clone Trooper Medium Radio Backpack";
 		maximumload = 75;
-		tf_dialog="SWLB_clone_rto_radio_dialog";
+		tf_dialog = "mr6000l_radio_dialog";
         tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
         tf_encryptionCode="tf_west_radio_code";
         tf_hasLRradio=1;
@@ -606,7 +606,7 @@ class cfgvehicles
 	{
 		displayname = "[K] JT12 Parajumper (Radio)";
 		maximumload = 350;
-		tf_dialog="SWLB_clone_rto_radio_dialog";
+		tf_dialog = "mr6000l_radio_dialog";
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
 		tf_encryptionCode="tf_west_radio_code";
 		tf_hasLRradio=1;
@@ -629,7 +629,7 @@ class cfgvehicles
 		};
 		maximumload=150;
 		displayName="[K] JT-12 Jumppack (Radio)";
-		tf_dialog="SWLB_clone_rto_radio_dialog";
+		tf_dialog = "mr6000l_radio_dialog";
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
 		tf_encryptionCode="tf_west_radio_code";
 		tf_hasLRradio=1;
@@ -652,7 +652,7 @@ class cfgvehicles
 	class 442_cdv_19_radio: 442_cdv_19
 	{
 		displayname = "[K] CDV-19 (Radio)";
-		tf_dialog="SWLB_clone_rto_radio_dialog";
+		tf_dialog = "mr6000l_radio_dialog";
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
 		tf_encryptionCode="tf_west_radio_code";
 		tf_hasLRradio=1;

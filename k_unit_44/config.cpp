@@ -175,4 +175,5 @@ class cfgweapons
     #include "44_uniform.hpp"
     #include "44_helmet.hpp"
     //#include "44_vest.hpp"
+    #include "uniform_custom.hpp"
 };

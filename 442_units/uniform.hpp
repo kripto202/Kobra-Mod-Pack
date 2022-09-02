@@ -4,7 +4,7 @@
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
-        model = "kobra\442_units\scout_uniform.p3d";
+        model = "kobra\442_equipment\scout_uniform.p3d";
         class ItemInfo: Iteminfo
         {
             ContainerClass = "Supply150";
@@ -16,9 +16,19 @@
     class k_clone_uniform: k_scout_uniform
     {
         displayname = "[K] Clone Trooper Armor";
-        model = "kobra\442_units\clone_uniform.p3d";
+        model = "kobra\442_equipment\clone_uniform.p3d";
         class ItemInfo: ItemInfo
         {
             uniformclass = "k_clone_unit";
+        };
+    };
+
+    class k_commando_uniform: k_scout_uniform
+    {
+        displayname = "[K] Commando Armor";
+        model = "kobra\442_equipment\commando_uniform.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_commando_unit";
         };
     };

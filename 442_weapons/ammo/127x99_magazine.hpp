@@ -92,8 +92,8 @@ class 442_127x99_500rnd_Grav_blue_mag: 442_127x99_500rnd_blue_mag
     ammo="442_ammo_127x99_Grav_base";
 };
 
-class 442_127x99_1000rnd_Grav_blue_mag: 442_127x99_500rnd_Grav_blue_mag
+class 442_127x99_1000rnd_Grav_blue_mag: 442_127x99_1000rnd_blue_mag
 {
     displayname="12.7mm Plasma Cell Grav Assisted (1000rnd Blue)";
-    count=1000;
+    ammo="442_ammo_127x99_Grav_base";
 };

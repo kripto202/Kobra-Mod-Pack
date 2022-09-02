@@ -810,7 +810,7 @@ class cfgvehicles
 		hiddenSelectionsTextures[] = 
 		{
 			"kobra\k_vehicle_optre\warthog\data\extupper_rep_co.paa",
-			"OPTRE_Vehicles\Warthog\data\warthog_addons_snow_co.paa",
+			"\OPTRE_Vehicles\Warthog\data\snow\M12HogMaav_extunder_snow_co.paa",
 			"\OPTRE_Vehicles\Warthog\data\snow\transp_lopo_snow_co.paa"
 		};
 		class texturesources
@@ -918,7 +918,7 @@ class cfgvehicles
 		hiddenSelectionsTextures[] = 
 		{
 			"kobra\k_vehicle_optre\warthog\data\extupper_cis_co.paa",
-			"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa",
+			"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa"
 		};
 	};
 	class 442_cis_warthog_at: 442_warthog_at
@@ -935,7 +935,8 @@ class cfgvehicles
 		hiddenSelectionsTextures[] = 
 		{
 			"kobra\k_vehicle_optre\warthog\data\extupper_cis_co.paa",
-			"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa"
+			"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa",
+			"\OPTRE_Vehicles\Warthog\data\night\m12_turret_night_co.paa"
 		};
 	};
 	class 442_cis_warthog_apc: 442_warthog_apc
@@ -953,7 +954,8 @@ class cfgvehicles
 		{
 			"kobra\k_vehicle_optre\warthog\data\extupper_cis_co.paa",
 			"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa",
-			"\OPTRE_Vehicles\Warthog\data\night\transp_lopo_night_co.paa","\OPTRE_Vehicles\Warthog\data\night\hog_apc_night_co.paa"
+			"\OPTRE_Vehicles\Warthog\data\night\transp_lopo_night_co.paa",
+			"\OPTRE_Vehicles\Warthog\data\night\hog_apc_night_co.paa"
 		};
 	};
 	class 442_cis_warthog_repair: 442_warthog_repair
@@ -987,7 +989,9 @@ class cfgvehicles
 		hiddenSelectionsTextures[] = 
 		{
 			"kobra\k_vehicle_optre\warthog\data\extupper_cis_co.paa",
-			"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa"
+			"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa",
+			"\OPTRE_Vehicles\Warthog\data\night\m68_turret_night_co.paa",
+			"\OPTRE_Vehicles\Warthog\data\night\m12_turret_night_co.paa"
 		};
 	};
 	class 442_cis_warthog_aa: 442_warthog_aa
@@ -1004,7 +1008,8 @@ class cfgvehicles
 		hiddenSelectionsTextures[] = 
 		{
 			"kobra\k_vehicle_optre\warthog\data\extupper_cis_co.paa",
-			"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa"
+			"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa",
+			"\OPTRE_Vehicles\Warthog\data\night\m79_turret_night_co.paa"
 		};
 	};
 	class 442_cis_warthog_tt: 442_warthog_tt
@@ -1040,7 +1045,7 @@ class cfgvehicles
 		{
 			"kobra\k_vehicle_optre\warthog\data\extupper_cis_co.paa",
 			"\OPTRE_Vehicles\Warthog\data\night\M12HogMaav_extunder_night_co.paa",
-			"\OPTRE_Vehicles\Warthog\data\turrets\m12_turret_co.paa"
+			"\OPTRE_Vehicles\Warthog\data\night\m12_turret_night_co.paa"
 		};
 	};
 };

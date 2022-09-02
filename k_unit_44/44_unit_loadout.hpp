@@ -6,8 +6,8 @@
 		displayname = "Trooper (DC-15A)";
 		//icon = "";
 		attendant = 0;
-		engineer = false;
-		canDeactivateMines="false";
+		engineer = 0;
+		canDeactivateMines=0;
 		linkedItems[] = 
 		{
 			"k_ls_44_p2_helmet",

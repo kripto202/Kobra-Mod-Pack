@@ -10,8 +10,8 @@ class cfgpatches
 		requiredVersion = 0.1;
 		units[] = 
         {
-            "land_442_bacta_tank",
-            "land_442_bacta_tank_w"
+            "442_bacta_tank",
+            "442_bacta_tank_w"
         };
         weapons[] = {};
     };
@@ -20,7 +20,7 @@ class cfgpatches
 class cfgvehicles
 {
     class House_F;
-    class land_442_bacta_tank: house_f
+    class 442_bacta_tank: house_f
 	{
 		scope=2;
 		scopecurator=2;
@@ -129,7 +129,7 @@ class cfgvehicles
 		};
 	};
 	class ruins_f;
-	class land_442_bacta_tank_w: ruins_f
+	class 442_bacta_tank_w: ruins_f
 	{
 		author = "KOBRA Mod Team";
 		mapsize = 20;

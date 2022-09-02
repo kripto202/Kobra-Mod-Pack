@@ -21,14 +21,14 @@
     {
         displayname = "6.5mm Plasma Cell (60rnd Blue)";
         picture="\kobra\442_weapons\ammo\data\ui\DC15a_mag_ui_blue_ca.paa";
-        mass = 20;
+        mass = 9;
         count = 60;
     };
 	class 442_65_100rnd_blue_mag: 442_65_30rnd_blue_mag
     {
         displayname = "6.5mm Plasma Cell (100rnd Blue)";
         picture="\kobra\442_weapons\ammo\data\ui\DC15a_mag_ui_blue_ca.paa";
-        mass=9;
+        mass=15;
         count = 100;
 	};
     class 442_65_150rnd_blue_mag: 442_65_30rnd_blue_mag
@@ -313,36 +313,31 @@
 		ammo="442_ammo_65_Grav_base";
 	};
 
-	class 442_65_60rnd_Grav_blue_mag: 442_65_30rnd_Grav_blue_mag
+	class 442_65_60rnd_Grav_blue_mag: 442_65_60rnd_blue_mag
 	{
 		displayname="6.5mm Plasma Cell Grav Assisted (60rnd Blue)";
-		mass=20;
-		count=60;
+		ammo="442_ammo_65_Grav_base";
 	};
 
-	class 442_65_100rnd_Grav_blue_mag: 442_65_30rnd_Grav_blue_mag
+	class 442_65_100rnd_Grav_blue_mag: 442_65_100rnd_blue_mag
 	{
 		displayname="6.5mm Plasma Cell Grav Assisted (100rnd Blue)";
-		mass=32;
-		count=100;
+		ammo="442_ammo_65_Grav_base";
 	};
 
-	class 442_65_150rnd_Grav_blue_mag: 442_65_30rnd_Grav_blue_mag
+	class 442_65_150rnd_Grav_blue_mag: 442_65_150rnd_blue_mag
 	{
 		displayname="6.5mm Plasma Cell Grav Assisted (150rnd Blue)";
-		mass=48;
-		count=150;
+		ammo="442_ammo_65_Grav_base";
 	};
 
-	class 442_65_200rnd_Grav_blue_mag: 442_65_30rnd_Grav_blue_mag
+	class 442_65_200rnd_Grav_blue_mag: 442_65_200rnd_blue_mag
 	{
 		displayname="6.5mm Plasma Cell Grav Assisted (200rnd Blue)";
-		mass=64;
-		count=200;
+		ammo="442_ammo_65_Grav_base";
 	};
-	class 442_65_20rnd_Grav_blue_mag: 442_65_30rnd_Grav_blue_mag
+	class 442_65_20rnd_Grav_blue_mag: 442_65_20rnd_blue_mag
 	{
 		displayname="6.5mm Plasma Cell Grav Assisted (20rnd Blue)";
-		mass=7;
-		count=20;
+		ammo="442_ammo_65_Grav_base";
 	};

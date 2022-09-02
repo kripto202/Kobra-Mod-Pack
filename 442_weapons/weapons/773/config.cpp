@@ -263,8 +263,8 @@ class cfgweapons
 		author = "KOBRA";
 		scope = 2;
 		displayname = "[K] 773 Variable Scope";
-		picture = "kobra\kobra_core\kobra.paa";
-		icon = "kobra\kobra_core\kobra.paa";
+		picture = "\kobra\kobra_core\kobra.paa";
+		icon = "\kobra\kobra_core\kobra.paa";
 		model = "kobra\442_weapons\weapons\773\k_773_scope1.p3d";
 		MRT_SwitchItemNextClass = "k_773_scope2";
 		MRT_SwitchItemPrevClass = "k_773_scope2";
@@ -313,7 +313,7 @@ class cfgweapons
 	{
 		scope = 1;
 		model = "kobra\442_weapons\weapons\773\k_773_scope2.p3d";
-		picture = "kobra\kobra_core\kobra.paa";
+		picture = "\kobra\kobra_core\kobra.paa";
 		MRT_SwitchItemNextClass = "k_773_scope1";
 		MRT_SwitchItemPrevClass = "k_773_scope1";
 		MRT_switchItemHintText = "Long Range";

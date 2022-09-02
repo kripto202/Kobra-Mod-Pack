@@ -356,44 +356,38 @@
 		ammo="442_ammo_556_Grav_base";
 	};
 
-	class 442_556_60rnd_Grav_blue_mag: 442_556_30rnd_Grav_blue_mag
+	class 442_556_60rnd_Grav_blue_mag: 442_556_60rnd_blue_mag
 	{
 		displayname="5.56x45mm Plasma Cell Grav Assisted (60rnd Blue)";
-		mass=16;
-		count=60;
+		ammo="442_ammo_556_Grav_base";
 	};
 
-	class 442_556_100rnd_Grav_blue_mag: 442_556_30rnd_Grav_blue_mag
+	class 442_556_100rnd_Grav_blue_mag: 442_556_100rnd_blue_mag
 	{
 		displayname="5.56x45mm Plasma Cell Grav Assisted (100rnd Blue)";
-		mass=26;
-		count=100;
+		ammo="442_ammo_556_Grav_base";
 	};
 	
-	class 442_556_150rnd_Grav_blue_mag: 442_556_30rnd_Grav_blue_mag
+	class 442_556_150rnd_Grav_blue_mag: 442_556_150rnd_blue_mag
 	{
 		displayname="5.56x45mm Plasma Cell Grav Assisted (150rnd Blue)";
-		mass=30;
-		count=150;
+		ammo="442_ammo_556_Grav_base";
 	};
 
-	class 442_556_200rnd_Grav_blue_mag: 442_556_30rnd_Grav_blue_mag
+	class 442_556_200rnd_Grav_blue_mag: 442_556_200rnd_blue_mag
 	{
 		displayname="5.56x45mm Plasma Cell Grav Assisted (200rnd Blue)";
-		mass=40;
-		count=200;
+		ammo="442_ammo_556_Grav_base";
 	};
 
-	class 442_556_20rnd_Grav_blue_mag: 442_556_30rnd_Grav_blue_mag
+	class 442_556_20rnd_Grav_blue_mag: 442_556_20rnd_blue_mag
 	{
 		displayname="5.56x45mm Plasma Cell Grav Assisted (20rnd Blue)";
-		mass=5;
-		count=20;
+		ammo="442_ammo_556_Grav_base";
 	};
 
-	class 442_556_500rnd_Grav_blue_mag: 442_556_30rnd_Grav_blue_mag
+	class 442_556_500rnd_Grav_blue_mag: 442_556_500rnd_blue_mag
 	{
 		displayname="5.56x45mm Plasma Cell Grav Assisted (500rnd Blue)";
-		mass=80;
-		count=500;
+		ammo="442_ammo_556_Grav_base";
 	};
