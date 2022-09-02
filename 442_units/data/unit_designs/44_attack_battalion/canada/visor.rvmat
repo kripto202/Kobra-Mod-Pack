@@ -48,7 +48,7 @@ class Stage3
 };
 class Stage4
 {
-	texture=kobra\442_units\data\helmet\hunter_helmet\visor_as.paa;
+	texture=kobra\442_equipment\helmets\data\hunter_helmet\visor_as.paa;
 	uvSource="tex";
 	class uvTransform
 	{
@@ -60,7 +60,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="kobra\442_units\data\helmet\hunter_helmet\visor_smdi.paa";
+	texture="kobra\442_equipment\helmets\data\hunter_helmet\visor_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{

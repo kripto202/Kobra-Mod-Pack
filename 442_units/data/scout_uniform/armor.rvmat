@@ -12,7 +12,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="kobra\442_units\data\uniform\scout_uniform\armor_nohq.paa";
+	texture="kobra\442_units\data\scout_uniform\armor_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -48,7 +48,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="kobra\442_units\data\uniform\scout_uniform\armor_as.paa";
+	texture="kobra\442_units\data\scout_uniform\armor_as.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -60,7 +60,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="kobra\442_units\data\uniform\scout_uniform\armor_smdi.paa";
+	texture="kobra\442_units\data\scout_uniform\armor_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{

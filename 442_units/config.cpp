@@ -295,11 +295,11 @@ class cfgvehicles
 			tex[]={};
 			mat[]=
 			{
-				"kobra\442_units\data\uniform\clone_uniform\upper_armor.rvmat",
+				"kobra\442_units\data\clone_uniform\upper_armor.rvmat",
 				"A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat",
 				"A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat",
 
-				"kobra\442_units\data\uniform\clone_uniform\lower_armor.rvmat",
+				"kobra\442_units\data\clone_uniform\lower_armor.rvmat",
 				"A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat",
 				"A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat",
 
@@ -672,7 +672,7 @@ class cfgvehicles
 		movesFatigue="CfgMovesFatigueTrooper";
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_units\data\uniform\Barracks.paa"
+			"kobra\442_units\data\Barracks.paa"
 		};
 		weapons[]=
 		{
@@ -704,7 +704,7 @@ class cfgvehicles
 	class k_scout_unit: 442_unit_base
     {
         displayname = "Scout Trooper";
-        model = "kobra\442_units\scout_uniform.p3d";
+        model = "kobra\442_units\model\scout_uniform.p3d";
         uniformclass = "k_scout_uniform";
         faction = "kobra_b";
         editorSubCategory = "442_trooper";
@@ -716,26 +716,26 @@ class cfgvehicles
         };
         hiddenselectionstextures[] = 
         {
-            "kobra\442_units\data\uniform\scout_uniform\armor_co.paa",
-            "kobra\442_units\data\uniform\scout_uniform\gloves_co.paa",
-            "kobra\442_units\data\uniform\scout_uniform\undersuit_co.paa"
+            "kobra\442_units\data\scout_uniform\armor_co.paa",
+            "kobra\442_units\data\scout_uniform\gloves_co.paa",
+            "kobra\442_units\data\scout_uniform\undersuit_co.paa"
         };
         class Wounds
 		{
 			tex[]={};
 			mat[]=
 			{
-				"kobra\442_units\data\uniform\scout_uniform\armor.rvmat",
-				"kobra\442_units\data\uniform\scout_uniform\armor_injury.rvmat",
-				"kobra\442_units\data\uniform\scout_uniform\armor_injury.rvmat",
+				"kobra\442_units\data\scout_uniform\armor.rvmat",
+				"kobra\442_units\data\scout_uniform\armor_injury.rvmat",
+				"kobra\442_units\data\scout_uniform\armor_injury.rvmat",
 
-				"kobra\442_units\data\uniform\scout_uniform\gloves.rvmat",
-				"kobra\442_units\data\uniform\scout_uniform\gloves_injury.rvmat",
-				"kobra\442_units\data\uniform\scout_uniform\gloves_injury.rvmat",
+				"kobra\442_units\data\scout_uniform\gloves.rvmat",
+				"kobra\442_units\data\scout_uniform\gloves_injury.rvmat",
+				"kobra\442_units\data\scout_uniform\gloves_injury.rvmat",
 
-                "kobra\442_units\data\uniform\scout_uniform\undersuit.rvmat",
-				"kobra\442_units\data\uniform\scout_uniform\undersuit_injury.rvmat",
-				"kobra\442_units\data\uniform\scout_uniform\undersuit_injury.rvmat",
+                "kobra\442_units\data\scout_uniform\undersuit.rvmat",
+				"kobra\442_units\data\scout_uniform\undersuit_injury.rvmat",
+				"kobra\442_units\data\scout_uniform\undersuit_injury.rvmat",
 
 				"A3\Characters_F\Common\Data\basicbody.rvmat",
 				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
@@ -773,7 +773,7 @@ class cfgvehicles
     class k_clone_unit: k_scout_unit
     {
         displayname = "Clone Trooper";
-        model = "kobra\442_units\clone_uniform.p3d";
+        model = "kobra\442_units\model\clone_uniform.p3d";
         uniformclass = "k_clone_uniform";
         hiddenselections[] = 
         {
@@ -784,21 +784,21 @@ class cfgvehicles
         };
         hiddenselectionstextures[] = 
         {
-            "kobra\442_units\data\uniform\clone_uniform\upper_armor_co.paa",
-            "kobra\442_units\data\uniform\clone_uniform\lower_armor_co.paa"
+            "kobra\442_units\data\clone_uniform\upper_armor_co.paa",
+            "kobra\442_units\data\clone_uniform\lower_armor_co.paa"
         };
         class Wounds
 		{
 			tex[]={};
 			mat[]=
 			{
-				"kobra\442_units\data\uniform\clone_uniform\upper_armor.rvmat",
-				"kobra\442_units\data\uniform\clone_uniform\upper_armor_injury.rvmat",
-				"kobra\442_units\data\uniform\clone_uniform\upper_armor_injury.rvmat",
+				"kobra\442_units\data\clone_uniform\upper_armor.rvmat",
+				"kobra\442_units\data\clone_uniform\upper_armor_injury.rvmat",
+				"kobra\442_units\data\clone_uniform\upper_armor_injury.rvmat",
 
-				"kobra\442_units\data\uniform\clone_uniform\lower_armor.rvmat",
-				"kobra\442_units\data\uniform\clone_uniform\lower_armor_injury.rvmat",
-				"kobra\442_units\data\uniform\clone_uniform\lower_armor_injury.rvmat",
+				"kobra\442_units\data\clone_uniform\lower_armor.rvmat",
+				"kobra\442_units\data\clone_uniform\lower_armor_injury.rvmat",
+				"kobra\442_units\data\clone_uniform\lower_armor_injury.rvmat",
 
 				"A3\Characters_F\Common\Data\basicbody.rvmat",
 				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
@@ -836,7 +836,7 @@ class cfgvehicles
 	class k_commando_unit: k_scout_unit
     {
         displayname = "Clone Commando";
-        model = "kobra\442_units\commando_uniform.p3d";
+        model = "kobra\442_units\model\commando_uniform.p3d";
         uniformclass = "k_clone_uniform";
 		cost=101000;
         hiddenselections[]=
@@ -848,31 +848,31 @@ class cfgvehicles
         };
         hiddenselectionstextures[]=
         {
-            "kobra\442_units\data\uniform\commando_uniform\chest_co.paa",
-            "kobra\442_units\data\uniform\commando_uniform\arm_co.paa",
-            "kobra\442_units\data\uniform\commando_uniform\leg_co.paa",
-            "kobra\442_units\data\uniform\commando_uniform\undersuit_co.paa",
+            "kobra\442_units\data\commando_uniform\chest_co.paa",
+            "kobra\442_units\data\commando_uniform\arm_co.paa",
+            "kobra\442_units\data\commando_uniform\leg_co.paa",
+            "kobra\442_units\data\commando_uniform\undersuit_co.paa",
         };
         class Wounds
 		{
 			tex[]={};
 			mat[]=
 			{
-				"kobra\442_units\data\uniform\commando_uniform\chest.rvmat",
-				"kobra\442_units\data\uniform\commando_uniform\chest_injury.rvmat",
-				"kobra\442_units\data\uniform\commando_uniform\chest_injury.rvmat",
+				"kobra\442_units\data\commando_uniform\chest.rvmat",
+				"kobra\442_units\data\commando_uniform\chest_injury.rvmat",
+				"kobra\442_units\data\commando_uniform\chest_injury.rvmat",
 
-				"kobra\442_units\data\uniform\commando_uniform\arm.rvmat",
-				"kobra\442_units\data\uniform\commando_uniform\arm_injury.rvmat",
-				"kobra\442_units\data\uniform\commando_uniform\arm_injury.rvmat",
+				"kobra\442_units\data\commando_uniform\arm.rvmat",
+				"kobra\442_units\data\commando_uniform\arm_injury.rvmat",
+				"kobra\442_units\data\commando_uniform\arm_injury.rvmat",
 
-				"kobra\442_units\data\uniform\commando_uniform\leg.rvmat",
-				"kobra\442_units\data\uniform\commando_uniform\leg_injury.rvmat",
-				"kobra\442_units\data\uniform\commando_uniform\leg_injury.rvmat",
+				"kobra\442_units\data\commando_uniform\leg.rvmat",
+				"kobra\442_units\data\commando_uniform\leg_injury.rvmat",
+				"kobra\442_units\data\commando_uniform\leg_injury.rvmat",
 
-				"kobra\442_units\data\uniform\commando_uniform\undersuit.rvmat",
-				"kobra\442_units\data\uniform\commando_uniform\undersuit_injury.rvmat",
-				"kobra\442_units\data\uniform\commando_uniform\undersuit_injury.rvmat",
+				"kobra\442_units\data\commando_uniform\undersuit.rvmat",
+				"kobra\442_units\data\commando_uniform\undersuit_injury.rvmat",
+				"kobra\442_units\data\commando_uniform\undersuit_injury.rvmat",
 
 				"A3\Characters_F\Common\Data\basicbody.rvmat",
 				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
@@ -1046,6 +1046,7 @@ class cfgvehicles
 			};
 		};
     };
+	
 	#include "unit_custom.hpp"
 };
 

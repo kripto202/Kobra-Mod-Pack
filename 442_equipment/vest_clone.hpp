@@ -2,7 +2,7 @@
 	{
 		author = "KOBRA Mod Team";
 		displayname = "Clone Vest Base";
-		model = "kobra\442_equipment\clone_vest.p3d";
+		model = "kobra\442_equipment\vests\model\clone\clone_vest.p3d";
 		hiddenselections[] = 
 		{
 			"kamaL",
@@ -113,7 +113,7 @@
                 "arc_pouchL",
                 "arc_pouchR"
 			};
-			uniformmodel = "kobra\442_equipment\clone_vest.p3d";
+			uniformmodel = "kobra\442_equipment\vests\model\clone\clone_vest.p3d";
 			containerclass = "Supply100";
 			mass = 20;
 		};
