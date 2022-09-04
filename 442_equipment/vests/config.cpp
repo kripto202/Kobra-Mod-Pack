@@ -101,7 +101,6 @@ class cfgweapons
             };
         };
     };
-};
 //clone vests
 //this needs to be redone for the new vests
     class k_clone_vest_base: k_vest_base
@@ -238,11 +237,11 @@ class cfgweapons
 			"", //kama right
             //pouch1
             "", //Left front
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //left center
+            "clone_belt_co.paa", //left center
             "", //left back
 
             "", //right front
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //right center
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right center
             "", //right back
 
             //pouch2
@@ -309,11 +308,11 @@ class cfgweapons
 			"",
 			"",
             //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //Left front
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //Left front
             "", //left center
             "", //left back
 
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //right front
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right front
             "", //right center
             "", //right back
 
@@ -377,12 +376,12 @@ class cfgweapons
 			"",
             
             //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //left front
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //left center
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left front
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left center
             "", //left back
 
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //right front
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //right center
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right front
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right center
             "", //right back
 
             //pouch2
@@ -450,13 +449,13 @@ class cfgweapons
 			"", //kama right
             
             //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //left front
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //left center
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //left back
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left front
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left center
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left back
 
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //right front
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //right center
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //right back
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right front
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right center
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right back
 
             //pouch2
             "", //left front
@@ -525,11 +524,11 @@ class cfgweapons
             
             //pouch1
             "", //left front
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //left center
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left center
             "", //left back
 
             "", //right front
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //right center
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right center
             "", //right back
 
             //pouch2
@@ -546,9 +545,9 @@ class cfgweapons
             "", //left center
             "", //left back
 
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //right front
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right front
             "", //right center
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //right back
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right back
 
             //pouch4
             "", //left front
@@ -560,9 +559,9 @@ class cfgweapons
             "", //right back
 
             //pouch5
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //left front
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left front
             "", //left center
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //left back
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left back
 
             "", //right front
             "", //right center
@@ -597,7 +596,7 @@ class cfgweapons
 			"",
 			"",
             //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //Left front
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //Left front
             "", //left center
             "", //left back
 
@@ -607,7 +606,7 @@ class cfgweapons
 
             //pouch2
             "", //left front
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //left center
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left center
             "", //left back
 
             "", //right front
@@ -617,7 +616,7 @@ class cfgweapons
             //pouch3
             "", //left front
             "", //left center
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //left back
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left back
 
             "", //right front
             "", //right center
@@ -629,7 +628,7 @@ class cfgweapons
             "", //left back
 
             "", //right front
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //right center
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right center
             "", //right back
 
             //pouch5
@@ -637,7 +636,7 @@ class cfgweapons
             "", //left center
             "", //left back
 
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //right front
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right front
             "", //right center
             "", //right back
 
@@ -666,16 +665,16 @@ class cfgweapons
 		scopearsenal = 2;
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama_co.paa",
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama_co.paa",
             
             //pouch1
             "", //left front
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //left center
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left center
             "", //left back
 
             "", //right front
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //right center
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right center
             "", //right back
             
             //pouch2
@@ -739,7 +738,7 @@ class cfgweapons
 		displayname = "[K] Left Kama";
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama_co.paa",
 			"",
             //pouch1
             "", //left front
@@ -747,7 +746,7 @@ class cfgweapons
             "", //left back
 
             "", //right front
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //right center
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right center
             "", //right back
 
             //pouch2
@@ -755,7 +754,7 @@ class cfgweapons
             "", //left center
             "", //left back
 
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //right front
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right front
             "", //right center
             "", //right back
 
@@ -766,7 +765,7 @@ class cfgweapons
 
             "", //right front
             "", //right center
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //right back
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right back
 
             //pouch4
             "", //left front
@@ -812,12 +811,12 @@ class cfgweapons
 		hiddenselectionstextures[] = 
 		{
 			"",
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama_co.paa",
 
             //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //left front
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //left center
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //left back
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left front
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left center
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left back
             "", //right front
             "", //right center
             "", //right back
@@ -884,14 +883,14 @@ class cfgweapons
 		displayname = "[K] Kama Dirty";
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama_dirt_co.paa",
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama_dirt_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama_dirt_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama_dirt_co.paa",
             
             "", //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
             "",
             "",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
             "",
 
             "", //pouch2
@@ -942,15 +941,15 @@ class cfgweapons
 		displayname = "[K] Left Kama Dirty";
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama_dirt_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama_dirt_co.paa",
 			"",
              
             "", //pouch1
             "",
             "",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
 
             "", //pouch2
             "",
@@ -1001,11 +1000,11 @@ class cfgweapons
 		hiddenselectionstextures[] = 
 		{
 			"",
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama_dirt_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama_dirt_co.paa",
             
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //pouch1
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
             "",
             "",
             "",
@@ -1059,14 +1058,14 @@ class cfgweapons
 		displayname = "[K] Kama 1";
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama1_co.paa",
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama1_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama1_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama1_co.paa",
             
             "", //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
             "",
             "",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
             "",
 
             "", //pouch2
@@ -1117,15 +1116,15 @@ class cfgweapons
 		displayname = "[K] Left Kama 1";
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama1_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama1_co.paa",
 			"",
              
             "", //pouch1
             "",
             "",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
 
             "", //pouch2
             "",
@@ -1176,11 +1175,11 @@ class cfgweapons
 		hiddenselectionstextures[] = 
 		{
 			"",
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama1_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama1_co.paa",
             
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //pouch1
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
             "",
             "",
             "",
@@ -1234,14 +1233,14 @@ class cfgweapons
 		displayname = "[K] Kama 2";
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama2_co.paa",
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama2_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama2_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama2_co.paa",
             
             "", //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
             "",
             "",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
             "",
 
             "", //pouch2
@@ -1292,15 +1291,15 @@ class cfgweapons
 		displayname = "[K] Left Kama 2";
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama2_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama2_co.paa",
 			"",
              
             "", //pouch1
             "",
             "",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
 
             "", //pouch2
             "",
@@ -1351,11 +1350,11 @@ class cfgweapons
 		hiddenselectionstextures[] = 
 		{
 			"",
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama2_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama2_co.paa",
             
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //pouch1
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
             "",
             "",
             "",
@@ -1409,14 +1408,14 @@ class cfgweapons
 		displayname = "[K] Kama 5";
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama5_co.paa",
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama5_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama5_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama5_co.paa",
             
             "", //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
             "",
             "",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
             "",
 
             "", //pouch2
@@ -1467,15 +1466,15 @@ class cfgweapons
 		displayname = "[K] Left Kama 5";
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama5_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama5_co.paa",
 			"",
              
             "", //pouch1
             "",
             "",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
 
             "", //pouch2
             "",
@@ -1526,11 +1525,11 @@ class cfgweapons
 		hiddenselectionstextures[] = 
 		{
 			"",
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama5_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama5_co.paa",
             
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //pouch1
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
             "",
             "",
             "",
@@ -1584,14 +1583,14 @@ class cfgweapons
 		displayname = "[K] Kama 6";
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama6_co.paa",
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama6_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama6_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama6_co.paa",
             
             "", //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
             "",
             "",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
             "",
 
             "", //pouch2
@@ -1642,15 +1641,15 @@ class cfgweapons
 		displayname = "[K] Left Kama 6";
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama6_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama6_co.paa",
 			"",
              
             "", //pouch1
             "",
             "",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
 
             "", //pouch2
             "",
@@ -1701,11 +1700,11 @@ class cfgweapons
 		hiddenselectionstextures[] = 
 		{
 			"",
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama6_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama6_co.paa",
             
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //pouch1
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
             "",
             "",
             "",
@@ -1759,14 +1758,14 @@ class cfgweapons
 		displayname = "[K] Kama 7";
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama7_co.paa",
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama7_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama7_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama7_co.paa",
             
             "", //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
             "",
             "",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
             "",
 
             "", //pouch2
@@ -1817,15 +1816,15 @@ class cfgweapons
 		displayname = "[K] Left Kama 7";
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama7_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama7_co.paa",
 			"",
              
             "", //pouch1
             "",
             "",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
 
             "", //pouch2
             "",
@@ -1876,11 +1875,11 @@ class cfgweapons
 		hiddenselectionstextures[] = 
 		{
 			"",
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama7_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama7_co.paa",
             
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //pouch1
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
             "",
             "",
             "",
@@ -1935,14 +1934,14 @@ class cfgweapons
         displayname = "[K] ARC Clone Vest 1";
         hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama_co.paa",
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama_co.paa",
             //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //Left front
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //Left front
             "", //left center
             "", //left back
 
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //right front
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right front
             "", //right center
             "", //right back
 
@@ -1986,18 +1985,18 @@ class cfgweapons
             "", //leg_pouchL
             "", //leg_pouchR
 
-            "kobra\442_equipment\vests\data\clone\clone_vest\arc_pauldron_co.paa", //pauldron_arcC
-            "kobra\442_equipment\vests\data\clone\clone_vest\arc_pauldron_co.paa", //pauldron_arcL
-            "kobra\442_equipment\vests\data\clone\clone_vest\arc_pauldron_co.paa", //pauldron_arcR
+            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa", //pauldron_arcC
+            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa", //pauldron_arcL
+            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa", //pauldron_arcR
 
             "", //pauldron_ncoL
             "", //pauldron_ncoR
 
-            "kobra\442_equipment\vests\data\clone\clone_vest\arc_plates_co.paa", //arc_chest
-            "kobra\442_equipment\vests\data\clone\clone_vest\arc_plates_co.paa", //arc_legs
+            "kobra\442_equipment\vests\data\clone\arc_plates_co.paa", //arc_chest
+            "kobra\442_equipment\vests\data\clone\arc_plates_co.paa", //arc_legs
 
             "", //arc_pouchL
-            "kobra\442_equipment\vests\data\clone\clone_vest\arc_pouch_co.paa", //arc_pouchR
+            "kobra\442_equipment\vests\data\clone\arc_pouch_co.paa", //arc_pouchR
 		};
         class itemInfo: ItemInfo
         {
@@ -2038,14 +2037,14 @@ class cfgweapons
         displayname = "[K] ARC Clone Vest 2";
         hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama_co.paa",
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama_co.paa",
             //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //Left front
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //Left front
             "", //left center
             "", //left back
 
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //right front
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right front
             "", //right center
             "", //right back
 
@@ -2089,17 +2088,17 @@ class cfgweapons
             "", //leg_pouchL
             "", //leg_pouchR
 
-            "kobra\442_equipment\vests\data\clone\clone_vest\arc_pauldron_co.paa", //pauldron_arcC
-            "kobra\442_equipment\vests\data\clone\clone_vest\arc_pauldron_co.paa", //pauldron_arcL
-            "kobra\442_equipment\vests\data\clone\clone_vest\arc_pauldron_co.paa", //pauldron_arcR
+            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa", //pauldron_arcC
+            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa", //pauldron_arcL
+            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa", //pauldron_arcR
 
             "", //pauldron_ncoL
             "", //pauldron_ncoR
 
-            "kobra\442_equipment\vests\data\clone\clone_vest\arc_plates_co.paa", //arc_chest
-            "kobra\442_equipment\vests\data\clone\clone_vest\arc_plates_co.paa", //arc_legs
+            "kobra\442_equipment\vests\data\clone\arc_plates_co.paa", //arc_chest
+            "kobra\442_equipment\vests\data\clone\arc_plates_co.paa", //arc_legs
 
-            "kobra\442_equipment\vests\data\clone\clone_vest\arc_pouch_co.paa", //arc_pouchL
+            "kobra\442_equipment\vests\data\clone\arc_pouch_co.paa", //arc_pouchL
             "", //arc_pouchR
 		};
     };
@@ -2109,14 +2108,14 @@ class cfgweapons
         displayname = "[K] ARC Clone Vest 3";
         hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama_co.paa",
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama_co.paa",
             //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //Left front
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //Left front
             "", //left center
             "", //left back
 
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa", //right front
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right front
             "", //right center
             "", //right back
 
@@ -2160,18 +2159,18 @@ class cfgweapons
             "", //leg_pouchL
             "", //leg_pouchR
 
-            "kobra\442_equipment\vests\data\clone\clone_vest\arc_pauldron_co.paa", //pauldron_arcC
-            "kobra\442_equipment\vests\data\clone\clone_vest\arc_pauldron_co.paa", //pauldron_arcL
-            "kobra\442_equipment\vests\data\clone\clone_vest\arc_pauldron_co.paa", //pauldron_arcR
+            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa", //pauldron_arcC
+            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa", //pauldron_arcL
+            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa", //pauldron_arcR
 
             "", //pauldron_ncoL
             "", //pauldron_ncoR
 
-            "kobra\442_equipment\vests\data\clone\clone_vest\arc_plates_co.paa", //arc_chest
-            "kobra\442_equipment\vests\data\clone\clone_vest\arc_plates_co.paa", //arc_legs
+            "kobra\442_equipment\vests\data\clone\arc_plates_co.paa", //arc_chest
+            "kobra\442_equipment\vests\data\clone\arc_plates_co.paa", //arc_legs
 
-            "kobra\442_equipment\vests\data\clone\clone_vest\arc_pouch_co.paa", //arc_pouchL
-            "kobra\442_equipment\vests\data\clone\clone_vest\arc_pouch_co.paa", //arc_pouchR
+            "kobra\442_equipment\vests\data\clone\arc_pouch_co.paa", //arc_pouchL
+            "kobra\442_equipment\vests\data\clone\arc_pouch_co.paa", //arc_pouchR
 		};
     };
 ////commander vests
@@ -2180,14 +2179,14 @@ class cfgweapons
 		displayname = "[K] Commander Vest";
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama_co.paa",
-			"kobra\442_equipment\vests\data\clone\clone_vest\kama_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama_co.paa",
+			"kobra\442_equipment\vests\data\clone\kama_co.paa",
             
             "", //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
             "",
             "",
-            "kobra\442_equipment\vests\data\clone\clone_vest\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
             "",
 
             "", //pouch2
@@ -2222,10 +2221,10 @@ class cfgweapons
             "", //leg_pouchL
             "", //leg_pouchR
 
-            "kobra\442_equipment\vests\data\clone\clone_vest\arc_pauldron_co.paa", //pauldron_arcC
+            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa", //pauldron_arcC
             "", //pauldron_arcL
-            "kobra\442_equipment\vests\data\clone\clone_vest\arc_pauldron_co.paa", //pauldron_arcR
-            "kobra\442_equipment\vests\data\clone\clone_vest\arc_pauldron_co.paa", //pauldron_ncoL
+            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa", //pauldron_arcR
+            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa", //pauldron_ncoL
             "", //pauldron_ncoR
             "", //arc_chest
             "", //arc_legs
@@ -2239,7 +2238,7 @@ class cfgweapons
     {
         author = "KOBRA Mod Team";
         displayname = "Scout Pouches";
-        model = "kobra\442_equipment\scout_pouches.p3d";
+        model = "kobra\442_equipment\vests\model\clone\scout_pouches.p3d";
         hiddenselections[] = 
         {
             "pouch1",
@@ -2254,7 +2253,7 @@ class cfgweapons
                 "pouch2",
                 "pouch3"
             };
-            uniformmodel = "kobra\442_equipment\scout_pouches.p3d";
+            uniformmodel = "kobra\442_equipment\vests\model\clone\scout_pouches.p3d";
             containerclass = "Supply150";
             mass = 50;
             class HitpointsProtectionInfo
@@ -2281,7 +2280,7 @@ class cfgweapons
         scopearsenal = 2;
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\vests\data\scout\scout_pouches\pouches_co.paa",
+            "kobra\442_equipment\vests\data\scout\pouches_co.paa",
             "",
             ""
         };
@@ -2296,8 +2295,8 @@ class cfgweapons
         displayname = "[K] Medium Scout Pouches";
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\vests\data\scout\scout_pouches\pouches_co.paa",
-            "kobra\442_equipment\vests\data\scout\scout_pouches\pouches_co.paa",
+            "kobra\442_equipment\vests\data\scout\pouches_co.paa",
+            "kobra\442_equipment\vests\data\scout\pouches_co.paa",
             ""
         };
         class ItemInfo: ItemInfo
@@ -2311,9 +2310,9 @@ class cfgweapons
         displayname = "[K] Heavy Scout Pouches";
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\vests\data\scout\scout_pouches\pouches_co.paa",
-            "kobra\442_equipment\vests\data\scout\scout_pouches\pouches_co.paa",
-            "kobra\442_equipment\vests\data\scout\scout_pouches\pouches_co.paa"
+            "kobra\442_equipment\vests\data\scout\pouches_co.paa",
+            "kobra\442_equipment\vests\data\scout\pouches_co.paa",
+            "kobra\442_equipment\vests\data\scout\pouches_co.paa"
         };
         class ItemInfo: ItemInfo
         {
@@ -2377,7 +2376,7 @@ class cfgweapons
     class k_commando_vest1: k_commando_vest_base
     {
         displayname = "Commando Vest 1";
-        model = "kobra\442_equipment\vests\commando\k_commando_vest1.p3d";
+        model = "kobra\442_equipment\vests\model\commando\k_commando_vest1.p3d";
         hiddenselections[] = 
         {
             "backpack"
@@ -2392,14 +2391,14 @@ class cfgweapons
             {
                 "backpack"
             };
-            uniformmodel = "kobra\442_equipment\vests\commando\k_commando_vest1.p3d";
+            uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest1.p3d";
         };
     };
     ////backpack, body plates, both kama, both pouches, both shells
     class k_commando_vest2: k_commando_vest_plate_base
     {
         displayname = "Commando Vest 2";
-        model = "kobra\442_equipment\vests\commando\k_commando_vest2.p3d";
+        model = "kobra\442_equipment\vests\model\commando\k_commando_vest2.p3d";
         hiddenselections[] = 
         {
             "backpack",
@@ -2426,14 +2425,14 @@ class cfgweapons
                 "pouches",
                 "shells"
             };
-            uniformmodel = "kobra\442_equipment\vests\commando\k_commando_vest2.p3d";
+            uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest2.p3d";
         };
     };
     ////backpack, body plates, both kama
     class k_commando_vest3: k_commando_vest_plate_base
     {
         displayname = "Commando Vest 3";
-        model = "kobra\442_equipment\vests\commando\k_commando_vest3.p3d";
+        model = "kobra\442_equipment\vests\model\commando\k_commando_vest3.p3d";
         hiddenselections[] = 
         {
             "backpack",
@@ -2454,34 +2453,34 @@ class cfgweapons
                 "body_plates",
                 "kama"
             };
-            uniformmodel = "kobra\442_equipment\vests\commando\k_commando_vest3.p3d";
+            uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest3.p3d";
         };
     };
     ////backpack, body plates, both kama, left pouch, both shells
     class k_commando_vest4: k_commando_vest2
     {
         displayname = "Commando Vest 4";
-        model = "kobra\442_equipment\vests\commando\k_commando_vest4.p3d";
+        model = "kobra\442_equipment\vests\model\commando\k_commando_vest4.p3d";
         class ItemInfo: ItemInfo
         {
-            uniformmodel = "kobra\442_equipment\vests\commando\k_commando_vest4.p3d";
+            uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest4.p3d";
         };
     };
     ////backpack, body plates, both kama, right pouch, both shells
     class k_commando_vest5: k_commando_vest2
     {
         displayname = "Commando Vest 5";
-        model = "kobra\442_equipment\vests\commando\k_commando_vest5.p3d";
+        model = "kobra\442_equipment\vests\model\commando\k_commando_vest5.p3d";
         class ItemInfo: ItemInfo
         {
-            uniformmodel = "kobra\442_equipment\vests\commando\k_commando_vest5.p3d";
+            uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest5.p3d";
         };
     };
     ////backpack, body plates, both shells
     class k_commando_vest6: k_commando_vest_plate_base
     {
         displayname = "Commando Vest 6";
-        model = "kobra\442_equipment\vests\commando\k_commando_vest6.p3d";
+        model = "kobra\442_equipment\vests\model\commando\k_commando_vest6.p3d";
         hiddenselections[] = 
         {
             "backpack",
@@ -2504,34 +2503,34 @@ class cfgweapons
                 "body_plates",
                 "shells"
             };
-            uniformmodel = "kobra\442_equipment\vests\commando\k_commando_vest6.p3d";
+            uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest6.p3d";
         };
     };
     ////backpack, body plates, left kama, right pouch, left shells
     class k_commando_vest7: k_commando_vest2
     {
         displayname = "Commando Vest 7";
-        model = "kobra\442_equipment\vests\commando\k_commando_vest7.p3d";
+        model = "kobra\442_equipment\vests\model\commando\k_commando_vest7.p3d";
         class ItemInfo: ItemInfo
         {
-            uniformmodel = "kobra\442_equipment\vests\commando\k_commando_vest7.p3d";
+            uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest7.p3d";
         };
     };
     ////backpack, body plates, right kama, left pouch, right shells
     class k_commando_vest8: k_commando_vest2
     {
         displayname = "Commando Vest 8";
-        model = "kobra\442_equipment\vests\commando\k_commando_vest8.p3d";
+        model = "kobra\442_equipment\vests\model\commando\k_commando_vest8.p3d";
         class ItemInfo: ItemInfo
         {
-            uniformmodel = "kobra\442_equipment\vests\commando\k_commando_vest8.p3d";
+            uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest8.p3d";
         };
     };
     ////backpack, body plates, both kama, both pouch
     class k_commando_vest9: k_commando_vest_plate_base
     {
         displayname = "Commando Vest 9";
-        model = "kobra\442_equipment\vests\commando\k_commando_vest9.p3d";
+        model = "kobra\442_equipment\vests\model\commando\k_commando_vest9.p3d";
         hiddenselections[] = 
         {
             "backpack",
@@ -2556,24 +2555,24 @@ class cfgweapons
                 "kama",
                 "pouches"
             };
-            uniformmodel = "kobra\442_equipment\vests\commando\k_commando_vest9.p3d";
+            uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest9.p3d";
         };
     };
     ////backpack, body plates, left kama, right pouch
     class k_commando_vest10: k_commando_vest9
     {
         displayname = "Commando Vest 10";
-        model = "kobra\442_equipment\vests\commando\k_commando_vest10.p3d";
+        model = "kobra\442_equipment\vests\model\commando\k_commando_vest10.p3d";
         class ItemInfo: ItemInfo
         {
-            uniformmodel = "kobra\442_equipment\vests\commando\k_commando_vest10.p3d";
+            uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest10.p3d";
         };
     };
     ////backpack, both kama
     class k_commando_vest11: k_commando_vest_base
     {
         displayname = "Commando Vest 11";
-        model = "kobra\442_equipment\vests\commando\k_commando_vest11.p3d";
+        model = "kobra\442_equipment\vests\model\commando\k_commando_vest11.p3d";
         hiddenselections[] = 
         {
             "backpack",
@@ -2591,34 +2590,34 @@ class cfgweapons
                 "backpack",
                 "kama"
             };
-            uniformmodel = "kobra\442_equipment\vests\commando\k_commando_vest11.p3d";
+            uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest11.p3d";
         };
     };
     ////backpack, left kama
     class k_commando_vest12: k_commando_vest11
     {
         displayname = "Commando Vest 12";
-        model = "kobra\442_equipment\vests\commando\k_commando_vest12.p3d";
+        model = "kobra\442_equipment\vests\model\commando\k_commando_vest12.p3d";
         class ItemInfo: ItemInfo
         {
-            uniformmodel = "kobra\442_equipment\vests\commando\k_commando_vest12.p3d";
+            uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest12.p3d";
         };
     };
     ////backpack, right kama
     class k_commando_vest13: k_commando_vest11
     {
         displayname = "Commando Vest 13";
-        model = "kobra\442_equipment\vests\commando\k_commando_vest13.p3d";
+        model = "kobra\442_equipment\vests\model\commando\k_commando_vest13.p3d";
         class ItemInfo: ItemInfo
         {
-            uniformmodel = "kobra\442_equipment\vests\commando\k_commando_vest13.p3d";
+            uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest13.p3d";
         };
     };
     ////backpack, both pouch, both shell
     class k_commando_vest14: k_commando_vest_base
     {
         displayname = "Commando Vest 14";
-        model = "kobra\442_equipment\vests\commando\k_commando_vest14.p3d";
+        model = "kobra\442_equipment\vests\model\commando\k_commando_vest14.p3d";
         hiddenselections[] = 
         {
             "backpack",
@@ -2639,34 +2638,34 @@ class cfgweapons
                 "pouches",
                 "shells"
             };
-            uniformmodel = "kobra\442_equipment\vests\commando\k_commando_vest14.p3d";
+            uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest14.p3d";
         };
     };
     ////backpack, left pouch, left shell
     class k_commando_vest15: k_commando_vest14
     {
         displayname = "Commando Vest 15";
-        model = "kobra\442_equipment\vests\commando\k_commando_vest15.p3d";
+        model = "kobra\442_equipment\vests\model\commando\k_commando_vest15.p3d";
         class ItemInfo: ItemInfo
         {
-            uniformmodel = "kobra\442_equipment\vests\commando\k_commando_vest15.p3d";
+            uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest15.p3d";
         };
     };
     ////backpack, right pouch, right shell
     class k_commando_vest16: k_commando_vest14
     {
         displayname = "Commando Vest 16";
-        model = "kobra\442_equipment\vests\commando\k_commando_vest16.p3d";
+        model = "kobra\442_equipment\vests\model\commando\k_commando_vest16.p3d";
         class ItemInfo: ItemInfo
         {
-            uniformmodel = "kobra\442_equipment\vests\commando\k_commando_vest16.p3d";
+            uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest16.p3d";
         };
     };
     ////backpack, both pouch
     class k_commando_vest17: k_commando_vest_base
     {
         displayname = "Commando Vest 17";
-        model = "kobra\442_equipment\vests\commando\k_commando_vest17.p3d";
+        model = "kobra\442_equipment\vests\model\commando\k_commando_vest17.p3d";
         hiddenselections[] = 
         {
             "backpack",
@@ -2684,14 +2683,14 @@ class cfgweapons
                 "backpack",
                 "pouches"
             };
-            uniformmodel = "kobra\442_equipment\vests\commando\k_commando_vest17.p3d";
+            uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest17.p3d";
         };
     };
     ////backpack, both kama, left pouch
     class k_commando_vest18: k_commando_vest_base
     {
         displayname = "Commando Vest 18";
-        model = "kobra\442_equipment\vests\commando\k_commando_vest18.p3d";
+        model = "kobra\442_equipment\vests\model\commando\k_commando_vest18.p3d";
         hiddenselections[] = 
         {
             "backpack",
@@ -2712,24 +2711,24 @@ class cfgweapons
                 "kama",
                 "pouches"
             };
-            uniformmodel = "kobra\442_equipment\vests\commando\k_commando_vest18.p3d";
+            uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest18.p3d";
         };
     };
     ////backpack, both kama, right pouch
     class k_commando_vest19: k_commando_vest18
     {
         displayname = "Commando Vest 19";
-        model = "kobra\442_equipment\vests\commando\k_commando_vest19.p3d";
+        model = "kobra\442_equipment\vests\model\commando\k_commando_vest19.p3d";
         class ItemInfo: ItemInfo
         {
-            uniformmodel = "kobra\442_equipment\vests\commando\k_commando_vest19.p3d";
+            uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest19.p3d";
         };
     };
     ////backpack, both shells
     class k_commando_vest20: k_commando_vest_base
     {
         displayname = "Commando Vest 20";
-        model = "kobra\442_equipment\vests\commando\k_commando_vest20.p3d";
+        model = "kobra\442_equipment\vests\model\commando\k_commando_vest20.p3d";
         hiddenselections[] = 
         {
             "backpack",
@@ -2748,12 +2747,12 @@ class cfgweapons
                 "backpack",
                 "shells"
             };
-            uniformmodel = "kobra\442_equipment\vests\commando\k_commando_vest20.p3d";
+            uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest20.p3d";
         };
     };
 
 //custom
-    class k_44ab_scout_pouches_delta: k_scout_pouches_heavy
+    /*class k_44ab_scout_pouches_delta: k_scout_pouches_heavy
     {
         displayname = "[K/44] Heavy Scout Pouches (Delta)";
         hiddenselectionstextures[] = 
@@ -2762,14 +2761,14 @@ class cfgweapons
             "kobra\442_equipment\data\unit_designs\44_attack_battalion\delta\scout_pouches_co.paa",
             "kobra\442_equipment\data\unit_designs\44_attack_battalion\delta\scout_pouches_co.paa",
         };
-    };
+    };*/
 
     class k_scout_pouches_light_woodland2: k_scout_pouches_light
     {
         displayname = "[K] Light Scout Pouches (Woodland)";
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\vests\data\scout\scout_pouches\pouches_woodland_co.paa",
+            "kobra\442_equipment\vests\data\scout\pouches_woodland_co.paa",
             "",
             ""
         };
@@ -2779,8 +2778,8 @@ class cfgweapons
         displayname = "[K] Medium Scout Pouches (Woodland)";
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\vests\data\scout\scout_pouches\pouches_woodland_co.paa",
-            "kobra\442_equipment\vests\data\scout\scout_pouches\pouches_woodland_co.paa",
+            "kobra\442_equipment\vests\data\scout\pouches_woodland_co.paa",
+            "kobra\442_equipment\vests\data\scout\pouches_woodland_co.paa",
             ""
         };
     };
@@ -2789,9 +2788,9 @@ class cfgweapons
         displayname = "[K] Heavy Scout Pouches (Woodland)";
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\vests\data\scout\scout_pouches\pouches_woodland_co.paa",
-            "kobra\442_equipment\vests\data\scout\scout_pouches\pouches_woodland_co.paa",
-            "kobra\442_equipment\vests\data\scout\scout_pouches\pouches_woodland_co.paa"
+            "kobra\442_equipment\vests\data\scout\pouches_woodland_co.paa",
+            "kobra\442_equipment\vests\data\scout\pouches_woodland_co.paa",
+            "kobra\442_equipment\vests\data\scout\pouches_woodland_co.paa"
         };
     };
     class k_scout_pouches_light_desert2: k_scout_pouches_light
@@ -2799,7 +2798,7 @@ class cfgweapons
         displayname = "[K] Light Scout Pouches (Desert)";
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\vests\data\scout\scout_pouches\pouches_desert_co.paa",
+            "kobra\442_equipment\vests\data\scout\pouches_desert_co.paa",
             "",
             ""
         };
@@ -2809,8 +2808,8 @@ class cfgweapons
         displayname = "[K] Medium Scout Pouches (Desert)";
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\vests\data\scout\scout_pouches\pouches_desert_co.paa",
-            "kobra\442_equipment\vests\data\scout\scout_pouches\pouches_desert_co.paa",
+            "kobra\442_equipment\vests\data\scout\pouches_desert_co.paa",
+            "kobra\442_equipment\vests\data\scout\pouches_desert_co.paa",
             ""
         };
     };
@@ -2819,8 +2818,9 @@ class cfgweapons
         displayname = "[K] Heavy Scout Pouches (Desert)";
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\vests\data\scout\scout_pouches\pouches_desert_co.paa",
-            "kobra\442_equipment\vests\data\scout\scout_pouches\pouches_desert_co.paa",
-            "kobra\442_equipment\vests\data\scout\scout_pouches\pouches_desert_co.paa"
+            "kobra\442_equipment\vests\data\scout\pouches_desert_co.paa",
+            "kobra\442_equipment\vests\data\scout\pouches_desert_co.paa",
+            "kobra\442_equipment\vests\data\scout\pouches_desert_co.paa"
         };
     };
+};

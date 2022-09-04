@@ -408,7 +408,7 @@ class cfgvehicles
         };
         hiddenselectionstextures[] = 
         {
-            "Kobra\442_units\data\helmet\arf_helmet\arf_brim_co.paa"
+            "Kobra\442_equipment\helmets\data\arf_helmet\arf_brim_co.paa"
         };
     };
 	class k_clone_wrist_comms: k_clone_arf_comms
