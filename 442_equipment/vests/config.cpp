@@ -102,1906 +102,57 @@ class cfgweapons
         };
     };
 //clone vests
-//this needs to be redone for the new vests
-    class k_clone_vest_base: k_vest_base
+////vest bases
+    class k_clone_basic_vest_base: k_vest_base
 	{
 		author = "KOBRA Mod Team";
-		displayname = "Clone Vest Base";
-		model = "kobra\442_equipment\vests\model\clone\clone_vest.p3d";
+		displayname = "Clone Vest Basic Base";
 		hiddenselections[] = 
 		{
-			"kamaL",
-			"kamaR",
-            
-            "LF_pouch1",
-            "LC_pouch1",
-            "LB_pouch1",
-            "RF_pouch1",
-            "RC_pouch1",
-            "RB_pouch1",
-
-            "LF_pouch2",
-            "LC_pouch2",
-            "LB_pouch2",
-            "RF_pouch2",
-            "RC_pouch2",
-            "RB_pouch2",
-
-            "LF_pouch3",
-            "LC_pouch3",
-            "LB_pouch3",
-            "RF_pouch3",
-            "RC_pouch3",
-            "RB_pouch3",
-
-            "LF_pouch4",
-            "LC_pouch4",
-            "LB_pouch4",
-            "RF_pouch4",
-            "RC_pouch4",
-            "RB_pouch4",
-
-            "LF_pouch5",
-            "LC_pouch5",
-            "LB_pouch5",
-            "RF_pouch5",
-            "RC_pouch5",
-            "RB_pouch5",
-
-            "holster",
-            "leg_pouchL",
-            "leg_pouchR",
-            
-            "pauldron_arcC",
-            "pauldron_arcL",
-            "pauldron_arcR",
-            "pauldron_ncoL",
-            "pauldron_ncoR",
-            "arc_chest",
-            "arc_legs",
-            "arc_pouchL",
-            "arc_pouchR"
-		};
+            "pouch"
+        };
 		class ItemInfo: ItemInfo
 		{
 			hiddenselections[] = 
 			{
-				"kamaL",
-                "kamaR",
-                
-                "LF_pouch1",
-                "LC_pouch1",
-                "LB_pouch1",
-                "RF_pouch1",
-                "RC_pouch1",
-                "RB_pouch1",
-
-                "LF_pouch2",
-                "LC_pouch2",
-                "LB_pouch2",
-                "RF_pouch2",
-                "RC_pouch2",
-                "RB_pouch2",
-
-                "LF_pouch3",
-                "LC_pouch3",
-                "LB_pouch3",
-                "RF_pouch3",
-                "RC_pouch3",
-                "RB_pouch3",
-
-                "LF_pouch4",
-                "LC_pouch4",
-                "LB_pouch4",
-                "RF_pouch4",
-                "RC_pouch4",
-                "RB_pouch4",
-
-                "LF_pouch5",
-                "LC_pouch5",
-                "LB_pouch5",
-                "RF_pouch5",
-                "RC_pouch5",
-                "RB_pouch5",
-
-                "holster",
-                "leg_pouchL",
-                "leg_pouchR",
-                
-                "pauldron_arcC",
-                "pauldron_arcL",
-                "pauldron_arcR",
-                "pauldron_ncoL",
-                "pauldron_ncoR",
-                "arc_chest",
-                "arc_legs",
-                "arc_pouchL",
-                "arc_pouchR"
-			};
-			uniformmodel = "kobra\442_equipment\vests\model\clone\clone_vest.p3d";
+                "pouch"
+            };
 			containerclass = "Supply100";
 			mass = 20;
 		};
 	};
-
-////belt pouches
-    class k_clone_vest_basic1: k_clone_vest_base
-	{
-		displayname = "[K] Basic Clone Vest 1";
-		scope = 2;
-		scopecurator = 2;
-		scopearsenal = 2;
-		hiddenselectionstextures[] = 
-		{
-			"", //kama left
-			"", //kama right
-            //pouch1
-            "", //Left front
-            "clone_belt_co.paa", //left center
-            "", //left back
-
-            "", //right front
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right center
-            "", //right back
-
-            //pouch2
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch3
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch4
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch5
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-        class ItemInfo: ItemInfo
-        {
-            containerclass = "Supply100";
-			mass = 10;
-        };
-	};
-    class k_clone_vest_basic2: k_clone_vest_basic1
+    class k_clone_arc_vest_base: k_vest_base
     {
-        displayname = "[K] Basic Clone Vest 2";
-        hiddenselectionstextures[] = 
+		author = "KOBRA Mod Team";
+		displayname = "Clone Vest Arc Base";
+		hiddenselections[] = 
 		{
-			"",
-			"",
-            //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //Left front
-            "", //left center
-            "", //left back
-
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right front
-            "", //right center
-            "", //right back
-
-            //pouch2
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch3
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch4
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch5
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-    };
-    class k_clone_vest_medium: k_clone_vest_basic1
-	{
-		displayname = "[K] Medium Clone Vest";
-		hiddenselectionstextures[] = 
-		{
-			"",
-			"",
-            
-            //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left front
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left center
-            "", //left back
-
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right front
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right center
-            "", //right back
-
-            //pouch2
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch3
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch4
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch5
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-        class ItemInfo: ItemInfo
-        {
-            containerclass = "Supply120";
-			mass = 15;
+            "pouch",
+			"arc_chest",
+			"arc_legs",
+			"arc_pouchR",
+			"kamaL",
+			"kamaR",
+			"pauldron_arcC",
+			"pauldron_arcL",
+			"pauldron_arcR"
         };
-	};
-    class k_clone_vest_heavy: k_clone_vest_basic1
-	{
-		displayname = "[K] Heavy Clone Vest";
-		hiddenselectionstextures[] = 
+		class ItemInfo: ItemInfo
 		{
-			"", //kama left
-			"", //kama right
-            
-            //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left front
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left center
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left back
-
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right front
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right center
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right back
-
-            //pouch2
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch3
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch4
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch5
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-        class ItemInfo: ItemInfo
-        {
-            containerclass = "Supply200";
+			hiddenselections[] = 
+			{
+                "pouch",
+                "arc_chest",
+                "arc_legs",
+                "arc_pouchR",
+                "kamaL",
+                "kamaR",
+                "pauldron_arcC",
+                "pauldron_arcL",
+                "pauldron_arcR"
+            };
+			containerclass = "Supply100";
 			mass = 20;
-        };
-	};
-
-    class k_clone_vest_heavy_medic: k_clone_vest_basic1
-	{
-		displayname = "[K] Medic Clone Vest";
-		hiddenselectionstextures[] = 
-		{
-			"",
-			"",
-            
-            //pouch1
-            "", //left front
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left center
-            "", //left back
-
-            "", //right front
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right center
-            "", //right back
-
-            //pouch2
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch3
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right front
-            "", //right center
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right back
-
-            //pouch4
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch5
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left front
-            "", //left center
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-        class ItemInfo: ItemInfo
-        {
-            containerclass = "Supply200";
-			mass = 20;
-        };
-	};
-
-    class k_clone_vest_display: k_clone_vest_basic1
-    {
-        displayname = "[K] Basic Clone Vest display";
-        hiddenselectionstextures[] = 
-		{
-			"",
-			"",
-            //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //Left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch2
-            "", //left front
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch3
-            "", //left front
-            "", //left center
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch4
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right center
-            "", //right back
-
-            //pouch5
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right front
-            "", //right center
-            "", //right back
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-    };
-	
-////base kama
-    class k_clone_kama_full_vest: k_clone_vest_base
-	{
-		displayname = "[K] Kama (Full)";
-		scope = 2;
-		scopecurator = 2;
-		scopearsenal = 2;
-		hiddenselectionstextures[] = 
-		{
-			"kobra\442_equipment\vests\data\clone\kama_co.paa",
-			"kobra\442_equipment\vests\data\clone\kama_co.paa",
-            
-            //pouch1
-            "", //left front
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left center
-            "", //left back
-
-            "", //right front
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right center
-            "", //right back
-            
-            //pouch2
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-            
-            //pouch3
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-            
-            //pouch4
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-            
-            //pouch5
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-        class ItemInfo: ItemInfo
-        {
-            containerclass = "Supply100";
-			mass = 20;
-        };
-	};
-	class k_clone_kamaL_vest: k_clone_kama_full_vest
-	{
-		displayname = "[K] Left Kama";
-		hiddenselectionstextures[] = 
-		{
-			"kobra\442_equipment\vests\data\clone\kama_co.paa",
-			"",
-            //pouch1
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right center
-            "", //right back
-
-            //pouch2
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right front
-            "", //right center
-            "", //right back
-
-            //pouch3
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right back
-
-            //pouch4
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch5
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-        class ItemInfo: ItemInfo
-        {
-            containerclass = "Supply100";
-			mass = 15;
-        };
-	};
-	class k_clone_kamaR_vest: k_clone_kama_full_vest
-	{
-		displayname = "[K] Right Kama";
-		hiddenselectionstextures[] = 
-		{
-			"",
-			"kobra\442_equipment\vests\data\clone\kama_co.paa",
-
-            //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left front
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left center
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //left back
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch2
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch3
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch4
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch5
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-        class ItemInfo: ItemInfo
-        {
-            containerclass = "Supply100";
-			mass = 15;
-        };
-	};
-////dirty kama
-    class k_clone_kama_dirt_vest: k_clone_kama_full_vest
-	{
-		displayname = "[K] Kama Dirty";
-		hiddenselectionstextures[] = 
-		{
-			"kobra\442_equipment\vests\data\clone\kama_dirt_co.paa",
-			"kobra\442_equipment\vests\data\clone\kama_dirt_co.paa",
-            
-            "", //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "",
-            "",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "",
-
-            "", //pouch2
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch3
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch4
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch5
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-	};
-	class k_clone_kama_dirtL_vest: k_clone_kama_full_vest
-	{
-		displayname = "[K] Left Kama Dirty";
-		hiddenselectionstextures[] = 
-		{
-			"kobra\442_equipment\vests\data\clone\kama_dirt_co.paa",
-			"",
-             
-            "", //pouch1
-            "",
-            "",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-
-            "", //pouch2
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch3
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch4
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch5
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-	};
-	class k_clone_kama_dirtR_vest: k_clone_kama_full_vest
-	{
-		displayname = "[K] Right Kama Dirty";
-		hiddenselectionstextures[] = 
-		{
-			"",
-			"kobra\442_equipment\vests\data\clone\kama_dirt_co.paa",
-            
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "",
-            "",
-            "",
-
-            "", //pouch2
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch3
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch4
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch5
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-	};
-////kama design 1	
-	class k_clone_kama_1_vest: k_clone_kama_full_vest
-	{
-		displayname = "[K] Kama 1";
-		hiddenselectionstextures[] = 
-		{
-			"kobra\442_equipment\vests\data\clone\kama1_co.paa",
-			"kobra\442_equipment\vests\data\clone\kama1_co.paa",
-            
-            "", //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "",
-            "",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "",
-
-            "", //pouch2
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch3
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch4
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch5
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-	};
-	class k_clone_kama_1L_vest: k_clone_kama_full_vest
-	{
-		displayname = "[K] Left Kama 1";
-		hiddenselectionstextures[] = 
-		{
-			"kobra\442_equipment\vests\data\clone\kama1_co.paa",
-			"",
-             
-            "", //pouch1
-            "",
-            "",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-
-            "", //pouch2
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch3
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch4
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch5
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-	};
-	class k_clone_kama_1R_vest: k_clone_kama_full_vest
-	{
-		displayname = "[K] Right Kama 1";
-		hiddenselectionstextures[] = 
-		{
-			"",
-			"kobra\442_equipment\vests\data\clone\kama1_co.paa",
-            
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "",
-            "",
-            "",
-
-            "", //pouch2
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch3
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch4
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch5
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-	};
-////kama design 2	
-	class k_clone_kama_2_vest: k_clone_kama_full_vest
-	{
-		displayname = "[K] Kama 2";
-		hiddenselectionstextures[] = 
-		{
-			"kobra\442_equipment\vests\data\clone\kama2_co.paa",
-			"kobra\442_equipment\vests\data\clone\kama2_co.paa",
-            
-            "", //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "",
-            "",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "",
-
-            "", //pouch2
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch3
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch4
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch5
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-	};
-	class k_clone_kama_2L_vest: k_clone_kama_full_vest
-	{
-		displayname = "[K] Left Kama 2";
-		hiddenselectionstextures[] = 
-		{
-			"kobra\442_equipment\vests\data\clone\kama2_co.paa",
-			"",
-             
-            "", //pouch1
-            "",
-            "",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-
-            "", //pouch2
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch3
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch4
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch5
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-	};
-	class k_clone_kama_2R_vest: k_clone_kama_full_vest
-	{
-		displayname = "[K] Right Kama 2";
-		hiddenselectionstextures[] = 
-		{
-			"",
-			"kobra\442_equipment\vests\data\clone\kama2_co.paa",
-            
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "",
-            "",
-            "",
-
-            "", //pouch2
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch3
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch4
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch5
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-	};
-////kama design 5	
-	class k_clone_kama_5_vest: k_clone_kama_full_vest
-	{
-		displayname = "[K] Kama 5";
-		hiddenselectionstextures[] = 
-		{
-			"kobra\442_equipment\vests\data\clone\kama5_co.paa",
-			"kobra\442_equipment\vests\data\clone\kama5_co.paa",
-            
-            "", //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "",
-            "",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "",
-
-            "", //pouch2
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch3
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch4
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch5
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-	};
-	class k_clone_kama_5L_vest: k_clone_kama_full_vest
-	{
-		displayname = "[K] Left Kama 5";
-		hiddenselectionstextures[] = 
-		{
-			"kobra\442_equipment\vests\data\clone\kama5_co.paa",
-			"",
-             
-            "", //pouch1
-            "",
-            "",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-
-            "", //pouch2
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch3
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch4
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch5
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-	};
-	class k_clone_kama_5R_vest: k_clone_kama_full_vest
-	{
-		displayname = "[K] Right Kama 5";
-		hiddenselectionstextures[] = 
-		{
-			"",
-			"kobra\442_equipment\vests\data\clone\kama5_co.paa",
-            
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "",
-            "",
-            "",
-
-            "", //pouch2
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch3
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch4
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch5
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-	};
-////kama design 6
-	class k_clone_kama_6_vest: k_clone_kama_full_vest
-	{
-		displayname = "[K] Kama 6";
-		hiddenselectionstextures[] = 
-		{
-			"kobra\442_equipment\vests\data\clone\kama6_co.paa",
-			"kobra\442_equipment\vests\data\clone\kama6_co.paa",
-            
-            "", //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "",
-            "",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "",
-
-            "", //pouch2
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch3
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch4
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch5
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-	};
-	class k_clone_kama_6L_vest: k_clone_kama_full_vest
-	{
-		displayname = "[K] Left Kama 6";
-		hiddenselectionstextures[] = 
-		{
-			"kobra\442_equipment\vests\data\clone\kama6_co.paa",
-			"",
-             
-            "", //pouch1
-            "",
-            "",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-
-            "", //pouch2
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch3
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch4
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch5
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-	};
-	class k_clone_kama_6R_vest: k_clone_kama_full_vest
-	{
-		displayname = "[K] Right Kama 6";
-		hiddenselectionstextures[] = 
-		{
-			"",
-			"kobra\442_equipment\vests\data\clone\kama6_co.paa",
-            
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "",
-            "",
-            "",
-
-            "", //pouch2
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch3
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch4
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch5
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-	};
-////kama design 7
-	class k_clone_kama_7_vest: k_clone_kama_full_vest
-	{
-		displayname = "[K] Kama 7";
-		hiddenselectionstextures[] = 
-		{
-			"kobra\442_equipment\vests\data\clone\kama7_co.paa",
-			"kobra\442_equipment\vests\data\clone\kama7_co.paa",
-            
-            "", //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "",
-            "",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "",
-
-            "", //pouch2
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch3
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch4
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch5
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-	};
-	class k_clone_kama_7L_vest: k_clone_kama_full_vest
-	{
-		displayname = "[K] Left Kama 7";
-		hiddenselectionstextures[] = 
-		{
-			"kobra\442_equipment\vests\data\clone\kama7_co.paa",
-			"",
-             
-            "", //pouch1
-            "",
-            "",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-
-            "", //pouch2
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch3
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch4
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch5
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-	};
-	class k_clone_kama_7R_vest: k_clone_kama_full_vest
-	{
-		displayname = "[K] Right Kama 7";
-		hiddenselectionstextures[] = 
-		{
-			"",
-			"kobra\442_equipment\vests\data\clone\kama7_co.paa",
-            
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "",
-            "",
-            "",
-
-            "", //pouch2
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch3
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch4
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch5
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "", //pauldron_arcC
-            "", //pauldron_arcL
-            "", //pauldron_arcR
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
-		};
-	};
-
-////arc vests
-    class k_clone_arc_vest: k_clone_vest_basic1
-    {
-        displayname = "[K] ARC Clone Vest 1";
-        hiddenselectionstextures[] = 
-		{
-			"kobra\442_equipment\vests\data\clone\kama_co.paa",
-			"kobra\442_equipment\vests\data\clone\kama_co.paa",
-            //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //Left front
-            "", //left center
-            "", //left back
-
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right front
-            "", //right center
-            "", //right back
-
-            //pouch2
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch3
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch4
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch5
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa", //pauldron_arcC
-            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa", //pauldron_arcL
-            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa", //pauldron_arcR
-
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-
-            "kobra\442_equipment\vests\data\clone\arc_plates_co.paa", //arc_chest
-            "kobra\442_equipment\vests\data\clone\arc_plates_co.paa", //arc_legs
-
-            "", //arc_pouchL
-            "kobra\442_equipment\vests\data\clone\arc_pouch_co.paa", //arc_pouchR
-		};
-        class itemInfo: ItemInfo
-        {
-            containerclass = "supply200";
-            mass = 50;
             class HitpointsProtectionInfo
             {
                 class Chest
@@ -2029,209 +180,996 @@ class cfgweapons
                     passthrough = 0.3;
                 };
             };
-        };
-    };
-
-    class k_clone_arc_vest2: k_clone_arc_vest
-    {
-        displayname = "[K] ARC Clone Vest 2";
-        hiddenselectionstextures[] = 
-		{
-			"kobra\442_equipment\vests\data\clone\kama_co.paa",
-			"kobra\442_equipment\vests\data\clone\kama_co.paa",
-            //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //Left front
-            "", //left center
-            "", //left back
-
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right front
-            "", //right center
-            "", //right back
-
-            //pouch2
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch3
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch4
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch5
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa", //pauldron_arcC
-            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa", //pauldron_arcL
-            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa", //pauldron_arcR
-
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-
-            "kobra\442_equipment\vests\data\clone\arc_plates_co.paa", //arc_chest
-            "kobra\442_equipment\vests\data\clone\arc_plates_co.paa", //arc_legs
-
-            "kobra\442_equipment\vests\data\clone\arc_pouch_co.paa", //arc_pouchL
-            "", //arc_pouchR
-		};
-    };
-
-    class k_clone_arc_vest3: k_clone_arc_vest
-    {
-        displayname = "[K] ARC Clone Vest 3";
-        hiddenselectionstextures[] = 
-		{
-			"kobra\442_equipment\vests\data\clone\kama_co.paa",
-			"kobra\442_equipment\vests\data\clone\kama_co.paa",
-            //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //Left front
-            "", //left center
-            "", //left back
-
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa", //right front
-            "", //right center
-            "", //right back
-
-            //pouch2
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch3
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch4
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            //pouch5
-            "", //left front
-            "", //left center
-            "", //left back
-
-            "", //right front
-            "", //right center
-            "", //right back
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa", //pauldron_arcC
-            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa", //pauldron_arcL
-            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa", //pauldron_arcR
-
-            "", //pauldron_ncoL
-            "", //pauldron_ncoR
-
-            "kobra\442_equipment\vests\data\clone\arc_plates_co.paa", //arc_chest
-            "kobra\442_equipment\vests\data\clone\arc_plates_co.paa", //arc_legs
-
-            "kobra\442_equipment\vests\data\clone\arc_pouch_co.paa", //arc_pouchL
-            "kobra\442_equipment\vests\data\clone\arc_pouch_co.paa", //arc_pouchR
-		};
-    };
-////commander vests
-	class k_clone_commander_vest: k_clone_kama_full_vest
-	{
-		displayname = "[K] Commander Vest";
-		hiddenselectionstextures[] = 
-		{
-			"kobra\442_equipment\vests\data\clone\kama_co.paa",
-			"kobra\442_equipment\vests\data\clone\kama_co.paa",
-            
-            "", //pouch1
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "",
-            "",
-            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
-            "",
-
-            "", //pouch2
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch3
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch4
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //pouch5
-            "",
-            "",
-            "",
-            "",
-            "",
-
-            "", //holster
-            "", //leg_pouchL
-            "", //leg_pouchR
-
-            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa", //pauldron_arcC
-            "", //pauldron_arcL
-            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa", //pauldron_arcR
-            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa", //pauldron_ncoL
-            "", //pauldron_ncoR
-            "", //arc_chest
-            "", //arc_legs
-            "", //arc_pouchL
-            "", //arc_pouchR
 		};
 	};
+    class k_clone_heavy_vest_base: k_vest_base
+    {
+		author = "KOBRA Mod Team";
+		displayname = "Clone Vest Arc Base";
+		hiddenselections[] = 
+		{
+            "pouch",
+			"arc_chest",
+			"arc_legs",
+			"pauldron_arcC",
+			"pauldron_ncoL",
+			"pauldron_ncoR",
+			"leg_pouchL",
+			"leg_pouchR"
+        };
+		class ItemInfo: ItemInfo
+		{
+			hiddenselections[] = 
+			{
+                "pouch",
+                "arc_chest",
+                "arc_legs",
+                "pauldron_arcC",
+                "pauldron_ncoL",
+                "pauldron_ncoR",
+                "leg_pouchL",
+                "leg_pouchR"
+            };
+			containerclass = "Supply100";
+			mass = 20;
+            class HitpointsProtectionInfo
+            {
+                class Chest
+                {
+                    HitpointName = "HitChest";
+                    armor = 12;
+                    PassThrough = 0.3;
+                };
+                class Diaphragm
+                {
+                    HitpointName = "HitDiaphragm";
+                    armor = 12;
+                    PassThrough = 0.3;
+                };
+                class Abdomen
+                {
+                    hitpointName = "HitAbdomen";
+                    armor = 12;
+                    passThrough = 0.3;
+                };
+                class legs
+                {
+                    hitpointName = "HitLegs";
+                    armor = 12;
+                    passthrough = 0.3;
+                };
+            };
+		};
+	};
+    class k_clone_kamaL_vest_base: k_vest_base
+    {
+		author = "KOBRA Mod Team";
+		displayname = "Clone Vest KamaL Base";
+		hiddenselections[] = 
+		{
+            "pouch",
+			"kamaL",
+			"leg_pouchL",
+			"leg_pouchR"
+        };
+		class ItemInfo: ItemInfo
+		{
+			hiddenselections[] = 
+			{
+                "pouch",
+                "kamaL",
+                "leg_pouchL",
+                "leg_pouchR"
+            };
+			containerclass = "Supply100";
+			mass = 20;
+		};
+	};
+    class k_clone_kamaR_vest_base: k_vest_base
+    {
+		author = "KOBRA Mod Team";
+		displayname = "Clone Vest KamaR Base";
+		hiddenselections[] = 
+		{
+            "pouch",
+			"kamaR",
+			"leg_pouchL",
+			"leg_pouchR"
+        };
+		class ItemInfo: ItemInfo
+		{
+			hiddenselections[] = 
+			{
+                "pouch",
+                "kamaR",
+                "leg_pouchL",
+                "leg_pouchR"
+            };
+			containerclass = "Supply100";
+			mass = 20;
+		};
+	};
+    class k_clone_nco_vest_base: k_vest_base
+    {
+		author = "KOBRA Mod Team";
+		displayname = "Clone Vest NCO Base";
+		hiddenselections[] = 
+		{
+            "pouch",
+			"kamaL",
+			"kamaR"
+        };
+		class ItemInfo: ItemInfo
+		{
+			hiddenselections[] = 
+			{
+                "pouch",
+                "kamaL",
+                "kamaR"
+            };
+			containerclass = "Supply100";
+			mass = 20;
+		};
+	};
+    class k_clone_officer_vest_base: k_vest_base
+    {
+		author = "KOBRA Mod Team";
+		displayname = "Clone Vest NCO Base";
+		hiddenselections[] = 
+		{
+            "pouch",
+			"kamaL",
+			"kamaR",
+			"pauldron_arcC",
+			"pauldron_arcL",
+			"pauldron_ncoR",
+        };
+		class ItemInfo: ItemInfo
+		{
+			hiddenselections[] = 
+			{
+                "pouch",
+                "kamaL",
+                "kamaR",
+                "pauldron_arcC",
+                "pauldron_arcL",
+                "pauldron_ncoR",
+            };
+			containerclass = "Supply100";
+			mass = 20;
+		};
+	};
+////useable vests
+////basic vests
+    class k_clone_basic_vest1: k_clone_basic_vest_base
+    {
+        displayname = "[K] Clone Basic Vest 1";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest1.p3d";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa"
+        };
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest1.p3d";
+            containerclass = "Supply40";
+			mass = 1;
+        };
+    };
+    class k_clone_basic_vest2: k_clone_basic_vest1
+    {
+        displayname = "[K] Clone Basic Vest 2";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest2.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest2.p3d";
+            containerclass = "Supply100";
+			mass = 5;
+        };
+    };
+    class k_clone_basic_vest3: k_clone_basic_vest1
+    {
+        displayname = "[K] Clone Basic Vest 3";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest3.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest3.p3d";
+            containerclass = "Supply100";
+			mass = 5;
+        };
+    };
+    class k_clone_basic_vest4: k_clone_basic_vest1
+    {
+        displayname = "[K] Clone Basic Vest 4";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest4.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest2.p3d";
+            containerclass = "Supply100";
+			mass = 5;
+        };
+    };
+    class k_clone_basic_vest5: k_clone_basic_vest1
+    {
+        displayname = "[K] Clone Basic Vest 5";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest5.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest5.p3d";
+            containerclass = "Supply100";
+			mass = 5;
+        };
+    };
+    class k_clone_basic_vest6: k_clone_basic_vest1
+    {
+        displayname = "[K] Clone Basic Vest 6";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest6.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest6.p3d";
+            containerclass = "Supply70";
+			mass = 5;
+        };
+    };
+    class k_clone_basic_vest7: k_clone_basic_vest1
+    {
+        displayname = "[K] Clone Basic Vest 7";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest7.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest7.p3d";
+            containerclass = "Supply100";
+			mass = 5;
+        };
+    };
+    class k_clone_basic_vest8: k_clone_basic_vest1
+    {
+        displayname = "[K] Clone Basic Vest 8";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest8.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest8.p3d";
+            containerclass = "Supply70";
+			mass = 5;
+        };
+    };
+    class k_clone_basic_vest9: k_clone_basic_vest1
+    {
+        displayname = "[K] Clone Basic Vest 9";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest9.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest9.p3d";
+            containerclass = "Supply100";
+			mass = 5;
+        };
+    };
+    class k_clone_basic_vest10: k_clone_basic_vest1
+    {
+        displayname = "[K] Clone Basic Vest 10";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest10.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest10.p3d";
+            containerclass = "Supply100";
+			mass = 5;
+        };
+    };
+////arc vests
+    class k_clone_arc_vest1: k_clone_basic_vest_base
+    {
+        displayname = "[K] Clone arc Vest 1";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest1.p3d";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\arc_plates_co.paa",
+            "kobra\442_equipment\vests\data\clone\arc_plates_co.paa",
+            "kobra\442_equipment\vests\data\clone\arc_pouch_co.paa",
+            "kobra\442_equipment\vests\data\clone\kama_co.paa",
+            "kobra\442_equipment\vests\data\clone\kama_co.paa",
+            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa",
+            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa",
+            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa",
+        };
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest1.p3d";
+            containerclass = "Supply140";
+			mass = 50;
+        };
+    };
+    class k_clone_arc_vest2: k_clone_arc_vest1
+    {
+        displayname = "[K] Clone arc Vest 2";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest2.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest2.p3d";
+            containerclass = "Supply200";
+			mass = 55;
+        };
+    };
+    class k_clone_arc_vest3: k_clone_arc_vest1
+    {
+        displayname = "[K] Clone arc Vest 3";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest3.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest3.p3d";
+            containerclass = "Supply200";
+			mass = 55;
+        };
+    };
+    class k_clone_arc_vest4: k_clone_arc_vest1
+    {
+        displayname = "[K] Clone arc Vest 4";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest4.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest2.p3d";
+            containerclass = "Supply200";
+			mass = 55;
+        };
+    };
+    class k_clone_arc_vest5: k_clone_arc_vest1
+    {
+        displayname = "[K] Clone arc Vest 5";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest5.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest5.p3d";
+            containerclass = "Supply200";
+			mass = 55;
+        };
+    };
+    class k_clone_arc_vest6: k_clone_arc_vest1
+    {
+        displayname = "[K] Clone arc Vest 6";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest6.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest6.p3d";
+            containerclass = "Supply170";
+			mass = 53;
+        };
+    };
+    class k_clone_arc_vest7: k_clone_arc_vest1
+    {
+        displayname = "[K] Clone arc Vest 7";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest7.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest7.p3d";
+            containerclass = "Supply200";
+			mass = 55;
+        };
+    };
+    class k_clone_arc_vest8: k_clone_arc_vest1
+    {
+        displayname = "[K] Clone arc Vest 8";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest8.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest8.p3d";
+            containerclass = "Supply170";
+			mass = 53;
+        };
+    };
+    class k_clone_arc_vest9: k_clone_arc_vest1
+    {
+        displayname = "[K] Clone arc Vest 9";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest9.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest9.p3d";
+            containerclass = "Supply200";
+			mass = 55;
+        };
+    };
+    class k_clone_arc_vest10: k_clone_arc_vest1
+    {
+        displayname = "[K] Clone arc Vest 10";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest10.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest10.p3d";
+            containerclass = "Supply200";
+			mass = 55;
+        };
+    };
+////heavy vests
+    class k_clone_heavy_vest1: k_clone_basic_vest_base
+    {
+        displayname = "[K] Clone heavy Vest 1";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest1.p3d";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\arc_plates_co.paa",
+            "kobra\442_equipment\vests\data\clone\arc_plates_co.paa",
+            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa",
+            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa",
+            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa",
+            "kobra\442_equipment\vests\data\clone\leg_pouch_co.paa",
+            "kobra\442_equipment\vests\data\clone\leg_pouch_co.paa",
+        };
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest1.p3d";
+            containerclass = "Supply60";
+			mass = 40;
+        };
+    };
+    class k_clone_heavy_vest2: k_clone_heavy_vest1
+    {
+        displayname = "[K] Clone heavy Vest 2";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest2.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest2.p3d";
+            containerclass = "Supply120";
+			mass = 45;
+        };
+    };
+    class k_clone_heavy_vest3: k_clone_heavy_vest1
+    {
+        displayname = "[K] Clone heavy Vest 3";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest3.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest3.p3d";
+            containerclass = "Supply120";
+			mass = 45;
+        };
+    };
+    class k_clone_heavy_vest4: k_clone_heavy_vest1
+    {
+        displayname = "[K] Clone heavy Vest 4";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest4.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest2.p3d";
+            containerclass = "Supply120";
+			mass = 45;
+        };
+    };
+    class k_clone_heavy_vest5: k_clone_heavy_vest1
+    {
+        displayname = "[K] Clone heavy Vest 5";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest5.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest5.p3d";
+            containerclass = "Supply120";
+			mass = 45;
+        };
+    };
+    class k_clone_heavy_vest6: k_clone_heavy_vest1
+    {
+        displayname = "[K] Clone heavy Vest 6";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest6.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest6.p3d";
+            containerclass = "Supply90";
+			mass = 45;
+        };
+    };
+    class k_clone_heavy_vest7: k_clone_heavy_vest1
+    {
+        displayname = "[K] Clone heavy Vest 7";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest7.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest7.p3d";
+            containerclass = "Supply120";
+			mass = 45;
+        };
+    };
+    class k_clone_heavy_vest8: k_clone_heavy_vest1
+    {
+        displayname = "[K] Clone heavy Vest 8";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest8.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest8.p3d";
+            containerclass = "Supply90";
+			mass = 45;
+        };
+    };
+    class k_clone_heavy_vest9: k_clone_heavy_vest1
+    {
+        displayname = "[K] Clone heavy Vest 9";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest9.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest9.p3d";
+            containerclass = "Supply120";
+			mass = 45;
+        };
+    };
+    class k_clone_heavy_vest10: k_clone_heavy_vest1
+    {
+        displayname = "[K] Clone heavy Vest 10";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest10.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest10.p3d";
+            containerclass = "Supply120";
+			mass = 45;
+        };
+    };
+////kamaL vests
+    class k_clone_kamaL_vest1: k_clone_basic_vest_base
+    {
+        displayname = "[K] Clone kamaL Vest 1";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest1.p3d";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\kama_co.paa",
+            "kobra\442_equipment\vests\data\clone\leg_pouch_co.paa",
+            "kobra\442_equipment\vests\data\clone\leg_pouch_co.paa",
+        };
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest1.p3d";
+            containerclass = "Supply60";
+			mass = 30;
+        };
+    };
+    class k_clone_kamaL_vest2: k_clone_kamaL_vest1
+    {
+        displayname = "[K] Clone kamaL Vest 2";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest2.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest2.p3d";
+            containerclass = "Supply120";
+			mass = 30;
+        };
+    };
+    class k_clone_kamaL_vest3: k_clone_kamaL_vest1
+    {
+        displayname = "[K] Clone kamaL Vest 3";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest3.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest3.p3d";
+            containerclass = "Supply120";
+			mass = 30;
+        };
+    };
+    class k_clone_kamaL_vest4: k_clone_kamaL_vest1
+    {
+        displayname = "[K] Clone kamaL Vest 4";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest4.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest2.p3d";
+            containerclass = "Supply120";
+			mass = 30;
+        };
+    };
+    class k_clone_kamaL_vest5: k_clone_kamaL_vest1
+    {
+        displayname = "[K] Clone kamaL Vest 5";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest5.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest5.p3d";
+            containerclass = "Supply120";
+			mass = 30;
+        };
+    };
+    class k_clone_kamaL_vest6: k_clone_kamaL_vest1
+    {
+        displayname = "[K] Clone kamaL Vest 6";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest6.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest6.p3d";
+            containerclass = "Supply90";
+			mass = 30;
+        };
+    };
+    class k_clone_kamaL_vest7: k_clone_kamaL_vest1
+    {
+        displayname = "[K] Clone kamaL Vest 7";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest7.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest7.p3d";
+            containerclass = "Supply120";
+			mass = 30;
+        };
+    };
+    class k_clone_kamaL_vest8: k_clone_kamaL_vest1
+    {
+        displayname = "[K] Clone kamaL Vest 8";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest8.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest8.p3d";
+            containerclass = "Supply90";
+			mass = 30;
+        };
+    };
+    class k_clone_kamaL_vest9: k_clone_kamaL_vest1
+    {
+        displayname = "[K] Clone kamaL Vest 9";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest9.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest9.p3d";
+            containerclass = "Supply120";
+			mass = 30;
+        };
+    };
+    class k_clone_kamaL_vest10: k_clone_kamaL_vest1
+    {
+        displayname = "[K] Clone kamaL Vest 10";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest10.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest10.p3d";
+            containerclass = "Supply120";
+			mass = 30;
+        };
+    };
+////kamaR vests
+    class k_clone_kamaR_vest1: k_clone_basic_vest_base
+    {
+        displayname = "[K] Clone kamaR Vest 1";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest1.p3d";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\kama_co.paa",
+            "kobra\442_equipment\vests\data\clone\leg_pouch_co.paa",
+            "kobra\442_equipment\vests\data\clone\leg_pouch_co.paa",
+        };
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest1.p3d";
+            containerclass = "Supply60";
+			mass = 30;
+        };
+    };
+    class k_clone_kamaR_vest2: k_clone_kamaR_vest1
+    {
+        displayname = "[K] Clone kamaR Vest 2";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest2.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest2.p3d";
+            containerclass = "Supply120";
+			mass = 30;
+        };
+    };
+    class k_clone_kamaR_vest3: k_clone_kamaR_vest1
+    {
+        displayname = "[K] Clone kamaR Vest 3";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest3.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest3.p3d";
+            containerclass = "Supply120";
+			mass = 30;
+        };
+    };
+    class k_clone_kamaR_vest4: k_clone_kamaR_vest1
+    {
+        displayname = "[K] Clone kamaR Vest 4";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest4.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest2.p3d";
+            containerclass = "Supply120";
+			mass = 30;
+        };
+    };
+    class k_clone_kamaR_vest5: k_clone_kamaR_vest1
+    {
+        displayname = "[K] Clone kamaR Vest 5";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest5.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest5.p3d";
+            containerclass = "Supply120";
+			mass = 30;
+        };
+    };
+    class k_clone_kamaR_vest6: k_clone_kamaR_vest1
+    {
+        displayname = "[K] Clone kamaR Vest 6";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest6.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest6.p3d";
+            containerclass = "Supply90";
+			mass = 30;
+        };
+    };
+    class k_clone_kamaR_vest7: k_clone_kamaR_vest1
+    {
+        displayname = "[K] Clone kamaR Vest 7";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest7.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest7.p3d";
+            containerclass = "Supply120";
+			mass = 30;
+        };
+    };
+    class k_clone_kamaR_vest8: k_clone_kamaR_vest1
+    {
+        displayname = "[K] Clone kamaR Vest 8";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest8.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest8.p3d";
+            containerclass = "Supply90";
+			mass = 30;
+        };
+    };
+    class k_clone_kamaR_vest9: k_clone_kamaR_vest1
+    {
+        displayname = "[K] Clone kamaR Vest 9";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest9.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest9.p3d";
+            containerclass = "Supply120";
+			mass = 30;
+        };
+    };
+    class k_clone_kamaR_vest10: k_clone_kamaR_vest1
+    {
+        displayname = "[K] Clone kamaR Vest 10";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest10.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest10.p3d";
+            containerclass = "Supply120";
+			mass = 30;
+        };
+    };
+////nco vests
+    class k_clone_nco_vest1: k_clone_basic_vest_base
+    {
+        displayname = "[K] Clone nco Vest 1";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest1.p3d";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\kama_co.paa",
+            "kobra\442_equipment\vests\data\clone\kama_co.paa",
+        };
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest1.p3d";
+            containerclass = "Supply40";
+			mass = 20;
+        };
+    };
+    class k_clone_nco_vest2: k_clone_nco_vest1
+    {
+        displayname = "[K] Clone nco Vest 2";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest2.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest2.p3d";
+            containerclass = "Supply100";
+			mass = 20;
+        };
+    };
+    class k_clone_nco_vest3: k_clone_nco_vest1
+    {
+        displayname = "[K] Clone nco Vest 3";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest3.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest3.p3d";
+            containerclass = "Supply100";
+			mass = 20;
+        };
+    };
+    class k_clone_nco_vest4: k_clone_nco_vest1
+    {
+        displayname = "[K] Clone nco Vest 4";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest4.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest2.p3d";
+            containerclass = "Supply100";
+			mass = 20;
+        };
+    };
+    class k_clone_nco_vest5: k_clone_nco_vest1
+    {
+        displayname = "[K] Clone nco Vest 5";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest5.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest5.p3d";
+            containerclass = "Supply100";
+			mass = 20;
+        };
+    };
+    class k_clone_nco_vest6: k_clone_nco_vest1
+    {
+        displayname = "[K] Clone nco Vest 6";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest6.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest6.p3d";
+            containerclass = "Supply100";
+			mass = 20;
+        };
+    };
+    class k_clone_nco_vest7: k_clone_nco_vest1
+    {
+        displayname = "[K] Clone nco Vest 7";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest7.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest7.p3d";
+            containerclass = "Supply100";
+			mass = 20;
+        };
+    };
+    class k_clone_nco_vest8: k_clone_nco_vest1
+    {
+        displayname = "[K] Clone nco Vest 8";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest8.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest8.p3d";
+            containerclass = "Supply70";
+			mass = 20;
+        };
+    };
+    class k_clone_nco_vest9: k_clone_nco_vest1
+    {
+        displayname = "[K] Clone nco Vest 9";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest9.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest9.p3d";
+            containerclass = "Supply100";
+			mass = 20;
+        };
+    };
+    class k_clone_nco_vest10: k_clone_nco_vest1
+    {
+        displayname = "[K] Clone nco Vest 10";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest10.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest10.p3d";
+            containerclass = "Supply100";
+			mass = 20;
+        };
+    };
+////officer vests
+    class k_clone_officer_vest1: k_clone_basic_vest_base
+    {
+        displayname = "[K] Clone officer Vest 1";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest1.p3d";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\kama_co.paa",
+            "kobra\442_equipment\vests\data\clone\kama_co.paa",
+        };
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest1.p3d";
+            containerclass = "Supply40";
+			mass = 30;
+        };
+    };
+    class k_clone_officer_vest2: k_clone_officer_vest1
+    {
+        displayname = "[K] Clone officer Vest 2";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest2.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest2.p3d";
+            containerclass = "Supply100";
+			mass = 30;
+        };
+    };
+    class k_clone_officer_vest3: k_clone_officer_vest1
+    {
+        displayname = "[K] Clone officer Vest 3";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest3.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest3.p3d";
+            containerclass = "Supply100";
+			mass = 30;
+        };
+    };
+    class k_clone_officer_vest4: k_clone_officer_vest1
+    {
+        displayname = "[K] Clone officer Vest 4";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest4.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest2.p3d";
+            containerclass = "Supply100";
+			mass = 30;
+        };
+    };
+    class k_clone_officer_vest5: k_clone_officer_vest1
+    {
+        displayname = "[K] Clone officer Vest 5";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest5.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest5.p3d";
+            containerclass = "Supply100";
+			mass = 30;
+        };
+    };
+    class k_clone_officer_vest6: k_clone_officer_vest1
+    {
+        displayname = "[K] Clone officer Vest 6";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest6.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest6.p3d";
+            containerclass = "Supply70";
+			mass = 30;
+        };
+    };
+    class k_clone_officer_vest7: k_clone_officer_vest1
+    {
+        displayname = "[K] Clone officer Vest 7";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest7.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest7.p3d";
+            containerclass = "Supply100";
+			mass = 30;
+        };
+    };
+    class k_clone_officer_vest8: k_clone_officer_vest1
+    {
+        displayname = "[K] Clone officer Vest 8";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest8.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest8.p3d";
+            containerclass = "Supply70";
+			mass = 30;
+        };
+    };
+    class k_clone_officer_vest9: k_clone_officer_vest1
+    {
+        displayname = "[K] Clone officer Vest 9";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest9.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest9.p3d";
+            containerclass = "Supply100";
+			mass = 30;
+        };
+    };
+    class k_clone_officer_vest10: k_clone_officer_vest1
+    {
+        displayname = "[K] Clone officer Vest 10";
+        model = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest10.p3d";
+        class ItemInfo: ItemInfo
+        {
+            uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest10.p3d";
+            containerclass = "Supply100";
+			mass = 30;
+        };
+    };
 //scout vests
 //this needs to be redone for the new vests
     class k_scout_pouches_base: k_vest_base

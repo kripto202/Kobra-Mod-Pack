@@ -68,7 +68,7 @@ class cfgvehicles
     {
         displayname = "[K] Clone Trooper Backpack";
         scope = 1;
-        model = "kobra\442_equipment\backpack\small_backpack.p3d";
+        model = "kobra\442_equipment\backpack\model\clone\k_small_backpack.p3d";
         maximumload = 100; //100 base | +50 pouches | -50 radio
         picture = "kobra\kobra_core\kobra.paa";
         hiddenselections[] = 
@@ -92,7 +92,7 @@ class cfgvehicles
     {
         displayname = "[K] Clone Trooper Backpack";
         scope = 1;
-        model = "kobra\442_equipment\backpack\medium_backpack.p3d";
+        model = "kobra\442_equipment\backpack\model\clone\k_medium_backpack.p3d";
         maximumload = 150; //150 base | +50 pouches | -75 radio | +25 rockets
         picture = "kobra\kobra_core\kobra.paa";
         hiddenselections[] = 
@@ -119,7 +119,7 @@ class cfgvehicles
     class k_clone_large_backpack_base: k_clone_small_backpack_base
     {
         displayname = "[K] Clone Trooper Large Backpack";
-        model = "kobra\442_equipment\backpack\large_backpack.p3d";
+        model = "kobra\442_equipment\backpack\model\clone\k_large_backpack.p3d";
         picture = "kobra\kobra_core\kobra.paa";
         maximumload = 225; //225 base | +50 pouches | -75 radio
         hiddenselections[] = 
@@ -138,7 +138,7 @@ class cfgvehicles
 	class k_clone_huge_backpack_base: k_clone_backpack_base
     {
         displayname = "[K] Clone Trooper Huge Backpack";
-        model = "kobra\442_equipment\backpack\huge_backpack.p3d";
+        model = "kobra\442_equipment\backpack\model\clone\k_huge_backpack.p3d";
         picture = "kobra\kobra_core\kobra.paa";
         maximumload = 325; //400 base | +75 pouches | +240 rockets
         hiddenselections[] = 
@@ -322,7 +322,7 @@ class cfgvehicles
 	{
 		displayname = "[K] Clone Trooper Arc Backpack";
 		scope = 2;
-		model = "kobra\442_equipment\backpack\arc_backpack.p3d";
+		model = "kobra\442_equipment\backpack\model\clone\k_arc_backpack.p3d";
 		hiddenselections[] = 
 		{
 			"backpack"
@@ -401,7 +401,7 @@ class cfgvehicles
 		picture="kobra\kobra_core\kobra.paa";
         maximumload = 0;
 		scope = 2;
-        model = "kobra\442_equipment\backpack\arf_comms.p3d";
+        model = "kobra\442_equipment\backpack\model\clone\k_arf_comms.p3d";
         hiddenselections[] = 
         {
             "comms"
@@ -414,8 +414,8 @@ class cfgvehicles
 	class k_clone_wrist_comms: k_clone_arf_comms
 	{
 		displayname = "[K] Wrist Communicator";
-		scope = 1;
-		model = "kobra\442_equipment\backpack\wrist_comm.p3d";
+		scope = 2;
+		model = "kobra\442_equipment\backpack\model\clone\k_wrist_comm.p3d";
 		hiddenselections[] = {};
 		hiddenselectionstextures[] = {};
 		tf_range=10000;
@@ -424,21 +424,21 @@ class cfgvehicles
 	{
 		displayname = "[K] P1 Helmet Communicator";
 		scope = 2;
-		model = "kobra\442_equipment\backpack\p1_comms.p3d";
+		model = "kobra\442_equipment\backpack\model\clone\k_p1_comms.p3d";
 		tf_range=15000;
 	};
 	class k_clone_p2_comms: k_clone_wrist_comms
 	{
 		displayname = "[K] P2 Helmet Communicator";
 		scope = 2;
-		model = "kobra\442_equipment\backpack\p2_comms.p3d";
+		model = "kobra\442_equipment\backpack\model\clone\k_p2_comms.p3d";
 		tf_range=15000;
 	};
 	class k_clone_scout_comms: k_clone_wrist_comms
 	{
 		displayname = "[K] Scout Communicator";
 		scope = 2;
-		model = "kobra\442_equipment\backpack\scout_comms.p3d";
+		model = "kobra\442_equipment\backpack\model\clone\k_scout_comms.p3d";
 		tf_range=20000;
 		hiddenselections[] = 
 		{
@@ -456,7 +456,7 @@ class cfgvehicles
 		scope = 2;
 		picture = "kobra\kobra_core\kobra.paa";
 		displayname = "[K] Jumppack";
-		model = "kobra\442_equipment\backpack\jumppack.p3d";
+		model = "kobra\442_equipment\backpack\model\clone\k_jumppack.p3d";
 		maximumload = 150;
 		hiddenselections[] = 
 		{
@@ -511,7 +511,7 @@ class cfgvehicles
 		maximumload=150;
 		picture = "kobra\kobra_core\kobra.paa";
 		displayName="[K] JT-12 Jumppack";
-		model = "kobra\442_equipment\backpack\jt12.p3d";
+		model = "kobra\442_equipment\backpack\model\clone\k_jt12.p3d";
 		hiddenselections[] = 
 		{
 			"camo1"
@@ -615,7 +615,7 @@ class cfgvehicles
 	};
 	class 442_jt12_radio: 442_jt12
 	{
-		model = "kobra\442_equipment\backpack\jt12_radio.p3d";
+		model = "kobra\442_equipment\backpack\model\clone\k_jt12_radio.p3d";
 		scope = 2;
 		hiddenselections[] = 
 		{
@@ -639,7 +639,7 @@ class cfgvehicles
 	class 442_cdv_19: 442_jt12
 	{
 		displayname = "[K] CDV-19";
-		model = "kobra\442_equipment\backpack\cdv_19.p3d";
+		model = "kobra\442_equipment\backpack\model\clone\k_cdv_19.p3d";
 		hiddenselections[] = 
 		{
 			"backpack"
