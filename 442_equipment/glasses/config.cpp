@@ -76,6 +76,7 @@ class cfgglasses
 
 	class 442_commando_glass1: 442_clone_p2_glasses
 	{
+		scope = 1; ///needs to be weight painted again
 		displayname = "[K] Commando Helmet Attachments 1";
 		model = "kobra\442_equipment\glasses\model\commando\k_commando_glasses1.p3d";
 		hiddenselections[] = 
@@ -91,6 +92,7 @@ class cfgglasses
 	};
 	class 442_commando_glass2: 442_clone_p2_glasses
 	{
+		scope = 1; ///needs to be weight painted again
 		displayname = "[K] Commando Helmet Attachments 2";
 		model = "kobra\442_equipment\glasses\model\commando\k_commando_glasses2.p3d";
 		hiddenselections[] = 
@@ -563,55 +565,6 @@ class cfgglasses
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
-///special request
-	class 442_arf_brim: 442_n_sensor
-	{
-		displayname = "[K] Arf Brim";
-		model="kobra\442_equipment\glasses\model\k_arf_brim.p3d";
-		hiddenselections[] = 
-		{
-			"brim",
-			"plates",
-			"macro_visor"
-		};
-		hiddenselectionstextures[] = 
-		{
-			"kobra\442_equipment\helmets\data\arf_helmet\arf_brim_co.paa",
-			"",
-			""
-		};
-	};
-	class 442_arf_brim_plate: 442_arf_brim
-	{
-		displayname = "[K] Arf Brim w/ Plates";
-		hiddenselectionstextures[] = 
-		{
-			"kobra\442_equipment\helmets\data\arf_helmet\arf_brim_co.paa",
-			"kobra\442_equipment\helmets\data\arf_helmet\arf_brim_co.paa",
-			""
-		};
-	};
-	class 442_arf_brim_macro: 442_arf_brim
-	{
-		displayname = "[K] Arf Brim w/ Macro Visor";
-		hiddenselectionstextures[] = 
-		{
-			"kobra\442_equipment\helmets\data\arf_helmet\arf_brim_co.paa",
-			"",
-			"kobra\442_equipment\helmets\data\arf_helmet\arf_brim_co.paa"
-		};
-	};
-	class 442_arf_brim_plate_macro: 442_arf_brim
-	{
-		displayname = "[K] Arf Brim w/ Plates, Macro Visor";
-		hiddenselectionstextures[] = 
-		{
-			"kobra\442_equipment\helmets\data\arf_helmet\arf_brim_co.paa",
-			"kobra\442_equipment\helmets\data\arf_helmet\arf_brim_co.paa",
-			"kobra\442_equipment\helmets\data\arf_helmet\arf_brim_co.paa"
-		};
-	};
-
 ///custom
 	class 442_n_sensor_44: 442_n_sensor
 	{
