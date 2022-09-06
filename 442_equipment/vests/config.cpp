@@ -344,6 +344,9 @@ class cfgweapons
     class k_clone_basic_vest1: k_clone_basic_vest_base
     {
         displayname = "[K] Clone Basic Vest 1";
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
         model = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest1.p3d";
         hiddenselectionstextures[] = 
         {
@@ -459,6 +462,9 @@ class cfgweapons
     class k_clone_arc_vest1: k_clone_basic_vest_base
     {
         displayname = "[K] Clone arc Vest 1";
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
         model = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest1.p3d";
         hiddenselectionstextures[] = 
         {
@@ -582,6 +588,9 @@ class cfgweapons
     class k_clone_heavy_vest1: k_clone_basic_vest_base
     {
         displayname = "[K] Clone heavy Vest 1";
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
         model = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest1.p3d";
         hiddenselectionstextures[] = 
         {
@@ -704,6 +713,9 @@ class cfgweapons
     class k_clone_kamaL_vest1: k_clone_basic_vest_base
     {
         displayname = "[K] Clone kamaL Vest 1";
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
         model = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest1.p3d";
         hiddenselectionstextures[] = 
         {
@@ -822,6 +834,9 @@ class cfgweapons
     class k_clone_kamaR_vest1: k_clone_basic_vest_base
     {
         displayname = "[K] Clone kamaR Vest 1";
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
         model = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest1.p3d";
         hiddenselectionstextures[] = 
         {
@@ -940,6 +955,9 @@ class cfgweapons
     class k_clone_nco_vest1: k_clone_basic_vest_base
     {
         displayname = "[K] Clone nco Vest 1";
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
         model = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest1.p3d";
         hiddenselectionstextures[] = 
         {
@@ -1057,6 +1075,9 @@ class cfgweapons
     class k_clone_officer_vest1: k_clone_basic_vest_base
     {
         displayname = "[K] Clone officer Vest 1";
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
         model = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest1.p3d";
         hiddenselectionstextures[] = 
         {
@@ -1313,7 +1334,10 @@ class cfgweapons
     ////backpack
     class k_commando_vest1: k_commando_vest_base
     {
-        displayname = "Commando Vest 1";
+        displayname = "[K] Commando Vest 1";
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
         model = "kobra\442_equipment\vests\model\commando\k_commando_vest1.p3d";
         hiddenselections[] = 
         {
@@ -1335,7 +1359,10 @@ class cfgweapons
     ////backpack, body plates, both kama, both pouches, both shells
     class k_commando_vest2: k_commando_vest_plate_base
     {
-        displayname = "Commando Vest 2";
+        displayname = "[K] Commando Vest 2";
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
         model = "kobra\442_equipment\vests\model\commando\k_commando_vest2.p3d";
         hiddenselections[] = 
         {
@@ -1369,7 +1396,10 @@ class cfgweapons
     ////backpack, body plates, both kama
     class k_commando_vest3: k_commando_vest_plate_base
     {
-        displayname = "Commando Vest 3";
+        displayname = "[K] Commando Vest 3";
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
         model = "kobra\442_equipment\vests\model\commando\k_commando_vest3.p3d";
         hiddenselections[] = 
         {
@@ -1397,7 +1427,7 @@ class cfgweapons
     ////backpack, body plates, both kama, left pouch, both shells
     class k_commando_vest4: k_commando_vest2
     {
-        displayname = "Commando Vest 4";
+        displayname = "[K] Commando Vest 4";
         model = "kobra\442_equipment\vests\model\commando\k_commando_vest4.p3d";
         class ItemInfo: ItemInfo
         {
@@ -1407,7 +1437,7 @@ class cfgweapons
     ////backpack, body plates, both kama, right pouch, both shells
     class k_commando_vest5: k_commando_vest2
     {
-        displayname = "Commando Vest 5";
+        displayname = "[K] Commando Vest 5";
         model = "kobra\442_equipment\vests\model\commando\k_commando_vest5.p3d";
         class ItemInfo: ItemInfo
         {
@@ -1417,7 +1447,10 @@ class cfgweapons
     ////backpack, body plates, both shells
     class k_commando_vest6: k_commando_vest_plate_base
     {
-        displayname = "Commando Vest 6";
+        displayname = "[K] Commando Vest 6";
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
         model = "kobra\442_equipment\vests\model\commando\k_commando_vest6.p3d";
         hiddenselections[] = 
         {
@@ -1447,7 +1480,7 @@ class cfgweapons
     ////backpack, body plates, left kama, right pouch, left shells
     class k_commando_vest7: k_commando_vest2
     {
-        displayname = "Commando Vest 7";
+        displayname = "[K] Commando Vest 7";
         model = "kobra\442_equipment\vests\model\commando\k_commando_vest7.p3d";
         class ItemInfo: ItemInfo
         {
@@ -1457,7 +1490,7 @@ class cfgweapons
     ////backpack, body plates, right kama, left pouch, right shells
     class k_commando_vest8: k_commando_vest2
     {
-        displayname = "Commando Vest 8";
+        displayname = "[K] Commando Vest 8";
         model = "kobra\442_equipment\vests\model\commando\k_commando_vest8.p3d";
         class ItemInfo: ItemInfo
         {
@@ -1467,7 +1500,10 @@ class cfgweapons
     ////backpack, body plates, both kama, both pouch
     class k_commando_vest9: k_commando_vest_plate_base
     {
-        displayname = "Commando Vest 9";
+        displayname = "[K] Commando Vest 9";
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
         model = "kobra\442_equipment\vests\model\commando\k_commando_vest9.p3d";
         hiddenselections[] = 
         {
@@ -1499,7 +1535,7 @@ class cfgweapons
     ////backpack, body plates, left kama, right pouch
     class k_commando_vest10: k_commando_vest9
     {
-        displayname = "Commando Vest 10";
+        displayname = "[K] Commando Vest 10";
         model = "kobra\442_equipment\vests\model\commando\k_commando_vest10.p3d";
         class ItemInfo: ItemInfo
         {
@@ -1509,7 +1545,10 @@ class cfgweapons
     ////backpack, both kama
     class k_commando_vest11: k_commando_vest_base
     {
-        displayname = "Commando Vest 11";
+        displayname = "[K] Commando Vest 11";
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
         model = "kobra\442_equipment\vests\model\commando\k_commando_vest11.p3d";
         hiddenselections[] = 
         {
@@ -1534,7 +1573,7 @@ class cfgweapons
     ////backpack, left kama
     class k_commando_vest12: k_commando_vest11
     {
-        displayname = "Commando Vest 12";
+        displayname = "[K] Commando Vest 12";
         model = "kobra\442_equipment\vests\model\commando\k_commando_vest12.p3d";
         class ItemInfo: ItemInfo
         {
@@ -1544,7 +1583,7 @@ class cfgweapons
     ////backpack, right kama
     class k_commando_vest13: k_commando_vest11
     {
-        displayname = "Commando Vest 13";
+        displayname = "[K] Commando Vest 13";
         model = "kobra\442_equipment\vests\model\commando\k_commando_vest13.p3d";
         class ItemInfo: ItemInfo
         {
@@ -1554,7 +1593,10 @@ class cfgweapons
     ////backpack, both pouch, both shell
     class k_commando_vest14: k_commando_vest_base
     {
-        displayname = "Commando Vest 14";
+        displayname = "[K] Commando Vest 14";
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
         model = "kobra\442_equipment\vests\model\commando\k_commando_vest14.p3d";
         hiddenselections[] = 
         {
@@ -1582,7 +1624,7 @@ class cfgweapons
     ////backpack, left pouch, left shell
     class k_commando_vest15: k_commando_vest14
     {
-        displayname = "Commando Vest 15";
+        displayname = "[K] Commando Vest 15";
         model = "kobra\442_equipment\vests\model\commando\k_commando_vest15.p3d";
         class ItemInfo: ItemInfo
         {
@@ -1592,7 +1634,7 @@ class cfgweapons
     ////backpack, right pouch, right shell
     class k_commando_vest16: k_commando_vest14
     {
-        displayname = "Commando Vest 16";
+        displayname = "[K] Commando Vest 16";
         model = "kobra\442_equipment\vests\model\commando\k_commando_vest16.p3d";
         class ItemInfo: ItemInfo
         {
@@ -1602,7 +1644,10 @@ class cfgweapons
     ////backpack, both pouch
     class k_commando_vest17: k_commando_vest_base
     {
-        displayname = "Commando Vest 17";
+        displayname = "[K] Commando Vest 17";
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
         model = "kobra\442_equipment\vests\model\commando\k_commando_vest17.p3d";
         hiddenselections[] = 
         {
@@ -1627,7 +1672,10 @@ class cfgweapons
     ////backpack, both kama, left pouch
     class k_commando_vest18: k_commando_vest_base
     {
-        displayname = "Commando Vest 18";
+        displayname = "[K] Commando Vest 18";
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
         model = "kobra\442_equipment\vests\model\commando\k_commando_vest18.p3d";
         hiddenselections[] = 
         {
@@ -1655,7 +1703,7 @@ class cfgweapons
     ////backpack, both kama, right pouch
     class k_commando_vest19: k_commando_vest18
     {
-        displayname = "Commando Vest 19";
+        displayname = "[K] Commando Vest 19";
         model = "kobra\442_equipment\vests\model\commando\k_commando_vest19.p3d";
         class ItemInfo: ItemInfo
         {
@@ -1665,7 +1713,10 @@ class cfgweapons
     ////backpack, both shells
     class k_commando_vest20: k_commando_vest_base
     {
-        displayname = "Commando Vest 20";
+        displayname = "[K] Commando Vest 20";
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
         model = "kobra\442_equipment\vests\model\commando\k_commando_vest20.p3d";
         hiddenselections[] = 
         {

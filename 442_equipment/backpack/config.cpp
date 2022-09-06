@@ -47,7 +47,7 @@ class cfgvehicles
 	{
 		author = "KOBRA Mod Team";
 		scope = 0;
-		picture = "kobra\kobra_core\kobra.paa";
+		picture = "\kobra\kobra_core\kobra.paa";
 		displayname = "";
 		model = "";
 		maximumload = 250;
@@ -70,7 +70,7 @@ class cfgvehicles
         scope = 1;
         model = "kobra\442_equipment\backpack\model\clone\k_small_backpack.p3d";
         maximumload = 100; //100 base | +50 pouches | -50 radio
-        picture = "kobra\kobra_core\kobra.paa";
+        picture = "\kobra\kobra_core\kobra.paa";
         hiddenselections[] = 
         {
             "backpack",
@@ -94,7 +94,7 @@ class cfgvehicles
         scope = 1;
         model = "kobra\442_equipment\backpack\model\clone\k_medium_backpack.p3d";
         maximumload = 150; //150 base | +50 pouches | -75 radio | +25 rockets
-        picture = "kobra\kobra_core\kobra.paa";
+        picture = "\kobra\kobra_core\kobra.paa";
         hiddenselections[] = 
         {
             "backpack",
@@ -120,7 +120,7 @@ class cfgvehicles
     {
         displayname = "[K] Clone Trooper Large Backpack";
         model = "kobra\442_equipment\backpack\model\clone\k_large_backpack.p3d";
-        picture = "kobra\kobra_core\kobra.paa";
+        picture = "\kobra\kobra_core\kobra.paa";
         maximumload = 225; //225 base | +50 pouches | -75 radio
         hiddenselections[] = 
         {
@@ -138,21 +138,8 @@ class cfgvehicles
 	class k_clone_huge_backpack_base: k_clone_backpack_base
     {
         displayname = "[K] Clone Trooper Huge Backpack";
-        model = "kobra\442_equipment\backpack\model\clone\k_huge_backpack.p3d";
-        picture = "kobra\kobra_core\kobra.paa";
+        picture = "\kobra\kobra_core\kobra.paa";
         maximumload = 325; //400 base | +75 pouches | +240 rockets
-        hiddenselections[] = 
-        {
-            "backpack",
-            "rocket",
-            "pouches"
-        };
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\backpack\data\huge\huge_backpack_co.paa", ///backpack
-            "kobra\442_equipment\backpack\data\huge\huge_backpack_co.paa", ///rocket
-            "kobra\442_equipment\backpack\data\huge\huge_backpack_co.paa", ///pouches
-        };
     };
 
 ///small backpack///
@@ -183,6 +170,46 @@ class cfgvehicles
             "",
         };
     };
+	class k_clone_small_backpack_radio: k_clone_small_backpack_base
+    {
+        displayname = "[K] Clone Trooper Small Radio Backpack";
+        scope = 2;
+        maximumload = 50;
+        tf_dialog = "mr6000l_radio_dialog";
+        tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
+        tf_encryptionCode="tf_west_radio_code";
+        tf_hasLRradio=1;
+        tf_range=25000;
+        tf_subtype="digital_lr";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\backpack\data\small\small_backpack_co.paa",
+            "",
+            "",
+            "kobra\442_equipment\backpack\data\small\radio_co.paa",
+            "kobra\442_equipment\backpack\data\small\screen_co.paa",
+        };
+    };
+    class k_clone_small_backpack_radio_pouches: k_clone_small_backpack_base
+    {
+        displayname = "[K] Clone Trooper Small Radio Backpack w/ Pouches";
+        scope = 2;
+        maximumload = 100;
+        tf_dialog = "mr6000l_radio_dialog";
+        tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
+        tf_encryptionCode="tf_west_radio_code";
+        tf_hasLRradio=1;
+        tf_range=25000;
+        tf_subtype="digital_lr";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\backpack\data\small\small_backpack_co.paa",
+            "",
+            "kobra\442_equipment\backpack\data\small\pouches_co.paa",
+            "kobra\442_equipment\backpack\data\small\radio_co.paa",
+            "kobra\442_equipment\backpack\data\small\screen_co.paa",
+        };
+    };
 
 ///medium backpack
 	class k_clone_medium_backpack: k_clone_medium_backpack_base
@@ -190,30 +217,54 @@ class cfgvehicles
 		displayname = "[K] Clone Trooper Medium Backpack";
 		scope = 2;
 		maximumload = 150;
+		model = "kobra\442_equipment\backpack\model\clone\k_medium_backpack.p3d";
+		hiddenselections[] = 
+		{
+			"backpack",
+			"cover"
+		};
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\backpack\data\medium\medium_backpack_co.paa", //backpack
-			"", //radio
-			"kobra\442_equipment\backpack\data\medium\medium_backpack_co.paa", //tube
-			"kobra\442_equipment\backpack\data\medium\medium_backpack_co.paa", //cover
-			"", //rocket
-			"", //thermal_det
-			"" //thermal_det_lights
+			"kobra\442_equipment\backpack\data\medium\medium_backpack_co.paa",
+			"kobra\442_equipment\backpack\data\medium\medium_backpack_cover_co.paa",
 		};
 	};
 	class k_clone_medium_backpack_rocket: k_clone_medium_backpack
 	{
 		displayname = "[K] Clone Trooper Medium Rocket Backpack";
 		maximumload = 175;
+		model = "kobra\442_equipment\backpack\model\clone\k_medium_backpack_rockets.p3d";
+		hiddenselections[] = 
+		{
+			"backpack",
+			"rocket"
+		};
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\backpack\data\medium\medium_backpack_co.paa", //backpack
-			"", //radio
-			"kobra\442_equipment\backpack\data\medium\medium_backpack_co.paa", //tube
-			"", //cover
-			"kobra\442_equipment\backpack\data\huge\huge_backpack_co.paa", //rocket
-			"kobra\442_weapons\explosive\data\thermal_det\camo1_co.paa", //thermal_det
-			"kobra\442_weapons\explosive\data\thermal_det\lights_co.paa" //thermal_det_lights
+			"kobra\442_equipment\backpack\data\medium\medium_backpack_co.paa",
+			"kobra\442_equipment\backpack\data\medium\medium_backpack_rockets_co.paa",
+		};
+	};
+	class k_clone_medium_backpack_radio: k_clone_medium_backpack
+	{
+		displayname = "[K] Clone Trooper Medium Radio Backpack";
+		maximumload = 75;
+		tf_dialog = "mr6000l_radio_dialog";
+        tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
+        tf_encryptionCode="tf_west_radio_code";
+        tf_hasLRradio=1;
+        tf_range=25000;
+        tf_subtype="digital_lr";
+		model = "kobra\442_equipment\backpack\model\clone\k_medium_backpack_radio.p3d";
+		hiddenselections[] = 
+		{
+			"backpack",
+			"radio"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\medium\medium_backpack_co.paa",
+			"kobra\442_equipment\backpack\data\medium\medium_backpack_radio_co.paa",
 		};
 	};
 
@@ -283,37 +334,50 @@ class cfgvehicles
 	class k_clone_huge_backpack: k_clone_huge_backpack_base
 	{
 		displayname = "[K] Clone Trooper Huge Backpack";
+		model = "kobra\442_equipment\backpack\model\clone\k_huge_backpack.p3d";
 		scope = 2;
 		maximumload = 325;
+		hiddenselections[] = 
+		{
+			"backpack"
+		};
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_equipment\backpack\data\huge\huge_backpack_co.paa", ///backpack
-            "", ///rocket
-            "", ///pouches
 		};
 	};
 	class k_clone_huge_backpack_pouches: k_clone_huge_backpack_base
 	{
 		displayname = "[K] Clone Trooper Huge Backpack w/ Pouches";
+		model = "kobra\442_equipment\backpack\model\clone\k_huge_backpack_pouches.p3d";
 		scope = 2;
 		maximumload = 400;
+		hiddenselections[] = 
+		{
+			"backpack",
+			"pouches"
+		};
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_equipment\backpack\data\huge\huge_backpack_co.paa", ///backpack
-            "", ///rocket
-            "kobra\442_equipment\backpack\data\huge\huge_backpack_co.paa", ///pouches
+            "kobra\442_equipment\backpack\data\huge\huge_backpack_pouches_co.paa", ///pouches
 		};
 	};
 	class k_clone_huge_backpack_rocket: k_clone_huge_backpack_base
 	{
 		displayname = "[K] Clone Trooper Huge Backpack w/ Rockets";
+		model = "kobra\442_equipment\backpack\model\clone\k_huge_backpack_rockets.p3d";
 		scope = 2;
 		maximumload = 565;
+		hiddenselections[] = 
+		{
+			"backpack",
+			"rockets"
+		};
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_equipment\backpack\data\huge\huge_backpack_co.paa", ///backpack
-            "kobra\442_equipment\backpack\data\huge\huge_backpack_co.paa", ///rocket
-            "", ///pouches
+            "kobra\442_equipment\backpack\data\huge\huge_backpack_rockets_co.paa", ///rocket
 		};
 	};
 	
@@ -332,69 +396,70 @@ class cfgvehicles
 			"kobra\442_equipment\backpack\data\arc\arc_backpack_co.paa"
 		};
 	};
-
-///tfar backpacks///
-    class k_clone_small_backpack_radio: k_clone_small_backpack_base
-    {
-        displayname = "[K] Clone Trooper Small Radio Backpack";
-        scope = 2;
-        maximumload = 50;
-        tf_dialog = "mr6000l_radio_dialog";
-        tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
-        tf_encryptionCode="tf_west_radio_code";
-        tf_hasLRradio=1;
-        tf_range=25000;
-        tf_subtype="digital_lr";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\backpack\data\small\small_backpack_co.paa",
-            "",
-            "",
-            "kobra\442_equipment\backpack\data\small\radio_co.paa",
-            "kobra\442_equipment\backpack\data\small\screen_co.paa",
-        };
-    };
-    class k_clone_small_backpack_radio_pouches: k_clone_small_backpack_base
-    {
-        displayname = "[K] Clone Trooper Small Radio Backpack w/ Pouches";
-        scope = 2;
-        maximumload = 100;
-        tf_dialog = "mr6000l_radio_dialog";
-        tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
-        tf_encryptionCode="tf_west_radio_code";
-        tf_hasLRradio=1;
-        tf_range=25000;
-        tf_subtype="digital_lr";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\backpack\data\small\small_backpack_co.paa",
-            "",
-            "kobra\442_equipment\backpack\data\small\pouches_co.paa",
-            "kobra\442_equipment\backpack\data\small\radio_co.paa",
-            "kobra\442_equipment\backpack\data\small\screen_co.paa",
-        };
-    };
-	class k_clone_medium_backpack_radio: k_clone_medium_backpack
+///commando backpack
+	class k_commando_eod_backpack: k_clone_medium_backpack
 	{
-		displayname = "[K] Clone Trooper Medium Radio Backpack";
-		maximumload = 75;
+		displayname = "[K] Commando EOD Backpack";
+		scope = 2;
+		model = "kobra\442_equipment\backpack\model\commando\k_commando_eod.p3d";
+		hiddenselections[] = 
+		{
+			"eod"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\commando\backpack_parts_co.paa"
+		};
+	};
+	class k_commando_pouches_backpack: k_clone_medium_backpack
+	{
+		displayname = "[K] Commando Pouches Backpack";
+		scope = 2;
+		model = "kobra\442_equipment\backpack\model\commando\k_commando_pouches.p3d";
+		hiddenselections[] = 
+		{
+			"pouches"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\commando\backpack_parts_co.paa"
+		};
+	};
+	class k_commando_radio_backpack: k_clone_medium_backpack
+	{
+		displayname = "[K] Commando Radio Backpack";
+		scope = 2;
+		model = "kobra\442_equipment\backpack\model\commando\k_commando_radio.p3d";
 		tf_dialog = "mr6000l_radio_dialog";
         tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
         tf_encryptionCode="tf_west_radio_code";
         tf_hasLRradio=1;
         tf_range=25000;
         tf_subtype="digital_lr";
+		hiddenselections[] = 
+		{
+			"radio"
+		};
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\backpack\data\medium\medium_backpack_co.paa", //backpack
-			"kobra\442_equipment\backpack\data\medium\medium_backpack_co.paa", //radio
-			"kobra\442_equipment\backpack\data\medium\medium_backpack_co.paa", //tube
-			"", //cover
-			"", //rocket
-			"", //thermal_det
-			"" //thermal_det_lights
+			"kobra\442_equipment\backpack\data\commando\backpack_parts_co.paa"
 		};
 	};
+	class k_commando_tech_backpack: k_clone_medium_backpack
+	{
+		displayname = "[K] Commando Tech Backpack";
+		scope = 2;
+		model = "kobra\442_equipment\backpack\model\commando\k_commando_tech.p3d";
+		hiddenselections[] = 
+		{
+			"tech"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\commando\backpack_parts_co.paa"
+		};
+	};
+///tfar backpacks///
     class k_clone_arf_comms: k_clone_medium_backpack_radio
     {
         displayname = "[K] Arf Communicator";
@@ -408,7 +473,7 @@ class cfgvehicles
         };
         hiddenselectionstextures[] = 
         {
-            "Kobra\442_equipment\helmets\data\arf_helmet\arf_brim_co.paa"
+            "Kobra\442_equipment\backpack\data\arf_comms\arf_comms_co.paa"
         };
     };
 	class k_clone_wrist_comms: k_clone_arf_comms
@@ -518,7 +583,7 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\backpack\data\jt12\jt12_body_co.paa"
+			"kobra\442_equipment\backpack\data\jt12\jt12_co.paa"
 		};
 		NSM_jumppack_is_jumppack=1;
 		NSM_jumppack_spam_delay=1;
@@ -624,8 +689,8 @@ class cfgvehicles
 		};
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\backpack\data\jt12\jt12_body_co.paa",
-			"kobra\442_equipment\backpack\data\jt12\radio_co.paa"
+			"kobra\442_equipment\backpack\data\jt12\jt12_co.paa",
+			"kobra\442_equipment\backpack\data\jt12\jt12_radio_co.paa"
 		};
 		maximumload=150;
 		displayName="[K] JT-12 Jumppack (Radio)";
