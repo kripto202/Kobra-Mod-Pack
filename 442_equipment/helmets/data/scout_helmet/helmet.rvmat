@@ -1,6 +1,6 @@
 class StageTI
 {
-	texture="#(argb,8,8,3)color(1,1,1,1,TI)";
+	texture="#(argb,8,8,3)color(1,1,1,0.5,TI)";
 };
 ambient[] = {0.5,0.5,0.5,1};
 diffuse[] = {0.5,0.5,0.5,0.5};
@@ -72,8 +72,15 @@ class Stage5
 };
 class Stage6
 {
-	texture="#(ai,64,64,1)fresnel(1,1)";
-	uvSource="none";
+	texture = "#(ai,64,64,1)fresnel(1.5,1.22)";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,1};
+		pos[]={0,0,0};
+	};
 };
 class Stage7
 {

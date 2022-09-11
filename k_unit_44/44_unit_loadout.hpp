@@ -1,8 +1,8 @@
 	class k_ls_44_unit_dc15a: k_ls_44_unit
 	{
-		scope = 2;
-		scopecurator = 2;
-		scopearsenal = 2;
+		scope = 1;
+		scopecurator = 1;
+		scopearsenal = 1;
 		displayname = "Trooper (DC-15A)";
 		//icon = "";
 		attendant = 0;
