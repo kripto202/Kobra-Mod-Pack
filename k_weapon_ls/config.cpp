@@ -186,8 +186,8 @@ class cfgweapons
 			maxRangeProbab = 0.01;
 			aiRateOfFire=2;
 			aiRateOfFireDistance=25;
-			recoil = "recoil_single_ebr";
-			recoilProne = "recoil_single_prone_ebr";
+			recoil="recoil_single_mk20";
+			recoilProne="recoil_single_prone_mk20";
 		};
 		class FullAuto: Mode_FullAuto
 		{
@@ -226,8 +226,8 @@ class cfgweapons
 			};
 			reloadTime=0.104347;
 			dispersion=0.00014545;
-			recoil = "recoil_single_ebr";
-			recoilProne = "recoil_single_prone_ebr";
+			recoil="recoil_auto_mk20";
+			recoilProne="recoil_auto_prone_mk20";
 			minRange = 2;
 			minRangeProbab = 0.01;
 			midRange = 200;
@@ -289,9 +289,9 @@ class cfgweapons
 		maxRecoilSway=0.0125;
 		swayDecaySpeed=1.25;
 		dexterity=1.7;
-		initspeed=800;
+		initSpeed=-1;
 		inertia=0.5;
-		recoil = "recoil_ebr";
+		recoil="recoil_mk20";
 	};
     class 442_DC15A_ugl: 442_DC15A
 	{
@@ -826,7 +826,7 @@ class cfgweapons
 		initspeed=-1;
 		maxRecoilSway=0.0125;
 		swayDecaySpeed=1.25;
-		inertia=1.4;
+		initSpeed=-1;
 		dexterity=1.7;
 		recoil="recoil_pistol_4five";
 	};
@@ -1242,7 +1242,7 @@ class cfgweapons
 		};
 		inertia=1.4;
 		dexterity=1.7;
-		initSpeed=300;
+		initSpeed=-1;
 		maxRecoilSway=0.0125;
 		swayDecaySpeed=1.25;
 	};
@@ -1378,7 +1378,7 @@ class cfgweapons
 		{
 			"this"
 		};
-		initspeed=80;
+		initSpeed=-1;
 		maxRecoilSway=0.0125;
 		swayDecaySpeed=1.25;
 		inertia=0.5;
@@ -1814,7 +1814,7 @@ class cfgweapons
 		};
 		maxRecoilSway=0.0099999998;
 		swayDecaySpeed=0.7;
-		inertia=2.5;
+		initSpeed=-1;
 		initSpeed=909;
 		fireLightDuration=0.050000001;
 		fireLightIntensity=0.40000001;
@@ -2167,7 +2167,7 @@ class cfgweapons
 		};
 		maxRecoilSway=0.0099999998;
 		swayDecaySpeed=0.2;
-		inertia=3;
+		initSpeed=-1;
 		initSpeed=-1;
 		fireLightDuration=0.050000001;
 		fireLightIntensity=0.40000001;

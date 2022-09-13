@@ -197,6 +197,55 @@ class cfgvehicles
         };
     };
 
+	class k_clone_small_backpack_44: k_clone_small_backpack
+    {
+        displayname = "[44/K] Clone Trooper Small Backpack";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\backpack\data\small\unit_designs\44ab\small_backpack_co.paa",
+            "kobra\442_equipment\backpack\data\small\small_backpack_cover_co.paa",
+            "",
+            "",
+            ""
+        };
+    };
+    class k_clone_small_backpack_pouches_44: k_clone_small_backpack_pouches
+    {
+        displayname = "[44/K] Clone Trooper Small Backpack w/ Pouches";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\backpack\data\small\unit_designs\44ab\small_backpack_co.paa",
+            "kobra\442_equipment\backpack\data\small\small_backpack_cover_co.paa",
+            "kobra\442_equipment\backpack\data\small\small_backpack_pouches_co.paa",
+            "",
+            ""
+        };
+    };
+	class k_clone_small_backpack_radio_44: k_clone_small_backpack_radio
+    {
+        displayname = "[44/K] Clone Trooper Small Radio Backpack";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\backpack\data\small\unit_designs\44ab\small_backpack_co.paa",
+            "",
+            "",
+            "kobra\442_equipment\backpack\data\small\small_backpack_radio_co.paa",
+            "kobra\442_equipment\backpack\data\small\small_backpack_radio_co.paa"
+        };
+    };
+    class k_clone_small_backpack_radio_pouches_44: k_clone_small_backpack_radio_pouches
+    {
+        displayname = "[44/K] Clone Trooper Small Radio Backpack w/ Pouches";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\backpack\data\small\unit_designs\44ab\small_backpack_co.paa",
+            "",
+            "kobra\442_equipment\backpack\data\small\small_backpack_pouches_co.paa",
+            "kobra\442_equipment\backpack\data\small\small_backpack_radio_co.paa",
+            "kobra\442_equipment\backpack\data\small\small_backpack_radio_co.paa"
+        };
+    };
+
 ///medium backpack
 	class k_clone_medium_backpack: k_clone_medium_backpack_base
 	{
@@ -250,6 +299,34 @@ class cfgvehicles
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_equipment\backpack\data\medium\medium_backpack_co.paa",
+			"kobra\442_equipment\backpack\data\medium\medium_backpack_radio_co.paa"
+		};
+	};
+
+	class k_clone_medium_backpack_44: k_clone_medium_backpack
+	{
+		displayname = "[44/K] Clone Trooper Medium Backpack";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\medium\unit_designs\44ab\medium_backpack_co.paa",
+			"kobra\442_equipment\backpack\data\medium\medium_backpack_cover_co.paa"
+		};
+	};
+	class k_clone_medium_backpack_rocket_44: k_clone_medium_backpack_rocket
+	{
+		displayname = "[44/K] Clone Trooper Medium Rocket Backpack";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\medium\unit_designs\44ab\medium_backpack_co.paa",
+			"kobra\442_equipment\backpack\data\medium\medium_backpack_rockets_co.paa"
+		};
+	};
+	class k_clone_medium_backpack_radio_44: k_clone_medium_backpack_radio
+	{
+		displayname = "[44/K] Clone Trooper Medium Radio Backpack";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\medium\unit_designs\44ab\medium_backpack_co.paa",
 			"kobra\442_equipment\backpack\data\medium\medium_backpack_radio_co.paa"
 		};
 	};
@@ -316,6 +393,57 @@ class cfgvehicles
         };
     };
 
+	class k_clone_large_backpack_44: k_clone_large_backpack
+    {
+        displayname = "[44/K] Clone Trooper Large Backpack";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\backpack\data\large\unit_designs\44ab\large_backpack_co.paa",
+            "kobra\442_equipment\backpack\data\large\large_backpack_cover_co.paa",
+            ""
+        };
+    };
+    class k_clone_large_backpack_pouch_44: k_clone_large_backpack_pouch
+    {
+        displayname = "[44/K] Clone Trooper Large Backpack w/ Pouches";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\backpack\data\large\unit_designs\44ab\large_backpack_co.paa",
+            "kobra\442_equipment\backpack\data\large\large_backpack_cover_co.paa",
+            "kobra\442_equipment\backpack\data\large\unit_designs\44ab\large_backpack_pouches_co.paa"
+        };
+    };
+    class k_clone_large_backpack_medic_44: k_clone_large_backpack_medic
+    {
+        displayname = "[44/K] Clone Trooper Large Medic Backpack";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\backpack\data\large\unit_designs\44ab\large_backpack_medic_co.paa",
+            "kobra\442_equipment\backpack\data\large\large_backpack_cover_co.paa",
+            ""
+        };
+    };
+    class k_clone_large_backpack_medic_pouch_44: k_clone_large_backpack_medic_pouch
+    {
+        displayname = "[44/K] Clone Trooper Large Medic Backpack w/ Pouches";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\backpack\data\large\unit_designs\44ab\large_backpack_medic_co.paa",
+            "kobra\442_equipment\backpack\data\large\large_backpack_cover_co.paa",
+            "kobra\442_equipment\backpack\data\large\unit_designs\44ab\large_backpack_pouches_co.paa"
+        };
+    };
+    class k_clone_large_backpack_eod_pouch_44: k_clone_large_backpack_eod_pouch
+    {
+        displayname = "[44/K] Clone Trooper Large EOD Backpack w/ Pouches";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\backpack\data\large\unit_designs\44ab\large_backpack_eod_co.paa",
+            "kobra\442_equipment\backpack\data\large\large_backpack_cover_co.paa",
+            "kobra\442_equipment\backpack\data\large\unit_designs\44ab\large_backpack_pouches_co.paa"
+        };
+    };
+
 ///huge backpack///
 	class k_clone_huge_backpack: k_clone_huge_backpack_base
 	{
@@ -364,6 +492,33 @@ class cfgvehicles
 		{
 			"kobra\442_equipment\backpack\data\huge\huge_backpack_co.paa", ///backpack
             "kobra\442_equipment\backpack\data\huge\huge_backpack_rockets_co.paa" ///rocket
+		};
+	};
+
+	class k_clone_huge_backpack_44: k_clone_huge_backpack
+	{
+		displayname = "[K] Clone Trooper Huge Backpack";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\huge\unit_designs\44ab\huge_backpack_co.paa" ///backpack
+		};
+	};
+	class k_clone_huge_backpack_pouches_44: k_clone_huge_backpack_pouches
+	{
+		displayname = "[K] Clone Trooper Huge Backpack w/ Pouches";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\huge\unit_designs\44ab\huge_backpack_co.paa", ///backpack
+            "kobra\442_equipment\backpack\data\huge\huge_backpack_pouches_co.paa" ///pouches
+		};
+	};
+	class k_clone_huge_backpack_rocket_44: k_clone_huge_backpack_rocket
+	{
+		displayname = "[K] Clone Trooper Huge Backpack w/ Rockets";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\huge\unit_designs\44ab\huge_backpack_co.paa", ///backpack
+            "kobra\442_equipment\backpack\data\huge\unit_designs\44ab\huge_backpack_rockets_co.paa" ///rocket
 		};
 	};
 	
@@ -453,6 +608,40 @@ class cfgvehicles
 			"kobra\442_equipment\backpack\data\commando\backpack_parts_co.paa"
 		};
 	};
+
+	class k_commando_eod_backpack_44: k_commando_eod_backpack
+	{
+		displayname = "[44/K] Commando EOD Backpack";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\commando\unit_designs\44ab\backpack_parts_co.paa"
+		};
+	};
+	class k_commando_pouches_backpack_44: k_commando_pouches_backpack
+	{
+		displayname = "[44/K] Commando Pouches Backpack";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\commando\unit_designs\44ab\backpack_parts_co.paa"
+		};
+	};
+	class k_commando_radio_backpack_44: k_commando_radio_backpack
+	{
+		displayname = "[44/K] Commando Radio Backpack";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\commando\unit_designs\44ab\backpack_parts_co.paa"
+		};
+	};
+	class k_commando_tech_backpack_44: k_commando_tech_backpack
+	{
+		displayname = "[44/K] Commando Tech Backpack";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\commando\unit_designs\44ab\backpack_parts_co.paa"
+		};
+	};
+
 ///tfar backpacks///
     class k_clone_arf_comms: k_clone_medium_backpack_radio
     {
@@ -563,6 +752,14 @@ class cfgvehicles
 				"High Jump",
 				{50,14,50,0,1,1}
 			},
+		};
+	};
+	class 442_jumppack_44: 442_jumppack
+	{
+		displayname = "[44/K] Jumppack";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\jumppack\unit_designs\44ab\jumppack_co.paa"
 		};
 	};
 	class 442_jt12: 442_jumppack

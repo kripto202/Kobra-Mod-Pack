@@ -1216,8 +1216,9 @@ class cfgweapons
     {
         author = "KOBRA Mod Team";
         displayname = "Commando Vest Base";
-        model = "";
+        model = "kobra\442_equipment\ground\k_crate_vest_gh.p3d";
         hiddenselections[] = {};
+        maximumLoad=325;
         class ItemInfo: ItemInfo
         {
             hiddenselections[] = {};
@@ -1511,7 +1512,7 @@ class cfgweapons
     };
     class k_commando_vest6_44: k_commando_vest6
     {
-        displayname = "[K/44] Commando Vest 6";
+        displayname = "[44/K] Commando Vest 6";
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\vests\data\commando\unit_designs\44ab\backpack_co.paa",

@@ -603,7 +603,7 @@ class cfgvehicles
 			};
 		};*/
 	};
-
+////scout unit
 	class k_scout_unit: 442_unit_base
     {
         displayname = "Scout Trooper";
@@ -611,6 +611,9 @@ class cfgvehicles
         uniformclass = "k_scout_uniform";
         faction = "kobra_b";
         editorSubCategory = "442_trooper";
+		nameSound = "veh_infantry_s";
+		textPlural = "Troopers";
+		textSingular = "Trooper";
         hiddenselections[] = 
         {
             "armor",
@@ -673,7 +676,6 @@ class cfgvehicles
 			};
 		};
     };
-
 	class k_scout_unit_44: k_scout_unit
     {
         displayname = "Scout Trooper";
@@ -693,7 +695,40 @@ class cfgvehicles
             "kobra\442_equipment\uniform\data\scout_uniform\undersuit_co.paa"
         };
     };
-
+	class k_scout_unit_arid: k_scout_unit
+    {
+        displayname = "Scout Trooper";
+        uniformclass = "k_scout_uniform_arid";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\scout_uniform\unit_designs\arid_scout\scout_armor_co.paa",
+            "kobra\442_equipment\uniform\data\scout_uniform\gloves_co.paa",
+            "kobra\442_equipment\uniform\data\scout_uniform\unit_designs\arid_scout\scout_undersuit_co.paa"
+        };
+    };
+    class k_scout_unit_desert: k_scout_unit
+    {
+        displayname = "Scout Trooper";
+        uniformclass = "k_scout_uniform_desert";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\scout_uniform\unit_designs\desert_scout\scout_armor_co.paa",
+            "kobra\442_equipment\uniform\data\scout_uniform\gloves_co.paa",
+            "kobra\442_equipment\uniform\data\scout_uniform\unit_designs\desert_scout\scout_undersuit_co.paa"
+        };
+    };
+    class k_scout_unit_woodland: k_scout_unit
+    {
+        displayname = "Scout Trooper";
+        uniformclass = "k_scout_uniform_woodland";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\scout_uniform\unit_designs\woodland_scout\scout_armor_co.paa",
+            "kobra\442_equipment\uniform\data\scout_uniform\gloves_co.paa",
+            "kobra\442_equipment\uniform\data\scout_uniform\unit_designs\woodland_scout\scout_undersuit_co.paa"
+        };
+    };
+////clone unit
     class k_clone_unit: k_scout_unit
     {
         displayname = "Clone Trooper";
@@ -757,8 +792,7 @@ class cfgvehicles
 			};
 		};
     };
-
-	class k_clone_unit_44: k_clone_unit
+    class k_clone_unit_44: k_clone_unit
     {
         displayname = "Clone Trooper";
         model = "kobra\442_equipment\uniform\model\clone_uniform.p3d";
@@ -778,11 +812,329 @@ class cfgvehicles
         };
     };
 
+	class k_clone_unit_5th: k_clone_unit
+    {
+        displayname = "Clone Trooper (5th Fleet Security)";
+        uniformclass = "k_clone_uniform_5th";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_5_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_5_co.paa",
+        };
+    };
+
+	class k_clone_unit_13th: k_clone_unit
+    {
+        displayname = "Clone Trooper (13th)";
+        uniformclass = "k_clone_uniform_13th";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_13_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_13_co.paa",
+        };
+    };
+
+	class k_clone_unit_41stGC: k_clone_unit
+    {
+        displayname = "Clone Trooper (41st Green Company)";
+        uniformclass = "k_clone_uniform_41stGC";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_41_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_41_co.paa",
+        };
+    };
+
+	class k_clone_unit_91st: k_clone_unit
+    {
+        displayname = "Clone Trooper (91st)";
+        uniformclass = "k_clone_uniform_91st";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_91_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_91_co.paa",
+        };
+    };
+
+	class k_clone_unit_104thWolfpack: k_clone_unit
+    {
+        displayname = "Clone Trooper (104th Wolfpack)";
+        uniformclass = "k_clone_uniform_104thWolfpack";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_104Grey_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_104Grey_co.paa",
+        };
+    };
+
+	class k_clone_unit_104th: k_clone_unit
+    {
+        displayname = "Clone Trooper (104th)";
+        uniformclass = "k_clone_uniform_104th";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_104Red_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_104Red_co.paa",
+        };
+    };
+
+	class k_clone_unit_187th: k_clone_unit
+    {
+        displayname = "Clone Trooper (187th)";
+        uniformclass = "k_clone_uniform_187th";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_187_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_187_co.paa",
+        };
+    };
+
+	class k_clone_unit_212th: k_clone_unit
+    {
+        displayname = "Clone Trooper (212th)";
+        uniformclass = "k_clone_uniform_212th";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_212_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_212_co.paa",
+        };
+    };
+
+	class k_clone_unit_327th: k_clone_unit
+    {
+        displayname = "Clone Trooper (327th)";
+        uniformclass = "k_clone_uniform_327th";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_327_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_327_co.paa",
+        };
+    };
+
+	class k_clone_unit_332nd: k_clone_unit
+    {
+        displayname = "Clone Trooper (332nd)";
+        uniformclass = "k_clone_uniform_332nd";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_332_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_332_co.paa",
+        };
+    };
+
+	class k_clone_unit_442nd: k_clone_unit
+    {
+        displayname = "Clone Trooper (442nd)";
+        uniformclass = "k_clone_uniform_442nd";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_442_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_442_co.paa",
+        };
+    };
+
+	class k_clone_unit_501st: k_clone_unit
+    {
+        displayname = "Clone Trooper (501st)";
+        uniformclass = "k_clone_uniform_501st";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_501_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_501_co.paa",
+        };
+    };
+
+	class k_clone_unit_612th: k_clone_unit
+    {
+        displayname = "Clone Trooper (612th)";
+        uniformclass = "k_clone_uniform_612th";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_612_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_612_co.paa",
+        };
+    };
+
+	class k_clone_unit_CG: k_clone_unit
+    {
+        displayname = "Clone Trooper (Coruscant Guard)";
+        uniformclass = "k_clone_uniform_CG";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_CG_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_CG_co.paa",
+        };
+    };
+
+	class k_clone_unit_KeeliCompany: k_clone_unit
+    {
+        displayname = "Clone Trooper (Keeli Company)";
+        uniformclass = "k_clone_uniform_KeeliCompany";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_Keeli_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_Keeli_co.paa",
+        };
+    };
+
+	class k_clone_unit_KS: k_clone_unit
+    {
+        displayname = "Clone Trooper (Kamino Security)";
+        uniformclass = "k_clone_uniform_KS";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_KS_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_KS_co.paa",
+        };
+    };
+
+	//Dirty units section
+	/*class k_clone_unit_5th_Dirty: k_clone_unit
+    {
+        displayname = "Clone Trooper (5th Fleet Security, Dirty)";
+        uniformclass = "k_clone_uniform_5th_Dirty";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_5_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_5_co.paa",
+        };
+    };
+	class k_clone_unit_13th_Dirty: k_clone_unit
+    {
+        displayname = "Clone Trooper (13th, Dirty)";
+        uniformclass = "k_clone_uniform_13th_Dirty";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_13_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_13_co.paa",
+        };
+    };
+	class k_clone_unit_41stGC_Dirty: k_clone_unit
+    {
+        displayname = "Clone Trooper (41st, Dirty)";
+        uniformclass = "k_clone_uniform_41st_Dirty";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_41_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_41_co.paa",
+        };
+    };
+	class k_clone_unit_104thWolfpack_Dirty: k_clone_unit
+    {
+        displayname = "Clone Trooper (104th Wolfpack, Dirty)";
+        uniformclass = "k_clone_uniform_104thWolfpack_Dirty";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_104Grey_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_104Grey_co.paa",
+        };
+    };
+	class k_clone_unit_104th_Dirty: k_clone_unit
+    {
+        displayname = "Clone Trooper (104th, Dirty)";
+        uniformclass = "k_clone_uniform_104th_Dirty";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_104Red_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_104Red_co.paa",
+        };
+    };
+	class k_clone_unit_187th_Dirty: k_clone_unit
+    {
+        displayname = "Clone Trooper (187th, Dirty)";
+        uniformclass = "k_clone_uniform_187th_Dirty";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_187_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_187_co.paa",
+        };
+    };
+	class k_clone_unit_212th_Dirty: k_clone_unit
+    {
+        displayname = "Clone Trooper (212th, Dirty)";
+        uniformclass = "k_clone_uniform_212th_Dirty";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_212_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_212_co.paa",
+        };
+    };
+	class k_clone_unit_327th_Dirty: k_clone_unit
+    {
+        displayname = "Clone Trooper (327th, Dirty)";
+        uniformclass = "k_clone_uniform_327th_Dirty";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_327_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_327_co.paa",
+        };
+    };
+	class k_clone_unit_332nd_Dirty: k_clone_unit
+    {
+        displayname = "Clone Trooper (332nd, Dirty)";
+        uniformclass = "k_clone_uniform_332nd_Dirty";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_332_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_332_co.paa",
+        };
+    };
+	class k_clone_unit_442nd_Dirty: k_clone_unit
+    {
+        displayname = "Clone Trooper (442nd, Dirty)";
+        uniformclass = "k_clone_uniform_442nd_Dirty";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_442_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_442_co.paa",
+        };
+    };
+	class k_clone_unit_501st_Dirty: k_clone_unit
+    {
+        displayname = "Clone Trooper (501st, Dirty)";
+        uniformclass = "k_clone_uniform_501st_Dirty";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_501_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_501_co.paa",
+        };
+    };
+	class k_clone_unit_CG_Dirty: k_clone_unit
+    {
+        displayname = "Clone Trooper (Coruscant Guard, Dirty)";
+        uniformclass = "k_clone_uniform_CG_Dirty";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_CG_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_CG_co.paa",
+        };
+    };
+	class k_clone_unit_KS_Dirty: k_clone_unit
+    {
+        displayname = "Clone Trooper (Kamino Security, Dirty)";
+        uniformclass = "k_clone_uniform_KS_Dirty";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_KS_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_KS_co.paa",
+        };
+    };
+	class k_clone_unit_KeeliCompany_dirty: k_clone_unit
+    {
+        displayname = "Clone Trooper (Keeli Company, Dirty)";
+        uniformclass = "k_clone_uniform_KeeliCompany_Dirty";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_KeeliCompany_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_KeeliCompany_co.paa",
+        };
+    };*/
+////commando unit
 	class k_commando_unit: k_scout_unit
     {
         displayname = "Clone Commando";
         model = "kobra\442_equipment\uniform\model\commando_uniform.p3d";
-        uniformclass = "k_clone_uniform";
+        uniformclass = "k_commando_uniform";
 		cost=101000;
         hiddenselections[]=
         {
@@ -991,389 +1343,19 @@ class cfgvehicles
 			};
 		};
     };
-////custom designs
-////clone unit
-////44ab
-    class k_clone_unit_44ab: k_clone_unit
+	class k_commando_unit_44: k_commando_unit
     {
-        displayname = "Clone Trooper";
-        uniformclass = "k_clone_uniform_44ab";
-        hiddenselectionstextures[] = 
+        displayname = "Clone Commando";
+        model = "kobra\442_equipment\uniform\model\commando_uniform.p3d";
+        uniformclass = "k_commando_uniform_44";
+        hiddenselectionstextures[]=
         {
-            "kobra\442_equipment\uniform\data\clone_uniform\unit_designs\44ab\upper_armor_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\unit_designs\44ab\lower_armor_co.paa",
+            "kobra\442_equipment\uniform\data\commando_uniform\unit_designs\44ab\chest_co.paa",
+            "kobra\442_equipment\uniform\data\commando_uniform\unit_designs\44ab\arm_co.paa",
+            "kobra\442_equipment\uniform\data\commando_uniform\unit_designs\44ab\leg_co.paa",
+            "kobra\442_equipment\uniform\data\commando_uniform\undersuit_co.paa"
         };
-    };
-
-//Lore units section
-
-	class k_clone_unit_5th: k_clone_unit
-    {
-        displayname = "Clone Trooper (5th Fleet Security)";
-        uniformclass = "k_clone_uniform_5th";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_5_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_5_co.paa",
-        };
-    };
-
-	class k_clone_unit_13th: k_clone_unit
-    {
-        displayname = "Clone Trooper (13th)";
-        uniformclass = "k_clone_uniform_13th";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_13_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_13_co.paa",
-        };
-    };
-
-	class k_clone_unit_41stGC: k_clone_unit
-    {
-        displayname = "Clone Trooper (41st Green Company)";
-        uniformclass = "k_clone_uniform_41stGC";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_41_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_41_co.paa",
-        };
-    };
-
-	class k_clone_unit_91st: k_clone_unit
-    {
-        displayname = "Clone Trooper (91st)";
-        uniformclass = "k_clone_uniform_91st";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_91_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_91_co.paa",
-        };
-    };
-
-	class k_clone_unit_104thWolfpack: k_clone_unit
-    {
-        displayname = "Clone Trooper (104th Wolfpack)";
-        uniformclass = "k_clone_uniform_104thWolfpack";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_104Grey_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_104Grey_co.paa",
-        };
-    };
-
-	class k_clone_unit_104th: k_clone_unit
-    {
-        displayname = "Clone Trooper (104th)";
-        uniformclass = "k_clone_uniform_104th";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_104Red_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_104Red_co.paa",
-        };
-    };
-
-	class k_clone_unit_187th: k_clone_unit
-    {
-        displayname = "Clone Trooper (187th)";
-        uniformclass = "k_clone_uniform_187th";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_187_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_187_co.paa",
-        };
-    };
-
-	class k_clone_unit_212th: k_clone_unit
-    {
-        displayname = "Clone Trooper (212th)";
-        uniformclass = "k_clone_uniform_212th";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_212_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_212_co.paa",
-        };
-    };
-
-	class k_clone_unit_327th: k_clone_unit
-    {
-        displayname = "Clone Trooper (327th)";
-        uniformclass = "k_clone_uniform_327th";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_327_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_327_co.paa",
-        };
-    };
-
-	class k_clone_unit_332nd: k_clone_unit
-    {
-        displayname = "Clone Trooper (332nd)";
-        uniformclass = "k_clone_uniform_332nd";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_332_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_332_co.paa",
-        };
-    };
-
-	class k_clone_unit_442nd: k_clone_unit
-    {
-        displayname = "Clone Trooper (442nd)";
-        uniformclass = "k_clone_uniform_442nd";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_442_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_442_co.paa",
-        };
-    };
-
-	class k_clone_unit_501st: k_clone_unit
-    {
-        displayname = "Clone Trooper (501st)";
-        uniformclass = "k_clone_uniform_501st";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_501_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_501_co.paa",
-        };
-    };
-
-	class k_clone_unit_612th: k_clone_unit
-    {
-        displayname = "Clone Trooper (612th)";
-        uniformclass = "k_clone_uniform_612th";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_612_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_612_co.paa",
-        };
-    };
-
-	class k_clone_unit_CG: k_clone_unit
-    {
-        displayname = "Clone Trooper (Coruscant Guard)";
-        uniformclass = "k_clone_uniform_CG";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_CG_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_CG_co.paa",
-        };
-    };
-
-	class k_clone_unit_KeeliCompany: k_clone_unit
-    {
-        displayname = "Clone Trooper (Keeli Company)";
-        uniformclass = "k_clone_uniform_KeeliCompany";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_Keeli_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_Keeli_co.paa",
-        };
-    };
-
-	class k_clone_unit_KS: k_clone_unit
-    {
-        displayname = "Clone Trooper (Kamino Security)";
-        uniformclass = "k_clone_uniform_KS";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\upper_armor_KS_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\clean\lower_armor_KS_co.paa",
-        };
-    };
-
-	//Dirty units section
-	class k_clone_unit_5th_Dirty: k_clone_unit
-    {
-        displayname = "Clone Trooper (5th Fleet Security, Dirty)";
-        uniformclass = "k_clone_uniform_5th_Dirty";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_5_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_5_co.paa",
-        };
-    };
-
-	class k_clone_unit_13th_Dirty: k_clone_unit
-    {
-        displayname = "Clone Trooper (13th, Dirty)";
-        uniformclass = "k_clone_uniform_13th_Dirty";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_13_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_13_co.paa",
-        };
-    };
-
-	class k_clone_unit_41stGC_Dirty: k_clone_unit
-    {
-        displayname = "Clone Trooper (41st, Dirty)";
-        uniformclass = "k_clone_uniform_41st_Dirty";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_41_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_41_co.paa",
-        };
-    };
-
-	class k_clone_unit_104thWolfpack_Dirty: k_clone_unit
-    {
-        displayname = "Clone Trooper (104th Wolfpack, Dirty)";
-        uniformclass = "k_clone_uniform_104thWolfpack_Dirty";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_104Grey_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_104Grey_co.paa",
-        };
-    };
-
-	class k_clone_unit_104th_Dirty: k_clone_unit
-    {
-        displayname = "Clone Trooper (104th, Dirty)";
-        uniformclass = "k_clone_uniform_104th_Dirty";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_104Red_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_104Red_co.paa",
-        };
-    };
-
-	class k_clone_unit_187th_Dirty: k_clone_unit
-    {
-        displayname = "Clone Trooper (187th, Dirty)";
-        uniformclass = "k_clone_uniform_187th_Dirty";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_187_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_187_co.paa",
-        };
-    };
-
-	class k_clone_unit_212th_Dirty: k_clone_unit
-    {
-        displayname = "Clone Trooper (212th, Dirty)";
-        uniformclass = "k_clone_uniform_212th_Dirty";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_212_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_212_co.paa",
-        };
-    };
-
-	class k_clone_unit_327th_Dirty: k_clone_unit
-    {
-        displayname = "Clone Trooper (327th, Dirty)";
-        uniformclass = "k_clone_uniform_327th_Dirty";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_327_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_327_co.paa",
-        };
-    };
-
-	class k_clone_unit_332nd_Dirty: k_clone_unit
-    {
-        displayname = "Clone Trooper (332nd, Dirty)";
-        uniformclass = "k_clone_uniform_332nd_Dirty";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_332_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_332_co.paa",
-        };
-    };
-
-	class k_clone_unit_442nd_Dirty: k_clone_unit
-    {
-        displayname = "Clone Trooper (442nd, Dirty)";
-        uniformclass = "k_clone_uniform_442nd_Dirty";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_442_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_442_co.paa",
-        };
-    };
-
-	class k_clone_unit_501st_Dirty: k_clone_unit
-    {
-        displayname = "Clone Trooper (501st, Dirty)";
-        uniformclass = "k_clone_uniform_501st_Dirty";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_501_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_501_co.paa",
-        };
-    };
-
-	class k_clone_unit_CG_Dirty: k_clone_unit
-    {
-        displayname = "Clone Trooper (Coruscant Guard, Dirty)";
-        uniformclass = "k_clone_uniform_CG_Dirty";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_CG_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_CG_co.paa",
-        };
-    };
-
-	class k_clone_unit_KS_Dirty: k_clone_unit
-    {
-        displayname = "Clone Trooper (Kamino Security, Dirty)";
-        uniformclass = "k_clone_uniform_KS_Dirty";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\upper_armor_KS_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\lore_units\dirty\lower_armor_KS_co.paa",
-        };
-    };
-
-////scout unit
-////44ab
-    class k_scout_unit_44ab: k_scout_unit
-    {
-        displayname = "Scout Trooper";
-        uniformclass = "k_scout_uniform_44ab";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\scout_uniform\unit_designs\44ab\scout_armor_co.paa",
-            "kobra\442_equipment\uniform\data\scout_uniform\gloves_co.paa",
-            "kobra\442_equipment\uniform\data\scout_uniform\undersuit_co.paa"
-        };
-    };
-////dukas
-    class k_scout_unit_arid: k_scout_unit
-    {
-        displayname = "Scout Trooper";
-        uniformclass = "k_scout_uniform_arid";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\scout_uniform\unit_designs\arid_scout\scout_armor_co.paa",
-            "kobra\442_equipment\uniform\data\scout_uniform\gloves_co.paa",
-            "kobra\442_equipment\uniform\data\scout_uniform\unit_designs\arid_scout\scout_undersuit_co.paa"
-        };
-    };
-    class k_scout_unit_desert: k_scout_unit
-    {
-        displayname = "Scout Trooper";
-        uniformclass = "k_scout_uniform_desert";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\scout_uniform\unit_designs\desert_scout\scout_armor_co.paa",
-            "kobra\442_equipment\uniform\data\scout_uniform\gloves_co.paa",
-            "kobra\442_equipment\uniform\data\scout_uniform\unit_designs\desert_scout\scout_undersuit_co.paa"
-        };
-    };
-    class k_scout_unit_woodland: k_scout_unit
-    {
-        displayname = "Scout Trooper";
-        uniformclass = "k_scout_uniform_woodland";
-        hiddenselectionstextures[] = 
-        {
-            "kobra\442_equipment\uniform\data\scout_uniform\unit_designs\woodland_scout\scout_armor_co.paa",
-            "kobra\442_equipment\uniform\data\scout_uniform\gloves_co.paa",
-            "kobra\442_equipment\uniform\data\scout_uniform\unit_designs\woodland_scout\scout_undersuit_co.paa"
-        };
-    };
+	};
 };
 
 class UniformItem;
@@ -1400,6 +1382,7 @@ class CfgWeapons
 			uniformClass="";
 		};
 	};
+////scout uniform
     class k_scout_uniform: 442_uniform_base
     {
         displayname = "[K] Scout Trooper Armor";
@@ -1413,7 +1396,6 @@ class CfgWeapons
             uniformclass = "k_scout_unit";
         };
     };
-
 	class k_scout_uniform_44: k_scout_uniform
     {
         displayname = "[44/K] Scout Trooper Armor";
@@ -1424,7 +1406,31 @@ class CfgWeapons
             uniformclass = "k_scout_unit_44";
         };
     };
-
+	class k_scout_uniform_arid: k_scout_uniform
+    {
+        displayname = "[K] Scout Trooper Armor (Arid)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_scout_unit_arid";
+        };
+    };
+    class k_scout_uniform_desert: k_scout_uniform
+    {
+        displayname = "[K] Scout Trooper Armor (Desert)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_scout_unit_desert";
+        };
+    };
+    class k_scout_uniform_woodland: k_scout_uniform
+    {
+        displayname = "[K] Scout Trooper Armor (Woodland)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_scout_unit_woodland";
+        };
+    };
+////clone uniform
     class k_clone_uniform: k_scout_uniform
     {
         displayname = "[K] Clone Trooper Armor";
@@ -1587,8 +1593,8 @@ class CfgWeapons
         };
     };
 
-	//Dirty Clone Armor Section
-	class k_clone_uniform_5th_Dirty: k_clone_uniform
+////Dirty Clone Armor Section
+	/*class k_clone_uniform_5th_Dirty: k_clone_uniform
     {
         displayname = "[K] Clone Trooper Armor (5th Fleet Security, Dirty)";
         class ItemInfo: ItemInfo
@@ -1705,7 +1711,16 @@ class CfgWeapons
         };
     };
 
-	//Commando Uniform Section
+	class k_clone_uniform_KeeliCompany_Dirty: k_clone_uniform
+    {
+        displayname = "[K] Clone Trooper Armor (Keeli Company, Dirty)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_clone_unit_KeeliCompany_Dirty";
+        };
+    };*/
+
+////Commando Uniform Section
 
     class k_commando_uniform: k_scout_uniform
     {
@@ -1715,68 +1730,12 @@ class CfgWeapons
             uniformclass = "k_commando_unit";
         };
     };
-	
-////custom designs
-////scout uniform
-    class k_scout_uniform_arid: k_scout_uniform
+	class k_commando_uniform_44: k_scout_uniform
     {
-        displayname = "[K] Scout Trooper Armor (Arid)";
+        displayname = "[44/K] Commando Armor";
         class ItemInfo: ItemInfo
         {
-            uniformclass = "k_scout_unit_arid";
+            uniformclass = "k_commando_unit_44";
         };
     };
-    class k_scout_uniform_desert: k_scout_uniform
-    {
-        displayname = "[K] Scout Trooper Armor (Desert)";
-        class ItemInfo: ItemInfo
-        {
-            uniformclass = "k_scout_unit_desert";
-        };
-    };
-    class k_scout_uniform_woodland: k_scout_uniform
-    {
-        displayname = "[K] Scout Trooper Armor (Woodland)";
-        class ItemInfo: ItemInfo
-        {
-            uniformclass = "k_scout_unit_woodland";
-        };
-    };
-    class k_scout_uniform_woodland2: k_scout_uniform
-    {
-        displayname = "[K] Scout Trooper Armor (Woodland)";
-        class ItemInfo: ItemInfo
-        {
-            uniformclass = "k_scout_unit_woodland2";
-        };
-    };
-    class k_scout_uniform_desert2: k_scout_uniform
-    {
-        displayname = "[K] Scout Trooper Armor (Desert)";
-        class ItemInfo: ItemInfo
-        {
-            uniformclass = "k_scout_unit_desert2";
-        };
-    };
-////44th attack battalion
-class k_scout_uniform_44ab: k_scout_uniform
-    {
-        displayname = "[K/44] Scout Trooper Armor";
-        class ItemInfo: ItemInfo
-        {
-            uniformclass = "k_scout_unit_44ab";
-        };
-    };
-////clone uniform
-////44th attack battalion
-    class k_clone_uniform_44ab: k_clone_uniform
-    {
-        displayname = "[K/44] Clone Trooper Armor";
-        class ItemInfo: ItemInfo
-        {
-            uniformclass = "k_clone_unit_44ab";
-        };
-    };
-////commando uniform
-
 };

@@ -12,8 +12,6 @@ class cfgpatches
         {
             "k_barracks_unit",
 			"k_scout_unit",
-			"k_scout_unit",
-
 			"k_44ab_clone_unit",
 			"k_44ab_scout_unit",
 			"k_scout_unit_arid",
@@ -21,9 +19,6 @@ class cfgpatches
 			"k_scout_unit_woodland",
 			"k_scout_unit_woodland2",
 			"k_scout_unit_desert2"
-
-			"k_44ab_clone_unit",
-			"k_44ab_scout_unit"
 		};
         weapons[] = 
         {
@@ -246,6 +241,9 @@ class cfgvehicles
 		faction="kobra_b";
 		editorSubCategory="442_trooper";
 		movesFatigue="CfgMovesFatigueTrooper";
+		nameSound = "veh_infantry_s";
+		textPlural = "Troopers";
+		textSingular = "Trooper";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_units\data\Barracks.paa"
@@ -277,7 +275,313 @@ class cfgvehicles
 			"ItemWatch"
 		};
 	};
-	
+	class k_clone_unit;
+	class k_clone_unit_5th;
+	class k_clone_unit_13th;
+	class k_clone_unit_41stGC;
+	class k_clone_unit_91st;
+	class k_clone_unit_104thWolfpack;
+	class k_clone_unit_104th;
+	class k_clone_unit_187th;
+	class k_clone_unit_212th;
+	class k_clone_unit_327th;
+	class k_clone_unit_332nd;
+	class k_clone_unit_442nd;
+	class k_clone_unit_501st;
+	class k_clone_unit_612th;
+	class k_clone_unit_CG;
+	class k_clone_unit_KeeliCompany;
+	class k_clone_unit_KS;
+	class k_clone_unit_5th_Dirty;
+	class k_clone_unit_13th_Dirty;
+	class k_clone_unit_41stGC_Dirty;
+	class k_clone_unit_104thWolfpack_Dirty;
+	class k_clone_unit_104th_Dirty;
+	class k_clone_unit_187th_Dirty;
+	class k_clone_unit_212th_Dirty;
+	class k_clone_unit_327th_Dirty;
+	class k_clone_unit_332nd_Dirty;
+	class k_clone_unit_442nd_Dirty;
+	class k_clone_unit_501st_Dirty;
+	class k_clone_unit_CG_Dirty;
+	class k_clone_unit_KS_Dirty;
+
+	#include "p2_unit.hpp"
+	#include "p1_unit.hpp"
+
+
+	class k_scout_unit;
+	class k_scout_unit_arid;
+	class k_scout_unit_desert;
+	class k_scout_unit_woodland;
+	class k_scout_unarmed_unit: k_scout_unit
+	{
+		displayname = "Scout Trooper (Unarmed)";
+		weapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		linkedItems[] = 
+		{
+			"k_scout_pouches_heavy",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch"
+		};
+		respawnlinkedItems[] = 
+		{
+			"k_scout_pouches_heavy",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch"
+		};
+	};
+	class k_scout_unarmed_unit_arid: k_scout_unit_arid
+	{
+		displayname = "Scout Arid Trooper (Unarmed)";
+		weapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		linkedItems[] = 
+		{
+			"k_scout_pouches_heavy",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch"
+		};
+		respawnlinkedItems[] = 
+		{
+			"k_scout_pouches_heavy",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch"
+		};
+	};
+	class k_scout_unarmed_unit_desert: k_scout_unit_desert
+	{
+		displayname = "Scout Desert Trooper (Unarmed)";
+		weapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		linkedItems[] = 
+		{
+			"k_scout_pouches_heavy_desert2",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch"
+		};
+		respawnlinkedItems[] = 
+		{
+			"k_scout_pouches_heavy_desert2",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch"
+		};
+	};
+	class k_scout_unarmed_unit_woodland: k_scout_unit_woodland
+	{
+		displayname = "Scout Woodland Trooper (Unarmed)";
+		weapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		linkedItems[] = 
+		{
+			"k_scout_pouches_heavy_woodland2",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch"
+		};
+		respawnlinkedItems[] = 
+		{
+			"k_scout_pouches_heavy_woodland2",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch"
+		};
+	};
+	class k_commando_unit;
+	class k_commando_MK1_unarmed_unit: k_commando_unit
+	{
+		displayname = "Commando Trooper (Unarmed)";
+		weapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		linkedItems[] = 
+		{
+			"k_commando_mk1_helmet",
+			"k_commando_vest1",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch"
+		};
+		respawnlinkedItems[] = 
+		{
+			"k_commando_mk1_helmet",
+			"k_commando_vest1",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch"
+		};
+	};
+
+	class k_commando_MK1_unarmed_unit_44: k_commando_MK1_unarmed_unit
+	{
+		displayname = "44th Commando Trooper MK1 (Unarmed)";
+		weapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		linkedItems[] = 
+		{
+			"k_commando_mk1_helmet_44",
+			"k_commando_vest1_44",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch"
+		};
+		respawnlinkedItems[] = 
+		{
+			"k_commando_mk1_helmet_44",
+			"k_commando_vest1_44",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch"
+		};
+	};
+
+	class k_commando_MK2_unarmed_unit_44: k_commando_MK1_unarmed_unit
+	{
+		displayname = "44th Commando Trooper MK2 (Unarmed)";
+		weapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		linkedItems[] = 
+		{
+			"k_commando_mk2_helmet_44",
+			"k_commando_vest1_44",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch"
+		};
+		respawnlinkedItems[] = 
+		{
+			"k_commando_mk2_helmet_44",
+			"k_commando_vest1_44",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch"
+		};
+	};
+
+	class k_commando_MK3_unarmed_unit_44: k_commando_MK1_unarmed_unit
+	{
+		displayname = "44th Commando Trooper MK3 (Unarmed)";
+		weapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		linkedItems[] = 
+		{
+			"k_commando_mk3_helmet_44",
+			"k_commando_vest1_44",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch"
+		};
+		respawnlinkedItems[] = 
+		{
+			"k_commando_mk3_helmet_44",
+			"k_commando_vest1_44",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch"
+		};
+	};
 };
 
 class UniformItem;

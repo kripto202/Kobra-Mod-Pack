@@ -176,4 +176,14 @@ class cfgweapons
     #include "44_helmet.hpp"
     //#include "44_vest.hpp"
     //#include "uniform_custom.hpp"
+
+    class k_clone_unarmed_unit_p1_44: k_clone_unarmed_unit_p1
+	{
+        faction = "44_ab";
+    };
+
+    class k_clone_unarmed_p2_unit_44: k_clone_unarmed_p2_unit
+	{
+        faction = "44_ab";
+    };
 };

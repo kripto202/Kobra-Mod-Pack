@@ -29,6 +29,7 @@ class cfgglasses
 		ACE_Protection=1;
 		ACE_TintAmount=0;
 		displayname = "[K] P1 Hud";
+		scope=1;
 		identityTypes[]={};
 		mass=1;
 		model="\A3\Weapons_f\DummyNVG";
@@ -59,6 +60,7 @@ class cfgglasses
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 		displayname = "[K] N-Type Sensor";
+		scope=2;
 		mass = 1;
 		model="kobra\442_equipment\glasses\model\k_n_type_sensor.p3d";
 		hiddenselections[] = 
@@ -162,37 +164,37 @@ class cfgglasses
 
 	class 442_p1_clone_glass1_nh: 442_p1_clone_glass1
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_p1_clone_glass1_44_nh: 442_p1_clone_glass1_44
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_p1_clone_glass2_nh: 442_p1_clone_glass2
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_p1_clone_glass3_nh: 442_p1_clone_glass3
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_p1_clone_glass4_nh: 442_p1_clone_glass4
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_p1_clone_glass5_nh: 442_p1_clone_glass5
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
@@ -329,52 +331,52 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\clone\p2\unit_designs\44ab\p2_macro_visor_co.paa"
 		};
 	};
-
+////no hud
 	class 442_p2_clone_glass1_nh: 442_p2_clone_glass1
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_p2_clone_glass1_44ab_nh: 442_p2_clone_glass1_44ab
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_p2_clone_glass2_nh: 442_p2_clone_glass2
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_p2_clone_glass3_nh: 442_p2_clone_glass3
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_p2_clone_glass4_nh: 442_p2_clone_glass4
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_p2_clone_glass5_nh: 442_p2_clone_glass5
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_p2_clone_glass7_nh: 442_p2_clone_glass7
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_p2_clone_glass8_nh: 442_p2_clone_glass8
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
@@ -513,64 +515,64 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\clone\arf\arf_plates_co.paa"
 		};
 	};
-
+////no hud
 	class 442_arf_clone_glass1_nh: 442_arf_clone_glass1
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_arf_clone_glass2_nh: 442_arf_clone_glass2
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_arf_clone_glass3_nh: 442_arf_clone_glass3
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_arf_clone_glass4_nh: 442_arf_clone_glass4
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_arf_clone_glass5_nh: 442_arf_clone_glass5
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_arf_clone_glass6_nh: 442_arf_clone_glass6
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_arf_clone_glass7_nh: 442_arf_clone_glass7
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_arf_clone_glass3_44_nh: 442_arf_clone_glass3_44
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_arf_clone_glass5_44_nh: 442_arf_clone_glass5_44
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_arf_clone_glass7_44_nh: 442_arf_clone_glass7_44
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
@@ -598,16 +600,16 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\clone\barc_visor\unit_designs\44ab\barc_visor_co.paa"
 		};
 	};
-
+////no hud
 	class 442_barc_clone_glass1_nh: 442_barc_clone_glass1
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_barc_clone_glass1_44_nh: 442_barc_clone_glass1_44
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
@@ -1014,139 +1016,139 @@ class cfgglasses
 	//no huds for jay
 	class 442_commando_glass1_nh: 442_commando_glass1
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_commando_glass2_nh: 442_commando_glass2
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_commando_glass3_nh: 442_commando_glass3
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_commando_glass4_nh: 442_commando_glass4
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_commando_glass5_nh: 442_commando_glass5
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_commando_glass6_nh: 442_commando_glass6
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_commando_glass7_nh: 442_commando_glass7
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_commando_glass8_nh: 442_commando_glass8
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_commando_glass9_nh: 442_commando_glass9
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_commando_glass10_nh: 442_commando_glass10
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_commando_glass11_nh: 442_commando_glass11
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_commando_glass12_nh: 442_commando_glass12
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_commando_glass13_nh: 442_commando_glass13
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_commando_glass14_nh: 442_commando_glass14
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_commando_glass15_nh: 442_commando_glass15
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_commando_glass16_nh: 442_commando_glass16
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_commando_glass17_nh: 442_commando_glass17
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_commando_glass18_nh: 442_commando_glass18
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_commando_glass19_nh: 442_commando_glass19
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_commando_glass20_nh: 442_commando_glass20
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_commando_glass21_nh: 442_commando_glass21
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_commando_glass22_nh: 442_commando_glass22
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_commando_glass23_nh: 442_commando_glass23
 	{
-		scope = 1;
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};

@@ -454,7 +454,7 @@ class cfgweapons
         };
     };
 
-	class k_hunter_Helmet_BB: k_hunter_Helmet
+	/*class k_hunter_Helmet_BB: k_hunter_Helmet
     {
 		displayname = "[K] Hunter's Helmet";
         hiddenselectionstextures[] = 
@@ -462,7 +462,7 @@ class cfgweapons
             "kobra\442_equipment\helmets\data\hunter_helmet\lore_designs\hunter_helmet_bb_co.paa",
             "kobra\442_equipment\helmets\data\hunter_helmet\lore_designs\hunter_helmet_bb_co.paa",
         };
-    };
+    };*/
 ////crosshair section
     class k_crosshair_Helmet: k_crosshair_helmet_base
     {
@@ -492,7 +492,7 @@ class cfgweapons
         };
     };
 
-	class k_crosshair_Helmet_BB: k_crosshair_Helmet
+	/*class k_crosshair_Helmet_BB: k_crosshair_Helmet
     {
 		displayname = "[K] Crosshair's Helmet";
         hiddenselectionstextures[] = 
@@ -500,7 +500,7 @@ class cfgweapons
             "kobra\442_equipment\helmets\data\crosshair_helmet\lore_designs\crosshair_helmet_BB_co.paa",
             "kobra\442_equipment\helmets\data\crosshair_helmet\lore_designs\crosshair_helmet_BB_co.paa",
         };
-    };
+    };*/
 ////wrecker section
     class k_wrecker_Helmet: k_wrecker_helmet_base
     {
@@ -584,7 +584,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_helmet\p2_helmet_co.paa", //visor
 		};
 	};
-
 	class k_p2_helmet_44: k_p2_helmet
 	{
 		displayname = "[44/K] P2 Helmet";
@@ -599,7 +598,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\unit_designs\44ab\p2_helmet_co.paa", //visor
 		};
 	};
-
 	class k_p2_helmet_91st: k_p2_helmet
 	{
 		displayname = "[K] P2 Helmet (91st)";
@@ -609,7 +607,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\clean\p2_helmet_91_co.paa", //visor
 		};
 	};
-
 	class k_p2_helmet_104thWolfpack: k_p2_helmet
 	{
 		displayname = "[K] P2 Helmet (104th Wolfpack)";
@@ -619,7 +616,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\clean\p2_helmet_104Grey_co.paa", //visor
 		};
 	};
-
 	class k_p2_helmet_104th: k_p2_helmet
 	{
 		displayname = "[K] P2 Helmet (104th)";
@@ -629,7 +625,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\clean\p2_helmet_104Red_co.paa", //visor
 		};
 	};
-
 	class k_p2_helmet_187th: k_p2_helmet
 	{
 		displayname = "[K] P2 Helmet (187th)";
@@ -639,7 +634,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\clean\p2_helmet_187_co.paa", //visor
 		};
 	};
-
 	class k_p2_helmet_212th: k_p2_helmet
 	{
 		displayname = "[K] P2 Helmet (212th)";
@@ -649,7 +643,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\clean\p2_helmet_212_co.paa", //visor
 		};
 	};
-
 	class k_p2_helmet_327th: k_p2_helmet
 	{
 		displayname = "[K] P2 Helmet (327th)";
@@ -659,7 +652,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\clean\p2_helmet_327_co.paa", //visor
 		};
 	};
-
 	class k_p2_helmet_332nd: k_p2_helmet
 	{
 		displayname = "[K] P2 Helmet (323nd)";
@@ -669,7 +661,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\clean\p2_helmet_332_co.paa", //visor
 		};
 	};
-
 	class k_p2_helmet_442nd: k_p2_helmet
 	{
 		displayname = "[K] P2 Helmet (442nd)";
@@ -679,7 +670,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\clean\p2_helmet_442_co.paa", //visor
 		};
 	};
-
 	class k_p2_helmet_501st: k_p2_helmet
 	{
 		displayname = "[K] P2 Helmet (501st)";
@@ -689,7 +679,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\clean\p2_helmet_501_co.paa", //visor
 		};
 	};
-
 	class k_p2_helmet_612th: k_p2_helmet
 	{
 		displayname = "[K] P2 Helmet (612th)";
@@ -699,7 +688,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\clean\p2_helmet_612_co.paa", //visor
 		};
 	};
-
 	class k_p2_helmet_CG: k_p2_helmet
 	{
 		displayname = "[K] P2 Helmet (Coruscant Guard)";
@@ -709,17 +697,15 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\clean\p2_helmet_CG_co.paa", //visor
 		};
 	};
-
 	class k_p2_helmet_5th: k_p2_helmet
 	{
 		displayname = "[K] P2 Helmet (5th)";
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\clean\p2_helmet_5th_co.paa", //helmet
-			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\clean\p2_helmet_5th_co.paa", //visor
+			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\clean\p2_helmet_5_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\clean\p2_helmet_5_co.paa", //visor
 		};
 	};
-
 	class k_p2_helmet_13th: k_p2_helmet
 	{
 		displayname = "[K] P2 Helmet (13th)";
@@ -729,7 +715,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\clean\p2_helmet_13_co.paa", //visor
 		};
 	};
-
 	class k_p2_helmet_ks: k_p2_helmet
 	{
 		displayname = "[K] P2 Helmet (Kamino Security)";
@@ -739,8 +724,17 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\clean\p2_helmet_ks_co.paa", //visor
 		};
 	};
-
-	class k_p2_helmet_41stGC_Dirty: k_p2_helmet
+	class k_p2_helmet_41st: k_p2_helmet
+	{
+		displayname = "[K] P2 Helmet (41st)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\clean\p2_helmet_41_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\clean\p2_helmet_41_co.paa", //visor
+		};
+	};
+	////dirty
+	/*class k_p2_helmet_41stGC_Dirty: k_p2_helmet
 	{
 		displayname = "[K] P2 Helmet (41st GC, Dirty)";
 		hiddenselectionstextures[] = 
@@ -749,7 +743,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\dirty\p2_helmet_41_co.paa", //visor
 		};
 	};
-
 	class k_p2_helmet_104thWolfpack_Dirty: k_p2_helmet
 	{
 		displayname = "[K] P2 Helmet (104th Wolfpack, Dirty)";
@@ -759,7 +752,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\dirty\p2_helmet_104Grey_co.paa", //visor
 		};
 	};
-
 	class k_p2_helmet_104th_Dirty: k_p2_helmet
 	{
 		displayname = "[K] P2 Helmet (104th, Dirty)";
@@ -769,7 +761,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\dirty\p2_helmet_104Red_co.paa", //visor
 		};
 	};
-
 	class k_p2_helmet_212th_Dirty: k_p2_helmet
 	{
 		displayname = "[K] P2 Helmet (212th, Dirty)";
@@ -779,7 +770,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\dirty\p2_helmet_212_co.paa", //visor
 		};
 	};
-
 	class k_p2_helmet_327th_Dirty: k_p2_helmet
 	{
 		displayname = "[K] P2 Helmet (327th, Dirty)";
@@ -789,7 +779,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\dirty\p2_helmet_327_co.paa", //visor
 		};
 	};
-
 	class k_p2_helmet_332nd_Dirty: k_p2_helmet
 	{
 		displayname = "[K] P2 Helmet (332nd, Dirty)";
@@ -799,7 +788,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\dirty\p2_helmet_332_co.paa", //visor
 		};
 	};
-
 	class k_p2_helmet_442nd_Dirty: k_p2_helmet
 	{
 		displayname = "[K] P2 Helmet (442nd, Dirty)";
@@ -809,7 +797,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\dirty\p2_helmet_442_co.paa", //visor
 		};
 	};
-
 	class k_p2_helmet_501st_Dirty: k_p2_helmet
 	{
 		displayname = "[K] P2 Helmet (501st, Dirty)";
@@ -819,7 +806,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\dirty\p2_helmet_501_co.paa", //visor
 		};
 	};
-
 	class k_p2_helmet_612th_Dirty: k_p2_helmet
 	{
 		displayname = "[K] P2 Helmet (612th, Dirty)";
@@ -829,17 +815,15 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\dirty\p2_helmet_612_co.paa", //visor
 		};
 	};
-
 	class k_p2_helmet_5th_Dirty: k_p2_helmet
 	{
 		displayname = "[K] P2 Helmet (5th, Dirty)";
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\dirty\p2_helmet_5th_co.paa", //helmet
-			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\dirty\p2_helmet_5th_co.paa", //visor
+			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\dirty\p2_helmet_5_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\dirty\p2_helmet_5_co.paa", //visor
 		};
 	};
-
 	class k_p2_helmet_13th_Dirty: k_p2_helmet
 	{
 		displayname = "[K] P2 Helmet (13th, Dirty)";
@@ -849,7 +833,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\dirty\p2_helmet_13_co.paa", //visor
 		};
 	};
-
 	class k_p2_helmet_ks_Dirty: k_p2_helmet
 	{
 		displayname = "[K] P2 Helmet (Kamino Security, Dirty)";
@@ -859,6 +842,24 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\dirty\p2_helmet_ks_co.paa", //visor
 		};
 	};
+	class k_p2_helmet_cg_Dirty: k_p2_helmet
+	{
+		displayname = "[K] P2 Helmet (Coruscant Guard, Dirty)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\dirty\p2_helmet_cg_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\dirty\p2_helmet_cg_co.paa", //visor
+		};
+	};
+	class k_p2_helmet_187th_Dirty: k_p2_helmet
+	{
+		displayname = "[K] P2 Helmet (187th, Dirty)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\dirty\p2_helmet_187_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\p2_helmet\lore_designs\dirty\p2_helmet_187_co.paa", //visor
+		};
+	};*/
 ////p1 section
 	class k_p1_helmet: k_p1_helmet_base
 	{
@@ -872,7 +873,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p1_helmet\p1_helmet_co.paa", //visor
 		};
 	};
-
 	class k_p1_helmet_44: k_p1_helmet
 	{
 		displayname = "[44/K] P1 Helmet";
@@ -887,7 +887,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\unit_designs\44ab\p1_helmet_co.paa", //visor
 		};
 	};
-
 	class k_p1_helmet_41stGC: k_p1_helmet
 	{
 		displayname = "[K] P1 Helmet (41st GC)";
@@ -897,7 +896,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p1_helmet\lore_designs\clean\p1_helmet_41_co.paa", //visor
 		};
 	};
-
 	class k_p1_helmet_91st: k_p1_helmet
 	{
 		displayname = "[K] P1 Helmet (91st)";
@@ -907,7 +905,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p1_helmet\lore_designs\clean\p1_helmet_91_co.paa", //visor
 		};
 	};
-
 	class k_p1_helmet_104thWolfpack: k_p1_helmet
 	{
 		displayname = "[K] P1 Helmet (104th Wolfpack)";
@@ -917,7 +914,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p1_helmet\lore_designs\clean\p1_helmet_104Grey_co.paa", //visor
 		};
 	};
-
 	class k_p1_helmet_104th: k_p1_helmet
 	{
 		displayname = "[K] P1 Helmet (104th)";
@@ -927,7 +923,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p1_helmet\lore_designs\clean\p1_helmet_104Red_co.paa", //visor
 		};
 	};
-
 	class k_p1_helmet_212th: k_p1_helmet
 	{
 		displayname = "[K] P1 Helmet (212th)";
@@ -937,7 +932,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p1_helmet\lore_designs\clean\p1_helmet_212_co.paa", //visor
 		};
 	};
-
 	class k_p1_helmet_327th: k_p1_helmet
 	{
 		displayname = "[K] P1 Helmet (327th)";
@@ -947,7 +941,15 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p1_helmet\lore_designs\clean\p1_helmet_327_co.paa", //visor
 		};
 	};
-
+	class k_p1_helmet_442nd: k_p1_helmet
+	{
+		displayname = "[K] P1 Helmet (442nd)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\p1_helmet\lore_designs\clean\p1_helmet_442_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\p1_helmet\lore_designs\clean\p1_helmet_442_co.paa", //visor
+		};
+	};
 	class k_p1_helmet_501st: k_p1_helmet
 	{
 		displayname = "[K] P1 Helmet (501st)";
@@ -957,7 +959,15 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p1_helmet\lore_designs\clean\p1_helmet_501_co.paa", //visor
 		};
 	};
-
+	class k_p1_helmet_cg: k_p1_helmet
+	{
+		displayname = "[K] P1 Helmet (Coruscant Guard)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\p1_helmet\lore_designs\clean\p1_helmet_cg_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\p1_helmet\lore_designs\clean\p1_helmet_cg_co.paa", //visor
+		};
+	};
 	class k_p1_helmet_KeeliCompany: k_p1_helmet
 	{
 		displayname = "[K] P1 Helmet (Keeli Company)";
@@ -968,7 +978,8 @@ class cfgweapons
 		};
 	};
 
-	class k_p1_helmet_41stGC_Dirty: k_p1_helmet
+	////dirty
+	/*class k_p1_helmet_41stGC_Dirty: k_p1_helmet
 	{
 		displayname = "[K] P1 Helmet (41st GC, Dirty)";
 		hiddenselectionstextures[] = 
@@ -977,7 +988,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p1_helmet\lore_designs\dirty\p1_helmet_41_co.paa", //visor
 		};
 	};
-
 	class k_p1_helmet_104thWolfpack_Dirty: k_p1_helmet
 	{
 		displayname = "[K] P1 Helmet (104th Wolfpack, Dirty)";
@@ -987,7 +997,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p1_helmet\lore_designs\dirty\p1_helmet_104Grey_co.paa", //visor
 		};
 	};
-
 	class k_p1_helmet_104th_Dirty: k_p1_helmet
 	{
 		displayname = "[K] P1 Helmet (104th, Dirty)";
@@ -997,7 +1006,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p1_helmet\lore_designs\dirty\p1_helmet_104Red_co.paa", //visor
 		};
 	};
-
 	class k_p1_helmet_212th_Dirty: k_p1_helmet
 	{
 		displayname = "[K] P1 Helmet (212th, Dirty)";
@@ -1007,7 +1015,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p1_helmet\lore_designs\dirty\p1_helmet_212_co.paa", //visor
 		};
 	};
-
 	class k_p1_helmet_327th_Dirty: k_p1_helmet
 	{
 		displayname = "[K] P1 Helmet (327th, Dirty)";
@@ -1017,7 +1024,15 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p1_helmet\lore_designs\dirty\p1_helmet_327_co.paa", //visor
 		};
 	};
-
+	class k_p1_helmet_442nd_Dirty: k_p1_helmet
+	{
+		displayname = "[K] P1 Helmet (442nd, Dirty)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\p1_helmet\lore_designs\dirty\p1_helmet_442_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\p1_helmet\lore_designs\dirty\p1_helmet_442_co.paa", //visor
+		};
+	};
 	class k_p1_helmet_501st_Dirty: k_p1_helmet
 	{
 		displayname = "[K] P1 Helmet (501st, Dirty)";
@@ -1027,7 +1042,15 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p1_helmet\lore_designs\dirty\p1_helmet_501_co.paa", //visor
 		};
 	};
-
+	class k_p1_helmet_cg_Dirty: k_p1_helmet
+	{
+		displayname = "[K] P1 Helmet (Coruscant Guard, Dirty)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\p1_helmet\lore_designs\dirty\p1_helmet_cg_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\p1_helmet\lore_designs\dirty\p1_helmet_cg_co.paa", //visor
+		};
+	};
 	class k_p1_helmet_KeeliCompany_Dirty: k_p1_helmet
 	{
 		displayname = "[K] P1 Helmet (Keeli Company, Dirty)";
@@ -1036,7 +1059,7 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p1_helmet\lore_designs\dirty\p1_helmet_Keeli_co.paa", //helmet
 			"kobra\442_equipment\helmets\data\p1_helmet\lore_designs\dirty\p1_helmet_Keeli_co.paa", //visor
 		};
-	};
+	};*/
 ////p1 pilot section
 	class k_p1_pilot_helmet: k_p1_pilot_helmet_base
 	{
@@ -1050,7 +1073,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p1_pilot_helmet\p1_pilot_helmet_co.paa",
 		};
 	};
-
 	class k_p1_pilot_helmet_44: k_p1_pilot_helmet
 	{
 		displayname = "[44/K] P1 Pilot Helmet";
@@ -1065,7 +1087,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\unit_designs\44ab\p1_pilot_helmet_co.paa",
 		};
 	};
-
 	class k_p1_pilot_helmet_41stGC: k_p1_pilot_helmet
 	{
 		displayname = "[K] P1 Pilot Helmet (41st GC)";
@@ -1075,7 +1096,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p1_pilot_helmet\lore_designs\clean\p1_pilot_helmet_41_co.paa",
 		};
 	};
-
 	class k_p1_pilot_helmet_91st: k_p1_pilot_helmet
 	{
 		displayname = "[K] P1 Pilot Helmet (91st)";
@@ -1085,7 +1105,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p1_pilot_helmet\lore_designs\clean\p1_pilot_helmet_91_co.paa",
 		};
 	};
-
 	class k_p1_pilot_helmet_187th: k_p1_pilot_helmet
 	{
 		displayname = "[K] P1 Pilot Helmet (187th)";
@@ -1095,7 +1114,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p1_pilot_helmet\lore_designs\clean\p1_pilot_helmet_187_co.paa",
 		};
 	};
-
 	class k_p1_pilot_helmet_212th: k_p1_pilot_helmet
 	{
 		displayname = "[K] P1 Pilot Helmet (212th)";
@@ -1105,7 +1123,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p1_pilot_helmet\lore_designs\clean\p1_pilot_helmet_212_co.paa",
 		};
 	};
-
 	class k_p1_pilot_helmet_327th: k_p1_pilot_helmet
 	{
 		displayname = "[K] P1 Pilot Helmet (327th)";
@@ -1115,7 +1132,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p1_pilot_helmet\lore_designs\clean\p1_pilot_helmet_327_co.paa",
 		};
 	};
-
 	class k_p1_pilot_helmet_442nd: k_p1_pilot_helmet
 	{
 		displayname = "[K] P1 Pilot Helmet (442nd)";
@@ -1125,7 +1141,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p1_pilot_helmet\lore_designs\clean\p1_pilot_helmet_442_co.paa",
 		};
 	};
-
 	class k_p1_pilot_helmet_501st: k_p1_pilot_helmet
 	{
 		displayname = "[K] P1 Pilot Helmet (501st)";
@@ -1135,7 +1150,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p1_pilot_helmet\lore_designs\clean\p1_pilot_helmet_501_co.paa",
 		};
 	};
-
 	class k_p1_pilot_helmet_612th: k_p1_pilot_helmet
 	{
 		displayname = "[K] P1 Pilot Helmet (612th)";
@@ -1145,8 +1159,26 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p1_pilot_helmet\lore_designs\clean\p1_pilot_helmet_612_co.paa",
 		};
 	};
+	class k_p1_pilot_helmet_104th: k_p1_pilot_helmet
+	{
+		displayname = "[K] P1 Pilot Helmet (104th)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\p1_pilot_helmet\lore_designs\clean\p1_pilot_helmet_104red_co.paa",
+			"kobra\442_equipment\helmets\data\p1_pilot_helmet\lore_designs\clean\p1_pilot_helmet_104red_co.paa",
+		};
+	};
+	class k_p1_pilot_helmet_104thwolfpack: k_p1_pilot_helmet
+	{
+		displayname = "[K] P1 Pilot Helmet (104th Wolfpack)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\p1_pilot_helmet\lore_designs\clean\p1_pilot_helmet_104grey_co.paa",
+			"kobra\442_equipment\helmets\data\p1_pilot_helmet\lore_designs\clean\p1_pilot_helmet_104grey_co.paa",
+		};
+	};
 
-	class k_p1_pilot_helmet_41stGC_Dirty: k_p1_pilot_helmet
+	/*class k_p1_pilot_helmet_41stGC_Dirty: k_p1_pilot_helmet
 	{
 		displayname = "[K] P1 Pilot Helmet (41st GC, Dirty)";
 		hiddenselectionstextures[] = 
@@ -1204,7 +1236,7 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p1_pilot_helmet\lore_designs\dirty\p1_pilot_helmet_612_co.paa",
 			"kobra\442_equipment\helmets\data\p1_pilot_helmet\lore_designs\dirty\p1_pilot_helmet_612_co.paa",
 		};
-	};
+	};*/
 ////arf section
     class k_arf_helmet: k_arf_helmet_base
 	{
@@ -1247,6 +1279,61 @@ class cfgweapons
 		};
 	};
 
+	class k_arf_helmet_91st: k_arf_helmet
+	{
+		displayname = "[K] Arf Helmet (91st)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_helmet_91_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_helmet_91_co.paa", //visor
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_brim_91_co.paa", //brim
+		};
+	};
+
+	class k_arf_helmet_104thWolfpack: k_arf_helmet
+	{
+		displayname = "[K] Arf Helmet (104th Wolfpack)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_helmet_104Grey_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_helmet_104Grey_co.paa", //visor
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_brim_104Grey_co.paa", //brim
+		};
+	};
+
+	class k_arf_helmet_104th: k_arf_helmet
+	{
+		displayname = "[K] Arf Helmet (104th)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_helmet_104Red_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_helmet_104Red_co.paa", //visor
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_brim_104Red_co.paa", //brim
+		};
+	};
+
+	class k_arf_helmet_187th: k_arf_helmet
+	{
+		displayname = "[K] Arf Helmet (187th)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_helmet_187_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_helmet_187_co.paa", //visor
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_brim_187_co.paa", //brim
+		};
+	};
+
+	class k_arf_helmet_212th: k_arf_helmet
+	{
+		displayname = "[K] Arf Helmet (212th)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_helmet_212_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_helmet_212_co.paa", //visor
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_brim_212_co.paa", //brim
+		};
+	};
+
 	class k_arf_helmet_327th: k_arf_helmet
 	{
 		displayname = "[K] Arf Helmet (327th)";
@@ -1255,6 +1342,28 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_helmet_327_co.paa", //helmet
 			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_helmet_327_co.paa", //visor
 			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_brim_327_co.paa", //brim
+		};
+	};
+
+	class k_arf_helmet_332nd: k_arf_helmet
+	{
+		displayname = "[K] Arf Helmet (332nd)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_helmet_332_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_helmet_332_co.paa", //visor
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_brim_332_co.paa", //brim
+		};
+	};
+
+	class k_arf_helmet_442nd: k_arf_helmet
+	{
+		displayname = "[K] Arf Helmet (442nd)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_helmet_442_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_helmet_442_co.paa", //visor
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_brim_442_co.paa", //brim
 		};
 	};
 
@@ -1269,7 +1378,29 @@ class cfgweapons
 		};
 	};
 
-	class k_arf_helmet_41stGC_Dirty: k_arf_helmet
+	class k_arf_helmet_612th: k_arf_helmet
+	{
+		displayname = "[K] Arf Helmet (612th)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_helmet_612_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_helmet_612_co.paa", //visor
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_brim_612_co.paa", //brim
+		};
+	};
+
+	class k_arf_helmet_CG: k_arf_helmet
+	{
+		displayname = "[K] Arf Helmet (Coruscant Guard)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_helmet_CG_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_helmet_CG_co.paa", //visor
+			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\clean\arf_brim_CG_co.paa", //brim
+		};
+	};
+
+	/*class k_arf_helmet_41stGC_Dirty: k_arf_helmet
 	{
 		displayname = "[K] Arf Helmet (41st GC, Dirty)";
 		hiddenselectionstextures[] = 
@@ -1300,7 +1431,7 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\dirty\arf_helmet_501_co.paa", //visor
 			"kobra\442_equipment\helmets\data\arf_helmet\lore_designs\dirty\arf_brim_501_co.paa", //brim
 		};
-	};
+	};*/
 ////p1 airborne section
     class k_p1_airborne_helmet: k_p1_airborne_base
 	{
@@ -1341,7 +1472,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\barc_helmet\barc_helmet_co.paa", //visor
 		};
 	};
-
 	class k_barc_helmet_44: k_barc_helmet
 	{
 		displayname = "[44/K] Barc Helmet";
@@ -1356,7 +1486,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\unit_designs\44ab\barc_helmet_co.paa", //visor
 		};
 	};
-
 	class k_barc_helmet_91st: k_barc_helmet
 	{
 		displayname = "[K] Barc Helmet (91st)";
@@ -1366,7 +1495,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\barc_helmet\lore_designs\clean\barc_helmet_91_co.paa", //visor
 		};
 	};
-
 	class k_barc_helmet_104thWolfpack: k_barc_helmet
 	{
 		displayname = "[K] Barc Helmet (104th Wolfpack)";
@@ -1376,7 +1504,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\barc_helmet\lore_designs\clean\barc_helmet_104Grey_co.paa", //visor
 		};
 	};
-
 	class k_barc_helmet_104th: k_barc_helmet
 	{
 		displayname = "[K] Barc Helmet (104th)";
@@ -1386,7 +1513,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\barc_helmet\lore_designs\clean\barc_helmet_104Red_co.paa", //visor
 		};
 	};
-
 	class k_barc_helmet_187th: k_barc_helmet
 	{
 		displayname = "[K] Barc Helmet (187th)";
@@ -1396,7 +1522,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\barc_helmet\lore_designs\clean\barc_helmet_187_co.paa", //visor
 		};
 	};
-
 	class k_barc_helmet_212th: k_barc_helmet
 	{
 		displayname = "[K] Barc Helmet (212th)";
@@ -1406,7 +1531,15 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\barc_helmet\lore_designs\clean\barc_helmet_212_co.paa", //visor
 		};
 	};
-
+	class k_barc_helmet_327th: k_barc_helmet
+	{
+		displayname = "[K] Barc Helmet (327nd)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\barc_helmet\lore_designs\clean\barc_helmet_327_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\barc_helmet\lore_designs\clean\barc_helmet_327_co.paa", //visor
+		};
+	};
 	class k_barc_helmet_332nd: k_barc_helmet
 	{
 		displayname = "[K] Barc Helmet (332nd)";
@@ -1416,7 +1549,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\barc_helmet\lore_designs\clean\barc_helmet_332_co.paa", //visor
 		};
 	};
-
 	class k_barc_helmet_442nd: k_barc_helmet
 	{
 		displayname = "[K] Barc Helmet (442nd)";
@@ -1426,7 +1558,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\barc_helmet\lore_designs\clean\barc_helmet_442_co.paa", //visor
 		};
 	};
-
 	class k_barc_helmet_501st: k_barc_helmet
 	{
 		displayname = "[K] Barc Helmet (501st)";
@@ -1436,7 +1567,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\barc_helmet\lore_designs\clean\barc_helmet_501_co.paa", //visor
 		};
 	};
-
 	class k_barc_helmet_612th: k_barc_helmet
 	{
 		displayname = "[K] Barc Helmet (612th)";
@@ -1446,7 +1576,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\barc_helmet\lore_designs\clean\barc_helmet_612_co.paa", //visor
 		};
 	};
-
 	class k_barc_helmet_CG: k_barc_helmet
 	{
 		displayname = "[K] Barc Helmet (Coruscant Guard)";
@@ -1457,7 +1586,7 @@ class cfgweapons
 		};
 	};
 
-	class k_barc_helmet_41stGC_Dirty: k_barc_helmet
+	/*class k_barc_helmet_41stGC_Dirty: k_barc_helmet
 	{
 		displayname = "[K] Barc Helmet (41st GC, Dirty)";
 		hiddenselectionstextures[] = 
@@ -1545,7 +1674,7 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\barc_helmet\lore_designs\dirty\barc_helmet_612_co.paa", //helmet
 			"kobra\442_equipment\helmets\data\barc_helmet\lore_designs\dirty\barc_helmet_612_co.paa", //visor
 		};
-	};
+	};*/
 ////p1.5 section
 	class k_p15_helmet: k_p15_helmet_base
 	{
@@ -1559,7 +1688,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p15_helmet\p15_helmet_co.paa", //visor
 		};
 	};
-
 	class k_p15_helmet_44: k_p15_helmet
 	{
 		displayname = "[44/K] P1.5 Helmet";
@@ -1574,7 +1702,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\unit_designs\44ab\p15_helmet_co.paa", //visor
 		};
 	};
-
 	class k_p15_helmet_41stGC: k_p15_helmet
 	{
 		displayname = "[K] P1.5 Helmet (41st GC)";
@@ -1584,7 +1711,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p15_helmet\lore_designs\clean\p15_helmet_41_co.paa", //visor
 		};
 	};
-
 	class k_p15_helmet_91st: k_p15_helmet
 	{
 		displayname = "[K] P1.5 Helmet (91st)";
@@ -1594,7 +1720,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p15_helmet\lore_designs\clean\p15_helmet_91_co.paa", //visor
 		};
 	};
-
 	class k_p15_helmet_104thWolfpack: k_p15_helmet
 	{
 		displayname = "[K] P1.5 Helmet (104th Wolfpack)";
@@ -1604,7 +1729,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p15_helmet\lore_designs\clean\p15_helmet_104Grey_co.paa", //visor
 		};
 	};
-
 	class k_p15_helmet_104th: k_p15_helmet
 	{
 		displayname = "[K] P1.5 Helmet (104th)";
@@ -1614,7 +1738,24 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p15_helmet\lore_designs\clean\p15_helmet_104red_co.paa", //visor
 		};
 	};
-
+	class k_p15_helmet_187th: k_p15_helmet
+	{
+		displayname = "[K] P1.5 Helmet (187th)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\p15_helmet\lore_designs\clean\p15_helmet_187_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\p15_helmet\lore_designs\clean\p15_helmet_187_co.paa", //visor
+		};
+	};
+	class k_p15_helmet_212th: k_p15_helmet
+	{
+		displayname = "[K] P1.5 Helmet (212th)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\p15_helmet\lore_designs\clean\p15_helmet_212_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\p15_helmet\lore_designs\clean\p15_helmet_212_co.paa", //visor
+		};
+	};
 	class k_p15_helmet_327th: k_p15_helmet
 	{
 		displayname = "[K] P1.5 Helmet (327th)";
@@ -1624,7 +1765,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p15_helmet\lore_designs\clean\p15_helmet_327_co.paa", //visor
 		};
 	};
-
 	class k_p15_helmet_332nd: k_p15_helmet
 	{
 		displayname = "[K] P1.5 Helmet (332nd)";
@@ -1634,7 +1774,15 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p15_helmet\lore_designs\clean\p15_helmet_332_co.paa", //visor
 		};
 	};
-
+	class k_p15_helmet_442nd: k_p15_helmet
+	{
+		displayname = "[K] P1.5 Helmet (442nd)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\p15_helmet\lore_designs\clean\p15_helmet_442_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\p15_helmet\lore_designs\clean\p15_helmet_442_co.paa", //visor
+		};
+	};
 	class k_p15_helmet_501st: k_p15_helmet
 	{
 		displayname = "[K] P1.5 Helmet (501st)";
@@ -1644,7 +1792,6 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p15_helmet\lore_designs\clean\p15_helmet_501_co.paa", //visor
 		};
 	};
-
 	class k_p15_helmet_612th: k_p15_helmet
 	{
 		displayname = "[K] P1.5 Helmet (612th)";
@@ -1655,7 +1802,7 @@ class cfgweapons
 		};
 	};
 
-	class k_p15_helmet_41stGC_Dirty: k_p15_helmet
+	/*class k_p15_helmet_41stGC_Dirty: k_p15_helmet
 	{
 		displayname = "[K] P1.5 Helmet (41st GC, Dirty)";
 		hiddenselectionstextures[] = 
@@ -1733,7 +1880,7 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p15_helmet\lore_designs\dirty\p15_helmet_612_co.paa", //helmet
 			"kobra\442_equipment\helmets\data\p15_helmet\lore_designs\dirty\p15_helmet_612_co.paa", //visor
 		};
-	};
+	};*/
 ////p2 airborne section
 	class k_p2_ab_helmet: k_p2_ab_helmet_base
 	{
@@ -1760,6 +1907,26 @@ class cfgweapons
 		{
 			"kobra\442_equipment\helmets\data\unit_designs\44ab\p2_airborne_helmet_co.paa", //helmet
 			"kobra\442_equipment\helmets\data\unit_designs\44ab\p2_airborne_helmet_co.paa", //visor
+		};
+	};
+
+	class k_p2_ab_helmet_41stGC: k_p2_ab_helmet
+	{
+		displayname = "[K] P2 Airborne Helmet (41st)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\p2_ab_helmet\lore_designs\clean\p2_airborne_helmet_41_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\p2_ab_helmet\lore_designs\clean\p2_airborne_helmet_41_co.paa", //visor
+		};
+	};
+
+	class k_p2_ab_helmet_91st: k_p2_ab_helmet
+	{
+		displayname = "[K] P2 Airborne Helmet (91st)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\p2_ab_helmet\lore_designs\clean\p2_airborne_helmet_91_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\p2_ab_helmet\lore_designs\clean\p2_airborne_helmet_91_co.paa", //visor
 		};
 	};
 
@@ -1813,6 +1980,16 @@ class cfgweapons
 		};
 	};
 
+	class k_p2_ab_helmet_442nd: k_p2_ab_helmet
+	{
+		displayname = "[K] P2 Airborne Helmet (442nd)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\p2_ab_helmet\lore_designs\clean\p2_airborne_helmet_442_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\p2_ab_helmet\lore_designs\clean\p2_airborne_helmet_442_co.paa", //visor
+		};
+	};
+
 	class k_p2_ab_helmet_501st: k_p2_ab_helmet
 	{
 		displayname = "[K] P2 Airborne Helmet (501st)";
@@ -1822,8 +1999,28 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_ab_helmet\lore_designs\clean\p2_airborne_helmet_501_co.paa", //visor
 		};
 	};
+	
+	class k_p2_ab_helmet_612nd: k_p2_ab_helmet
+	{
+		displayname = "[K] P2 Airborne Helmet (612nd)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\p2_ab_helmet\lore_designs\clean\p2_airborne_helmet_612_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\p2_ab_helmet\lore_designs\clean\p2_airborne_helmet_612_co.paa", //visor
+		};
+	};
 
-	class k_p2_ab_helmet_104thWolfpack_Dirty: k_p2_ab_helmet
+	class k_p2_ab_helmet_cg: k_p2_ab_helmet
+	{
+		displayname = "[K] P2 Airborne Helmet (Coruscant Guard)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\p2_ab_helmet\lore_designs\clean\p2_airborne_helmet_cg_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\p2_ab_helmet\lore_designs\clean\p2_airborne_helmet_cg_co.paa", //visor
+		};
+	};
+
+	/*class k_p2_ab_helmet_104thWolfpack_Dirty: k_p2_ab_helmet
 	{
 		displayname = "[K] P2 Airborne Helmet (104th Wolfpack, Dirty)";
 		hiddenselectionstextures[] = 
@@ -1871,7 +2068,7 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_ab_helmet\lore_designs\dirty\p2_airborne_helmet_501_co.paa", //helmet
 			"kobra\442_equipment\helmets\data\p2_ab_helmet\lore_designs\dirty\p2_airborne_helmet_501_co.paa", //visor
 		};
-	};
+	};*/
 ////p2 pilot section
 	class k_p2_pilot_helmet: k_p2_pilot_helmet_base
 	{
@@ -1901,6 +2098,26 @@ class cfgweapons
 		};
 	};
 
+	class k_p2_pilot_helmet_5th: k_p2_pilot_helmet
+	{
+		displayname = "[K] P2 Pilot Helmet (5th Fleet Security)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\p2_pilot_helmet\lore_designs\clean\p2_pilot_helmet_5_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\p2_pilot_helmet\lore_designs\clean\p2_pilot_helmet_5_co.paa", //visor
+		};
+	};
+
+	class k_p2_pilot_helmet_41stGC: k_p2_pilot_helmet
+	{
+		displayname = "[K] P2 Pilot Helmet (41st GC)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\p2_pilot_helmet\lore_designs\clean\p2_pilot_helmet_41_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\p2_pilot_helmet\lore_designs\clean\p2_pilot_helmet_41_co.paa", //visor
+		};
+	};
+
 	class k_p2_pilot_helmet_91st: k_p2_pilot_helmet
 	{
 		displayname = "[K] P2 Pilot Helmet (91st)";
@@ -1908,6 +2125,36 @@ class cfgweapons
 		{
 			"kobra\442_equipment\helmets\data\p2_pilot_helmet\lore_designs\clean\p2_pilot_helmet_91_co.paa", //helmet
 			"kobra\442_equipment\helmets\data\p2_pilot_helmet\lore_designs\clean\p2_pilot_helmet_91_co.paa", //visor
+		};
+	};
+
+	class k_p2_pilot_helmet_104thWolfpack: k_p2_pilot_helmet
+	{
+		displayname = "[K] P2 Pilot Helmet (104th Wolfpack)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\p2_pilot_helmet\lore_designs\clean\p2_pilot_helmet_104Grey_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\p2_pilot_helmet\lore_designs\clean\p2_pilot_helmet_104Grey_co.paa", //visor
+		};
+	};
+
+	class k_p2_pilot_helmet_104th: k_p2_pilot_helmet
+	{
+		displayname = "[K] P2 Pilot Helmet (104th)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\p2_pilot_helmet\lore_designs\clean\p2_pilot_helmet_104Red_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\p2_pilot_helmet\lore_designs\clean\p2_pilot_helmet_104Red_co.paa", //visor
+		};
+	};
+
+	class k_p2_pilot_helmet_187th: k_p2_pilot_helmet
+	{
+		displayname = "[K] P2 Pilot Helmet (187th)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\p2_pilot_helmet\lore_designs\clean\p2_pilot_helmet_187_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\p2_pilot_helmet\lore_designs\clean\p2_pilot_helmet_187_co.paa", //visor
 		};
 	};
 
@@ -1931,6 +2178,16 @@ class cfgweapons
 		};
 	};
 
+	class k_p2_pilot_helmet_332nd: k_p2_pilot_helmet
+	{
+		displayname = "[K] P2 Pilot Helmet (332nd)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\p2_pilot_helmet\lore_designs\clean\p2_pilot_helmet_332_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\p2_pilot_helmet\lore_designs\clean\p2_pilot_helmet_332_co.paa", //visor
+		};
+	};
+
 	class k_p2_pilot_helmet_442nd: k_p2_pilot_helmet
 	{
 		displayname = "[K] P2 Pilot Helmet (442nd)";
@@ -1951,7 +2208,27 @@ class cfgweapons
 		};
 	};
 
-	class k_p2_pilot_helmet_5th_dirty: k_p2_pilot_helmet
+	class k_p2_pilot_helmet_612th: k_p2_pilot_helmet
+	{
+		displayname = "[K] P2 Pilot Helmet (612th)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\p2_pilot_helmet\lore_designs\clean\p2_pilot_helmet_612_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\p2_pilot_helmet\lore_designs\clean\p2_pilot_helmet_612_co.paa", //visor
+		};
+	};
+
+	class k_p2_pilot_helmet_CG: k_p2_pilot_helmet
+	{
+		displayname = "[K] P2 Pilot Helmet (Coruscant Guard)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\p2_pilot_helmet\lore_designs\clean\p2_pilot_helmet_CG_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\p2_pilot_helmet\lore_designs\clean\p2_pilot_helmet_CG_co.paa", //visor
+		};
+	};
+
+	/*class k_p2_pilot_helmet_5th_dirty: k_p2_pilot_helmet
 	{
 		displayname = "[K] P2 Pilot Helmet (5th, Dirty)";
 		hiddenselectionstextures[] = 
@@ -2029,7 +2306,7 @@ class cfgweapons
 			"kobra\442_equipment\helmets\data\p2_pilot_helmet\lore_designs\dirty\p2_pilot_helmet_501_co.paa", //helmet
 			"kobra\442_equipment\helmets\data\p2_pilot_helmet\lore_designs\dirty\p2_pilot_helmet_501_co.paa", //visor
 		};
-	};
+	};*/
 
 ////commando mk1 section
 	class k_commando_mk1_helmet: k_commando_helmet_mk1_base
