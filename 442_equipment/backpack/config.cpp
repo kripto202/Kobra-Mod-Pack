@@ -497,7 +497,7 @@ class cfgvehicles
 
 	class k_clone_huge_backpack_44: k_clone_huge_backpack
 	{
-		displayname = "[K] Clone Trooper Huge Backpack";
+		displayname = "[K/44] Clone Trooper Huge Backpack";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_equipment\backpack\data\huge\unit_designs\44ab\huge_backpack_co.paa" ///backpack
@@ -505,7 +505,7 @@ class cfgvehicles
 	};
 	class k_clone_huge_backpack_pouches_44: k_clone_huge_backpack_pouches
 	{
-		displayname = "[K] Clone Trooper Huge Backpack w/ Pouches";
+		displayname = "[K/44] Clone Trooper Huge Backpack w/ Pouches";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_equipment\backpack\data\huge\unit_designs\44ab\huge_backpack_co.paa", ///backpack
@@ -514,7 +514,7 @@ class cfgvehicles
 	};
 	class k_clone_huge_backpack_rocket_44: k_clone_huge_backpack_rocket
 	{
-		displayname = "[K] Clone Trooper Huge Backpack w/ Rockets";
+		displayname = "[K/44] Clone Trooper Huge Backpack w/ Rockets";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_equipment\backpack\data\huge\unit_designs\44ab\huge_backpack_co.paa", ///backpack
@@ -666,7 +666,7 @@ class cfgvehicles
 		model = "kobra\442_equipment\backpack\model\clone\k_wrist_comm.p3d";
 		hiddenselections[] = {};
 		hiddenselectionstextures[] = {};
-		tf_range=10000;
+		tf_range=15000;
 	};
 	class k_clone_p1_comms: k_clone_wrist_comms
 	{

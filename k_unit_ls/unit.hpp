@@ -1,7 +1,7 @@
 ///clones
 	class k_ls_unit_p2_dc15a: k_ls_unit_base
 	{
-		scope = 2;
+		scope = 1;
 		scopecurator = 2;
 		scopearsenal = 2;
 		displayname = "Trooper (DC-15A)";
@@ -205,7 +205,7 @@
 ///b1
     class k_ls_unit_b1_e5: k_ls_unit_b1_base
     {
-        scope = 2;
+        scope = 1;
 		scopecurator = 2;
 		scopearsenal = 2;
         backpack = "k_ls_b1_backpack";
@@ -797,7 +797,7 @@
 
     class k_ls_unit_b1_security_e5: k_ls_unit_b1_security_base
     {
-        scope = 2;
+        scope = 1;
 		scopecurator = 2;
 		scopearsenal = 2;
 		displayname = "B1 Battledroid (Security)";
@@ -1392,7 +1392,7 @@
 
     class k_ls_unit_b1_pilot_e5: k_ls_unit_b1_pilot_base
     {
-        scope = 2;
+        scope = 1;
 		scopecurator = 2;
 		scopearsenal = 2;
 		displayname = "B1 Battledroid (Pilot)";
@@ -1519,7 +1519,7 @@
     };
     class k_ls_unit_b1_cmd_e5: k_ls_unit_b1_cmd_base
     {
-        scope = 2;
+        scope = 1;
 		scopecurator = 2;
 		scopearsenal = 2;
 		displayname = "B1 Battledroid (Commander)";
@@ -1647,7 +1647,7 @@
 
     class k_ls_unit_b1_geonosis_e5: k_ls_unit_b1_geonosis_base
     {
-        scope = 2;
+        scope = 1;
 		scopecurator = 2;
 		scopearsenal = 2;
 		displayname = "B1 Battledroid";
@@ -2239,7 +2239,7 @@
 
     class k_ls_unit_b1_woodland_e5: k_ls_unit_b1_woodland_base
     {
-        scope = 2;
+        scope = 1;
 		scopecurator = 2;
 		scopearsenal = 2;
 		displayname = "B1 Battledroid";
@@ -2795,7 +2795,7 @@
 
     class k_ls_unit_b1_desert_e5: k_ls_unit_b1_desert_base
     {
-        scope = 2;
+        scope = 1;
 		scopecurator = 2;
 		scopearsenal = 2;
 		displayname = "B1 Battledroid";
@@ -3348,7 +3348,7 @@
 
     class k_ls_unit_b1_winter_e5: k_ls_unit_b1_winter_base
     {
-        scope = 2;
+        scope = 1;
 		scopecurator = 2;
 		scopearsenal = 2;
 		displayname = "B1 Battledroid";

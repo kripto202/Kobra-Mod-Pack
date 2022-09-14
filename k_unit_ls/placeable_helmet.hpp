@@ -19,7 +19,7 @@
     };
     class k_ls_headgear_p2: k_ls_headgear_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         displayname = "[K/LS] P2 Helmet";
@@ -227,7 +227,7 @@
 
     class k_ls_headgear_b1: k_ls_headgear_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         editorsubcategory = "442_droid_head";

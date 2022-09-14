@@ -252,11 +252,11 @@
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\helmets\44_scout_helmet_co.paa",
-			"kobra\442_units\data\helmet\scout_helmet\visor_co.paa"
+			"kobra\k_unit_44\data\helmets\scout_helmet\visor_co.paa"
 		};
 		hiddenselectionsmaterials[] = 
 		{
-			"kobra\442_units\data\helmet\scout_helmet\helmet.rvmat",
+			"kobra\k_unit_44\data\helmets\scout_helmet\helmet.rvmat",
 			"kobra\k_unit_44\data\helmets\scout_helmet_visor.rvmat"
 		};
 	};
@@ -269,11 +269,11 @@
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\helmets\44_hunter_helmet_co.paa",
-			"kobra\442_units\data\helmet\hunter_helmet\visor_co.paa"
+			"kobra\k_unit_44\data\helmets\hunter_helmet\visor_co.paa"
 		};
 		hiddenselectionsmaterials[] = 
 		{
-			"kobra\442_units\data\helmet\hunter_helmet\helmet.rvmat",
+			"kobra\k_unit_44\data\helmets\hunter_helmet\helmet.rvmat",
 			"kobra\k_unit_44\data\helmets\hunter_helmet_visor.rvmat"
 		};
 	};
@@ -286,11 +286,11 @@
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\helmets\44_crosshair_helmet_co.paa",
-			"kobra\442_units\data\helmet\crosshair_helmet\visor_co.paa"
+			"kobra\k_unit_44\data\helmets\crosshair_helmet\visor_co.paa"
 		};
 		hiddenselectionsmaterials[] = 
 		{
-			"kobra\442_units\data\helmet\crosshair_helmet\helmet.rvmat",
+			"kobra\k_unit_44\data\helmets\crosshair_helmet\helmet.rvmat",
 			"kobra\k_unit_44\data\helmets\crosshair_helmet_visor.rvmat"
 		};
 	};
@@ -303,11 +303,11 @@
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\helmets\44_wrecker_helmet_co.paa",
-			"kobra\442_units\data\helmet\wrecker_helmet\visor_co.paa"
+			"kobra\k_unit_44\data\helmets\wrecker_helmet\visor_co.paa"
 		};
 		hiddenselectionsmaterials[] = 
 		{
-			"kobra\442_units\data\helmet\wrecker_helmet\helmet.rvmat",
+			"kobra\k_unit_44\data\helmets\wrecker_helmet\helmet.rvmat",
 			"kobra\k_unit_44\data\helmets\wrecker_helmet_visor.rvmat"
 		};
 	};

@@ -1,7 +1,7 @@
 //////////clone helmets////////////
     class k_ls_p2_helmet: k_ls_p2_helmet_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         picture = "\kobra\k_unit_ls\data\ui\p2_helmet.paa";
@@ -13,7 +13,7 @@
     };
     class k_ls_p15_helmet: k_ls_p15_helmet_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         picture = "\kobra\k_unit_ls\data\ui\p15_helmet.paa";
@@ -26,7 +26,7 @@
     };
     class k_ls_airborne_helmet: k_ls_airborne_helmet_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         picture = "\kobra\k_unit_ls\data\ui\ab_helmet.paa";
@@ -38,7 +38,7 @@
     };
     class k_ls_p2_pilot_helmet: k_ls_p2_pilot_helmet_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         picture = "\kobra\k_unit_ls\data\ui\pilot_p2_helmet.paa";
@@ -50,7 +50,7 @@
     };
     class k_ls_barc_helmet: k_ls_barc_helmet_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         picture = "\kobra\k_unit_ls\data\ui\barc_helmet.paa";
@@ -62,7 +62,7 @@
     };
     class k_ls_p1_arf_helmet: k_ls_p1_arf_helmet_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         displayname = "[K/LS] ARF Helmet";
@@ -82,7 +82,7 @@
     };
     class k_ls_p2_arf_helmet: k_ls_p2_arf_helmet_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         displayname = "[K/LS] ARF Helmet w/ Flaps";
@@ -103,7 +103,7 @@
     };
     class k_ls_eng_helmet: k_ls_eng_helmet_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         picture = "\kobra\k_unit_ls\data\ui\eng_helmet.paa";
@@ -116,7 +116,7 @@
     };
     class k_ls_p1_helmet: k_ls_p1_helmet_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         picture = "\kobra\k_unit_ls\data\ui\p1_helmet.paa";
@@ -169,7 +169,7 @@
     };
     class k_ls_p1_pilot_helmet: k_ls_p1_pilot_helmet_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         //picture = "\kobra\k_unit_ls\data\ui\pilot_p1_helmet.paa";
@@ -182,7 +182,7 @@
     };
     class k_ls_p1_specops_helmet: k_ls_p1_specops_helmet_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         //picture = "\kobra\k_unit_ls\data\ui\spec_p1_helmet.paa";
@@ -194,7 +194,7 @@
     };
     class k_ls_p2_specops_helmet: k_ls_p2_specops_helmet_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         //picture = "\kobra\k_unit_ls\data\ui\spec_p2_helmet.paa";
@@ -206,7 +206,7 @@
     };
     class k_ls_rex_helmet: k_ls_rex_helmet_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         //picture = "\kobra\k_unit_ls\data\ui\rex_helmet.paa";
@@ -220,7 +220,7 @@
 ////////b1 helmets//////////
     class k_ls_b1_helmet: k_ls_b1_helmet_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         displayname = "[K/LS] B1 Droid Head";

@@ -618,6 +618,7 @@ class cfgglasses
 	class 442_tech_clone_glass1: 442_clone_ab_barc_glasses
 	{
 		displayname = "[K] Tech Helmet Attachment (Up)";
+		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 		model = "kobra\442_equipment\glasses\model\clone\k_tech_clone_glasses1.p3d";

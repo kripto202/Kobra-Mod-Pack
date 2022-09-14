@@ -2,7 +2,7 @@
     class k_ls_uniform: k_ls_uniform_base
     {
         displayname = "[K/LS] Clone Trooper Armor";
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         class ItemInfo: ItemInfo
@@ -45,7 +45,7 @@
     class k_ls_mc_uniform: k_ls_uniform_mc_base
     {
         displayname = "[K/LS] Clone Marshall Commander Armor";
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         class ItemInfo: ItemInfo
@@ -58,7 +58,7 @@
     class k_ls_b1_uniform: k_ls_b1_uniform_base
     {
         displayname = "[K/LS] B1 Uniform";
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         class ItemInfo: Iteminfo

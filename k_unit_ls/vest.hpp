@@ -1,6 +1,6 @@
     class k_ls_vest_basic: k_ls_vest_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         displayname = "[K/LS] Vest Basic";
@@ -15,7 +15,7 @@
     };
     class k_ls_vest_arc_1: k_ls_vest_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         displayname = "[K/LS] Arc Armor (Black)";
@@ -71,7 +71,7 @@
     };
     class k_ls_vest_arc_2: k_ls_vest_arc_1
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         displayname = "[K/LS] Arc Armor (Grey)";
@@ -89,7 +89,7 @@
     };
     class k_ls_vest_arc_plate: k_ls_vest_arc_1
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         displayname = "[K/LS] Arc Plates";
@@ -108,7 +108,7 @@
 
     class k_ls_vest_airborne_1: k_ls_vest_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         displayname = "[K/LS] Airborne Vest (Black)";
@@ -190,7 +190,7 @@
 
     class k_ls_vest_assault: k_ls_vest_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         displayname = "[K/LS] Clone Assault Vest";
@@ -221,7 +221,7 @@
 
     class k_ls_vest_cfr: k_ls_vest_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         displayname = "[K/LS] Clone First Responder Vest";
@@ -248,7 +248,7 @@
 
     class k_ls_vest_commander_armor_1: k_ls_vest_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         displayname = "[K/LS] Clone Marshall Commander Vest (Black)";
@@ -304,7 +304,7 @@
 
     class k_ls_vest_grenadier: k_ls_vest_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         displayname = "[K/LS] Clone Grenadier Vest (Black)";
@@ -335,7 +335,7 @@
 
     class k_ls_vest_kama_1: k_ls_vest_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         displayname = "[K/LS] Clone Kama (Black)";
@@ -375,7 +375,7 @@
 
     class k_ls_vest_pauldron_1: k_ls_vest_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         displayname = "[K/LS] Clone Pauldron (Black)";
@@ -402,7 +402,7 @@
     };
     class k_ls_vest_pauldron_2: k_ls_vest_pauldron_1
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         displayname = "[K/LS] Clone Pauldron (Grey)";
@@ -414,7 +414,7 @@
 
     class k_ls_vest_medic: k_ls_vest_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         displayname = "[K/LS] Clone Medic Vest";
@@ -442,7 +442,7 @@
 
     class k_ls_vest_recon_1: k_ls_vest_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         displayname = "[K/LS] Clone Recon Vest (Black)";
@@ -488,7 +488,7 @@
 
     class k_ls_vest_recon_officer_1: k_ls_vest_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         displayname = "[K/LS] Clone Recon Officer Vest (Black)";
@@ -528,7 +528,7 @@
 
     class k_ls_vest_specialist: k_ls_vest_base
     {
-        scope = 2;
+        scope = 1;
         scopecurator = 2;
         scopearsenal = 2;
         displayname = "[K/LS] Clone Recon Specialist Vest (Black)";

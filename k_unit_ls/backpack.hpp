@@ -3,7 +3,7 @@
 	class k_ls_clone_backpack: ls_gar_standard_backpack
 	{
 		displayname = "[K/LS] Clone Trooper Backpack";
-		scope = 2;
+		scope = 1;
 		model = "ls_equipment_bluefor\backpack\gar\backpack\ls_gar_standard_backpack.p3d";
 		maximumload = 225;
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
@@ -26,7 +26,7 @@
 	class k_ls_clone_backpack_med: ls_gar_standard_backpack
 	{
 		displayname = "[K/LS] Clone Trooper Medium Backpack";
-		scope = 2;
+		scope = 1;
 		model = "ls_equipment_bluefor\backpack\gar\mediumBackpack\ls_gar_medium_backpack.p3d";
 		maximumload = 275;
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
@@ -52,7 +52,7 @@
 	class k_ls_clone_backpack_heavy: ls_gar_standard_backpack
 	{
 		displayname = "[K/LS] Clone Trooper Heavy Backpack";
-		scope = 2;
+		scope = 1;
 		model = "ls_equipment_bluefor\backpack\gar\heavyBackpack\ls_gar_heavy_backpack.p3d";
 		maximumload = 290;
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
@@ -81,7 +81,7 @@
 	class k_ls_clone_backpack_medic: ls_gar_standard_backpack
 	{
 		displayname = "[K/LS] Clone Trooper Medic Backpack";
-		scope = 2;
+		scope = 1;
 		model = "ls_equipment_bluefor\backpack\gar\backpack\ls_gar_medic_backpack.p3d";
 		maximumload = 240;
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
@@ -110,7 +110,7 @@
 	class k_ls_clone_backpack_medic_med: ls_gar_standard_backpack
 	{
 		displayname = "[K/LS] Clone Trooper Medic Medium Backpack";
-		scope = 2;
+		scope = 1;
 		model = "ls_equipment_bluefor\backpack\gar\heavyBackpack\ls_gar_heavyMedic_backpack.p3d";
 		maximumload = 290;
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
@@ -143,7 +143,7 @@
 	class k_ls_clone_backpack_rocket: ls_gar_standard_backpack
 	{
 		displayname = "[K/LS] Clone Trooper Rocket Backpack";
-		scope = 2;
+		scope = 1;
 		model = "ls_equipment_bluefor\backpack\gar\backpack\ls_gar_rocket_backpack.p3d";
 		maximumload = 265;
 		picture = "\SWLB_equipment\backpacks\data\ui\icon_SWLB_clone_backpack_ca.paa";
@@ -177,7 +177,7 @@
 	class k_ls_b1_backpack: ls_gar_standard_backpack
 	{
 		displayname = "[K/LS] B1 Backpack";
-		scope = 2;
+		scope = 1;
 		model = "lsd_equipment_redfor\backpack\cis\standard\lsd_cis_standard_backpack.p3d";
 		maximumload = 150;
 		picture = "lsd_equipment_redfor\backpack\cis\_ui\icon_b1_backpack_ca.paa";

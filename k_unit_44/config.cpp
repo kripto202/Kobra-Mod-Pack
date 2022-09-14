@@ -145,6 +145,17 @@ class cfgvehicles
     class k_ls_clone_backpack_radio_med;
     class k_ls_clone_backpack_rocket;
     class k_ls_headgear_p2;
+    class k_clone_unarmed_unit_p1;
+    class k_clone_unarmed_p2_unit;
+    class k_clone_unarmed_unit_p1_44: k_clone_unarmed_unit_p1
+	{
+        faction = "44_ab";
+    };
+
+    class k_clone_unarmed_p2_unit_44: k_clone_unarmed_p2_unit
+	{
+        faction = "44_ab";
+    };
     #include "44_unit.hpp"
     #include "44_backpack.hpp"
     #include "placeable_helmet.hpp"
@@ -173,17 +184,9 @@ class cfgweapons
     class k_tech_helmet_base;
     class V_rebreatherB;
     #include "44_uniform.hpp"
-    #include "44_helmet.hpp"
+    //#include "44_helmet.hpp"
     //#include "44_vest.hpp"
     //#include "uniform_custom.hpp"
 
-    class k_clone_unarmed_unit_p1_44: k_clone_unarmed_unit_p1
-	{
-        faction = "44_ab";
-    };
-
-    class k_clone_unarmed_p2_unit_44: k_clone_unarmed_p2_unit
-	{
-        faction = "44_ab";
-    };
+    
 };
