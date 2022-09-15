@@ -184,9 +184,9 @@ class cfgweapons
     class k_tech_helmet_base;
     class V_rebreatherB;
     #include "44_uniform.hpp"
-    //#include "44_helmet.hpp"
-    //#include "44_vest.hpp"
-    //#include "uniform_custom.hpp"
+    #include "44_helmet.hpp"
+    #include "44_vest.hpp"
+//    #include "uniform_custom.hpp"
 
     
 };

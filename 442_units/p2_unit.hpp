@@ -137,7 +137,7 @@
 			"ItemWatch"
 		};
 	};
-	/*class k_clone_unarmed_p2_unit_41stGC: k_clone_unit_41stGC
+	class k_clone_unarmed_p2_unit_41stGC: k_clone_unit_41stGC
 	{
 		displayname = "41st P2 Clone Trooper (Unarmed)";
 		weapons[]=
@@ -152,6 +152,7 @@
 		};
 		linkedItems[] = 
 		{
+			"k_p2_helmet_41stGC",
 			"k_clone_basic_vest1",
 			"ItemMap",
 			"ItemGPS",
@@ -161,6 +162,7 @@
 		};
 		respawnlinkedItems[] = 
 		{
+			"k_p2_helmet_41stGC",
 			"k_clone_basic_vest1",
 			"ItemMap",
 			"ItemGPS",
@@ -168,7 +170,7 @@
 			"ItemCompass",
 			"ItemWatch"
 		};
-	};*/
+	};
 	class k_clone_unarmed_p2_unit_91st: k_clone_unit_91st
 	{
 		displayname = "91st P2 Clone Trooper (Unarmed)";

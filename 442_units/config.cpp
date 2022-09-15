@@ -10,218 +10,156 @@ class cfgpatches
 		requiredVersion = 0.1;
 		units[] = 
         {
-            "k_barracks_unit",
-			"k_scout_unit",
-			"k_44ab_clone_unit",
-			"k_44ab_scout_unit",
-			"k_scout_unit_arid",
-			"k_scout_unit_desert",
-			"k_scout_unit_woodland",
-			"k_scout_unit_woodland2",
-			"k_scout_unit_desert2"
+			"k_scout_unarmed_unit",
+			"k_scout_unarmed_unit_arid",
+			"k_scout_unarmed_unit_desert",
+			"k_scout_unarmed_unit_woodland",
+
+			"k_commando_MK1_unarmed_unit",
+			"k_commando_MK1_unarmed_unit_44",
+			"k_commando_MK2_unarmed_unit",
+			"k_commando_MK2_unarmed_unit_44",
+			"k_commando_MK3_unarmed_unit",
+			"k_commando_MK3_unarmed_unit_44",
+
+			"k_clone_unarmed_unit_p1",
+			"k_clone_unarmed_unit_p1_44",
+			"k_clone_unarmed_unit_p1_41stGC",
+			"k_clone_unarmed_unit_p1_91st",
+			"k_clone_unarmed_unit_p1_104thWolfpack",
+			"k_clone_unarmed_unit_p1_104th",
+			"k_clone_unarmed_unit_p1_212th",
+			"k_clone_unarmed_unit_p1_327th",
+			"k_clone_unarmed_unit_p1_442nd",
+			"k_clone_unarmed_unit_p1_501st",
+			"k_clone_unarmed_unit_p1_CG",
+			"k_clone_unarmed_unit_p1_KeeliCompany",
+
+			"k_clone_unarmed_p2_unit",
+			"k_clone_unarmed_p2_unit_44",
+			"k_clone_unarmed_p2_unit_5th",
+			"k_clone_unarmed_p2_unit_13th",
+			"k_clone_unarmed_p2_unit_41stGC",
+			"k_clone_unarmed_p2_unit_91st",
+			"k_clone_unarmed_p2_unit_104thWolfpack",
+			"k_clone_unarmed_p2_unit_104th",
+			"k_clone_unarmed_p2_unit_187th",
+			"k_clone_unarmed_p2_unit_212th",
+			"k_clone_unarmed_p2_unit_327th",
+			"k_clone_unarmed_p2_unit_332nd",
+			"k_clone_unarmed_p2_unit_442nd",
+			"k_clone_unarmed_p2_unit_501st",
+			"k_clone_unarmed_p2_unit_612th",
+			"k_clone_unarmed_p2_unit_CG",
+			"k_clone_unarmed_p2_unit_KS",
+			"k_barracks_unit",
+			"k_ARF_Trooper_104th_Wolfpack",
+			"k_ARF_Trooper_104th",
+			"k_ARF_Trooper_187th",
+			"k_ARF_Trooper_212th",
+			"k_ARF_Trooper_327th",
+			"k_ARF_Trooper",
+			"k_ARF_Trooper_332nd",
+			"k_ARF_Trooper_41st_GC",
+			"k_ARF_Trooper_442nd",
+			"k_ARF_Trooper_501st",
+			"k_ARF_Trooper_612th",
+			"k_ARF_Trooper_91st",
+			"k_ARF_Trooper_Coruscant_Guard",
+			"k_P1_Pilot",
+			"k_P1_Pilot_104th_Wolfpack",
+			"k_P1_Pilot_104th",
+			"k_P1_Pilot_187th",
+			"k_P1_Pilot_212th",
+			"k_P1_Pilot_327th",
+			"k_P1_Pilot_41st_GC",
+			"k_P1_Pilot_442nd",
+			"k_P1_Pilot_501st",
+			"k_P1_Pilot_612th",
+			"k_P1_Pilot_91st",
+			"K_P2_Pilot",
+			"K_P2_Pilot_104th_Wolfpack",
+			"K_P2_Pilot_104th",
+			"K_P2_Pilot_187th",
+			"K_P2_Pilot_212th",
+			"K_P2_Pilot_327th",
+			"K_P2_Pilot_41st_GC",
+			"K_P2_Pilot_442nd",
+			"K_P2_Pilot_501st",
+			"K_P2_Pilot_612th",
+			"K_P2_Pilot_91st",
+			"K_P2_Pilot_332nd",
+			"K_P2_Pilot_5th",
+			"K_P2_Pilot_Coruscant_Guard",
+			"K_BARC",
+			"K_BARC_104th_Wolfpack",
+			"K_BARC_104th",
+			"K_BARC_187th",
+			"K_BARC_212th",
+			"K_BARC_327th",
+			"K_BARC_332nd",
+			"K_BARC_442nd",
+			"K_BARC_501st",
+			"K_BARC_612th",
+			"K_BARC_91st",
+			"K_BARC_Coruscant_Guard",
+			"K_ARC",
+			"K_ARC_104th_Wolfpack",
+			"K_ARC_104th",
+			"K_ARC_187th",
+			"K_ARC_212th",
+			"K_ARC_327th",
+			"K_ARC_332nd",
+			"K_ARC_41st_GC",
+			"K_ARC_442nd",
+			"K_ARC_501st",
+			"K_ARC_612th",
+			"K_ARC_91st"
 		};
         weapons[] = 
         {
-            "k_Scout_Helmet",
-            "k_hunter_Helmet",
-            "k_crosshair_Helmet",
-            "k_wrecker_Helmet",
-            "k_tech_Helmet",
-            "k_cadet_Helmet",
-            "k_desert_Helmet",
-            "k_helmet_base",
-            "k_Scout_Helmet_base",
-            "k_hunter_helmet_base",
-            "k_crosshair_helmet_base",
-            "k_wrecker_helmet_base",
-            "k_tech_helmet_base",
-            "k_cadet_helmet_base",
-            "k_desert_helmet_base",
-			"k_scout_helmet_dukas",
-			"k_scout_helmet_camo",
-			"k_scout_helmet_artic",
-			"k_scout_helmet_desert",
-			"k_scout_helmet_jungle",
-			"k_Scout_woodland_Helmet2",
-			"k_scout_desert_helmet2",
-			"k_p1_pilot_helmet",
-			"k_p1_helmet",
-			"k_p2_helmet",
-			"k_barc_helmet",
-			"k_p15_helmet",
-
-			"k_clone_vest_base",
-			"k_kama_full",
-			"k_kama_L",
-			"k_kama_R",
-			"k_clone_vest_basic",
-			"k_clone_vest_medium",
-			"k_clone_vest_heavy"
-
-			"k_arf_helmet",
-
-			"k_scout_uniform",
-			"k_clone_uniform",
-			"k_scout_uniform_dukas",
-			"k_scout_uniform_camo",
-			"k_scout_uniform_artic",
-			"k_scout_uniform_desert",
-			"k_scout_uniform_jungle",
-
-			"k_p1_helmet_41_green",
-			"k_p1_helmet_41_grey",
-			"k_p1_helmet_91",
-			"k_p1_helmet_104_grey",
-			"k_p1_helmet_104_red",
-			"k_p1_helmet_187",
-			"k_p1_helmet_212",
-			"k_p1_helmet_327",
-			"k_p1_helmet_442",
-			"k_p1_helmet_501",
-			"k_p1_helmet_cg",
-			"k_p1_helmet_fill",
-			"k_p1_helmet_hc",
-			"k_p1_helmet_kc",
-			"k_p1_helmet_sc",
-			"k_p1_helmet_cody",
-			"k_p1_helmet_fill",
-			"k_p1_helmet_fox",
-			"k_p1_helmet_gree",
-			"k_p1_helmet_keeli",
-			"k_p1_helmet_lock",
-			"k_p1_helmet_rex",
-			"k_p1_helmet_stone",
-			"k_p1_helmet_thire",
-			"k_p1_helmet_wolfe_grey",
-			"k_p1_helmet_wolfe_red",
-
-			"k_44ab_p1_helmet",
-			"k_44ab_p2_helmet",
-			"k_44ab_Scout_Helmet",
-			"k_44ab_hunter_Helmet",
-			"k_44ab_crosshair_Helmet",
-			"k_44ab_wrecker_Helmet",
-			"k_44ab_tech_Helmet",
-			"k_44ab_tech_Helmet_down",
-			"k_44ab_cadet_Helmet",
-			"k_44ab_p1_pilot_helmet",
-			"k_44ab_arf_helmet",
-			"k_44ab_p1_airborne_helmet",
-			"k_44ab_barc_helmet",
-			"k_44ab_p2_ab_helmet",
-			"k_44ab_p2_pilot_helmet",
-
-			"k_44ab_scout_pouches_light",
-			"k_44ab_scout_pouches_medium",
-			"k_44ab_scout_pouches_heavy",
-			"k_scout_pouches_light_arid",
-			"k_scout_pouches_medium_arid",
-			"k_scout_pouches_heavy_arid",
-			"k_scout_pouches_light_desert",
-			"k_scout_pouches_medium_desert",
-			"k_scout_pouches_heavy_desert",
-			"k_scout_pouches_light_woodland",
-			"k_scout_pouches_medium_woodland",
-			"k_scout_pouches_heavy_woodland",
-			"k_scout_pouches_light_woodland2",
-			"k_scout_pouches_medium_woodland2",
-			"k_scout_pouches_heavy_woodland2",
-			"k_scout_pouches_light_desert2",
-			"k_scout_pouches_medium_desert2",
-			"k_scout_pouches_heavy_desert2",
-
-			"k_scout_uniform_arid",
-			"k_scout_uniform_desert",
-			"k_scout_uniform_woodland",
-			"k_Scout_arid_Helmet",
-			"k_Scout_desert_Helmet",
-			"k_Scout_woodland_Helmet",
-			"k_scout_uniform_desert2",
-			"k_scout_uniform_woodland2",
-
-			"k_p2_helmet_41",
-			"k_p2_helmet_91",
-			"k_p2_helmet_104",
-			"k_p2_helmet_187",
-			"k_p2_helmet_212",
-			"k_p2_helmet_327",
-			"k_p2_helmet_332",
-			"k_p2_helmet_442",
-			"k_p2_helmet_501",
-			"k_p2_helmet_cg",
-			"k_p2_helmet_ks",
-			"k_p2_helmet_fox",
-
-			"k_clone_vest_base",
-			"k_clone_vest_basic1",
-			"k_clone_vest_basic2",
-			"k_clone_vest_medium",
-			"k_clone_vest_heavy",
-			"k_clone_vest_heavy_medic",
-			"k_clone_vest_display",
-			"k_clone_kama_full_vest",
-			"k_clone_kamaL_vest",
-			"k_clone_kamaR_vest",
-			"k_clone_kama_dirt_vest",
-			"k_clone_kama_dirtL_vest",
-			"k_clone_kama_dirtR_vest",
-			"k_clone_kama_1_vest",
-			"k_clone_kama_1L_vest",
-			"k_clone_kama_1R_vest",
-			"k_clone_kama_2_vest",
-			"k_clone_kama_2L_vest",
-			"k_clone_kama_2R_vest",
-			"k_clone_kama_5_vest",
-			"k_clone_kama_5L_vest",
-			"k_clone_kama_5R_vest",
-			"k_clone_kama_6_vest",
-			"k_clone_kama_6L_vest",
-			"k_clone_kama_6R_vest",
-			"k_clone_kama_7_vest",
-			"k_clone_kama_7L_vest",
-			"k_clone_kama_7R_vest",
-			"k_clone_arc_vest",
-			"k_clone_arc_vest2",
-			"k_clone_arc_vest3",
-			"k_clone_commander_vest",
-			
-			"k_44ab_arf_piercer_helmet",
-			"k_44ab_arf_azarael_helmet",
-			"k_44ab_hunter_canada_Helmet",
-			"k_44ab_arf_monty_helmet",
-			"k_44ab_hunter_smith_Helmet",
-			"k_44ab_barc_kripto_helmet",
-			"k_44ab_barc_ivanov_helmet",
-			"k_44ab_p1_rex_helmet",
-			"k_44ab_p15_lore_helmet",
-			"k_44ab_p2_wolfie_helmet",
-			"k_44ab_barc_zepher_helmet",
-			"k_44ab_p15_wumbo_helmet",
-			"k_44ab_barc_zeressin_helmet",
-			"k_44ab_p2_barker_helmet",
-			"k_Scout_delta_Helmet",
-			"k_44ab_p2_ab_litch_helmet",
-			"k_wrecker_neko_helmet",
-			"k_44ab_p2_ditch_helmet",
-
-			"k_44ab_clone_kripto_vest",
-			"k_44ab_clone_smith_vest",
-			"k_44ab_clone_monty_vest",
-			"k_44ab_clone_canada_vest",
-			"k_44ab_clone_ivanov_vest",
-			"k_44ab_clone_wumbo_vest",
-			"k_44ab_clone_zepher_vest",
-			"k_44ab_clone_zeressin_vest",
-			"k_44ab_clone_barker_vest",
-			"k_44ab_scout_pouches_delta",
-			"k_44ab_clone_litch_vest",
-			"k_44ab_clone_neko_vest",
-			"k_44ab_clone_azarael_vest",
-			"k_44ab_clone_piercer_vest",
-			"k_44ab_clone_ditch_vest",
-			"",
+            "k_barracks_uniform"
         };
     };
+};
+
+class CfgEditorSubcategories
+{
+  class k_ARF
+  {
+    icon="";
+    displayName="ARF Troopers";
+    side=1;
+    priority=1;
+  };
+  class k_P1_Pilot
+  {
+    icon="";
+    displayName="P1 Pilots";
+    side=1;
+    priority=1;
+  };
+  class K_P2_Pilot
+  {
+    icon="";
+    displayName="P2 Pilots";
+    side=1;
+    priority=1;
+  };
+  class K_BARC
+  {
+    icon="";
+    displayName="BARC Troopers";
+    side=1;
+    priority=1;
+  };
+  class K_ARC_Trooper
+  {
+    icon="";
+    displayName="ARC Trooper";
+    side=1;
+    priority=1;
+  };
 };
 
 class cfgvehicles 
@@ -445,7 +383,7 @@ class cfgvehicles
 	class k_commando_unit;
 	class k_commando_MK1_unarmed_unit: k_commando_unit
 	{
-		displayname = "Commando Trooper (Unarmed)";
+		displayname = "Commando Trooper MK1 (Unarmed)";
 		weapons[]=
 		{
 			"Throw",
@@ -513,6 +451,41 @@ class cfgvehicles
 		};
 	};
 
+	class k_commando_MK2_unarmed_unit: k_commando_MK1_unarmed_unit
+	{
+		displayname = "Commando Trooper MK2 (Unarmed)";
+		weapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		linkedItems[] = 
+		{
+			"k_commando_mk2_helmet",
+			"k_commando_vest1",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch"
+		};
+		respawnlinkedItems[] = 
+		{
+			"k_commando_mk2_helmet",
+			"k_commando_vest1",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch"
+		};
+	};
+
 	class k_commando_MK2_unarmed_unit_44: k_commando_MK1_unarmed_unit
 	{
 		displayname = "44th Commando Trooper MK2 (Unarmed)";
@@ -540,6 +513,41 @@ class cfgvehicles
 		{
 			"k_commando_mk2_helmet_44",
 			"k_commando_vest1_44",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch"
+		};
+	};
+
+	class k_commando_MK3_unarmed_unit: k_commando_MK1_unarmed_unit
+	{
+		displayname = "Commando Trooper MK3 (Unarmed)";
+		weapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		linkedItems[] = 
+		{
+			"k_commando_mk3_helmet",
+			"k_commando_vest1",
+			"ItemMap",
+			"ItemGPS",
+			"ItemRadio",
+			"ItemCompass",
+			"ItemWatch"
+		};
+		respawnlinkedItems[] = 
+		{
+			"k_commando_mk3_helmet",
+			"k_commando_vest1",
 			"ItemMap",
 			"ItemGPS",
 			"ItemRadio",
@@ -582,6 +590,1121 @@ class cfgvehicles
 			"ItemWatch"
 		};
 	};
+
+	class k_ARF_Trooper_104th_Wolfpack: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="k_ARF";
+    side=1;
+    displayName="ARF Trooper 104th Wolfpack";
+    uniformClass="k_clone_uniform_104thWolfpack";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+   items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_arf_helmet_104thWolfpack","k_clone_nco_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_arf_helmet_104thWolfpack","k_clone_nco_vest1"};
+    backpack="k_clone_arf_comms";
+  };
+
+  class k_ARF_Trooper_104th: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="k_ARF";
+    side=1;
+    displayName="ARF Trooper 104th";
+    uniformClass="k_clone_uniform_104th";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_arf_helmet_104th","k_clone_nco_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_arf_helmet_104th","k_clone_nco_vest1"};
+    backpack="k_clone_arf_comms";
+  };
+
+  class k_ARF_Trooper_187th: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="k_ARF";
+    side=1;
+    displayName="ARF Trooper 187th";
+    uniformClass="k_clone_uniform_187th";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_arf_helmet_187th","k_clone_nco_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_arf_helmet_187th","k_clone_nco_vest1"};
+    backpack="k_clone_arf_comms";
+  };
+
+  class k_ARF_Trooper_212th: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="k_ARF";
+    side=1;
+    displayName="ARF Trooper 212th";
+    uniformClass="k_clone_uniform_212th";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_arf_helmet_212th","k_clone_nco_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_arf_helmet_212th","k_clone_nco_vest1"};
+    backpack="k_clone_arf_comms";
+  };
+
+  class k_ARF_Trooper_327th: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="k_ARF";
+    side=1;
+    displayName="ARF Trooper 327th";
+    uniformClass="k_clone_uniform_327th";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_arf_helmet_327th","k_clone_nco_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_arf_helmet_327th","k_clone_nco_vest1"};
+    backpack="k_clone_arf_comms";
+  };
+
+  class k_ARF_Trooper: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="k_ARF";
+    side=1;
+    displayName="ARF Trooper";
+    uniformClass="k_clone_uniform";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_arf_helmet","k_clone_nco_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_arf_helmet","k_clone_nco_vest1"};
+    backpack="k_clone_arf_comms";
+  };
+
+  class k_ARF_Trooper_332nd: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="k_ARF";
+    side=1;
+    displayName="ARF Trooper 332nd";
+    uniformClass="k_clone_uniform_332nd";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_arf_helmet_332nd","k_clone_nco_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_arf_helmet_332nd","k_clone_nco_vest1"};
+    backpack="k_clone_arf_comms";
+  };
+
+  class k_ARF_Trooper_41st_GC: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="k_ARF";
+    side=1;
+    displayName="ARF Trooper 41st GC";
+    uniformClass="k_clone_uniform_41stGC";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_arf_helmet_41stGC","k_clone_nco_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_arf_helmet_41stGC","k_clone_nco_vest1"};
+    backpack="k_clone_arf_comms";
+  };
+
+  class k_ARF_Trooper_442nd: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="k_ARF";
+    side=1;
+    displayName="ARF Trooper 442nd";
+    uniformClass="k_clone_uniform_442nd";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_arf_helmet_442nd","k_clone_nco_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_arf_helmet_442nd","k_clone_nco_vest1"};
+    backpack="k_clone_arf_comms";
+  };
+
+  class k_ARF_Trooper_501st: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="k_ARF";
+    side=1;
+    displayName="ARF Trooper 501st";
+    uniformClass="k_clone_uniform_501st";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_arf_helmet_501st","k_clone_nco_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_arf_helmet_501st","k_clone_nco_vest1"};
+    backpack="k_clone_arf_comms";
+  };
+
+  class k_ARF_Trooper_612th: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="k_ARF";
+    side=1;
+    displayName="ARF Trooper 612th";
+    uniformClass="k_clone_uniform_612th";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_arf_helmet_612th","k_clone_nco_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_arf_helmet_612th","k_clone_nco_vest1"};
+    backpack="k_clone_arf_comms";
+  };
+
+  class k_ARF_Trooper_91st: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="k_ARF";
+    side=1;
+    displayName="ARF Trooper 91st";
+    uniformClass="k_clone_uniform_91st";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_arf_helmet_91st","k_clone_nco_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_arf_helmet_91st","k_clone_nco_vest1"};
+    backpack="k_clone_arf_comms";
+  };
+
+  class k_ARF_Trooper_Coruscant_Guard: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="k_ARF";
+    side=1;
+    displayName="ARF Trooper Coruscant Guard";
+    uniformClass="k_clone_uniform_CG";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_arf_helmet_CG","k_clone_nco_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_arf_helmet_CG","k_clone_nco_vest1"};
+    backpack="k_clone_arf_comms";
+  };
+
+  class k_P1_Pilot: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="k_P1_Pilot";
+    side=1;
+    displayName="P1 Pilot";
+    uniformClass="k_clone_uniform";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p1_pilot_helmet","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p1_pilot_helmet","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class k_P1_Pilot_104th_Wolfpack: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="k_P1_Pilot";
+    side=1;
+    displayName="P1 Pilot 104th Wolfpack";
+    uniformClass="k_clone_uniform_104thWolfpack";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p1_pilot_helmet_104thwolfpack","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p1_pilot_helmet_104thwolfpack","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class k_P1_Pilot_104th: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="k_P1_Pilot";
+    side=1;
+    displayName="P1 Pilot 104th";
+    uniformClass="k_clone_uniform_104th";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p1_pilot_helmet_104th","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p1_pilot_helmet_104th","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class k_P1_Pilot_187th: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="k_P1_Pilot";
+    side=1;
+    displayName="P1 Pilot 187th";
+    uniformClass="k_clone_uniform_187th";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p1_pilot_helmet_187th","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p1_pilot_helmet_187th","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class k_P1_Pilot_212th: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="k_P1_Pilot";
+    side=1;
+    displayName="P1 Pilot 212th";
+    uniformClass="k_clone_uniform_212th";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p1_pilot_helmet_212th","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p1_pilot_helmet_212th","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class k_P1_Pilot_327th: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="k_P1_Pilot";
+    side=1;
+    displayName="P1 Pilot 327th";
+    uniformClass="k_clone_uniform_327th";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p1_pilot_helmet_327th","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p1_pilot_helmet_327th","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class k_P1_Pilot_41st_GC: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="k_P1_Pilot";
+    side=1;
+    displayName="P1 Pilot 41st GC";
+    uniformClass="k_clone_uniform_41stGC";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p1_pilot_helmet_41stGC","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p1_pilot_helmet_41stGC","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class k_P1_Pilot_442nd: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="k_P1_Pilot";
+    side=1;
+    displayName="P1 Pilot 442nd";
+    uniformClass="k_clone_uniform_442nd";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p1_pilot_helmet_442nd","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p1_pilot_helmet_442nd","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class k_P1_Pilot_501st: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="k_P1_Pilot";
+    side=1;
+    displayName="P1 Pilot 501st";
+    uniformClass="k_clone_uniform_501st";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p1_pilot_helmet_501st","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p1_pilot_helmet_501st","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class k_P1_Pilot_612th: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="k_P1_Pilot";
+    side=1;
+    displayName="P1 Pilot 612th";
+    uniformClass="k_clone_uniform_612th";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p1_pilot_helmet_612th","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p1_pilot_helmet_612th","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class k_P1_Pilot_91st: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="k_P1_Pilot";
+    side=1;
+    displayName="P1 Pilot Coruscant Guard";
+    uniformClass="k_clone_uniform_91st";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p1_pilot_helmet_91st","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p1_pilot_helmet_91st","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+  class K_P2_Pilot: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_P2_Pilot";
+    side=1;
+    displayName="P2 Pilot";
+    uniformClass="k_clone_uniform";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class K_P2_Pilot_104th_Wolfpack: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_P2_Pilot";
+    side=1;
+    displayName="P2 Pilot 104th Wolfpack";
+    uniformClass="k_clone_uniform_104thWolfpack";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet_104thWolfpack","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet_104thWolfpack","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class K_P2_Pilot_104th: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_P2_Pilot";
+    side=1;
+    displayName="P2 Pilot 104th";
+    uniformClass="k_clone_uniform_104th";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet_104th","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet_104th","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class K_P2_Pilot_187th: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_P2_Pilot";
+    side=1;
+    displayName="P2 Pilot 187th";
+    uniformClass="k_clone_uniform_187th";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet_187th","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet_187th","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class K_P2_Pilot_212th: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_P2_Pilot";
+    side=1;
+    displayName="P2 Pilot 212th";
+    uniformClass="k_clone_uniform_212th";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet_212th","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet_212th","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class K_P2_Pilot_327th: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_P2_Pilot";
+    side=1;
+    displayName="P2 Pilot 327th";
+    uniformClass="k_clone_uniform_327th";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet_327th","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet_327th","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class K_P2_Pilot_41st_GC: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_P2_Pilot";
+    side=1;
+    displayName="P2 Pilot 41st GC";
+    uniformClass="k_clone_uniform_41stGC";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet_41stGC","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet_41stGC","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class K_P2_Pilot_442nd: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_P2_Pilot";
+    side=1;
+    displayName="P2 Pilot 442nd";
+    uniformClass="k_clone_uniform_442nd";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet_442nd","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet_442nd","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class K_P2_Pilot_501st: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_P2_Pilot";
+    side=1;
+    displayName="P2 Pilot 501st";
+    uniformClass="k_clone_uniform_501st";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet_501st","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet_501st","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class K_P2_Pilot_612th: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_P2_Pilot";
+    side=1;
+    displayName="P2 Pilot 612th";
+    uniformClass="k_clone_uniform_612th";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet_612th","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet_612th","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class K_P2_Pilot_91st: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_P2_Pilot";
+    side=1;
+    displayName="P2 Pilot 91st";
+    uniformClass="k_clone_uniform_91st";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet_91st","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet_91st","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class K_P2_Pilot_332nd: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_P2_Pilot";
+    side=1;
+    displayName="P2 Pilot 332nd";
+    uniformClass="k_clone_uniform_332nd";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet_332nd","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet_332nd","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class K_P2_Pilot_5th: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_P2_Pilot";
+    side=1;
+    displayName="P2 Pilot 5th";
+    uniformClass="k_clone_uniform_5th";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet_5th","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet_5th","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class K_P2_Pilot_Coruscant_Guard: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_P2_Pilot";
+    side=1;
+    displayName="P2 Pilot Coruscant Guard";
+    uniformClass="k_clone_uniform_CG";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet_CG","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p2_pilot_helmet_CG","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class K_BARC: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_BARC";
+    side=1;
+    displayName="BARC";
+    uniformClass="k_clone_uniform";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_barc_helmet","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_barc_helmet","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class K_BARC_104th_Wolfpack: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_BARC";
+    side=1;
+    displayName="BARC 104th Wolfpack";
+    uniformClass="k_clone_uniform_104thWolfpack";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_barc_helmet_104thWolfpack","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_barc_helmet_104thWolfpack","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class K_BARC_104th: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_BARC";
+    side=1;
+    displayName="BARC 104th";
+    uniformClass="k_clone_uniform_104th";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_barc_helmet_104th","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_barc_helmet_104th","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class K_BARC_187th: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_BARC";
+    side=1;
+    displayName="BARC 187th";
+    uniformClass="k_clone_uniform_187th";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_barc_helmet_187th","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_barc_helmet_187th","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class K_BARC_212th: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_BARC";
+    side=1;
+    displayName="BARC 212th";
+    uniformClass="k_clone_uniform_212th";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_barc_helmet_212th","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_barc_helmet_212th","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class K_BARC_327th: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_BARC";
+    side=1;
+    displayName="BARC 327th";
+    uniformClass="k_clone_uniform_327th";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_barc_helmet_327th","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_barc_helmet_327th","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class K_BARC_332nd: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_BARC";
+    side=1;
+    displayName="BARC 332nd";
+    uniformClass="k_clone_uniform_332nd";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_barc_helmet_332nd","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_barc_helmet_332nd","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class K_BARC_442nd: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_BARC";
+    side=1;
+    displayName="BARC 442nd";
+    uniformClass="k_clone_uniform_442nd";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_barc_helmet_442nd","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_barc_helmet_442nd","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class K_BARC_501st: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_BARC";
+    side=1;
+    displayName="BARC 501st";
+    uniformClass="k_clone_uniform_501st";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_barc_helmet_501st","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_barc_helmet_501st","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class K_BARC_612th: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_BARC";
+    side=1;
+    displayName="BARC 612th";
+    uniformClass="k_clone_uniform_612th";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_barc_helmet_612th","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_barc_helmet_612th","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class K_BARC_91st: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_BARC";
+    side=1;
+    displayName="BARC 91st";
+    uniformClass="k_clone_uniform_91st";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_barc_helmet_91st","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_barc_helmet_91st","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class K_BARC_Coruscant_Guard: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_BARC";
+    side=1;
+    displayName="BARC Coruscant Guard";
+    uniformClass="k_clone_uniform_CG";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_barc_helmet_CG","k_clone_basic_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_barc_helmet_CG","k_clone_basic_vest1"};
+    backpack="k_clone_wrist_comms";
+  };
+
+  class K_ARC: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_ARC_Trooper";
+    side=1;
+    displayName="ARC";
+    uniformClass="k_clone_uniform";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p15_helmet","k_clone_arc_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p15_helmet","k_clone_arc_vest1"};
+    backpack="k_clone_arc_backpack";
+  };
+
+  class K_ARC_104th_Wolfpack: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_ARC_Trooper";
+    side=1;
+    displayName="ARC 104th Wolfpack";
+    uniformClass="k_clone_uniform_104thWolfpack";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p15_helmet_104thWolfpack","k_clone_arc_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p15_helmet_104thWolfpack","k_clone_arc_vest1"};
+    backpack="k_clone_arc_backpack";
+  };
+
+  class K_ARC_104th: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_ARC_Trooper";
+    side=1;
+    displayName="ARC 104th";
+    uniformClass="k_clone_uniform_104th";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p15_helmet_104th","k_clone_arc_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p15_helmet_104th","k_clone_arc_vest1"};
+    backpack="k_clone_arc_backpack";
+  };
+
+  class K_ARC_187th: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_ARC_Trooper";
+    side=1;
+    displayName="ARC 187th";
+    uniformClass="k_clone_uniform_187th";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p15_helmet_187th","k_clone_arc_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p15_helmet_187th","k_clone_arc_vest1"};
+    backpack="k_clone_arc_backpack";
+  };
+
+  class K_ARC_212th: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_ARC_Trooper";
+    side=1;
+    displayName="ARC 212th";
+    uniformClass="k_clone_uniform_212th";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p15_helmet_212th","k_clone_arc_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p15_helmet_212th","k_clone_arc_vest1"};
+    backpack="k_clone_arc_backpack";
+  };
+
+  class K_ARC_327th: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_ARC_Trooper";
+    side=1;
+    displayName="ARC 327th";
+    uniformClass="k_clone_uniform_327th";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p15_helmet_327th","k_clone_arc_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p15_helmet_327th","k_clone_arc_vest1"};
+    backpack="k_clone_arc_backpack";
+  };
+
+  class K_ARC_332nd: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_ARC_Trooper";
+    side=1;
+    displayName="ARC 332nd";
+    uniformClass="k_clone_uniform_332nd";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p15_helmet_332nd","k_clone_arc_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p15_helmet_332nd","k_clone_arc_vest1"};
+    backpack="k_clone_arc_backpack";
+  };
+
+  class K_ARC_41st_GC: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_ARC_Trooper";
+    side=1;
+    displayName="ARC 41st GC";
+    uniformClass="k_clone_uniform_41stGC";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p15_helmet_41stGC","k_clone_arc_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p15_helmet_41stGC","k_clone_arc_vest1"};
+    backpack="k_clone_arc_backpack";
+  };
+
+  class K_ARC_442nd: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_ARC_Trooper";
+    side=1;
+    displayName="ARC 442nd";
+    uniformClass="k_clone_uniform_442nd";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p15_helmet_442nd","k_clone_arc_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p15_helmet_442nd","k_clone_arc_vest1"};
+    backpack="k_clone_arc_backpack";
+  };
+
+  class K_ARC_501st: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_ARC_Trooper";
+    side=1;
+    displayName="ARC 501st";
+    uniformClass="k_clone_uniform_501st";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p15_helmet_501st","k_clone_arc_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p15_helmet_501st","k_clone_arc_vest1"};
+    backpack="k_clone_arc_backpack";
+  };
+
+  class K_ARC_612th: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_ARC_Trooper";
+    side=1;
+    displayName="ARC 612th";
+    uniformClass="k_clone_uniform_612th";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p15_helmet_612th","k_clone_arc_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p15_helmet_612th","k_clone_arc_vest1"};
+    backpack="k_clone_arc_backpack";
+  };
+
+  class K_ARC_91st: k_barracks_unit
+  {
+    faction="kobra_b";
+editorSubCategory="K_ARC_Trooper";
+    side=1;
+    displayName="ARC 91st";
+    uniformClass="k_clone_uniform_91st";
+    weapons[]={"Put","Throw"};
+    respawnWeapons[]={"Put","Throw"};
+    items[]={"FirstAidKit","FirstAidKit"};
+    respawnItems[]={"FirstAidKit","FirstAidKit"};
+    magazines[]={};
+    respawnMagazines[]={};
+    linkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p15_helmet_91st","k_clone_arc_vest1"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","k_p15_helmet_91st","k_clone_arc_vest1"};
+    backpack="k_clone_arc_backpack";
+  };
 };
 
 class UniformItem;

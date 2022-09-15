@@ -153,10 +153,10 @@ class cfgvehicles
 		insideSoundCoef=0.89999998;
 		threat[]={0.80000001,1,0.30000001};
 		canFloat=1;
-		crew = "k_ls_unit_p2_dc15a";
+		crew = "k_clone_unarmed_p2_unit";
 		typicalCargo[]=
 		{
-			"k_ls_unit_p2_dc15a"
+			"k_clone_unarmed_p2_unit"
 		};
 		waterLeakiness=2.5;
 		waterAngularDampingCoef=4;

@@ -11,51 +11,72 @@ class cfgpatches
 		units[] = 
         {
             "k_clone_backpack_base",
-            "k_clone_rto_backpack_base",
-            "k_clone_small_backpack_base",
-            "k_clone_medium_backpack_base",
-            "k_clone_large_backpack_base",
-            "k_clone_huge_backpack_base",
+			"k_clone_rto_backpack_base",
+			"k_clone_small_backpack_base",
+			"k_clone_medium_backpack_base",
+			"k_clone_large_backpack_base",
+			"k_clone_huge_backpack_base",
 
-            "k_clone_small_backpack",
-            "k_clone_small_backpack_pouches",
-            "k_clone_small_backpack_radio",
-            "k_clone_small_backpack_radio_pouches",
+			"k_clone_small_backpack",
+			"k_clone_small_backpack_pouches",
+			"k_clone_small_backpack_radio",
+			"k_clone_small_backpack_radio_pouches",
+			"k_clone_small_backpack_44",
+			"k_clone_small_backpack_pouches_44",
+			"k_clone_small_backpack_radio_44",
+			"k_clone_small_backpack_radio_pouches_44",
 
-            "k_clone_medium_backpack",
-            "k_clone_medium_backpack_rocket",
-            "k_clone_medium_backpack_radio",
+			"k_clone_medium_backpack",
+			"k_clone_medium_backpack_rocket",
+			"k_clone_medium_backpack_radio",
+			"k_clone_medium_backpack_44",
+			"k_clone_medium_backpack_rocket_44",
+			"k_clone_medium_backpack_radio_44",
 
-            "k_clone_large_backpack",
-            "k_clone_large_backpack_pouch",
-            "k_clone_large_backpack_medic",
-            "k_clone_large_backpack_medic_pouch",
-            "k_clone_large_backpack_eod_pouch",
+			"k_clone_large_backpack",
+			"k_clone_large_backpack_pouch",
+			"k_clone_large_backpack_medic",
+			"k_clone_large_backpack_medic_pouch",
+			"k_clone_large_backpack_eod_pouch",
+			"k_clone_large_backpack_44",
+			"k_clone_large_backpack_pouch_44",
+			"k_clone_large_backpack_medic_44",
+			"k_clone_large_backpack_medic_pouch_44",
+			"k_clone_large_backpack_eod_pouch_44",
+			"k_clone_huge_backpack",
+			"k_clone_huge_backpack_pouches",
+			"k_clone_huge_backpack_rocket",
+			"k_clone_huge_backpack_44",
+			"k_clone_huge_backpack_pouches_44",
+			"k_clone_huge_backpack_rocket_44",
 
-            "k_clone_huge_backpack",
-            "k_clone_huge_backpack_pouches",
-            "k_clone_huge_backpack_rocket",
+			"k_clone_arc_backpack",
 
-            "k_clone_arc_backpack",
+			"k_commando_basic_backpack",
+			"k_commando_eod_backpack",
+			"k_commando_pouches_backpack",
+			"k_commando_radio_backpack",
+			"k_commando_tech_backpack",
+			"k_commando_eod_backpack_44",
+			"k_commando_pouches_backpack_44",
+			"k_commando_radio_backpack_44",
+			"k_commando_tech_backpack_44",
 
-            "k_commando_eod_backpack",
-            "k_commando_pouches_backpack",
-            "k_commando_radio_backpack",
-            "k_commando_tech_backpack",
+			"k_clone_arf_comms",
+			"k_clone_wrist_comms",
+			"k_clone_p1_comms",
+			"k_clone_p2_comms",
+			"k_clone_scout_comms",
 
-            "k_clone_arf_comms",
-            "k_clone_wrist_comms",
-            "k_clone_p1_comms",
-            "k_clone_p2_comms",
-            "k_clone_scout_comms",
-            "442_jumppack",
-            "442_jt12",
-            "442_jt12_single",
-            "442_jt12_pj",
-            "442_jt12_pj_radio",
-            "442_jt12_radio",
-            "442_cdv_19",
-            "442_cdv_19_radio"
+			"442_jumppack",
+			"442_jumppack_44",
+			"442_jt12",
+			"442_jt12_single",
+			"442_jt12_pj",
+			"442_jt12_pj_radio",
+			"442_jt12_radio",
+			"442_cdv_19",
+			"442_cdv_19_radio"
         };
         weapons[] = {};
     };
@@ -340,7 +361,7 @@ class cfgvehicles
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\backpack\data\large\large_backpack_co.paa",
-            "kobra\442_equipment\backpack\data\large\large_backpack_cover_co.paa"
+            "kobra\442_equipment\backpack\data\large\large_backpack_cover_co.paa",
             ""
         };
     };
@@ -497,7 +518,7 @@ class cfgvehicles
 
 	class k_clone_huge_backpack_44: k_clone_huge_backpack
 	{
-		displayname = "[K/44] Clone Trooper Huge Backpack";
+		displayname = "[44/K] Clone Trooper Huge Backpack";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_equipment\backpack\data\huge\unit_designs\44ab\huge_backpack_co.paa" ///backpack
@@ -505,7 +526,7 @@ class cfgvehicles
 	};
 	class k_clone_huge_backpack_pouches_44: k_clone_huge_backpack_pouches
 	{
-		displayname = "[K/44] Clone Trooper Huge Backpack w/ Pouches";
+		displayname = "[44/K] Clone Trooper Huge Backpack w/ Pouches";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_equipment\backpack\data\huge\unit_designs\44ab\huge_backpack_co.paa", ///backpack
@@ -514,7 +535,7 @@ class cfgvehicles
 	};
 	class k_clone_huge_backpack_rocket_44: k_clone_huge_backpack_rocket
 	{
-		displayname = "[K/44] Clone Trooper Huge Backpack w/ Rockets";
+		displayname = "[44/K] Clone Trooper Huge Backpack w/ Rockets";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_equipment\backpack\data\huge\unit_designs\44ab\huge_backpack_co.paa", ///backpack
@@ -545,12 +566,14 @@ class cfgvehicles
 		model = "kobra\442_equipment\backpack\model\commando\k_commando_basic.p3d";
 		hiddenselections[] = {};
 		hiddenselectionstextures[] = {};
+		maximumload = 150;
 	};
 	class k_commando_eod_backpack: k_clone_medium_backpack
 	{
 		displayname = "[K] Commando EOD Backpack";
 		scope = 2;
 		model = "kobra\442_equipment\backpack\model\commando\k_commando_eod.p3d";
+		maximumload = 200;
 		hiddenselections[] = 
 		{
 			"eod"
@@ -565,6 +588,7 @@ class cfgvehicles
 		displayname = "[K] Commando Pouches Backpack";
 		scope = 2;
 		model = "kobra\442_equipment\backpack\model\commando\k_commando_pouches.p3d";
+		maximumload = 225;
 		hiddenselections[] = 
 		{
 			"pouches"
@@ -585,6 +609,7 @@ class cfgvehicles
         tf_hasLRradio=1;
         tf_range=25000;
         tf_subtype="digital_lr";
+		maximumload = 100;
 		hiddenselections[] = 
 		{
 			"radio"
@@ -812,6 +837,14 @@ class cfgvehicles
 			}
 		};
 	};
+	class 442_jt12_44: 442_jt12
+	{
+		displayName="[44/K] JT-12 Jumppack";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\jt12\unit_designs\44ab\jt12_co.paa"
+		};
+	};
 	class 442_jt12_single: 442_jt12
 	{
 		scope = 2;
@@ -853,21 +886,26 @@ class cfgvehicles
 			}
 		};
 	};
+	class 442_jt12_single_44: 442_jt12_single
+	{
+		displayName="[44/K] JT12 Paradrop (Single, Slow Charge)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\jt12\unit_designs\44ab\jt12_co.paa"
+		};
+	};
 	class 442_jt12_pj: 442_jt12
 	{
 		displayname = "[K] JT12 Parajumper";
 		maximumload=350;
 	};
-	class 442_jt12_pj_radio: 442_jt12
+	class 442_jt12_pj_44: 442_jt12_pj
 	{
-		displayname = "[K] JT12 Parajumper (Radio)";
-		maximumload = 350;
-		tf_dialog = "mr6000l_radio_dialog";
-		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
-		tf_encryptionCode="tf_west_radio_code";
-		tf_hasLRradio=1;
-		tf_range=25000;
-		tf_subtype="digital_lr";
+		displayName="[44/K] JT12 Parajumper";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\jt12\unit_designs\44ab\jt12_co.paa"
+		};
 	};
 	class 442_jt12_radio: 442_jt12
 	{
@@ -892,6 +930,35 @@ class cfgvehicles
 		tf_range=25000;
 		tf_subtype="digital_lr";
 	};
+	class 442_jt12_radio_44: 442_jt12_radio
+	{
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\jt12\unit_designs\44ab\jt12_co.paa",
+			"kobra\442_equipment\backpack\data\jt12\unit_designs\44ab\jt12_radio_co.paa"
+		};
+		displayName="[44/K] JT-12 Jumppack (Radio)";
+	};
+	class 442_jt12_pj_radio: 442_jt12_radio
+	{
+		displayname = "[K] JT12 Parajumper (Radio)";
+		maximumload = 350;
+		tf_dialog = "mr6000l_radio_dialog";
+		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
+		tf_encryptionCode="tf_west_radio_code";
+		tf_hasLRradio=1;
+		tf_range=25000;
+		tf_subtype="digital_lr";
+	};
+	class 442_jt12_pj_radio_44: 442_jt12_pj_radio
+	{
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\jt12\unit_designs\44ab\jt12_co.paa",
+			"kobra\442_equipment\backpack\data\jt12\unit_designs\44ab\jt12_radio_co.paa"
+		};
+		displayName="[44/K] JT-12 Parajumper (Radio)";
+	};
 	class 442_cdv_19: 442_jt12
 	{
 		displayname = "[K] CDV-19";
@@ -905,6 +972,14 @@ class cfgvehicles
 			"kobra\442_equipment\backpack\data\cdv19\cdv_19_co.paa"
 		};
 	};
+	class 442_cdv_19_44: 442_cdv_19
+	{
+		displayname = "[44/K] CDV-19";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\cdv19\unit_designs\44ab\cdv_19_co.paa"
+		};
+	};
 	class 442_cdv_19_radio: 442_cdv_19
 	{
 		displayname = "[K] CDV-19 (Radio)";
@@ -914,5 +989,13 @@ class cfgvehicles
 		tf_hasLRradio=1;
 		tf_range=25000;
 		tf_subtype="digital_lr";
+	};
+	class 442_cdv_19_radio_44: 442_cdv_19_radio
+	{
+		displayname = "[44/K] CDV-19 (Radio)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\backpack\data\cdv19\unit_designs\44ab\cdv_19_co.paa"
+		};
 	};
 };

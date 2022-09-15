@@ -26,10 +26,10 @@ class cfgvehicles
         Displayname="A-10";
 		faction="kobra_b";
 		editorSubcategory="442_planes";
-		crew = "k_swla_unit_p2_dc15a";
+		crew = "k_clone_unarmed_p2_unit";
 		typicalCargo[]=
 		{
-			"k_swla_unit_p2_dc15a"
+			"k_clone_unarmed_p2_unit"
 		};
 		scope=2;
 		scopecurator=2;
@@ -46,10 +46,10 @@ class cfgvehicles
         displayname = "FA-181";
         faction = "kobra_b";
         editorSubcategory="442_planes";
-		crew = "k_swla_unit_p2_dc15a";
+		crew = "k_clone_unarmed_p2_unit";
 		typicalCargo[]=
 		{
-			"k_swla_unit_p2_dc15a"
+			"k_clone_unarmed_p2_unit"
 		};
 		scope=2;
 		scopecurator=2;
@@ -71,7 +71,7 @@ class cfgvehicles
         displayname = "FA-181";
         faction = "kobra_b";
         editorSubcategory="442_planes";
-		crew="k_swla_unit_p2_dc15a";
+		crew="k_clone_unarmed_p2_unit";
 		scope=2;
 		scopecurator=2;
 		scopearsenal=2;

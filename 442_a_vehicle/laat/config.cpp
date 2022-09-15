@@ -189,10 +189,10 @@ class cfgvehicles
 		fuelConsumptionRate=0.138;
 		side=1;
 		faction="kobra_b";
-		crew = "k_ls_unit_p2_dc15a";
+		crew = "k_clone_unarmed_p2_unit";
 		typicalCargo[]=
 		{
-			"k_swla_unit_p2_dc15a"
+			"k_clone_unarmed_p2_unit"
 		};
 		icon="kobra\442_a_vehicle\laat\data\ui\laat_icon.paa";
 		editorpreview="kobra\442_a_vehicle\laat\data\ui\laat_preview.jpg";

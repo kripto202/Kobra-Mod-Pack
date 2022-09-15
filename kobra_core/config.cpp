@@ -356,21 +356,30 @@ class CfgRecoils
 
 class cfgweapons
 {
-	class Integrated_NVG_F;
-	class k_nvg: Integrated_NVG_F
+	class NVGoggles;
+	class k_nvg: NVGoggles
 	{
-		scope=1;
+		scope=2;
+		displayName = "[K] Clone NVG Chip";
+		modelOptics = "";
+		class ItemInfo
+		{
+			type = 616;
+			hmdType = 0;
+			uniformModel = "";
+			modelOff = "";
+			mass = 1;
+		};
 		visionMode[]=
 		{
 			"Normal",
 			"NVG"
 		};
-		modelOptics="";
 		ace_nightvision_border = "";
 	};
-	class k_nvg_ti: Integrated_NVG_F
+	class k_nvg_ti: k_nvg
 	{
-		scope=1;
+		displayName = "[K] Clone NVG/TI Chip";
 		visionMode[]=
 		{
 			"Normal",
@@ -378,20 +387,16 @@ class cfgweapons
 			"TI"
 		};
 		thermalMode[]={0};
-		modelOptics="";
-		ace_nightvision_border = "";
 	};
-	class k_ti: Integrated_NVG_F
+	class k_ti: k_nvg
 	{
-		scope=1;
+		displayName = "[K] Clone TI Chip";
 		visionMode[] = 
 		{
 			"Normal",
 			"TI"
 		};
 		thermalMode[]={0};
-		modelOptics="";
-		ace_nightvision_border = "";
 	};
 };
 

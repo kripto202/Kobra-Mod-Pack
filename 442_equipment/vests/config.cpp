@@ -13,6 +13,7 @@ class cfgpatches
         {
             "k_commando_vest_base",
             "k_commando_vest_plate_base",
+            
             "k_commando_vest1",
             "k_commando_vest2",
             "k_commando_vest3",
@@ -33,32 +34,130 @@ class cfgpatches
             "k_commando_vest18",
             "k_commando_vest19",
             "k_commando_vest20",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
+
+            "k_commando_vest1_44",
+            "k_commando_vest2_44",
+            "k_commando_vest3_44",
+            "k_commando_vest4_44",
+            "k_commando_vest5_44",
+            "k_commando_vest6_44",
+            "k_commando_vest7_44",
+            "k_commando_vest8_44",
+            "k_commando_vest9_44",
+            "k_commando_vest10_44",
+            "k_commando_vest11_44",
+            "k_commando_vest12_44",
+            "k_commando_vest13_44",
+            "k_commando_vest14_44",
+            "k_commando_vest15_44",
+            "k_commando_vest16_44",
+            "k_commando_vest17_44",
+            "k_commando_vest18_44",
+            "k_commando_vest19_44",
+            "k_commando_vest20_44",
+
+            "k_clone_basic_vest1",
+            "k_clone_basic_vest2",
+            "k_clone_basic_vest3",
+            "k_clone_basic_vest4",
+            "k_clone_basic_vest5",
+            "k_clone_basic_vest6",
+            "k_clone_basic_vest7",
+            "k_clone_basic_vest8",
+            "k_clone_basic_vest9",
+            "k_clone_basic_vest10",
+
+            "k_clone_arc_vest1",
+            "k_clone_arc_vest2",
+            "k_clone_arc_vest3",
+            "k_clone_arc_vest4",
+            "k_clone_arc_vest5",
+            "k_clone_arc_vest6",
+            "k_clone_arc_vest7",
+            "k_clone_arc_vest8",
+            "k_clone_arc_vest9",
+            "k_clone_arc_vest10",
+
+            "k_clone_heavy_vest1",
+            "k_clone_heavy_vest2",
+            "k_clone_heavy_vest3",
+            "k_clone_heavy_vest4",
+            "k_clone_heavy_vest5",
+            "k_clone_heavy_vest6",
+            "k_clone_heavy_vest7",
+            "k_clone_heavy_vest8",
+            "k_clone_heavy_vest9",
+            "k_clone_heavy_vest10",
+
+            "k_clone_kamaL_vest1",
+            "k_clone_kamaL_vest2",
+            "k_clone_kamaL_vest3",
+            "k_clone_kamaL_vest4",
+            "k_clone_kamaL_vest5",
+            "k_clone_kamaL_vest6",
+            "k_clone_kamaL_vest7",
+            "k_clone_kamaL_vest8",
+            "k_clone_kamaL_vest9",
+            "k_clone_kamaL_vest10",
+
+            "k_clone_kamaR_vest1",
+            "k_clone_kamaR_vest2",
+            "k_clone_kamaR_vest3",
+            "k_clone_kamaR_vest4",
+            "k_clone_kamaR_vest5",
+            "k_clone_kamaR_vest6",
+            "k_clone_kamaR_vest7",
+            "k_clone_kamaR_vest8",
+            "k_clone_kamaR_vest9",
+            "k_clone_kamaR_vest10",
+
+            "k_clone_nco_vest1",
+            "k_clone_nco_vest2",
+            "k_clone_nco_vest3",
+            "k_clone_nco_vest4",
+            "k_clone_nco_vest5",
+            "k_clone_nco_vest6",
+            "k_clone_nco_vest7",
+            "k_clone_nco_vest8",
+            "k_clone_nco_vest9",
+            "k_clone_nco_vest10",
+
+            "k_clone_officer_vest1",
+            "k_clone_officer_vest2",
+            "k_clone_officer_vest3",
+            "k_clone_officer_vest4",
+            "k_clone_officer_vest5",
+            "k_clone_officer_vest6",
+            "k_clone_officer_vest7",
+            "k_clone_officer_vest8",
+            "k_clone_officer_vest9",
+            "k_clone_officer_vest10",
+
+            "k_scout_pouches_base",
+            "k_scout_pouches_light",
+            "k_scout_pouches_medium",
+            "k_scout_pouches_heavy",
+
+            "k_commando_vest1_boss",
+            "k_commando_vest1_fixer",
+            "k_commando_vest1_scorch",
+            "k_commando_vest1_sev",
+            "k_commando_vest1_omega",
+
+            "k_scout_pouches_light_woodland2",
+            "k_scout_pouches_medium_woodland2",
+            "k_scout_pouches_heavy_woodland2",
+            "k_scout_pouches_light_desert2",
+            "k_scout_pouches_medium_desert2",
+            "k_scout_pouches_heavy_desert2",
         };
     };
 };
 
+class vestitem;
+
 class cfgweapons 
 {
-    class vestitem;
 	class V_rebreatherB;
 
 ///base
@@ -344,7 +443,7 @@ class cfgweapons
 ////basic vests
     class k_clone_basic_vest1: k_clone_basic_vest_base
     {
-        displayname = "[K] Clone Basic Vest 1";
+        displayname = "[K] Clone Basic Vest 01";
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
@@ -361,7 +460,7 @@ class cfgweapons
     };
     class k_clone_basic_vest2: k_clone_basic_vest1
     {
-        displayname = "[K] Clone Basic Vest 2";
+        displayname = "[K] Clone Basic Vest 02";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest2.p3d";
@@ -371,7 +470,7 @@ class cfgweapons
     };
     class k_clone_basic_vest3: k_clone_basic_vest1
     {
-        displayname = "[K] Clone Basic Vest 3";
+        displayname = "[K] Clone Basic Vest 03";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest3.p3d";
@@ -381,7 +480,7 @@ class cfgweapons
     };
     class k_clone_basic_vest4: k_clone_basic_vest1
     {
-        displayname = "[K] Clone Basic Vest 4";
+        displayname = "[K] Clone Basic Vest 04";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest2.p3d";
@@ -391,7 +490,7 @@ class cfgweapons
     };
     class k_clone_basic_vest5: k_clone_basic_vest1
     {
-        displayname = "[K] Clone Basic Vest 5";
+        displayname = "[K] Clone Basic Vest 05";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest5.p3d";
@@ -401,7 +500,7 @@ class cfgweapons
     };
     class k_clone_basic_vest6: k_clone_basic_vest1
     {
-        displayname = "[K] Clone Basic Vest 6";
+        displayname = "[K] Clone Basic Vest 06";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest6.p3d";
@@ -411,7 +510,7 @@ class cfgweapons
     };
     class k_clone_basic_vest7: k_clone_basic_vest1
     {
-        displayname = "[K] Clone Basic Vest 7";
+        displayname = "[K] Clone Basic Vest 07";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest7.p3d";
@@ -421,7 +520,7 @@ class cfgweapons
     };
     class k_clone_basic_vest8: k_clone_basic_vest1
     {
-        displayname = "[K] Clone Basic Vest 8";
+        displayname = "[K] Clone Basic Vest 08";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest8.p3d";
@@ -431,7 +530,7 @@ class cfgweapons
     };
     class k_clone_basic_vest9: k_clone_basic_vest1
     {
-        displayname = "[K] Clone Basic Vest 9";
+        displayname = "[K] Clone Basic Vest 09";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest9.p3d";
@@ -452,7 +551,7 @@ class cfgweapons
 ////arc vests
     class k_clone_arc_vest1: k_clone_basic_vest_base
     {
-        displayname = "[K] Clone arc Vest 1";
+        displayname = "[K] Clone arc Vest 01";
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
@@ -477,7 +576,7 @@ class cfgweapons
     };
     class k_clone_arc_vest2: k_clone_arc_vest1
     {
-        displayname = "[K] Clone arc Vest 2";
+        displayname = "[K] Clone arc Vest 02";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest2.p3d";
@@ -487,7 +586,7 @@ class cfgweapons
     };
     class k_clone_arc_vest3: k_clone_arc_vest1
     {
-        displayname = "[K] Clone arc Vest 3";
+        displayname = "[K] Clone arc Vest 03";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest3.p3d";
@@ -497,7 +596,7 @@ class cfgweapons
     };
     class k_clone_arc_vest4: k_clone_arc_vest1
     {
-        displayname = "[K] Clone arc Vest 4";
+        displayname = "[K] Clone arc Vest 04";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest2.p3d";
@@ -507,7 +606,7 @@ class cfgweapons
     };
     class k_clone_arc_vest5: k_clone_arc_vest1
     {
-        displayname = "[K] Clone arc Vest 5";
+        displayname = "[K] Clone arc Vest 05";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest5.p3d";
@@ -517,7 +616,7 @@ class cfgweapons
     };
     class k_clone_arc_vest6: k_clone_arc_vest1
     {
-        displayname = "[K] Clone arc Vest 6";
+        displayname = "[K] Clone arc Vest 06";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest6.p3d";
@@ -527,7 +626,7 @@ class cfgweapons
     };
     class k_clone_arc_vest7: k_clone_arc_vest1
     {
-        displayname = "[K] Clone arc Vest 7";
+        displayname = "[K] Clone arc Vest 07";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest7.p3d";
@@ -537,7 +636,7 @@ class cfgweapons
     };
     class k_clone_arc_vest8: k_clone_arc_vest1
     {
-        displayname = "[K] Clone arc Vest 8";
+        displayname = "[K] Clone arc Vest 08";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest8.p3d";
@@ -547,7 +646,7 @@ class cfgweapons
     };
     class k_clone_arc_vest9: k_clone_arc_vest1
     {
-        displayname = "[K] Clone arc Vest 9";
+        displayname = "[K] Clone arc Vest 09";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest9.p3d";
@@ -568,7 +667,7 @@ class cfgweapons
 ////heavy vests
     class k_clone_heavy_vest1: k_clone_basic_vest_base
     {
-        displayname = "[K] Clone heavy Vest 1";
+        displayname = "[K] Clone heavy Vest 01";
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
@@ -592,7 +691,7 @@ class cfgweapons
     };
     class k_clone_heavy_vest2: k_clone_heavy_vest1
     {
-        displayname = "[K] Clone heavy Vest 2";
+        displayname = "[K] Clone heavy Vest 02";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest2.p3d";
@@ -602,7 +701,7 @@ class cfgweapons
     };
     class k_clone_heavy_vest3: k_clone_heavy_vest1
     {
-        displayname = "[K] Clone heavy Vest 3";
+        displayname = "[K] Clone heavy Vest 03";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest3.p3d";
@@ -612,7 +711,7 @@ class cfgweapons
     };
     class k_clone_heavy_vest4: k_clone_heavy_vest1
     {
-        displayname = "[K] Clone heavy Vest 4";
+        displayname = "[K] Clone heavy Vest 04";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest2.p3d";
@@ -622,7 +721,7 @@ class cfgweapons
     };
     class k_clone_heavy_vest5: k_clone_heavy_vest1
     {
-        displayname = "[K] Clone heavy Vest 5";
+        displayname = "[K] Clone heavy Vest 05";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest5.p3d";
@@ -632,7 +731,7 @@ class cfgweapons
     };
     class k_clone_heavy_vest6: k_clone_heavy_vest1
     {
-        displayname = "[K] Clone heavy Vest 6";
+        displayname = "[K] Clone heavy Vest 06";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest6.p3d";
@@ -642,7 +741,7 @@ class cfgweapons
     };
     class k_clone_heavy_vest7: k_clone_heavy_vest1
     {
-        displayname = "[K] Clone heavy Vest 7";
+        displayname = "[K] Clone heavy Vest 07";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest7.p3d";
@@ -652,7 +751,7 @@ class cfgweapons
     };
     class k_clone_heavy_vest8: k_clone_heavy_vest1
     {
-        displayname = "[K] Clone heavy Vest 8";
+        displayname = "[K] Clone heavy Vest 08";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest8.p3d";
@@ -662,7 +761,7 @@ class cfgweapons
     };
     class k_clone_heavy_vest9: k_clone_heavy_vest1
     {
-        displayname = "[K] Clone heavy Vest 9";
+        displayname = "[K] Clone heavy Vest 09";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest9.p3d";
@@ -683,7 +782,7 @@ class cfgweapons
 ////kamaL vests
     class k_clone_kamaL_vest1: k_clone_basic_vest_base
     {
-        displayname = "[K] Clone kamaL Vest 1";
+        displayname = "[K] Clone kamaL Vest 01";
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
@@ -703,7 +802,7 @@ class cfgweapons
     };
     class k_clone_kamaL_vest2: k_clone_kamaL_vest1
     {
-        displayname = "[K] Clone kamaL Vest 2";
+        displayname = "[K] Clone kamaL Vest 02";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest2.p3d";
@@ -713,7 +812,7 @@ class cfgweapons
     };
     class k_clone_kamaL_vest3: k_clone_kamaL_vest1
     {
-        displayname = "[K] Clone kamaL Vest 3";
+        displayname = "[K] Clone kamaL Vest 03";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest3.p3d";
@@ -723,7 +822,7 @@ class cfgweapons
     };
     class k_clone_kamaL_vest4: k_clone_kamaL_vest1
     {
-        displayname = "[K] Clone kamaL Vest 4";
+        displayname = "[K] Clone kamaL Vest 04";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest2.p3d";
@@ -733,7 +832,7 @@ class cfgweapons
     };
     class k_clone_kamaL_vest5: k_clone_kamaL_vest1
     {
-        displayname = "[K] Clone kamaL Vest 5";
+        displayname = "[K] Clone kamaL Vest 05";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest5.p3d";
@@ -743,7 +842,7 @@ class cfgweapons
     };
     class k_clone_kamaL_vest6: k_clone_kamaL_vest1
     {
-        displayname = "[K] Clone kamaL Vest 6";
+        displayname = "[K] Clone kamaL Vest 06";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest6.p3d";
@@ -753,7 +852,7 @@ class cfgweapons
     };
     class k_clone_kamaL_vest7: k_clone_kamaL_vest1
     {
-        displayname = "[K] Clone kamaL Vest 7";
+        displayname = "[K] Clone kamaL Vest 07";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest7.p3d";
@@ -763,7 +862,7 @@ class cfgweapons
     };
     class k_clone_kamaL_vest8: k_clone_kamaL_vest1
     {
-        displayname = "[K] Clone kamaL Vest 8";
+        displayname = "[K] Clone kamaL Vest 08";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest8.p3d";
@@ -773,7 +872,7 @@ class cfgweapons
     };
     class k_clone_kamaL_vest9: k_clone_kamaL_vest1
     {
-        displayname = "[K] Clone kamaL Vest 9";
+        displayname = "[K] Clone kamaL Vest 09";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest9.p3d";
@@ -794,7 +893,7 @@ class cfgweapons
 ////kamaR vests
     class k_clone_kamaR_vest1: k_clone_basic_vest_base
     {
-        displayname = "[K] Clone kamaR Vest 1";
+        displayname = "[K] Clone kamaR Vest 01";
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
@@ -814,7 +913,7 @@ class cfgweapons
     };
     class k_clone_kamaR_vest2: k_clone_kamaR_vest1
     {
-        displayname = "[K] Clone kamaR Vest 2";
+        displayname = "[K] Clone kamaR Vest 02";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest2.p3d";
@@ -824,7 +923,7 @@ class cfgweapons
     };
     class k_clone_kamaR_vest3: k_clone_kamaR_vest1
     {
-        displayname = "[K] Clone kamaR Vest 3";
+        displayname = "[K] Clone kamaR Vest 03";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest3.p3d";
@@ -834,7 +933,7 @@ class cfgweapons
     };
     class k_clone_kamaR_vest4: k_clone_kamaR_vest1
     {
-        displayname = "[K] Clone kamaR Vest 4";
+        displayname = "[K] Clone kamaR Vest 04";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest2.p3d";
@@ -844,7 +943,7 @@ class cfgweapons
     };
     class k_clone_kamaR_vest5: k_clone_kamaR_vest1
     {
-        displayname = "[K] Clone kamaR Vest 5";
+        displayname = "[K] Clone kamaR Vest 05";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest5.p3d";
@@ -854,7 +953,7 @@ class cfgweapons
     };
     class k_clone_kamaR_vest6: k_clone_kamaR_vest1
     {
-        displayname = "[K] Clone kamaR Vest 6";
+        displayname = "[K] Clone kamaR Vest 06";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest6.p3d";
@@ -864,7 +963,7 @@ class cfgweapons
     };
     class k_clone_kamaR_vest7: k_clone_kamaR_vest1
     {
-        displayname = "[K] Clone kamaR Vest 7";
+        displayname = "[K] Clone kamaR Vest 07";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest7.p3d";
@@ -874,7 +973,7 @@ class cfgweapons
     };
     class k_clone_kamaR_vest8: k_clone_kamaR_vest1
     {
-        displayname = "[K] Clone kamaR Vest 8";
+        displayname = "[K] Clone kamaR Vest 08";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest8.p3d";
@@ -884,7 +983,7 @@ class cfgweapons
     };
     class k_clone_kamaR_vest9: k_clone_kamaR_vest1
     {
-        displayname = "[K] Clone kamaR Vest 9";
+        displayname = "[K] Clone kamaR Vest 09";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest9.p3d";
@@ -905,7 +1004,7 @@ class cfgweapons
 ////nco vests
     class k_clone_nco_vest1: k_clone_basic_vest_base
     {
-        displayname = "[K] Clone nco Vest 1";
+        displayname = "[K] Clone nco Vest 01";
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
@@ -924,7 +1023,7 @@ class cfgweapons
     };
     class k_clone_nco_vest2: k_clone_nco_vest1
     {
-        displayname = "[K] Clone nco Vest 2";
+        displayname = "[K] Clone nco Vest 02";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest2.p3d";
@@ -934,7 +1033,7 @@ class cfgweapons
     };
     class k_clone_nco_vest3: k_clone_nco_vest1
     {
-        displayname = "[K] Clone nco Vest 3";
+        displayname = "[K] Clone nco Vest 03";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest3.p3d";
@@ -944,7 +1043,7 @@ class cfgweapons
     };
     class k_clone_nco_vest4: k_clone_nco_vest1
     {
-        displayname = "[K] Clone nco Vest 4";
+        displayname = "[K] Clone nco Vest 04";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest2.p3d";
@@ -954,7 +1053,7 @@ class cfgweapons
     };
     class k_clone_nco_vest5: k_clone_nco_vest1
     {
-        displayname = "[K] Clone nco Vest 5";
+        displayname = "[K] Clone nco Vest 05";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest5.p3d";
@@ -964,7 +1063,7 @@ class cfgweapons
     };
     class k_clone_nco_vest6: k_clone_nco_vest1
     {
-        displayname = "[K] Clone nco Vest 6";
+        displayname = "[K] Clone nco Vest 06";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest6.p3d";
@@ -974,7 +1073,7 @@ class cfgweapons
     };
     class k_clone_nco_vest7: k_clone_nco_vest1
     {
-        displayname = "[K] Clone nco Vest 7";
+        displayname = "[K] Clone nco Vest 07";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest7.p3d";
@@ -984,7 +1083,7 @@ class cfgweapons
     };
     class k_clone_nco_vest8: k_clone_nco_vest1
     {
-        displayname = "[K] Clone nco Vest 8";
+        displayname = "[K] Clone nco Vest 08";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest8.p3d";
@@ -994,7 +1093,7 @@ class cfgweapons
     };
     class k_clone_nco_vest9: k_clone_nco_vest1
     {
-        displayname = "[K] Clone nco Vest 9";
+        displayname = "[K] Clone nco Vest 09";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest9.p3d";
@@ -1015,7 +1114,7 @@ class cfgweapons
 ////officer vests
     class k_clone_officer_vest1: k_clone_basic_vest_base
     {
-        displayname = "[K] Clone officer Vest 1";
+        displayname = "[K] Clone officer Vest 01";
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
@@ -1034,7 +1133,7 @@ class cfgweapons
     };
     class k_clone_officer_vest2: k_clone_officer_vest1
     {
-        displayname = "[K] Clone officer Vest 2";
+        displayname = "[K] Clone officer Vest 02";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest2.p3d";
@@ -1044,7 +1143,7 @@ class cfgweapons
     };
     class k_clone_officer_vest3: k_clone_officer_vest1
     {
-        displayname = "[K] Clone officer Vest 3";
+        displayname = "[K] Clone officer Vest 03";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest3.p3d";
@@ -1054,7 +1153,7 @@ class cfgweapons
     };
     class k_clone_officer_vest4: k_clone_officer_vest1
     {
-        displayname = "[K] Clone officer Vest 4";
+        displayname = "[K] Clone officer Vest 04";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest2.p3d";
@@ -1064,7 +1163,7 @@ class cfgweapons
     };
     class k_clone_officer_vest5: k_clone_officer_vest1
     {
-        displayname = "[K] Clone officer Vest 5";
+        displayname = "[K] Clone officer Vest 05";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest5.p3d";
@@ -1074,7 +1173,7 @@ class cfgweapons
     };
     class k_clone_officer_vest6: k_clone_officer_vest1
     {
-        displayname = "[K] Clone officer Vest 6";
+        displayname = "[K] Clone officer Vest 06";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest6.p3d";
@@ -1084,7 +1183,7 @@ class cfgweapons
     };
     class k_clone_officer_vest7: k_clone_officer_vest1
     {
-        displayname = "[K] Clone officer Vest 7";
+        displayname = "[K] Clone officer Vest 07";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest7.p3d";
@@ -1094,7 +1193,7 @@ class cfgweapons
     };
     class k_clone_officer_vest8: k_clone_officer_vest1
     {
-        displayname = "[K] Clone officer Vest 8";
+        displayname = "[K] Clone officer Vest 08";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest8.p3d";
@@ -1104,7 +1203,7 @@ class cfgweapons
     };
     class k_clone_officer_vest9: k_clone_officer_vest1
     {
-        displayname = "[K] Clone officer Vest 9";
+        displayname = "[K] Clone officer Vest 09";
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest9.p3d";
@@ -1218,12 +1317,11 @@ class cfgweapons
         displayname = "Commando Vest Base";
         model = "kobra\442_equipment\ground\k_crate_vest_gh.p3d";
         hiddenselections[] = {};
-        maximumLoad=325;
         class ItemInfo: ItemInfo
         {
             hiddenselections[] = {};
             uniformmodel = "";
-            containerclass = "Supply100";
+            containerclass = "Supply200";
             mass = 20;
         };
     };
@@ -1265,7 +1363,7 @@ class cfgweapons
     ////backpack
     class k_commando_vest1: k_commando_vest_base
     {
-        displayname = "[K] Commando Vest 1";
+        displayname = "[K] Commando Vest 01";
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
@@ -1288,7 +1386,7 @@ class cfgweapons
     };
     class k_commando_vest1_boss: k_commando_vest1
     {
-        displayname = "[K] Commando Vest 1 (Boss)";
+        displayname = "[K] Commando Vest 01 (Boss)";
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\vests\data\commando\lore_designs\delta_boss_backpack_co.paa"
@@ -1296,7 +1394,7 @@ class cfgweapons
     };
     class k_commando_vest1_fixer: k_commando_vest1
     {
-        displayname = "[K] Commando Vest 1 (Fixer)";
+        displayname = "[K] Commando Vest 01 (Fixer)";
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\vests\data\commando\lore_designs\delta_fixer_backpack_co.paa"
@@ -1304,7 +1402,7 @@ class cfgweapons
     };
     class k_commando_vest1_scorch: k_commando_vest1
     {
-        displayname = "[K] Commando Vest 1 (Scourch)";
+        displayname = "[K] Commando Vest 01 (Scourch)";
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\vests\data\commando\lore_designs\delta_scorch_backpack_co.paa"
@@ -1312,7 +1410,7 @@ class cfgweapons
     };
     class k_commando_vest1_sev: k_commando_vest1
     {
-        displayname = "[K] Commando Vest 1 (Sev)";
+        displayname = "[K] Commando Vest 01 (Sev)";
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\vests\data\commando\lore_designs\delta_sev_backpack_co.paa"
@@ -1320,7 +1418,7 @@ class cfgweapons
     };
     class k_commando_vest1_omega: k_commando_vest1
     {
-        displayname = "[K] Commando Vest 1 (Omega)";
+        displayname = "[K] Commando Vest 01 (Omega)";
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\vests\data\commando\lore_designs\omega_backpack_co.paa"
@@ -1328,7 +1426,7 @@ class cfgweapons
     };
     class k_commando_vest1_44: k_commando_vest1
     {
-        displayname = "[44/K] Commando Vest 1";
+        displayname = "[44/K] Commando Vest 01";
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\vests\data\commando\unit_designs\44ab\backpack_co.paa"
@@ -1337,7 +1435,7 @@ class cfgweapons
     ////backpack, body plates, both kama, both pouches, both shells
     class k_commando_vest2: k_commando_vest_plate_base
     {
-        displayname = "[K] Commando Vest 2";
+        displayname = "[K] Commando Vest 02";
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
@@ -1359,6 +1457,7 @@ class cfgweapons
         };
         class ItemInfo: ItemInfo
         {
+            containerclass = "Supply250";
             hiddenselections[] = 
             {
                 "backpack",
@@ -1372,7 +1471,7 @@ class cfgweapons
     };
     class k_commando_vest2_44: k_commando_vest2
     {
-        displayname = "[44/K] Commando Vest 2";
+        displayname = "[44/K] Commando Vest 02";
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\vests\data\commando\unit_designs\44ab\backpack_co.paa",
@@ -1385,7 +1484,7 @@ class cfgweapons
     ////backpack, body plates, both kama
     class k_commando_vest3: k_commando_vest_plate_base
     {
-        displayname = "[K] Commando Vest 3";
+        displayname = "[K] Commando Vest 03";
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
@@ -1403,6 +1502,7 @@ class cfgweapons
         };
         class ItemInfo: ItemInfo
         {
+            mass = 45;
             hiddenselections[] = 
             {
                 "backpack",
@@ -1414,7 +1514,7 @@ class cfgweapons
     };
     class k_commando_vest3_44: k_commando_vest3
     {
-        displayname = "[K] Commando Vest 3";
+        displayname = "[44/K] Commando Vest 03";
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\vests\data\commando\unit_designs\44ab\backpack_co.paa",
@@ -1425,7 +1525,7 @@ class cfgweapons
     ////backpack, body plates, both kama, left pouch, both shells
     class k_commando_vest4: k_commando_vest2
     {
-        displayname = "[K] Commando Vest 4";
+        displayname = "[K] Commando Vest 04";
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\vests\data\commando\backpack_co.paa",
@@ -1436,12 +1536,14 @@ class cfgweapons
         };
         class ItemInfo: ItemInfo
         {
+            mass = 45;
+            containerclass = "Supply230";
             uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest4.p3d";
         };
     };
     class k_commando_vest4_44: k_commando_vest4
     {
-        displayname = "[44/K] Commando Vest 4";
+        displayname = "[44/K] Commando Vest 04";
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\vests\data\commando\unit_designs\44ab\backpack_co.paa",
@@ -1454,7 +1556,7 @@ class cfgweapons
     ////backpack, body plates, both kama, right pouch, both shells
     class k_commando_vest5: k_commando_vest2
     {
-        displayname = "[K] Commando Vest 5";
+        displayname = "[K] Commando Vest 05";
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\vests\data\commando\backpack_co.paa",
@@ -1465,12 +1567,14 @@ class cfgweapons
         };
         class ItemInfo: ItemInfo
         {
+            mass = 45;
+            containerclass = "Supply230";
             uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest5.p3d";
         };
     };
     class k_commando_vest5_44: k_commando_vest5
     {
-        displayname = "[44/K] Commando Vest 5";
+        displayname = "[44/K] Commando Vest 05";
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\vests\data\commando\unit_designs\44ab\backpack_co.paa",
@@ -1483,7 +1587,7 @@ class cfgweapons
     ////backpack, body plates, both shells
     class k_commando_vest6: k_commando_vest_plate_base
     {
-        displayname = "[K] Commando Vest 6";
+        displayname = "[K] Commando Vest 06";
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
@@ -1501,6 +1605,7 @@ class cfgweapons
         };
         class ItemInfo: ItemInfo
         {
+            mass = 35;
             hiddenselections[] = 
             {
                 "backpack",
@@ -1512,7 +1617,7 @@ class cfgweapons
     };
     class k_commando_vest6_44: k_commando_vest6
     {
-        displayname = "[44/K] Commando Vest 6";
+        displayname = "[44/K] Commando Vest 06";
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\vests\data\commando\unit_designs\44ab\backpack_co.paa",
@@ -1523,7 +1628,7 @@ class cfgweapons
     ////backpack, body plates, left kama, right pouch, left shells
     class k_commando_vest7: k_commando_vest2
     {
-        displayname = "[K] Commando Vest 7";
+        displayname = "[K] Commando Vest 07";
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\vests\data\commando\backpack_co.paa",
@@ -1534,12 +1639,14 @@ class cfgweapons
         };
         class ItemInfo: ItemInfo
         {
+            mass = 40;
+            containerclass = "Supply230";
             uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest7.p3d";
         };
     };
     class k_commando_vest7_44: k_commando_vest7
     {
-        displayname = "[44/K] Commando Vest 7";
+        displayname = "[44/K] Commando Vest 07";
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\vests\data\commando\unit_designs\44ab\backpack_co.paa",
@@ -1552,7 +1659,7 @@ class cfgweapons
     ////backpack, body plates, right kama, left pouch, right shells
     class k_commando_vest8: k_commando_vest2
     {
-        displayname = "[K] Commando Vest 8";
+        displayname = "[K] Commando Vest 08";
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\vests\data\commando\backpack_co.paa",
@@ -1563,12 +1670,14 @@ class cfgweapons
         };
         class ItemInfo: ItemInfo
         {
+            mass = 40;
+            containerclass = "Supply230";
             uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest8.p3d";
         };
     };
     class k_commando_vest8_44: k_commando_vest8
     {
-        displayname = "[44/K] Commando Vest 8";
+        displayname = "[44/K] Commando Vest 08";
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\vests\data\commando\unit_designs\44ab\backpack_co.paa",
@@ -1581,7 +1690,7 @@ class cfgweapons
     ////backpack, body plates, both kama, both pouch
     class k_commando_vest9: k_commando_vest_plate_base
     {
-        displayname = "[K] Commando Vest 9";
+        displayname = "[K] Commando Vest 09";
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
@@ -1602,6 +1711,8 @@ class cfgweapons
         };
         class ItemInfo: ItemInfo
         {
+            containerclass = "Supply250";
+            mass = 40;
             hiddenselections[] = 
             {
                 "backpack",
@@ -1614,7 +1725,7 @@ class cfgweapons
     };
     class k_commando_vest9_44: k_commando_vest9
     {
-        displayname = "[44/K] Commando Vest 9";
+        displayname = "[44/K] Commando Vest 09";
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\vests\data\commando\unit_designs\44ab\backpack_co.paa",
@@ -1638,6 +1749,8 @@ class cfgweapons
         };
         class ItemInfo: ItemInfo
         {
+            mass = 30;
+            containerclass = "Supply230";
             uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest10.p3d";
         };
     };
@@ -1672,6 +1785,7 @@ class cfgweapons
         };
         class ItemInfo: ItemInfo
         {
+            mass = 30;
             hiddenselections[] = 
             {
                 "backpack",
@@ -1700,6 +1814,7 @@ class cfgweapons
         };
         class ItemInfo: ItemInfo
         {
+            mass = 25;
             uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest12.p3d";
         };
     };
@@ -1723,6 +1838,7 @@ class cfgweapons
         };
         class ItemInfo: ItemInfo
         {
+            mass = 25;
             uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest13.p3d";
         };
     };
@@ -1756,12 +1872,14 @@ class cfgweapons
         };
         class ItemInfo: ItemInfo
         {
+            mass = 25;
             hiddenselections[] = 
             {
                 "backpack",
                 "pouches",
                 "shells"
             };
+            containerclass = "Supply250";
             uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest14.p3d";
         };
     };
@@ -1787,6 +1905,8 @@ class cfgweapons
         };
         class ItemInfo: ItemInfo
         {
+            mass = 23;
+            containerclass = "Supply230";
             uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest15.p3d";
         };
     };
@@ -1812,6 +1932,8 @@ class cfgweapons
         };
         class ItemInfo: ItemInfo
         {
+            mass = 23;
+            containerclass = "Supply230";
             uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest16.p3d";
         };
     };
@@ -1844,6 +1966,7 @@ class cfgweapons
         };
         class ItemInfo: ItemInfo
         {
+            mass = 25;
             hiddenselections[] = 
             {
                 "backpack",
@@ -1882,6 +2005,8 @@ class cfgweapons
         };
         class ItemInfo: ItemInfo
         {
+            mass = 28;
+            containerclass = "Supply230";
             hiddenselections[] = 
             {
                 "backpack",
@@ -1913,6 +2038,8 @@ class cfgweapons
         };
         class ItemInfo: ItemInfo
         {
+            mass = 28;
+            containerclass = "Supply230";
             uniformmodel = "kobra\442_equipment\vests\model\commando\k_commando_vest19.p3d";
         };
     };
@@ -1950,6 +2077,7 @@ class cfgweapons
         };
         class ItemInfo: ItemInfo
         {
+            mass = 20;
             hiddenselections[] = 
             {
                 "backpack",

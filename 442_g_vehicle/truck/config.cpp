@@ -48,10 +48,10 @@ class cfgvehicles
 		author = "Kobra Mod Team";
 		faction = "kobra_b";
 		editorSubcategory = "442_argon";
-		crew = "k_ls_unit_p2_dc15a";
+		crew = "k_clone_unarmed_p2_unit";
 		typicalCargo[]=
 		{
-			"k_ls_unit_p2_dc15a"
+			"k_clone_unarmed_p2_unit"
 		};
 		displayName = "Argon Transport";
 		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
@@ -77,10 +77,10 @@ class cfgvehicles
 		author = "Kobra Mod Team + 'Airstrike' Ivanov";
 		faction = "kobra_b";
 		editorSubcategory = "442_argon";
-		crew = "k_ls_unit_p2_dc15a";
+		crew = "k_clone_unarmed_p2_unit";
 		typicalCargo[]=
 		{
-			"k_ls_unit_p2_dc15a"
+			"k_clone_unarmed_p2_unit"
 		};
 		displayName = "Argon Covered Transport";
 		textureList[] = {};
@@ -107,10 +107,10 @@ class cfgvehicles
 		author = "Kobra Mod Team + 'Airstrike' Ivanov";
 		faction = "kobra_b";
 		editorSubcategory = "442_argon";
-		crew = "k_ls_unit_p2_dc15a";
+		crew = "k_clone_unarmed_p2_unit";
 		typicalCargo[]=
 		{
-			"k_ls_unit_p2_dc15a"
+			"k_clone_unarmed_p2_unit"
 		};
 		displayName = "Argon Ammo Truck";
 		textureList[] = {};
@@ -137,10 +137,10 @@ class cfgvehicles
 		author = "Kobra Mod Team + 'Airstrike' Ivanov";
 		faction = "kobra_b";
 		editorSubcategory = "442_argon";
-		crew = "k_ls_unit_p2_dc15a";
+		crew = "k_clone_unarmed_p2_unit";
 		typicalCargo[]=
 		{
-			"k_ls_unit_p2_dc15a"
+			"k_clone_unarmed_p2_unit"
 		};
 		displayName = "Argon Device Carrier";
 		textureList[] = {};
@@ -168,10 +168,10 @@ class cfgvehicles
 		author = "Kobra Mod Team + 'Airstrike' Ivanov";
 		faction = "kobra_b";
 		editorSubcategory = "442_argon";
-		crew = "k_ls_unit_p2_dc15a";
+		crew = "k_clone_unarmed_p2_unit";
 		typicalCargo[]=
 		{
-			"k_ls_unit_p2_dc15a"
+			"k_clone_unarmed_p2_unit"
 		};
 		displayName = "Argon Fuel Truck";
 		textureList[] = {};
@@ -197,10 +197,10 @@ class cfgvehicles
 		author = "Kobra Mod Team + 'Airstrike' Ivanov";
 		faction = "kobra_b";
 		editorSubcategory = "442_argon";
-		crew = "k_ls_unit_p2_dc15a";
+		crew = "k_clone_unarmed_p2_unit";
 		typicalCargo[]=
 		{
-			"k_ls_unit_p2_dc15a"
+			"k_clone_unarmed_p2_unit"
 		};
 		displayName = "Argon Repair Truck";
 		textureList[] = {};
@@ -226,10 +226,10 @@ class cfgvehicles
 		author = "Kobra Mod Team + 'Airstrike' Ivanov";
 		faction = "kobra_b";
 		editorSubcategory = "442_argon";
-		crew = "k_ls_unit_p2_dc15a";
+		crew = "k_clone_unarmed_p2_unit";
 		typicalCargo[]=
 		{
-			"k_ls_unit_p2_dc15a"
+			"k_clone_unarmed_p2_unit"
 		};
 		displayName = "Argon Medical Truck";
 		attendant = 1;

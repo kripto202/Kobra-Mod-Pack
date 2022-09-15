@@ -80,10 +80,10 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\clone\n_sensor\unit_designs\44ab\ear_sensor_co.paa"
 		};
 	};
-////p1 helmet attachments
+////p1
 	class 442_p1_clone_glass1: 442_clone_p1_glasses
 	{
-		displayname = "[K] P1 Clone Helmet Attachments 1";
+		displayname = "[K] P1 Clone Macro Visor";
 		model = "kobra\442_equipment\glasses\model\clone\k_p1_clone_glasses1.p3d";
 		hiddenselections[] = 
 		{
@@ -96,7 +96,7 @@ class cfgglasses
 	};
 	class 442_p1_clone_glass2: 442_clone_p1_glasses
 	{
-		displayname = "[K] P1 Clone Helmet Attachments 1";
+		displayname = "[K] P1 Clone Rangefinder";
 		model = "kobra\442_equipment\glasses\model\clone\k_p1_clone_glasses2.p3d";
 		hiddenselections[] = 
 		{
@@ -109,7 +109,7 @@ class cfgglasses
 	};
 	class 442_p1_clone_glass3: 442_clone_p1_glasses
 	{
-		displayname = "[K] P1 Clone Helmet Attachments 3";
+		displayname = "[K] P1 Clone Visor";
 		model = "kobra\442_equipment\glasses\model\clone\k_p1_clone_glasses3.p3d";
 		hiddenselections[] = 
 		{
@@ -122,7 +122,7 @@ class cfgglasses
 	};
 	class 442_p1_clone_glass4: 442_clone_p1_glasses
 	{
-		displayname = "[K] P1 Clone Helmet Attachments 4";
+		displayname = "[K] P1 Clone Visor + Rangefinder";
 		model = "kobra\442_equipment\glasses\model\clone\k_p1_clone_glasses4.p3d";
 		hiddenselections[] = 
 		{
@@ -137,7 +137,7 @@ class cfgglasses
 	};
 	class 442_p1_clone_glass5: 442_clone_p1_glasses
 	{
-		displayname = "[K] P1 Clone Helmet Attachments 5";
+		displayname = "[K] P1 Clone Commander Visor";
 		model = "kobra\442_equipment\glasses\model\clone\k_p1_clone_glasses5.p3d";
 		hiddenselections[] = 
 		{
@@ -152,13 +152,39 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\clone\rangefinder\rangefinder_co.paa"
 		};
 	};
-////44ab
 	class 442_p1_clone_glass1_44: 442_p1_clone_glass1
 	{
-		displayname = "[44/K] P1 Clone Helmet Attachments 1";
+		displayname = "[44/K] P1 Clone Macro Visor";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_equipment\glasses\data\clone\p1\unit_designs\44ab\p1_macro_visor_co.paa"
+		};
+	};
+	class 442_p1_clone_glass2_44: 442_p1_clone_glass2
+	{
+		displayname = "[44/K] P1 Clone Rangefinder";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\glasses\data\clone\rangefinder\unit_designs\44ab\rangefinder_co.paa"
+		};
+	};
+	class 442_p1_clone_glass4_44: 442_p1_clone_glass4
+	{
+		displayname = "[44/K] P1 Clone Visor + Rangefinder";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\glasses\data\clone\p1\p1_visor_co.paa",
+			"kobra\442_equipment\glasses\data\clone\rangefinder\unit_designs\44ab\rangefinder_co.paa"
+		};
+	};
+	class 442_p1_clone_glass5_44: 442_p1_clone_glass5
+	{
+		displayname = "[44/K] P1 Clone Commander Visor";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\glasses\data\clone\p1\p1_visor_attachments_co.paa",
+			"kobra\442_equipment\glasses\data\clone\p1\p1_visor_co.paa",
+			"kobra\442_equipment\glasses\data\clone\rangefinder\unit_designs\44ab\rangefinder_co.paa"
 		};
 	};
 
@@ -180,6 +206,12 @@ class cfgglasses
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
+	class 442_p1_clone_glass2_44_nh: 442_p1_clone_glass2_44
+	{
+		scope = 2;
+		ace_Overlay = "";
+		ace_overlaycracked = "";
+	};
 	class 442_p1_clone_glass3_nh: 442_p1_clone_glass3
 	{
 		scope = 2;
@@ -192,16 +224,28 @@ class cfgglasses
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
+	class 442_p1_clone_glass4_44_nh: 442_p1_clone_glass4_44
+	{
+		scope = 2;
+		ace_Overlay = "";
+		ace_overlaycracked = "";
+	};
 	class 442_p1_clone_glass5_nh: 442_p1_clone_glass5
 	{
 		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
-////p2 helmet attachments
+	class 442_p1_clone_glass5_44_nh: 442_p1_clone_glass5_44
+	{
+		scope = 2;
+		ace_Overlay = "";
+		ace_overlaycracked = "";
+	};
+////p2
 	class 442_p2_clone_glass1: 442_clone_p2_glasses
 	{
-		displayname = "[K] P2 Clone Helmet Attachments 1";
+		displayname = "[K] P2 Clone Macro Visor";
 		model = "kobra\442_equipment\glasses\model\clone\k_p2_clone_glasses1.p3d";
 		hiddenselections[] = 
 		{
@@ -214,7 +258,7 @@ class cfgglasses
 	};
 	class 442_p2_clone_glass2: 442_clone_p2_glasses
 	{
-		displayname = "[K] P2 Clone Helmet Attachments 2";
+		displayname = "[K] P2 Clone Range Finder";
 		model = "kobra\442_equipment\glasses\model\clone\k_p2_clone_glasses2.p3d";
 		hiddenselections[] = 
 		{
@@ -227,7 +271,7 @@ class cfgglasses
 	};
 	class 442_p2_clone_glass3: 442_clone_p2_glasses
 	{
-		displayname = "[K] P2 Clone Helmet Attachments 3";
+		displayname = "[K] P2 Clone Visor";
 		model = "kobra\442_equipment\glasses\model\clone\k_p2_clone_glasses3.p3d";
 		hiddenselections[] = 
 		{
@@ -240,7 +284,7 @@ class cfgglasses
 	};
 	class 442_p2_clone_glass4: 442_clone_p2_glasses
 	{
-		displayname = "[K] P2 Clone Helmet Attachments 4";
+		displayname = "[K] P2 Clone Plated Visor";
 		model = "kobra\442_equipment\glasses\model\clone\k_p2_clone_glasses4.p3d";
 		hiddenselections[] = 
 		{
@@ -255,7 +299,7 @@ class cfgglasses
 	};
 	class 442_p2_clone_glass5: 442_clone_p2_glasses
 	{
-		displayname = "[K] P2 Clone Helmet Attachments 5";
+		displayname = "[K] P2 Clone Plated Visor + Comm";
 		model = "kobra\442_equipment\glasses\model\clone\k_p2_clone_glasses5.p3d";
 		hiddenselections[] = 
 		{
@@ -274,7 +318,7 @@ class cfgglasses
 	};
 	class 442_p2_clone_glass6: 442_clone_p2_glasses
 	{
-		displayname = "[K] P2 Clone Helmet Attachments 6";
+		displayname = "[K] P2 Clone Visor + Range Finder";
 		model = "kobra\442_equipment\glasses\model\clone\k_p2_clone_glasses6.p3d";
 		hiddenselections[] = 
 		{
@@ -290,7 +334,7 @@ class cfgglasses
 	};
 	class 442_p2_clone_glass7: 442_clone_p2_glasses
 	{
-		displayname = "[K] P2 Clone Helmet Attachments 7";
+		displayname = "[K] P2 Clone Commander Visor";
 		model = "kobra\442_equipment\glasses\model\clone\k_p2_clone_glasses7.p3d";
 		hiddenselections[] = 
 		{
@@ -307,7 +351,7 @@ class cfgglasses
 	};
 	class 442_p2_clone_glass8: 442_clone_p2_glasses
 	{
-		displayname = "[K] P2 Clone Helmet Attachments 8";
+		displayname = "[K] P2 Clone Plated Visor + Range Finder";
 		model = "kobra\442_equipment\glasses\model\clone\k_p2_clone_glasses8.p3d";
 		hiddenselections[] = 
 		{
@@ -322,8 +366,7 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\clone\rangefinder\rangefinder_co.paa"
 		};
 	};
-////44ab
-	class 442_p2_clone_glass1_44ab: 442_p2_clone_glass1
+	class 442_p2_clone_glass1_44: 442_p2_clone_glass1
 	{
 		displayname = "[44/K] P2 Clone Helmet Attachments 1";
 		hiddenselectionstextures[] = 
@@ -331,20 +374,54 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\clone\p2\unit_designs\44ab\p2_macro_visor_co.paa"
 		};
 	};
-////no hud
+	class 442_p2_clone_glass2_44: 442_p2_clone_glass2
+	{
+		displayname = "[44/K] P2 Clone Range Finder";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\glasses\data\clone\rangefinder\unit_designs\44ab\rangefinder_co.paa"
+		};
+	};
+	class 442_p2_clone_glass6_44: 442_p2_clone_glass6
+	{
+		displayname = "[44/K] P2 Clone Visor + Range Finder";
+		hiddenselectionstextures[] = 
+		{
+			
+			"kobra\442_equipment\glasses\data\clone\p2\p2_visor_co.paa",
+			"kobra\442_equipment\glasses\data\clone\rangefinder\unit_designs\44ab\rangefinder_co.paa"
+		};
+	};
+	class 442_p2_clone_glass8_44: 442_p2_clone_glass8
+	{
+		displayname = "[44/K] P2 Clone Plated Visor + Range Finder";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\glasses\data\clone\p2\p2_visor_co.paa",
+			"kobra\442_equipment\glasses\data\clone\p2\p2_visor_attachments_co.paa",
+			"kobra\442_equipment\glasses\data\clone\rangefinder\unit_designs\44ab\rangefinder_co.paa"
+		};
+	};
+
 	class 442_p2_clone_glass1_nh: 442_p2_clone_glass1
 	{
 		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
-	class 442_p2_clone_glass1_44ab_nh: 442_p2_clone_glass1_44ab
+	class 442_p2_clone_glass1_44_nh: 442_p2_clone_glass1_44
 	{
 		scope = 2;
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
 	class 442_p2_clone_glass2_nh: 442_p2_clone_glass2
+	{
+		scope = 2;
+		ace_Overlay = "";
+		ace_overlaycracked = "";
+	};
+	class 442_p2_clone_glass2_44_nh: 442_p2_clone_glass2_44
 	{
 		scope = 2;
 		ace_Overlay = "";
@@ -368,6 +445,18 @@ class cfgglasses
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
+	class 442_p2_clone_glass6_nh: 442_p2_clone_glass6
+	{
+		scope = 2;
+		ace_Overlay = "";
+		ace_overlaycracked = "";
+	};
+	class 442_p2_clone_glass6_44_nh: 442_p2_clone_glass6_44
+	{
+		scope = 2;
+		ace_Overlay = "";
+		ace_overlaycracked = "";
+	};
 	class 442_p2_clone_glass7_nh: 442_p2_clone_glass7
 	{
 		scope = 2;
@@ -380,10 +469,16 @@ class cfgglasses
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
-////arf helmet attachments
+	class 442_p2_clone_glass8_44_nh: 442_p2_clone_glass8_44
+	{
+		scope = 2;
+		ace_Overlay = "";
+		ace_overlaycracked = "";
+	};
+////arf
 	class 442_arf_clone_glass1: 442_clone_arf_glasses
 	{
-		displayname = "[K] Arf Helmet Attachments 1";
+		displayname = "[K] Arf Helmet Flaps";
 		model = "kobra\442_equipment\glasses\model\clone\k_arf_clone_glasses1.p3d";
 		hiddenselections[] = 
 		{
@@ -396,7 +491,7 @@ class cfgglasses
 	};
 	class 442_arf_clone_glass2: 442_clone_arf_glasses
 	{
-		displayname = "[K] Arf Helmet Attachments 2";
+		displayname = "[K] Arf Helmet Plated";
 		model = "kobra\442_equipment\glasses\model\clone\k_arf_clone_glasses2.p3d";
 		hiddenselections[] = 
 		{
@@ -409,7 +504,7 @@ class cfgglasses
 	};
 	class 442_arf_clone_glass3: 442_clone_arf_glasses
 	{
-		displayname = "[K] Arf Helmet Attachments 3";
+		displayname = "[K] Arf Helmet Visor";
 		model = "kobra\442_equipment\glasses\model\clone\k_arf_clone_glasses3.p3d";
 		hiddenselections[] = 
 		{
@@ -422,7 +517,7 @@ class cfgglasses
 	};
 	class 442_arf_clone_glass4: 442_clone_arf_glasses
 	{
-		displayname = "[K] Arf Helmet Attachments 4";
+		displayname = "[K] Arf Helmet Flaps + Plated";
 		model = "kobra\442_equipment\glasses\model\clone\k_arf_clone_glasses4.p3d";
 		hiddenselections[] = 
 		{
@@ -437,7 +532,7 @@ class cfgglasses
 	};
 	class 442_arf_clone_glass5: 442_clone_arf_glasses
 	{
-		displayname = "[K] Arf Helmet Attachments 5";
+		displayname = "[K] Arf Helmet Flaps + Visor";
 		model = "kobra\442_equipment\glasses\model\clone\k_arf_clone_glasses5.p3d";
 		hiddenselections[] = 
 		{
@@ -452,7 +547,7 @@ class cfgglasses
 	};
 	class 442_arf_clone_glass6: 442_clone_arf_glasses
 	{
-		displayname = "[K] Arf Helmet Attachments 6";
+		displayname = "[K] Arf Helmet Plated + Visor";
 		model = "kobra\442_equipment\glasses\model\clone\k_arf_clone_glasses6.p3d";
 		hiddenselections[] = 
 		{
@@ -467,7 +562,7 @@ class cfgglasses
 	};
 	class 442_arf_clone_glass7: 442_clone_arf_glasses
 	{
-		displayname = "[K] Arf Helmet Attachments 7";
+		displayname = "[K] Arf Helmet Flaps + Plated + Visor";
 		model = "kobra\442_equipment\glasses\model\clone\k_arf_clone_glasses7.p3d";
 		hiddenselections[] = 
 		{
@@ -515,7 +610,7 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\clone\arf\arf_plates_co.paa"
 		};
 	};
-////no hud
+
 	class 442_arf_clone_glass1_nh: 442_arf_clone_glass1
 	{
 		scope = 2;
@@ -581,7 +676,7 @@ class cfgglasses
 ////barc
 	class 442_barc_clone_glass1: 442_clone_ab_barc_glasses
 	{
-		displayname = "[K] Barc Helmet Attachment";
+		displayname = "[K] Barc Helmet Visor";
 		model = "kobra\442_equipment\glasses\model\clone\k_barc_clone_glasses.p3d";
 		hiddenselections[] = 
 		{
@@ -594,13 +689,13 @@ class cfgglasses
 	};
 	class 442_barc_clone_glass1_44: 442_barc_clone_glass1
 	{
-		displayname = "[44/K] Barc Helmet Attachment";
+		displayname = "[44/K] Barc Helmet Visor";
 		hiddenselectionstextures[] = 
 		{
 			"kobra\442_equipment\glasses\data\clone\barc_visor\unit_designs\44ab\barc_visor_co.paa"
 		};
 	};
-////no hud
+
 	class 442_barc_clone_glass1_nh: 442_barc_clone_glass1
 	{
 		scope = 2;
@@ -658,13 +753,13 @@ class cfgglasses
 		};
 	};
 
-////commando helmet attachments
+////commando
 	// helmet parts 1 - visor and sensor
 	// helmet parts 2 - camera, comms, filter, rebreather
 
 	class 442_commando_glass1: 442_clone_p2_glasses
 	{
-		scope = 2; 
+		scope = 1; 
 		displayname = "[K] Commando Helmet Attachments 1";
 		model = "kobra\442_equipment\glasses\model\commando\k_commando_glasses1.p3d";
 		hiddenselections[] = 
@@ -678,9 +773,8 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\commando\helmet_parts_2_co.paa"
 		};
 	};
-	class 442_commando_glass2: 442_clone_p2_glasses
+	class 442_commando_glass2: 442_commando_glass1
 	{
-		scope = 2; 
 		displayname = "[K] Commando Helmet Attachments 2";
 		model = "kobra\442_equipment\glasses\model\commando\k_commando_glasses2.p3d";
 		hiddenselections[] = 
@@ -692,7 +786,7 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\commando\hood_co.paa"
 		};
 	};
-	class 442_commando_glass3: 442_clone_p2_glasses
+	class 442_commando_glass3: 442_commando_glass1
 	{
 		displayname = "[K] Commando Helmet Attachments 3";
 		model = "kobra\442_equipment\glasses\model\commando\k_commando_glasses3.p3d";
@@ -713,7 +807,7 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\commando\helmet_parts_1_co.paa",
 		};
 	};
-	class 442_commando_glass4: 442_clone_p2_glasses
+	class 442_commando_glass4: 442_commando_glass1
 	{
 		displayname = "[K] Commando Helmet Attachments 4";
 		model = "kobra\442_equipment\glasses\model\commando\k_commando_glasses4.p3d";
@@ -734,7 +828,7 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\commando\helmet_parts_1_co.paa",
 		};
 	};
-	class 442_commando_glass5: 442_clone_p2_glasses
+	class 442_commando_glass5: 442_commando_glass1
 	{
 		displayname = "[K] Commando Helmet Attachments 5";
 		model = "kobra\442_equipment\glasses\model\commando\k_commando_glasses5.p3d";
@@ -749,7 +843,7 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\commando\helmet_parts_2_co.paa",
 		};
 	};
-	class 442_commando_glass6: 442_clone_p2_glasses
+	class 442_commando_glass6: 442_commando_glass1
 	{
 		displayname = "[K] Commando Helmet Attachments 6";
 		model = "kobra\442_equipment\glasses\model\commando\k_commando_glasses6.p3d";
@@ -762,7 +856,7 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\commando\helmet_parts_2_co.paa"
 		};
 	};
-	class 442_commando_glass7: 442_clone_p2_glasses
+	class 442_commando_glass7: 442_commando_glass1
 	{
 		displayname = "[K] Commando Helmet Attachments 7";
 		model = "kobra\442_equipment\glasses\model\commando\k_commando_glasses7.p3d";
@@ -775,7 +869,7 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\commando\helmet_parts_2_co.paa"
 		};
 	};
-	class 442_commando_glass8: 442_clone_p2_glasses
+	class 442_commando_glass8: 442_commando_glass1
 	{
 		displayname = "[K] Commando Helmet Attachments 8";
 		model = "kobra\442_equipment\glasses\model\commando\k_commando_glasses8.p3d";
@@ -788,7 +882,7 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\commando\helmet_parts_1_co.paa"
 		};
 	};
-	class 442_commando_glass9: 442_clone_p2_glasses
+	class 442_commando_glass9: 442_commando_glass1
 	{
 		displayname = "[K] Commando Helmet Attachments 9";
 		model = "kobra\442_equipment\glasses\model\commando\k_commando_glasses9.p3d";
@@ -803,7 +897,7 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\commando\helmet_parts_1_co.paa"
 		};
 	};
-	class 442_commando_glass10: 442_clone_p2_glasses
+	class 442_commando_glass10: 442_commando_glass1
 	{
 		displayname = "[K] Commando Helmet Attachments 10";
 		model = "kobra\442_equipment\glasses\model\commando\k_commando_glasses10.p3d";
@@ -818,7 +912,7 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\commando\helmet_parts_2_co.paa"
 		};
 	};
-	class 442_commando_glass11: 442_clone_p2_glasses
+	class 442_commando_glass11: 442_commando_glass1
 	{
 		displayname = "[K] Commando Helmet Attachments 11";
 		model = "kobra\442_equipment\glasses\model\commando\k_commando_glasses11.p3d";
@@ -833,7 +927,7 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\commando\helmet_parts_1_co.paa"
 		};
 	};
-	class 442_commando_glass12: 442_clone_p2_glasses
+	class 442_commando_glass12: 442_commando_glass1
 	{
 		displayname = "[K] Commando Helmet Attachments 12";
 		model = "kobra\442_equipment\glasses\model\commando\k_commando_glasses12.p3d";
@@ -846,7 +940,7 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\commando\cover_co.paa"
 		};
 	};
-	class 442_commando_glass13: 442_clone_p2_glasses
+	class 442_commando_glass13: 442_commando_glass1
 	{
 		displayname = "[K] Commando Helmet Attachments 13";
 		model = "kobra\442_equipment\glasses\model\commando\k_commando_glasses13.p3d";
@@ -861,7 +955,7 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\commando\helmet_parts_2_co.paa"
 		};
 	};
-	class 442_commando_glass14: 442_clone_p2_glasses
+	class 442_commando_glass14: 442_commando_glass1
 	{
 		displayname = "[K] Commando Helmet Attachments 14";
 		model = "kobra\442_equipment\glasses\model\commando\k_commando_glasses14.p3d";
@@ -876,7 +970,7 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\commando\helmet_parts_2_co.paa"
 		};
 	};
-	class 442_commando_glass15: 442_clone_p2_glasses
+	class 442_commando_glass15: 442_commando_glass1
 	{
 		displayname = "[K] Commando Helmet Attachments 15";
 		model = "kobra\442_equipment\glasses\model\commando\k_commando_glasses15.p3d";
@@ -891,7 +985,7 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\commando\helmet_parts_1_co.paa"
 		};
 	};
-	class 442_commando_glass16: 442_clone_p2_glasses
+	class 442_commando_glass16: 442_commando_glass1
 	{
 		displayname = "[K] Commando Helmet Attachments 16";
 		model = "kobra\442_equipment\glasses\model\commando\k_commando_glasses16.p3d";
@@ -906,7 +1000,7 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\commando\cover_co.paa"
 		};
 	};
-	class 442_commando_glass17: 442_clone_p2_glasses
+	class 442_commando_glass17: 442_commando_glass1
 	{
 		displayname = "[K] Commando Helmet Attachments 17";
 		model = "kobra\442_equipment\glasses\model\commando\k_commando_glasses17.p3d";
@@ -921,7 +1015,7 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\commando\cover_co.paa"
 		};
 	};
-	class 442_commando_glass18: 442_clone_p2_glasses
+	class 442_commando_glass18: 442_commando_glass1
 	{
 		displayname = "[K] Commando Helmet Attachments 18";
 		model = "kobra\442_equipment\glasses\model\commando\k_commando_glasses18.p3d";
@@ -934,7 +1028,7 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\commando\helmet_plates_co.paa"
 		};
 	};
-	class 442_commando_glass19: 442_clone_p2_glasses
+	class 442_commando_glass19: 442_commando_glass1
 	{
 		displayname = "[K] Commando Helmet Attachments 19";
 		model = "kobra\442_equipment\glasses\model\commando\k_commando_glasses19.p3d";
@@ -949,7 +1043,7 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\commando\helmet_plates_co.paa"
 		};
 	};
-	class 442_commando_glass20: 442_clone_p2_glasses
+	class 442_commando_glass20: 442_commando_glass1
 	{
 		displayname = "[K] Commando Helmet Attachments 20";
 		model = "kobra\442_equipment\glasses\model\commando\k_commando_glasses20.p3d";
@@ -968,7 +1062,7 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\commando\helmet_parts_2_co.paa"
 		};
 	};
-	class 442_commando_glass21: 442_clone_p2_glasses
+	class 442_commando_glass21: 442_commando_glass1
 	{
 		displayname = "[K] Commando Helmet Attachments 21";
 		model = "kobra\442_equipment\glasses\model\commando\k_commando_glasses21.p3d";
@@ -983,7 +1077,7 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\commando\helmet_parts_1_co.paa"
 		};
 	};
-	class 442_commando_glass22: 442_clone_p2_glasses
+	class 442_commando_glass22: 442_commando_glass1
 	{
 		displayname = "[K] Commando Helmet Attachments 22";
 		model = "kobra\442_equipment\glasses\model\commando\k_commando_glasses22.p3d";
@@ -998,7 +1092,7 @@ class cfgglasses
 			"kobra\442_equipment\glasses\data\commando\helmet_parts_1_co.paa"
 		};
 	};
-	class 442_commando_glass23: 442_clone_p2_glasses
+	class 442_commando_glass23: 442_commando_glass1
 	{
 		displayname = "[K] Commando Helmet Attachments 23";
 		model = "kobra\442_equipment\glasses\model\commando\k_commando_glasses23.p3d";
@@ -1011,6 +1105,93 @@ class cfgglasses
 		{
 			"kobra\442_equipment\glasses\data\commando\helmet_parts_1_co.paa",
 			"kobra\442_equipment\glasses\data\commando\helmet_parts_1_co.paa"
+		};
+	};
+
+	class 442_commando_glass3_44: 442_commando_glass1
+	{
+		displayname = "[44/K] Commando Helmet Attachments 3";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\glasses\data\commando\unit_designs\44ab\helmet_parts_2_co.paa",
+			"kobra\442_equipment\glasses\data\commando\unit_designs\44ab\helmet_parts_2_co.paa",
+			"kobra\442_equipment\glasses\data\commando\unit_designs\44ab\helmet_parts_2_co.paa",
+			"kobra\442_equipment\glasses\data\commando\unit_designs\44ab\helmet_parts_1_co.paa",
+			"kobra\442_equipment\glasses\data\commando\unit_designs\44ab\helmet_parts_1_co.paa",
+		};
+	};
+	class 442_commando_glass4_44: 442_commando_glass4
+	{
+		displayname = "[44/K] Commando Helmet Attachments 4";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\glasses\data\commando\unit_designs\44ab\helmet_parts_2_co.paa",
+			"kobra\442_equipment\glasses\data\commando\unit_designs\44ab\helmet_parts_2_co.paa",
+			"kobra\442_equipment\glasses\data\commando\unit_designs\44ab\helmet_parts_2_co.paa",
+			"kobra\442_equipment\glasses\data\commando\unit_designs\44ab\helmet_parts_2_co.paa",
+			"kobra\442_equipment\glasses\data\commando\unit_designs\44ab\helmet_parts_1_co.paa",
+		};
+	};
+	class 442_commando_glass9_44: 442_commando_glass9
+	{
+		displayname = "[44/K] Commando Helmet Attachments 9";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\glasses\data\commando\unit_designs\44ab\helmet_parts_2_co.paa",
+			"kobra\442_equipment\glasses\data\commando\unit_designs\44ab\helmet_parts_1_co.paa"
+		};
+	};
+	class 442_commando_glass12_44: 442_commando_glass12
+	{
+		displayname = "[44/K] Commando Helmet Attachments 12";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\glasses\data\commando\unit_designs\44ab\cover_co.paa"
+		};
+	};
+	class 442_commando_glass14_44: 442_commando_glass14
+	{
+		displayname = "[44/K] Commando Helmet Attachments 14";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\glasses\data\commando\unit_designs\44ab\cover_co.paa",
+			"kobra\442_equipment\glasses\data\commando\unit_designs\44ab\helmet_parts_2_co.paa"
+		};
+	};
+	class 442_commando_glass15_44: 442_commando_glass15
+	{
+		displayname = "[44/K] Commando Helmet Attachments 15";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\glasses\data\commando\unit_designs\44ab\cover_co.paa",
+			"kobra\442_equipment\glasses\data\commando\unit_designs\44ab\helmet_parts_1_co.paa"
+		};
+	};
+	class 442_commando_glass16_44: 442_commando_glass16
+	{
+		displayname = "[44/K] Commando Helmet Attachments 16";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\glasses\data\commando\unit_designs\44ab\helmet_parts_2_co.paa",
+			"kobra\442_equipment\glasses\data\commando\unit_designs\44ab\cover_co.paa"
+		};
+	};
+	class 442_commando_glass17_44: 442_commando_glass17
+	{
+		displayname = "[44/K] Commando Helmet Attachments 17";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\glasses\data\commando\helmet_parts_2_co.paa",
+			"kobra\442_equipment\glasses\data\commando\unit_designs\44ab\cover_co.paa"
+		};
+	};
+	class 442_commando_glass23_44: 442_commando_glass23
+	{
+		displayname = "[44/K] Commando Helmet Attachments 23";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\glasses\data\commando\unit_designs\44ab\helmet_parts_1_co.paa",
+			"kobra\442_equipment\glasses\data\commando\unit_designs\44ab\helmet_parts_1_co.paa"
 		};
 	};
 
@@ -1148,6 +1329,61 @@ class cfgglasses
 		ace_overlaycracked = "";
 	};
 	class 442_commando_glass23_nh: 442_commando_glass23
+	{
+		scope = 2;
+		ace_Overlay = "";
+		ace_overlaycracked = "";
+	};
+	
+	class 442_commando_glass3_44_nh: 442_commando_glass3_44
+	{
+		scope = 2;
+		ace_Overlay = "";
+		ace_overlaycracked = "";
+	};
+	class 442_commando_glass4_44_nh: 442_commando_glass4_44
+	{
+		scope = 2;
+		ace_Overlay = "";
+		ace_overlaycracked = "";
+	};
+	class 442_commando_glass9_44_nh: 442_commando_glass9_44
+	{
+		scope = 2;
+		ace_Overlay = "";
+		ace_overlaycracked = "";
+	};
+	class 442_commando_glass12_44_nh: 442_commando_glass12_44
+	{
+		scope = 2;
+		ace_Overlay = "";
+		ace_overlaycracked = "";
+	};
+	class 442_commando_glass14_44_nh: 442_commando_glass14_44
+	{
+		scope = 2;
+		ace_Overlay = "";
+		ace_overlaycracked = "";
+	};
+	class 442_commando_glass15_44_nh: 442_commando_glass15_44
+	{
+		scope = 2;
+		ace_Overlay = "";
+		ace_overlaycracked = "";
+	};
+	class 442_commando_glass16_44_nh: 442_commando_glass16_44
+	{
+		scope = 2;
+		ace_Overlay = "";
+		ace_overlaycracked = "";
+	};
+	class 442_commando_glass17_44_nh: 442_commando_glass17_44
+	{
+		scope = 2;
+		ace_Overlay = "";
+		ace_overlaycracked = "";
+	};
+	class 442_commando_glass23_44_nh: 442_commando_glass23_44
 	{
 		scope = 2;
 		ace_Overlay = "";
