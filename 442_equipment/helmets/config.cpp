@@ -147,6 +147,7 @@ class cfgpatches
 			"k_p2_ab_helmet_104th",
 			"k_p2_ab_helmet_187th",
 			"k_p2_ab_helmet_212th",
+			"k_p2_ab_helmet_332nd",
 			"k_p2_ab_helmet_327th",
 			"k_p2_ab_helmet_442nd",
 			"k_p2_ab_helmet_501st",
@@ -2096,6 +2097,15 @@ class cfgweapons
 		{
 			"kobra\442_equipment\helmets\data\p2_ab_helmet\lore_designs\clean\p2_airborne_helmet_327_co.paa", //helmet
 			"kobra\442_equipment\helmets\data\p2_ab_helmet\lore_designs\clean\p2_airborne_helmet_327_co.paa", //visor
+		};
+	};
+	class k_p2_ab_helmet_332nd: k_p2_ab_helmet
+	{
+		displayname = "[K] P2 Airborne Helmet (332nd)";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\p2_ab_helmet\lore_designs\clean\p2_airborne_helmet_332_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\p2_ab_helmet\lore_designs\clean\p2_airborne_helmet_332_co.paa", //visor
 		};
 	};
 	class k_p2_ab_helmet_442nd: k_p2_ab_helmet

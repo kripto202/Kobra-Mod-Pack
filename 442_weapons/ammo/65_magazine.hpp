@@ -9,6 +9,7 @@
 		mass=4.5;
         count = 30;
         initspeed = 909;
+        displayNameShort="30rnd";
     };
     class 442_65_20rnd_blue_mag: 442_65_30rnd_blue_mag
     {
@@ -16,6 +17,7 @@
         picture="\kobra\442_weapons\ammo\data\ui\DC15a_mag_ui_blue_ca.paa";
 		mass=3.5;
         count = 20;
+        displayNameShort="20rnd";
 	};
     class 442_65_60rnd_blue_mag: 442_65_30rnd_blue_mag
     {
@@ -23,6 +25,7 @@
         picture="\kobra\442_weapons\ammo\data\ui\DC15a_mag_ui_blue_ca.paa";
         mass = 9;
         count = 60;
+        displayNameShort="60rnd";
     };
 	class 442_65_100rnd_blue_mag: 442_65_30rnd_blue_mag
     {
@@ -30,6 +33,7 @@
         picture="\kobra\442_weapons\ammo\data\ui\DC15a_mag_ui_blue_ca.paa";
         mass=15;
         count = 100;
+        displayNameShort="100rnd";
 	};
     class 442_65_150rnd_blue_mag: 442_65_30rnd_blue_mag
     {
@@ -37,6 +41,7 @@
         picture="\kobra\442_weapons\ammo\data\ui\DC15a_mag_ui_blue_ca.paa";
         mass=22.5;
         count = 150;
+        displayNameShort="150rnd";
 	};
     class 442_65_200rnd_blue_mag: 442_65_30rnd_blue_mag
     {
@@ -44,6 +49,7 @@
         picture="\kobra\442_weapons\ammo\data\ui\DC15a_mag_ui_blue_ca.paa";
         mass=30;
         count = 200;
+        displayNameShort="200rnd";
 	};
 
     class 442_65_30rnd_red_mag: 442_65_30rnd_blue_mag

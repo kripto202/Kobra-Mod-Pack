@@ -9,6 +9,7 @@ class 442_127x108_5rnd_blue_mag: 442_mag_base
     mass=10;
     count = 5;
     initspeed = 820;
+    displayNameShort="5rnd";
 };
 
 class 442_127x108_5rnd_red_mag: 442_127x108_5rnd_blue_mag

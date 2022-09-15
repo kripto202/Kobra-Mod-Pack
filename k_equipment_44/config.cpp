@@ -19,10 +19,11 @@ class cfgpatches
             "k_clone_unit_Rex_44",
             "k_clone_unit_Titania_44",
             "k_clone_unit_Zeressin_44",
+            "k_clone_unit_Ivanov_44",
+            "k_commando_unit_Lore_44",
             "k_clone_huge_backpack_rocket_titania_44",
             "k_jt12_radio_garrus_44",
-            "k_clone_unit_Ivanov_44",
-            "k_commando_unit_Lore_44"
+            "k_jt12_radio_ivanov_44"
         };
         weapons[] = 
         {
@@ -454,11 +455,6 @@ class CfgWeapons
     class k_p1_helmet_Garrus_44: k_p1_helmet
 	{
 		displayname = "[44/K/C] P1 Helmet (Garrus)";
-        hiddenselectionsmaterials[] = 
-		{
-			"kobra\442_equipment\helmets\data\p1_helmet\helmet.rvmat",
-			"kobra\442_equipment\helmets\data\unit_designs\44ab\p1_visor.rvmat"
-		};
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_equipment_44\data\garrus\p1_helmet_co.paa", //helmet
@@ -792,6 +788,8 @@ class CfgVehicles
 {
     class k_commando_unit;
     class k_clone_unit;
+    class 442_jt12_radio;
+    class k_clone_huge_backpack_rocket_44;
 
     class k_commando_unit_Azarael_44: k_commando_unit
     {
@@ -908,7 +906,6 @@ class CfgVehicles
         };
 	};
 
-    class k_clone_huge_backpack_rocket_44;
     class k_clone_huge_backpack_rocket_titania_44: k_clone_huge_backpack_rocket_44
 	{
 		displayname = "[44/K/C] Clone Trooper Huge Backpack w/ Rockets (Titania)";
@@ -925,7 +922,7 @@ class CfgVehicles
         tf_range=20000;
         tf_subtype="digital_lr";
 	};
-    class 442_jt12_radio;
+
     class k_jt12_radio_garrus_44: 442_jt12_radio
 	{
 		hiddenselectionstextures[] = 

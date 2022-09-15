@@ -9,6 +9,7 @@ class 442_338_10rnd_blue_mag: 442_mag_base
     mass=7;
     count = 10;
     initspeed = 880;
+    displayNameShort="10rnd";
 };
 
 class 442_338_10rnd_red_mag: 442_338_10rnd_blue_mag
@@ -58,6 +59,7 @@ class 442_338_20rnd_blue_mag: 442_338_10rnd_blue_mag
     displayName="338 NM Plasma Cell (20rnd Blue)";
     count=20;
     mass=14;
+    displayNameShort="20rnd";
 };
 
 class 442_338_20rnd_red_mag: 442_338_20rnd_blue_mag

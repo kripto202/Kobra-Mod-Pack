@@ -356,8 +356,8 @@ class 442_ammo_127x33_base: 442_ammo_base
 };
 class 442_ammo_127x108_base: 442_ammo_base
 {
-	hit = 35;
-	timetolive=7;
+	hit = 45;
+	timetolive=10;
 	indirectHit = 0;
 	indirectHitRange = 0;
 	visibleFire = 5;

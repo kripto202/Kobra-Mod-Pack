@@ -13,6 +13,7 @@ class 442_40_50rnd_he_blue_mag: 442_mag_base
 	descriptionShort = "40mm HE";
 	muzzleImpulseFactor[] = {0.1,0.1};
     picture="\kobra\442_weapons\ammo\data\ui\DC15a_mag_ui_ca.paa";
+    displayNameShort="50rnd";
 };
 class 442_40_6rnd_he_blue_mag: 442_40_50rnd_he_blue_mag
 {
@@ -20,6 +21,7 @@ class 442_40_6rnd_he_blue_mag: 442_40_50rnd_he_blue_mag
     displayname = "40mm He Plasma Cell (6rnd Blue)";
     mass = 30;
     count = 6;
+    displayNameShort="6nd";
 };
 
 class 442_40_50rnd_he_green_mag: 442_40_50rnd_he_blue_mag

@@ -8,6 +8,7 @@ class 442_45_45rnd_blue_mag: 442_mag_base
     mass=3.5;
     count = 45;
     initspeed = 254;
+    displayNameShort="45rnd";
 };
 class 442_45_100rnd_blue_mag: 442_45_45rnd_blue_mag
 {
@@ -16,6 +17,7 @@ class 442_45_100rnd_blue_mag: 442_45_45rnd_blue_mag
     picture="\kobra\442_weapons\ammo\data\ui\DC15a_mag_ui_blue_ca.paa";
     mass=7.8;
     count = 100;
+    displayNameShort="100rnd";
 };
 
 class 442_45_45rnd_red_mag: 442_45_45rnd_blue_mag

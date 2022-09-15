@@ -99,10 +99,11 @@ class VehicleSystemsTemplateRightGunner: DefaultVehicleSystemsDisplayManagerRigh
 	class components;
 };
 
+class ACE_SelfActions;
+
 class cfgvehicles
 {
     class Helicopter;
-	class ACE_SelfActions;
 
     class Helicopter_Base_F: Helicopter 
 	{

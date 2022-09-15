@@ -9,36 +9,42 @@
 		mass=5;
         count = 30;
         initspeed = 909;
+        displayNameShort="30rnd";
     };
     class 442_762_20rnd_blue_mag: 442_762_30rnd_blue_mag
     {
         displayname = "7.62mm Plasma Cell (20rnd Blue)";
         mass=4;
         count = 20;
+        displayNameShort="20rnd";
 	};
     class 442_762_60rnd_blue_mag: 442_762_30rnd_blue_mag
     {
         displayname = "7.62mm Plasma Cell (60rnd Blue)";
         mass=10;
         count = 60;
+        displayNameShort="60rnd";
     };
 	class 442_762_100rnd_blue_mag: 442_762_30rnd_blue_mag
     {
         displayname = "7.62mm Plasma Cell (100rnd Blue)";
         mass=16.7;
         count = 100;
+        displayNameShort="100rnd";
 	};
     class 442_762_150rnd_blue_mag: 442_762_30rnd_blue_mag
     {
         displayname = "7.62mm Plasma Cell (150rnd Blue)";
         mass=25;
         count = 150;
+        displayNameShort="150rnd";
 	};
     class 442_762_200rnd_blue_mag: 442_762_30rnd_blue_mag
     {
         displayname = "7.62mm Plasma Cell (200rnd Blue)";
         mass=33.4;
         count = 200;
+        displayNameShort="200rnd";
 	};
 
     class 442_762_30rnd_red_mag: 442_762_30rnd_blue_mag

@@ -7,6 +7,7 @@ class 442_408_10rnd_blue_mag: 442_mag_base
     mass=7;
     count = 10;
     initspeed = 880;
+    displayNameShort="10rnd";
 };
 
 class 442_408_10rnd_red_mag: 442_408_10rnd_blue_mag
