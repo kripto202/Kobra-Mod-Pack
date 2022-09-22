@@ -20,6 +20,7 @@ class cfgpatches
             "k_clone_unit_Titania_44",
             "k_clone_unit_Zeressin_44",
             "k_clone_unit_Ivanov_44",
+            "k_clone_unit_Ditch_44",
             "k_commando_unit_Lore_44",
             "k_clone_huge_backpack_rocket_titania_44",
             "k_jt12_radio_garrus_44",
@@ -68,7 +69,11 @@ class cfgpatches
 
             "k_barc_helmet_Ivanov_44",
             "k_commando_uniform_Lore_44",
-            "k_commando_vest19_Lore_44"
+            "k_commando_vest19_Lore_44",
+
+            "k_hunter_Helmet_ditch_44",
+            "k_clone_basic_vest7_ditch_44",
+            "k_clone_uniform_ditch_44"
         };
     };
 };
@@ -93,6 +98,8 @@ class CfgWeapons
     class vestitem;
     class k_clone_kamaL_vest8;
     class k_commando_vest19_44;
+    class k_hunter_Helmet;
+    class k_clone_basic_vest7;
 
     class k_barc_helmet_Kripto_44: k_barc_helmet
     {
@@ -782,6 +789,32 @@ class CfgWeapons
             "kobra\k_equipment_44\data\lore\helmet_parts_1_co.paa",
         };
     };
+
+    class k_hunter_Helmet_ditch_44: k_hunter_Helmet
+    {
+        displayname = "[44/K/C] Hunter's Helmet (Ditch)";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\k_equipment_44\data\ditch\hunter_helmet_co.paa",
+            "kobra\k_equipment_44\data\ditch\hunter_helmet_co.paa",
+        };
+    };
+    class k_clone_basic_vest7_ditch_44: k_clone_basic_vest7
+    {
+        displayname = "[44/K/C] Clone Basic Vest (Ditch)";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\vests\data\clone\unit_designs\44ab\clone_belt_co.paa"
+        };
+    };
+    class k_clone_uniform_ditch_44: k_clone_uniform
+    {
+        displayname = "[44/K/C] Clone Trooper Armor (Ditch)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_clone_unit_Ditch_44";
+        };
+    };
 };
 
 class CfgVehicles
@@ -905,6 +938,16 @@ class CfgVehicles
             "kobra\442_equipment\uniform\data\commando_uniform\undersuit_co.paa"
         };
 	};
+    class k_clone_unit_Ditch_44: k_clone_unit
+    {
+        displayname = "Clone Trooper";
+        uniformclass = "k_clone_uniform_Ditch_44";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\k_equipment_44\data\ditch\upper_armor_co.paa",
+            "kobra\k_equipment_44\data\ditch\lower_armor_co.paa"
+        };
+    };
 
     class k_clone_huge_backpack_rocket_titania_44: k_clone_huge_backpack_rocket_44
 	{

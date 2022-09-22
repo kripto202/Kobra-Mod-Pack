@@ -1,7 +1,6 @@
 class 442_ammo_556_base: 442_ammo_base
 {
 	hit=9;
-	model="";
 	typicalspeed = 920;
 	dangerRadiusBulletClose=8;
 	dangerRadiusHit=12;
@@ -32,7 +31,6 @@ class 442_ammo_556_base: 442_ammo_base
 class 442_ammo_65_base: 442_ammo_base
 {
 	hit = 10;
-	model="";
 	visiblefire = 5;
 	audiblefire = 60;
 	dangerRadiusBulletClose = 8;
@@ -60,7 +58,6 @@ class 442_ammo_65_base: 442_ammo_base
 class 442_ammo_762_base: 442_ammo_base
 {
 	hit = 12;
-	model="";
 	//effectfly="442_plasma_blue";
 	//ExplosionEffects="442_plasma_impact";
 	//cratereffects = "442_plasma_impact";
@@ -90,7 +87,6 @@ class 442_ammo_9_base: 442_ammo_base
 	hit=11;
 	caliber=2;
 	timetolive=3;
-	model="";
 	//effectfly="442_plasma_blue";
 	//ExplosionEffects="442_plasma_impact";
 	//cratereffects = "442_plasma_impact";
@@ -126,7 +122,6 @@ class 442_ammo_45_base: 442_ammo_base
 	tracerStartTime = 0.075;
 	tracerEndTime = 1; 
 	tracerScale = 0.25;
-	model="";
 	//effectfly="442_plasma_blue";
 	//ExplosionEffects="442_plasma_impact";
 	//cratereffects = "442_plasma_impact";
@@ -166,7 +161,6 @@ class 442_ammo_127x99_base: 442_ammo_base
 	ACE_dragModel = 1;
 	ACE_muzzleVelocities[] = {900};
 	ACE_barrelLengths[] = {736.6};
-	model="";
 	//effectfly="442_plasma_blue";
 	//ExplosionEffects="442_plasma_impact";
 	//cratereffects = "442_plasma_impact";
@@ -194,7 +188,6 @@ class 442_ammo_408_base: 442_ammo_base
 	ACE_dragModel = 7;
 	ACE_muzzleVelocities[] = {867};
 	ACE_barrelLengths[] = {736.6};
-	model="";
 	//effectfly="442_plasma_blue";
 	//ExplosionEffects="442_plasma_impact";
 	//CraterEffects = "442_plasma_impact";
@@ -208,7 +201,6 @@ class 442_ammo_shotgun_base: 442_shotgun_base
 	deflecting = 30;
 	indirectHit = 2;
 	indirectHitRange = 0.4;
-	model="";
 	//effectfly="442_plasma_blue";
 	//ExplosionEffects="442_plasma_impact";
 	//cratereffects = "442_plasma_impact";
@@ -235,8 +227,6 @@ class 442_ammo_shotgun_base: 442_shotgun_base
 };
 class 442_ammo_40mm_base: GrenadeBase
 {
-	
-	model="";
 	lightcolor[]={0.25,0.25,0.5};
 	flaresize=5;
 	tracerscale=1;
@@ -348,7 +338,6 @@ class 442_ammo_127x33_base: 442_ammo_base
 	tracerScale = 0.5;
 	airLock = 1;
 	typicalSpeed = 420;
-	model="";
 	//effectfly="442_plasma_blue";
 	//ExplosionEffects="442_plasma_impact";
 	//cratereffects = "442_plasma_impact";
@@ -371,7 +360,6 @@ class 442_ammo_127x108_base: 442_ammo_base
 	airLock = 1;
 	caliber = 2.8;
 	typicalSpeed = 820;
-	model="";
 	//effectfly="442_plasma_blue";
 	//ExplosionEffects="442_plasma_impact";
 	//cratereffects = "442_plasma_impact";
@@ -426,7 +414,6 @@ class 442_ammo_338_base: 442_ammo_base
 		660.4, 
 		711.2
 	};
-	model="";
 	//effectfly="442_plasma_blue";
 	//ExplosionEffects="442_plasma_impact";
 	//cratereffects = "442_plasma_impact";
@@ -447,7 +434,6 @@ class 442_ammo_127x108_oc_base: GrenadeBase
 	ExplosionEffects="442_plasma_he_impact";
 	CraterEffects = "442_plasma_he_impact";
 	submunitionammo="ammo_Penetrator_Titan_AT";
-	model="";
 	lightcolor[]={0.25,0.25,0.5};
 	deflecting=0;
 	warheadName="HE";
@@ -529,7 +515,6 @@ class 442_ammo_at_base: 442_ammo_127x108_oc_base
 
 class 442_35mm_AA_base: ammo_AAA_Gun35mm_AA
 {
-    model = "";
     tracerScale = 2;
     tracerStartTime = 0.05;
     tracerEndTime = 2;
@@ -538,7 +523,6 @@ class 442_35mm_AA_base: ammo_AAA_Gun35mm_AA
 
 class 442_50mm_he_base: Cannon_30mm_HE_Plane_CAS_02_F
 {
-    model="";
     // effectfly="SWLW_plasma_blue";
     flaresize=3;
     tracerscale=3;
@@ -553,7 +537,6 @@ class 442_50mm_he_base: Cannon_30mm_HE_Plane_CAS_02_F
 };
 class 442_50mm_apfsds_base: Cannon_30mm_HE_Plane_CAS_02_F
 {
-    model="";
     // effectfly="SWLW_plasma_blue";
     flaresize=3;
     tracerscale=3;
@@ -571,7 +554,6 @@ class 442_75mm_ap_base: Sh_105mm_APFSDS_T_Green
 {
     caliber = 18;
     hit = 350;
-    model="";
     // effectfly="442_plasma_red";
     flaresize=10;
     tracerscale=2;
@@ -583,7 +565,6 @@ class 442_75mm_he_base: Sh_120mm_HE
     indirectHitRange=3;
     hit=150;
     explosive=0.89999998;
-    model="";
     // effectfly="442_plasma_red";
     flaresize=10;
     tracerscale=2;

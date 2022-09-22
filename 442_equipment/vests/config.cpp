@@ -454,7 +454,7 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest1.p3d";
-            containerclass = "Supply40";
+            containerclass = "Supply100";
 			mass = 1;
         };
     };
@@ -464,7 +464,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest2.p3d";
-            containerclass = "Supply100";
 			mass = 5;
         };
     };
@@ -474,7 +473,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest3.p3d";
-            containerclass = "Supply100";
 			mass = 5;
         };
     };
@@ -484,7 +482,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest2.p3d";
-            containerclass = "Supply100";
 			mass = 5;
         };
     };
@@ -494,7 +491,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest5.p3d";
-            containerclass = "Supply100";
 			mass = 5;
         };
     };
@@ -504,7 +500,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest6.p3d";
-            containerclass = "Supply70";
 			mass = 5;
         };
     };
@@ -514,7 +509,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest7.p3d";
-            containerclass = "Supply100";
 			mass = 5;
         };
     };
@@ -524,7 +518,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest8.p3d";
-            containerclass = "Supply70";
 			mass = 5;
         };
     };
@@ -534,7 +527,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest9.p3d";
-            containerclass = "Supply100";
 			mass = 5;
         };
     };
@@ -544,7 +536,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest10.p3d";
-            containerclass = "Supply100";
 			mass = 5;
         };
     };
@@ -570,7 +561,7 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest1.p3d";
-            containerclass = "Supply140";
+            containerclass = "Supply200";
 			mass = 50;
         };
     };
@@ -580,7 +571,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest2.p3d";
-            containerclass = "Supply200";
 			mass = 55;
         };
     };
@@ -590,7 +580,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest3.p3d";
-            containerclass = "Supply200";
 			mass = 55;
         };
     };
@@ -600,7 +589,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest2.p3d";
-            containerclass = "Supply200";
 			mass = 55;
         };
     };
@@ -610,7 +598,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest5.p3d";
-            containerclass = "Supply200";
 			mass = 55;
         };
     };
@@ -620,7 +607,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest6.p3d";
-            containerclass = "Supply170";
 			mass = 53;
         };
     };
@@ -630,7 +616,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest7.p3d";
-            containerclass = "Supply200";
 			mass = 55;
         };
     };
@@ -640,7 +625,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest8.p3d";
-            containerclass = "Supply170";
 			mass = 53;
         };
     };
@@ -650,7 +634,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest9.p3d";
-            containerclass = "Supply200";
 			mass = 55;
         };
     };
@@ -660,7 +643,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest10.p3d";
-            containerclass = "Supply200";
 			mass = 55;
         };
     };
@@ -685,7 +667,7 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest1.p3d";
-            containerclass = "Supply60";
+            containerclass = "Supply120";
 			mass = 40;
         };
     };
@@ -695,7 +677,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest2.p3d";
-            containerclass = "Supply120";
 			mass = 45;
         };
     };
@@ -705,7 +686,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest3.p3d";
-            containerclass = "Supply120";
 			mass = 45;
         };
     };
@@ -715,7 +695,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest2.p3d";
-            containerclass = "Supply120";
 			mass = 45;
         };
     };
@@ -725,7 +704,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest5.p3d";
-            containerclass = "Supply120";
 			mass = 45;
         };
     };
@@ -735,7 +713,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest6.p3d";
-            containerclass = "Supply90";
 			mass = 45;
         };
     };
@@ -745,7 +722,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest7.p3d";
-            containerclass = "Supply120";
 			mass = 45;
         };
     };
@@ -755,7 +731,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest8.p3d";
-            containerclass = "Supply90";
 			mass = 45;
         };
     };
@@ -765,7 +740,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest9.p3d";
-            containerclass = "Supply120";
 			mass = 45;
         };
     };
@@ -775,7 +749,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest10.p3d";
-            containerclass = "Supply120";
 			mass = 45;
         };
     };
@@ -796,7 +769,7 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest1.p3d";
-            containerclass = "Supply60";
+            containerclass = "Supply120";
 			mass = 30;
         };
     };
@@ -806,7 +779,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest2.p3d";
-            containerclass = "Supply120";
 			mass = 30;
         };
     };
@@ -816,7 +788,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest3.p3d";
-            containerclass = "Supply120";
 			mass = 30;
         };
     };
@@ -826,7 +797,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest2.p3d";
-            containerclass = "Supply120";
 			mass = 30;
         };
     };
@@ -836,7 +806,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest5.p3d";
-            containerclass = "Supply120";
 			mass = 30;
         };
     };
@@ -846,7 +815,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest6.p3d";
-            containerclass = "Supply90";
 			mass = 30;
         };
     };
@@ -856,7 +824,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest7.p3d";
-            containerclass = "Supply120";
 			mass = 30;
         };
     };
@@ -866,7 +833,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest8.p3d";
-            containerclass = "Supply90";
 			mass = 30;
         };
     };
@@ -876,7 +842,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest9.p3d";
-            containerclass = "Supply120";
 			mass = 30;
         };
     };
@@ -886,7 +851,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest10.p3d";
-            containerclass = "Supply120";
 			mass = 30;
         };
     };
@@ -907,7 +871,7 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest1.p3d";
-            containerclass = "Supply60";
+            containerclass = "Supply120";
 			mass = 30;
         };
     };
@@ -917,7 +881,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest2.p3d";
-            containerclass = "Supply120";
 			mass = 30;
         };
     };
@@ -927,7 +890,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest3.p3d";
-            containerclass = "Supply120";
 			mass = 30;
         };
     };
@@ -937,7 +899,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest2.p3d";
-            containerclass = "Supply120";
 			mass = 30;
         };
     };
@@ -947,7 +908,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest5.p3d";
-            containerclass = "Supply120";
 			mass = 30;
         };
     };
@@ -957,7 +917,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest6.p3d";
-            containerclass = "Supply90";
 			mass = 30;
         };
     };
@@ -967,7 +926,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest7.p3d";
-            containerclass = "Supply120";
 			mass = 30;
         };
     };
@@ -977,7 +935,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest8.p3d";
-            containerclass = "Supply90";
 			mass = 30;
         };
     };
@@ -987,7 +944,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest9.p3d";
-            containerclass = "Supply120";
 			mass = 30;
         };
     };
@@ -997,7 +953,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest10.p3d";
-            containerclass = "Supply120";
 			mass = 30;
         };
     };
@@ -1017,7 +972,7 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest1.p3d";
-            containerclass = "Supply40";
+            containerclass = "Supply100";
 			mass = 20;
         };
     };
@@ -1027,7 +982,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest2.p3d";
-            containerclass = "Supply100";
 			mass = 20;
         };
     };
@@ -1037,7 +991,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest3.p3d";
-            containerclass = "Supply100";
 			mass = 20;
         };
     };
@@ -1047,7 +1000,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest2.p3d";
-            containerclass = "Supply100";
 			mass = 20;
         };
     };
@@ -1057,7 +1009,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest5.p3d";
-            containerclass = "Supply100";
 			mass = 20;
         };
     };
@@ -1067,7 +1018,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest6.p3d";
-            containerclass = "Supply100";
 			mass = 20;
         };
     };
@@ -1077,7 +1027,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest7.p3d";
-            containerclass = "Supply100";
 			mass = 20;
         };
     };
@@ -1087,7 +1036,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest8.p3d";
-            containerclass = "Supply70";
 			mass = 20;
         };
     };
@@ -1097,7 +1045,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest9.p3d";
-            containerclass = "Supply100";
 			mass = 20;
         };
     };
@@ -1107,7 +1054,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest10.p3d";
-            containerclass = "Supply100";
 			mass = 20;
         };
     };
@@ -1127,7 +1073,7 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest1.p3d";
-            containerclass = "Supply40";
+            containerclass = "Supply100";
 			mass = 30;
         };
     };
@@ -1137,7 +1083,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest2.p3d";
-            containerclass = "Supply100";
 			mass = 30;
         };
     };
@@ -1147,7 +1092,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest3.p3d";
-            containerclass = "Supply100";
 			mass = 30;
         };
     };
@@ -1157,7 +1101,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest2.p3d";
-            containerclass = "Supply100";
 			mass = 30;
         };
     };
@@ -1167,7 +1110,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest5.p3d";
-            containerclass = "Supply100";
 			mass = 30;
         };
     };
@@ -1177,7 +1119,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest6.p3d";
-            containerclass = "Supply70";
 			mass = 30;
         };
     };
@@ -1187,7 +1128,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest7.p3d";
-            containerclass = "Supply100";
 			mass = 30;
         };
     };
@@ -1197,7 +1137,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest8.p3d";
-            containerclass = "Supply70";
 			mass = 30;
         };
     };
@@ -1207,7 +1146,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest9.p3d";
-            containerclass = "Supply100";
 			mass = 30;
         };
     };
@@ -1217,7 +1155,6 @@ class cfgweapons
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest10.p3d";
-            containerclass = "Supply100";
 			mass = 30;
         };
     };
@@ -1250,11 +1187,6 @@ class cfgweapons
                 {
                     hitpointName = "HitAbdomen";
                     armor = 1;
-                    passThrough = 0.3;
-                };
-                class Body
-                {
-                    hitpointName = "HitBody";
                     passThrough = 0.3;
                 };
             };

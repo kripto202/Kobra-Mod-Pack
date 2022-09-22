@@ -545,7 +545,7 @@
 	};
 	class k_ls_44_vest: k_ls_44_vest_base
 	{
-		scope = 2;
+		scope = 1;
 		scopeCurator = 2;
 		scopeArsenal = 2;
 	};
@@ -553,7 +553,7 @@
 	class k_ls_44_airborne_vest_1: k_ls_44_airborne_vest_base
 	{
 		displayname = "[44/LS] Clone trooper airborne vest 1";
-		scope = 2;
+		scope = 1;
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		hiddenselectionstextures[] = 
@@ -598,7 +598,7 @@
 
 	class k_ls_44_medic_vest: k_ls_44_medic_vest_base
 	{
-		scope = 2;
+		scope = 1;
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		hiddenselectionstextures[] = 
@@ -609,7 +609,7 @@
 
 	class k_ls_44_cfr_vest: k_ls_44_cfr_vest_base
 	{
-		scope = 2;
+		scope = 1;
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		hiddenselectionstextures[] = 
@@ -621,7 +621,7 @@
 	class k_ls_44_recon_vest_1: k_ls_44_recon_vest_base
 	{
 		displayname = "[44/LS] Clone trooper Recon vest 1";
-		scope = 2;
+		scope = 1;
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		hiddenselectionstextures[] = 
@@ -635,7 +635,7 @@
 	class k_ls_44_arc_plate: k_ls_44_arc_vest_base
 	{
 		displayname = "[44/LS] Clone trooper arc plates";
-		scope = 2;
+		scope = 1;
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		hiddenselectionstextures[] = 
@@ -647,7 +647,7 @@
 	class k_ls_44_assault_vest_1: k_ls_44_assault_vest_base
 	{
 		displayname = "[44/LS] Clone trooper assault vest 1";
-		scope = 2;
+		scope = 1;
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		hiddenselectionstextures[] = 
@@ -660,7 +660,7 @@
 	class k_ls_44_grenadier_vest_1: k_ls_44_grenadier_vest_base
 	{
 		displayname = "[44/LS] Clone trooper grenadier vest 1";
-		scope = 2;
+		scope = 1;
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		hiddenselectionstextures[] = 
@@ -673,7 +673,7 @@
 	class k_ls_44_specialist_vest_1: k_ls_44_specialist_vest_base
 	{
 		displayname = "[44/LS] Clone trooper specialist vest 1";
-		scope = 2;
+		scope = 1;
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		hiddenselectionstextures[] = 
@@ -686,7 +686,7 @@
 	class k_ls_44_airborne_cfr_vest_1: k_ls_44_airborne_cfr_vest_base
 	{
 		displayname = "[44/LS] Clone airborne CFR vest 1";
-		scope = 2;
+		scope = 1;
 		scopearsenal = 2;
 		scopecurator = 2;
 		hiddenselectionstextures[] = 
@@ -700,7 +700,7 @@
 	class k_ls_44_airborne_cfr_vest_2: k_ls_44_airborne_cfr_vest_base
 	{
 		displayname = "[44/LS] Clone airborne CFR vest 2";
-		scope = 2;
+		scope = 1;
 		scopearsenal = 2;
 		scopecurator = 2;
 		hiddenselectionstextures[] = 
@@ -715,7 +715,7 @@
 	class k_ls_44_airborne_light_vest_1: k_ls_44_airborne_light_vest_base
 	{
 		displayname = "[44/LS] Clone airborne light vest 1";
-		scope = 2;
+		scope = 1;
 		scopearsenal = 2;
 		scopecurator = 2;
 		hiddenselectionstextures[] = 
@@ -729,7 +729,7 @@
 	class k_ls_44_airborne_light_vest_2: k_ls_44_airborne_light_vest_base
 	{
 		displayname = "[44/LS] Clone airborne light vest 2";
-		scope = 2;
+		scope = 1;
 		scopearsenal = 2;
 		scopecurator = 2;
 		hiddenselectionstextures[] = 
@@ -744,7 +744,7 @@
 	class k_ls_44_arf_vest_1: k_ls_44_arf_vest_base
 	{
 		displayname = "[44/LS] Clone arf vest 1";
-		scope = 2;
+		scope = 1;
 		scopearsenal = 2;
 		scopecurator = 2;
 		hiddenselectionstextures[] = 
@@ -758,7 +758,7 @@
 	class k_ls_44_heavy_vest_1: k_ls_44_heavy_vest_base
 	{
 		displayname = "[44/LS] Clone heavy vest 1";
-		scope = 2;
+		scope = 1;
 		scopearsenal = 2;
 		scopecurator = 2;
 		hiddenselectionstextures[] = 
@@ -773,7 +773,7 @@
 	class k_ls_44_heavy_vest_2: k_ls_44_heavy_vest_base
 	{
 		displayname = "[44/LS] Clone heavy vest 2";
-		scope = 2;
+		scope = 1;
 		scopearsenal = 2;
 		scopecurator = 2;
 		hiddenselectionstextures[] = 
@@ -789,7 +789,7 @@
 	class k_ls_44_heavy_gunner_vest_1: k_ls_44_heavy_gunner_vest_base
 	{
 		displayname = "[44/LS] Clone heavy gunner vest 1";
-		scope = 2;
+		scope = 1;
 		scopearsenal = 2;
 		scopecurator = 2;
 		hiddenselectionstextures[] = 
@@ -805,7 +805,7 @@
 	class k_ls_44_heavy_gunner_vest_2: k_ls_44_heavy_gunner_vest_base
 	{
 		displayname = "[44/LS] Clone heavy gunner vest 2";
-		scope = 2;
+		scope = 1;
 		scopearsenal = 2;
 		scopecurator = 2;
 		hiddenselectionstextures[] = 
@@ -822,7 +822,7 @@
 	class k_ls_44_recon_survival_vest_1: k_ls_44_recon_survival_vest_base
 	{
 		displayName="[44/LS] Clone recon survival vest 1";
-		scope = 2;
+		scope = 1;
 		scopearsenal = 2;
 		scopecurator = 2;
 		hiddenselectionstextures[] = 
@@ -838,7 +838,7 @@
 	class k_ls_44_force_recon_vest_1: k_ls_44_force_recon_vest_base
 	{
 		displayName="[44/LS] Clone force recon vest 1";
-		scope = 2;
+		scope = 1;
 		scopearsenal = 2;
 		scopecurator = 2;
 		hiddenselectionstextures[] = 
@@ -850,7 +850,7 @@
 	class k_ls_44_force_recon_vest_2: k_ls_44_force_recon_vest_base
 	{
 		displayName="[44/LS] Clone force recon vest 2";
-		scope = 2;
+		scope = 1;
 		scopearsenal = 2;
 		scopecurator = 2;
 		hiddenselectionstextures[] = 
@@ -863,7 +863,7 @@
 	class k_ls_44_force_recon_nco_vest_1: k_ls_44_force_recon_nco_vest_base
 	{
 		displayName="[44/LS] Clone force recon nco vest 1";
-		scope = 2;
+		scope = 1;
 		scopearsenal = 2;
 		scopecurator = 2;
 		hiddenselectionstextures[] = 

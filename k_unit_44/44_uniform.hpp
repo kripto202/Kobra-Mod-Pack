@@ -2,7 +2,7 @@
 	class k_ls_44_uniform: k_ls_uniform
 	{
 		displayname = "[44/LS] Clone Trooper Uniform";
-		scope = 2;
+		scope = 1;
 		//picture = "44_swla\data\ui\preview\44_body.paa";
 		class ItemInfo: UniformItem
 		{
@@ -16,7 +16,7 @@
     class k_ls_44_uniform_mc: k_ls_mc_uniform
 	{
 		displayname = "[44/LS] Clone Marshall Commander Uniform";
-		scope = 2;
+		scope = 1;
 		//picture = "44_swla\data\ui\preview\44_body_mc.paa";
 		class ItemInfo: UniformItem
 		{
