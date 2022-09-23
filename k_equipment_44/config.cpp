@@ -23,6 +23,7 @@ class cfgpatches
             "k_clone_unit_Ditch_44",
             "k_commando_unit_Lore_44",
             "k_clone_huge_backpack_rocket_titania_44",
+            "k_clone_large_backpack_pouches_smith_44",
             "k_jt12_radio_garrus_44",
             "k_jt12_radio_ivanov_44"
         };
@@ -100,6 +101,7 @@ class CfgWeapons
     class k_commando_vest19_44;
     class k_hunter_Helmet;
     class k_clone_basic_vest7;
+    class k_clone_heavy_vest_base;
 
     class k_barc_helmet_Kripto_44: k_barc_helmet
     {
@@ -790,7 +792,7 @@ class CfgWeapons
         };
     };
 
-    class k_hunter_Helmet_ditch_44: k_hunter_Helmet
+    class k_hunter_Helmet_Ditch_44: k_hunter_Helmet
     {
         displayname = "[44/K/C] Hunter's Helmet (Ditch)";
         hiddenselectionstextures[] = 
@@ -799,7 +801,7 @@ class CfgWeapons
             "kobra\k_equipment_44\data\ditch\hunter_helmet_co.paa",
         };
     };
-    class k_clone_basic_vest7_ditch_44: k_clone_basic_vest7
+    class k_clone_basic_vest7_Ditch_44: k_clone_basic_vest7
     {
         displayname = "[44/K/C] Clone Basic Vest (Ditch)";
         hiddenselectionstextures[] = 
@@ -807,12 +809,75 @@ class CfgWeapons
             "kobra\442_equipment\vests\data\clone\unit_designs\44ab\clone_belt_co.paa"
         };
     };
-    class k_clone_uniform_ditch_44: k_clone_uniform
+    class k_clone_uniform_Ditch_44: k_clone_uniform
     {
         displayname = "[44/K/C] Clone Trooper Armor (Ditch)";
         class ItemInfo: ItemInfo
         {
             uniformclass = "k_clone_unit_Ditch_44";
+        };
+    };
+
+    class k_hunter_Helmet_Smith_44: k_hunter_Helmet
+    {
+        displayname = "[44/K/C] Hunter's Helmet (Smith)";
+        hiddenselectionsmaterials[] = 
+		{
+			"kobra\442_equipment\helmets\data\hunter_helmet\helmet.rvmat",
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\hunter_visor.rvmat"
+		};
+        hiddenselectionstextures[] = 
+        {
+            "kobra\k_equipment_44\data\smith\hunter_helmet_co.paa",
+            "kobra\k_equipment_44\data\smith\hunter_helmet_co.paa",
+        };
+    };
+    class k_clone_basic_vest_Smith_44: k_clone_heavy_vest_base
+    {
+        displayname = "[44/K/C] Clone Vest (Smith)";
+        scope = 2;
+        scopecurator = 2;
+        scopearsenal = 2;
+        hiddenselections[] = 
+        {
+            "belt",
+            "arc_plates",
+			"kama",
+			"pauldron",
+			"leg_pouch",
+			"arc_pouch"
+        };
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\vests\data\clone\unit_designs\44ab\clone_belt_co.paa",
+            "kobra\k_equipment_44\data\smith\arc_plates_co.paa",
+            "kobra\k_equipment_44\data\smith\kama_co.paa",
+            "kobra\k_equipment_44\data\smith\arc_pauldron_co.paa",
+            "kobra\442_equipment\vests\data\clone\leg_pouch_co.paa",
+            "kobra\442_equipment\vests\data\clone\arc_pouch_co.paa"
+        };
+        class ItemInfo: ItemInfo
+        {
+            hiddenselections[] = 
+            {
+                "belt",
+                "arc_plates",
+                "kama",
+                "pauldron",
+                "leg_pouch",
+                "arc_pouch"
+            };
+            containerclass = "Supply120";
+            mass = 40;
+            uniformmodel = "kobra\k_equipment_44\model\k_smith_vest.p3d";
+        };
+    };
+    class k_clone_uniform_Smith_44: k_clone_uniform
+    {
+        displayname = "[44/K/C] Clone Trooper Armor (Smith)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_clone_unit_Smith_44";
         };
     };
 };
@@ -948,6 +1013,16 @@ class CfgVehicles
             "kobra\k_equipment_44\data\ditch\lower_armor_co.paa"
         };
     };
+    class k_clone_unit_Smith_44: k_clone_unit
+    {
+        displayname = "Clone Trooper";
+        uniformclass = "k_clone_uniform_Smith_44";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\k_equipment_44\data\smith\upper_armor_co.paa",
+            "kobra\k_equipment_44\data\smith\lower_armor_co.paa"
+        };
+    };
 
     class k_clone_huge_backpack_rocket_titania_44: k_clone_huge_backpack_rocket_44
 	{
@@ -965,6 +1040,31 @@ class CfgVehicles
         tf_range=20000;
         tf_subtype="digital_lr";
 	};
+    class k_clone_large_backpack_pouch;
+    class k_clone_large_backpack_pouches_smith_44: k_clone_large_backpack_pouch 
+    {
+        displayname = "[44/K/C] Clone Troopoer Large Backpack w/ Pouches (Smith)";
+        model = "kobra\k_equipment_44\model\k_large_backpack_comms.p3d";
+        mass = 56;
+        hiddenselections[] = 
+        {
+            "backpack",
+            "cover",
+            "pouches"
+        };
+        hiddenselectionstextures[] = 
+        {
+            "kobra\k_equipment_44\data\smith\large_backpack_co.paa",
+            "kobra\442_equipment\backpack\data\large\large_backpack_cover_co.paa",
+            "kobra\k_equipment_44\data\smith\large_backpack_pouches_co.paa"
+        };
+        tf_dialog = "mr6000l_radio_dialog";
+        tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
+        tf_encryptionCode="tf_west_radio_code";
+        tf_hasLRradio=1;
+        tf_range=20000;
+        tf_subtype="digital_lr";
+    };
 
     class k_jt12_radio_garrus_44: 442_jt12_radio
 	{
