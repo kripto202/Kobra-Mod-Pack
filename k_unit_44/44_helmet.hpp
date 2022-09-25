@@ -17,8 +17,8 @@
 	{
 		displayname = "[44/LS] P1.5 Helmet";
 		scope = 1;
-		scopecurator = 2;
-		scopearsenal = 2;
+		scopecurator = 1;
+		scopearsenal = 1;
 		picture = "kobra\k_unit_44\data\ui\44_p15_helmet.paa";
 		/*hiddenselectionsmaterials[] = 
 		{
@@ -37,8 +37,8 @@
 	{
 		displayname = "[44/LS] Airborne Helmet";
 		scope = 1;
-		scopecurator = 2;
-		scopearsenal = 2;
+		scopecurator = 1;
+		scopearsenal = 1;
 		picture = "kobra\k_unit_44\data\ui\44_ab_helmet.paa";
 		hiddenselectionstextures[]=
 		{
@@ -55,8 +55,8 @@
 	{
 		displayname = "[44/LS] P2 Pilot Helmet";
 		scope = 1;
-		scopecurator = 2;
-		scopearsenal = 2;
+		scopecurator = 1;
+		scopearsenal = 1;
 		picture = "kobra\k_unit_44\data\ui\44_pilot_p2_helmet.paa";
 		hiddenselectionsmaterials[] = 
 		{
@@ -73,8 +73,8 @@
 	{
 		displayname = "[44/LS] BARC Helmet";
 		scope = 1;
-		scopecurator = 2;
-		scopearsenal = 2;
+		scopecurator = 1;
+		scopearsenal = 1;
 		picture = "kobra\k_unit_44\data\ui\44_barc_helmet.paa";
 		hiddenselectionstextures[]=
 		{
@@ -91,8 +91,8 @@
 	{
 		displayname = "[44/LS] P1 ARF Helmet";
 		scope = 1;
-		scopecurator = 2;
-		scopearsenal = 2;
+		scopecurator = 1;
+		scopearsenal = 1;
 		picture = "kobra\k_unit_44\data\ui\44_arf_p1_helmet.paa";
 		hiddenselectionstextures[]=
 		{
@@ -111,8 +111,8 @@
 	{
 		displayname = "[44/LS] P1 ARF Helmet (Flaps)";
 		scope = 1;
-		scopecurator = 2;
-		scopearsenal = 2;
+		scopecurator = 1;
+		scopearsenal = 1;
 		picture = "kobra\k_unit_44\data\ui\44_arf_p2_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
@@ -131,8 +131,8 @@
 	{
 		displayname = "[44/LS] Engineer Helmet";
 		scope = 1;
-		scopecurator = 2;
-		scopearsenal = 2;
+		scopecurator = 1;
+		scopearsenal = 1;
 		picture = "kobra\k_unit_44\data\ui\44_eng_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
@@ -151,8 +151,8 @@
 	{
 		displayname = "[44/LS] P1 Helmet";
 		scope = 1;
-		scopecurator = 2;
-		scopearsenal = 2;
+		scopecurator = 1;
+		scopearsenal = 1;
 		picture = "kobra\k_unit_44\data\ui\44_p1_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
@@ -171,8 +171,8 @@
 	{
 		displayname = "[44/LS] P1 Pilot Helmet";
 		scope = 1;
-		scopecurator = 2;
-		scopearsenal = 2;
+		scopecurator = 1;
+		scopearsenal = 1;
 		picture = "kobra\k_unit_44\data\ui\44_pilot_p1_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
@@ -191,8 +191,8 @@
 	{
 		displayname = "[44/LS] P1 SpecOp Helmet";
 		scope = 1;
-		scopecurator = 2;
-		scopearsenal = 2;
+		scopecurator = 1;
+		scopearsenal = 1;
 		picture = "kobra\k_unit_44\data\ui\44_spec_p1_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
@@ -209,8 +209,8 @@
 	{
 		displayname = "[44/LS] P2 SpecOp Helmet";
 		scope = 1;
-		scopecurator = 2;
-		scopearsenal = 2;
+		scopecurator = 1;
+		scopearsenal = 1;
 		picture = "kobra\k_unit_44\data\ui\44_spec_p2_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
@@ -227,8 +227,8 @@
 	{
 		displayname = "[44/LS] P2 Rex Helmet";
 		scope = 1;
-		scopecurator = 2;
-		scopearsenal = 2;
+		scopecurator = 1;
+		scopearsenal = 1;
 		picture = "kobra\k_unit_44\data\ui\44_rex_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
@@ -246,8 +246,8 @@
 	{
 		displayname = "[K/44] Scout Helmet";
 		scope = 1;
-		scopecurator = 2;
-		scopearsenal = 2;
+		scopecurator = 1;
+		scopearsenal = 1;
 		picture = "kobra\k_unit_44\data\ui\44_scout_helmet.paa";
 		hiddenselectionstextures[] = 
 		{
@@ -264,8 +264,8 @@
 	{
 		displayname = "[K/44] Hunter Helmet";
 		scope = 1;
-		scopecurator = 2;
-		scopearsenal = 2;
+		scopecurator = 1;
+		scopearsenal = 1;
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\helmets\44_hunter_helmet_co.paa",
@@ -281,8 +281,8 @@
 	{
 		displayname = "[K/44] Crosshair Helmet";
 		scope = 1;
-		scopecurator = 2;
-		scopearsenal = 2;
+		scopecurator = 1;
+		scopearsenal = 1;
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\helmets\44_crosshair_helmet_co.paa",
@@ -298,8 +298,8 @@
 	{
 		displayname = "[K/44] Wrecker Helmet";
 		scope = 1;
-		scopecurator = 2;
-		scopearsenal = 2;
+		scopecurator = 1;
+		scopearsenal = 1;
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\helmets\44_wrecker_helmet_co.paa",
@@ -315,8 +315,8 @@
 	{
 		displayname = "[K/44] Tech Helmet";
 		scope = 1;
-		scopecurator = 2;
-		scopearsenal = 2;
+		scopecurator = 1;
+		scopearsenal = 1;
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\helmets\44_tech_helmet_co.paa"

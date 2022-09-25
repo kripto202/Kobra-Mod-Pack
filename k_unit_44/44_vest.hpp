@@ -546,16 +546,16 @@
 	class k_ls_44_vest: k_ls_44_vest_base
 	{
 		scope = 1;
-		scopeCurator = 2;
-		scopeArsenal = 2;
+		scopeCurator = 1;
+		scopearsenal = 1;
 	};
 
 	class k_ls_44_airborne_vest_1: k_ls_44_airborne_vest_base
 	{
 		displayname = "[44/LS] Clone trooper airborne vest 1";
 		scope = 1;
-		scopeCurator = 2;
-		scopeArsenal = 2;
+		scopeCurator = 1;
+		scopearsenal = 1;
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\vests\44_vest_2_1.paa",
@@ -599,8 +599,8 @@
 	class k_ls_44_medic_vest: k_ls_44_medic_vest_base
 	{
 		scope = 1;
-		scopeCurator = 2;
-		scopeArsenal = 2;
+		scopeCurator = 1;
+		scopearsenal = 1;
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\vests\44_vest_2_m.paa"
@@ -610,8 +610,8 @@
 	class k_ls_44_cfr_vest: k_ls_44_cfr_vest_base
 	{
 		scope = 1;
-		scopeCurator = 2;
-		scopeArsenal = 2;
+		scopeCurator = 1;
+		scopearsenal = 1;
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\vests\44_vest_2_1.paa"
@@ -622,8 +622,8 @@
 	{
 		displayname = "[44/LS] Clone trooper Recon vest 1";
 		scope = 1;
-		scopeCurator = 2;
-		scopeArsenal = 2;
+		scopeCurator = 1;
+		scopearsenal = 1;
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\vests\44_vest_2_1.paa",
@@ -636,8 +636,8 @@
 	{
 		displayname = "[44/LS] Clone trooper arc plates";
 		scope = 1;
-		scopeCurator = 2;
-		scopeArsenal = 2;
+		scopeCurator = 1;
+		scopearsenal = 1;
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\vests\44_arc_vest.paa",
@@ -648,8 +648,8 @@
 	{
 		displayname = "[44/LS] Clone trooper assault vest 1";
 		scope = 1;
-		scopeCurator = 2;
-		scopeArsenal = 2;
+		scopeCurator = 1;
+		scopearsenal = 1;
 		hiddenselectionstextures[] = 
 		{
 			"SWLB_clones\data\light_accessories_co.paa",
@@ -661,8 +661,8 @@
 	{
 		displayname = "[44/LS] Clone trooper grenadier vest 1";
 		scope = 1;
-		scopeCurator = 2;
-		scopeArsenal = 2;
+		scopeCurator = 1;
+		scopearsenal = 1;
 		hiddenselectionstextures[] = 
 		{
 			"SWLB_clones\data\light_accessories_co.paa",
@@ -674,8 +674,8 @@
 	{
 		displayname = "[44/LS] Clone trooper specialist vest 1";
 		scope = 1;
-		scopeCurator = 2;
-		scopeArsenal = 2;
+		scopeCurator = 1;
+		scopearsenal = 1;
 		hiddenselectionstextures[] = 
 		{
 			"SWLB_clones\data\light_accessories_co.paa",
@@ -687,8 +687,8 @@
 	{
 		displayname = "[44/LS] Clone airborne CFR vest 1";
 		scope = 1;
-		scopearsenal = 2;
-		scopecurator = 2;
+		scopearsenal = 1;
+		scopeCurator = 1;
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\vests\44_vest_2_1.paa",
@@ -701,8 +701,8 @@
 	{
 		displayname = "[44/LS] Clone airborne CFR vest 2";
 		scope = 1;
-		scopearsenal = 2;
-		scopecurator = 2;
+		scopearsenal = 1;
+		scopeCurator = 1;
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\vests\44_vest_2_2.paa",
@@ -716,8 +716,8 @@
 	{
 		displayname = "[44/LS] Clone airborne light vest 1";
 		scope = 1;
-		scopearsenal = 2;
-		scopecurator = 2;
+		scopearsenal = 1;
+		scopeCurator = 1;
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\vests\44_vest_2_1.paa",
@@ -730,8 +730,8 @@
 	{
 		displayname = "[44/LS] Clone airborne light vest 2";
 		scope = 1;
-		scopearsenal = 2;
-		scopecurator = 2;
+		scopearsenal = 1;
+		scopeCurator = 1;
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\vests\44_vest_2_2.paa",
@@ -745,8 +745,8 @@
 	{
 		displayname = "[44/LS] Clone arf vest 1";
 		scope = 1;
-		scopearsenal = 2;
-		scopecurator = 2;
+		scopearsenal = 1;
+		scopeCurator = 1;
 		hiddenselectionstextures[] = 
 		{
 			"SWLB_clones\data\light_accessories_co.paa",
@@ -759,8 +759,8 @@
 	{
 		displayname = "[44/LS] Clone heavy vest 1";
 		scope = 1;
-		scopearsenal = 2;
-		scopecurator = 2;
+		scopearsenal = 1;
+		scopeCurator = 1;
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\vests\44_vest_2_1.paa",
@@ -774,8 +774,8 @@
 	{
 		displayname = "[44/LS] Clone heavy vest 2";
 		scope = 1;
-		scopearsenal = 2;
-		scopecurator = 2;
+		scopearsenal = 1;
+		scopeCurator = 1;
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\vests\44_vest_2_2.paa",
@@ -790,8 +790,8 @@
 	{
 		displayname = "[44/LS] Clone heavy gunner vest 1";
 		scope = 1;
-		scopearsenal = 2;
-		scopecurator = 2;
+		scopearsenal = 1;
+		scopeCurator = 1;
 		hiddenselectionstextures[] = 
 		{
 			"SWLB_clones\data\light_accessories_co.paa",
@@ -806,8 +806,8 @@
 	{
 		displayname = "[44/LS] Clone heavy gunner vest 2";
 		scope = 1;
-		scopearsenal = 2;
-		scopecurator = 2;
+		scopearsenal = 1;
+		scopeCurator = 1;
 		hiddenselectionstextures[] = 
 		{
 			"SWLB_clones\data\light_accessories_co.paa",
@@ -823,8 +823,8 @@
 	{
 		displayName="[44/LS] Clone recon survival vest 1";
 		scope = 1;
-		scopearsenal = 2;
-		scopecurator = 2;
+		scopearsenal = 1;
+		scopeCurator = 1;
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\vests\44_vest_2_1.paa",
@@ -839,8 +839,8 @@
 	{
 		displayName="[44/LS] Clone force recon vest 1";
 		scope = 1;
-		scopearsenal = 2;
-		scopecurator = 2;
+		scopearsenal = 1;
+		scopeCurator = 1;
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\vests\44_vest_2_1.paa",
@@ -851,8 +851,8 @@
 	{
 		displayName="[44/LS] Clone force recon vest 2";
 		scope = 1;
-		scopearsenal = 2;
-		scopecurator = 2;
+		scopearsenal = 1;
+		scopeCurator = 1;
 		hiddenselectionstextures[] = 
 		{
 			"kobra\k_unit_44\data\vests\44_vest_2_2.paa",
@@ -864,8 +864,8 @@
 	{
 		displayName="[44/LS] Clone force recon nco vest 1";
 		scope = 1;
-		scopearsenal = 2;
-		scopecurator = 2;
+		scopearsenal = 1;
+		scopeCurator = 1;
 		hiddenselectionstextures[] = 
 		{
 			"SWLB_clones\data\light_accessories_co.paa",
