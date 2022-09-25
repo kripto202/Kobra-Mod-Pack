@@ -236,7 +236,7 @@ class cfgweapons
 		displayName="[K] Scout Helmet";
 		hiddenSelections[]=
 		{
-			"Camo1",
+			"helmet",
 			"visor"
 		};
 		class ItemInfo: ItemInfo
@@ -244,7 +244,7 @@ class cfgweapons
 			uniformModel="kobra\442_equipment\helmets\model\clone\k_scout_helmet.p3d";
 			hiddenSelections[]=
 			{
-				"Camo1",
+				"helmet",
 				"visor"
 			};
 		};
