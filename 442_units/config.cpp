@@ -637,7 +637,7 @@ class cfgvehicles
 	class k_ARF_Trooper_104th_Wolfpack: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="k_ARF";
+    editorSubCategory="k_ARF";
     side=1;
     displayName="ARF Trooper 104th Wolfpack";
     uniformClass="k_clone_uniform_104thWolfpack";
@@ -655,7 +655,7 @@ editorSubCategory="k_ARF";
   class k_ARF_Trooper_104th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="k_ARF";
+    editorSubCategory="k_ARF";
     side=1;
     displayName="ARF Trooper 104th";
     uniformClass="k_clone_uniform_104th";
@@ -673,7 +673,7 @@ editorSubCategory="k_ARF";
   class k_ARF_Trooper_187th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="k_ARF";
+    editorSubCategory="k_ARF";
     side=1;
     displayName="ARF Trooper 187th";
     uniformClass="k_clone_uniform_187th";
@@ -691,7 +691,7 @@ editorSubCategory="k_ARF";
   class k_ARF_Trooper_212th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="k_ARF";
+    editorSubCategory="k_ARF";
     side=1;
     displayName="ARF Trooper 212th";
     uniformClass="k_clone_uniform_212th";
@@ -709,7 +709,7 @@ editorSubCategory="k_ARF";
   class k_ARF_Trooper_327th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="k_ARF";
+    editorSubCategory="k_ARF";
     side=1;
     displayName="ARF Trooper 327th";
     uniformClass="k_clone_uniform_327th";
@@ -727,7 +727,7 @@ editorSubCategory="k_ARF";
   class k_ARF_Trooper: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="k_ARF";
+    editorSubCategory="k_ARF";
     side=1;
     displayName="ARF Trooper";
     uniformClass="k_clone_uniform";
@@ -745,7 +745,7 @@ editorSubCategory="k_ARF";
   class k_ARF_Trooper_332nd: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="k_ARF";
+    editorSubCategory="k_ARF";
     side=1;
     displayName="ARF Trooper 332nd";
     uniformClass="k_clone_uniform_332nd";
@@ -763,7 +763,7 @@ editorSubCategory="k_ARF";
   class k_ARF_Trooper_41st_GC: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="k_ARF";
+    editorSubCategory="k_ARF";
     side=1;
     displayName="ARF Trooper 41st GC";
     uniformClass="k_clone_uniform_41stGC";
@@ -781,7 +781,7 @@ editorSubCategory="k_ARF";
   class k_ARF_Trooper_442nd: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="k_ARF";
+    editorSubCategory="k_ARF";
     side=1;
     displayName="ARF Trooper 442nd";
     uniformClass="k_clone_uniform_442nd";
@@ -799,7 +799,7 @@ editorSubCategory="k_ARF";
   class k_ARF_Trooper_501st: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="k_ARF";
+    editorSubCategory="k_ARF";
     side=1;
     displayName="ARF Trooper 501st";
     uniformClass="k_clone_uniform_501st";
@@ -817,7 +817,7 @@ editorSubCategory="k_ARF";
   class k_ARF_Trooper_612th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="k_ARF";
+    editorSubCategory="k_ARF";
     side=1;
     displayName="ARF Trooper 612th";
     uniformClass="k_clone_uniform_612th";
@@ -835,7 +835,7 @@ editorSubCategory="k_ARF";
   class k_ARF_Trooper_91st: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="k_ARF";
+    editorSubCategory="k_ARF";
     side=1;
     displayName="ARF Trooper 91st";
     uniformClass="k_clone_uniform_91st";
@@ -853,7 +853,7 @@ editorSubCategory="k_ARF";
   class k_ARF_Trooper_Coruscant_Guard: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="k_ARF";
+    editorSubCategory="k_ARF";
     side=1;
     displayName="ARF Trooper Coruscant Guard";
     uniformClass="k_clone_uniform_CG";
@@ -871,7 +871,7 @@ editorSubCategory="k_ARF";
   class k_P1_Pilot: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="k_P1_Pilot";
+    editorSubCategory="k_P1_Pilot";
     side=1;
     displayName="P1 Pilot";
     uniformClass="k_clone_uniform";
@@ -889,7 +889,7 @@ editorSubCategory="k_P1_Pilot";
   class k_P1_Pilot_104th_Wolfpack: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="k_P1_Pilot";
+    editorSubCategory="k_P1_Pilot";
     side=1;
     displayName="P1 Pilot 104th Wolfpack";
     uniformClass="k_clone_uniform_104thWolfpack";
@@ -907,7 +907,7 @@ editorSubCategory="k_P1_Pilot";
   class k_P1_Pilot_104th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="k_P1_Pilot";
+    editorSubCategory="k_P1_Pilot";
     side=1;
     displayName="P1 Pilot 104th";
     uniformClass="k_clone_uniform_104th";
@@ -925,7 +925,7 @@ editorSubCategory="k_P1_Pilot";
   class k_P1_Pilot_187th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="k_P1_Pilot";
+    editorSubCategory="k_P1_Pilot";
     side=1;
     displayName="P1 Pilot 187th";
     uniformClass="k_clone_uniform_187th";
@@ -943,7 +943,7 @@ editorSubCategory="k_P1_Pilot";
   class k_P1_Pilot_212th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="k_P1_Pilot";
+    editorSubCategory="k_P1_Pilot";
     side=1;
     displayName="P1 Pilot 212th";
     uniformClass="k_clone_uniform_212th";
@@ -961,7 +961,7 @@ editorSubCategory="k_P1_Pilot";
   class k_P1_Pilot_327th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="k_P1_Pilot";
+    editorSubCategory="k_P1_Pilot";
     side=1;
     displayName="P1 Pilot 327th";
     uniformClass="k_clone_uniform_327th";
@@ -979,7 +979,7 @@ editorSubCategory="k_P1_Pilot";
   class k_P1_Pilot_41st_GC: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="k_P1_Pilot";
+    editorSubCategory="k_P1_Pilot";
     side=1;
     displayName="P1 Pilot 41st GC";
     uniformClass="k_clone_uniform_41stGC";
@@ -997,7 +997,7 @@ editorSubCategory="k_P1_Pilot";
   class k_P1_Pilot_442nd: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="k_P1_Pilot";
+    editorSubCategory="k_P1_Pilot";
     side=1;
     displayName="P1 Pilot 442nd";
     uniformClass="k_clone_uniform_442nd";
@@ -1015,7 +1015,7 @@ editorSubCategory="k_P1_Pilot";
   class k_P1_Pilot_501st: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="k_P1_Pilot";
+    editorSubCategory="k_P1_Pilot";
     side=1;
     displayName="P1 Pilot 501st";
     uniformClass="k_clone_uniform_501st";
@@ -1033,7 +1033,7 @@ editorSubCategory="k_P1_Pilot";
   class k_P1_Pilot_612th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="k_P1_Pilot";
+    editorSubCategory="k_P1_Pilot";
     side=1;
     displayName="P1 Pilot 612th";
     uniformClass="k_clone_uniform_612th";
@@ -1051,7 +1051,7 @@ editorSubCategory="k_P1_Pilot";
   class k_P1_Pilot_91st: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="k_P1_Pilot";
+    editorSubCategory="k_P1_Pilot";
     side=1;
     displayName="P1 Pilot Coruscant Guard";
     uniformClass="k_clone_uniform_91st";
@@ -1068,7 +1068,7 @@ editorSubCategory="k_P1_Pilot";
   class K_P2_Pilot: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Pilot";
+    editorSubCategory="K_P2_Pilot";
     side=1;
     displayName="P2 Pilot";
     uniformClass="k_clone_uniform";
@@ -1086,7 +1086,7 @@ editorSubCategory="K_P2_Pilot";
   class K_P2_Pilot_104th_Wolfpack: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Pilot";
+    editorSubCategory="K_P2_Pilot";
     side=1;
     displayName="P2 Pilot 104th Wolfpack";
     uniformClass="k_clone_uniform_104thWolfpack";
@@ -1104,7 +1104,7 @@ editorSubCategory="K_P2_Pilot";
   class K_P2_Pilot_104th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Pilot";
+    editorSubCategory="K_P2_Pilot";
     side=1;
     displayName="P2 Pilot 104th";
     uniformClass="k_clone_uniform_104th";
@@ -1122,7 +1122,7 @@ editorSubCategory="K_P2_Pilot";
   class K_P2_Pilot_187th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Pilot";
+    editorSubCategory="K_P2_Pilot";
     side=1;
     displayName="P2 Pilot 187th";
     uniformClass="k_clone_uniform_187th";
@@ -1140,7 +1140,7 @@ editorSubCategory="K_P2_Pilot";
   class K_P2_Pilot_212th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Pilot";
+    editorSubCategory="K_P2_Pilot";
     side=1;
     displayName="P2 Pilot 212th";
     uniformClass="k_clone_uniform_212th";
@@ -1158,7 +1158,7 @@ editorSubCategory="K_P2_Pilot";
   class K_P2_Pilot_327th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Pilot";
+    editorSubCategory="K_P2_Pilot";
     side=1;
     displayName="P2 Pilot 327th";
     uniformClass="k_clone_uniform_327th";
@@ -1176,7 +1176,7 @@ editorSubCategory="K_P2_Pilot";
   class K_P2_Pilot_41st_GC: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Pilot";
+    editorSubCategory="K_P2_Pilot";
     side=1;
     displayName="P2 Pilot 41st GC";
     uniformClass="k_clone_uniform_41stGC";
@@ -1194,7 +1194,7 @@ editorSubCategory="K_P2_Pilot";
   class K_P2_Pilot_442nd: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Pilot";
+    editorSubCategory="K_P2_Pilot";
     side=1;
     displayName="P2 Pilot 442nd";
     uniformClass="k_clone_uniform_442nd";
@@ -1212,7 +1212,7 @@ editorSubCategory="K_P2_Pilot";
   class K_P2_Pilot_501st: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Pilot";
+    editorSubCategory="K_P2_Pilot";
     side=1;
     displayName="P2 Pilot 501st";
     uniformClass="k_clone_uniform_501st";
@@ -1230,7 +1230,7 @@ editorSubCategory="K_P2_Pilot";
   class K_P2_Pilot_612th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Pilot";
+    editorSubCategory="K_P2_Pilot";
     side=1;
     displayName="P2 Pilot 612th";
     uniformClass="k_clone_uniform_612th";
@@ -1248,7 +1248,7 @@ editorSubCategory="K_P2_Pilot";
   class K_P2_Pilot_91st: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Pilot";
+    editorSubCategory="K_P2_Pilot";
     side=1;
     displayName="P2 Pilot 91st";
     uniformClass="k_clone_uniform_91st";
@@ -1266,7 +1266,7 @@ editorSubCategory="K_P2_Pilot";
   class K_P2_Pilot_332nd: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Pilot";
+    editorSubCategory="K_P2_Pilot";
     side=1;
     displayName="P2 Pilot 332nd";
     uniformClass="k_clone_uniform_332nd";
@@ -1284,7 +1284,7 @@ editorSubCategory="K_P2_Pilot";
   class K_P2_Pilot_5th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Pilot";
+    editorSubCategory="K_P2_Pilot";
     side=1;
     displayName="P2 Pilot 5th";
     uniformClass="k_clone_uniform_5th";
@@ -1302,7 +1302,7 @@ editorSubCategory="K_P2_Pilot";
   class K_P2_Pilot_Coruscant_Guard: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Pilot";
+    editorSubCategory="K_P2_Pilot";
     side=1;
     displayName="P2 Pilot Coruscant Guard";
     uniformClass="k_clone_uniform_CG";
@@ -1320,7 +1320,7 @@ editorSubCategory="K_P2_Pilot";
   class K_BARC: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_BARC";
+    editorSubCategory="K_BARC";
     side=1;
     displayName="BARC";
     uniformClass="k_clone_uniform";
@@ -1338,7 +1338,7 @@ editorSubCategory="K_BARC";
   class K_BARC_104th_Wolfpack: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_BARC";
+    editorSubCategory="K_BARC";
     side=1;
     displayName="BARC 104th Wolfpack";
     uniformClass="k_clone_uniform_104thWolfpack";
@@ -1356,7 +1356,7 @@ editorSubCategory="K_BARC";
   class K_BARC_104th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_BARC";
+    editorSubCategory="K_BARC";
     side=1;
     displayName="BARC 104th";
     uniformClass="k_clone_uniform_104th";
@@ -1374,7 +1374,7 @@ editorSubCategory="K_BARC";
   class K_BARC_187th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_BARC";
+    editorSubCategory="K_BARC";
     side=1;
     displayName="BARC 187th";
     uniformClass="k_clone_uniform_187th";
@@ -1392,7 +1392,7 @@ editorSubCategory="K_BARC";
   class K_BARC_212th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_BARC";
+    editorSubCategory="K_BARC";
     side=1;
     displayName="BARC 212th";
     uniformClass="k_clone_uniform_212th";
@@ -1410,7 +1410,7 @@ editorSubCategory="K_BARC";
   class K_BARC_327th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_BARC";
+    editorSubCategory="K_BARC";
     side=1;
     displayName="BARC 327th";
     uniformClass="k_clone_uniform_327th";
@@ -1428,7 +1428,7 @@ editorSubCategory="K_BARC";
   class K_BARC_332nd: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_BARC";
+    editorSubCategory="K_BARC";
     side=1;
     displayName="BARC 332nd";
     uniformClass="k_clone_uniform_332nd";
@@ -1446,7 +1446,7 @@ editorSubCategory="K_BARC";
   class K_BARC_442nd: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_BARC";
+    editorSubCategory="K_BARC";
     side=1;
     displayName="BARC 442nd";
     uniformClass="k_clone_uniform_442nd";
@@ -1464,7 +1464,7 @@ editorSubCategory="K_BARC";
   class K_BARC_501st: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_BARC";
+    editorSubCategory="K_BARC";
     side=1;
     displayName="BARC 501st";
     uniformClass="k_clone_uniform_501st";
@@ -1482,7 +1482,7 @@ editorSubCategory="K_BARC";
   class K_BARC_612th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_BARC";
+    editorSubCategory="K_BARC";
     side=1;
     displayName="BARC 612th";
     uniformClass="k_clone_uniform_612th";
@@ -1500,7 +1500,7 @@ editorSubCategory="K_BARC";
   class K_BARC_91st: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_BARC";
+    editorSubCategory="K_BARC";
     side=1;
     displayName="BARC 91st";
     uniformClass="k_clone_uniform_91st";
@@ -1518,7 +1518,7 @@ editorSubCategory="K_BARC";
   class K_BARC_Coruscant_Guard: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_BARC";
+    editorSubCategory="K_BARC";
     side=1;
     displayName="BARC Coruscant Guard";
     uniformClass="k_clone_uniform_CG";
@@ -1536,7 +1536,7 @@ editorSubCategory="K_BARC";
   class K_ARC: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_ARC_Trooper";
+    editorSubCategory="K_ARC_Trooper";
     side=1;
     displayName="ARC";
     uniformClass="k_clone_uniform";
@@ -1554,7 +1554,7 @@ editorSubCategory="K_ARC_Trooper";
   class K_ARC_104th_Wolfpack: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_ARC_Trooper";
+    editorSubCategory="K_ARC_Trooper";
     side=1;
     displayName="ARC 104th Wolfpack";
     uniformClass="k_clone_uniform_104thWolfpack";
@@ -1572,7 +1572,7 @@ editorSubCategory="K_ARC_Trooper";
   class K_ARC_104th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_ARC_Trooper";
+    editorSubCategory="K_ARC_Trooper";
     side=1;
     displayName="ARC 104th";
     uniformClass="k_clone_uniform_104th";
@@ -1590,7 +1590,7 @@ editorSubCategory="K_ARC_Trooper";
   class K_ARC_187th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_ARC_Trooper";
+    editorSubCategory="K_ARC_Trooper";
     side=1;
     displayName="ARC 187th";
     uniformClass="k_clone_uniform_187th";
@@ -1608,7 +1608,7 @@ editorSubCategory="K_ARC_Trooper";
   class K_ARC_212th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_ARC_Trooper";
+    editorSubCategory="K_ARC_Trooper";
     side=1;
     displayName="ARC 212th";
     uniformClass="k_clone_uniform_212th";
@@ -1626,7 +1626,7 @@ editorSubCategory="K_ARC_Trooper";
   class K_ARC_327th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_ARC_Trooper";
+    editorSubCategory="K_ARC_Trooper";
     side=1;
     displayName="ARC 327th";
     uniformClass="k_clone_uniform_327th";
@@ -1644,7 +1644,7 @@ editorSubCategory="K_ARC_Trooper";
   class K_ARC_332nd: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_ARC_Trooper";
+    editorSubCategory="K_ARC_Trooper";
     side=1;
     displayName="ARC 332nd";
     uniformClass="k_clone_uniform_332nd";
@@ -1662,7 +1662,7 @@ editorSubCategory="K_ARC_Trooper";
   class K_ARC_41st_GC: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_ARC_Trooper";
+    editorSubCategory="K_ARC_Trooper";
     side=1;
     displayName="ARC 41st GC";
     uniformClass="k_clone_uniform_41stGC";
@@ -1680,7 +1680,7 @@ editorSubCategory="K_ARC_Trooper";
   class K_ARC_442nd: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_ARC_Trooper";
+    editorSubCategory="K_ARC_Trooper";
     side=1;
     displayName="ARC 442nd";
     uniformClass="k_clone_uniform_442nd";
@@ -1698,7 +1698,7 @@ editorSubCategory="K_ARC_Trooper";
   class K_ARC_501st: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_ARC_Trooper";
+    editorSubCategory="K_ARC_Trooper";
     side=1;
     displayName="ARC 501st";
     uniformClass="k_clone_uniform_501st";
@@ -1716,7 +1716,7 @@ editorSubCategory="K_ARC_Trooper";
   class K_ARC_612th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_ARC_Trooper";
+    editorSubCategory="K_ARC_Trooper";
     side=1;
     displayName="ARC 612th";
     uniformClass="k_clone_uniform_612th";
@@ -1734,7 +1734,7 @@ editorSubCategory="K_ARC_Trooper";
   class K_ARC_91st: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_ARC_Trooper";
+    editorSubCategory="K_ARC_Trooper";
     side=1;
     displayName="ARC 91st";
     uniformClass="k_clone_uniform_91st";
@@ -1752,7 +1752,7 @@ editorSubCategory="K_ARC_Trooper";
   class K_P2_Airborne: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Airborne";
+    editorSubCategory="K_P2_Airborne";
     side=1;
     displayName="P2 Airborne";
     uniformClass="k_clone_uniform";
@@ -1770,7 +1770,7 @@ editorSubCategory="K_P2_Airborne";
   class K_P2_Airborne_104th_Wolfpack: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Airborne";
+    editorSubCategory="K_P2_Airborne";
     side=1;
     displayName="P2 Airborne 104th Wolfpack";
     uniformClass="k_clone_uniform_104thWolfpack";
@@ -1788,7 +1788,7 @@ editorSubCategory="K_P2_Airborne";
   class K_P2_Airborne_104th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Airborne";
+    editorSubCategory="K_P2_Airborne";
     side=1;
     displayName="P2 Airborne 104th";
     uniformClass="k_clone_uniform_104th";
@@ -1806,7 +1806,7 @@ editorSubCategory="K_P2_Airborne";
   class K_P2_Airborne_187th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Airborne";
+    editorSubCategory="K_P2_Airborne";
     side=1;
     displayName="P2 Airborne 187th";
     uniformClass="k_clone_uniform_187th";
@@ -1824,7 +1824,7 @@ editorSubCategory="K_P2_Airborne";
   class K_P2_Airborne_212th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Airborne";
+    editorSubCategory="K_P2_Airborne";
     side=1;
     displayName="P2 Airborne 212th";
     uniformClass="k_clone_uniform_212th";
@@ -1842,7 +1842,7 @@ editorSubCategory="K_P2_Airborne";
   class K_P2_Airborne_327th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Airborne";
+    editorSubCategory="K_P2_Airborne";
     side=1;
     displayName="P2 Airborne 327th";
     uniformClass="k_clone_uniform_327th";
@@ -1860,7 +1860,7 @@ editorSubCategory="K_P2_Airborne";
   class K_P2_Airborne_332nd: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Airborne";
+    editorSubCategory="K_P2_Airborne";
     side=1;
     displayName="P2 Airborne 332nd";
     uniformClass="k_clone_uniform_332nd";
@@ -1878,7 +1878,7 @@ editorSubCategory="K_P2_Airborne";
   class K_P2_Airborne_41st_GC: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Airborne";
+    editorSubCategory="K_P2_Airborne";
     side=1;
     displayName="P2 Airborne 41st GC";
     uniformClass="k_clone_uniform_41stGC";
@@ -1896,7 +1896,7 @@ editorSubCategory="K_P2_Airborne";
   class K_P2_Airborne_442nd: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Airborne";
+    editorSubCategory="K_P2_Airborne";
     side=1;
     displayName="P2 Airborne 442nd";
     uniformClass="k_clone_uniform_442nd";
@@ -1914,7 +1914,7 @@ editorSubCategory="K_P2_Airborne";
   class K_P2_Airborne_501st: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Airborne";
+    editorSubCategory="K_P2_Airborne";
     side=1;
     displayName="P2 Airborne 501st";
     uniformClass="k_clone_uniform_501st";
@@ -1932,7 +1932,7 @@ editorSubCategory="K_P2_Airborne";
   class K_P2_Airborne_612th: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Airborne";
+    editorSubCategory="K_P2_Airborne";
     side=1;
     displayName="P2 Airborne 612th";
     uniformClass="k_clone_uniform_612th";
@@ -1950,7 +1950,7 @@ editorSubCategory="K_P2_Airborne";
   class K_P2_Airborne_91st: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Airborne";
+    editorSubCategory="K_P2_Airborne";
     side=1;
     displayName="P2 Airborne 91st";
     uniformClass="k_clone_uniform_91st";
@@ -1968,7 +1968,7 @@ editorSubCategory="K_P2_Airborne";
   class K_P2_Airborne_Coruscant_Guard: k_barracks_unit
   {
     faction="kobra_b";
-editorSubCategory="K_P2_Airborne";
+    editorSubCategory="K_P2_Airborne";
     side=1;
     displayName="P2 Airborne Coruscant Guard";
     uniformClass="k_clone_uniform_CG";
@@ -1986,7 +1986,7 @@ editorSubCategory="K_P2_Airborne";
   class K_P2_Airborne_44th: k_barracks_unit
   {
     faction="44_ab";
-editorSubCategory="K_44th";
+    editorSubCategory="K_44th";
     side=1;
     displayName="P2 Airborne";
     uniformClass="k_clone_uniform_44";
@@ -2004,7 +2004,7 @@ editorSubCategory="K_44th";
   class K_ARC_Trooper_44th: k_barracks_unit
   {
     faction="44_ab";
-editorSubCategory="K_44th";
+    editorSubCategory="K_44th";
     side=1;
     displayName="ARC Trooper";
     uniformClass="k_clone_uniform_44";
@@ -2022,7 +2022,7 @@ editorSubCategory="K_44th";
   class K_P1_Pilot_44th: k_barracks_unit
   {
     faction="44_ab";
-editorSubCategory="K_44th";
+    editorSubCategory="K_44th";
     side=1;
     displayName="P1 Pilot";
     uniformClass="k_clone_uniform_44";
@@ -2040,7 +2040,7 @@ editorSubCategory="K_44th";
   class K_P1_Trooper_44th: k_barracks_unit
   {
     faction="44_ab";
-editorSubCategory="K_44th";
+    wditorSubCategory="K_44th";
     side=1;
     displayName="P1 Trooper";
     uniformClass="k_clone_uniform_44";
@@ -2058,7 +2058,7 @@ editorSubCategory="K_44th";
   class K_P2_Trooper_44th: k_barracks_unit
   {
     faction="44_ab";
-editorSubCategory="K_44th";
+    editorSubCategory="K_44th";
     side=1;
     displayName="P2 Trooper";
     uniformClass="k_clone_uniform_44";
@@ -2076,7 +2076,7 @@ editorSubCategory="K_44th";
   class K_P2_Pilot_44th: k_barracks_unit
   {
     faction="44_ab";
-editorSubCategory="K_44th";
+    editorSubCategory="K_44th";
     side=1;
     displayName="P2 Pilot";
     uniformClass="k_clone_uniform_44";
@@ -2094,7 +2094,7 @@ editorSubCategory="K_44th";
   class K_Cadet_44th: k_barracks_unit
   {
     faction="44_ab";
-editorSubCategory="K_44th";
+    editorSubCategory="K_44th";
     side=1;
     displayName="Cadet";
     uniformClass="k_clone_uniform_44";
@@ -2112,7 +2112,7 @@ editorSubCategory="K_44th";
   class K_BARC_Trooper_44th: k_barracks_unit
   {
     faction="44_ab";
-editorSubCategory="K_44th";
+    editorSubCategory="K_44th";
     side=1;
     displayName="BARC Trooper";
     uniformClass="k_clone_uniform_44";
@@ -2130,7 +2130,7 @@ editorSubCategory="K_44th";
   class K_ARF_Trooper_44th: k_barracks_unit
   {
     faction="44_ab";
-editorSubCategory="K_44th";
+    editorSubCategory="K_44th";
     side=1;
     displayName="ARF Trooper";
     uniformClass="k_clone_uniform_44";
@@ -2148,7 +2148,7 @@ editorSubCategory="K_44th";
   class K_Commando_MK1_44th: k_barracks_unit
   {
     faction="44_ab";
-editorSubCategory="K_44th";
+    editorSubCategory="K_44th";
     side=1;
     displayName="Commando MK1";
     uniformClass="k_commando_uniform_44";
@@ -2166,7 +2166,7 @@ editorSubCategory="K_44th";
   class K_Commando_MK2_44th: k_barracks_unit
   {
     faction="44_ab";
-editorSubCategory="K_44th";
+    editorSubCategory="K_44th";
     side=1;
     displayName="Commando MK2";
     uniformClass="k_commando_uniform_44";
@@ -2184,7 +2184,7 @@ editorSubCategory="K_44th";
   class K_Commando_MK3_44th: k_barracks_unit
   {
     faction="44_ab";
-editorSubCategory="K_44th";
+    editorSubCategory="K_44th";
     side=1;
     displayName="Commando MK3";
     uniformClass="k_commando_uniform_44";

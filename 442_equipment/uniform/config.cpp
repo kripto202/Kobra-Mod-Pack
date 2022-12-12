@@ -12,7 +12,8 @@ class cfgpatches
         {
             "k_barracks_unit",
 			"k_scout_unit",
-			"k_scout_unit",
+			"k_clone_unit",
+			"k_clone_f_unit",
 
 			"k_44ab_clone_unit",
 			"k_44ab_scout_unit",
@@ -23,48 +24,43 @@ class cfgpatches
 			"k_scout_unit_desert2"
 
 			"k_44ab_clone_unit",
-			"k_44ab_scout_unit"
+			"k_44ab_scout_unit",
+
+			"k_clone_unit_44",
+			"k_clone_unit_f_44",
+			"k_clone_unit1_44",
+			"k_clone_unit1_f_44",
+			"k_clone_unit2_44",
+			"k_clone_unit2_f_44",
+			"k_clone_unit_5th",
+			"k_clone_unit_13th",
+			"k_clone_unit_41stGC",
+			"k_clone_unit_91st",
+			"k_clone_unit_104thWolfpack",
+			"k_clone_unit_104th",
+			"k_clone_unit_187th",
+			"k_clone_unit_212th",
+			"k_clone_unit_327th",
+			"k_clone_unit_332nd",
+			"k_clone_unit_442nd",
+			"k_clone_unit_501st",
+			"k_clone_unit_612th",
+			"k_clone_unit_CG",
+			"k_clone_unit_KeeliCompany",
+			"k_clone_unit_KS",
+
+			"k_commando_unit",
+			"k_commando_unit_44",
+
+            "k_clone_light_unit",
+            "k_clone_light_f_unit",
+            "k_clone_light_unit1_44",
+            "k_clone_light_unit2_44",
+            "k_clone_light_f_unit1_44",
+            "k_clone_light_f_unit2_44"
 		};
         weapons[] = 
         {
-            "k_Scout_Helmet",
-            "k_hunter_Helmet",
-            "k_crosshair_Helmet",
-            "k_wrecker_Helmet",
-            "k_tech_Helmet",
-            "k_cadet_Helmet",
-            "k_desert_Helmet",
-            "k_helmet_base",
-            "k_Scout_Helmet_base",
-            "k_hunter_helmet_base",
-            "k_crosshair_helmet_base",
-            "k_wrecker_helmet_base",
-            "k_tech_helmet_base",
-            "k_cadet_helmet_base",
-            "k_desert_helmet_base",
-			"k_scout_helmet_dukas",
-			"k_scout_helmet_camo",
-			"k_scout_helmet_artic",
-			"k_scout_helmet_desert",
-			"k_scout_helmet_jungle",
-			"k_Scout_woodland_Helmet2",
-			"k_scout_desert_helmet2",
-			"k_p1_pilot_helmet",
-			"k_p1_helmet",
-			"k_p2_helmet",
-			"k_barc_helmet",
-			"k_p15_helmet",
-
-			"k_clone_vest_base",
-			"k_kama_full",
-			"k_kama_L",
-			"k_kama_R",
-			"k_clone_vest_basic",
-			"k_clone_vest_medium",
-			"k_clone_vest_heavy"
-
-			"k_arf_helmet",
-
 			"k_scout_uniform",
 			"k_clone_uniform",
 			"k_scout_uniform_dukas",
@@ -73,158 +69,40 @@ class cfgpatches
 			"k_scout_uniform_desert",
 			"k_scout_uniform_jungle",
 
-			"k_p1_helmet_41_green",
-			"k_p1_helmet_41_grey",
-			"k_p1_helmet_91",
-			"k_p1_helmet_104_grey",
-			"k_p1_helmet_104_red",
-			"k_p1_helmet_187",
-			"k_p1_helmet_212",
-			"k_p1_helmet_327",
-			"k_p1_helmet_442",
-			"k_p1_helmet_501",
-			"k_p1_helmet_cg",
-			"k_p1_helmet_fill",
-			"k_p1_helmet_hc",
-			"k_p1_helmet_kc",
-			"k_p1_helmet_sc",
-			"k_p1_helmet_cody",
-			"k_p1_helmet_fill",
-			"k_p1_helmet_fox",
-			"k_p1_helmet_gree",
-			"k_p1_helmet_keeli",
-			"k_p1_helmet_lock",
-			"k_p1_helmet_rex",
-			"k_p1_helmet_stone",
-			"k_p1_helmet_thire",
-			"k_p1_helmet_wolfe_grey",
-			"k_p1_helmet_wolfe_red",
+			"k_clone_uniform",
+			"k_clone_f_uniform",
+			"k_clone_uniform_44",
+			"k_clone_uniform_f_44",
+			"k_clone_uniform1_44",
+			"k_clone_uniform1_f_44",
+			"k_clone_uniform2_44",
+			"k_clone_uniform2_f_44",
+			"k_clone_uniform_5th",
+			"k_clone_uniform_13th",
+			"k_clone_uniform_41stGC",
+			"k_clone_uniform_91st",
+			"k_clone_uniform_104thWolfpack",
+			"k_clone_uniform_104th",
+			"k_clone_uniform_187th",
+			"k_clone_uniform_212th",
+			"k_clone_uniform_327th",
+			"k_clone_uniform_332nd",
+			"k_clone_uniform_442nd",
+			"k_clone_uniform_501st",
+			"k_clone_uniform_612th",
+			"k_clone_uniform_CG",
+			"k_clone_uniform_KeeliCompany",
+			"k_clone_uniform_KS",
 
-			"k_44ab_p1_helmet",
-			"k_44ab_p2_helmet",
-			"k_44ab_Scout_Helmet",
-			"k_44ab_hunter_Helmet",
-			"k_44ab_crosshair_Helmet",
-			"k_44ab_wrecker_Helmet",
-			"k_44ab_tech_Helmet",
-			"k_44ab_tech_Helmet_down",
-			"k_44ab_cadet_Helmet",
-			"k_44ab_p1_pilot_helmet",
-			"k_44ab_arf_helmet",
-			"k_44ab_p1_airborne_helmet",
-			"k_44ab_barc_helmet",
-			"k_44ab_p2_ab_helmet",
-			"k_44ab_p2_pilot_helmet",
+			"k_commando_uniform",
+			"k_commando_uniform_44",
 
-			"k_44ab_scout_pouches_light",
-			"k_44ab_scout_pouches_medium",
-			"k_44ab_scout_pouches_heavy",
-			"k_scout_pouches_light_arid",
-			"k_scout_pouches_medium_arid",
-			"k_scout_pouches_heavy_arid",
-			"k_scout_pouches_light_desert",
-			"k_scout_pouches_medium_desert",
-			"k_scout_pouches_heavy_desert",
-			"k_scout_pouches_light_woodland",
-			"k_scout_pouches_medium_woodland",
-			"k_scout_pouches_heavy_woodland",
-			"k_scout_pouches_light_woodland2",
-			"k_scout_pouches_medium_woodland2",
-			"k_scout_pouches_heavy_woodland2",
-			"k_scout_pouches_light_desert2",
-			"k_scout_pouches_medium_desert2",
-			"k_scout_pouches_heavy_desert2",
-
-			"k_scout_uniform_arid",
-			"k_scout_uniform_desert",
-			"k_scout_uniform_woodland",
-			"k_Scout_arid_Helmet",
-			"k_Scout_desert_Helmet",
-			"k_Scout_woodland_Helmet",
-			"k_scout_uniform_desert2",
-			"k_scout_uniform_woodland2",
-
-			"k_p2_helmet_41",
-			"k_p2_helmet_91",
-			"k_p2_helmet_104",
-			"k_p2_helmet_187",
-			"k_p2_helmet_212",
-			"k_p2_helmet_327",
-			"k_p2_helmet_332",
-			"k_p2_helmet_442",
-			"k_p2_helmet_501",
-			"k_p2_helmet_cg",
-			"k_p2_helmet_ks",
-			"k_p2_helmet_fox",
-
-			"k_clone_vest_base",
-			"k_clone_vest_basic1",
-			"k_clone_vest_basic2",
-			"k_clone_vest_medium",
-			"k_clone_vest_heavy",
-			"k_clone_vest_heavy_medic",
-			"k_clone_vest_display",
-			"k_clone_kama_full_vest",
-			"k_clone_kamaL_vest",
-			"k_clone_kamaR_vest",
-			"k_clone_kama_dirt_vest",
-			"k_clone_kama_dirtL_vest",
-			"k_clone_kama_dirtR_vest",
-			"k_clone_kama_1_vest",
-			"k_clone_kama_1L_vest",
-			"k_clone_kama_1R_vest",
-			"k_clone_kama_2_vest",
-			"k_clone_kama_2L_vest",
-			"k_clone_kama_2R_vest",
-			"k_clone_kama_5_vest",
-			"k_clone_kama_5L_vest",
-			"k_clone_kama_5R_vest",
-			"k_clone_kama_6_vest",
-			"k_clone_kama_6L_vest",
-			"k_clone_kama_6R_vest",
-			"k_clone_kama_7_vest",
-			"k_clone_kama_7L_vest",
-			"k_clone_kama_7R_vest",
-			"k_clone_arc_vest",
-			"k_clone_arc_vest2",
-			"k_clone_arc_vest3",
-			"k_clone_commander_vest",
-			
-			"k_44ab_arf_piercer_helmet",
-			"k_44ab_arf_azarael_helmet",
-			"k_44ab_hunter_canada_Helmet",
-			"k_44ab_arf_monty_helmet",
-			"k_44ab_hunter_smith_Helmet",
-			"k_44ab_barc_kripto_helmet",
-			"k_44ab_barc_ivanov_helmet",
-			"k_44ab_p1_rex_helmet",
-			"k_44ab_p15_lore_helmet",
-			"k_44ab_p2_wolfie_helmet",
-			"k_44ab_barc_zepher_helmet",
-			"k_44ab_p15_wumbo_helmet",
-			"k_44ab_barc_zeressin_helmet",
-			"k_44ab_p2_barker_helmet",
-			"k_Scout_delta_Helmet",
-			"k_44ab_p2_ab_litch_helmet",
-			"k_wrecker_neko_helmet",
-			"k_44ab_p2_ditch_helmet",
-
-			"k_44ab_clone_kripto_vest",
-			"k_44ab_clone_smith_vest",
-			"k_44ab_clone_monty_vest",
-			"k_44ab_clone_canada_vest",
-			"k_44ab_clone_ivanov_vest",
-			"k_44ab_clone_wumbo_vest",
-			"k_44ab_clone_zepher_vest",
-			"k_44ab_clone_zeressin_vest",
-			"k_44ab_clone_barker_vest",
-			"k_44ab_scout_pouches_delta",
-			"k_44ab_clone_litch_vest",
-			"k_44ab_clone_neko_vest",
-			"k_44ab_clone_azarael_vest",
-			"k_44ab_clone_piercer_vest",
-			"k_44ab_clone_ditch_vest",
-			"",
+            "k_clone_light_uniform",
+            "k_clone_light_f_uniform",
+            "k_clone_light_uniform1_44",
+            "k_clone_light_uniform2_44",
+            "k_clone_light_f_uniform1_44",
+            "k_clone_light_f_uniform2_44"
         };
     };
 };
@@ -319,12 +197,12 @@ class cfgvehicles
 		respawnMagazines[]={};
 		items[]={};
 		respawnitems[]={};
-		armor=3;
+		armor=10;
 		armorStructural=4;
 		explosionShielding=0.5;
 		minTotalDamageThreshold=0.001;
 		impactDamageMultiplier=0.5;
-		class HitPoints
+		/*class HitPoints
 		{
 			class HitFace
 			{
@@ -336,7 +214,7 @@ class cfgvehicles
 				explosionShielding=0.1;
 				minimalHit=0.0099999998;
 			};
-			class HitNeck
+			class HitNeck: HitFace
 			{
 				armor=6;
 				material=-1;
@@ -346,7 +224,7 @@ class cfgvehicles
 				explosionShielding=0.5;
 				minimalHit=0.0099999998;
 			};
-			class HitHead
+			class HitHead: HitNeck
 			{
 				armor=1;
 				material=-1;
@@ -357,7 +235,7 @@ class cfgvehicles
 				minimalHit=0.0099999998;
 				depends="HitFace max HitNeck";
 			};
-			class HitPelvis
+			class HitPelvis: HitHead
 			{
 				armor=14;
 				material=-1;
@@ -369,7 +247,7 @@ class cfgvehicles
 				minimalHit=0.0099999998;
 				depends="0";
 			};
-			class HitAbdomen
+			class HitAbdomen: HitPelvis
 			{
 				armor=14;
 				material=-1;
@@ -380,7 +258,7 @@ class cfgvehicles
 				visual="injury_body";
 				minimalHit=0.0099999998;
 			};
-			class HitDiaphragm
+			class HitDiaphragm: HitAbdomen
 			{
 				armor=14;
 				material=-1;
@@ -391,7 +269,7 @@ class cfgvehicles
 				visual="injury_body";
 				minimalHit=0.0099999998;
 			};
-			class HitChest
+			class HitChest: HitDiaphragm
 			{
 				armor=16;
 				material=-1;
@@ -402,7 +280,7 @@ class cfgvehicles
 				visual="injury_body";
 				minimalHit=0.0099999998;
 			};
-			class HitBody
+			class HitBody: HitChest
 			{
 				armor=1000;
 				material=-1;
@@ -414,7 +292,7 @@ class cfgvehicles
 				minimalHit=0.0099999998;
 				depends="HitPelvis max HitAbdomen max HitDiaphragm max HitChest";
 			};
-			class HitArms
+			class HitArms: HitBody
 			{
 				armor=8;
 				material=-1;
@@ -426,7 +304,7 @@ class cfgvehicles
 				minimalHit=0.0099999998;
 				depends="0";
 			};
-			class HitHands
+			class HitHands: HitArms
 			{
 				armor=8;
 				material=-1;
@@ -438,7 +316,7 @@ class cfgvehicles
 				minimalHit=0.0099999998;
 				depends="HitArms";
 			};
-			class HitLegs
+			class HitLegs: HitHands
 			{
 				armor=8;
 				material=-1;
@@ -462,7 +340,7 @@ class cfgvehicles
 				minimalHit=0;
 				depends="(((Total - 0.25) max 0) + ((HitHead - 0.25) max 0) + ((HitBody - 0.25) max 0)) * 1.45";
 			};
-		};
+		};*/
 		/*class HitPoints: HitPoints
 		{
 			class HitFace: HitFace
@@ -792,6 +670,12 @@ class cfgvehicles
 			};
 		};
     };
+	class k_clone_f_unit: k_clone_unit
+	{
+		model = "kobra\442_equipment\uniform\model\clone_uniform_f.p3d";
+		uniformclass = "k_clone_f_uniform";
+	};
+
     class k_clone_unit_44: k_clone_unit
     {
         displayname = "Clone Trooper";
@@ -807,8 +691,63 @@ class cfgvehicles
         };
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\uniform\data\clone_uniform\unit_designs\44ab\upper_armor_co.paa",
-            "kobra\442_equipment\uniform\data\clone_uniform\unit_designs\44ab\lower_armor_co.paa"
+            "kobra\442_equipment\uniform\data\clone_uniform\unit_designs\44ab\design1\upper_armor_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\unit_designs\44ab\design1\lower_armor_co.paa"
+        };
+    };
+	class k_clone_unit_f_44: k_clone_f_unit
+    {
+        displayname = "Clone Trooper";
+        model = "kobra\442_equipment\uniform\model\clone_uniform_f.p3d";
+        uniformclass = "k_clone_uniform_f_44";
+		faction = "44_ab";
+        hiddenselections[] = 
+        {
+            "upper",
+            "lower",
+            "clan",
+			"insignia"
+        };
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\unit_designs\44ab\design1\upper_armor_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\unit_designs\44ab\design1\lower_armor_co.paa"
+        };
+    };
+	class k_clone_unit1_44: k_clone_unit_44
+    {
+        uniformclass = "k_clone_uniform1_44";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\unit_designs\44ab\design2\upper_armor_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\unit_designs\44ab\design2\lower_armor_co.paa"
+        };
+    };
+	class k_clone_unit1_f_44: k_clone_unit_f_44
+    {
+        uniformclass = "k_clone_uniform1_f_44";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\unit_designs\44ab\design2\upper_armor_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\unit_designs\44ab\design2\lower_armor_co.paa"
+        };
+    };
+	class k_clone_unit2_44: k_clone_unit
+    {
+        uniformclass = "k_clone_uniform2_44";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\unit_designs\44ab\design3\upper_armor_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\unit_designs\44ab\design3\lower_armor_co.paa"
+        };
+    };
+	class k_clone_unit2_f_44: k_clone_f_unit
+    {
+        uniformclass = "k_clone_uniform2_f_44";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_uniform\unit_designs\44ab\design3\upper_armor_co.paa",
+            "kobra\442_equipment\uniform\data\clone_uniform\unit_designs\44ab\design3\lower_armor_co.paa"
         };
     };
 
@@ -1136,6 +1075,7 @@ class cfgvehicles
         model = "kobra\442_equipment\uniform\model\commando_uniform.p3d";
         uniformclass = "k_commando_uniform";
 		cost=101000;
+		armor=20;
         hiddenselections[]=
         {
             "chest",
@@ -1203,145 +1143,7 @@ class cfgvehicles
 				"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"
 			};
 		};
-		class HitPoints
-		{
-			class HitFace
-			{
-				armor=1;
-				material=-1;
-				name="face_hub";
-				passThrough=0.80000001;
-				radius=0.079999998;
-				explosionShielding=0.1;
-				minimalHit=0.0099999998;
-			};
-			class HitNeck
-			{
-				armor=6;
-				material=-1;
-				name="neck";
-				passThrough=0.80000001;
-				radius=0.1;
-				explosionShielding=0.5;
-				minimalHit=0.0099999998;
-			};
-			class HitHead
-			{
-				armor=1;
-				material=-1;
-				name="head";
-				passThrough=0.80000001;
-				radius=0.2;
-				explosionShielding=0.5;
-				minimalHit=0.0099999998;
-				depends="HitFace max HitNeck";
-			};
-			class HitPelvis
-			{
-				armor=14;
-				material=-1;
-				name="pelvis";
-				passThrough=0.33000001;
-				radius=0.23999999;
-				explosionShielding=1;
-				visual="injury_body";
-				minimalHit=0.0099999998;
-				depends="0";
-			};
-			class HitAbdomen
-			{
-				armor=14;
-				material=-1;
-				name="spine1";
-				passThrough=0.33000001;
-				radius=0.16;
-				explosionShielding=1;
-				visual="injury_body";
-				minimalHit=0.0099999998;
-			};
-			class HitDiaphragm
-			{
-				armor=14;
-				material=-1;
-				name="spine2";
-				passThrough=0.33000001;
-				radius=0.18000001;
-				explosionShielding=1.5;
-				visual="injury_body";
-				minimalHit=0.0099999998;
-			};
-			class HitChest
-			{
-				armor=16;
-				material=-1;
-				name="spine3";
-				passThrough=0.33000001;
-				radius=0.18000001;
-				explosionShielding=1.5;
-				visual="injury_body";
-				minimalHit=0.0099999998;
-			};
-			class HitBody
-			{
-				armor=1000;
-				material=-1;
-				name="body";
-				passThrough=1;
-				radius=0;
-				explosionShielding=1.5;
-				visual="injury_body";
-				minimalHit=0.0099999998;
-				depends="HitPelvis max HitAbdomen max HitDiaphragm max HitChest";
-			};
-			class HitArms
-			{
-				armor=8;
-				material=-1;
-				name="arms";
-				passThrough=0.69999999;
-				radius=0.1;
-				explosionShielding=0.1;
-				visual="injury_hands";
-				minimalHit=0.0099999998;
-				depends="0";
-			};
-			class HitHands
-			{
-				armor=8;
-				material=-1;
-				name="hands";
-				passThrough=0.69999999;
-				radius=0.1;
-				explosionShielding=0.1;
-				visual="injury_hands";
-				minimalHit=0.0099999998;
-				depends="HitArms";
-			};
-			class HitLegs
-			{
-				armor=8;
-				material=-1;
-				name="legs";
-				passThrough=0.69999999;
-				radius=0.14;
-				explosionShielding=0.1;
-				visual="injury_legs";
-				minimalHit=0.0099999998;
-				depends="0";
-			};
-			class Incapacitated
-			{
-				armor=1000;
-				material=-1;
-				name="body";
-				passThrough=1;
-				radius=0;
-				explosionShielding=1;
-				visual="";
-				minimalHit=0;
-				depends="(((Total - 0.25) max 0) + ((HitHead - 0.25) max 0) + ((HitBody - 0.25) max 0)) * 1.45";
-			};
-		};
+		
     };
 	class k_commando_unit_44: k_commando_unit
     {
@@ -1356,6 +1158,132 @@ class cfgvehicles
             "kobra\442_equipment\uniform\data\commando_uniform\undersuit_co.paa"
         };
 	};
+////clone light unit
+    class k_clone_light_unit: k_scout_unit
+    {
+        displayname = "Clone Light Trooper";
+        model = "kobra\442_equipment\uniform\model\clone_light_uniform.p3d";
+        uniformclass = "k_clone_light_uniform";
+        hiddenselections[] = 
+        {
+            "upper",
+            "lower",
+            "clan",
+			"insignia"
+        };
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_light_uniform\upper_armor_co.paa",
+            "kobra\442_equipment\uniform\data\clone_light_uniform\lower_armor_co.paa"
+        };
+        class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"kobra\442_equipment\uniform\data\clone_light_uniform\upper_armor.rvmat",
+				"kobra\442_equipment\uniform\data\clone_light_uniform\upper_armor_injury.rvmat",
+				"kobra\442_equipment\uniform\data\clone_light_uniform\upper_armor_injury.rvmat",
+
+				"kobra\442_equipment\uniform\data\clone_light_uniform\lower_armor.rvmat",
+				"kobra\442_equipment\uniform\data\clone_light_uniform\lower_armor_injury.rvmat",
+				"kobra\442_equipment\uniform\data\clone_light_uniform\lower_armor_injury.rvmat",
+
+                "kobra\442_equipment\uniform\data\clone_light_uniform\upper_undersuit.rvmat",
+				"kobra\442_equipment\uniform\data\clone_light_uniform\upper_undersuit_injury.rvmat",
+				"kobra\442_equipment\uniform\data\clone_light_uniform\upper_undersuit_injury.rvmat",
+
+				"kobra\442_equipment\uniform\data\clone_light_uniform\lower_undersuit.rvmat",
+				"kobra\442_equipment\uniform\data\clone_light_uniform\lower_undersuit_injury.rvmat",
+				"kobra\442_equipment\uniform\data\clone_light_uniform\lower_undersuit_injury.rvmat",
+
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat"
+			};
+		};
+    };
+    class k_clone_light_f_unit: k_scout_unit
+    {
+        displayname = "Clone Light Trooper (Female)";
+        model = "kobra\442_equipment\uniform\model\clone_light_uniform_f.p3d";
+        uniformclass = "k_clone_light_f_uniform";
+        hiddenselections[] = 
+        {
+            "upper",
+            "lower",
+            "clan",
+			"insignia"
+        };
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_light_uniform\upper_armorF_co.paa",
+            "kobra\442_equipment\uniform\data\clone_light_uniform\lower_armorF_co.paa"
+        };
+        class Wounds
+		{
+			tex[]={};
+			mat[]=
+			{
+				"kobra\442_equipment\uniform\data\clone_light_uniform\upper_armorF.rvmat",
+				"kobra\442_equipment\uniform\data\clone_light_uniform\upper_armor_injuryF.rvmat",
+				"kobra\442_equipment\uniform\data\clone_light_uniform\upper_armor_injuryF.rvmat",
+
+				"kobra\442_equipment\uniform\data\clone_light_uniform\lower_armorF.rvmat",
+				"kobra\442_equipment\uniform\data\clone_light_uniform\lower_armor_injuryF.rvmat",
+				"kobra\442_equipment\uniform\data\clone_light_uniform\lower_armor_injuryF.rvmat",
+
+                "kobra\442_equipment\uniform\data\clone_light_uniform\upper_undersuitF.rvmat",
+				"kobra\442_equipment\uniform\data\clone_light_uniform\upper_undersuit_injuryF.rvmat",
+				"kobra\442_equipment\uniform\data\clone_light_uniform\upper_undersuit_injuryF.rvmat",
+
+				"kobra\442_equipment\uniform\data\clone_light_uniform\lower_undersuitF.rvmat",
+				"kobra\442_equipment\uniform\data\clone_light_uniform\lower_undersuit_injuryF.rvmat",
+				"kobra\442_equipment\uniform\data\clone_light_uniform\lower_undersuit_injuryF.rvmat",
+
+				"A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat"
+			};
+		};
+    };
+
+    class k_clone_light_unit1_44: k_clone_light_unit
+    {
+        uniformclass = "k_clone_light_uniform1_44";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_light_uniform\unit_designs\44ab\design1\upper_armor_co.paa",
+            "kobra\442_equipment\uniform\data\clone_light_uniform\unit_designs\44ab\design1\lower_armor_co.paa"
+        };
+    };
+    class k_clone_light_unit2_44: k_clone_light_unit
+    {
+        uniformclass = "k_clone_light_uniform2_44";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_light_uniform\unit_designs\44ab\design2\upper_armor_co.paa",
+            "kobra\442_equipment\uniform\data\clone_light_uniform\unit_designs\44ab\design2\lower_armor_co.paa"
+        };
+    };
+    class k_clone_light_f_unit1_44: k_clone_light_f_unit
+    {
+        uniformclass = "k_clone_light_f_uniform1_44";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_light_uniform\unit_designs\44ab\design1\upper_armorf_co.paa",
+            "kobra\442_equipment\uniform\data\clone_light_uniform\unit_designs\44ab\design1\lower_armorf_co.paa"
+        };
+    };
+    class k_clone_light_f_unit2_44: k_clone_light_f_unit
+    {
+        uniformclass = "k_clone_light_f_uniform2_44";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\uniform\data\clone_light_uniform\unit_designs\44ab\design2\upper_armorf_co.paa",
+            "kobra\442_equipment\uniform\data\clone_light_uniform\unit_designs\44ab\design2\lower_armorf_co.paa"
+        };
+    };
 };
 
 class UniformItem;
@@ -1439,13 +1367,61 @@ class CfgWeapons
             uniformclass = "k_clone_unit";
         };
     };
+	class k_clone_f_uniform: k_scout_uniform
+    {
+        displayname = "[K] Clone Trooper Armor (Female)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_clone_f_unit";
+        };
+    };
 
 	class k_clone_uniform_44: k_clone_uniform
     {
-        displayname = "[44/K] Clone Trooper Armor";
+        displayname = "[44/K] Clone Trooper Armor 1";
         class ItemInfo: ItemInfo
         {
             uniformclass = "k_clone_unit_44";
+        };
+    };
+	class k_clone_uniform_f_44: k_clone_f_uniform
+    {
+        displayname = "[44/K] Clone Trooper Armor 1 (Female)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_clone_unit_f_44";
+        };
+    };
+	class k_clone_uniform1_44: k_clone_uniform
+    {
+        displayname = "[44/K] Clone Trooper Armor 2";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_clone_unit1_44";
+        };
+    };
+	class k_clone_uniform1_f_44: k_clone_f_uniform
+    {
+        displayname = "[44/K] Clone Trooper Armor 2 (Female)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_clone_unit1_f_44";
+        };
+    };
+	class k_clone_uniform2_44: k_clone_uniform
+    {
+        displayname = "[44/K] Clone Trooper Armor 3";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_clone_unit1_44";
+        };
+    };
+	class k_clone_uniform2_f_44: k_clone_f_uniform
+    {
+        displayname = "[44/K] Clone Trooper Armor 3 (Female)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_clone_unit2_f_44";
         };
     };
 
@@ -1736,6 +1712,56 @@ class CfgWeapons
         class ItemInfo: ItemInfo
         {
             uniformclass = "k_commando_unit_44";
+        };
+    };
+////clone light uniform
+    class k_clone_light_uniform: k_scout_uniform
+    {
+        displayname = "[K] Clone Trooper Light Armor";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_clone_light_unit";
+        };
+    };
+	class k_clone_light_f_uniform: k_scout_uniform
+    {
+        displayname = "[K] Clone Trooper Light Armor (Female)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_clone_light_f_unit";
+        };
+    };
+
+    class k_clone_light_uniform1_44: k_clone_light_uniform
+    {
+        displayname = "[44/K] Clone Trooper Light Armor 1";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_clone_light_unit1_44";
+        };
+    };
+    class k_clone_light_uniform2_44: k_clone_light_uniform
+    {
+        displayname = "[44/K] Clone Trooper Light Armor 2";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_clone_light_unit2_44";
+        };
+    };
+    class k_clone_light_f_uniform1_44: k_clone_light_uniform
+    {
+        displayname = "[44/K] Clone Trooper Light Armor 1 (Female)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_clone_light_f_unit1_44";
+        };
+    };
+    class k_clone_light_f_uniform2_44: k_clone_light_uniform
+    {
+        displayname = "[44/K] Clone Trooper Light Armor 2 (Female)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_clone_light_f_unit2_44";
         };
     };
 };

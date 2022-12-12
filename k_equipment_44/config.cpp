@@ -21,9 +21,17 @@ class cfgpatches
             "k_clone_unit_Zeressin_44",
             "k_clone_unit_Ivanov_44",
             "k_clone_unit_Ditch_44",
+            "k_clone_unit_Smith_44",
+            "k_clone_unit_Green_44",
+            "k_clone_unit_Neko_44",
+            "k_clone_unit_Monty_44",
+            "k_clone_unit_Zion_44",
+
             "k_commando_unit_Lore_44",
+
             "k_clone_huge_backpack_rocket_titania_44",
             "k_clone_large_backpack_pouches_smith_44",
+            "k_clone_large_backpack_pouches_neko_44",
             "k_jt12_radio_garrus_44",
             "k_jt12_radio_ivanov_44"
         };
@@ -63,18 +71,36 @@ class cfgpatches
 
             "k_commando_mk1_helmet_Azarael_44",
             "k_commando_uniform_Azarael_44",
+            "k_clone_uniform_Azarael_44",
+            "k_arf_helmet_azarael_44",
+            "k_clone_arc_vest5_azarael_44",
 
             "k_barc_helmet_Ivanov_44",
             "k_clone_uniform_Ivanov_44",
             "k_clone_vest_Ivanov_44",
 
-            "k_barc_helmet_Ivanov_44",
+            "k_commando_mk1_helmet_Lore_44",
             "k_commando_uniform_Lore_44",
             "k_commando_vest19_Lore_44",
 
             "k_hunter_Helmet_ditch_44",
             "k_clone_basic_vest7_ditch_44",
-            "k_clone_uniform_ditch_44"
+            "k_clone_uniform_ditch_44",
+
+            "k_clone_uniform_Neko_44",
+            "k_clone_basic_vest10_Neko_44",
+            "k_crosshair_Helmet_Neko_44",
+
+            "k_p2_helmet_Green_44",
+            "k_clone_uniform_Green_44",
+
+            "k_clone_uniform_Monty_44",
+            "k_arf_helmet_Monty_44",
+            "k_clone_arc_vest9_Monty_44",
+
+            "k_p2_helmet_Zion_44",
+            "k_clone_heavy_vest10_Zion",
+            "k_clone_uniform_Zion_44",
         };
     };
 };
@@ -102,13 +128,21 @@ class CfgWeapons
     class k_hunter_Helmet;
     class k_clone_basic_vest7;
     class k_clone_heavy_vest_base;
+    class k_clone_heavy_vest1;
+    class k_crosshair_Helmet;
+    class k_clone_basic_vest10;
+    class k_clone_f_uniform;
+    class k_clone_arc_vest5;
+    class k_p15_helmet;
+    class k_clone_arc_vest9;
+    class k_clone_heavy_vest10;
 
     class k_barc_helmet_Kripto_44: k_barc_helmet
     {
         displayname = "[44/K/C] Barc Helmet (Kripto)";
         hiddenselectionsmaterials[] = 
 		{
-			"kobra\442_equipment\helmets\data\barc_helmet\helmet.rvmat",
+			"kobra\k_equipment_44\data\kripto\helmet.rvmat",
 			"kobra\442_equipment\helmets\data\unit_designs\44ab\barc_visor.rvmat"
 		};
 		hiddenselectionstextures[] = 
@@ -177,7 +211,7 @@ class CfgWeapons
 			"kobra\k_equipment_44\data\zeressin\barc_helmet_co.paa", //visor
 		};
     };
-    class k_clone_uniform_Zeressin_44: k_clone_uniform
+    class k_clone_uniform_Zeressin_44: k_clone_f_uniform
     {
         displayname = "[44/K/C] Clone Trooper Armor (Zeressin)";
         class ItemInfo: ItemInfo
@@ -224,24 +258,23 @@ class CfgWeapons
         };
     };
 
-    class k_arf_helmet_Titania_44: k_arf_helmet
+    class k_barc_helmet_Titania_44: k_barc_helmet
 	{
         ace_hearing_protection=1;
         ace_hearing_lowervolume=0;
-		displayname = "[44/K/C] Arf Helmet (Titania)";
+		displayname = "[44/K/C] Barc Helmet (Titania)";
         hiddenselectionsmaterials[] = 
 		{
-			"kobra\442_equipment\helmets\data\arf_helmet\helmet.rvmat",
-			"kobra\442_equipment\helmets\data\unit_designs\44ab\arf_visor.rvmat"
+			"kobra\442_equipment\helmets\data\barc_helmet\helmet.rvmat",
+			"kobra\k_equipment_44\data\titania\visor.rvmat"
 		};
 		hiddenselectionstextures[] = 
 		{
-			"kobra\k_equipment_44\data\titania\arf_helmet_co.paa", //helmet
-			"kobra\k_equipment_44\data\titania\arf_helmet_co.paa", //visor
-			"kobra\k_equipment_44\data\titania\arf_brim_co.paa", //brim
+			"kobra\k_equipment_44\data\titania\barc_helmet_co.paa", //helmet
+			"kobra\k_equipment_44\data\titania\barc_helmet_co.paa", //visor
 		};
 	};
-    class k_clone_uniform_Titania_44: k_clone_uniform
+    class k_clone_uniform_Titania_44: k_clone_f_uniform
     {
         displayname = "[44/K/C] Clone Trooper Armor (Titania)";
         class ItemInfo: ItemInfo
@@ -258,22 +291,36 @@ class CfgWeapons
         hiddenselectionstextures[] = 
         {
             "kobra\k_equipment_44\data\titania\clone_belt_co.paa",
+            "kobra\k_equipment_44\data\titania\arc_plates_co.paa",
             "kobra\k_equipment_44\data\titania\kama_co.paa",
-            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa",
+            "kobra\k_equipment_44\data\titania\arc_pauldron_co.paa",
+            "kobra\442_equipment\vests\data\clone\leg_pouch_co.paa"
+        };
+        hiddenselectionsmaterials[] = 
+        {
+            "kobra\442_equipment\vests\data\clone\clone_belt.rvmat",
+            "Kobra\442_equipment\vests\data\clone\arc_plates.rvmat",
+            "kobra\k_equipment_44\data\titania\kama.rvmat",
+            "kobra\442_equipment\vests\data\clone\arc_pauldron.rvmat",
+            "kobra\442_equipment\vests\data\clone\leg_pouch.rvmat"
         };
         hiddenselections[] = 
         {
             "belt",
-            "kama",
-            "pauldron"
+            "arc_plates",
+			"kama",
+			"pauldron",
+			"leg_pouch"
         };
         class ItemInfo: ItemInfo
         {
             hiddenselections[] = 
             {
                 "belt",
+                "arc_plates",
                 "kama",
-                "pauldron"
+                "pauldron",
+                "leg_pouch"
             };
             uniformmodel = "kobra\k_equipment_44\model\k_titania_vest.p3d";
             containerclass = "Supply200";
@@ -640,6 +687,21 @@ class CfgWeapons
             "kobra\k_equipment_44\data\barker\tech_helmet_co.paa"
         };
     };
+    class k_p15_Helmet_Barker_44: k_p15_helmet
+    {
+        ace_hearing_protection=1;
+        displayname = "[44/K/C] P1.5 Helmet (Barker)";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\k_equipment_44\data\barker\p15_helmet_co.paa",
+            "kobra\k_equipment_44\data\barker\p15_helmet_co.paa",
+        };
+        hiddenselectionsmaterials[] = 
+		{
+			"kobra\442_equipment\helmets\data\p15_helmet\helmet.rvmat",
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\p15_visor.rvmat"
+		};
+    };
     class k_clone_uniform_Barker_44: k_clone_uniform
     {
         displayname = "[44/K/C] Clone Trooper Armor (Barker)";
@@ -725,6 +787,40 @@ class CfgWeapons
         class ItemInfo: ItemInfo
         {
             uniformclass = "k_commando_unit_Azarael_44";
+        };
+    };
+    class k_clone_uniform_Azarael_44: k_clone_uniform
+    {
+        displayname = "[44/K/C] Clone Trooper Armor (Azarael)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_clone_unit_Azarael_44";
+        };
+    };
+    class k_arf_helmet_azarael_44: k_arf_helmet
+    {
+        displayname = "[44/K/C] Arf Helmet (Azarael)";
+		hiddenselectionstextures[] = 
+		{
+			"Kobra\k_equipment_44\data\azarael\arf_helmet_co.paa", //helmet
+			"Kobra\k_equipment_44\data\azarael\arf_helmet_co.paa", //visor
+			"Kobra\k_equipment_44\data\azarael\arf_brim_co.paa", //brim
+		};
+    };
+    class k_clone_arc_vest5_azarael_44: k_clone_arc_vest5
+    {
+        displayname = "[44/K/C] Clone arc Vest 05 (Azarael)";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "Kobra\k_equipment_44\data\azarael\arc_plates_co.paa",
+            "Kobra\k_equipment_44\data\azarael\arc_plates_co.paa",
+            "kobra\442_equipment\vests\data\clone\arc_pouch_co.paa",
+            "Kobra\k_equipment_44\data\azarael\kama_co.paa",
+            "Kobra\k_equipment_44\data\azarael\kama_co.paa",
+            "Kobra\k_equipment_44\data\azarael\arc_pauldron_co.paa",
+            "Kobra\k_equipment_44\data\azarael\arc_pauldron_co.paa",
+            "Kobra\k_equipment_44\data\azarael\arc_pauldron_co.paa",
         };
     };
 
@@ -880,6 +976,158 @@ class CfgWeapons
             uniformclass = "k_clone_unit_Smith_44";
         };
     };
+
+    class k_clone_uniform_Green_44: k_clone_uniform
+    {
+        displayname = "[44/K/C] Clone Trooper Armor (Green)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_clone_unit_Green_44";
+        };
+    };
+    class k_p2_helmet_Green_44: k_p2_helmet
+	{
+        ace_hearing_protection=1;
+        ace_hearing_lowervolume=0;
+		displayname = "[44/K/C] P2 Helmet (Green)";
+        hiddenselectionsmaterials[] = 
+		{
+			"kobra\442_equipment\helmets\data\p2_helmet\helmet.rvmat",
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\p2_visor.rvmat"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"kobra\k_equipment_44\data\green\p2_helmet_co.paa", //helmet
+			"kobra\k_equipment_44\data\green\p2_helmet_co.paa", //visor
+		};
+	};
+
+    class k_clone_uniform_Neko_44: k_clone_f_uniform
+    {
+        displayname = "[44/K/C] Clone Trooper Armor (Neko)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_clone_unit_Neko_44";
+        };
+    };
+    class k_crosshair_Helmet_Neko_44: k_crosshair_Helmet
+    {
+        displayname = "[44/K/C] Crosshair's Helmet (Neko)";
+        hiddenselectionstextures[] = 
+        {
+            "Kobra\k_equipment_44\data\neko\crosshair_helmet_co.paa",
+            "Kobra\k_equipment_44\data\neko\crosshair_helmet_co.paa",
+        };
+    };
+    class k_clone_basic_vest10_Neko_44: k_clone_basic_vest10
+    {
+        displayname = "[44/K/C] Clone Basic Vest 01 (Neko)";
+        hiddenselectionstextures[] = 
+        {
+            "Kobra\k_equipment_44\data\neko\clone_belt_co.paa"
+        };
+    };
+
+    class k_clone_uniform_Monty_44: k_clone_uniform
+    {
+        displayname = "[44/K/C] Clone Trooper Armor (Monty)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_clone_unit_Monty_44";
+        };
+    };
+    class k_arf_helmet_Monty_44: k_arf_helmet
+    {
+        displayname = "[44/K/C] Arf Helmet (Monty)";
+		hiddenselectionstextures[] = 
+		{
+			"Kobra\k_equipment_44\data\monty\arf_helmet_co.paa", //helmet
+			"Kobra\k_equipment_44\data\monty\arf_helmet_co.paa", //visor
+			"Kobra\k_equipment_44\data\monty\arf_brim_co.paa", //brim
+		};
+        hiddenselectionsmaterials[] = 
+		{
+			"kobra\442_equipment\helmets\data\arf_helmet\helmet.rvmat",
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\arf_visor.rvmat",
+            "kobra\442_equipment\helmets\data\arf_helmet\arf_brim.rvmat"
+		};
+    };
+    class k_clone_arc_vest9_Monty_44: k_clone_arc_vest9
+    {
+        displayname = "[44/K/C] Clone arc Vest 05 (Monty)";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "kobra\442_equipment\vests\data\clone\arc_plates_co.paa",
+            "kobra\442_equipment\vests\data\clone\arc_plates_co.paa",
+            "kobra\442_equipment\vests\data\clone\arc_pouch_co.paa",
+            "Kobra\k_equipment_44\data\monty\kama_co.paa",
+            "Kobra\k_equipment_44\data\monty\kama_co.paa",
+            "Kobra\k_equipment_44\data\monty\arc_pauldron_co.paa",
+            "Kobra\k_equipment_44\data\monty\arc_pauldron_co.paa",
+            "Kobra\k_equipment_44\data\monty\arc_pauldron_co.paa",
+        };
+    };
+
+    class k_p2_helmet_Zion_44: k_p2_helmet
+	{
+        ace_hearing_protection=1;
+        ace_hearing_lowervolume=0;
+		displayname = "[44/K/C] P2 Helmet (Zion)";
+        hiddenselectionsmaterials[] = 
+		{
+			"kobra\442_equipment\helmets\data\p2_helmet\helmet.rvmat",
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\p2_visor.rvmat"
+		};
+		hiddenselectionstextures[] = 
+		{
+			"kobra\k_equipment_44\data\zion\p2_helmet_co.paa", //helmet
+			"kobra\k_equipment_44\data\zion\p2_helmet_co.paa", //visor
+		};
+	};
+    class k_clone_heavy_vest_Zion: k_clone_heavy_vest10
+    {
+        displayname = "[44/K/C] Clone Vest (Zion)";
+        
+        hiddenselections[] = 
+		{
+			"belt",
+            "arc_plates",
+			"kama",
+			"pauldron",
+			"leg_pouch"
+		};
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
+            "kobra\k_equipment_44\data\zion\arc_plates_co.paa",
+            "kobra\k_equipment_44\data\zion\kama_co.paa",
+            "kobra\442_equipment\vests\data\clone\arc_pauldron_co.paa",
+            "kobra\442_equipment\vests\data\clone\leg_pouch_co.paa"
+        };
+        class ItemInfo: ItemInfo
+        {
+            hiddenselections[] = 
+            {
+                "belt",
+                "arc_plates",
+                "kama",
+                "pauldron",
+                "leg_pouch"
+            };
+            containerclass = "Supply120";
+            mass = 40;
+            uniformmodel = "kobra\k_equipment_44\model\k_zion_vest.p3d";
+        };
+    };
+    class k_clone_uniform_Zion_44: k_clone_uniform
+    {
+        displayname = "[44/K/C] Clone Trooper Armor (Zion)";
+        class ItemInfo: ItemInfo
+        {
+            uniformclass = "k_clone_unit_Zion_44";
+        };
+    };
 };
 
 class CfgVehicles
@@ -888,6 +1136,7 @@ class CfgVehicles
     class k_clone_unit;
     class 442_jt12_radio;
     class k_clone_huge_backpack_rocket_44;
+    class k_clone_f_unit;
 
     class k_commando_unit_Azarael_44: k_commando_unit
     {
@@ -901,6 +1150,16 @@ class CfgVehicles
             "kobra\442_equipment\uniform\data\commando_uniform\undersuit_co.paa"
         };
 	};
+    class k_clone_unit_Azarael_44: k_clone_unit
+    {
+        displayname = "Clone Trooper";
+        uniformclass = "k_clone_uniform_Azarael_44";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\k_equipment_44\data\azarael\upper_armor_co.paa",
+            "kobra\k_equipment_44\data\azarael\lower_armor_co.paa"
+        };
+    };
     class k_clone_unit_Barker_44: k_clone_unit
     {
         displayname = "Clone Trooper";
@@ -961,7 +1220,7 @@ class CfgVehicles
             "kobra\k_equipment_44\data\rex\lower_armor_co.paa"
         };
     };
-    class k_clone_unit_Titania_44: k_clone_unit
+    class k_clone_unit_Titania_44: k_clone_f_unit
     {
         displayname = "Clone Trooper";
         uniformclass = "k_clone_uniform_Titania_44";
@@ -971,7 +1230,7 @@ class CfgVehicles
             "kobra\k_equipment_44\data\titania\lower_armor_co.paa"
         };
     };
-    class k_clone_unit_Zeressin_44: k_clone_unit
+    class k_clone_unit_Zeressin_44: k_clone_f_unit
     {
         displayname = "Clone Trooper";
         uniformclass = "k_clone_uniform_Zeressin_44";
@@ -1023,6 +1282,46 @@ class CfgVehicles
             "kobra\k_equipment_44\data\smith\lower_armor_co.paa"
         };
     };
+    class k_clone_unit_Green_44: k_clone_unit
+    {
+        displayname = "Clone Trooper";
+        uniformclass = "k_clone_uniform_Green_44";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\k_equipment_44\data\green\upper_armor_co.paa",
+            "kobra\k_equipment_44\data\green\lower_armor_co.paa"
+        };
+    };
+    class k_clone_unit_Neko_44: k_clone_f_unit
+    {
+        displayname = "Clone Trooper";
+        uniformclass = "k_clone_uniform_Neko_44";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\k_equipment_44\data\neko\upper_armor_co.paa",
+            "kobra\k_equipment_44\data\neko\lower_armor_co.paa"
+        };
+    };
+    class k_clone_unit_Monty_44: k_clone_unit
+    {
+        displayname = "Clone Trooper";
+        uniformclass = "k_clone_uniform_Monty_44";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\k_equipment_44\data\monty\upper_armor_co.paa",
+            "kobra\k_equipment_44\data\monty\lower_armor_co.paa"
+        };
+    };
+    class k_clone_unit_Zion_44: k_clone_unit
+    {
+        displayname = "Clone Trooper";
+        uniformclass = "k_clone_uniform_Zion_44";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\k_equipment_44\data\zion\upper_armor_co.paa",
+            "kobra\k_equipment_44\data\zion\lower_armor_co.paa"
+        };
+    };
 
     class k_clone_huge_backpack_rocket_titania_44: k_clone_huge_backpack_rocket_44
 	{
@@ -1065,6 +1364,30 @@ class CfgVehicles
         tf_range=20000;
         tf_subtype="digital_lr";
     };
+    class k_clone_large_backpack_pouches_neko_44: k_clone_large_backpack_pouch 
+    {
+        displayname = "[44/K/C] Clone Troopoer Large Backpack w/ Pouches (Neko)";
+        model = "kobra\k_equipment_44\model\k_large_backpack_comms.p3d";
+        mass = 56;
+        hiddenselections[] = 
+        {
+            "backpack",
+            "cover",
+            "pouches"
+        };
+        hiddenselectionstextures[] = 
+        {
+            "kobra\k_equipment_44\data\neko\large_backpack_co.paa",
+            "kobra\442_equipment\backpack\data\large\large_backpack_cover_co.paa",
+            "kobra\k_equipment_44\data\neko\large_backpack_pouches_co.paa"
+        };
+        tf_dialog = "mr6000l_radio_dialog";
+        tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
+        tf_encryptionCode="tf_west_radio_code";
+        tf_hasLRradio=1;
+        tf_range=20000;
+        tf_subtype="digital_lr";
+    };
 
     class k_jt12_radio_garrus_44: 442_jt12_radio
 	{
@@ -1095,6 +1418,7 @@ class cfgglasses
     class 442_clone_p2_glasses;
     class 442_commando_glass23;
     class 442_commando_glass20;
+    class 442_arf_clone_glass2;
     class k_p2_clone_glass7_kripto: 442_p2_clone_glass7
 	{
 		displayname = "[44/K/C] P2 Clone Commander Visor (Kripto)";
@@ -1155,6 +1479,24 @@ class cfgglasses
 			"kobra\k_equipment_44\data\azarael\helmet_parts_2_co.paa"
 		};
 	};
+    class k_arf_clone_glass2_azarael: 442_arf_clone_glass2
+    {
+        displayname = "[44/K/C] Arf Helmet Plated (Azarael)";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\k_equipment_44\data\azarael\arc_plates_co.paa"
+        };
+    };
+    class k_p1_clone_glass5_neko: 442_p1_clone_glass5
+    {
+        displayname = "[44/K/C] P1 Clone Commander Visor (Neko)";
+        hiddenselectionstextures[] = 
+		{
+			"kobra\k_equipment_44\data\neko\p1_visor_attachments_co.paa",
+			"kobra\k_equipment_44\data\neko\p1_visor_co.paa",
+			"kobra\k_equipment_44\data\neko\p1_visor_attachments_co.paa"
+		};
+    };
 
     class k_p2_clone_glass7_kripto_nh: k_p2_clone_glass7_kripto
     {
@@ -1180,4 +1522,16 @@ class cfgglasses
 		ace_Overlay = "";
 		ace_overlaycracked = "";
 	};
+    class k_arf_clone_glass2_azarael_nh: k_arf_clone_glass2_azarael
+    {
+        scope = 2;
+		ace_Overlay = "";
+		ace_overlaycracked = "";
+    };
+    class k_p1_clone_glass5_neko_nh: k_p1_clone_glass5_neko
+    {
+        scope = 2;
+		ace_Overlay = "";
+		ace_overlaycracked = "";
+    };
 };

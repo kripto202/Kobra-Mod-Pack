@@ -109,7 +109,7 @@ class cfgweapons
             reloadTime=0.23999999;
             recoil = "recoil_single_mx";
 			recoilProne = "recoil_single_prone_mx";
-            dispersion=0.00086999999;
+            dispersion=0.000009;
 			minRange=2;
 			minRangeProbab=0.5;
 			midRange=200;
@@ -275,8 +275,8 @@ class cfgweapons
 			mass = 10;
 			optics = 1;
 			modelOptics = "\kobra\442_weapons\weapons\773\773_retical.p3d";
-			muzzleEnd = "konec hlavne";
-			muzzlePos = "usti hlavne";
+			//muzzleEnd = "konec hlavne";
+			//muzzlePos = "usti hlavne";
 			allowedSlots[] = {801,701,901};
 			class OpticsModes
 			{
@@ -287,7 +287,7 @@ class cfgweapons
 					distanceZoomMin = 300;
 					distanceZoomMax = 1000;
 					discreteDistance[] = {100,200,300,400,500,600,700,800,900,1000};
-					discreteDistanceInitIndex = 0;
+					discreteDistanceInitIndex = 1;
 					opticsPPEffects[]=
 					{
 						"OpticsCHAbera2",
@@ -311,13 +311,14 @@ class cfgweapons
 	};
 	class k_773_scope2: k_773_scope1
 	{
-		scope = 1;
+		author = "KOBRA";
+		scope = 2;
 		model = "kobra\442_weapons\weapons\773\k_773_scope2.p3d";
 		picture = "\kobra\kobra_core\kobra.paa";
 		MRT_SwitchItemNextClass = "k_773_scope1";
 		MRT_SwitchItemPrevClass = "k_773_scope1";
 		MRT_switchItemHintText = "Long Range";
-		class ItemInfo: InventoryOpticsItem_Base_F
+		class ItemInfo: ItemInfo
 		{
 			class opticsModes
 			{
@@ -326,7 +327,7 @@ class cfgweapons
 					opticsID=1;
 					useModelOptics = 1;
 					discreteDistance[] = {100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500};
-					discreteDistanceInitIndex = 0;
+					discreteDistanceInitIndex = 1;
 					opticsPPEffects[]=
 					{
 						"OpticsCHAbera2",
@@ -341,7 +342,7 @@ class cfgweapons
 						"NVG",
 						"TI"
 					};
-					discretefov[] = {0.011};
+					//discretefov[] = {0.011};
 					distanceZoomMin = 300;
 					distanceZoomMax = 1500;
 					opticsZoomMin = 0.011;

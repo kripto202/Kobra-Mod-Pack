@@ -183,19 +183,19 @@ class cfgweapons
                 {
                     HitpointName = "HitChest";
                     armor = 1;
-                    PassThrough = 1;
+                    PassThrough = 0.1;
                 };
                 class Diaphragm
                 {
                     HitpointName = "HitDiaphragm";
                     armor = 0;
-                    PassThrough = 1;
+                    PassThrough = 0.1;
                 };
                 class Abdomen
                 {
                     hitpointName = "HitAbdomen";
                     armor = 0;
-                    passThrough = 1;
+                    passThrough = 0.1;
                 };
             };
         };
@@ -451,8 +451,16 @@ class cfgweapons
         {
             "kobra\442_equipment\vests\data\clone\clone_belt_co.paa"
         };
+        hiddenselections[] = 
+		{
+			"pouch"
+		};
         class ItemInfo: ItemInfo
         {
+            hiddenselections[] = 
+            {
+                "pouch"
+            };
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_basic_vest1.p3d";
             containerclass = "Supply100";
 			mass = 1;
@@ -546,6 +554,18 @@ class cfgweapons
         scope = 2;
         scopecurator = 2;
         scopearsenal = 2;
+        hiddenselections[] = 
+		{
+			"pouch",
+			"arc_chest",
+			"arc_legs",
+			"arc_pouchR",
+			"kamaL",
+			"kamaR",
+			"pauldron_arcC",
+			"pauldron_arcL",
+			"pauldron_arcR"
+		};
         hiddenselectionstextures[] = 
         {
             "kobra\442_equipment\vests\data\clone\clone_belt_co.paa",
@@ -563,6 +583,39 @@ class cfgweapons
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_arc_vest1.p3d";
             containerclass = "Supply200";
 			mass = 50;
+            hiddenselections[] = 
+            {
+                "pouch",
+                "arc_chest",
+                "arc_legs",
+                "arc_pouchR",
+                "kamaL",
+                "kamaR",
+                "pauldron_arcC",
+                "pauldron_arcL",
+                "pauldron_arcR"
+            };
+            class HitpointsProtectionInfo: HitpointsProtectionInfo
+            {
+                class Chest: Chest
+                {
+                    armor = 15;
+                };
+                class Diaphragm: Diaphragm
+                {
+                    armor = 15;
+                };
+                class Abdomen: Abdomen
+                {
+                    armor = 15;
+                };
+                class Legs
+				{
+					hitpointName = "HitLegs";
+					armor = 15;
+					passThrough = 0.1;
+				};
+            };
         };
     };
     class k_clone_arc_vest2: k_clone_arc_vest1
@@ -664,11 +717,54 @@ class cfgweapons
             "kobra\442_equipment\vests\data\clone\leg_pouch_co.paa",
             "kobra\442_equipment\vests\data\clone\leg_pouch_co.paa",
         };
+        hiddenselections[] = 
+		{
+			"pouch",
+			"arc_chest",
+			"arc_legs",
+			"pauldron_arcC",
+			"pauldron_ncoL",
+			"pauldron_ncoR",
+			"leg_pouchL",
+			"leg_pouchR"
+		};
         class ItemInfo: ItemInfo
         {
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_heavy_vest1.p3d";
             containerclass = "Supply120";
 			mass = 40;
+            hiddenselections[] = 
+            {
+                "pouch",
+                "arc_chest",
+                "arc_legs",
+                "pauldron_arcC",
+                "pauldron_ncoL",
+                "pauldron_ncoR",
+                "leg_pouchL",
+                "leg_pouchR"
+            };
+            class HitpointsProtectionInfo: HitpointsProtectionInfo
+            {
+                class Chest: Chest
+                {
+                    armor = 15;
+                };
+                class Diaphragm: Diaphragm
+                {
+                    armor = 15;
+                };
+                class Abdomen: Abdomen
+                {
+                    armor = 15;
+                };
+                class Legs
+				{
+					hitpointName = "HitLegs";
+					armor = 15;
+					passThrough = 0.1;
+				};
+            };
         };
     };
     class k_clone_heavy_vest2: k_clone_heavy_vest1
@@ -766,8 +862,22 @@ class cfgweapons
             "kobra\442_equipment\vests\data\clone\leg_pouch_co.paa",
             "kobra\442_equipment\vests\data\clone\leg_pouch_co.paa",
         };
+        hiddenselections[] = 
+		{
+			"pouch",
+			"kamaL",
+			"leg_pouchL",
+			"leg_pouchR"
+		};
         class ItemInfo: ItemInfo
         {
+            hiddenselections[] = 
+            {
+                "pouch",
+                "kamaL",
+                "leg_pouchL",
+                "leg_pouchR"
+            };
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaL_vest1.p3d";
             containerclass = "Supply120";
 			mass = 30;
@@ -868,8 +978,22 @@ class cfgweapons
             "kobra\442_equipment\vests\data\clone\leg_pouch_co.paa",
             "kobra\442_equipment\vests\data\clone\leg_pouch_co.paa",
         };
+        hiddenselections[] = 
+		{
+			"pouch",
+			"kamaR",
+			"leg_pouchL",
+			"leg_pouchR"
+		};
         class ItemInfo: ItemInfo
         {
+            hiddenselections[] = 
+            {
+                "pouch",
+                "kamaR",
+                "leg_pouchL",
+                "leg_pouchR"
+            };
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_kamaR_vest1.p3d";
             containerclass = "Supply120";
 			mass = 30;
@@ -969,8 +1093,20 @@ class cfgweapons
             "kobra\442_equipment\vests\data\clone\kama_co.paa",
             "kobra\442_equipment\vests\data\clone\kama_co.paa",
         };
+        hiddenselections[] = 
+		{
+			"pouch",
+			"kamaL",
+			"kamaR"
+		};
         class ItemInfo: ItemInfo
         {
+            hiddenselections[] = 
+            {
+                "pouch",
+                "kamaL",
+                "kamaR"
+            };
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_nco_vest1.p3d";
             containerclass = "Supply100";
 			mass = 20;
@@ -1070,8 +1206,26 @@ class cfgweapons
             "kobra\442_equipment\vests\data\clone\kama_co.paa",
             "kobra\442_equipment\vests\data\clone\kama_co.paa",
         };
+        hiddenselections[] = 
+		{
+			"pouch",
+			"kamaL",
+			"kamaR",
+			"pauldron_arcC",
+			"pauldron_arcL",
+			"pauldron_ncoR",
+		};
         class ItemInfo: ItemInfo
         {
+            hiddenselections[] = 
+            {
+                "pouch",
+                "kamaL",
+                "kamaR",
+                "pauldron_arcC",
+                "pauldron_arcL",
+                "pauldron_ncoR",
+            };
             uniformmodel = "kobra\442_equipment\vests\model\clone\k_clone_officer_vest1.p3d";
             containerclass = "Supply100";
 			mass = 30;

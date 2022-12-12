@@ -584,7 +584,7 @@ class cfgweapons
 
 	class k_hunter_Helmet_44: k_hunter_Helmet
     {
-		displayname = "[44/K] Hunter's Helmet";
+		displayname = "[44/K] Hunter's Helmet 1";
 		hiddenselectionsmaterials[] = 
 		{
 			"kobra\442_equipment\helmets\data\hunter_helmet\helmet.rvmat",
@@ -592,8 +592,17 @@ class cfgweapons
 		};
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\helmets\data\unit_designs\44ab\hunter_helmet_co.paa",
-            "kobra\442_equipment\helmets\data\unit_designs\44ab\hunter_helmet_co.paa",
+            "kobra\442_equipment\helmets\data\unit_designs\44ab\design1\hunter_helmet_co.paa",
+            "kobra\442_equipment\helmets\data\unit_designs\44ab\design1\hunter_helmet_co.paa",
+        };
+    };
+	class k_hunter_Helmet1_44: k_hunter_Helmet_44
+    {
+		displayname = "[44/K] Hunter's Helmet 2";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\helmets\data\unit_designs\44ab\design2\hunter_helmet_co.paa",
+            "kobra\442_equipment\helmets\data\unit_designs\44ab\design2\hunter_helmet_co.paa",
         };
     };
 
@@ -622,7 +631,7 @@ class cfgweapons
 
 	class k_crosshair_Helmet_44: k_crosshair_Helmet
     {
-		displayname = "[44/K] Crosshair's Helmet";
+		displayname = "[44/K] Crosshair's Helmet 1";
 		hiddenselectionsmaterials[] = 
 		{
 			"kobra\442_equipment\helmets\data\crosshair_helmet\helmet.rvmat",
@@ -630,8 +639,17 @@ class cfgweapons
 		};
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\helmets\data\unit_designs\44ab\crosshair_helmet_co.paa",
-            "kobra\442_equipment\helmets\data\unit_designs\44ab\crosshair_helmet_co.paa",
+            "kobra\442_equipment\helmets\data\unit_designs\44ab\design1\crosshair_helmet_co.paa",
+            "kobra\442_equipment\helmets\data\unit_designs\44ab\design1\crosshair_helmet_co.paa",
+        };
+    };
+	class k_crosshair_Helmet1_44: k_crosshair_Helmet_44
+    {
+		displayname = "[44/K] Crosshair's Helmet 2";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\helmets\data\unit_designs\44ab\design2\crosshair_helmet_co.paa",
+            "kobra\442_equipment\helmets\data\unit_designs\44ab\design2\crosshair_helmet_co.paa",
         };
     };
 
@@ -660,7 +678,7 @@ class cfgweapons
 
 	class k_wrecker_Helmet_44: k_wrecker_Helmet
     {
-		displayname = "[44/K] Wrecker's Helmet";
+		displayname = "[44/K] Wrecker's Helmet 1";
 		hiddenselectionsmaterials[] = 
 		{
 			"kobra\442_equipment\helmets\data\wrecker_helmet\helmet.rvmat",
@@ -668,8 +686,17 @@ class cfgweapons
 		};
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\helmets\data\unit_designs\44ab\wrecker_helmet_co.paa",
-            "kobra\442_equipment\helmets\data\unit_designs\44ab\wrecker_helmet_co.paa",
+            "kobra\442_equipment\helmets\data\unit_designs\44ab\design1\wrecker_helmet_co.paa",
+            "kobra\442_equipment\helmets\data\unit_designs\44ab\design1\wrecker_helmet_co.paa",
+        };
+    };
+	class k_wrecker_Helmet1_44: k_wrecker_Helmet_44
+    {
+		displayname = "[44/K] Wrecker's Helmet 2";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\helmets\data\unit_designs\44ab\design2\wrecker_helmet_co.paa",
+            "kobra\442_equipment\helmets\data\unit_designs\44ab\design2\wrecker_helmet_co.paa",
         };
     };
 ////tech section
@@ -687,10 +714,18 @@ class cfgweapons
 
 	class k_tech_Helmet_44: k_tech_Helmet
     {
-		displayname = "[44/K] Tech's Helmet";
+		displayname = "[44/K] Tech's Helmet 1";
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\helmets\data\unit_designs\44ab\tech_helmet_co.paa"
+            "kobra\442_equipment\helmets\data\unit_designs\44ab\design1\tech_helmet_co.paa"
+        };
+    };
+	class k_tech_Helmet1_44: k_tech_Helmet_44
+    {
+		displayname = "[44/K] Tech's Helmet 2";
+        hiddenselectionstextures[] = 
+        {
+            "kobra\442_equipment\helmets\data\unit_designs\44ab\design2\tech_helmet_co.paa"
         };
     };
 ////cadet section
@@ -711,7 +746,7 @@ class cfgweapons
 		displayname = "[44/K] Cadet Helmet";
         hiddenselectionstextures[] = 
         {
-            "kobra\442_equipment\helmets\data\unit_designs\44ab\cadet_helmet_co.paa"
+            "kobra\442_equipment\helmets\data\unit_designs\44ab\design1\cadet_helmet_co.paa"
         };
     };
 ////p2 section
@@ -729,7 +764,7 @@ class cfgweapons
 	};
 	class k_p2_helmet_44: k_p2_helmet
 	{
-		displayname = "[44/K] P2 Helmet";
+		displayname = "[44/K] P2 Helmet 1";
 		hiddenselectionsmaterials[] = 
 		{
 			"kobra\442_equipment\helmets\data\p2_helmet\helmet.rvmat",
@@ -737,8 +772,17 @@ class cfgweapons
 		};
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\helmets\data\unit_designs\44ab\p2_helmet_co.paa", //helmet
-			"kobra\442_equipment\helmets\data\unit_designs\44ab\p2_helmet_co.paa", //visor
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design1\p2_helmet_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design1\p2_helmet_co.paa", //visor
+		};
+	};
+	class k_p2_helmet1_44: k_p2_helmet_44
+	{
+		displayname = "[44/K] P2 Helmet 2";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design2\p2_helmet_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design2\p2_helmet_co.paa", //visor
 		};
 	};
 	class k_p2_helmet_91st: k_p2_helmet
@@ -1018,7 +1062,7 @@ class cfgweapons
 	};
 	class k_p1_helmet_44: k_p1_helmet
 	{
-		displayname = "[44/K] P1 Helmet";
+		displayname = "[44/K] P1 Helmet 1";
 		hiddenselectionsmaterials[] = 
 		{
 			"kobra\442_equipment\helmets\data\p1_helmet\helmet.rvmat",
@@ -1026,8 +1070,17 @@ class cfgweapons
 		};
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\helmets\data\unit_designs\44ab\p1_helmet_co.paa", //helmet
-			"kobra\442_equipment\helmets\data\unit_designs\44ab\p1_helmet_co.paa", //visor
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design1\p1_helmet_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design1\p1_helmet_co.paa", //visor
+		};
+	};
+	class k_p1_helmet1_44: k_p1_helmet_44
+	{
+		displayname = "[44/K] P1 Helmet 2";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design2\p1_helmet_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design2\p1_helmet_co.paa", //visor
 		};
 	};
 	class k_p1_helmet_41stGC: k_p1_helmet
@@ -1218,7 +1271,7 @@ class cfgweapons
 	};
 	class k_p1_pilot_helmet_44: k_p1_pilot_helmet
 	{
-		displayname = "[44/K] P1 Pilot Helmet";
+		displayname = "[44/K] P1 Pilot Helmet 1";
 		hiddenselectionsmaterials[] = 
 		{
 			"kobra\442_equipment\helmets\data\p1_pilot_helmet\helmet.rvmat",
@@ -1226,8 +1279,17 @@ class cfgweapons
 		};
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\helmets\data\unit_designs\44ab\p1_pilot_helmet_co.paa",
-			"kobra\442_equipment\helmets\data\unit_designs\44ab\p1_pilot_helmet_co.paa",
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design1\p1_pilot_helmet_co.paa",
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design1\p1_pilot_helmet_co.paa",
+		};
+	};
+	class k_p1_pilot_helmet1_44: k_p1_pilot_helmet_44
+	{
+		displayname = "[44/K] P1 Pilot Helmet 2";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design2\p1_pilot_helmet_co.paa",
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design2\p1_pilot_helmet_co.paa",
 		};
 	};
 	class k_p1_pilot_helmet_41stGC: k_p1_pilot_helmet
@@ -1396,17 +1458,28 @@ class cfgweapons
 	};
 	class k_arf_helmet_44: k_arf_helmet
 	{
-		displayname = "[44/K] Arf Helmet";
+		displayname = "[44/K] Arf Helmet 1";
 		hiddenselectionsmaterials[] = 
 		{
 			"kobra\442_equipment\helmets\data\arf_helmet\helmet.rvmat",
-			"kobra\442_equipment\helmets\data\unit_designs\44ab\arf_visor.rvmat"
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\arf_visor.rvmat",
+			"kobra\442_equipment\helmets\data\arf_helmet\arf_brim.rvmat"
 		};
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\helmets\data\unit_designs\44ab\arf_helmet_co.paa", //helmet
-			"kobra\442_equipment\helmets\data\unit_designs\44ab\arf_helmet_co.paa", //visor
-			"kobra\442_equipment\helmets\data\unit_designs\44ab\arf_brim_co.paa", //brim
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design1\arf_helmet_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design1\arf_helmet_co.paa", //visor
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design1\arf_brim_co.paa", //brim
+		};
+	};
+	class k_arf_helmet1_44: k_arf_helmet_44
+	{
+		displayname = "[44/K] Arf Helmet 2";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design2\arf_helmet_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design1\arf_helmet_co.paa", //visor
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design1\arf_brim_co.paa", //brim
 		};
 	};
 	class k_arf_helmet_41stGC: k_arf_helmet
@@ -1575,7 +1648,7 @@ class cfgweapons
 	};
 	class k_p1_airborne_helmet_44: k_p1_airborne_helmet
 	{
-		displayname = "[44/K] P1 Airborne Helmet";
+		displayname = "[44/K] P1 Airborne Helmet 1";
 		hiddenselectionsmaterials[] = 
 		{
 			"kobra\442_equipment\helmets\data\p1_airborne_helmet\helmet.rvmat",
@@ -1583,8 +1656,17 @@ class cfgweapons
 		};
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\helmets\data\unit_designs\44ab\p1_airborne_helmet_co.paa",
-			"kobra\442_equipment\helmets\data\unit_designs\44ab\p1_airborne_helmet_co.paa",
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design1\p1_airborne_helmet_co.paa",
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design1\p1_airborne_helmet_co.paa",
+		};
+	};
+	class k_p1_airborne_helmet1_44: k_p1_airborne_helmet_44
+	{
+		displayname = "[44/K] P1 Airborne Helmet 2";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design2\p1_airborne_helmet_co.paa",
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design2\p1_airborne_helmet_co.paa",
 		};
 	};
 ////barc section
@@ -1602,7 +1684,7 @@ class cfgweapons
 	};
 	class k_barc_helmet_44: k_barc_helmet
 	{
-		displayname = "[44/K] Barc Helmet";
+		displayname = "[44/K] Barc Helmet 1";
 		hiddenselectionsmaterials[] = 
 		{
 			"kobra\442_equipment\helmets\data\barc_helmet\helmet.rvmat",
@@ -1610,8 +1692,17 @@ class cfgweapons
 		};
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\helmets\data\unit_designs\44ab\barc_helmet_co.paa", //helmet
-			"kobra\442_equipment\helmets\data\unit_designs\44ab\barc_helmet_co.paa", //visor
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design1\barc_helmet_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design1\barc_helmet_co.paa", //visor
+		};
+	};
+	class k_barc_helmet1_44: k_barc_helmet_44
+	{
+		displayname = "[44/K] Barc Helmet 2";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design2\barc_helmet_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design2\barc_helmet_co.paa", //visor
 		};
 	};
 	class k_barc_helmet_91st: k_barc_helmet
@@ -1818,7 +1909,7 @@ class cfgweapons
 	};
 	class k_p15_helmet_44: k_p15_helmet
 	{
-		displayname = "[44/K] P1.5 Helmet";
+		displayname = "[44/K] P1.5 Helmet 1";
 		hiddenselectionsmaterials[] = 
 		{
 			"kobra\442_equipment\helmets\data\p15_helmet\helmet.rvmat",
@@ -1826,8 +1917,17 @@ class cfgweapons
 		};
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\helmets\data\unit_designs\44ab\p15_helmet_co.paa", //helmet
-			"kobra\442_equipment\helmets\data\unit_designs\44ab\p15_helmet_co.paa", //visor
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design1\p15_helmet_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design1\p15_helmet_co.paa", //visor
+		};
+	};
+	class k_p15_helmet1_44: k_p15_helmet_44
+	{
+		displayname = "[44/K] P1.5 Helmet 2";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design2\p15_helmet_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design2\p15_helmet_co.paa", //visor
 		};
 	};
 	class k_p15_helmet_41stGC: k_p15_helmet
@@ -2024,7 +2124,7 @@ class cfgweapons
 	};
 	class k_p2_ab_helmet_44: k_p2_ab_helmet
 	{
-		displayname = "[44/K] P2 Airborne Helmet";
+		displayname = "[44/K] P2 Airborne Helmet 1";
 		hiddenselectionsmaterials[] = 
 		{
 			"kobra\442_equipment\helmets\data\p2_ab_helmet\helmet.rvmat",
@@ -2032,8 +2132,17 @@ class cfgweapons
 		};
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\helmets\data\unit_designs\44ab\p2_airborne_helmet_co.paa", //helmet
-			"kobra\442_equipment\helmets\data\unit_designs\44ab\p2_airborne_helmet_co.paa", //visor
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design1\p2_airborne_helmet_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design1\p2_airborne_helmet_co.paa", //visor
+		};
+	};
+	class k_p2_ab_helmet1_44: k_p2_ab_helmet_44
+	{
+		displayname = "[44/K] P2 Airborne Helmet 2";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design2\p2_airborne_helmet_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design2\p2_airborne_helmet_co.paa", //visor
 		};
 	};
 	class k_p2_ab_helmet_41stGC: k_p2_ab_helmet
@@ -2205,7 +2314,7 @@ class cfgweapons
 	};
 	class k_p2_pilot_helmet_44: k_p2_pilot_helmet
 	{
-		displayname = "[44/K] P2 Pilot Helmet";
+		displayname = "[44/K] P2 Pilot Helmet 1";
 		hiddenselectionsmaterials[] = 
 		{
 			"kobra\442_equipment\helmets\data\p2_pilot_helmet\helmet.rvmat",
@@ -2213,8 +2322,17 @@ class cfgweapons
 		};
 		hiddenselectionstextures[] = 
 		{
-			"kobra\442_equipment\helmets\data\unit_designs\44ab\p2_pilot_helmet_co.paa", //helmet
-			"kobra\442_equipment\helmets\data\unit_designs\44ab\p2_pilot_helmet_co.paa", //visor
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design1\p2_pilot_helmet_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design1\p2_pilot_helmet_co.paa", //visor
+		};
+	};
+	class k_p2_pilot_helmet1_44: k_p2_pilot_helmet_44
+	{
+		displayname = "[44/K] P2 Pilot Helmet 2";
+		hiddenselectionstextures[] = 
+		{
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design2\p2_pilot_helmet_co.paa", //helmet
+			"kobra\442_equipment\helmets\data\unit_designs\44ab\design2\p2_pilot_helmet_co.paa", //visor
 		};
 	};
 	class k_p2_pilot_helmet_5th: k_p2_pilot_helmet
